@@ -1,0 +1,402 @@
+nav {
+    width: 100%;
+    background-color: initial;
+    position: fixed;
+    top: 0;
+}
+
+.tannaz-image img {
+    display: block;
+    max-width: 160px;
+    margin-left: 32px;
+    max-height: 32px;
+    visibility: visible;
+}
+
+.nav-content {
+}
+
+.vouchers .work-header img {
+    display: block;
+    max-width: 100%;
+}
+
+.chat .work-header img {
+    display: block;
+    max-width: 100%;
+}
+
+.teamapp .work-header img {
+    display: block;
+    max-width: 100%;
+}
+
+.change-dest .work-header {
+    margin: 0 auto;
+    position:relative;
+}
+
+.change-dest .work-header .center {
+    position: absolute;
+    left: 50%;
+}
+.change-dest .work-header h1 {
+    position: relative;
+    left: -50%;
+}
+
+.mobile-header {
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-top: 100px;
+    max-width: 100%;
+    background-color: #e6f3e2;
+}
+
+.mobile-header-hidden {
+    padding-top: 100px;
+    max-width: 100%;
+    visibility: hidden;
+    display: block;
+}
+
+.mobile-header:before {
+    clear: left;
+}
+
+.vouchers .work-header {
+    background-image: none;
+}
+.chat .work-header {
+    background-image: none;
+}
+.teamapp .work-header {
+    background-image: none;
+}
+
+.work-container {
+    width: 100%;
+    background-color: #e6f3e2;
+}
+
+.vouchers .work-container {
+    background-color: #d5eedc;
+}
+
+.chat .work-container {
+    background-color: #ddebeb;
+}
+
+.teamapp .work-container {
+    background-color: #d3dbee;
+}
+
+.chat ol li{
+    padding-left: 17px;
+    margin-left: 17px;
+}
+.work-header h1 {
+    padding-top: 76px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 287px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.work-article {
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 750px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.work-article h2 {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.work-article .work-text {
+    max-width: 750px;
+    margin-top: 24px;
+    min-height: 100px;
+}
+
+.vouchers .work-article .work-text {
+    min-height: initial;
+    padding-bottom: 12px;
+}
+.chat .work-article .work-text {
+    min-height: initial;
+    padding-bottom: 4px;
+}
+
+.teamapp .work-article .work-text {
+    min-height: initial;
+    padding-bottom: 4px;
+}
+
+.chat .work-team {
+    max-width: 530px;
+}
+
+.subtitle {
+    margin-top: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #a8afb8;
+}
+.work-article .work-text-normal {
+    max-width: 750px;
+    margin-top: 24px;
+}
+
+.work-article .work-title {
+    margin-top: 8px;
+}
+
+.work-article-back .work-team {
+    margin: 0 auto;
+    max-width: 750px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.work-article-back h3 {
+    margin-top: 24px;
+}
+
+.work-article-back .work-title {
+    max-width: 490px;
+    margin-top: 8px;
+}
+
+.work-article h3 {
+    margin-top: 24px;
+}
+
+.work-article-back {
+    width: 100%;
+    height: 291px;
+    background: url('../assets/change-dest/map.png') no-repeat center;
+}
+
+.work-article ul {
+    margin-left: 14px;
+}
+
+.back-gray {
+    width: 100%;
+    background-color: rgba(244,244,244,0.4);
+    padding-bottom: 48px;
+}
+
+.back-blue {
+    width: 100%;
+    background-color: rgba(237,242,249,0.4);
+    padding-bottom: 40px;
+}
+.back-black {
+    background-color: #161d2c;
+    color: white;
+}
+.work-image{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+main img {
+    max-width: 100%;
+}
+
+.work-image-normal{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-top-24 {
+    margin-top: 24px;
+}
+
+.margin-top-29 {
+    margin-top: 29px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-63 {
+    margin-top: 63px;
+}
+
+.margin-top-72 {
+    margin-top: 72px;
+}
+
+
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.padding-bottom-32 {
+    padding-bottom: 32px;
+}
+
+.padding-bottom-40 {
+    padding-bottom: 40px;
+}
+
+.padding-bottom-49 {
+    padding-bottom: 49px;
+}
+
+.padding-bottom-51 {
+    padding-bottom: 51px;
+}
+
+.padding-bottom-54 {
+    padding-bottom: 54px;
+}
+
+
+.padding-bottom-55 {
+    padding-bottom: 55px;
+}
+
+.padding-bottom-64 {
+    padding-bottom: 64px;
+}
+
+.pagination {
+    border-top: solid 2px #edf2f9;
+    width: 100%;
+}
+
+.pagination-content {
+    height: 91px;
+    max-width: 945px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.pagination-content .padding {
+    flex: 1;
+}
+.pagination-content a {
+    text-decoration: none;
+    color: #0e5cf7;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.pagination-content a:last-of-type {
+    text-decoration: none;
+    color: #0e5cf7;
+    font-weight: 500;
+    text-align: right;
+}
+
+footer {
+    margin-top: 0;
+}
+
+.next-page .arrow {
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.prev-page .arrow {
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination-content .arrow div {
+    width: 2px;
+    height: 9px;
+    background-color: #0e5cf7;
+}
+
+.pagination-content .arrow div{
+    transition: all ease 0.2s;
+}
+
+.next-page:hover .arrow div:first-child{
+    transform: rotate(-45deg) translateY(3px);
+}
+.next-page:hover .arrow div:last-child{
+    transform: rotate(45deg) translateY(-3px);
+}
+
+.prev-page:hover .arrow div:first-child{
+    transform: rotate(45deg) translateY(3px);
+}
+.prev-page:hover .arrow div:last-child{
+    transform: rotate(-45deg) translateY(-3px);
+}
+
+@media only screen and (min-width: 945px) {
+    .tannaz-image img {
+        margin-left: 0;
+    }
+
+    .work-article {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .work-article-back .work-team{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    main img {
+        max-width: 100%;
+    }
+
+    .pagination-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .change-dest .work-header {
+        max-width: 905px;
+        background: url('../assets/change-dest/pic.png') no-repeat;
+        height: 682px;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+    .vouchers .work-header img {
+        display: block;
+        max-width: 990px;
+        margin: 38px auto 0 auto;
+    }
+    .chat .work-header img {
+        display: block;
+        max-width: 1070px;
+        margin: 40px auto 0 auto;
+    }
+
+    .teamapp .work-header img {
+        display: block;
+        max-width: 1070px;
+        margin: 40px auto 0 auto;
+    }
+}
+

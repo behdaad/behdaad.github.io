@@ -94,11 +94,9 @@
     <!-- </div> -->
     <div class="back-white padding-bottom-40">
         <article class="work-article">
-            <h2>Solution</h2>
-            <p class="work-text-normal">To answer the users’ needs, we came up with the Change Destination feature in
-                Passenger
-                application. We started by benchmarking international ride hailing applications and drawing the flow and
-                specified the touch points.
+            <!-- <h2>Solution</h2> -->
+            <p class="work-text-normal">
+                When I joined Snapp! in 2017 as an iOS Developer, the app was written in Objective-C using MVC architecture. Since Snapp! is based on a real-time event system, MVC was not a suitable architecture and we were facing a lot of delays when implementing new features and also had a lot of problems finding root causes of bugs. 
             </p>
         </article>
 
@@ -115,6 +113,8 @@
             <p class="work-text-normal">
                 So we decided to rewrite the application using Swift and a new architecture.
                 You can read about the reasons behind this decision <a href="https://behdad.medium.com/we-decided-to-re-write-snapp-heres-why-8fcd89d7f49a" target="_blank">here</a>.
+            </p>
+            <p>
                 In order to select a new architecture, I studied all the common iOS app architectures out there: <a href="https://www.objc.io/issues/13-architecture/viper" target="_blank">VIPER</a>, <a href="https://github.com/uber/RIBs" target="_blank">Uber RIBs</a>, <a href="https://www.objc.io/issues/13-architecture/mvvm" target="_blank">MVVM</a>, and <a href="https://clean-swift.com/clean-swift-ios-architecture" target="_blank">Clean Swift</a>. 
                 None of them actually worked for us for various reasons. We could’ve used RIBs as Snapp! and Uber apps are basically the same, but back then Uber hadn’t released much about RIBs other than a few videos and a blog post. They open-sourced RIBs a few months after we released our new app. So, the only choice left was to create a new architecture based on the learnings from those architectures. We called it SNPArchitecture and you can read about it <a href="https://github.com/behdaad/SNPArchitecture" target="_parent">here</a>.
             </p>

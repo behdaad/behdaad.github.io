@@ -13,9 +13,6 @@ nav {
     visibility: visible;
 }
 
-.nav-content {
-}
-
 .vouchers .work-header img {
     display: block;
     max-width: 100%;
@@ -177,11 +174,11 @@ nav {
     margin-top: 24px;
 }
 
-.work-article-back {
+/* .work-article-back {
     width: 100%;
     height: 291px;
     background: url('../assets/change-dest/map.png') no-repeat center;
-}
+} */
 
 .work-article ul {
     margin-left: 14px;

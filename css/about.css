@@ -89,3 +89,14 @@
 .skills {
     padding-left: 40px;
 }
+
+#portrait {
+    border-radius: 24px;
+    /* border-width: 5px;
+    border-color: #a6a5a8;
+    border-style: solid; */
+}
+
+article {
+    padding-bottom: 18px;
+}

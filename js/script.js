@@ -10,12 +10,10 @@ const tannaz = document.getElementById('tannaz');
 const tannazNav = document.getElementById('tannaz-nav');
 
 function showBorder() {
-  console.log("showing border");
   nav.style.borderBottom = 'solid 2px #edf2f9';
 
   if (nav.classList.contains('background-green')) {
-    console.log("contains background-green");
-    nav.style.transition='background-color 0.2s ease';
+    nav.style.transition = 'background-color 0.2s ease';
     nav.style.backgroundColor = 'white';
   }
 
@@ -23,7 +21,6 @@ function showBorder() {
 }
 
 function hideBorder() {
-  console.log("hiding border");
   nav.style.borderBottom = '';
   if (nav.classList.contains('background-green')) {
     nav.style.backgroundColor = '';
@@ -37,7 +34,7 @@ function smallTannaz() {
   }
   tannazNav.style.visibility = 'visible';
   tannazNav.style.animation = '0.4s fadeIn';
-  tannaz.style.visibility ='hidden';
+  tannaz.style.visibility = 'hidden';
   tannaz.style.animation = '';
   isTannazSmall = true;
 }
@@ -48,13 +45,12 @@ function bigTannaz() {
   }
   tannazNav.style.visibility = 'hidden';
   tannazNav.style.animation = '';
-  tannaz.style.visibility ='visible';
+  tannaz.style.visibility = 'visible';
   tannaz.style.animation = '0.4s fadeIn';
   isTannazSmall = false;
 }
 
 function handleScroll(scroll_pos) {
-  console.log("scroll_pos", scroll_pos);
   if (scroll_pos > BORDER_POS && !showingBorder) {
     showBorder();
   }
@@ -80,4 +76,3 @@ document.addEventListener('scroll', function (e) {
     ticking = true;
   }
 });
-

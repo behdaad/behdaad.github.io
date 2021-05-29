@@ -10,6 +10,7 @@ header {
 header h1 {
     font-weight: 800;
 }
+
 header p {
     font-size: 18px;
 }
@@ -34,20 +35,20 @@ header > div {
     background-color: rgba(237,242,249, 0.4);
     border-radius: 16px;
 }
+
 .work-sample img {
     max-width: 100%;
 }
-
 
 .work-sample .image-box {
     position: relative;
 }
 
-.work-sample .hidden img{
+.work-sample .hidden img {
     visibility: hidden;
     margin-right: 30px;
     vertical-align: middle;
-
+    /* max-width: 531px; */
 }
 
 .work-sample .link {
@@ -64,19 +65,25 @@ header > div {
     animation-iteration-count: infinite;
 }
 
-.work-sample img.image-colored {
+/* .work-sample img.image-colored {
     visibility: hidden;
-    animation: .3s fadeOut;
-}
-.work-sample:hover img.image-colored  {
+    animation: 1s fadeOut;
+} */
+
+.work-sample img.image-gray {
     visibility: visible;
     animation: .3s fadeIn;
 }
-.work-sample:hover img.image-gray  {
+
+/* .work-sample:hover img.image-colored {
+    visibility: visible;
+    animation: 1s fadeIn;
+} */
+
+.work-sample:hover img.image-gray {
+    visibility: hidden;
     animation: .3s fadeOut;
 }
-
-
 
 .work-sample h2 {
     font-size: 20px;
@@ -106,6 +113,7 @@ header > div {
 .work-sample .arrow {
     margin-left: 8px;
 }
+
 .work-sample .arrow div {
     width: 2px;
     height: 6px;
@@ -119,6 +127,7 @@ header > div {
 .work-sample:hover .arrow div:first-child{
     transform: rotate(-45deg) translateY(2px);
 }
+
 .work-sample:hover .arrow div:last-child{
     transform: rotate(45deg) translateY(-2px);
 }
@@ -147,14 +156,17 @@ header > div {
     .sample-title {
         margin-top: 0;
     }
+
     header {
         justify-content: flex-start;
         margin: 0;
     }
+
     .work-sample {
         justify-content: flex-start;
         margin: 32px 0 0 0;
     }
+
     .work-sample h2 {
         margin-top: 0
     }
@@ -162,6 +174,12 @@ header > div {
     .tannaz-image {
         margin-right: 36px;
     }
+
+    .work-sample .hidden img {
+        max-width: 531px;
+    }
+    
+    .work-sample .image-box > img {
+        max-width: 531px;
+    }
 }
-
-

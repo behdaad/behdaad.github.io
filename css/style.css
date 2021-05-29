@@ -21,7 +21,6 @@ body {
     color: #0e5cf7;
 }
 
-
 .main, .nav-content {
     max-width: 945px;
     margin: 0 auto;
@@ -191,4 +190,11 @@ footer {
     }
 }
 
+ul.resume {
+    padding-left: 18px;
+}
 
+a:visited { text-decoration: none; color: #0e5cf7 }
+/* a:hover { text-decoration: none; color: #0e5cf7 } */
+/* a:focus { text-decoration: none; color: #0e5cf7 } */
+/* a:hover, a:active { text-decoration: none; color:black } */

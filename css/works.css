@@ -13,34 +13,35 @@ nav {
     visibility: visible;
 }
 
-.vouchers .work-header img {
+.driver .work-header img {
     display: block;
     max-width: 100%;
 }
 
-.chat .work-header img {
+.appstore .work-header img {
     display: block;
     max-width: 100%;
 }
 
-.teamapp .work-header img {
+.video .work-header img {
     display: block;
     max-width: 100%;
 }
 
-.change-dest .work-header {
+.passenger .work-header {
     margin: 0 auto;
-    position:relative;
+    position: relative;
 }
 
-.change-dest .work-header .center {
+/* .passenger .work-header .center {
     position: absolute;
     left: 50%;
 }
-.change-dest .work-header h1 {
+
+.passenger .work-header h1 {
     position: relative;
     left: -50%;
-}
+} */
 
 .mobile-header {
     position: absolute;
@@ -62,13 +63,15 @@ nav {
     clear: left;
 }
 
-.vouchers .work-header {
+.driver .work-header {
     background-image: none;
 }
-.chat .work-header {
+
+.appstore .work-header {
     background-image: none;
 }
-.teamapp .work-header {
+
+.video .work-header {
     background-image: none;
 }
 
@@ -77,27 +80,32 @@ nav {
     background-color: #e6f3e2;
 }
 
-.vouchers .work-container {
-    background-color: #d5eedc;
+.driver .work-container {
+    background-color: #F0F1F5;
 }
 
-.chat .work-container {
-    background-color: #ddebeb;
+.appstore .work-container {
+    background-color: #F2F9FF;
 }
 
-.teamapp .work-container {
-    background-color: #d3dbee;
+/* .video .work-container {
+    background-color: #E9EAEF;
+} */
+
+.passenger .work-container {
+    background-color: #F3F9F8;
 }
 
-.chat ol li{
+.appstore ol li {
     padding-left: 17px;
     margin-left: 17px;
 }
+
 .work-header h1 {
     padding-top: 76px;
     margin: 0 auto;
     text-align: center;
-    max-width: 287px;
+    max-width: 300px;
     font-size: 20px;
     font-weight: 800;
 }
@@ -109,6 +117,11 @@ nav {
     padding-left: 32px;
     padding-right: 32px;
 }
+
+.last-work-article {
+    padding-top: 0px !important;
+}
+
 .work-article h2 {
     font-size: 18px;
     font-weight: 800;
@@ -121,21 +134,21 @@ nav {
     min-height: 100px;
 }
 
-.vouchers .work-article .work-text {
+.driver .work-article .work-text {
     min-height: initial;
     padding-bottom: 12px;
 }
-.chat .work-article .work-text {
+.appstore .work-article .work-text {
     min-height: initial;
     padding-bottom: 4px;
 }
 
-.teamapp .work-article .work-text {
+.video .work-article .work-text {
     min-height: initial;
     padding-bottom: 4px;
 }
 
-.chat .work-team {
+.appstore .work-team {
     max-width: 530px;
 }
 
@@ -145,6 +158,7 @@ nav {
     text-align: center;
     color: #a8afb8;
 }
+
 .work-article .work-text-normal {
     max-width: 750px;
     margin-top: 24px;
@@ -174,11 +188,12 @@ nav {
     margin-top: 24px;
 }
 
-/* .work-article-back {
+.work-article-back {
     width: 100%;
     height: 291px;
-    background: url('../assets/change-dest/map.png') no-repeat center;
-} */
+    /* background: url('../assets/change-dest/map.png') no-repeat left; */
+    background-size: cover;
+}
 
 .work-article ul {
     margin-left: 14px;
@@ -195,25 +210,28 @@ nav {
     background-color: rgba(237,242,249,0.4);
     padding-bottom: 40px;
 }
+
 .back-black {
     background-color: #161d2c;
     color: white;
 }
-.work-image{
+
+.work-image {
     margin-top: 48px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
-main img {
-    max-width: 100%;
-}
 
-.work-image-normal{
+.work-image-normal {
     margin-top: 24px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+main img {
+    max-width: 100%;
 }
 
 .margin-top-0 {
@@ -240,6 +258,9 @@ main img {
     margin-top: 72px;
 }
 
+.padding-bottom-negative-40 {
+    padding-bottom: -40px;
+}
 
 .padding-bottom-0 {
     padding-bottom: 0;
@@ -264,7 +285,6 @@ main img {
 .padding-bottom-54 {
     padding-bottom: 54px;
 }
-
 
 .padding-bottom-55 {
     padding-bottom: 55px;
@@ -292,6 +312,7 @@ main img {
 .pagination-content .padding {
     flex: 1;
 }
+
 .pagination-content a {
     text-decoration: none;
     color: #0e5cf7;
@@ -299,6 +320,7 @@ main img {
     display: flex;
     align-items: center;
 }
+
 .pagination-content a:last-of-type {
     text-decoration: none;
     color: #0e5cf7;
@@ -335,6 +357,7 @@ footer {
 .next-page:hover .arrow div:first-child{
     transform: rotate(-45deg) translateY(3px);
 }
+
 .next-page:hover .arrow div:last-child{
     transform: rotate(45deg) translateY(-3px);
 }
@@ -342,8 +365,30 @@ footer {
 .prev-page:hover .arrow div:first-child{
     transform: rotate(45deg) translateY(3px);
 }
+
 .prev-page:hover .arrow div:last-child{
     transform: rotate(-45deg) translateY(-3px);
+}
+
+.video .work-image {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 944px) {
+    main img {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .video .work-image-normal img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #what {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 }
 
 @media only screen and (min-width: 945px) {
@@ -356,7 +401,7 @@ footer {
         padding-right: 0;
     }
 
-    .work-article-back .work-team{
+    .work-article-back .work-team {
         padding-left: 0;
         padding-right: 0;
     }
@@ -370,33 +415,81 @@ footer {
         padding-right: 0;
     }
 
-    .change-dest .work-header {
+    .passenger .work-header {
         max-width: 905px;
-        background: url('../assets/change-dest/pic.png') no-repeat;
         height: 682px;
+        background-size: contain;
     }
 
     .mobile-header {
         display: none;
     }
-    .vouchers .work-header img {
+
+    .driver .work-header img {
         display: block;
         max-width: 990px;
         margin: 38px auto 0 auto;
     }
-    .chat .work-header img {
+
+    .appstore .work-header img {
         display: block;
         max-width: 1070px;
         margin: 40px auto 0 auto;
     }
 
-    .teamapp .work-header img {
+    .video .work-header img {
         display: block;
         max-width: 1070px;
         margin: 40px auto 0 auto;
+    }
+
+    .passenger .work-header img {
+        display: block;
+        max-width: 800px;
+        margin: 40px auto 0 auto;
+    }
+
+    /* .driver .work-image-normal img {
+        height: 600px;
+    } */
+    
+    .driver .work-image img {
+        max-width: 750px;
+    }
+
+    .appstore .work-image img {
+        max-width: 600px;
+    }
+
+    .appstore .work-image-normal img {
+        height: 600px;
+    }
+
+    .passenger .work-image img {
+        max-width: 750px;
+    }
+
+    /* .passenger .work-image-normal img {
+        max-width: 100%;
+        padding-left: 48px;
+        padding-right: 48px;
+    } */
+
+    .video .work-image img {
+        height: 600px;
+    }
+
+    .video .work-image-normal img {
+        max-width: 88%;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    #problem {
+        height: auto;
     }
 }
 
-.appstore {
+/* .appstore {
     font-style: italic;
-}
+} */

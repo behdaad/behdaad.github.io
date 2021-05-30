@@ -157,6 +157,7 @@ nav {
     margin-bottom: 40px;
     text-align: center;
     color: #a8afb8;
+    font-style: italic;
 }
 
 .work-article .work-text-normal {
@@ -493,3 +494,5 @@ footer {
 /* .appstore {
     font-style: italic;
 } */
+
+a:visited { text-decoration: none; color: #0e5cf7 }

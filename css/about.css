@@ -33,6 +33,7 @@
 
 #portrait {
     max-width: 320px;
+    border-radius: 30px;
 }
 
 .content {
@@ -95,3 +96,5 @@
         flex-basis: 555px;
     }
 }
+
+a:visited { text-decoration: none; color: #0e5cf7 }

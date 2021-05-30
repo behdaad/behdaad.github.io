@@ -39,25 +39,24 @@
 </nav>
 
 <main>
-    <article class="work-article">
-        <h2>Introduction</h2>
-        <p class="work-text">
-            Founded in 2014 as a solution for urban journeys, it was soon rightfully dubbed as Iran’s Uber, reaching more than 1 million daily rides in 2017. 
-            Four years later, the Snapp! application turned into a super app, and now it offers numerous services ranging from requesting cabs & trucks, ordering food, reserving hotels and flights, buying inter-city bus and plane tickets, and all other services of Snapp! Group. 
-            The Passenger service with more that 2 million daily rides is by far the most popular service. 
-            Read more in <a href="https://snapp.ir/99-annual-report" target="_blank">Snapp!'s 2020 annual report</a> (in Farsi).
-        </p>
-    </article>
-        <!-- super app screen shots -->
-        <div class="work-image padding-bottom-32">
-            <img src="../assets/snapp/superapp.png" alt="Snapp! Super App"/>
-        </div>
-        <div class="subtitle">
-            Snapp! Super Application includes services from multiple companies in Snapp! Group.
-        </div>
-
+    <!-- 1. Introduction -->
+    <div class="back-white">
         <article class="work-article">
-            <h2>Passenger Experience</h2>
+            <h2>Introduction</h2>
+            <p class="work-text">
+                Founded in 2014 as a solution for urban journeys, it was soon rightfully dubbed as Iran’s Uber, reaching more than 1 million daily rides in 2017. 
+                Four years later, the Snapp! application turned into a super app, and now it offers numerous services ranging from requesting cabs & trucks, ordering food, reserving hotels and flights, buying inter-city bus and plane tickets, and all other services of Snapp! Group. 
+                The Passenger service with more that 2 million daily rides is by far the most popular service. 
+                Read more in <a href="https://snapp.ir/99-annual-report" target="_blank">Snapp!’s 2020 annual report</a> (in Farsi).
+            </p>
+        </article>
+    </div>
+    
+
+    <!-- 2. Passenger experience -->
+    <div class="back-gray">
+        <article class="work-article">
+            <h2>Ride Experience</h2>
             <p class="work-text">
                 Even though Snapp! offers many services, the Passenger experience remains the focal point of the application, 
                 as it is still the only part developed natively in <strong>Swift</strong> and <strong>UIKit</strong>. Some of its most important features include:
@@ -65,8 +64,9 @@
                     <li>Selecting pickup and drop-off coordinates</li>
                     <li>Selecting ride options such as waiting time or round-trip and see the corresponding price</li>
                     <li>Seeing the <a href="../driver">driver’s</a> location on the map in real time</li>
-                    <li>Chatting with the driver</li>
                     <li>Paying ride fare</li>
+                    <li>Chatting with the driver</li> <!-- link -->
+                    <li>Optionally change drop-off coordinates</li> <!-- link -->
                 </ul>
             </p>
         </article>
@@ -76,13 +76,83 @@
             <img src="../assets/snapp/passenger-new.png" alt="Redesigned Snapp! Passenger App"/>
         </div>
         <div class="subtitle">
-            Snapp! Passenger experience.
+            Snapp! Passenger ride experience.
         </div>
+    </div>
 
-    <!-- </div> -->
+    <div class="back-white">
+        <article class="work-article">
+            <h2>Chat</h2>
+            <p class="work-text">
+                CHAT <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore modi ea illo, necessitatibus dicta quam tenetur culpa iure ut ab laborum corporis, ipsa error saepe. Ipsum reprehenderit dolores laboriosam hic.
+            </p>
+        </article>
+
+        <!-- chat screen shots -->
+        <div class="work-image">
+            <img src="../assets/snapp/chat.png" alt="Snapp! Passenger chat"/>
+        </div>
+        <div class="subtitle">
+            Passengers can chat with the Drivers.
+        </div>
+    </div>
+
+    <div class="back-white">
+        <article class="work-article">
+            <h2>Change Drop-Off Coordinates</h2>
+            <p class="work-text">
+                CHANGE DESTINATION <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore modi ea illo, necessitatibus dicta quam tenetur culpa iure ut ab laborum corporis, ipsa error saepe. Ipsum reprehenderit dolores laboriosam hic.
+            </p>
+        </article>
+
+        <!-- change destination screen shots -->
+        <div class="work-image">
+            <img src="../assets/snapp/change-destination.png" alt="Snapp! Passenger chat"/>
+        </div>
+        <div class="subtitle">
+            Passengers can optionally change their ride’s drop-off coordinates.
+        </div>
+    </div>
+
+    <div class="back-white">
+        <article class="work-article">
+            <h2>Super App</h2>
+            <p class="work-text">
+                SUPER APP<br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore modi ea illo, necessitatibus dicta quam tenetur culpa iure ut ab laborum corporis, ipsa error saepe. Ipsum reprehenderit dolores laboriosam hic.
+            </p>
+        </article>
+        <!-- super app screen shots -->
+        <div class="work-image padding-bottom-32">
+            <img src="../assets/snapp/superapp.png" alt="Snapp! Super App"/>
+        </div>
+        <div class="subtitle">
+            Snapp! Super Application includes services from multiple companies in Snapp! Group.
+        </div>
+    </div>
+
+    <div class="back-white">
+        <article class="work-article">
+            <h2>Vouchers and Rewards</h2>
+            <p class="work-text">
+                VOUCHERS<br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore modi ea illo, necessitatibus dicta quam tenetur culpa iure ut ab laborum corporis, ipsa error saepe. Ipsum reprehenderit dolores laboriosam hic.
+            </p>
+        </article>
+        <!-- super app screen shots -->
+        <div class="work-image padding-bottom-32">
+            <img src="../assets/snapp/vouchers.png" alt="Snapp! Super App"/>
+        </div>
+        <div class="subtitle">
+            Snapp! Club offers vouchers and rewards for loyal customers.
+        </div>
+    </div>
+
     <div class="back-white padding-bottom-40">
         <article class="work-article">
-            <h2>Rewrite Project</h2>
+            <h2>SNPArchitecture</h2>
             <p class="work-text-normal">
                 When I joined Snapp! in 2017 as an iOS Developer, the app was written in Objective-C using MVC architecture. Since Snapp! is based on a real-time event system, MVC was not a suitable architecture and we were facing a lot of delays when implementing new features and also had a lot of problems finding root causes of bugs. 
             </p>
@@ -100,7 +170,6 @@
 
     <div class="back-gray">
         <article class="work-article">
-            <!-- <h2>Wireframes</h2> -->
             <p class="work-text-normal">
                 So we decided to rewrite the application using <strong>Swift</strong> and a new architecture.
                 You can read about the reasons behind this decision <a href="https://behdad.medium.com/we-decided-to-re-write-snapp-heres-why-8fcd89d7f49a" target="_blank">here</a>.
@@ -113,7 +182,7 @@
 
         <!-- SNPArchitecture diagram -->
         <div class="work-image">
-            <img src="../assets/snparchitecture.png" alt="SNPArchitecture"/>
+            <img src="https://raw.githubusercontent.com/behdaad/SNPArchitecture/master/Screens/SNPArchitecture.png" alt="SNPArchitecture"/>
         </div>
         <div class="subtitle">
             How objects from different classes interact with each other in SNPArchitecture.
@@ -123,19 +192,20 @@
 
     <div class="back-white padding-bottom-64">
         <article class="work-article">
-            <!-- <h2>Final design</h2> -->
+            <h2>Rewrite Project</h2>
             <p class="work-text-normal">
                 I kickstarted the rewrite project in December 2017 and started to grow the team. By August 2018 the project was done and the team grew to four developers with acting as the Tech Lead. We successfully launched the new app with a rebranded identity to massive success. This new architecture became the stepping stone for the transition of the app to a super app. The team also used SNPArchitecture to rewrite the Snapp! Driver app as well, again to huge success among Driver users. You can read about the Driver app <a href="../driver">here</a>.
             </p>
         </article>
-        <!-- <div class="work-image">
-            <img src="../assets/change-dest/final-designs.png" alt="Final design touchpoints"/>
-        </div> -->
     </div>
 
     <div class="back-white padding-bottom-64">
     <div class="work-article">
-        <p class="appstore">(Wondering why there is no App Store link? <a href="../appstore">Read here.</a>)</p>
+        <p class="work-text">
+            <em>
+            (Wondering why there is no App Store link? <a href="../appstore">Read here.</a>)
+            </em>
+        </p>
     </div>
 </div>
     <!-- <div class="back-gray">

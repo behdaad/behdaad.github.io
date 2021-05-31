@@ -18,7 +18,7 @@
 <div class="work-container">
     <div class="work-header">
         <h1>
-            Snapp!<br/>
+            Snapp<span class="exclamation">!</span><br/>
             Driver Application
         </h1>
         <img src="../assets/driver/driver-hero.png" src="Snapp! Driver App" />
@@ -60,17 +60,17 @@
         <article class="work-article">
             <h2>Ride Offers</h2>
             <p class="work-text">
-                Snapp! Driver app is the counterpart to the <a href="../snapp">Snapp! Passenger app</a>. Drivers use this app to view ride offers and decide whether to accept one or not. Some of its other important features include updating ride status, chatting with the Passenger and updating vehicle registration info.
+                Snapp<span class="exclamation">!</span> Driver app is the counterpart to the <a href="../snapp">Snapp<span class="exclamation">!</span> Passenger app</a>. Drivers use this app to view ride offers and decide whether to accept one or not. Some of its other important features include updating ride status, chatting with the Passenger and updating vehicle registration info.
                 <br/><br/>
                 <strong>
                     Key Technologies & Frameworks:
                 </strong>
                 </p>
-                <ul>
+                <ul class="frameworks">
                     <li><a href="https://docs.mapbox.com/ios/maps/guides" target="_blank">Mapbox</a> (with in-house tile server)</li>
                     <li><a href="https://github.com/novastone-media/MQTT-Client-Framework" target="_blank">MQTT</a> (as an event channel)</li>
                     <li><a href="https://github.com/pusher/libPusher" target="_blank">Pusher</a> (as a fallback to MQTT)</li>
-                    <li>Core Location</li>
+                    <li><a href="https://developer.apple.com/documentation/corelocation" target="_blank">Core Location</a></li>
                     <li><a href="https://firebase.google.com/docs/crashlytics/get-started?platform=ios" target="_blank">Firebase Crashlytics</a></li>
                     <li><a href="https://firebase.google.com/docs/analytics/get-started?platform=ios" target="_blank">Firebase Analytics</a></li>
                 </ul>
@@ -97,8 +97,8 @@
                 </strong>
             </p>
             <ul class="frameworks">
-                <li>Core Data</li>
-                <li>Custom UICollectionViewLayout</li>
+                <li><a href="https://developer.apple.com/documentation/coredata" target="_blank">Core Data</a></li>
+                <li>Custom <a href="https://developer.apple.com/documentation/uikit/uicollectionviewlayout" target="_blank">UICollectionViewLayout</a></li>
             </ul>
         </article>
         <div class="work-image">
@@ -106,7 +106,7 @@
         </div>
         <div class="subtitle">
             <br/>
-            Passengers can chat and share their live location with the Drivers.
+            Drivers can respond to Passenger messages easily with predefined messages so they can keep their focus on the road.
         </div>
     </div>
 
@@ -132,7 +132,7 @@
         <article class="work-article">
             <h2>Rewrite Project</h2>
             <p class="work-text">
-                After the successful launch of the <a href="../snapp/">rewritten Passenger app</a>, we decided to do the same for the Driver app. The Driver app was also written in Objective-C using MVC architecture. Since Snapp<span class="exclamation">!</span> is based on a real-time event system, MVC was not a suitable architecture and we were facing a lot of delays when implementing new features and also had a lot of problems finding root causes of bugs.
+                After the successful launch of the <a href="../snapp/">rewritten Passenger app</a>, we decided to do the same for the Driver app. The Driver app was also written in Objective-C using MVC architecture. Since Snapp<span class="exclamation">!</span> is based on a real-time event system, MVC was not a a suitable architecture and we were facing a lot of delays when implementing new features and also had a lot of problems finding root causes of bugs.
                 <br/>
                 Moreover, this coincided with a complete overhaul of the app from design and usability standpoints, thus a perfect opportunity to let go of legacy code. 
             </p>
@@ -150,13 +150,13 @@
     <!-- 6. SNPArchitecture -->
     <div class="back-white padding-bottom-4">
         <article class="work-article">
-            <h2>New Architecture</h2>
+            <h2>A New Architecture</h2>
             <p class="work-text-normal">
                 So we decided to rewrite the application using <strong>Swift</strong> and new architecture.
             </p>
             <p>
-                In order to select new architecture, I studied all the common iOS app architecture out there: <a href="https://www.objc.io/issues/13-architecture/viper" target="_blank">VIPER</a>, <a href="https://github.com/uber/RIBs" target="_blank">Uber RIBs</a>, <a href="https://www.objc.io/issues/13-architecture/mvvm" target="_blank">MVVM</a>, and <a href="https://clean-swift.com/clean-swift-ios-architecture" target="_blank">Clean Swift</a>. 
-                None of them actually worked for us for various reasons. We could’ve used RIBs as Snapp<span class="exclamation">!</span> and Uber apps are basically the same, but back then Uber hadn’t released much about RIBs other than a few videos and a blog post. They open-sourced RIBs a few months after we released our new app. So, the only choice left was to create new architecture based on the learnings from those architecture. We called it SNPArchitecture and you can read about it <a href="https://github.com/behdaad/SNPArchitecture" target="_blank">here</a>.
+                In order to select a new architecture, I studied all the common iOS app architectures out there: <a href="https://www.objc.io/issues/13-architecture/viper" target="_blank">VIPER</a>, <a href="https://github.com/uber/RIBs" target="_blank">Uber RIBs</a>, <a href="https://www.objc.io/issues/13-architecture/mvvm" target="_blank">MVVM</a>, and <a href="https://clean-swift.com/clean-swift-ios-architecture" target="_blank">Clean Swift</a>. 
+                None of them actually worked for us for various reasons. We could’ve used RIBs as Snapp<span class="exclamation">!</span> and Uber apps are basically the same, but back then Uber hadn’t released much about RIBs other than a few videos and a blog post. They open-sourced RIBs a few months after we released our new app. So, the only choice left was to create a new architecture based on the learnings from those architectures. We called it SNPArchitecture and you can read about it <a href="https://github.com/behdaad/SNPArchitecture" target="_blank">here</a>.
             </p>
         </article>
         <div class="work-image-normal">
@@ -173,7 +173,7 @@
         <article class="work-article">
             <h2>Results</h2>
             <p class="work-text-normal">
-                I initiated the rewrite project in December 2018 and kept growing the team. By June 2019 the project was done and the team grew to twelve developers. We successfully launched the redesigned app with to massive success, just like the <a href="../snapp">Passenger app</a>.
+                I initiated the rewrite project in December 2018 and kept growing the team. By June 2019 the project was done and the team grew to twelve developers. We successfully launched the redesigned app with massive success, just like the <a href="../snapp">Passenger app</a>.
                 <br/>
             </p>
             <br/>

@@ -23,14 +23,14 @@ nav {
     max-width: 100%;
 }
 
-.video .work-header img {
+/* .video .work-header img {
     display: block;
     max-width: 100%;
-}
+} */
 
-.passenger .work-header {
-    margin: 0 auto;
-    position: relative;
+.passenger .work-header img {
+    display: block;
+    max-width: 100%;
 }
 
 /* .passenger .work-header .center {
@@ -131,7 +131,8 @@ nav {
 .work-article .work-text {
     max-width: 750px;
     margin-top: 24px;
-    min-height: 100px;
+    min-height: 50px;
+    margin-bottom: 8px;
 }
 
 .driver .work-article .work-text {
@@ -213,7 +214,7 @@ nav {
 }
 
 .back-black {
-    background-color: #161d2c;
+    background-color: #212121;
     color: white;
 }
 
@@ -265,6 +266,10 @@ main img {
 
 .padding-bottom-0 {
     padding-bottom: 0;
+}
+
+.padding-bottom-4 {
+    padding-bottom: 4px;
 }
 
 .padding-bottom-32 {
@@ -416,11 +421,11 @@ footer {
         padding-right: 0;
     }
 
-    .passenger .work-header {
+    /* .passenger .work-header {
         max-width: 905px;
         height: 682px;
         background-size: contain;
-    }
+    } */
 
     .mobile-header {
         display: none;
@@ -428,25 +433,25 @@ footer {
 
     .driver .work-header img {
         display: block;
-        max-width: 990px;
+        max-width: 1000px;
         margin: 38px auto 0 auto;
     }
 
     .appstore .work-header img {
         display: block;
-        max-width: 1070px;
+        max-width: 500px;
         margin: 40px auto 0 auto;
     }
 
-    .video .work-header img {
+    /* .video .work-header img {
         display: block;
         max-width: 1070px;
         margin: 40px auto 0 auto;
-    }
+    } */
 
     .passenger .work-header img {
         display: block;
-        max-width: 800px;
+        max-width: 1000px;
         margin: 40px auto 0 auto;
     }
 
@@ -467,14 +472,15 @@ footer {
     }
 
     .passenger .work-image img {
-        max-width: 750px;
+        height: 550px;
     }
 
-    /* .passenger .work-image-normal img {
-        max-width: 100%;
+    .passenger .work-image-normal img {
+        /* max-width: 100%;
         padding-left: 48px;
-        padding-right: 48px;
-    } */
+        padding-right: 48px; */
+        max-width: 750px;
+    }
 
     .video .work-image img {
         height: 600px;
@@ -496,3 +502,7 @@ footer {
 } */
 
 a:visited { text-decoration: none; color: #0e5cf7 }
+
+.frameworks {
+    padding-left: 4px;
+}

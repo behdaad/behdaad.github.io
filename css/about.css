@@ -98,3 +98,8 @@
 }
 
 a:visited { text-decoration: none; color: #0e5cf7 }
+
+.regex {
+    font-family: monospace;
+    font-weight: bold;
+}

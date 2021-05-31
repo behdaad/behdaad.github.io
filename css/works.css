@@ -16,6 +16,7 @@ nav {
 .driver .work-header img {
     display: block;
     max-width: 100%;
+    padding-bottom: 32px;
 }
 
 .appstore .work-header img {
@@ -135,10 +136,10 @@ nav {
     margin-bottom: 8px;
 }
 
-.driver .work-article .work-text {
+/* .driver .work-article .work-text {
     min-height: initial;
     padding-bottom: 12px;
-}
+} */
 .appstore .work-article .work-text {
     min-height: initial;
     padding-bottom: 4px;
@@ -159,6 +160,8 @@ nav {
     text-align: center;
     color: #a8afb8;
     font-style: italic;
+    padding-right: 8px;
+    padding-left: 8px;
 }
 
 .work-article .work-text-normal {
@@ -455,12 +458,12 @@ footer {
         margin: 40px auto 0 auto;
     }
 
-    /* .driver .work-image-normal img {
-        height: 600px;
-    } */
+    .driver .work-image-normal img {
+        max-width: 100%;
+    }
     
     .driver .work-image img {
-        max-width: 750px;
+        height: 550px;
     }
 
     .appstore .work-image img {
@@ -476,10 +479,7 @@ footer {
     }
 
     .passenger .work-image-normal img {
-        /* max-width: 100%;
-        padding-left: 48px;
-        padding-right: 48px; */
-        max-width: 750px;
+        max-width: 100%;
     }
 
     .video .work-image img {

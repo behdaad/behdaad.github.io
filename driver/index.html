@@ -17,9 +17,10 @@
 
 <div class="work-container">
     <div class="work-header">
-        <h1>Snapp! Driver Application
+        <h1>
+            Snapp!<br/>
+            Driver Application
         </h1>
-        <!-- Driver header -->
         <img src="../assets/driver/driver-hero.png" src="Snapp! Driver App" />
     </div>
 </div>
@@ -39,137 +40,156 @@
     </div>
 </nav>
 
-
 <main>
-    <!-- <article class="work-article padding-bottom-40"> -->
-        <!-- <h2>Introduction</h2> -->
-        <!-- <p class="work-text">Missions were added to Snapp to reduce the cost of retention campaigns, enhance the
-            engagement, and increase the usage of our product.</p>
-        <section>
-            <h3>My Role</h3>
-            <p class="work-title">Designer, Illustrator</p>
-        </section>
-        <section>
-            <h3>Team</h3>
-            <p class="work-title">Ramin Fazli (Product Manager), Iman Bagherpour (iOS Developer), Akram Ghaseminia
-                (Android Developer), and me</p>
-        </section> -->
-    <!-- </article> -->
-    <div class="back-gray">
+    <!-- 1. Introduction -->
+    <div class="back-white">
         <article class="work-article">
-            
-            <!-- <h2>Problem Statement</h2> -->
+            <h2>Introduction</h2>
             <p class="work-text">
-                Snapp! Driver app is the counterpart to the <a href="../snapp">Snapp! Passenger app</a>. Drivers use this app to view ride requests and decide whether to accept one or not. Some of its most important features include:
-                <ul>
-                    <li>View ride requests and their data</li>
-                    <li>Update ride status</li>
-                    <li>Chat with Passenger</li>
-                    <li>View Passenger’s payment status</li>
-                    <li>Update vehicle registration info</li>
-                </ul>
+                Founded in 2014 as a solution for urban journeys, it was soon rightfully dubbed as Iran’s Uber, reaching more than 1 million daily rides in 2017. 
+                Four years later, the Snapp<span class="exclamation">!</span> application turned into a super app, and now it offers numerous services ranging from requesting cabs & trucks, ordering food, reserving hotels and flights, buying inter-city bus and plane tickets, and all other services of Snapp<span class="exclamation">!</span> Group. 
+                The Cab service with more than 2 million daily rides is by far the most popular. 
+                Read more in <a href="https://snapp.ir/99-annual-report" target="_blank">Snapp<span class="exclamation">!</span>’s 2020 annual report</a> (in Farsi).<br/><br/>
             </p>
         </article>
+    </div>
 
-        <!-- driver new screen shots -->
+
+    <!-- 2. Ride Offers -->
+    <div class="back-gray padding-bottom-4">
+        <article class="work-article">
+            <h2>Ride Offers</h2>
+            <p class="work-text">
+                Snapp! Driver app is the counterpart to the <a href="../snapp">Snapp! Passenger app</a>. Drivers use this app to view ride offers and decide whether to accept one or not. Some of its other important features include updating ride status, chatting with the Passenger and updating vehicle registration info.
+                <br/><br/>
+                <strong>
+                    Key Technologies & Frameworks:
+                </strong>
+                </p>
+                <ul>
+                    <li><a href="https://docs.mapbox.com/ios/maps/guides" target="_blank">Mapbox</a> (with in-house tile server)</li>
+                    <li><a href="https://github.com/novastone-media/MQTT-Client-Framework" target="_blank">MQTT</a> (as an event channel)</li>
+                    <li><a href="https://github.com/pusher/libPusher" target="_blank">Pusher</a> (as a fallback to MQTT)</li>
+                    <li>Core Location</li>
+                    <li><a href="https://firebase.google.com/docs/crashlytics/get-started?platform=ios" target="_blank">Firebase Crashlytics</a></li>
+                    <li><a href="https://firebase.google.com/docs/analytics/get-started?platform=ios" target="_blank">Firebase Analytics</a></li>
+                </ul>
+        </article>
+
         <div class="work-image">
             <img src="../assets/driver/driver-new.png" alt="Snapp! Driver Redesigned"/>
         </div>
+        <div class="subtitle">
+            <br/>
+            Drivers can set their availability status, see ride offers and update their profile info in the Driver app.
+        </div>
     </div>
 
-
-    <div class="back-black padding-bottom-55">
+    <!-- 3. Chat -->
+    <div class="back-white padding-bottom-4">
         <article class="work-article">
-            <!-- <h2>Solution</h2> -->
-            <p class="work-text-normal">
-                Nearly a year after the successful launch of the rewritten Passenger app we decided to do the same with the Driver app: rewrite the legacy Objective-C code in Swift using <a href="https://github.com/behdaad/SNPArchitecture" target="_blank">SNPArchitecture</a>. 
+            <h2>Chat</h2>
+            <p class="work-text">
+                Prior to this feature, Passengers and Drivers could only communicate using a handful of predefined messages or by calling each other. We wanted to enhance this by adding free text chat.
+                <br/><br/>
+                <strong>
+                    Key Technologies & Frameworks:
+                </strong>
             </p>
-            <!-- <br/> -->
-            <!-- <ul>
-                <li><strong>Target Based Vouchers</strong> <br/>
-                    A new type of conditional voucher that passenger must take rides with some conditions like service
-                    type, deadline time, etc.After meeting the target, reward voucher code will be unlocked for the
-                    passenger and they can start using the code.
-                </li>
-                <br/>
-                <li><strong>Direct Discount Vouchers</strong> <br/>
-                    It's an alternative for cash back functionality that passenger redeem a code and get the reward
-                    discount in their next ride directly.
-                </li>
-                <br>
-                <li><strong> Compound Vouchers</strong><br/>
-                    A promotion code with different discount values base on the time of code redemption.
-                </li>
-            </ul> -->
-
+            <ul class="frameworks">
+                <li>Core Data</li>
+                <li>Custom UICollectionViewLayout</li>
+            </ul>
         </article>
-
-        <!-- driver old screen shots -->
         <div class="work-image">
-            <img src="../assets/driver/driver-old.png" alt="Snapp! Driver Old"/>
+            <img src="../assets/driver/driver-chat.png" alt="Snapp! Passenger chat"/>
+        </div>
+        <div class="subtitle">
+            <br/>
+            Passengers can chat and share their live location with the Drivers.
         </div>
     </div>
 
-    <div class="back-gray">
-    <div class="work-article">
-        <p class="appstore">(Wondering why there is no App Store link? <a href="../appstore">Read here.</a>)</p>
-    </div>
-    </div>
-
-    <!-- <div class="back-white padding-bottom-32">
+    <!-- 4. Dark Mode -->
+    <div class="back-black padding-bottom-4">
         <article class="work-article">
-            <h2>Final Designs</h2>
-            <p class="work-text-normal">For the designs, since we had vouchers before, I tried to keep it as simple and
-                similar to that of previous designs so it would seem familiar to the users.
+            <h2>Dark Mode</h2>
+            <p class="work-text-normal">
+                Since some of the Drivers work at night, adding Dark Mode to enhance user experience and reduce eye strain seemed like a no-brainer. 
             </p>
         </article>
-        <div class="work-image margin-top-29">
-            <img src="../assets/vouchers/target-based.png" alt="Target Based Vouchers"/>
+        <div class="work-image">
+            <img src="../assets/driver/driver-dark.png" alt="Snapp! Driver Old"/>
         </div>
-        <div class="work-image margin-top-72">
-            <img src="../assets/vouchers/direct-discount.png" alt="Direct Discount Vouchers"/>
+        <div class="subtitle">
+            <br/>
+            Dark Mode helps Drivers to work with the app more easily in low-light conditions.
         </div>
-        <div class="work-image margin-top-72">
-            <img src="../assets/vouchers/compound.png" alt="Compound Vouchers"/>
+    </div>
+
+    <!-- 5 Rewrite -->
+    <div class="back-gray padding-bottom-4">
+        <article class="work-article">
+            <h2>Rewrite Project</h2>
+            <p class="work-text">
+                After the successful launch of the <a href="../snapp/">rewritten Passenger app</a>, we decided to do the same for the Driver app. The Driver app was also written in Objective-C using MVC architecture. Since Snapp<span class="exclamation">!</span> is based on a real-time event system, MVC was not a suitable architecture and we were facing a lot of delays when implementing new features and also had a lot of problems finding root causes of bugs.
+                <br/>
+                Moreover, this coincided with a complete overhaul of the app from design and usability standpoints, thus a perfect opportunity to let go of legacy code. 
+            </p>
+        </article>
+        <div class="work-image">
+            <img src="../assets/driver/driver-old.png" alt="Old Snapp! Driver App"/>
         </div>
-        <div class="work-image margin-top-72">
-            <img src="../assets/vouchers/empty.png" alt="Empty State"/>
+        <div class="subtitle">
+            <br/>
+            Old Snapp<span class="exclamation">!</span> Driver app.
         </div>
-    </div> -->
-    <!-- <div class="back-white padding-bottom-49">
+    </div>
+
+
+    <!-- 6. SNPArchitecture -->
+    <div class="back-white padding-bottom-4">
+        <article class="work-article">
+            <h2>New Architecture</h2>
+            <p class="work-text-normal">
+                So we decided to rewrite the application using <strong>Swift</strong> and new architecture.
+            </p>
+            <p>
+                In order to select new architecture, I studied all the common iOS app architecture out there: <a href="https://www.objc.io/issues/13-architecture/viper" target="_blank">VIPER</a>, <a href="https://github.com/uber/RIBs" target="_blank">Uber RIBs</a>, <a href="https://www.objc.io/issues/13-architecture/mvvm" target="_blank">MVVM</a>, and <a href="https://clean-swift.com/clean-swift-ios-architecture" target="_blank">Clean Swift</a>. 
+                None of them actually worked for us for various reasons. We could’ve used RIBs as Snapp<span class="exclamation">!</span> and Uber apps are basically the same, but back then Uber hadn’t released much about RIBs other than a few videos and a blog post. They open-sourced RIBs a few months after we released our new app. So, the only choice left was to create new architecture based on the learnings from those architecture. We called it SNPArchitecture and you can read about it <a href="https://github.com/behdaad/SNPArchitecture" target="_blank">here</a>.
+            </p>
+        </article>
+        <div class="work-image-normal">
+            <img src="https://raw.githubusercontent.com/behdaad/SNPArchitecture/master/Screens/SNPArchitecture.png" alt="SNPArchitecture"/>
+        </div>
+        <div class="subtitle">
+            <br/>
+            How objects from different classes interact with each other in SNPArchitecture.
+        </div>
+    </div>
+
+    <!-- 7. Results -->
+    <div class="back-gray padding-bottom-4">
         <article class="work-article">
             <h2>Results</h2>
-            <p class="work-text-normal">Based on our A/B tests, these mission type vouchers has reduced the cost of the
-                normal vouchers, and it has increased conversion rate. <br/> <br/>
-
-                Also, they brought back the daily rides count to its value before the pandemic and increased retention. <br /><br />
-
-                We ran a survey after releasing these vouchers the results showed that a good number of users copy the
-                voucher code from their SMS messages. To fix this issue we’re planning to bring the missions in our
-                Loyalty Club, and place a button in the checkout funnel to show active voucher codes from there. <br />
+            <p class="work-text-normal">
+                I initiated the rewrite project in December 2018 and kept growing the team. By June 2019 the project was done and the team grew to twelve developers. We successfully launched the redesigned app with to massive success, just like the <a href="../snapp">Passenger app</a>.
+                <br/>
             </p>
+            <br/>
         </article>
-    </div> -->
-    <!-- <div class="pagination">
-        <div class="pagination-content">
-            <a class="prev-page" href="./change-dest.html">
-                <div class="arrow">
-                    <div></div>
-                    <div></div>
-                </div>
-                Snapp! Change Destination Feature
-            </a>
+    </div>
 
-            <div class="padding">
-            </div>
-            <a class="next-page" href="./chat.html">Snapp! Chat Module Feature
-                <div class="arrow">
-                    <div></div>
-                    <div></div>
-                </div>
-            </a>
+    <!-- 8. App Store -->
+    <div class="back-white padding-bottom-24">
+        <div class="work-article">
+            <p class="work-text">
+                <em>
+                (Wondering why there is no App Store link? <a href="../appstore">Read here.</a>)
+                </em>
+            </p>
         </div>
-    </div> -->
+    </div>
 </main>
 
 <footer>

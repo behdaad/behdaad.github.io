@@ -17,6 +17,7 @@ body {
 .menu .active a{
     color: #161d2c;
 }
+
 .menu li:hover a {
     color: #0e5cf7;
 }
@@ -118,6 +119,7 @@ footer {
 .top-link .link {
     writing-mode: tb-rl;
     transform: rotate(-180deg);
+    color: white;
 }
 
 .top-link .arrow {
@@ -194,10 +196,10 @@ ul.resume {
     padding-left: 18px;
 }
 
-a:visited { text-decoration: none; color: #0e5cf7 }
-/* a:hover { text-decoration: none; color: #0e5cf7 } */
-/* a:focus { text-decoration: none; color: #0e5cf7 } */
-/* a:hover, a:active { text-decoration: none; color:black } */
+a {
+    text-decoration: none;
+    color: #0e5cf7
+}
 
 .exclamation {
     font-style: italic;

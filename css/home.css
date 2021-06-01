@@ -15,12 +15,12 @@ header p {
     font-size: 18px;
 }
 
-.tannaz-image {
+.avatar {
     flex-basis: 160px;
     margin-top: 0;
 }
 
-.tannaz-image img {
+.avatar img {
     max-width: 160px;
     z-index: 200;
 }
@@ -171,7 +171,7 @@ header > div {
         margin-top: 0
     }
 
-    .tannaz-image {
+    .avatar {
         margin-right: 36px;
     }
 

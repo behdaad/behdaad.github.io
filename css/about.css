@@ -19,7 +19,7 @@
     margin-bottom: 16px;
 }
 
-.tannaz-image img {
+.avatar img {
     max-width: 160px;
     z-index: 200;
     visibility: visible;
@@ -27,7 +27,7 @@
     display: block;
 }
 
-.tannaz-real {
+.portrait {
     margin-top: 32px;
 }
 
@@ -88,7 +88,7 @@
         margin-left: 0;
     }
 
-    .tannaz-real {
+    .portrait {
         margin-top: 0;
     }
 

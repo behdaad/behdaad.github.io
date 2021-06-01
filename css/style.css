@@ -117,7 +117,7 @@ footer {
 }
 
 .top-link .link {
-    writing-mode: tb-rl;
+    writing-mode: vertical-rl;
     transform: rotate(-180deg);
     color: white;
 }

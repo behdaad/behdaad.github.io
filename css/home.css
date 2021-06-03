@@ -26,7 +26,7 @@ header p {
 }
 
 header > div {
-    margin-top: 32px;
+    margin-top: 0;
     flex-basis: 600px;
 }
 
@@ -181,5 +181,17 @@ header > div {
     
     .work-sample .image-box > img {
         max-width: 531px;
+    }
+}
+
+@media only screen and (max-width: 823px) {
+    header > div {
+        margin-top: 32px;
+    }
+}
+
+@media only screen and (min-width: 824px) and (max-width: 944px) {
+    .avatar {
+        margin-right: 36px;
     }
 }

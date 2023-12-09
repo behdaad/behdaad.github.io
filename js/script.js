@@ -76,3 +76,5 @@ document.addEventListener('scroll', function (e) {
     ticking = true;
   }
 });
+
+document.getElementById("year").innerHTML = new Date().getFullYear();

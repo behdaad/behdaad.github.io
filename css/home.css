@@ -48,7 +48,6 @@ header > div {
     visibility: hidden;
     margin-right: 30px;
     vertical-align: middle;
-    /* max-width: 531px; */
 }
 
 .work-sample .link {
@@ -65,20 +64,10 @@ header > div {
     animation-iteration-count: infinite;
 }
 
-/* .work-sample img.image-colored {
-    visibility: hidden;
-    animation: 1s fadeOut;
-} */
-
 .work-sample img.image-gray {
     visibility: visible;
     animation: .3s fadeIn;
 }
-
-/* .work-sample:hover img.image-colored {
-    visibility: visible;
-    animation: 1s fadeIn;
-} */
 
 .work-sample:hover img.image-gray {
     visibility: hidden;

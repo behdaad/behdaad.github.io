@@ -108,3 +108,7 @@ a:visited { text-decoration: none; color: #0e5cf7 }
     font-family: monospace;
     font-weight: bold;
 }
+
+.mono {
+    font-family: monospace;
+}

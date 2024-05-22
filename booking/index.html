@@ -1,0 +1,245 @@
+<!doctype html>
+<html id="top" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#212121" />
+    <title>Snapp! Super App | Behdad Keynejad</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/works.css">
+    <link rel="icon" type="image/png" href="../assets/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+</head>
+
+<body class="passenger">
+
+    <div class="work-container">
+        <div class="work-header">
+            <h1>
+                Snapp<span class="exclamation">!</span><br>
+                Super Application
+            </h1>
+            <img src="../assets/snapp/passenger-hero.png" alt="Snapp Super App" />
+        </div>
+    </div>
+
+    <nav id="nav" class="background-green">
+        <div class="nav-content">
+            <div class="avatar">
+                <a href="..">
+                    <img src="../assets/memoji.png" alt="My Memoji" />
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="..">Home</a></li>
+                <li><a href="../about">About</a></li>
+                <li><a href="../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 1. Introduction -->
+        <div class="back-white">
+            <article class="work-article">
+                <h2>Introduction</h2>
+                <p class="work-text">
+                    Founded in 2014 as a solution for urban journeys, it was soon rightfully dubbed as Iran’s Uber, reaching more than 1 million daily rides in 2017.
+                    Four years later, the Snapp<span class="exclamation">!</span> application turned into a super app, and now it offers numerous services ranging from requesting cabs & trucks, ordering food, reserving hotels and flights, buying inter-city bus and plane tickets, and all other services of Snapp<span class="exclamation">!</span> Group.
+                    The Cab service with more than 2 million daily rides is by far the most popular.
+                    Read more in <a href="https://snapp.ir/99-annual-report" target="_blank">Snapp<span class="exclamation">!</span>’s 2020 annual report</a> (in Farsi).<br /><br />
+                </p>
+            </article>
+        </div>
+
+        <!-- 2. Ride experience -->
+        <div class="back-gray padding-bottom-4">
+            <article class="work-article">
+                <h2>Ride Experience</h2>
+                <p class="work-text">
+                    Even though Snapp<span class="exclamation">!</span> offers many services, the Ride experience remains the focal point of the application,
+                    as it is still the only part developed natively in <strong>Swift</strong> and <strong>UIKit</strong>. Some of its most important features include selecting pickup and drop-off coordinates, seeing the Driver’s location on the map in real-time, chatting with the Driver and selecting precise pickup location in airports.
+                    <br /><br />
+                    <strong>
+                        Key Technologies & Frameworks:
+                    </strong>
+                </p>
+                <ul class="frameworks">
+                    <li><a href="https://github.com/novastone-media/MQTT-Client-Framework" target="_blank">MQTT</a> (as an event channel)</li>
+                    <li><a href="https://github.com/pusher/libPusher" target="_blank">Pusher</a> (as a fallback to MQTT)</li>
+                    <li><a href="https://firebase.google.com/docs/crashlytics/get-started?platform=ios" target="_blank">Firebase Crashlytics</a></li>
+                    <li><a href="https://github.com/adjust/ios_sdk" target="_blank">Adjust</a></li>
+                    <li><a href="https://developer.apple.com/documentation/swift/codable" target="_blank">Codable</a></li>
+                </ul>
+            </article>
+            <div class="work-image">
+                <img src="../assets/snapp/passenger-new.png" alt="Redesigned Snapp Passenger App" />
+            </div>
+            <div class="subtitle">
+                <br />
+                Snapp<span class="exclamation">!</span> Passenger Ride experience.
+            </div>
+        </div>
+
+        <!-- 3. Chat -->
+        <div class="back-white padding-bottom-4">
+            <article class="work-article">
+                <h2>Chat</h2>
+                <p class="work-text">
+                    Prior to this feature, Passengers and Drivers could only communicate using a handful of predefined messages or by calling each other. We wanted to enhance this by adding free text chat.
+                    <br /><br />
+                    <strong>
+                        Key Technologies & Frameworks:
+                    </strong>
+                </p>
+                <ul class="frameworks">
+                    <li><a href="https://developer.apple.com/documentation/coredata" target="_blank">Core Data</a></li>
+                    <li><a href="https://developer.apple.com/documentation/corelocation" target="_blank">Core Location</a></li>
+                    <li>Custom <a href="https://developer.apple.com/documentation/uikit/uicollectionviewlayout" target="_blank">UICollectionViewLayout</a></li>
+                </ul>
+            </article>
+            <div class="work-image">
+                <img src="../assets/snapp/chat.png" alt="Snapp Passenger chat" />
+            </div>
+            <div class="subtitle">
+                <br />
+                Passengers can chat and share their live location with the Drivers.
+            </div>
+        </div>
+
+        <!-- 4. Area Gateway -->
+        <div class="back-gray padding-bottom-4">
+            <article class="work-article">
+                <h2>Area Gateways</h2>
+                <p class="work-text">
+                    Setting a precise pickup location in airports or big shopping malls can be difficult, as you need to know in which entrance you are. With this feature you can see and select entrances if you are in a place where vehicles are restricted or there is weak GPS reception indoors.
+                    <br /><br />
+                    <strong>
+                        Key Technologies & Frameworks:
+                    </strong>
+                </p>
+                <ul class="frameworks">
+                    <li><a href="https://docs.mapbox.com/ios/maps/guides/" target="_blank">Mapbox</a> (with in-house tile server)</li>
+                    <li><a href="https://developers.google.com/maps/documentation/ios-sdk/overview" target="_blank">Google Maps</a> (as a fallback to Mapbox)</li>
+                </ul>
+            </article>
+            <div class="work-image">
+                <img src="../assets/snapp/area-gateway.png" alt="Snapp Passenger area gateways" />
+            </div>
+            <div class="subtitle">
+                <br />
+                Passengers have to select an entrance for areas restricted to vehicles like airports or shopping malls.
+            </div>
+        </div>
+
+        <!-- 5. Super App -->
+        <div class="back-white padding-bottom-4">
+            <article class="work-article">
+                <h2>Super App</h2>
+                <p class="work-text">
+                    After the success of the Snapp<span class="exclamation">!</span> brand with the Cab service, all other sister companies rebranded using Snapp<span class="exclamation">!</span> in their names. Some of those companies include:
+                </p>
+                <ul class="frameworks">
+                    <li><a href="https://snappfood.ir" target="_blank">Snapp<span class="exclamation">!</span> Food</a>: Food delivery</li>
+                    <li><a href="https://snapp.market" target="_blank">Snapp<span class="exclamation">!</span> Market</a>: Grocery delivery</li>
+                    <li><a href="https://snapp.doctor" target="_blank">Snapp<span class="exclamation">!</span> Doctor</a>: Online medical consultation</li>
+                    <li><a href="https://www.snapptrip.com/" target="_blank">Snapp<span class="exclamation">!</span> Trip</a>: Flight and hotel reservation</li>
+                </ul>
+                <p class="work-text">
+                    Since the Snapp<span class="exclamation">!</span> Passenger app was widely downloaded and installed, it was a business decision to use the Passenger app as the gateway to all other services. Therefore we transformed the app to include a home page whose contents were dynamically filled using an API.
+                </p>
+            </article>
+            <div class="work-image padding-bottom-32">
+                <img src="../assets/snapp/superapp.png" alt="Snapp Super App" />
+            </div>
+            <div class="subtitle">
+                <!-- <br/> -->
+                Snapp<span class="exclamation">!</span> Super Application includes services from multiple companies in Snapp<span class="exclamation">!</span> Group.
+            </div>
+        </div>
+
+        <!-- 6 Rewrite -->
+        <div class="back-gray padding-bottom-4">
+            <article class="work-article">
+                <h2>Rewrite Project</h2>
+                <p class="work-text">
+                    When I joined Snapp<span class="exclamation">!</span> in 2017 as an iOS Developer, the app was written in Objective-C using MVC architecture. Since Snapp<span class="exclamation">!</span> is based on a real-time event system, MVC was not a suitable architecture and we were facing a lot of delays when implementing new features and also had a lot of problems finding root causes of bugs.
+                    <br />
+                    Moreover, this coincided with the rebranding of Snapp<span class="exclamation">!</span>, so we thought it was best we rewrote the whole app. You can read about the reasons behind this decision <a href="https://behdad.medium.com/we-decided-to-re-write-snapp-heres-why-8fcd89d7f49a" target="_blank">here</a>.
+                </p>
+            </article>
+            <div class="work-image">
+                <img src="../assets/snapp/passenger-old.png" alt="Old Snapp Passenger App" />
+            </div>
+            <div class="subtitle">
+                <br />
+                Old Snapp<span class="exclamation">!</span> Passenger app.
+            </div>
+        </div>
+
+        <!-- 7. SNPArchitecture -->
+        <div class="back-white padding-bottom-4">
+            <article class="work-article">
+                <h2>A New Architecture</h2>
+                <p class="work-text">
+                    So we decided to rewrite the application using <strong>Swift</strong> and new a architecture.
+                </p>
+                <p>
+                    In order to select new a architecture, I studied all the common iOS app architectures out there: <a href="https://www.objc.io/issues/13-architecture/viper" target="_blank">VIPER</a>, <a href="https://github.com/uber/RIBs" target="_blank">Uber RIBs</a>, <a href="https://www.objc.io/issues/13-architecture/mvvm" target="_blank">MVVM</a>, and <a href="https://clean-swift.com/clean-swift-ios-architecture" target="_blank">Clean Swift</a>.
+                    None of them actually worked for us for various reasons. We could’ve used RIBs as Snapp<span class="exclamation">!</span> and Uber apps are basically the same, but back then Uber hadn’t released much about RIBs other than a few videos and a blog post. They open-sourced RIBs a few months after we released our new app. So, the only choice left was to create a new architecture based on the learnings from those architectures. We called it SNPArchitecture and you can read about it <a href="https://github.com/behdaad/SNPArchitecture" target="_blank">here</a>.
+                </p>
+            </article>
+            <div class="work-image-normal">
+                <img src="https://raw.githubusercontent.com/behdaad/SNPArchitecture/master/Screens/SNPArchitecture.png" alt="SNPArchitecture" />
+            </div>
+            <div class="subtitle">
+                <br />
+                How objects from different classes interact with each other in SNPArchitecture.
+            </div>
+        </div>
+
+        <!-- 8. Results -->
+        <div class="back-gray padding-bottom-4">
+            <article class="work-article">
+                <h2>Results</h2>
+                <p class="work-text-normal">
+                    I kickstarted the rewrite project in December 2017 and started to grow the team. By August 2018 the project was done and the team grew to four developers and I was acting as the Tech Lead. We successfully launched the new app with a rebranded identity to massive success. This new architecture became the stepping stone for the transition of the app to a super app. The team also used SNPArchitecture to rewrite the Snapp<span class="exclamation">!</span> Driver app as well, again to huge success among Driver users. You can read about the Driver app <a href="../driver">here</a>.
+                </p>
+                <br />
+                <br />
+                <p>
+                    <a href="https://apps.apple.com/us/app/اسنپ-snapp/id996370173" target="_blank"><img src="../assets/icons/appstore.svg" /></a>
+                </p>
+                <br />
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>© <span id="year"></span> Behdad Keynejad</div>
+            <div class="padding"></div>
+            <div class="social">
+                <a href="mailto:hi@behdaad.me" target="_blank"><img src="../assets/icons/icon-mail.svg" alt="mail" /></a>
+                <a href="https://www.linkedin.com/in/behdaad" target="_blank"><img src="../assets/icons/icon-linkedin.svg" alt="linkedin" /></a>
+                <a href="https://github.com/behdaad" target="_blank"><img src="../assets/icons/icon-github.svg" alt="github" /></a>
+            </div>
+        </div>
+        <a class="top-link" href="#top">
+            <div class="arrow">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="link">
+                Top
+            </div>
+        </a>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

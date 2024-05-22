@@ -67,10 +67,6 @@
     letter-spacing: -0.4px;
     margin-bottom: 8px;
 }
-.content p:last-of-type {
-    color: #a6a5a8;
-    letter-spacing: 0.14px;
-}
 
 .content h3 {
     font-size: 14px;

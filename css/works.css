@@ -19,30 +19,10 @@ nav {
     padding-bottom: 32px;
 }
 
-.appstore .work-header img {
-    display: block;
-    max-width: 100%;
-}
-
-/* .video .work-header img {
-    display: block;
-    max-width: 100%;
-} */
-
 .passenger .work-header img {
     display: block;
     max-width: 100%;
 }
-
-/* .passenger .work-header .center {
-    position: absolute;
-    left: 50%;
-}
-
-.passenger .work-header h1 {
-    position: relative;
-    left: -50%;
-} */
 
 .mobile-header {
     position: absolute;
@@ -68,14 +48,6 @@ nav {
     background-image: none;
 }
 
-.appstore .work-header {
-    background-image: none;
-}
-
-.video .work-header {
-    background-image: none;
-}
-
 .work-container {
     width: 100%;
     background-color: #e6f3e2;
@@ -85,21 +57,8 @@ nav {
     background-color: #F0F1F5;
 }
 
-.appstore .work-container {
-    background-color: #F2F9FF;
-}
-
-/* .video .work-container {
-    background-color: #E9EAEF;
-} */
-
 .passenger .work-container {
     background-color: #F3F9F8;
-}
-
-.appstore ol li {
-    padding-left: 17px;
-    margin-left: 17px;
 }
 
 .work-header h1 {
@@ -134,24 +93,6 @@ nav {
     margin-top: 24px;
     min-height: 50px;
     margin-bottom: 8px;
-}
-
-/* .driver .work-article .work-text {
-    min-height: initial;
-    padding-bottom: 12px;
-} */
-.appstore .work-article .work-text {
-    min-height: initial;
-    padding-bottom: 4px;
-}
-
-.video .work-article .work-text {
-    min-height: initial;
-    padding-bottom: 4px;
-}
-
-.appstore .work-team {
-    max-width: 530px;
 }
 
 .subtitle {
@@ -196,7 +137,6 @@ nav {
 .work-article-back {
     width: 100%;
     height: 291px;
-    /* background: url('../assets/change-dest/map.png') no-repeat left; */
     background-size: cover;
 }
 
@@ -375,24 +315,10 @@ footer {
     transform: rotate(-45deg) translateY(-3px);
 }
 
-.video .work-image {
-    margin-top: 0;
-}
-
 @media only screen and (max-width: 944px) {
     main img {
         padding-right: 32px;
         padding-left: 32px;
-    }
-
-    .video .work-image-normal img {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    #what {
-        padding-left: 32px;
-        padding-right: 32px;
     }
 }
 
@@ -420,12 +346,6 @@ footer {
         padding-right: 0;
     }
 
-    /* .passenger .work-header {
-        max-width: 905px;
-        height: 682px;
-        background-size: contain;
-    } */
-
     .mobile-header {
         display: none;
     }
@@ -436,73 +356,23 @@ footer {
         margin: 38px auto 0 auto;
     }
 
-    .appstore .work-header img {
-        display: block;
-        max-width: 500px;
-        margin: 40px auto 0 auto;
-    }
-
-    /* .video .work-header img {
-        display: block;
-        max-width: 1070px;
-        margin: 40px auto 0 auto;
-    } */
-
     .passenger .work-header img {
         display: block;
         max-width: 1000px;
         margin: 40px auto 0 auto;
     }
 
-    .driver .work-image-normal img {
-        max-width: 70%;
+    .work-image-normal img {
+        max-width: 68%; /* Magic number. Make it 69 and there will be a 1px border at the bottom of footer */
     }
     
-    .driver .work-image img {
+    .work-image img {
         height: 550px;
-    }
-
-    .appstore .work-image img {
-        max-width: 600px;
-    }
-
-    .appstore .work-image-normal img {
-        height: 600px;
-    }
-
-    .passenger .work-image img {
-        height: 550px;
-    }
-
-    .passenger .work-image-normal img {
-        max-width: 70%;
-    }
-
-    /* .video .work-image img {
-        height: 600px;
-    }
-
-    .video .work-image-normal img {
-        max-width: 88%;
-        padding-left: 48px;
-        padding-right: 48px;
-    } */
-
-    #problem {
-        height: auto;
     }
 }
-
-/* .appstore {
-    font-style: italic;
-} */
 
 a:visited { text-decoration: none; color: #0e5cf7 }
 
 .frameworks {
     padding-left: 4px;
-}
-
-#appstore {
-    padding-top: 8px;
 }

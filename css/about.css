@@ -47,6 +47,10 @@
     margin-left: 1.5em
 }
 
+.social ul {
+    margin-left: 1.5em
+}
+
 .experience {
     margin-right: 30px;
 }
@@ -72,10 +76,6 @@
     margin-bottom: 8px;
 }
 
-.content a {
-    color: #0276E6;
-}
-
 @media only screen and (min-width: 945px) {
     .about-header {
         justify-content: flex-start;
@@ -95,8 +95,6 @@
     }
 }
 
-a:visited { text-decoration: none; color: #014180 }
-
 .regex {
     font-family: monospace;
     font-weight: bold;
@@ -104,4 +102,49 @@ a:visited { text-decoration: none; color: #014180 }
 
 .mono {
     font-family: monospace;
+}
+
+.interests {
+    list-style: none;
+}
+
+.interests li {
+    position: relative;
+    padding-left: 32px;
+}
+
+.interests li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 16px;
+}
+
+#apple::before {
+    background: url(../assets/icons/apple.svg) no-repeat center center;
+    background-size: contain;
+}
+
+#racket::before {
+    background: url(../assets/icons/racket.svg) no-repeat center center;
+}
+
+#formula1::before {
+    background: url(../assets/icons/formula1.svg) no-repeat center center;
+    background-size: contain;
+}
+
+#music::before {
+    background: url(../assets/icons/apple-music.svg) no-repeat center center;
+}
+
+#social-media li {
+    padding-left: 7px;
+}
+
+#social-media {
+    padding-left: 4px;
 }

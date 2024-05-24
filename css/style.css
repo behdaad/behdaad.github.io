@@ -209,11 +209,15 @@ ul.resume {
     padding-left: 18px;
 }
 
-a {
-    text-decoration: none;
-    color: #0e5cf7
-}
-
 .exclamation {
     font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #0276E6;
+}
+
+a:visited {
+    text-decoration: none; color: #014180
 }

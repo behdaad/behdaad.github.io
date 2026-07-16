@@ -94,6 +94,12 @@ a:visited {
     font-size: 15px;
 }
 
+.link-icon img {
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+
 .link-copy {
     min-width: 0;
 }

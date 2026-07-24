@@ -1,11 +1,38 @@
 :root {
+    color-scheme: light dark;
     --ink: #212121;
     --muted: #a8afb8;
     --page: #fbfcfe;
     --line: #e7ebf2;
     --surface: #ffffff;
     --surface-strong: #f8faff;
+    --icon-surface: #f4f6fa;
     --focus: rgba(14, 92, 247, 0.24);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ink: #eef1f6;
+        --muted: #aab2bd;
+        --page: #17191d;
+        --line: #343a44;
+        --surface: #20242b;
+        --surface-strong: #2a3039;
+        --icon-surface: #303742;
+        --focus: rgba(91, 149, 255, 0.45);
+    }
+
+    .link-icon {
+        color: #ffffff;
+    }
+
+    .link-icon svg {
+        fill: currentColor;
+    }
+
+    .link-icon img {
+        filter: invert(1) brightness(2);
+    }
 }
 
 body {
@@ -89,7 +116,7 @@ a:visited {
     display: grid;
     place-items: center;
     border-radius: 9px;
-    background: #f4f6fa;
+    background: var(--icon-surface);
     color: var(--ink);
     font-size: 15px;
 }

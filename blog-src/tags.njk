@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: Tag archive
+relativeRoot: ../..
+blogRoot: ../../blog
+pagination:
+  data: collections.tagArchive
+  size: 1
+  alias: archive
+permalink: "/tags/{{ archive.slug }}/"
+---
+<header class="blog-header"{% if archive.direction %} dir="{{ archive.direction }}"{% endif %}{% if archive.lang %} lang="{{ archive.lang }}"{% endif %}>
+  <p class="blog-eyebrow">Tag</p>
+  <h1>{{ archive.name }}</h1>
+  <p>Posts tagged {{ archive.name }}.</p>
+</header>
+
+<section class="post-list" aria-label="Posts tagged {{ archive.name }}">
+{% for post in archive.posts %}
+  <article class="post-card"{% if post.data.lang %} lang="{{ post.data.lang }}"{% endif %}{% if post.data.direction %} dir="{{ post.data.direction }}"{% endif %}>
+    <div class="post-meta">
+      <p class="post-date">{{ post.date | dateDisplay }}</p>
+      {% if post.data.tags %}<ul class="post-tags" aria-label="{{ post.data.tagsLabel | default('Tags') }}">{% for tag in post.data.tags %}<li><a href="../{{ tag | tagSlug }}/">{{ tag }}</a></li>{% endfor %}</ul>{% endif %}
+    </div>
+    <h2><a href="../../blog/{{ post.fileSlug }}/">{{ post.data.title }}</a></h2>
+    {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+    <a class="post-link" href="../../blog/{{ post.fileSlug }}/">{{ post.data.readMore | default('Read post') }} <span aria-hidden="true">{{ post.data.readMoreArrow | default('→') }}</span></a>
+  </article>
+{% endfor %}
+</section>

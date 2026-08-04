@@ -62,7 +62,20 @@
     font-size: 11px;
     font-weight: 700;
     line-height: 1;
+    overflow: hidden;
+}
+
+.post-tags a,
+.blog-page .post-tags a {
+    color: inherit;
+    display: block;
     padding: 6px 8px;
+    text-decoration: none;
+}
+
+.post-tags a:hover,
+.post-tags a:focus-visible {
+    background: rgba(14, 92, 247, 0.12);
 }
 
 .blog-header h1,

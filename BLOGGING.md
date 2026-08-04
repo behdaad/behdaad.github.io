@@ -17,6 +17,7 @@ permalink: "/{{ page.fileSlug }}/"
 pageClass: post
 relativeRoot: ../..
 blogRoot: ..
+tagLinkPrefix: ../
 ---
 
 ## A heading

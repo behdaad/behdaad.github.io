@@ -9,10 +9,11 @@ readMore: ادامه مطلب
 readMoreArrow: ←
 lang: fa
 direction: rtl
-permalink: "/{{ page.fileSlug }}/"
+permalink: "/blog/{{ page.fileSlug }}/"
 pageClass: post
 relativeRoot: ../..
 blogRoot: ..
+tagLinkPrefix: ../../
 ---
 
 ## یک شروع تازه

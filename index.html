@@ -1,117 +1,76 @@
 <!doctype html>
 <html id="top" lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#212121" />
-    <title>Behdad Keynejad</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="theme-color" content="#fbfcfe">
+  <title>Blog | Behdad Keynejad</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
 </head>
+<body class="blog-page">
+  <nav id="nav">
+    <div class="nav-content">
+      <div class="avatar">
+        <a href="../"><img src="../assets/memoji.png" alt="Behdad Keynejad"></a>
+      </div>
+      <ul class="menu">
+        <li><a href="../">Home</a></li>
+        <li><a href="../about/">About</a></li>
+        <li class="active"><a href="./">Blog</a></li>
+        <li><a href="../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<body>
-    <nav id="nav">
-        <div class="nav-content">
-            <a id="avatar-nav" href=".">
-                <img src="assets/memoji.png" alt="My Memoji" />
-            </a>
+  <main class="main blog-main">
 
-            <ul class="menu">
-                <li class="active"><a href=".">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="blog/">Blog</a></li>
-                <li><a href="resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a> </li>
-            </ul>
-        </div>
-    </nav>
+    <header class="blog-header">
+  <p class="blog-eyebrow">Writing</p>
+  <h1>Blog</h1>
+  <p>Notes on building products, technology, and whatever else holds my attention.</p>
+</header>
 
-    <main class="main">
-        <header>
-            <div class="avatar">
-                <img id="avatar" src="assets/memoji.png" alt="My Memoji" />
-            </div>
-            <div>
-                <h1>Hello, I’m Behdad<span class="exclamation">!</span></h1>
-                <p>
-                    An iOS Developer with more than 10 years experience working in Apple development ecosystem and 3+ years of technical leadership in a company with more than 40 million users.
-                </p>
-            </div>
-        </header>
+<section class="post-list" aria-label="Blog posts">
 
-        <article class="work-sample">
-            <a href="snapp" class="link">
-                <div class="image-box">
-                    <img class="image-colored" src="assets/snapp/passenger-home-colored.png" alt="Change Destination Photo" />
-                    <img class="image-gray" src="assets/snapp/passenger-home.png" alt="Change Destination Photo" />
+    <article class="post-card">
+      <div class="post-meta">
+        <p class="post-date">August 4, 2026</p>
+        <ul class="post-tags" aria-label="Tags"><li><a href="tags/english/">English</a></li></ul>
+      </div>
+      <h2><a href="hello-world/">Hello, world!</a></h2>
+      <p>The first post on my new blog.</p>
+      <a class="post-link" href="hello-world/">Read post <span aria-hidden="true">→</span></a>
+    </article>
 
-                    <div class="hidden">
-                        <img src="assets/snapp/passenger-home.png" alt="Change Destination Photo" />
-                    </div>
-                </div>
-                <div class="sample-title">
-                    <h2>Snapp<span class="exclamation">!</span> Super Application</h2>
-                    <div class="read-more">
-                        Read more
-                        <div class="arrow">
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </article>
+    <article class="post-card" lang="fa" dir="rtl">
+      <div class="post-meta">
+        <p class="post-date">August 4, 2026</p>
+        <ul class="post-tags" aria-label="برچسب‌ها"><li><a href="tags/farsi/">فارسی</a></li></ul>
+      </div>
+      <h2><a href="first-persian-post/">سلام، دنیا!</a></h2>
+      <p>اولین نوشتهٔ فارسی من در این وبلاگ.</p>
+      <a class="post-link" href="first-persian-post/">ادامه مطلب <span aria-hidden="true">←</span></a>
+    </article>
 
-        <article class="work-sample">
-            <a href="driver" class="link">
-                <div class="image-box">
-                    <img class="image-colored" src="assets/driver/driver-home-colored.png" alt="Snapp! Passenger" />
-                    <img class="image-gray" src="assets/driver/driver-home.png" alt="Snapp! Passenger Gray" />
+</section>
 
-                    <div class="hidden">
-                        <img src="assets/driver/driver-home.png" alt="Snapp! Passenger Hidden" />
-                    </div>
-                </div>
-                <div class="sample-title">
-                    <h2>Snapp<span class="exclamation">!</span> Driver Application</h2>
-                    <div class="read-more">
-                        Read more
-                        <div class="arrow">
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </article>
-    </main>
+  </main>
 
-    <footer>
-        <div class="footer-content">
-            <div>© <span id="year"></span> Behdad Keynejad</div>
-            <div class="padding"></div>
-            <div class="social">
-                <a href="mailto:hi@behdaad.me" target="_blank"><img src="assets/icons/mail.svg" alt="mail" /></a>
-                <a href="https://www.linkedin.com/in/behdaad" target="_blank"><img src="assets/icons/linkedin.svg" alt="linkedin" /></a>
-                <a href="https://github.com/behdaad" target="_blank"><img src="assets/icons/github.svg" alt="github" /></a>
-            </div>
-        </div>
-        <a class="top-link" href="#top">
-            <div class="arrow">
-                <div></div>
-                <div></div>
-            </div>
-            <div class="link">
-                Top
-            </div>
-        </a>
-    </footer>
-    <script src="js/script.js"></script>
+  <footer>
+    <div class="footer-content">
+      <div>© <span id="year"></span> Behdad Keynejad</div>
+      <div class="padding"></div>
+      <div class="social">
+        <a href="mailto:hi@behdaad.me"><img src="../assets/icons/mail.svg" alt="Email"></a>
+        <a href="https://www.linkedin.com/in/behdaad"><img src="../assets/icons/linkedin.svg" alt="LinkedIn"></a>
+        <a href="https://github.com/behdaad"><img src="../assets/icons/github.svg" alt="GitHub"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
 </body>
-
 </html>

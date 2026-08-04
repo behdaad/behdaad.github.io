@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <meta name="theme-color" content="#fbfcfe">
-  <title>Hello, world! | Behdad Keynejad</title>
+  <title>Tag archive | Behdad Keynejad</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
@@ -20,29 +20,33 @@
       <ul class="menu">
         <li><a href="../../">Home</a></li>
         <li><a href="../../about/">About</a></li>
-        <li class="active"><a href="../">Blog</a></li>
+        <li class="active"><a href="../../blog/">Blog</a></li>
         <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
       </ul>
     </div>
   </nav>
 
-  <main class="main blog-main post">
+  <main class="main blog-main">
 
-      <header class="post-header">
-        <div class="post-meta">
-          <p class="post-date">August 4, 2026</p>
-          <ul class="post-tags" aria-label="Tags"><li><a href="../../tags/english/">English</a></li></ul>
-        </div>
-        <h1>Hello, world!</h1>
-        <p class="post-description">The first post on my new blog.</p>
-      </header>
+    <header class="blog-header">
+  <p class="blog-eyebrow">Tag</p>
+  <h1>English</h1>
+  <p>Posts tagged English.</p>
+</header>
 
-    <h2>It works</h2>
-<p>This post started as a Markdown file and was generated as a plain HTML page. That means the blog remains fast, simple, and easy to publish: build it locally, commit the result, and pull the repository on the server.</p>
-<p>Future posts can include images just as easily:</p>
-<pre><code class="language-markdown">![A useful description](../../assets/blog/my-image.jpg)
-</code></pre>
-<p>The image file lives in <code>assets/blog/</code>, alongside the rest of the site's static assets.</p>
+<section class="post-list" aria-label="Posts tagged English">
+
+  <article class="post-card">
+    <div class="post-meta">
+      <p class="post-date">August 4, 2026</p>
+      <ul class="post-tags" aria-label="Tags"><li><a href="../english/">English</a></li></ul>
+    </div>
+    <h2><a href="../../blog/hello-world/">Hello, world!</a></h2>
+    <p>The first post on my new blog.</p>
+    <a class="post-link" href="../../blog/hello-world/">Read post <span aria-hidden="true">→</span></a>
+  </article>
+
+</section>
 
   </main>
 

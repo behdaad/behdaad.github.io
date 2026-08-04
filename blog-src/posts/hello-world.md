@@ -3,6 +3,7 @@ layout: base.njk
 title: Hello, world!
 description: The first post on my new blog.
 date: 2026-08-04
+tags: [English]
 permalink: "/{{ page.fileSlug }}/"
 pageClass: post
 relativeRoot: ../..

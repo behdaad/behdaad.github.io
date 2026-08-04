@@ -1,5 +1,5 @@
 <!doctype html>
-<html id="top" lang="en">
+<html id="top" lang="{{ lang | default('en') }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
@@ -26,10 +26,13 @@
     </div>
   </nav>
 
-  <main class="main blog-main{% if pageClass %} {{ pageClass }}{% endif %}">
+  <main class="main blog-main{% if pageClass %} {{ pageClass }}{% endif %}"{% if direction %} dir="{{ direction }}"{% endif %}>
 {% if pageClass === "post" %}
       <header class="post-header">
-        <p class="post-date">{{ date | dateDisplay }}</p>
+        <div class="post-meta">
+          <p class="post-date">{{ date | dateDisplay }}</p>
+          {% if tags %}<ul class="post-tags" aria-label="{{ tagsLabel | default('Tags') }}">{% for tag in tags %}<li>{{ tag }}</li>{% endfor %}</ul>{% endif %}
+        </div>
         <h1>{{ title }}</h1>
         {% if description %}<p class="post-description">{{ description }}</p>{% endif %}
       </header>

@@ -12,6 +12,7 @@ layout: base.njk
 title: My post title
 description: A short summary shown on the blog index.
 date: 2026-08-04
+tags: [English]
 permalink: "/{{ page.fileSlug }}/"
 pageClass: post
 relativeRoot: ../..

@@ -41,6 +41,30 @@
     text-transform: uppercase;
 }
 
+.post-meta {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+
+.post-tags li {
+    background: #eef1f5;
+    border-radius: 999px;
+    color: #52606d;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 6px 8px;
+}
+
 .blog-header h1,
 .post-header h1 {
     font-size: clamp(32px, 6vw, 48px);
@@ -180,6 +204,11 @@
     .post-card {
         background: #20252b;
         box-shadow: none;
+    }
+
+    .post-tags li {
+        background: #323a44;
+        color: #dce3eb;
     }
 
     .post code {

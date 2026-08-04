@@ -1,0 +1,11 @@
+{
+  "name": "behdaad-github-io",
+  "private": true,
+  "scripts": {
+    "build:blog": "eleventy --config=eleventy.config.js",
+    "serve:blog": "eleventy --serve --config=eleventy.config.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

@@ -1,0 +1,22 @@
+---
+layout: base.njk
+title: Blog
+relativeRoot: ..
+blogRoot: .
+---
+<header class="blog-header">
+  <p class="blog-eyebrow">Writing</p>
+  <h1>Blog</h1>
+  <p>Notes on building products, technology, and whatever else holds my attention.</p>
+</header>
+
+<section class="post-list" aria-label="Blog posts">
+{% for post in collections.post %}
+    <article class="post-card">
+      <p class="post-date">{{ post.date | dateDisplay }}</p>
+      <h2><a href="{{ post.fileSlug }}/">{{ post.data.title }}</a></h2>
+      {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+      <a class="post-link" href="{{ post.fileSlug }}/">Read post <span aria-hidden="true">→</span></a>
+    </article>
+{% endfor %}
+</section>

@@ -34,7 +34,8 @@
           {% if tags %}<ul class="post-tags" aria-label="{{ tagsLabel | default('Tags') }}">{% for tag in tags %}<li><a href="{{ tagLinkPrefix | default('') }}tags/{{ tag | tagSlug }}/">{{ tag }}</a></li>{% endfor %}</ul>{% endif %}
         </div>
         <h1>{{ title }}</h1>
-        {% if description %}<p class="post-description">{{ description }}</p>{% endif %}
+{% if description %}        <p class="post-description">{{ description }}</p>
+{% endif %}
       </header>
 {% endif %}
     {{ content | safe }}

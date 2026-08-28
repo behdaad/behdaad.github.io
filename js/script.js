@@ -90,9 +90,9 @@ if (themePicker) {
   const menu = themePicker.querySelector(".theme-picker-menu");
   const choices = Array.from(themePicker.querySelectorAll("[data-theme-choice]"));
   const themeIcons = {
-    light: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>',
-    auto: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18"/><path d="M8.5 5.1A7 7 0 1 0 8.5 18.9a7 7 0 0 1 0-13.8Z"/><path d="M12 5a7 7 0 0 1 0 14"/></svg>',
-    dark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5 6.5 6.5 0 0 0 20.5 14.2Z"/></svg>'
+    light: '<svg class="theme-icon theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor" fill-opacity="0.34"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>',
+    auto: '<svg class="theme-icon theme-icon-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2" fill="currentColor" fill-opacity="0.22"/><path d="M8 20h8M12 16v4"/></svg>',
+    dark: '<svg class="theme-icon theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5 6.5 6.5 0 0 0 20.5 14.2Z" fill="currentColor" fill-opacity="0.58"/></svg>'
   };
   const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -112,7 +112,7 @@ if (themePicker) {
     trigger.setAttribute("aria-expanded", "false");
   }
 
-  const savedTheme = localStorage.getItem("blog-theme") || "auto";
+  const savedTheme = localStorage.getItem("blog-theme") || (systemTheme.matches ? "dark" : "light");
   applyTheme(savedTheme);
 
   trigger.addEventListener("click", function () {

@@ -244,7 +244,7 @@ html[data-theme="dark"] {
 .theme-picker {
     align-items: center;
     display: flex;
-    margin-left: 20px;
+    margin-left: 12px;
     position: relative;
 }
 
@@ -257,7 +257,7 @@ html[data-theme="dark"] {
     background: transparent;
     border: 0;
     border-radius: 50%;
-    color: #fff;
+    color: var(--blog-text);
     cursor: pointer;
     display: flex;
     height: 36px;
@@ -269,7 +269,7 @@ html[data-theme="dark"] {
 
 .theme-picker-trigger:hover,
 .theme-picker-trigger[aria-expanded="true"] {
-    background: rgba(255, 255, 255, 0.12);
+    background: var(--blog-chip);
 }
 
 .theme-picker-trigger:active {
@@ -277,37 +277,57 @@ html[data-theme="dark"] {
 }
 
 .theme-picker svg {
+    display: block;
     height: 18px;
     stroke-width: 1.8;
     width: 18px;
 }
 
+.theme-icon-light {
+    color: #f3b63f;
+}
+
+.theme-icon-dark {
+    color: #fff0ad;
+}
+
+.theme-icon-auto {
+    color: #90cbff;
+}
+
+.theme-picker-icon {
+    align-items: center;
+    display: flex;
+    height: 18px;
+    justify-content: center;
+    width: 18px;
+}
+
 .theme-picker-menu {
-    background: #292929;
-    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: var(--blog-card);
+    border: 1px solid var(--blog-border);
     border-radius: 12px;
-    bottom: calc(100% + 10px);
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
     display: grid;
     gap: 2px;
-    left: 50%;
     min-width: 138px;
     padding: 6px;
     position: absolute;
-    transform: translateX(-50%);
+    right: 0;
+    top: calc(100% + 10px);
     z-index: 10;
 }
 
 .theme-picker-menu::after {
-    background: #292929;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
-    border-right: 1px solid rgba(255, 255, 255, 0.14);
-    bottom: -6px;
+    background: var(--blog-card);
+    border-right: 1px solid var(--blog-border);
+    border-top: 1px solid var(--blog-border);
     content: "";
     height: 10px;
-    left: 50%;
     position: absolute;
-    transform: translateX(-50%) rotate(45deg);
+    right: 13px;
+    top: -6px;
+    transform: rotate(-45deg);
     width: 10px;
 }
 
@@ -316,7 +336,7 @@ html[data-theme="dark"] {
     background: transparent;
     border: 0;
     border-radius: 8px;
-    color: #fff;
+    color: var(--blog-text);
     cursor: pointer;
     display: flex;
     gap: 10px;
@@ -328,7 +348,7 @@ html[data-theme="dark"] {
 
 .theme-picker-menu button:hover,
 .theme-picker-menu button:focus-visible {
-    background: rgba(255, 255, 255, 0.12);
+    background: var(--blog-chip);
     outline: none;
 }
 

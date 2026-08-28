@@ -77,4 +77,79 @@ document.addEventListener('scroll', function (e) {
   }
 });
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+const year = document.getElementById("year");
+
+if (year) {
+  year.innerHTML = new Date().getFullYear();
+}
+
+const themePicker = document.querySelector(".theme-picker");
+
+if (themePicker) {
+  const trigger = themePicker.querySelector(".theme-picker-trigger");
+  const menu = themePicker.querySelector(".theme-picker-menu");
+  const choices = Array.from(themePicker.querySelectorAll("[data-theme-choice]"));
+  const themeIcons = {
+    light: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>',
+    auto: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18"/><path d="M8.5 5.1A7 7 0 1 0 8.5 18.9a7 7 0 0 1 0-13.8Z"/><path d="M12 5a7 7 0 0 1 0 14"/></svg>',
+    dark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5 6.5 6.5 0 0 0 20.5 14.2Z"/></svg>'
+  };
+  const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+  function applyTheme(preference) {
+    const theme = preference === "auto" ? (systemTheme.matches ? "dark" : "light") : preference;
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.dataset.themePreference = preference;
+    document.querySelector("meta[name='theme-color']").setAttribute("content", theme === "dark" ? "#171a1e" : "#fbfcfe");
+    themePicker.querySelector(".theme-picker-icon").innerHTML = themeIcons[preference];
+    choices.forEach(function (choice) {
+      choice.setAttribute("aria-checked", String(choice.dataset.themeChoice === preference));
+    });
+  }
+
+  function closeMenu() {
+    menu.hidden = true;
+    trigger.setAttribute("aria-expanded", "false");
+  }
+
+  const savedTheme = localStorage.getItem("blog-theme") || "auto";
+  applyTheme(savedTheme);
+
+  trigger.addEventListener("click", function () {
+    const isOpen = !menu.hidden;
+    menu.hidden = isOpen;
+    trigger.setAttribute("aria-expanded", String(!isOpen));
+    if (!isOpen) {
+      menu.querySelector("[aria-checked='true']").focus();
+    }
+  });
+
+  choices.forEach(function (choice) {
+    choice.addEventListener("click", function () {
+      const preference = choice.dataset.themeChoice;
+      localStorage.setItem("blog-theme", preference);
+      applyTheme(preference);
+      closeMenu();
+      trigger.focus();
+    });
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!themePicker.contains(event.target)) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeMenu();
+      trigger.focus();
+    }
+  });
+
+  systemTheme.addEventListener("change", function () {
+    if (document.documentElement.dataset.themePreference === "auto") {
+      applyTheme("auto");
+    }
+  });
+}

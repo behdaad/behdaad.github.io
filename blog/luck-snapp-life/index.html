@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <meta name="theme-color" content="#fbfcfe">
+  <script>
+    (function () {
+      var theme = localStorage.getItem("blog-theme");
+
+      if (theme === "light" || theme === "dark") {
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === "dark" ? "#171a1e" : "#fbfcfe";
+      }
+    }());
+  </script>
   <title>شانس، اسنپ، زندگی | Behdad Keynejad</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -54,6 +64,10 @@
   <footer>
     <div class="footer-content">
       <div>© <span id="year"></span> Behdad Keynejad</div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+        <span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-thumb"></span></span>
+        <span class="theme-toggle-label">Dark mode</span>
+      </button>
       <div class="padding"></div>
       <div class="social">
         <a href="mailto:hi@behdaad.me"><img src="../../assets/icons/mail.svg" alt="Email"></a>

@@ -78,3 +78,32 @@ document.addEventListener('scroll', function (e) {
 });
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+const themeToggle = document.getElementById("theme-toggle");
+const themeColor = document.querySelector('meta[name="theme-color"]');
+
+function setBlogTheme(theme) {
+  const isDark = theme === "dark";
+
+  document.documentElement.dataset.theme = theme;
+  themeToggle.setAttribute("aria-pressed", String(isDark));
+  themeToggle.setAttribute("aria-label", `Switch to ${isDark ? "light" : "dark"} mode`);
+  themeToggle.querySelector(".theme-toggle-label").textContent = isDark ? "Light mode" : "Dark mode";
+  themeColor.content = isDark ? "#171a1e" : "#fbfcfe";
+}
+
+if (themeToggle) {
+  const savedTheme = localStorage.getItem("blog-theme");
+  const theme = savedTheme === "light" || savedTheme === "dark"
+    ? savedTheme
+    : window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+
+  setBlogTheme(theme);
+
+  themeToggle.addEventListener("click", function () {
+    const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+
+    localStorage.setItem("blog-theme", nextTheme);
+    setBlogTheme(nextTheme);
+  });
+}

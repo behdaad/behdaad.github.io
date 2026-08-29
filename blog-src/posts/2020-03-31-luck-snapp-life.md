@@ -35,4 +35,4 @@ tagLinkPrefix: ../../
 
 ---
 
-<p lang="en" dir="ltr">"Good day to be alive, sir". "Good day to be alive", he says.</p>
+<p lang="en" dir="ltr"><a href="https://www.youtube.com/watch?v=Sh5S3OxiE-s">"Good day to be alive, sir". "Good day to be alive", he says.</a></p>

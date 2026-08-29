@@ -28,10 +28,10 @@ tagLinkPrefix: ../../
 
 من این دو تکنیک رو از اپ Balance یاد گرفتم که می‌تونید از لینک زیر دانلودش کنید. برای کاربرهای جدیدی که اشتراک بخرن هم یک trial یک ساله داره. در نتیجه اگر اشتراک بگیرید و بلافاصله کنسل کنید، یک سال رایگان می‌تونید از نسخه‌ی پرمیوم‌ش استفاده کنید:
 
-balanceapp.com
+<p lang="en" dir="ltr">balanceapp.com</p>
 
 ---
 
 مطالعه‌ی بیشتر درباره‌ی پاسخ جنگ یا گریز:
 
-https://en.wikipedia.org/wiki/Fight-or-flight_response
+<p lang="en" dir="ltr">https://en.wikipedia.org/wiki/Fight-or-flight_response</p>

@@ -17,7 +17,7 @@ tagLinkPrefix: ../../
 
 ![Yellow train entering a dark tunnel](https://images.unsplash.com/photo-1484689228555-fd6bc1b28b7e?auto=format&fit=crop&w=1400&q=85)
 
-Photo by [Soroush Karimi](https://unsplash.com/@soroushkarimi?utm_source=behdaad.me&utm_medium=referral) on Unsplash
+<p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@soroushkarimi?utm_source=behdaad.me&utm_medium=referral">Soroush Karimi</a> on Unsplash</p>
 
 > افسردگی به قدری بیماری بد و دردناکیه که اگر احساس کردید یکی داره باهاش «شوآف» می‌کنه مطمئن باشید حتی یک ثانیه هم افسردگی رو تجربه نکرده.
 

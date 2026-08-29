@@ -38,9 +38,9 @@ tagLinkPrefix: ../../
 
 آشنایی من با این نظریه از طریق پادکست[Ear Biscuits](https://www.youtube.com/channel/UC8nhd-qEBMmFs-DkhBaQwww)بود که توسط[Rhett & Link](https://www.youtube.com/user/rhettandlink2)، یوتوبرهای مورد علاقه‌م، درست می‌شه. تو اون اپیزود مهمان‌شون Michael Stevens (معروف به[Vsauce](https://www.youtube.com/user/Vsauce)) بود. از 59:21 می‌تونید در این باره گوش بدید:
 
-https://youtu.be/ZIzJZrng4Lk?t=3561
+<p lang="en" dir="ltr">https://youtu.be/ZIzJZrng4Lk?t=3561</p>
 
 برای مطالعه‌ی بیشتر:
-The Downside of Work-Life Balance by James Clear
+<p lang="en" dir="ltr">The Downside of Work-Life Balance by James Clear</p>
 
-https://jamesclear.com/four-burners-theory
+<p lang="en" dir="ltr">https://jamesclear.com/four-burners-theory</p>

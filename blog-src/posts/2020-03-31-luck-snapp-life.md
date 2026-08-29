@@ -15,9 +15,9 @@ blogRoot: ..
 tagLinkPrefix: ../../
 ---
 
-![Photo by Yan Ming on Unsplash](https://files.virgool.io/upload/users/934/posts/ocbkqqnln3n3/ocsfrqnjz79k.jpeg)
+![Green leaf covered with water droplets](https://images.unsplash.com/photo-1423994485548-7c3cf5c99cfb?auto=format&fit=crop&w=1400&q=85)
 
-Photo by Yan Ming on Unsplash
+<p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@quentinreyphoto?utm_source=behdaad.me&utm_medium=referral">Quentin Rey</a> on Unsplash</p>
 
 یه موضوعی که من هر چقدر تلاش کنم نمی‌تونم از ذهنم بیرون کنم، اینه که جایگاه فعلی من در زندگی، بیش از این که حاصل تلاش خودم باشه، حاصل شانسه. شغل با حقوق خوب دارم، تقریباً هر چی که می‌خوام رو دارم، به جای این که برم سربازی دارم پروژه انجام می‌دم، [فکر می‌کنم] بین اطرافیانم جایگاه خوبی دارم و به طور خلاصه زندگی خوبی دارم و آینده‌ی خوبی هم برای خودم متصورم. اما سوالی که من پیوسته از خودم می‌پرسم اینه که آیا این‌ها حاصل تلاش خودم بوده یا صرفاً آدم خوش‌شانسی بوده‌م که در وضعیت فعلی هستم.
 
@@ -35,4 +35,4 @@ Photo by Yan Ming on Unsplash
 
 ---
 
-"Good day to be alive, sir". "Good day to be alive", he says.
+<p lang="en" dir="ltr">"Good day to be alive, sir". "Good day to be alive", he says.</p>

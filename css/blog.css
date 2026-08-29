@@ -92,6 +92,12 @@ html[data-theme="dark"] {
     font-family: "Vazirmatn", sans-serif;
 }
 
+.blog-main [lang="en"] {
+    direction: ltr;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
 .blog-header,
 .post-header {
     border-bottom: 1px solid var(--blog-border);

@@ -86,6 +86,12 @@ html[data-theme="dark"] {
     margin-bottom: 72px;
 }
 
+.blog-main[dir="rtl"],
+.blog-main [lang="fa"],
+.blog-main [dir="rtl"] {
+    font-family: "Vazirmatn", sans-serif;
+}
+
 .blog-header,
 .post-header {
     border-bottom: 1px solid var(--blog-border);

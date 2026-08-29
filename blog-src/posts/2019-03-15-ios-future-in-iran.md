@@ -15,9 +15,14 @@ blogRoot: ..
 tagLinkPrefix: ../../
 ---
 
-![MacBook beside an iPhone](https://images.unsplash.com/photo-1536786506364-50dc273a824f?auto=format&fit=crop&w=1400&q=85)
+![Cozy wooden workspace with a laptop, desk lamp, and plants](https://images.unsplash.com/photo-1524820801657-fd59673fbb05?auto=format&fit=crop&w=1400&q=85)
 
-<p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@altumcode?utm_source=behdaad.me&utm_medium=referral">AltumCode</a> on Unsplash</p>
+<p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@samule?utm_source=behdaad.me&utm_medium=referral">Samule Sun</a> on Unsplash</p>
+
+<aside class="post-notice" role="note" aria-label="هشدار قدیمی بودن نوشته">
+  <span class="post-notice-icon" aria-hidden="true">!</span>
+  <p><strong>این نوشته خیلی قدیمیه.</strong> اطلاعاتش دیگه به‌روز نیست و شرایط امروز رو نشون نمی‌ده.</p>
+</aside>
 
 بعد از این که اپل اکانت خیلی از شرکت‌های ایرانی رو در اقدامی قابل پیش‌بینی بست، خیلی‌ها نگران آینده‌ی این پلتفورم در ایران شدند. بیشتر از همه؟ توسعه‌دهنده‌های iOS.
 

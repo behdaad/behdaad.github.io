@@ -36,7 +36,7 @@ tagLinkPrefix: ../../
 
 با این که به نظر میاد این چهار شعله کاملاً مستقل از هم‌ان و هیچ‌کدوم جای دیگری رو نمی‌تونن بگیرن، اما از دید من شعله‌ی سلامتی اندکی از بقیه مهم‌تره و اگر بهش کم‌توجهی کنید، عملاً ظرفیت کپسول گازتون کم می‌شه و نمی‌تونید بقیه‌ی شعله‌ها رو هم روشن نگه دارید.
 
-آشنایی من با این نظریه از طریق پادکست[Ear Biscuits](https://www.youtube.com/channel/UC8nhd-qEBMmFs-DkhBaQwww)بود که توسط[Rhett & Link](https://www.youtube.com/user/rhettandlink2)، یوتوبرهای مورد علاقه‌م، درست می‌شه. تو اون اپیزود مهمان‌شون Michael Stevens (معروف به[Vsauce](https://www.youtube.com/user/Vsauce)) بود. از 59:21 می‌تونید در این باره گوش بدید:
+آشنایی من با این نظریه از طریق پادکست [Ear Biscuits](https://www.youtube.com/channel/UC8nhd-qEBMmFs-DkhBaQwww) بود که توسط [Rhett & Link](https://www.youtube.com/user/rhettandlink2)، یوتوبرهای مورد علاقه‌م، درست می‌شه. تو اون اپیزود مهمان‌شون Michael Stevens (معروف به [Vsauce](https://www.youtube.com/user/Vsauce)) بود. از 59:21 می‌تونید در این باره گوش بدید:
 
 <p lang="en" dir="ltr">https://youtu.be/ZIzJZrng4Lk?t=3561</p>
 

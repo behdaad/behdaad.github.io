@@ -15,9 +15,9 @@ blogRoot: ..
 tagLinkPrefix: ../../
 ---
 
-![عکس از Loic Leray](https://files.virgool.io/upload/users/934/posts/bpsx0dc60nvp/vbd0tmehajl4.jpeg)
+![Person meditating in a yoga pose](https://images.unsplash.com/photo-1577344718665-3e7c0c1ecf6b?auto=format&fit=crop&w=1400&q=85)
 
-عکس از Loic Leray
+<p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@notquitemax?utm_source=behdaad.me&utm_medium=referral">Max</a> on Unsplash</p>
 
 یکی از نشونه‌های خیلی بارز اضطراب اینه که آدم شب درست به محض این که چراغ رو خاموش می‌کنه و سرش رو می‌ذاره رو بالش یه دفعه تمام افکار جهان به مغزش هجوم میارن. تا همین چند ثانیه پیش که تصمیم بگیره بخوابه هیچ فکری تو سرش نبودا، یه دفعه معلوم نیست چی شد. من دو راه برای ساکت کردن صدای این فکرها می‌شناسم، شما هم امتحان کنید شاید مفید بود:
 

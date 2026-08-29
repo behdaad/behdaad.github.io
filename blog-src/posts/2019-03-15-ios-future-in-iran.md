@@ -15,9 +15,9 @@ blogRoot: ..
 tagLinkPrefix: ../../
 ---
 
-![عکس از Annie Spratt](https://files.virgool.io/upload/users/934/posts/bayqprm1gmjr/7ophuby5zi2b.jpeg)
+![MacBook beside an iPhone](https://unsplash.com/photos/ypLXdUpvpUc/download?force=true)
 
-عکس از Annie Spratt
+<p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@altumcode?utm_source=behdaad.me&utm_medium=referral">AltumCode</a> on Unsplash</p>
 
 بعد از این که اپل اکانت خیلی از شرکت‌های ایرانی رو در اقدامی قابل پیش‌بینی بست، خیلی‌ها نگران آینده‌ی این پلتفورم در ایران شدند. بیشتر از همه؟ توسعه‌دهنده‌های iOS.
 

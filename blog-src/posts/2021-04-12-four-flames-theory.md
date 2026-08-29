@@ -15,9 +15,9 @@ blogRoot: ..
 tagLinkPrefix: ../../
 ---
 
-![عکس از Brandon Cormier](https://files.virgool.io/upload/users/934/posts/bhuk2ur7pcrd/aqrddktbw2fn.jpeg)
+![Balanced stones on a beach](https://images.unsplash.com/photo-1567093418890-58e109505cba?auto=format&fit=crop&w=1400&q=85)
 
-عکس از Brandon Cormier
+<p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@gnomecannon?utm_source=behdaad.me&utm_medium=referral">Taylor Aiello</a> on Unsplash</p>
 
 فعالیت‌هایی یک فرد در زندگی رو می‌شه به چهار شعله تشبیه کرد:
 ۱) خانواده (زن و بچه)

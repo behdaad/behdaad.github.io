@@ -15,7 +15,9 @@ blogRoot: ..
 tagLinkPrefix: ../../
 ---
 
-![](https://files.virgool.io/upload/users/934/posts/rcblindaresh/lsffmmjblirl.png)
+![Person reading a book at a desk](https://images.unsplash.com/photo-1500058899591-f295a8c09b92?auto=format&fit=crop&w=1400&q=85)
+
+<p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@christinhumephoto?utm_source=behdaad.me&utm_medium=referral">Christin Hume</a> on Unsplash</p>
 
 ### **مقدمه**
 

@@ -3,16 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="آینده‌ی iOS در ایران؛ ایرلاین‌ها، اسنپ، چین">
   <meta name="theme-color" content="#fbfcfe" id="theme-color">
-  <title>آینده‌ی iOS در ایران؛ ایرلاین‌‌ها، اسنپ، چین | Behdad Keynejad</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script>
+    (function () {
+      var systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var fallback = systemDark ? "dark" : "light";
+      var preference = fallback;
+
+      try {
+        var stored = localStorage.getItem("blog-theme");
+        if (stored === "light" || stored === "dark" || stored === "auto") {
+          preference = stored;
+        }
+      } catch (error) {
+        preference = fallback;
+      }
+
+      var theme = preference === "auto" ? fallback : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.querySelector("meta[name='theme-color']").setAttribute("content", theme === "dark" ? "#171a1e" : "#fbfcfe");
+    }());
+  </script>
+  <title>آینده‌ی iOS در ایران؛ ایرلاین‌ها، اسنپ، چین | Behdad Keynejad</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/blog.css">
+  <link rel="stylesheet" href="../../css/blog.css?v=3">
   <link rel="icon" type="image/png" href="../../assets/favicon.png">
 </head>
 <body class="blog-page">
-  <nav id="nav">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav id="nav" aria-label="Primary">
     <div class="nav-content">
       <div class="avatar">
         <a href="../../"><img src="../../assets/memoji.png" alt="Behdad Keynejad"></a>
@@ -20,8 +43,8 @@
       <ul class="menu">
         <li><a href="../../">Home</a></li>
         <li><a href="../../about/">About</a></li>
-        <li class="active"><a href="../">Blog</a></li>
-        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
+        <li class="active"><a href="../" aria-current="page">Blog</a></li>
+        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
       </ul>
       <div class="theme-picker">
         <button class="theme-picker-trigger" type="button" aria-expanded="false" aria-haspopup="menu" aria-controls="theme-picker-menu">
@@ -48,18 +71,20 @@
     </div>
   </nav>
 
-  <main class="main blog-main post" dir="rtl">
+
+  <main id="main-content" class="main blog-main post" dir="rtl" tabindex="-1">
 
       <header class="post-header">
         <div class="post-meta">
           <p class="post-date">March 15, 2019</p>
           <ul class="post-tags" aria-label="برچسب‌ها"><li><a href="../../tags/farsi/">فارسی</a></li></ul>
         </div>
-        <h1>آینده‌ی iOS در ایران؛ ایرلاین‌‌ها، اسنپ، چین</h1>
+        <h1>آینده‌ی iOS در ایران؛ ایرلاین‌ها، اسنپ، چین</h1>
 
       </header>
 
-    <p><img src="https://unsplash.com/photos/ypLXdUpvpUc/download?force=true" alt="MacBook beside an iPhone"></p>
+    <div class="post-content">
+      <p><img src="https://images.unsplash.com/photo-1536786506364-50dc273a824f?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="MacBook beside an iPhone"></p>
 <p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@altumcode?utm_source=behdaad.me&utm_medium=referral">AltumCode</a> on Unsplash</p>
 <p>بعد از این که اپل اکانت خیلی از شرکت‌های ایرانی رو در اقدامی قابل پیش‌بینی بست، خیلی‌ها نگران آینده‌ی این پلتفورم در ایران شدند. بیشتر از همه؟ توسعه‌دهنده‌های iOS.</p>
 <p>اجازه بدید برگردیم به شروع ماجرا، یعنی حدود یک سال و نیم پیش، وقتی که اپل به خاطر قوانین تحریم آمریکا علیه ایران، اپلیکیشن‌های کسب‌و‌کارهای ایرانی رو صرفاً به خاطر ایرانی بودن از App Store حذف کرد. طبیعتاً شرکت‌ها به همین سادگی حاضر نبودند که بخش قابل‌توجهی از کاربرهاشون رو از دست بدند. برای همین شروع کردند به گشتن دنبال راه‌حل جایگزین. قبل از این که به ادامه‌ی تاریخچه‌ی iOS در ایران بپردازیم، لازمه کمی درباره‌ی iOS و محدودیت‌هاش توضیح بدیم.</p>
@@ -76,12 +101,16 @@
 <p>تا چند وقت پیش و قبل از این که اپل یک‌شبه کلی اکانت Enterprise رو ببنده، اپل کاری به توسعه‌دهندگانی که از روش Enterprise سوءاستفاده می‌کردند نداشت. به نظر من، این‌طور نبود که اپل ندونه که داره از این روش سوءاستفاده می‌شه، بلکه خودش رو می‌زد به ندیدن. چون بلافاصله پس از نصب یک اپ، iOS به کمک یک Web Service از اپل می‌پرسه که آیا این اپ اجازه‌ی اجرا روی دیوایس رو داره یا نه. (توضیح کمی فنی‌تر: مثلاً این که Provisioning Profile معتبری در اپ هست یا نه.) و اپل خیلی راحت می‌تونه ببینه که از چه بازه‌ی IP داره برای چه اپ‌هایی درخواست میاد. خیلی مشخصه که برای اپ‌های با تعداد کاربر بالا، مثل اسنپ یا دیجی‌کالا، تعداد این ریکوئست‌ها اون‌قدری بالاست که مشخص بشه این اپ‌ها برای استفاده‌ی کارمندان یک شرکت نیستند و عرضه‌ی عمومی شده‌ند. به فرض این که بگیم بستن یک اکانت با این روش ممکنه برای اپل مشکلات قانونی پیش بیاره، باز هم اپل می‌تونست ثبت نام شرکت‌ها رو در این روش بیشتر کنترل کنه یا برای اپ‌های Enterprise هم App Review بذاره، اما هیچ‌کدوم از این کارها رو نکرده. حالا باید دید که چرا اپل چشم خودش رو تا الان روی این موضوع بسته بود.</p>
 <p>بیشتر مخاطبان اپ‌های کرک‌شده در دنیا، کاربران چینی آیفون هستند. همچنین بازار چین برای اپل یک بازار بسیار بزرگ به حساب میاد. چین به قدری برای اپل پول میاره که در سه‌ماهه‌ی اول ۲۰۱۹، به خاطر کاهش فروش آیفون در چین، اپل حدوداً <a href="https://www.apple.com/newsroom/2019/01/letter-from-tim-cook-to-apple-investors/">۷ میلیارد دلار درآمد کمتری از پیش‌بینی‌هاش داشت</a>. ۷ میلیارد دلار. همچنین در چین، مثل ایران، فرهنگ پول دادن برای محتوای پولی وجود نداره. شما تو ایران اگر بگی برای دانلود فلان فیلم پول دادم، اکثر آدمای اطرافتون شما رو مسخره می‌کنن و می‌گن به راحتی می‌تونستید از تورنت یا سایت‌های مختلف به صورت مجانی اون فیلم رو دانلود کنید. (البته سوءبرداشت به بی‌فرهنگی ایرانی‌ها یا چینی‌ها نشه، نکته‌ی مهم فشار قانونی در اروپا به مصرف‌کنندگان محتوای Pirate شده ست که باعث شده این فرهنگ در اروپا وجود نداشته باشه، وگرنه مطمئن باشید اگر در ایران هم برای دانلود محتوای کرک‌شده یک نامه‌ی تهدیدآمیز از پلیس میومد که اگر یه دفعه‌ی دیگه از این چیزا دانلود کنی اینترنتت رو قطع می‌کنیم، تو ایران هم کسی جرئت نمی‌کرد.)</p>
 <p>مطمئناً برای اپل هیچ کاری نداره که جلوی سوءاستفاده از انتشار Enterprise رو بگیره، اما به نظر من با این کار، بخشی از مشتری‌های آیفون رو از دست می‌ده. درسته که اپل به طور رسمی در ایران فعالیت نمی‌کنه، اما بدون شک تا سنت آخر آیفون‌هایی که در ایران به فروش می‌رسن رو می‌شمره و روی فروش‌شون حساب می‌کنه. طبق آمارهای غیررسمی، فروش آیفون تو هفته‌ی بعد از بسته شدن اکانت‌های شرکت‌های ایرانی کاهش قابل‌توجهی داشته. همین موضوع برای بازار چین هم صادقه، منتها در مقیاسی خیلی خیلی وسیع‌تر. سوالی که پیش میاد اینه که پس چرا یک‌باره اپل تصمیم گرفت این اکانت‌ها رو ببنده، چون حدود دو سوم درامد اپل از فروش آیفونه.</p>
-<p>فروش آیفون و آیپد: ۷۰٪ درامد اپل تو سه‌ماهه‌ی اول ۲۰۱۹</p>
+<blockquote>
+<p><strong>فروش آیفون و آیپد: ۷۰٪ درامد اپل تو سه‌ماهه‌ی اول ۲۰۱۹</strong></p>
+</blockquote>
 <p>ماجرا از سوءاستفاده‌ی <a href="https://www.theverge.com/2019/1/30/18203551/apple-facebook-blocked-internal-ios-apps">فیسبوک</a> و <a href="https://www.macrumors.com/2019/01/31/apple-shuts-down-google-internal-apps/">گوگل</a> از این روش شروع شد. هر دو با دادن پول، کاربران رو ترغیب می‌کردند که اپ‌های Enterpriseـی نصب کنند که به خاطر نبودن App Review اقدام به مونیتور کردن ترافیک شبکه می‌کردند. وقتی این موضوع تو اخبار اومد و داغ شد، خبرنگارهای زیادی رفتند دنبال این که ببینند آیا از این روش جای دیگه‌ای هم سوءاستفاده می‌شه یا نه. جای غافل‌گیری نبود که جواب یک کلمه بود: <a href="https://techcrunch.com/2019/02/12/apple-porn-gambling-apps/">چین</a>. اپل هم که تو چند سال اخیر نشون داده نسبت به اخبار خیلی حساسه، یک‌شبه تعداد زیادی اکانت رو بست تا نشون بده این موضوع براش مهمه تا آب‌ها از آسیاب بیفته، این اخبار جذابیتش رو از دست بده و همه‌چی برگرده به روال سابق.</p>
 <p>خلاصه‌ی این داستان‌ها اینه که بستن اکانت‌هایی که از روش Enterprise سوءاستفاده می‌کنن برای اپل خیلی آسونه، جلوگیری از ادامه‌ی فعالیت‌شون هم همین‌طور، اما به نظر من اپل تمایلی به این کار نداره، چون این کار باعث کاهش فروش آیفون می‌شه. در نتیجه پیش‌بینی من اینه که اپل دوباره برمی‌گرده به روالِ سابقِ چشم‌پوشی از سوءاستفاده‌هایی که از روش Enterprise می‌شه و شاید هر چند وقت یک بار، تعدادی اکانت رو ببنده تا نشون بده که این موضوع براش مهمه.</p>
 <hr>
 <p>من بهدادم، تیم لید iOS اسنپ. اگر این‌جور مسائل براتون جذابه رزومه‌تون رو به <a href="https://snapp.recruitee.com/">صفحه‌ی فرصت‌های شغلی اسنپ</a> بفرستید، خوشحال می‌شیم تو تیم‌مون ببینیم‌تون.</p>
 <p>تو توییتر هم می‌تونید پیدام کنید: <a href="https://twitter.com/behdaaad">behdaaad@</a></p>
+
+    </div>
 
   </main>
 
@@ -96,6 +125,6 @@
       </div>
     </div>
   </footer>
-  <script src="../../js/script.js"></script>
+  <script src="../../js/script.js?v=3"></script>
 </body>
 </html>

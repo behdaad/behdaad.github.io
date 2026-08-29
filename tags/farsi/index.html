@@ -1,18 +1,41 @@
 <!doctype html>
-<html id="top" lang="en">
+<html id="top" lang="fa">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="فارسی">
   <meta name="theme-color" content="#fbfcfe" id="theme-color">
-  <title>Tag archive | Behdad Keynejad</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script>
+    (function () {
+      var systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var fallback = systemDark ? "dark" : "light";
+      var preference = fallback;
+
+      try {
+        var stored = localStorage.getItem("blog-theme");
+        if (stored === "light" || stored === "dark" || stored === "auto") {
+          preference = stored;
+        }
+      } catch (error) {
+        preference = fallback;
+      }
+
+      var theme = preference === "auto" ? fallback : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.querySelector("meta[name='theme-color']").setAttribute("content", theme === "dark" ? "#171a1e" : "#fbfcfe");
+    }());
+  </script>
+  <title>فارسی | Behdad Keynejad</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/blog.css">
+  <link rel="stylesheet" href="../../css/blog.css?v=3">
   <link rel="icon" type="image/png" href="../../assets/favicon.png">
 </head>
 <body class="blog-page">
-  <nav id="nav">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav id="nav" aria-label="Primary">
     <div class="nav-content">
       <div class="avatar">
         <a href="../../"><img src="../../assets/memoji.png" alt="Behdad Keynejad"></a>
@@ -20,8 +43,8 @@
       <ul class="menu">
         <li><a href="../../">Home</a></li>
         <li><a href="../../about/">About</a></li>
-        <li class="active"><a href="../../blog/">Blog</a></li>
-        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
+        <li class="active"><a href="../../blog/" aria-current="page">Blog</a></li>
+        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
       </ul>
       <div class="theme-picker">
         <button class="theme-picker-trigger" type="button" aria-expanded="false" aria-haspopup="menu" aria-controls="theme-picker-menu">
@@ -48,15 +71,16 @@
     </div>
   </nav>
 
-  <main class="main blog-main">
+
+  <main id="main-content" class="main blog-main" dir="rtl" tabindex="-1">
 
     <header class="blog-header" dir="rtl" lang="fa">
-  <p class="blog-eyebrow">Tag</p>
+  <p class="blog-eyebrow">برچسب</p>
   <h1>فارسی</h1>
-  <p>Posts tagged فارسی.</p>
+  <p>نوشته‌های دارای برچسب فارسی.</p>
 </header>
 
-<section class="post-list" aria-label="Posts tagged فارسی">
+<section class="post-list" aria-label="نوشته‌های دارای برچسب فارسی">
 
   <article class="post-card" lang="fa" dir="rtl">
     <div class="post-meta">
@@ -93,7 +117,7 @@
       <p class="post-date">March 15, 2019</p>
       <ul class="post-tags" aria-label="برچسب‌ها"><li><a href="../farsi/">فارسی</a></li></ul>
     </div>
-    <h2><a href="../../blog/ios-future-in-iran/">آینده‌ی iOS در ایران؛ ایرلاین‌‌ها، اسنپ، چین</a></h2>
+    <h2><a href="../../blog/ios-future-in-iran/">آینده‌ی iOS در ایران؛ ایرلاین‌ها، اسنپ، چین</a></h2>
 
     <a class="post-link" href="../../blog/ios-future-in-iran/">ادامه مطلب <span aria-hidden="true">←</span></a>
   </article>
@@ -120,6 +144,7 @@
 
 </section>
 
+
   </main>
 
   <footer>
@@ -133,6 +158,6 @@
       </div>
     </div>
   </footer>
-  <script src="../../js/script.js"></script>
+  <script src="../../js/script.js?v=3"></script>
 </body>
 </html>

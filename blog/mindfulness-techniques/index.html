@@ -3,16 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="دو تکنیک ذهن‌آگاهی">
   <meta name="theme-color" content="#fbfcfe" id="theme-color">
+  <script>
+    (function () {
+      var systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var fallback = systemDark ? "dark" : "light";
+      var preference = fallback;
+
+      try {
+        var stored = localStorage.getItem("blog-theme");
+        if (stored === "light" || stored === "dark" || stored === "auto") {
+          preference = stored;
+        }
+      } catch (error) {
+        preference = fallback;
+      }
+
+      var theme = preference === "auto" ? fallback : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.querySelector("meta[name='theme-color']").setAttribute("content", theme === "dark" ? "#171a1e" : "#fbfcfe");
+    }());
+  </script>
   <title>دو تکنیک ذهن‌آگاهی | Behdad Keynejad</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/blog.css">
+  <link rel="stylesheet" href="../../css/blog.css?v=3">
   <link rel="icon" type="image/png" href="../../assets/favicon.png">
 </head>
 <body class="blog-page">
-  <nav id="nav">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav id="nav" aria-label="Primary">
     <div class="nav-content">
       <div class="avatar">
         <a href="../../"><img src="../../assets/memoji.png" alt="Behdad Keynejad"></a>
@@ -20,8 +43,8 @@
       <ul class="menu">
         <li><a href="../../">Home</a></li>
         <li><a href="../../about/">About</a></li>
-        <li class="active"><a href="../">Blog</a></li>
-        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
+        <li class="active"><a href="../" aria-current="page">Blog</a></li>
+        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
       </ul>
       <div class="theme-picker">
         <button class="theme-picker-trigger" type="button" aria-expanded="false" aria-haspopup="menu" aria-controls="theme-picker-menu">
@@ -48,7 +71,8 @@
     </div>
   </nav>
 
-  <main class="main blog-main post" dir="rtl">
+
+  <main id="main-content" class="main blog-main post" dir="rtl" tabindex="-1">
 
       <header class="post-header">
         <div class="post-meta">
@@ -59,17 +83,21 @@
 
       </header>
 
-    <p><img src="https://images.unsplash.com/photo-1577344718665-3e7c0c1ecf6b?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Person meditating in a yoga pose"></p>
+    <div class="post-content">
+      <p><img src="https://images.unsplash.com/photo-1577344718665-3e7c0c1ecf6b?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Person meditating in a yoga pose"></p>
 <p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@notquitemax?utm_source=behdaad.me&utm_medium=referral">Max</a> on Unsplash</p>
 <p>یکی از نشونه‌های خیلی بارز اضطراب اینه که آدم شب درست به محض این که چراغ رو خاموش می‌کنه و سرش رو می‌ذاره رو بالش یه دفعه تمام افکار جهان به مغزش هجوم میارن. تا همین چند ثانیه پیش که تصمیم بگیره بخوابه هیچ فکری تو سرش نبودا، یه دفعه معلوم نیست چی شد. من دو راه برای ساکت کردن صدای این فکرها می‌شناسم، شما هم امتحان کنید شاید مفید بود:</p>
-<p>۱. هر فکری که به ذهن‌تون می‌رسه رو acknowledge کنید. سعی نکنید صدای ذهنتون رو خفه کنید، بلکه بهش بگید که دغدغه‌هاش رو شنیدید، منتها الان فرصت خوبی برای حل اون مشکلات نیست.
-این کار کمک می‌کنه که ذهن‌تون یه کم آروم شه. اضطراب یک مکانیزم تدافعیه و تا وقتی عوامل اضطراب وجود دارن، مغز و بدن در حالت fight or flight باقی می‌مونه. در نتیجه به جای فرار از عامل اضطراب اون رو به رسمیت بشناسید، منتها نذارید تسخیرتون کنه. یک تکنیک رایج برای acknowledge کردن افکار برچسب زدن به اوناست (تکنیک labeling). روش رایج اینه که فکرها رو با لیبل thoughts و احساسات (روحی یا جسمی) با لیبل feelings برچسب بزنید. نیازی نیست افکار رو با لیبل‌های زیاد برچسب بزنید چون مغز آدم مثل فولدر فایل‌سیستم کار نمی‌کنه.</p>
-<p>۲. به جای فکر کردن به مشکلات، به خودتون بگید «امروز روز خوبی بود، چون...» و سعی کنید حداقل سه دلیل برای خوب بودن اون روز بیارید. لازم نیست حتماً دلایل خیلی مهم و بزرگی باشن، حتی چیزهای ساده مثل «امروز یک فیلم خوب دیدم» خیلی به آروم شدن ذهن کمک می‌کنه. اسم این تکنیک gratitude ه که تو مدیتیشن و mindfulness خیلی کمک می‌کنه که ذهن آدم از عوامل اضطرابش دور بشه. سعی کنید به gratitude قبل از خواب عادت کنید و حتی اگر شبی هست که نیازی بهش ندارید، بازم انجامش بدید. حتی در مواقع غیر از قبلِ خواب هم ازش استفاده کنید.</p>
+<ol>
+<li>هر فکری که به ذهن‌تون می‌رسه رو acknowledge کنید. سعی نکنید صدای ذهنتون رو خفه کنید، بلکه بهش بگید که دغدغه‌هاش رو شنیدید، منتها الان فرصت خوبی برای حل اون مشکلات نیست. این کار کمک می‌کنه که ذهن‌تون یه کم آروم شه. اضطراب یک مکانیزم تدافعیه و تا وقتی عوامل اضطراب وجود دارن، مغز و بدن در حالت fight or flight باقی می‌مونه. در نتیجه به جای فرار از عامل اضطراب اون رو به رسمیت بشناسید، منتها نذارید تسخیرتون کنه. یک تکنیک رایج برای acknowledge کردن افکار برچسب زدن به اوناست (تکنیک labeling). روش رایج اینه که فکرها رو با لیبل thoughts و احساسات (روحی یا جسمی) با لیبل feelings برچسب بزنید. نیازی نیست افکار رو با لیبل‌های زیاد برچسب بزنید چون مغز آدم مثل فولدر فایل‌سیستم کار نمی‌کنه.</li>
+<li>به جای فکر کردن به مشکلات، به خودتون بگید «امروز روز خوبی بود، چون...» و سعی کنید حداقل سه دلیل برای خوب بودن اون روز بیارید. لازم نیست حتماً دلایل خیلی مهم و بزرگی باشن، حتی چیزهای ساده مثل «امروز یک فیلم خوب دیدم» خیلی به آروم شدن ذهن کمک می‌کنه. اسم این تکنیک gratitude ه که تو مدیتیشن و mindfulness خیلی کمک می‌کنه که ذهن آدم از عوامل اضطرابش دور بشه. سعی کنید به gratitude قبل از خواب عادت کنید و حتی اگر شبی هست که نیازی بهش ندارید، بازم انجامش بدید. حتی در مواقع غیر از قبلِ خواب هم ازش استفاده کنید.</li>
+</ol>
 <p>من این دو تکنیک رو از اپ Balance یاد گرفتم که می‌تونید از لینک زیر دانلودش کنید. برای کاربرهای جدیدی که اشتراک بخرن هم یک trial یک ساله داره. در نتیجه اگر اشتراک بگیرید و بلافاصله کنسل کنید، یک سال رایگان می‌تونید از نسخه‌ی پرمیوم‌ش استفاده کنید:</p>
-<p lang="en" dir="ltr">balanceapp.com</p>
+<p lang="en" dir="ltr"><a href="https://themindcompany.com/apps/balance">Download Balance</a></p>
 <hr>
 <p>مطالعه‌ی بیشتر درباره‌ی پاسخ جنگ یا گریز:</p>
-<p lang="en" dir="ltr">https://en.wikipedia.org/wiki/Fight-or-flight_response</p>
+<p lang="en" dir="ltr"><a href="https://en.wikipedia.org/wiki/Fight-or-flight_response">Fight-or-flight response on Wikipedia</a></p>
+
+    </div>
 
   </main>
 
@@ -84,6 +112,6 @@
       </div>
     </div>
   </footer>
-  <script src="../../js/script.js"></script>
+  <script src="../../js/script.js?v=3"></script>
 </body>
 </html>

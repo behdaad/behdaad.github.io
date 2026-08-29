@@ -10,7 +10,11 @@ const avatar = document.getElementById('avatar');
 const navigationAvatar = document.getElementById('avatar-nav');
 
 function showBorder() {
-  nav.style.borderBottom = 'solid 2px #edf2f9';
+  if (document.body.classList.contains('blog-page')) {
+    nav.classList.add('is-scrolled');
+  } else {
+    nav.style.borderBottom = 'solid 2px #edf2f9';
+  }
 
   if (nav.classList.contains('background-green')) {
     nav.style.transition = 'background-color 0.2s ease';
@@ -21,7 +25,11 @@ function showBorder() {
 }
 
 function hideBorder() {
-  nav.style.borderBottom = '';
+  if (document.body.classList.contains('blog-page')) {
+    nav.classList.remove('is-scrolled');
+  } else {
+    nav.style.borderBottom = '';
+  }
   if (nav.classList.contains('background-green')) {
     nav.style.backgroundColor = '';
   }
@@ -77,6 +85,8 @@ document.addEventListener('scroll', function (e) {
   }
 });
 
+handleScroll(window.scrollY);
+
 const year = document.getElementById("year");
 
 if (year) {
@@ -102,6 +112,8 @@ if (themePicker) {
     document.documentElement.dataset.themePreference = preference;
     document.querySelector("meta[name='theme-color']").setAttribute("content", theme === "dark" ? "#171a1e" : "#fbfcfe");
     themePicker.querySelector(".theme-picker-icon").innerHTML = themeIcons[preference];
+    trigger.setAttribute("aria-label", "Color theme: " + preference + ". Choose color theme");
+    themePicker.querySelector(".sr-only").textContent = "Color theme: " + preference + ". Choose color theme";
     choices.forEach(function (choice) {
       choice.setAttribute("aria-checked", String(choice.dataset.themeChoice === preference));
     });
@@ -112,7 +124,8 @@ if (themePicker) {
     trigger.setAttribute("aria-expanded", "false");
   }
 
-  const savedTheme = localStorage.getItem("blog-theme") || (systemTheme.matches ? "dark" : "light");
+  const initialPreference = document.documentElement.dataset.themePreference;
+  const savedTheme = ["light", "auto", "dark"].includes(initialPreference) ? initialPreference : (systemTheme.matches ? "dark" : "light");
   applyTheme(savedTheme);
 
   trigger.addEventListener("click", function () {
@@ -127,7 +140,11 @@ if (themePicker) {
   choices.forEach(function (choice) {
     choice.addEventListener("click", function () {
       const preference = choice.dataset.themeChoice;
-      localStorage.setItem("blog-theme", preference);
+      try {
+        localStorage.setItem("blog-theme", preference);
+      } catch (error) {
+        // The theme still applies for this visit when storage is unavailable.
+      }
       applyTheme(preference);
       closeMenu();
       trigger.focus();
@@ -141,10 +158,30 @@ if (themePicker) {
   });
 
   document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
+    if (event.key === "Escape" && !menu.hidden) {
       closeMenu();
       trigger.focus();
     }
+  });
+
+  menu.addEventListener("keydown", function (event) {
+    const currentIndex = choices.indexOf(document.activeElement);
+    let nextIndex = currentIndex;
+
+    if (event.key === "ArrowDown" || event.key === "ArrowRight") {
+      nextIndex = (currentIndex + 1) % choices.length;
+    } else if (event.key === "ArrowUp" || event.key === "ArrowLeft") {
+      nextIndex = (currentIndex - 1 + choices.length) % choices.length;
+    } else if (event.key === "Home") {
+      nextIndex = 0;
+    } else if (event.key === "End") {
+      nextIndex = choices.length - 1;
+    } else {
+      return;
+    }
+
+    event.preventDefault();
+    choices[nextIndex].focus();
   });
 
   systemTheme.addEventListener("change", function () {

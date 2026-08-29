@@ -1,18 +1,41 @@
 <!doctype html>
-<html id="top" lang="{{ lang | default('en') }}">
+<html id="top" lang="{{ archive.lang | default(lang) | default('en') }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="{{ description | default(archive.name) | default(title) }}">
   <meta name="theme-color" content="#fbfcfe" id="theme-color">
-  <title>{{ title }} | Behdad Keynejad</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script>
+    (function () {
+      var systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var fallback = systemDark ? "dark" : "light";
+      var preference = fallback;
+
+      try {
+        var stored = localStorage.getItem("blog-theme");
+        if (stored === "light" || stored === "dark" || stored === "auto") {
+          preference = stored;
+        }
+      } catch (error) {
+        preference = fallback;
+      }
+
+      var theme = preference === "auto" ? fallback : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.querySelector("meta[name='theme-color']").setAttribute("content", theme === "dark" ? "#171a1e" : "#fbfcfe");
+    }());
+  </script>
+  <title>{{ archive.name | default(title) }} | Behdad Keynejad</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ relativeRoot }}/css/style.css">
-  <link rel="stylesheet" href="{{ relativeRoot }}/css/blog.css">
+  <link rel="stylesheet" href="{{ relativeRoot }}/css/blog.css?v=3">
   <link rel="icon" type="image/png" href="{{ relativeRoot }}/assets/favicon.png">
 </head>
 <body class="blog-page">
-  <nav id="nav">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav id="nav" aria-label="Primary">
     <div class="nav-content">
       <div class="avatar">
         <a href="{{ relativeRoot }}/"><img src="{{ relativeRoot }}/assets/memoji.png" alt="Behdad Keynejad"></a>
@@ -20,8 +43,8 @@
       <ul class="menu">
         <li><a href="{{ relativeRoot }}/">Home</a></li>
         <li><a href="{{ relativeRoot }}/about/">About</a></li>
-        <li class="active"><a href="{{ blogRoot }}/">Blog</a></li>
-        <li><a href="{{ relativeRoot }}/resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
+        <li class="active"><a href="{{ blogRoot }}/" aria-current="page">Blog</a></li>
+        <li><a href="{{ relativeRoot }}/resume/Behdad-Keynejad-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
       </ul>
       <div class="theme-picker">
         <button class="theme-picker-trigger" type="button" aria-expanded="false" aria-haspopup="menu" aria-controls="theme-picker-menu">
@@ -48,7 +71,8 @@
     </div>
   </nav>
 
-  <main class="main blog-main{% if pageClass %} {{ pageClass }}{% endif %}"{% if direction %} dir="{{ direction }}"{% endif %}>
+{% set contentDirection = archive.direction | default(direction) %}
+  <main id="main-content" class="main blog-main{% if pageClass %} {{ pageClass }}{% endif %}"{% if contentDirection %} dir="{{ contentDirection }}"{% endif %} tabindex="-1">
 {% if pageClass === "post" %}
       <header class="post-header">
         <div class="post-meta">
@@ -60,7 +84,11 @@
 {% endif %}
       </header>
 {% endif %}
-    {{ content | safe }}
+{% if pageClass === "post" %}    <div class="post-content">
+      {{ content | safe }}
+    </div>
+{% else %}    {{ content | safe }}
+{% endif %}
   </main>
 
   <footer>
@@ -74,6 +102,6 @@
       </div>
     </div>
   </footer>
-  <script src="{{ relativeRoot }}/js/script.js"></script>
+  <script src="{{ relativeRoot }}/js/script.js?v=3"></script>
 </body>
 </html>

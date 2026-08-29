@@ -3,16 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="آنچه که از مطالعه برای کنکور ارشد فهمیدم">
   <meta name="theme-color" content="#fbfcfe" id="theme-color">
+  <script>
+    (function () {
+      var systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var fallback = systemDark ? "dark" : "light";
+      var preference = fallback;
+
+      try {
+        var stored = localStorage.getItem("blog-theme");
+        if (stored === "light" || stored === "dark" || stored === "auto") {
+          preference = stored;
+        }
+      } catch (error) {
+        preference = fallback;
+      }
+
+      var theme = preference === "auto" ? fallback : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.querySelector("meta[name='theme-color']").setAttribute("content", theme === "dark" ? "#171a1e" : "#fbfcfe");
+    }());
+  </script>
   <title>آنچه که از مطالعه برای کنکور ارشد فهمیدم | Behdad Keynejad</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/blog.css">
+  <link rel="stylesheet" href="../../css/blog.css?v=3">
   <link rel="icon" type="image/png" href="../../assets/favicon.png">
 </head>
 <body class="blog-page">
-  <nav id="nav">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav id="nav" aria-label="Primary">
     <div class="nav-content">
       <div class="avatar">
         <a href="../../"><img src="../../assets/memoji.png" alt="Behdad Keynejad"></a>
@@ -20,8 +43,8 @@
       <ul class="menu">
         <li><a href="../../">Home</a></li>
         <li><a href="../../about/">About</a></li>
-        <li class="active"><a href="../">Blog</a></li>
-        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
+        <li class="active"><a href="../" aria-current="page">Blog</a></li>
+        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
       </ul>
       <div class="theme-picker">
         <button class="theme-picker-trigger" type="button" aria-expanded="false" aria-haspopup="menu" aria-controls="theme-picker-menu">
@@ -48,7 +71,8 @@
     </div>
   </nav>
 
-  <main class="main blog-main post" dir="rtl">
+
+  <main id="main-content" class="main blog-main post" dir="rtl" tabindex="-1">
 
       <header class="post-header">
         <div class="post-meta">
@@ -59,15 +83,18 @@
 
       </header>
 
-    <p><img src="https://images.unsplash.com/photo-1500058899591-f295a8c09b92?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Person reading a book at a desk"></p>
+    <div class="post-content">
+      <p><img src="https://images.unsplash.com/photo-1500058899591-f295a8c09b92?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Person reading a book at a desk"></p>
 <p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@christinhumephoto?utm_source=behdaad.me&utm_medium=referral">Christin Hume</a> on Unsplash</p>
-<h3><strong>مقدمه</strong></h3>
+<h2>مقدمه</h2>
 <p>گرایش من در دوره‌ی کارشناسی، مهندسی سخت‌افزار بود. اتفاقاً با علاقه هم این گرایش رو انتخاب کردم و شش ترم با علاقه‌ی تمام، دروس سخت‌افزاری رو با نمرات نسبتاً خوب گذروندم، ولی احساس کردم که یک مهندس سخت‌افزار، خیلی از مخاطب کارهاش دوره. بنابراین تصمیم گرفتم کمی در حوزه‌ی نرم‌افزار فعالیت کنم و خب روزبه‌روز به این گرایش بیشتر علاقه‌مند شدم. سال چهارم سعی کردم درس‌های مرتبط‌تر با نرم‌افزار رو بگذرونم و بعد از اون هم یک سال از دانشگاه مرخصی گرفتم و مشغول به کار شدم و فهمیدم که این کاریه که حاضرم هر روز انجامش بدم. بعد از اتمام دوره‌ی مرخصی و برگشتن به دانشگاه، سعی کردم در کنار کار کردن (که حالا تبدیل به علاقه‌ی اولم شده و دیگه علاقه‌ی خاصی به تحصیل در من باقی نمونده بود)، درس‌های مربوط به گرایش نرم‌افزار رو هم بگذرونم تا علاوه بر مهارتی که به دست آورده بودم، به لحاظ تئوری و علمی هم پیشرفت کنم.</p>
 <p>این موضوع ختم شد به شرکت در کنکور ارشد و منی که تصمیم داشتم گرایش مهندسی نرم‌افزار رو انتخاب کنم. طبیعتاً کار من از اکثر رقیبانم سخت‌تر بود، چون درس‌های تخصصی نرم‌افزار رو نگذرونده بودم و در مورد بعضی‌هاش (مثل طراحی دیتابیس) تقریباً هیچ ایده‌ای نداشتم.</p>
-<h3><strong>یک هفته مطالعه برای کنکور ارشد</strong></h3>
+<h2>یک هفته مطالعه برای کنکور ارشد</h2>
 <p>اون چیزی که من از یک هفته مطالعه برای کنکور ارشد فهمیدم، این بود که کل مباحث تئوری دوره‌ی کارشناسی رو (حداقل به شکلی که وزارت علوم تصویب کرده، که خب درسته که خیلی به‌روز نیست، ولی اون‌قدرا هم پرت و پلا نیست) تو مدتی خیلی کمتر از ۴ سال می‌شه خوند. چقدر کمتر؟ مثلاً در عرض سه ماه. البته این به این معنی نیست که کسی که از دبیرستان فارغ‌التحصیل شده، می‌تونه ظرف سه ماه به اندازه‌ی یک فارغ‌التحصیل دوره‌ی کارشناسی علم کسب کنه، چون‌که اتفاقی که در خلال تحصیل می‌افته، کسب یک دید کلی نسبت به اون حوزه ست. مثلاً کسی که ۴ سال کار برنامه‌نویسی کرده، قطعاً راحت‌تر می‌تونه تئوری کامپایلر رو یاد بگیره تا کسی که به تازگی از دبیرستان فارغ‌التحصیل شده. ولی با همه‌ی این حرف‌ها، اون دانشی که از یک فارغ‌التحصیل انتظار می‌ره، در مدتی خیلی کمتر از ۴-۵ سال قابل به دست آوردنه. تخمین من زمانی نزدیک به ۲ الی ۳ ساله. به عنوان یک نمونه‌ی واقعی، منی که مطلقاً دیدی نسبت به طراحی دیتابیس نداشتم (تمام آشنایی من با دیتابیس یک سری دستور ساده‌ی SQL بود!) تونستم ظرف ۳ روز و با مطالعه‌ی خلاصه‌ی درس، دید نسبتاً کاملی به موضوع پیدا کنم و در کنکور هم سوالات رو جواب بدم.</p>
-<h3><strong>یعنی چی؟</strong></h3>
+<h2>یعنی چی؟</h2>
 <p><strong>یعنی این که اگر هنوز دانشجوی کارشناسی هستید، یادتون باشه که اگر بعد از فارغ‌التحصیلی، فقط چیزهایی که تو دانشگاه بهتون یاد داده‌ن رو بلدید، ۱-۲ سال از عمرتون رو تلف کرده‌ید.</strong> دوره‌ی کارشناسی وقت بسیار خوبیه برای این که شروع کنید به یادگیری و کسب مهارت‌هایی که بعداً شما رو از هم‌ردیفان خودتون -در هر زمینه‌ای- متمایز کنه. شما نمی‌دونید که مهارت‌هاتون چه موقع ممکنه تو زندگی به کارتون بیان، مثلاً ممکنه توانایی‌تون در <a href="https://www.buzzfeed.com/jaimieetkin/21-things-you-didnt-know-about-friends-according-to-gunther?utm_term=.auxnV36Wk#.elnYMk0Do">کار با ماشین اسپرسو‌ساز</a> باعث شه شما تو یکی از پربیننده‌ترین سریال‌های تاریخ تلویزیون بازیگر بشید.</p>
+
+    </div>
 
   </main>
 
@@ -82,6 +109,6 @@
       </div>
     </div>
   </footer>
-  <script src="../../js/script.js"></script>
+  <script src="../../js/script.js?v=3"></script>
 </body>
 </html>

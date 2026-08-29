@@ -3,16 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="نظریه‌ی چهار شعله یا «چگونه هم کار کنیم هم زندگی کنیم»">
   <meta name="theme-color" content="#fbfcfe" id="theme-color">
+  <script>
+    (function () {
+      var systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var fallback = systemDark ? "dark" : "light";
+      var preference = fallback;
+
+      try {
+        var stored = localStorage.getItem("blog-theme");
+        if (stored === "light" || stored === "dark" || stored === "auto") {
+          preference = stored;
+        }
+      } catch (error) {
+        preference = fallback;
+      }
+
+      var theme = preference === "auto" ? fallback : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.querySelector("meta[name='theme-color']").setAttribute("content", theme === "dark" ? "#171a1e" : "#fbfcfe");
+    }());
+  </script>
   <title>نظریه‌ی چهار شعله یا «چگونه هم کار کنیم هم زندگی کنیم» | Behdad Keynejad</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/blog.css">
+  <link rel="stylesheet" href="../../css/blog.css?v=3">
   <link rel="icon" type="image/png" href="../../assets/favicon.png">
 </head>
 <body class="blog-page">
-  <nav id="nav">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav id="nav" aria-label="Primary">
     <div class="nav-content">
       <div class="avatar">
         <a href="../../"><img src="../../assets/memoji.png" alt="Behdad Keynejad"></a>
@@ -20,8 +43,8 @@
       <ul class="menu">
         <li><a href="../../">Home</a></li>
         <li><a href="../../about/">About</a></li>
-        <li class="active"><a href="../">Blog</a></li>
-        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
+        <li class="active"><a href="../" aria-current="page">Blog</a></li>
+        <li><a href="../../resume/Behdad-Keynejad-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
       </ul>
       <div class="theme-picker">
         <button class="theme-picker-trigger" type="button" aria-expanded="false" aria-haspopup="menu" aria-controls="theme-picker-menu">
@@ -48,7 +71,8 @@
     </div>
   </nav>
 
-  <main class="main blog-main post" dir="rtl">
+
+  <main id="main-content" class="main blog-main post" dir="rtl" tabindex="-1">
 
       <header class="post-header">
         <div class="post-meta">
@@ -59,14 +83,17 @@
 
       </header>
 
-    <p><img src="https://images.unsplash.com/photo-1567093418890-58e109505cba?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Balanced stones on a beach"></p>
+    <div class="post-content">
+      <p><img src="https://images.unsplash.com/photo-1567093418890-58e109505cba?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Balanced stones on a beach"></p>
 <p lang="en" dir="ltr">Photo by <a href="https://unsplash.com/@gnomecannon?utm_source=behdaad.me&utm_medium=referral">Taylor Aiello</a> on Unsplash</p>
-<p>فعالیت‌هایی یک فرد در زندگی رو می‌شه به چهار شعله تشبیه کرد:
-۱) خانواده (زن و بچه)
-۲) دوستان (تفریح)
-۳) کار (پول)
-۴) سلامتی
-و خودِ فرد، یک منبع محدود گاز. در نتیجه مجموع گازی که به شعله‌ها می‌رسه ثابته و فرد فقط می‌تونه نسبت شعله‌ها رو تنظیم کنه.</p>
+<p>فعالیت‌هایی یک فرد در زندگی رو می‌شه به چهار شعله تشبیه کرد:</p>
+<ol>
+<li>خانواده (زن و بچه)</li>
+<li>دوستان (تفریح)</li>
+<li>کار (پول)</li>
+<li>سلامتی</li>
+</ol>
+<p>و خودِ فرد، یک منبع محدود گاز. در نتیجه مجموع گازی که به شعله‌ها می‌رسه ثابته و فرد فقط می‌تونه نسبت شعله‌ها رو تنظیم کنه.</p>
 <p>و باوری وجود داره که کسی نمی‌تونه بیشتر از دو تا از این چهار شعله رو بالا نگه داره. معمولاً اولین واکنش آدم وقتی با این حقیقت روبه‌رو می‌شه، اینه که دنبال راه دور زدن می‌گرده. «اگر مربی ورزش بشم، شعله‌ی کار و سلامتی یکی می‌شه» ولی آدم خودش رو نمی‌تونه گول بزنه. اگر شما به هدف ضبط ویدیو (و نتیجتاً پول درآوردن) ورزش کنی، همچنان شعله‌ی سلامتی رو پایین نگه داشتی. اگر فقط برای سلامتی خودت ورزش کنی، نمی‌تونی پول معنی‌داری از کارت دربیاری. در نتیجه به جای دور زدن، بهتره آدم اولویت‌هاش رو برای خودش مشخص کنه.</p>
 <p>البته این به این معنا نیست که شما باید جایی در زندگی اولویت‌هاتون رو مشخص کنید و تا آخر عمر به همون‌ها بچسبید؛ بلکه من معتقدم هر کسی در هر بازه‌ای از زندگی باید اولویت‌هاش رو بازنگری کنه و مطمئن باشه که در مسیر بیشینه کردن خوشحالی‌ش داره حرکت می‌کنه. و دقیقاً نکته‌ی مهم همینه: تعریف خوشحالی در هر لحظه برای هر کسی متفاوته. من در بازه‌هایی از زندگی‌م فکر می‌کردم اگر در عمرم کاری که جهان رو تغییر نده انجام ندم بیهوده خواهم مرد؛ اتلاف اکسیژن. ولی در حال حاضر چنین عقیده‌ای ندارم و بیشتر تلاش می‌کنم اطرافیانم رو خوشحال کنم.</p>
 <p>در بازه‌هایی از زندگیم فکر می‌کردم عمر کوتاه و پر از خوشی بهتر از عمر طولانی و زندگی آرام و کم‌دغدغه ست. الان برعکس فکر می‌کنم. و کاملاً محتمله که به هر دلیلی در هر لحظه‌ای از زندگیم دوباره برگردم به همون عقاید قبلی که در حال حاضر به نظرم مسخره میان.</p>
@@ -75,6 +102,8 @@
 <p lang="en" dir="ltr"><a href="https://youtu.be/ZIzJZrng4Lk?t=3561">Listen on YouTube from 59:21</a></p>
 <p>برای مطالعه‌ی بیشتر:</p>
 <p lang="en" dir="ltr"><a href="https://jamesclear.com/four-burners-theory">The Downside of Work-Life Balance by James Clear</a></p>
+
+    </div>
 
   </main>
 
@@ -89,6 +118,6 @@
       </div>
     </div>
   </footer>
-  <script src="../../js/script.js"></script>
+  <script src="../../js/script.js?v=3"></script>
 </body>
 </html>

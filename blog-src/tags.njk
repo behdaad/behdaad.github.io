@@ -10,12 +10,12 @@ pagination:
 permalink: "/tags/{{ archive.slug }}/"
 ---
 <header class="blog-header"{% if archive.direction %} dir="{{ archive.direction }}"{% endif %}{% if archive.lang %} lang="{{ archive.lang }}"{% endif %}>
-  <p class="blog-eyebrow">Tag</p>
+  <p class="blog-eyebrow">{% if archive.lang === "fa" %}برچسب{% else %}Tag{% endif %}</p>
   <h1>{{ archive.name }}</h1>
-  <p>Posts tagged {{ archive.name }}.</p>
+  <p>{% if archive.lang === "fa" %}نوشته‌های دارای برچسب {{ archive.name }}.{% else %}Posts tagged {{ archive.name }}.{% endif %}</p>
 </header>
 
-<section class="post-list" aria-label="Posts tagged {{ archive.name }}">
+<section class="post-list" aria-label="{% if archive.lang === 'fa' %}نوشته‌های دارای برچسب {{ archive.name }}{% else %}Posts tagged {{ archive.name }}{% endif %}">
 {% for post in archive.posts %}
   <article class="post-card"{% if post.data.lang %} lang="{{ post.data.lang }}"{% endif %}{% if post.data.direction %} dir="{{ post.data.direction }}"{% endif %}>
     <div class="post-meta">

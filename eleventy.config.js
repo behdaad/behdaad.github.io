@@ -44,6 +44,35 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addTransform("external-links-new-tab", function (content) {
+    if (!this.page.outputPath || !this.page.outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    return content.replace(/<a\b([^>]*\bhref=(["'])https?:\/\/[^"']+\2[^>]*)>/gi, function (match, attributes) {
+      let updatedAttributes = attributes;
+
+      if (/\btarget=(["'])[^"']*\1/i.test(updatedAttributes)) {
+        updatedAttributes = updatedAttributes.replace(/\btarget=(["'])[^"']*\1/i, 'target="_blank"');
+      } else {
+        updatedAttributes += ' target="_blank"';
+      }
+
+      if (/\brel=(["'])[^"']*\1/i.test(updatedAttributes)) {
+        updatedAttributes = updatedAttributes.replace(/\brel=(["'])([^"']*)\1/i, function (relMatch, quote, relValue) {
+          const relTokens = new Set(relValue.split(/\s+/).filter(Boolean));
+          relTokens.add("noopener");
+          relTokens.add("noreferrer");
+          return `rel="${Array.from(relTokens).join(" ")}"`;
+        });
+      } else {
+        updatedAttributes += ' rel="noopener noreferrer"';
+      }
+
+      return `<a${updatedAttributes}>`;
+    });
+  });
+
   return {
     dir: {
       input: "blog-src",

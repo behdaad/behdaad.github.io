@@ -1,22 +1,12 @@
-<!doctype html>
-<html id="top" lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#212121" />
-    <title>Snapp! Super App | Behdad Keynejad</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/works.css">
-    <link rel="icon" type="image/png" href="../assets/favicon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.png">
-</head>
-
-<body class="passenger">
-<div class="work-container">
+---
+permalink: snapp/index.html
+pageTitle: "Snapp! Super App | Behdad Keynejad"
+themeColor: "#212121"
+bodyClass: "passenger"
+navClass: "background-green"
+---
+{% include "work-shell-start.njk" -%}
+    <div class="work-container">
         <div class="work-header">
             <h1>
                 Snapp<span class="exclamation">!</span><br>
@@ -26,22 +16,9 @@
         </div>
     </div>
 
-    <nav id="nav" class="background-green">
-        <div class="nav-content">
-            <div class="avatar">
-                <a href="..">
-                    <img src="../assets/memoji.png" alt="My Memoji" />
-                </a>
-            </div>
-            <ul class="menu">
-                <li><a href="..">Home</a></li>
-                <li><a href="../about">About</a></li>
-                <li><a href="../blog/">Blog</a></li>
-                <li><a href="../resume/Behdad-Keynejad-Resume.pdf" target="_blank">Resume</a></li>
-            </ul>
-        </div>
-    </nav>
-<main>
+{% include "work-nav.njk" -%}
+
+    <main>
         <!-- 1. Introduction -->
         <div class="back-white">
             <article class="work-article">
@@ -217,26 +194,5 @@
             </article>
         </div>
     </main>
-    <footer>
-        <div class="footer-content">
-            <div>© <span id="year"></span> Behdad Keynejad</div>
-            <div class="padding"></div>
-            <div class="social">
-                <a href="mailto:hi@behdaad.me" target="_blank"><img src="../assets/icons/mail.svg" alt="mail" /></a>
-                <a href="https://www.linkedin.com/in/behdaad" target="_blank"><img src="../assets/icons/linkedin.svg" alt="linkedin" /></a>
-                <a href="https://github.com/behdaad" target="_blank"><img src="../assets/icons/github.svg" alt="github" /></a>
-            </div>
-        </div>
-        <a class="top-link" href="#top">
-            <div class="arrow">
-                <div></div>
-                <div></div>
-            </div>
-            <div class="link">Top</div>
-        </a>
-    </footer>
-
-    <script src="../js/script.js"></script>
-</body>
-
-</html>
+{% include "work-footer.njk" %}
+{% include "work-shell-end.njk" -%}

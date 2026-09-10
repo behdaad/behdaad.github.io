@@ -3,9 +3,12 @@
   "private": true,
   "scripts": {
     "build:blog": "eleventy --config=eleventy.config.js",
-    "serve:blog": "eleventy --serve --config=eleventy.config.js"
+    "serve:blog": "eleventy --serve --config=eleventy.config.js",
+    "test:visual": "playwright test",
+    "test:visual:update": "playwright test --update-snapshots"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "@playwright/test": "^1.63.0"
   }
 }

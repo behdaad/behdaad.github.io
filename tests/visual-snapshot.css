@@ -1,0 +1,12 @@
+/* Keep snapshots stable across calendar years and interaction states. */
+#year {
+  visibility: hidden !important;
+}
+
+*,
+*::before,
+*::after {
+  animation: none !important;
+  caret-color: transparent !important;
+  transition: none !important;
+}

@@ -2,8 +2,11 @@
   "name": "behdaad-github-io",
   "private": true,
   "scripts": {
+    "build": "npm run build:blog && npm run build:portfolio",
     "build:blog": "eleventy --config=eleventy.config.js",
+    "build:portfolio": "eleventy --config=portfolio.eleventy.config.js",
     "serve:blog": "eleventy --serve --config=eleventy.config.js",
+    "serve:portfolio": "eleventy --serve --config=portfolio.eleventy.config.js",
     "test:visual": "playwright test",
     "test:visual:update": "playwright test --update-snapshots"
   },

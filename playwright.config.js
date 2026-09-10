@@ -8,7 +8,7 @@ module.exports = defineConfig({
     ["list"],
     ["html", { open: "never" }]
   ],
-  snapshotPathTemplate: "{testDir}/__snapshots__/{projectName}/{arg}{ext}",
+  snapshotPathTemplate: "{testDir}/__snapshots__/{platform}/{projectName}/{arg}{ext}",
   expect: {
     toHaveScreenshot: {
       animations: "disabled",

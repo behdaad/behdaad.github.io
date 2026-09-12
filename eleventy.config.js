@@ -12,6 +12,19 @@ module.exports = function (eleventyConfig) {
     }).format(date);
   });
 
+  eleventyConfig.addFilter("dateToRfc822", function (date) {
+    return new Date(date).toUTCString();
+  });
+
+  eleventyConfig.addFilter("xmlEscape", function (value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/\"/g, "&quot;")
+      .replace(/'/g, "&apos;");
+  });
+
   eleventyConfig.addCollection("post", function (collectionApi) {
     return collectionApi.getFilteredByGlob("blog-src/posts/*.md").reverse();
   });

@@ -46,6 +46,9 @@ Run this locally after writing or editing a post:
 npm run build:blog
 ```
 
+The build also updates the RSS feed at `blog/feed.xml`. Blog pages advertise
+this feed to browsers and feed readers with an RSS discovery link.
+
 Commit the Markdown source, generated files in `blog/`, and any new assets. On the server, publishing remains:
 
 ```sh

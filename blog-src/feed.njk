@@ -1,0 +1,22 @@
+---
+permalink: "/blog/feed.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Behdad Keynejad's blog</title>
+    <link>https://behdaad.me/blog/</link>
+    <description>Notes on building products, technology, and whatever else holds my attention.</description>
+    <language>en</language>
+    <atom:link href="https://behdaad.me/blog/feed.xml" rel="self" type="application/rss+xml" />
+{% if collections.post.length %}    <lastBuildDate>{{ collections.post[0].date | dateToRfc822 }}</lastBuildDate>
+{% endif %}{% for post in collections.post %}    <item>
+      <title>{{ post.data.title | xmlEscape | safe }}</title>
+      <link>https://behdaad.me{{ post.url }}</link>
+      <guid isPermaLink="true">https://behdaad.me{{ post.url }}</guid>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <description>{{ post.templateContent | xmlEscape | safe }}</description>
+    </item>
+{% endfor %}  </channel>
+</rss>

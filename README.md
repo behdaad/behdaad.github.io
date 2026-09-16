@@ -50,7 +50,7 @@ npm run test:visual:update # re-record visual snapshots for this OS
    pageClass: post
    relativeRoot: ../..
    blogRoot: ..
-   tagLinkPrefix: ../
+   tagLinkPrefix: ../../
    ---
 
    Post content goes here.

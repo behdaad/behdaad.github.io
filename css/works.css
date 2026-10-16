@@ -61,6 +61,107 @@ nav {
     background-color: #F3F9F8;
 }
 
+.booking-project .work-container {
+    color: white;
+    background: linear-gradient(145deg, #003b95, #0057b8);
+}
+
+.booking-header {
+    min-height: 520px;
+    padding: 76px 32px 56px;
+}
+
+.work-header.booking-header h1 {
+    max-width: 620px;
+    padding-top: 18px;
+    font-size: 42px;
+    line-height: 1.15;
+}
+
+.booking-brand {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.comparison-preview {
+    display: flex;
+    gap: 14px;
+    max-width: 760px;
+    margin: 44px auto 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.comparison-card {
+    display: flex;
+    flex: 1;
+    max-width: 220px;
+    min-height: 170px;
+    padding: 14px;
+    flex-direction: column;
+    gap: 8px;
+    color: #212121;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 12px 32px rgba(0, 27, 68, 0.24);
+}
+
+.comparison-card-featured {
+    transform: translateY(-12px);
+}
+
+.comparison-photo {
+    height: 82px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #dbeaff, #edf5ff);
+}
+
+.comparison-card strong {
+    font-size: 13px;
+}
+
+.comparison-card > span:last-child {
+    color: #6b6b6b;
+    font-size: 11px;
+}
+
+.case-study-label {
+    margin-bottom: 8px;
+    color: #0057b8;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.portfolio-placeholder {
+    display: flex;
+    min-height: 280px;
+    margin: 40px 0 48px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+    color: #59636e;
+    border: 2px dashed #c6d7ec;
+    border-radius: 14px;
+    background: #f7faff;
+}
+
+.portfolio-placeholder span {
+    font-weight: 700;
+}
+
+.portfolio-placeholder small {
+    color: #8a96a3;
+}
+
+.case-study-draft {
+    padding-bottom: 64px;
+}
+
 .work-header h1 {
     padding-top: 76px;
     margin: 0 auto;
@@ -319,6 +420,35 @@ footer {
     main img {
         padding-right: 32px;
         padding-left: 32px;
+    }
+
+    .booking-header h1 {
+        font-size: 34px;
+    }
+
+    .comparison-preview {
+        gap: 8px;
+    }
+
+    .comparison-card {
+        min-width: 0;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .booking-header {
+        min-height: 470px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .booking-header h1 {
+        font-size: 30px;
+    }
+
+    .comparison-card:last-child {
+        display: none;
     }
 }
 

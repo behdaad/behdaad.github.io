@@ -99,6 +99,32 @@ header > div {
     flex-basis: 293px;
 }
 
+.booking-sample {
+    background-color: rgba(0, 59, 149, 0.06);
+}
+
+.booking-preview {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 531px;
+    min-height: 230px;
+    padding: 28px;
+    margin-right: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #003b95;
+}
+
+.booking-preview span {
+    width: 28%;
+    height: 148px;
+    border-radius: 10px;
+    background: linear-gradient(#b9d8ff 0 42%, #fff 42% 100%);
+    box-shadow: 0 8px 20px rgba(0, 27, 68, 0.2);
+}
+
 .work-sample .arrow {
     margin-left: 8px;
 }
@@ -176,6 +202,10 @@ header > div {
 @media only screen and (max-width: 823px) {
     header > div {
         margin-top: 32px;
+    }
+
+    .booking-preview {
+        margin-right: 0;
     }
 }
 

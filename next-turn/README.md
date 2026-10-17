@@ -18,10 +18,9 @@ The 13 game records, original 22-game play log and source links are in `data.js`
 
 - Browse five established matches, four upcoming launches/retail arrivals, a recent-release Essen demo bonus, and three different strategic experiments.
 - Filter by player count, maximum full-game duration, BGG complexity, randomness and confirmed demos. Unknown complexity is excluded by an active maximum filter. Dune's six-player team mode is supported; five players is excluded.
-- Select up to three games to compare. Two selections enable the comparison button.
-- Use + to save games to your shortlist. Add notes and mark demos as played in Your shortlist. Export the notebook as Markdown, or print it to PDF.
+- Select up to three games to compare side by side. Two selections enable the comparison button. On narrow screens, scroll the comparison table horizontally.
 
-Notes are stored only in this browser's local storage. File URLs and localhost are separate storage origins, and some browsers restrict storage for local files. Export your notebook for a portable copy. Photos and core functionality are local; optional Google web fonts and outbound links need internet. System fonts provide an offline fallback.
+Photos and core functionality are local; optional Google web fonts and outbound links need internet. System fonts provide an offline fallback.
 
 ## Research limits
 

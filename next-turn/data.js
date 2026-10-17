@@ -285,6 +285,26 @@ window.FIELD_GUIDE = {
           "label": "BGG ratings",
           "url": "https://boardgamegeek.com/boardgame/297562/kemet-blood-and-sand/ratings",
           "supports": "Review evidence used in the interpretation above."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://www.philibertnet.com/en/matagot/95494-kemet-blood-and-sand-3760146648234.html",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Book of the Dead details",
+          "url": "https://www.matagot.com/en/expert-games/208-507-kemet-blood-and-sand-book-of-the-dead-expansion.html",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Rise of the Gods (Big Box) details",
+          "url": "https://kolossal.games/store/p/kemetriseofthegods",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Obelisks & Divine Intervention cards / The Great Old Ones details",
+          "url": "https://kolossal.games/store/matagot",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "name": "Kemet: Blood and Sand",
@@ -334,6 +354,43 @@ window.FIELD_GUIDE = {
         "Replay potential": 4.5,
         "Group suitability": 5,
         "Approachability": 4.5
+      },
+      "commerce": {
+        "price": {
+          "display": "€79.95",
+          "edition": "Blood and Sand · French / Dutch",
+          "kind": "Retail listing",
+          "url": "https://www.philibertnet.com/en/matagot/95494-kemet-blood-and-sand-3760146648234.html",
+          "note": "Language-specific European reference; the English edition may cost differently.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Book of the Dead",
+            "kind": "Gameplay expansion",
+            "adds": "Adds darker power tiles and creatures, with sacrifices and lost prestige or victory points as the cost of stronger abilities.",
+            "compatibility": "Requires Kemet: Blood and Sand.",
+            "url": "https://www.matagot.com/en/expert-games/208-507-kemet-blood-and-sand-book-of-the-dead-expansion.html"
+          },
+          {
+            "name": "Rise of the Gods (Big Box)",
+            "kind": "Gameplay expansion",
+            "adds": "Adds Gods, teams, solo and six-player modes plus Amber and Amethyst power tiles and storage improvements.",
+            "compatibility": "Requires Blood and Sand; the expansion box is not a replacement base game.",
+            "url": "https://kolossal.games/store/p/kemetriseofthegods",
+            "price": "$120 USD sale listing · sold out"
+          },
+          {
+            "name": "Obelisks & Divine Intervention cards / The Great Old Ones",
+            "kind": "Promo add-ons",
+            "adds": "The former upgrades obelisks and adds intervention cards; the latter adds themed creature content.",
+            "compatibility": "Blood and Sand add-ons; check the bundle contents before buying duplicates.",
+            "url": "https://kolossal.games/store/matagot",
+            "price": "$10 USD each in the cited sale listings"
+          }
+        ],
+        "note": "Start with Blood and Sand. Its revised rules make expansion compatibility different from the original Kemet edition.",
+        "checkedAt": "2026-10-17"
       }
     },
     {
@@ -432,6 +489,16 @@ window.FIELD_GUIDE = {
           "label": "BGG rating comments",
           "url": "https://boardgamegeek.com/boardgame/286749/hansa-teutonica-big-box/ratings",
           "supports": "Review evidence used in the interpretation above."
+        },
+        {
+          "label": "Britannia & East maps details",
+          "url": "https://www.asmodee.co.uk/products/peg55148g-hansa-teutonica-big-box-german-english",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Mission cards details",
+          "url": "https://pegasus.de/en/NetiMedia/download?mediaId=018e5c283e69708e9b50c79cb8a8b317",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "name": "Hansa Teutonica: Big Box",
@@ -480,6 +547,44 @@ window.FIELD_GUIDE = {
         "Replay potential": 4.5,
         "Group suitability": 5,
         "Approachability": 3.5
+      },
+      "commerce": {
+        "price": {
+          "display": "€49.99",
+          "edition": "Big Box · German / English",
+          "kind": "Publisher shop",
+          "url": "https://pegasus.de/Hansa-Teutonica-Big-Box/55148G",
+          "note": "Publisher listing includes VAT; shipping extra.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Britannia & East maps",
+            "kind": "Included gameplay content",
+            "adds": "Two alternative trade networks change route competition and the geographical puzzle.",
+            "compatibility": "Already included in this Big Box.",
+            "url": "https://www.asmodee.co.uk/products/peg55148g-hansa-teutonica-big-box-german-english",
+            "price": "Included"
+          },
+          {
+            "name": "Mission cards",
+            "kind": "Included gameplay content",
+            "adds": "Adds route and city objectives to pursue alongside the usual scoring routes.",
+            "compatibility": "Already included; introduce after learning the main map.",
+            "url": "https://pegasus.de/en/NetiMedia/download?mediaId=018e5c283e69708e9b50c79cb8a8b317",
+            "price": "Included"
+          },
+          {
+            "name": "Emperor’s Favour",
+            "kind": "Included gameplay content",
+            "adds": "Trade a turn and two unused bonus markers for a lasting advantage or an additional scoring opportunity.",
+            "compatibility": "Already included; optional module.",
+            "url": "https://pegasus.de/en/NetiMedia/download?mediaId=018e5c283e69708e9b50c79cb8a8b317",
+            "price": "Included"
+          }
+        ],
+        "note": "The recommended edition already bundles its main expansions. No additional purchase is needed to access these modules.",
+        "checkedAt": "2026-10-17"
       }
     },
     {
@@ -584,6 +689,26 @@ window.FIELD_GUIDE = {
           "label": "BGG rating comments",
           "url": "https://boardgamegeek.com/boardgame/124361/concordia/ratings?comment=1",
           "supports": "Review evidence used in the interpretation above."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://www.pd-verlag.de/epages/es719366.mobile/de_DE/%3BClassicView%3D1?ObjectPath=%2FShops%2Fes719366%2FCategories%2FConcordia",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Salsa details",
+          "url": "https://www.riograndegames.com/games/concordia-salsa/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Venus expansion details",
+          "url": "https://www.riograndegames.com/games/concordia-venus-expansion/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Solitaria details",
+          "url": "https://www.riograndegames.com/games/concordia-solitaria/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "name": "Concordia",
@@ -633,6 +758,52 @@ window.FIELD_GUIDE = {
         "Replay potential": 4.5,
         "Group suitability": 4.5,
         "Approachability": 3.5
+      },
+      "commerce": {
+        "price": {
+          "display": "€46.80",
+          "edition": "Concordia · includes English materials",
+          "kind": "Publisher shop",
+          "url": "https://www.pd-verlag.de/epages/es719366.mobile/de_DE/%3BClassicView%3D1?ObjectPath=%2FShops%2Fes719366%2FCategories%2FConcordia",
+          "note": "Listed sale price; regular price €49.80.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Salsa",
+            "kind": "Gameplay expansion",
+            "adds": "Adds salt as a flexible commodity, Forum cards with special abilities, and Byzantium / Hispania maps.",
+            "compatibility": "Requires Concordia or Concordia Venus.",
+            "url": "https://www.riograndegames.com/games/concordia-salsa/",
+            "price": "€29.80 · PD-Verlag"
+          },
+          {
+            "name": "Venus expansion",
+            "kind": "Gameplay expansion",
+            "adds": "Adds partner-team play, a sixth player, new personality cards and additional maps.",
+            "compatibility": "Buy the expansion if you own Concordia. The Venus standalone box also contains a base game.",
+            "url": "https://www.riograndegames.com/games/concordia-venus-expansion/",
+            "price": "€34.80 expansion / €64.80 standalone · PD-Verlag"
+          },
+          {
+            "name": "Solitaria",
+            "kind": "Gameplay expansion",
+            "adds": "Adds the Contrarius automated opponent for solo play and competitive or cooperative two-player variants.",
+            "compatibility": "Requires Concordia or Venus; works with other maps and expansions.",
+            "url": "https://www.riograndegames.com/games/concordia-solitaria/",
+            "price": "€19.80 · PD-Verlag"
+          },
+          {
+            "name": "Map packs & Balearica fish market",
+            "kind": "Gameplay expansions",
+            "adds": "Britannia / Germania, Gallia / Corsica, Aegyptus / Creta and Roma / Sicilia change the trading geography. Balearica introduces a fish-market system.",
+            "compatibility": "Check each map pack: editions pair Balearica with different reverse-side maps; avoid buying a map you already own.",
+            "url": "https://www.pd-verlag.de/epages/es719366.mobile/de_DE/%3BClassicView%3D1?ObjectPath=%2FShops%2Fes719366%2FCategories%2FConcordia",
+            "price": "Roma / Sicilia: €19.80; other pack prices vary"
+          }
+        ],
+        "note": "Price references for add-ons are from the linked PD-Verlag catalog. Learn the original maps before adding extra systems.",
+        "checkedAt": "2026-10-17"
       }
     },
     {
@@ -731,6 +902,26 @@ window.FIELD_GUIDE = {
           "label": "BGG longer two-player review",
           "url": "https://boardgamegeek.com/thread/2358150/50-plus-heads-up-2-player-plays-quick-review",
           "supports": "Review evidence used in the interpretation above."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://www.philibertnet.com/en/matagot/66891-inis-3760146644366.html",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Seasons of Inis details",
+          "url": "https://www.asmodee.co.uk/products/kolini002484-inis-seasons-of-inis-new-edition",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Nemed details",
+          "url": "https://boardgamegeek.com/boardgame/418217/inis-nemed",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Player bags details",
+          "url": "https://www.matagot.com/en/accessories/239-333-inis-promo-bags-for-4-players.html",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "name": "Inis",
@@ -779,6 +970,42 @@ window.FIELD_GUIDE = {
         "Replay potential": 4.5,
         "Group suitability": 4,
         "Approachability": 4
+      },
+      "commerce": {
+        "price": {
+          "display": "€61.95",
+          "edition": "Original-art base game · French",
+          "kind": "Retail listing",
+          "url": "https://www.philibertnet.com/en/matagot/66891-inis-3760146644366.html",
+          "note": "French-language reference for the older edition; English and third-edition prices differ.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Seasons of Inis",
+            "kind": "Gameplay expansion",
+            "adds": "Adds a fifth player, a seasonal rules wheel, islands and harbors, new territories and cards.",
+            "compatibility": "Match the original-art or new-edition release to your base box.",
+            "url": "https://www.asmodee.co.uk/products/kolini002484-inis-seasons-of-inis-new-edition",
+            "price": "£34.99 GBP RRP · new edition"
+          },
+          {
+            "name": "Nemed",
+            "kind": "Gameplay expansion",
+            "adds": "Adds sacred Nemeton sites to contest, sanctuaries dedicated to heroes for favors, and more territories and Epic Tale cards.",
+            "compatibility": "Retail Nemed is for the third edition. Owners of older Inis need the matching Nemed Legacy version; verify the exact box.",
+            "url": "https://boardgamegeek.com/boardgame/418217/inis-nemed"
+          },
+          {
+            "name": "Player bags",
+            "kind": "Accessory",
+            "adds": "Organizes player pieces; adds no rules or new strategic options.",
+            "compatibility": "Official four-player bag set for the original game.",
+            "url": "https://www.matagot.com/en/accessories/239-333-inis-promo-bags-for-4-players.html"
+          }
+        ],
+        "note": "Edition compatibility matters: the original Jim Fitzpatrick presentation and the third edition use different component formats. Do not mix versions on name alone.",
+        "checkedAt": "2026-10-17"
       }
     },
     {
@@ -879,6 +1106,36 @@ window.FIELD_GUIDE = {
           "label": "BGG rating comments",
           "url": "https://boardgamegeek.com/boardgame/397598/dune-imperium-uprising/ratings",
           "supports": "Review evidence used in the interpretation above."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://www.goedespellen.nl/alle-spellen/dune-imperium-uprising/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Bloodlines details",
+          "url": "https://shop.direwolfdigital.com/collections/dune-imperium/products/dune-imperium-bloodlines",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Immortality details",
+          "url": "https://news.direwolfdigital.com/immortality-is-coming-soon-to-dune-imperium-digital/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Conspiracy details",
+          "url": "https://news.direwolfdigital.com/join-the-conspiracy-in-the-dune-imperium-championship-tournament-at-gen-con/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Deluxe Upgrade Pack & promo packs details",
+          "url": "https://shop.direwolfdigital.com/collections/dune-imperium",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Publisher physical product price list",
+          "url": "https://shop.direwolfdigital.com/collections/quick-order",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "name": "Dune: Imperium – Uprising",
@@ -931,6 +1188,59 @@ window.FIELD_GUIDE = {
         "Replay potential": 4.5,
         "Group suitability": 4.5,
         "Approachability": 4
+      },
+      "commerce": {
+        "price": {
+          "display": "€57.95",
+          "edition": "Uprising · English",
+          "kind": "Retail listing",
+          "url": "https://www.goedespellen.nl/alle-spellen/dune-imperium-uprising/",
+          "note": "Dutch shop listing; shipping extra.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Bloodlines",
+            "kind": "Gameplay expansion",
+            "adds": "Adds Sardaukar Commanders with skills, new technology, leaders, contracts and cards.",
+            "compatibility": "Works with Uprising and the original Imperium.",
+            "url": "https://shop.direwolfdigital.com/collections/dune-imperium/products/dune-imperium-bloodlines",
+            "price": "$40 USD publisher listing"
+          },
+          {
+            "name": "Rise of Ix",
+            "kind": "Gameplay expansion",
+            "adds": "Adds dreadnoughts, technology and a shipping track, changing the economic and combat options.",
+            "compatibility": "Use the Uprising rulebook’s board-overlay, spy and card adjustments.",
+            "url": "https://www.direwolfdigital.com/assets/dune/DUNE_IMPERIUM_UPRISING_Main_Rulebook_23-10-12.pdf",
+            "price": "$40 USD publisher listing"
+          },
+          {
+            "name": "Immortality",
+            "kind": "Gameplay expansion",
+            "adds": "Adds Tleilaxu research, a separate card market and grafting cards together for combined effects.",
+            "compatibility": "Use the Uprising compatibility instructions, including its Research Station overlay.",
+            "url": "https://news.direwolfdigital.com/immortality-is-coming-soon-to-dune-imperium-digital/",
+            "price": "$30 USD physical publisher listing"
+          },
+          {
+            "name": "Conspiracy",
+            "kind": "Announced expansion",
+            "adds": "A further gameplay expansion is announced, with selected content previewed in the 2026 tournament. Full rules and final retail contents were not verified.",
+            "compatibility": "Listed as coming soon by the publisher; check final Uprising compatibility and contents before ordering.",
+            "url": "https://news.direwolfdigital.com/join-the-conspiracy-in-the-dune-imperium-championship-tournament-at-gen-con/"
+          },
+          {
+            "name": "Deluxe Upgrade Pack & promo packs",
+            "kind": "Accessory / promos",
+            "adds": "The upgrade pack replaces pieces with miniatures; promo packs add cards. Cosmetic upgrades do not change the core rules.",
+            "compatibility": "Check the exact upgrade pack against Uprising components; the original deluxe pack is not an Uprising-specific complete replacement.",
+            "url": "https://shop.direwolfdigital.com/collections/dune-imperium",
+            "price": "$60 USD deluxe pack; $8 USD per listed promo pack"
+          }
+        ],
+        "note": "Uprising is standalone. Start there; expansions add complexity and the older ones need the adjustments in its rulebook.",
+        "checkedAt": "2026-10-17"
       }
     },
     {
@@ -1041,8 +1351,83 @@ window.FIELD_GUIDE = {
           "label": "BGG player comments",
           "url": "https://boardgamegeek.com/boardgame/284189/foundations-of-rome/ratings?comment=1&rated=1",
           "supports": "Individual reactions to accessibility, presentation and strategic depth; not a representative survey."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://www.arcanewonders.com/eu/product/foundations-of-rome/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Gardens of Ceres details",
+          "url": "https://www.arcanewonders.com/product/foundations-of-rome-ceres/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Roads of Fortune details",
+          "url": "https://www.arcanewonders.com/eu/product/roads-of-fortune-foundations-of-rome-expansion/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
-      ]
+      ],
+      "commerce": {
+        "price": {
+          "display": "$220–300 USD",
+          "edition": "Emperor / Maximus variants · EU shop",
+          "kind": "Publisher shop",
+          "url": "https://www.arcanewonders.com/eu/product/foundations-of-rome/",
+          "note": "Ships from the Netherlands, but the accessible listing displays dollars. Range spans editions and Sundrop finishes; it is not a core-only price or a euro conversion.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "5th Player",
+            "kind": "Bundled gameplay expansion",
+            "adds": "Adds a fifth player’s pieces and additional deeds for the full city board.",
+            "compatibility": "Included in Emperor and Maximus editions.",
+            "url": "https://www.arcanewonders.com/eu/product/foundations-of-rome/",
+            "price": "Included in Emperor / Maximus"
+          },
+          {
+            "name": "Monuments",
+            "kind": "Bundled gameplay expansion",
+            "adds": "Adds special monument buildings and their cards for additional construction choices.",
+            "compatibility": "Included in Emperor and Maximus.",
+            "url": "https://www.arcanewonders.com/eu/product/foundations-of-rome/",
+            "price": "Included in Emperor / Maximus"
+          },
+          {
+            "name": "Trading / Stealing, Will of the Consul, Objectives & Player Roles",
+            "kind": "Bundled gameplay modules",
+            "adds": "Adds trading or interference, a Consul building module, objective cards and individual role abilities.",
+            "compatibility": "Included in Emperor and Maximus; introduce modules gradually.",
+            "url": "https://www.arcanewonders.com/eu/product/foundations-of-rome/",
+            "price": "Included in Emperor / Maximus"
+          },
+          {
+            "name": "Gardens of Ceres",
+            "kind": "Gameplay expansion",
+            "adds": "Adds the Ceres solo opponent and garden tiles, enabling a solo challenge.",
+            "compatibility": "Requires Foundations of Rome; verify whether a particular bundle includes it.",
+            "url": "https://www.arcanewonders.com/product/foundations-of-rome-ceres/"
+          },
+          {
+            "name": "Roads of Fortune",
+            "kind": "Gameplay expansion",
+            "adds": "Makes control of city edges grant abilities through variable Road boards; also includes reference and storage improvements.",
+            "compatibility": "Included in Maximus; separate purchase for other editions. Compatible with Ceres and other modules.",
+            "url": "https://www.arcanewonders.com/eu/product/roads-of-fortune-foundations-of-rome-expansion/",
+            "price": "$44.99 USD · EU shop listing"
+          },
+          {
+            "name": "Sundrop finish, metal coins, playmat & stacking score markers",
+            "kind": "Accessories",
+            "adds": "Change presentation, handling or score tracking rather than adding a new game system.",
+            "compatibility": "Sundrop is a miniature finish. Metal coins are already in Emperor / Maximus.",
+            "url": "https://www.arcanewonders.com/eu/product/foundations-of-rome/"
+          }
+        ],
+        "note": "Most current boxes are bundles. Check included modules before buying separate add-ons; price and contents refer to the current shop, while the guide’s BGG statistics use the 2022 entry.",
+        "checkedAt": "2026-10-17"
+      }
     },
     {
       "id": "windmill-valley-duel",
@@ -1123,6 +1508,16 @@ window.FIELD_GUIDE = {
           "url": "https://www.cliquenabend.de/events/430000-SPIEL-2026.html",
           "type": "event-listing",
           "supports": "Publisher details, rules or event evidence; see link."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://www.fantasywelt.de/Windmill-Valley-Duel-EN",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Publisher preorder bundle contents and price",
+          "url": "https://gamefound.com/cs/projects/board-and-dice/thessaloniki-windmill-duel/rewards",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "images": [
@@ -1172,7 +1567,42 @@ window.FIELD_GUIDE = {
         "Group suitability": 3.5,
         "Approachability": 4.5
       },
-      "fitScore": 86
+      "fitScore": 86,
+      "commerce": {
+        "price": {
+          "display": "€26.49",
+          "edition": "Windmill Valley: Duel · English",
+          "kind": "Retail preorder",
+          "url": "https://www.fantasywelt.de/Windmill-Valley-Duel-EN",
+          "note": "Listed preorder discount from €35 RRP; availability is provisional.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Golden Wheel Enhancements",
+            "kind": "Gameplay promo",
+            "adds": "Adds six golden wheel tiles. Calendar milestones let you choose a tile to place on the central wheel, changing its available actions.",
+            "compatibility": "Requires Duel; included in the publisher’s €35 promo bundle.",
+            "url": "https://boardanddice.com/windmill-valley-duel/"
+          },
+          {
+            "name": "Millwright Cards",
+            "kind": "Gameplay promo",
+            "adds": "Adds four asymmetric ability cards; each player receives one with an ability usable once per turn.",
+            "compatibility": "Requires Duel; included in the publisher’s €35 promo bundle.",
+            "url": "https://boardanddice.com/windmill-valley-duel/"
+          },
+          {
+            "name": "Tulip Fields",
+            "kind": "Gameplay promo",
+            "adds": "Adds a two-sided field overlay: preprinted tulips on one side, or color-matching spaces that resolve a planting benefit twice on the other.",
+            "compatibility": "Requires Duel; included in the publisher’s €35 promo bundle.",
+            "url": "https://boardanddice.com/windmill-valley-duel/"
+          }
+        ],
+        "note": "The publisher advertises a €35 preorder bundle with all three promos. Blooming Sails expands the original Windmill Valley, not this standalone Duel game.",
+        "checkedAt": "2026-10-17"
+      }
     },
     {
       "id": "chronocritters",
@@ -1259,6 +1689,11 @@ window.FIELD_GUIDE = {
           "url": "https://boardgamegeek.com/filepage/326043/rules-v1",
           "type": "rules",
           "supports": "Community statistics, rules or preview evidence; see link."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://boardgamegeek.com/geekpreview/93/spiel-essen-2026?q=chronocritters",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "images": [
@@ -1308,7 +1743,20 @@ window.FIELD_GUIDE = {
         "Group suitability": 4.5,
         "Approachability": 3
       },
-      "fitScore": 82
+      "fitScore": 82,
+      "commerce": {
+        "price": {
+          "display": "€65 MSRP / €60 show price",
+          "edition": "Chronocritters · English",
+          "kind": "Publisher event listing",
+          "url": "https://boardgamegeek.com/geekpreview/93/spiel-essen-2026?q=chronocritters",
+          "note": "Essen preview listing, not a guaranteed shipped retail offer; show price applies to that event listing.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [],
+        "note": "No named gameplay expansion or official paid add-on was verified in the publisher catalog and accessible launch listing as of 17 October 2026. The solo rules are part of the base game, not an extra purchase.",
+        "checkedAt": "2026-10-17"
+      }
     },
     {
       "id": "thessaloniki",
@@ -1381,6 +1829,16 @@ window.FIELD_GUIDE = {
           "url": "https://boardgamegeek.com/geeklist/380023/essen-2026-picks?itemid=12913816",
           "type": "opinion",
           "supports": "Community statistics, rules or preview evidence; see link."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://gamefound.com/cs/projects/board-and-dice/thessaloniki-windmill-duel/rewards",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Early Demand tiles details",
+          "url": "https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "images": [
@@ -1430,7 +1888,42 @@ window.FIELD_GUIDE = {
         "Group suitability": 4.5,
         "Approachability": 3
       },
-      "fitScore": 77
+      "fitScore": 77,
+      "commerce": {
+        "price": {
+          "display": "€50",
+          "edition": "Thessaloniki · English + three promos",
+          "kind": "Publisher preorder bundle",
+          "url": "https://gamefound.com/cs/projects/board-and-dice/thessaloniki-windmill-duel/rewards",
+          "note": "November-delivery campaign listing. It is a bundle price; base-game MSRP is also listed as €50 in the Essen preview.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Early Demand tiles",
+            "kind": "Gameplay promo",
+            "adds": "Adds four demand tiles, varying the demand content used by the trade system. Detailed tile effects were not independently verified.",
+            "compatibility": "Included in the cited publisher bundle.",
+            "url": "https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1"
+          },
+          {
+            "name": "New Contract cards",
+            "kind": "Gameplay promo",
+            "adds": "Adds four contracts, increasing the variety of tasks and rewards to pursue.",
+            "compatibility": "Included in the cited publisher bundle.",
+            "url": "https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1"
+          },
+          {
+            "name": "New Family cards",
+            "kind": "Gameplay promo",
+            "adds": "Adds four family cards, expanding the family-card options. Detailed card effects were not independently verified.",
+            "compatibility": "Included in the cited publisher bundle.",
+            "url": "https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1"
+          }
+        ],
+        "note": "These are small promos for Thessaloniki, rather than a separately verified large expansion. Check the contents of ordinary retail copies; the campaign bundle explicitly includes them.",
+        "checkedAt": "2026-10-17"
+      }
     },
     {
       "id": "entropy",
@@ -1504,6 +1997,31 @@ window.FIELD_GUIDE = {
           "url": "https://boardgamegeek.com/boardgame/462941/entropy/ratings",
           "type": "player-comments",
           "supports": "Community statistics, rules or preview evidence; see link."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://frostedgames.de/shop/entropy/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Satellites details",
+          "url": "https://www.tlamagames.com/en/board-games/entropy--satellites-promo/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Home Systems details",
+          "url": "https://www.ludoya.com/games/entropy-home-system-promo",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Luminescent Lifeform Cards details",
+          "url": "https://boardgamegeek.com/boardgame/476714/entropy-luminescent-lifeform-promo",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Publisher English promo bundle",
+          "url": "https://gamefound.com/en/projects/board-and-dice/entropy",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "images": [
@@ -1553,7 +2071,44 @@ window.FIELD_GUIDE = {
         "Group suitability": 4.5,
         "Approachability": 3
       },
-      "fitScore": 79
+      "fitScore": 79,
+      "commerce": {
+        "price": {
+          "display": "€54.95",
+          "edition": "Entropy · German",
+          "kind": "Publisher shop",
+          "url": "https://frostedgames.de/shop/entropy/",
+          "note": "German-language edition; includes VAT, shipping extra. The English publisher campaign also listed a €55 bundle with three promos.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Satellites",
+            "kind": "Gameplay promo",
+            "adds": "Adds eight satellites as alternatives when catching asteroids: the same cost, but two life-condition icons instead of triggering the planet effect.",
+            "compatibility": "Requires Entropy; part of the English publisher promo bundle.",
+            "url": "https://www.tlamagames.com/en/board-games/entropy--satellites-promo/",
+            "price": "€4.08 retail preorder"
+          },
+          {
+            "name": "Home Systems",
+            "kind": "Gameplay promo",
+            "adds": "Adds four alternative starting solar-system tiles, replacing the normal starting system and changing the opening setup.",
+            "compatibility": "Requires Entropy; part of the English publisher promo bundle.",
+            "url": "https://www.ludoya.com/games/entropy-home-system-promo"
+          },
+          {
+            "name": "Luminescent Lifeform Cards",
+            "kind": "Gameplay promo",
+            "adds": "Adds six unique-effect life cards, two each for bacteria, plants and animals, shuffled into their normal decks.",
+            "compatibility": "Requires Entropy; part of the English publisher promo bundle.",
+            "url": "https://boardgamegeek.com/boardgame/476714/entropy-luminescent-lifeform-promo",
+            "price": "€3.95 · Philibert listing"
+          }
+        ],
+        "note": "The publisher’s €55 English campaign bundle includes these three promos. Shipping, tax and availability follow the campaign terms; it is not the German retail listing.",
+        "checkedAt": "2026-10-17"
+      }
     },
     {
       "id": "blood-rage-valhalla",
@@ -1651,6 +2206,11 @@ window.FIELD_GUIDE = {
           "url": "https://gamefound.com/en/projects/tabletop-tycoon/blood-rage-valhalla/updates/24",
           "type": "historical-primary",
           "supports": "Publisher details, rules or event evidence; see link."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://store.asmodee.com/collections/tabletop-tycoon/products/blood-rage-valhalla",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "accessNote": "BGG data and comment excerpts were available through search-index retrieval. Direct thread opening returned 403. Do not imply an exhaustive review corpus was read.",
@@ -1692,7 +2252,29 @@ window.FIELD_GUIDE = {
         "Group suitability": 5,
         "Approachability": 3
       },
-      "fitScore": 79
+      "fitScore": 79,
+      "commerce": {
+        "price": {
+          "display": "$124.99 USD",
+          "edition": "Valhalla · English",
+          "kind": "US distributor listing",
+          "url": "https://store.asmodee.com/collections/tabletop-tycoon/products/blood-rage-valhalla",
+          "note": "US retail release listed for 6 November 2026. This is not a European landed price.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Rainbow Bridge",
+            "kind": "Included crossover module",
+            "adds": "Links a game of the original Blood Rage to Valhalla for one longer match spanning Ragnarök and the afterlife.",
+            "compatibility": "Module is included; you also need a copy of the original Blood Rage to use the crossover.",
+            "url": "https://store.asmodee.com/collections/tabletop-tycoon/products/blood-rage-valhalla",
+            "price": "Included; original Blood Rage sold separately"
+          }
+        ],
+        "note": "Valhalla is a standalone sequel. Original Blood Rage expansions were not verified as plug-in Valhalla expansions. No additional Valhalla-specific gameplay expansion was verified in the cited retail listing.",
+        "checkedAt": "2026-10-17"
+      }
     },
     {
       "id": "spirit-island",
@@ -1786,6 +2368,41 @@ window.FIELD_GUIDE = {
           "label": "Publisher",
           "url": "https://shop.greaterthangames.com/products/spirit-island",
           "supports": "Cooperative structure, 1–4 players, asymmetric powers, official media."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://www.subcultures.nl/expert/spirit-island/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Branch & Claw details",
+          "url": "https://shop.greaterthangames.com/products/spirit-island-branch-claw",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Jagged Earth details",
+          "url": "https://shop.greaterthangames.com/products/spirit-island-jagged-earth",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Feather & Flame details",
+          "url": "https://shop.greaterthangames.com/products/spirit-island-feather-and-flame",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Nature Incarnate details",
+          "url": "https://shop.greaterthangames.com/products/spirit-island-nature-incarnate",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Horizons of Spirit Island details",
+          "url": "https://shop.greaterthangames.com/products/horizons-of-spirit-island",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Premium foil spirit panels details",
+          "url": "https://shop.greaterthangames.com/products/spirit-island-jagged-earth-premium-foil-spirit-panels",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "essen": {
@@ -1806,6 +2423,67 @@ window.FIELD_GUIDE = {
         "Replay potential": 5,
         "Group suitability": 4,
         "Approachability": 2.5
+      },
+      "commerce": {
+        "price": {
+          "display": "€89.99",
+          "edition": "Spirit Island · English",
+          "kind": "Dutch retailer listing",
+          "url": "https://www.subcultures.nl/expert/spirit-island/",
+          "note": "English base-game shelf price; shipping extra.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "Branch & Claw",
+            "kind": "Gameplay expansion",
+            "adds": "Adds two spirits, France, events and beast / wilds / disease / strife tokens, making the island more dynamic.",
+            "compatibility": "Requires Spirit Island.",
+            "url": "https://shop.greaterthangames.com/products/spirit-island-branch-claw",
+            "price": "€41.99 · Subcultures"
+          },
+          {
+            "name": "Jagged Earth",
+            "kind": "Gameplay expansion",
+            "adds": "Adds ten spirits, two island boards for up to six players, adversaries, aspects, events and badlands.",
+            "compatibility": "Requires Spirit Island; Branch & Claw is not required.",
+            "url": "https://shop.greaterthangames.com/products/spirit-island-jagged-earth",
+            "price": "€79.99 · Subcultures"
+          },
+          {
+            "name": "Feather & Flame",
+            "kind": "Gameplay expansion",
+            "adds": "Collects Promo Packs 1 and 2: four spirits, aspects, Scotland and scenarios.",
+            "compatibility": "Requires Spirit Island. Do not rebuy it if you already own both promo packs.",
+            "url": "https://shop.greaterthangames.com/products/spirit-island-feather-and-flame",
+            "price": "$34.95 USD publisher listing"
+          },
+          {
+            "name": "Nature Incarnate",
+            "kind": "Gameplay expansion",
+            "adds": "Adds eight spirits, Incarna, 24 aspects, a new adversary and more events and powers.",
+            "compatibility": "Requires BOTH Spirit Island and Jagged Earth for the physical game.",
+            "url": "https://shop.greaterthangames.com/products/spirit-island-nature-incarnate",
+            "price": "€59.99 · Subcultures"
+          },
+          {
+            "name": "Horizons of Spirit Island",
+            "kind": "Compatible standalone game",
+            "adds": "Adds five low-complexity spirits that can be used in the main game; it also plays independently with its own starter components.",
+            "compatibility": "Standalone for up to three; its spirits are compatible with Spirit Island. It is not a six-player component expansion.",
+            "url": "https://shop.greaterthangames.com/products/horizons-of-spirit-island",
+            "price": "€38.99 · Subcultures"
+          },
+          {
+            "name": "Premium foil spirit panels",
+            "kind": "Accessory",
+            "adds": "Replaces spirit boards with thin foil cards; does not include the powers needed to add new spirits.",
+            "compatibility": "Own the corresponding game or expansion first.",
+            "url": "https://shop.greaterthangames.com/products/spirit-island-jagged-earth-premium-foil-spirit-panels"
+          }
+        ],
+        "note": "Learn the base game first. For Nature Incarnate, the physical-game requirement is Jagged Earth; digital-edition requirements differ.",
+        "checkedAt": "2026-10-17"
       }
     },
     {
@@ -1895,6 +2573,21 @@ window.FIELD_GUIDE = {
           "label": "Roxley publisher",
           "url": "https://roxley.com/collections/santorini/products/santorini",
           "supports": "Move/build rules; best with 2; edition differences; media."
+        },
+        {
+          "label": "Price / edition listing",
+          "url": "https://boardgameshop.nl/product/santorini-second-edition/",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Golden Fleece (classic edition) details",
+          "url": "https://boardgamegeek.com/boardgame/216033/santorini-golden-fleece",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
+        },
+        {
+          "label": "Riddle of the Sphinx details",
+          "url": "https://roxley.com/products/santorini-riddle",
+          "supports": "Price, edition or expansion evidence checked 17 October 2026; availability and prices can change."
         }
       ],
       "essen": {
@@ -1915,6 +2608,50 @@ window.FIELD_GUIDE = {
         "Replay potential": 4,
         "Group suitability": 2.5,
         "Approachability": 4
+      },
+      "commerce": {
+        "price": {
+          "display": "€54.95",
+          "edition": "Santorini Second Edition · English",
+          "kind": "Dutch retailer listing",
+          "url": "https://boardgameshop.nl/product/santorini-second-edition/",
+          "note": "Current second-edition retail reference; the guide’s BGG statistics remain those of the 2016 entry.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [
+          {
+            "name": "God card packs / Pantheon",
+            "kind": "Gameplay cards / bundled edition",
+            "adds": "Additional god and mode cards vary player powers and game rules. Current Pantheon bundles all card packs, with 100 gods and 12 modes versus 32 gods and four modes in Second Edition.",
+            "compatibility": "Pantheon is a complete edition, not a required add-on. Check the card format and edition when buying separate packs.",
+            "url": "https://roxley.com/collections/santorini/products/santorini",
+            "price": "Pantheon $75 USD; Synth $85; Collector $110 · publisher"
+          },
+          {
+            "name": "Golden Fleece (classic edition)",
+            "kind": "Legacy gameplay expansion",
+            "adds": "Adds more gods and heroes plus the Golden Fleece variant.",
+            "compatibility": "Intended for the classic edition; check overlap with current Pantheon content before buying.",
+            "url": "https://boardgamegeek.com/boardgame/216033/santorini-golden-fleece"
+          },
+          {
+            "name": "Riddle of the Sphinx",
+            "kind": "Gameplay expansion",
+            "adds": "Turns the building puzzle into a solo / cooperative adventure for 1–4, with 22 scenarios and persistent unlocks.",
+            "compatibility": "Requires Santorini’s blocks, domes and workers; the expansion is not standalone.",
+            "url": "https://roxley.com/products/santorini-riddle",
+            "price": "$39.98–60 USD · Essentials to Deluxe Synth"
+          },
+          {
+            "name": "Synth cards / Collector components",
+            "kind": "Accessory upgrades",
+            "adds": "Synthetic cards, acrylic tokens and the Collector turntable improve durability or presentation. They do not add gameplay beyond the matching Pantheon card content.",
+            "compatibility": "Choose an edition once; these variants are alternatives, not multiple required purchases.",
+            "url": "https://roxley.com/collections/santorini/products/santorini"
+          }
+        ],
+        "note": "For the competitive duel recommendation, the base game is enough. Riddle of the Sphinx changes the experience to cooperative scenario play.",
+        "checkedAt": "2026-10-17"
       }
     },
     {
@@ -2028,6 +2765,19 @@ window.FIELD_GUIDE = {
         "Replay potential": 4.5,
         "Group suitability": 5,
         "Approachability": 3
+      },
+      "commerce": {
+        "price": {
+          "display": "$34.99 USD",
+          "edition": "CMON edition · English",
+          "kind": "US distributor listing",
+          "url": "https://store.asmodee.com/products/modern-art",
+          "note": "Listed price with a sold-out label in the accessible snapshot; not a European delivered quote.",
+          "checkedAt": "2026-10-17"
+        },
+        "extras": [],
+        "note": "No official gameplay expansion was verified for the recommended CMON auction game. Different art editions change presentation. Modern Art Card Game / Masters Gallery is a separate game, not an add-on. A gavel, sleeves or upgraded money adds handling or presentation rather than a new game system.",
+        "checkedAt": "2026-10-17"
       }
     }
   ],

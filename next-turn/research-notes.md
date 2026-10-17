@@ -6,6 +6,8 @@ Based on the supplied image of 22 games. Explicit objections to randomness and w
 
 Fit is an editorial comparison, not a calibrated enjoyment prediction. Factors: control 30%, taste overlap 25%, replay potential 15%, group suitability 15%, approachability 15%; each factor is scored 1–5 and the total converted to 0–100. BGG average /10 and community weight /5 are independent, rounded, non-live snapshots. Some direct BGG fetches returned 403; readable search-index data and comments informed the review. Early scores can be unstable.
 
+Prices and add-on listings were checked 17 October 2026. Euro references are preferred where verified; other currencies remain explicitly labeled without conversion. Each quote names its edition and language. Retail, MSRP, preorder and event offers are different kinds of reference; shipping and applicable checkout taxes may be extra. This is a sourced overview of verified official content, not an exhaustive list of third-party accessories or scarce promos.
+
 ## Six strongest established matches
 
 ### Kemet: Blood and Sand
@@ -38,6 +40,16 @@ Sources:
 - [BGG ratings with comments](https://boardgamegeek.com/boardgame/297562/kemet-blood-and-sand/ratings?comment=1&rated=1)
 - [BGG ratings](https://boardgamegeek.com/boardgame/297562/kemet-blood-and-sand/ratings)
 
+#### Price, expansions & add-ons
+
+**€79.95** — Blood and Sand · French / Dutch. Retail listing, checked 17 October 2026. Language-specific European reference; the English edition may cost differently. [Price source](https://www.philibertnet.com/en/matagot/95494-kemet-blood-and-sand-3760146648234.html).
+
+Start with Blood and Sand. Its revised rules make expansion compatibility different from the original Kemet edition.
+
+- **Book of the Dead** (Gameplay expansion): Adds darker power tiles and creatures, with sacrifices and lost prestige or victory points as the cost of stronger abilities. Requires Kemet: Blood and Sand. [Source](https://www.matagot.com/en/expert-games/208-507-kemet-blood-and-sand-book-of-the-dead-expansion.html).
+- **Rise of the Gods (Big Box)** (Gameplay expansion): Adds Gods, teams, solo and six-player modes plus Amber and Amethyst power tiles and storage improvements. Requires Blood and Sand; the expansion box is not a replacement base game. Price reference: $120 USD sale listing · sold out. [Source](https://kolossal.games/store/p/kemetriseofthegods).
+- **Obelisks & Divine Intervention cards / The Great Old Ones** (Promo add-ons): The former upgrades obelisks and adds intervention cards; the latter adds themed creature content. Blood and Sand add-ons; check the bundle contents before buying duplicates. Price reference: $10 USD each in the cited sale listings. [Source](https://kolossal.games/store/matagot).
+
 ### Hansa Teutonica: Big Box
 
 Personal fit: **92/100** (High). BGG **8.4/10**, complexity **2.95/5**. 3–5 players; 45–90 minutes. Start with: 4–5; choose five when available.
@@ -67,6 +79,16 @@ Sources:
 - [Publisher: design and displacement](https://news.pegasus.de/en/game-development-the-history-behind-the-hansa-teutonica-big-box/)
 - [BGG long review](https://boardgamegeek.com/thread/481374/what-a-surprisethe-mystery-family-is-converted-by)
 - [BGG rating comments](https://boardgamegeek.com/boardgame/286749/hansa-teutonica-big-box/ratings)
+
+#### Price, expansions & add-ons
+
+**€49.99** — Big Box · German / English. Publisher shop, checked 17 October 2026. Publisher listing includes VAT; shipping extra. [Price source](https://pegasus.de/Hansa-Teutonica-Big-Box/55148G).
+
+The recommended edition already bundles its main expansions. No additional purchase is needed to access these modules.
+
+- **Britannia & East maps** (Included gameplay content): Two alternative trade networks change route competition and the geographical puzzle. Already included in this Big Box. Price reference: Included. [Source](https://www.asmodee.co.uk/products/peg55148g-hansa-teutonica-big-box-german-english).
+- **Mission cards** (Included gameplay content): Adds route and city objectives to pursue alongside the usual scoring routes. Already included; introduce after learning the main map. Price reference: Included. [Source](https://pegasus.de/en/NetiMedia/download?mediaId=018e5c283e69708e9b50c79cb8a8b317).
+- **Emperor’s Favour** (Included gameplay content): Trade a turn and two unused bonus markers for a lasting advantage or an additional scoring opportunity. Already included; optional module. Price reference: Included. [Source](https://pegasus.de/en/NetiMedia/download?mediaId=018e5c283e69708e9b50c79cb8a8b317).
 
 ### Concordia
 
@@ -99,6 +121,17 @@ Sources:
 - [BGG long review: The Anti-Point Salad](https://boardgamegeek.com/thread/1886423/review-the-anti-point-salad)
 - [BGG rating comments](https://boardgamegeek.com/boardgame/124361/concordia/ratings?comment=1)
 
+#### Price, expansions & add-ons
+
+**€46.80** — Concordia · includes English materials. Publisher shop, checked 17 October 2026. Listed sale price; regular price €49.80. [Price source](https://www.pd-verlag.de/epages/es719366.mobile/de_DE/%3BClassicView%3D1?ObjectPath=%2FShops%2Fes719366%2FCategories%2FConcordia).
+
+Price references for add-ons are from the linked PD-Verlag catalog. Learn the original maps before adding extra systems.
+
+- **Salsa** (Gameplay expansion): Adds salt as a flexible commodity, Forum cards with special abilities, and Byzantium / Hispania maps. Requires Concordia or Concordia Venus. Price reference: €29.80 · PD-Verlag. [Source](https://www.riograndegames.com/games/concordia-salsa/).
+- **Venus expansion** (Gameplay expansion): Adds partner-team play, a sixth player, new personality cards and additional maps. Buy the expansion if you own Concordia. The Venus standalone box also contains a base game. Price reference: €34.80 expansion / €64.80 standalone · PD-Verlag. [Source](https://www.riograndegames.com/games/concordia-venus-expansion/).
+- **Solitaria** (Gameplay expansion): Adds the Contrarius automated opponent for solo play and competitive or cooperative two-player variants. Requires Concordia or Venus; works with other maps and expansions. Price reference: €19.80 · PD-Verlag. [Source](https://www.riograndegames.com/games/concordia-solitaria/).
+- **Map packs & Balearica fish market** (Gameplay expansions): Britannia / Germania, Gallia / Corsica, Aegyptus / Creta and Roma / Sicilia change the trading geography. Balearica introduces a fish-market system. Check each map pack: editions pair Balearica with different reverse-side maps; avoid buying a map you already own. Price reference: Roma / Sicilia: €19.80; other pack prices vary. [Source](https://www.pd-verlag.de/epages/es719366.mobile/de_DE/%3BClassicView%3D1?ObjectPath=%2FShops%2Fes719366%2FCategories%2FConcordia).
+
 ### Inis
 
 Personal fit: **87/100** (Medium–high). BGG **7.8/10**, complexity **2.95/5**. 2–4 players; 60–90 minutes. Start with: 3–4; two is a sharper duel.
@@ -129,6 +162,16 @@ Sources:
 - [BGG rating comments](https://boardgamegeek.com/boardgame/155821/inis/ratings?comment=1)
 - [BGG longer two-player review](https://boardgamegeek.com/thread/2358150/50-plus-heads-up-2-player-plays-quick-review)
 
+#### Price, expansions & add-ons
+
+**€61.95** — Original-art base game · French. Retail listing, checked 17 October 2026. French-language reference for the older edition; English and third-edition prices differ. [Price source](https://www.philibertnet.com/en/matagot/66891-inis-3760146644366.html).
+
+Edition compatibility matters: the original Jim Fitzpatrick presentation and the third edition use different component formats. Do not mix versions on name alone.
+
+- **Seasons of Inis** (Gameplay expansion): Adds a fifth player, a seasonal rules wheel, islands and harbors, new territories and cards. Match the original-art or new-edition release to your base box. Price reference: £34.99 GBP RRP · new edition. [Source](https://www.asmodee.co.uk/products/kolini002484-inis-seasons-of-inis-new-edition).
+- **Nemed** (Gameplay expansion): Adds sacred Nemeton sites to contest, sanctuaries dedicated to heroes for favors, and more territories and Epic Tale cards. Retail Nemed is for the third edition. Owners of older Inis need the matching Nemed Legacy version; verify the exact box. [Source](https://boardgamegeek.com/boardgame/418217/inis-nemed).
+- **Player bags** (Accessory): Organizes player pieces; adds no rules or new strategic options. Official four-player bag set for the original game. [Source](https://www.matagot.com/en/accessories/239-333-inis-promo-bags-for-4-players.html).
+
 ### Dune: Imperium – Uprising
 
 Personal fit: **85/100** (Medium–high; demo first). BGG **8.7/10**, complexity **3.53/5**. 1–4 or 6 players; 60–120 minutes. Start with: 4; three also works.
@@ -158,6 +201,18 @@ Sources:
 - [Official rulebook](https://www.direwolfdigital.com/assets/dune/DUNE_IMPERIUM_UPRISING_Main_Rulebook_23-10-12.pdf)
 - [BGG rating comments](https://boardgamegeek.com/boardgame/397598/dune-imperium-uprising/ratings?comment=1)
 - [BGG rating comments](https://boardgamegeek.com/boardgame/397598/dune-imperium-uprising/ratings)
+
+#### Price, expansions & add-ons
+
+**€57.95** — Uprising · English. Retail listing, checked 17 October 2026. Dutch shop listing; shipping extra. [Price source](https://www.goedespellen.nl/alle-spellen/dune-imperium-uprising/).
+
+Uprising is standalone. Start there; expansions add complexity and the older ones need the adjustments in its rulebook.
+
+- **Bloodlines** (Gameplay expansion): Adds Sardaukar Commanders with skills, new technology, leaders, contracts and cards. Works with Uprising and the original Imperium. Price reference: $40 USD publisher listing. [Source](https://shop.direwolfdigital.com/collections/dune-imperium/products/dune-imperium-bloodlines).
+- **Rise of Ix** (Gameplay expansion): Adds dreadnoughts, technology and a shipping track, changing the economic and combat options. Use the Uprising rulebook’s board-overlay, spy and card adjustments. Price reference: $40 USD publisher listing. [Source](https://www.direwolfdigital.com/assets/dune/DUNE_IMPERIUM_UPRISING_Main_Rulebook_23-10-12.pdf).
+- **Immortality** (Gameplay expansion): Adds Tleilaxu research, a separate card market and grafting cards together for combined effects. Use the Uprising compatibility instructions, including its Research Station overlay. Price reference: $30 USD physical publisher listing. [Source](https://news.direwolfdigital.com/immortality-is-coming-soon-to-dune-imperium-digital/).
+- **Conspiracy** (Announced expansion): A further gameplay expansion is announced, with selected content previewed in the 2026 tournament. Full rules and final retail contents were not verified. Listed as coming soon by the publisher; check final Uprising compatibility and contents before ordering. [Source](https://news.direwolfdigital.com/join-the-conspiracy-in-the-dune-imperium-championship-tournament-at-gen-con/).
+- **Deluxe Upgrade Pack & promo packs** (Accessory / promos): The upgrade pack replaces pieces with miniatures; promo packs add cards. Cosmetic upgrades do not change the core rules. Check the exact upgrade pack against Uprising components; the original deluxe pack is not an Uprising-specific complete replacement. Price reference: $60 USD deluxe pack; $8 USD per listed promo pack. [Source](https://shop.direwolfdigital.com/collections/dune-imperium).
 
 ### Foundations of Rome
 
@@ -196,6 +251,19 @@ Sources:
 - [BGG facts and community statistics](https://boardgamegeek.com/boardgame/284189/foundations-of-rome)
 - [BGG player comments](https://boardgamegeek.com/boardgame/284189/foundations-of-rome/ratings?comment=1&rated=1)
 
+#### Price, expansions & add-ons
+
+**$220–300 USD** — Emperor / Maximus variants · EU shop. Publisher shop, checked 17 October 2026. Ships from the Netherlands, but the accessible listing displays dollars. Range spans editions and Sundrop finishes; it is not a core-only price or a euro conversion. [Price source](https://www.arcanewonders.com/eu/product/foundations-of-rome/).
+
+Most current boxes are bundles. Check included modules before buying separate add-ons; price and contents refer to the current shop, while the guide’s BGG statistics use the 2022 entry.
+
+- **5th Player** (Bundled gameplay expansion): Adds a fifth player’s pieces and additional deeds for the full city board. Included in Emperor and Maximus editions. Price reference: Included in Emperor / Maximus. [Source](https://www.arcanewonders.com/eu/product/foundations-of-rome/).
+- **Monuments** (Bundled gameplay expansion): Adds special monument buildings and their cards for additional construction choices. Included in Emperor and Maximus. Price reference: Included in Emperor / Maximus. [Source](https://www.arcanewonders.com/eu/product/foundations-of-rome/).
+- **Trading / Stealing, Will of the Consul, Objectives & Player Roles** (Bundled gameplay modules): Adds trading or interference, a Consul building module, objective cards and individual role abilities. Included in Emperor and Maximus; introduce modules gradually. Price reference: Included in Emperor / Maximus. [Source](https://www.arcanewonders.com/eu/product/foundations-of-rome/).
+- **Gardens of Ceres** (Gameplay expansion): Adds the Ceres solo opponent and garden tiles, enabling a solo challenge. Requires Foundations of Rome; verify whether a particular bundle includes it. [Source](https://www.arcanewonders.com/product/foundations-of-rome-ceres/).
+- **Roads of Fortune** (Gameplay expansion): Makes control of city edges grant abilities through variable Road boards; also includes reference and storage improvements. Included in Maximus; separate purchase for other editions. Compatible with Ceres and other modules. Price reference: $44.99 USD · EU shop listing. [Source](https://www.arcanewonders.com/eu/product/roads-of-fortune-foundations-of-rome-expansion/).
+- **Sundrop finish, metal coins, playmat & stacking score markers** (Accessories): Change presentation, handling or score tracking rather than adding a new game system. Sundrop is a miniature finish. Metal coins are already in Emperor / Maximus. [Source](https://www.arcanewonders.com/eu/product/foundations-of-rome/).
+
 ## Upcoming launches, retail arrivals and an Essen demo bonus
 
 ### Windmill Valley: Duel
@@ -228,6 +296,16 @@ Sources:
 - [Gaming Rules tutorial and playthrough listed on BGG](https://boardgamegeek.com/boardgame/466295/windmill-valley-duel/videos/instructional)
 - [SPIEL German demo listing](https://www.cliquenabend.de/events/430000-SPIEL-2026.html)
 
+#### Price, expansions & add-ons
+
+**€26.49** — Windmill Valley: Duel · English. Retail preorder, checked 17 October 2026. Listed preorder discount from €35 RRP; availability is provisional. [Price source](https://www.fantasywelt.de/Windmill-Valley-Duel-EN).
+
+The publisher advertises a €35 preorder bundle with all three promos. Blooming Sails expands the original Windmill Valley, not this standalone Duel game.
+
+- **Golden Wheel Enhancements** (Gameplay promo): Adds six golden wheel tiles. Calendar milestones let you choose a tile to place on the central wheel, changing its available actions. Requires Duel; included in the publisher’s €35 promo bundle. [Source](https://boardanddice.com/windmill-valley-duel/).
+- **Millwright Cards** (Gameplay promo): Adds four asymmetric ability cards; each player receives one with an ability usable once per turn. Requires Duel; included in the publisher’s €35 promo bundle. [Source](https://boardanddice.com/windmill-valley-duel/).
+- **Tulip Fields** (Gameplay promo): Adds a two-sided field overlay: preprinted tulips on one side, or color-matching spaces that resolve a planting benefit twice on the other. Requires Duel; included in the publisher’s €35 promo bundle. [Source](https://boardanddice.com/windmill-valley-duel/).
+
 ### Chronocritters
 
 Personal fit: **82/100** (Provisional: rules and early impressions are informative, but there is no mature review consensus.). BGG **8.0/10**, complexity **not established/5**. 1–4 players; 80–150 minutes. Start with: Try 2–3 before a full four-player game.
@@ -259,6 +337,13 @@ Sources:
 - [SPIEL preview with booth and retail window](https://www.teilzeithelden.de/2026/10/05/spiel-essen-2026-brettspiel-neuheiten-eurogames-sterngucker-stummfilme-und-schneestuerme/)
 - [English rules](https://boardgamegeek.com/filepage/326043/rules-v1)
 
+#### Price, expansions & add-ons
+
+**€65 MSRP / €60 show price** — Chronocritters · English. Publisher event listing, checked 17 October 2026. Essen preview listing, not a guaranteed shipped retail offer; show price applies to that event listing. [Price source](https://boardgamegeek.com/geekpreview/93/spiel-essen-2026?q=chronocritters).
+
+No named gameplay expansion or official paid add-on was verified in the publisher catalog and accessible launch listing as of 17 October 2026. The solo rules are part of the base game, not an extra purchase.
+
+
 ### Entropy
 
 Personal fit: **79/100** (Medium: more player evidence, but a substantial complexity and pacing risk.). BGG **7.7/10**, complexity **3.62/5**. 1–4 players; 90–150 minutes. Start with: Try 2–3 before a full four-player game.
@@ -287,6 +372,16 @@ Sources:
 - [Publisher confirms demo table and booth](https://frostedgames.de/frosted-games-auf-der-spiel-essen-2026/)
 - [BGG statistics](https://boardgamegeek.com/boardgame/462941)
 - [BGG October player comments: pacing and interaction](https://boardgamegeek.com/boardgame/462941/entropy/ratings)
+
+#### Price, expansions & add-ons
+
+**€54.95** — Entropy · German. Publisher shop, checked 17 October 2026. German-language edition; includes VAT, shipping extra. The English publisher campaign also listed a €55 bundle with three promos. [Price source](https://frostedgames.de/shop/entropy/).
+
+The publisher’s €55 English campaign bundle includes these three promos. Shipping, tax and availability follow the campaign terms; it is not the German retail listing.
+
+- **Satellites** (Gameplay promo): Adds eight satellites as alternatives when catching asteroids: the same cost, but two life-condition icons instead of triggering the planet effect. Requires Entropy; part of the English publisher promo bundle. Price reference: €4.08 retail preorder. [Source](https://www.tlamagames.com/en/board-games/entropy--satellites-promo/).
+- **Home Systems** (Gameplay promo): Adds four alternative starting solar-system tiles, replacing the normal starting system and changing the opening setup. Requires Entropy; part of the English publisher promo bundle. [Source](https://www.ludoya.com/games/entropy-home-system-promo).
+- **Luminescent Lifeform Cards** (Gameplay promo): Adds six unique-effect life cards, two each for bacteria, plants and animals, shuffled into their normal decks. Requires Entropy; part of the English publisher promo bundle. Price reference: €3.95 · Philibert listing. [Source](https://boardgamegeek.com/boardgame/476714/entropy-luminescent-lifeform-promo).
 
 ### Blood Rage: Valhalla
 
@@ -321,6 +416,14 @@ Sources:
 - [BGG back-to-back session impressions](https://boardgamegeek.com/thread/3777422/blood-rage-valhalla-back-to-back-reviews)
 - [Old 2025 Essen demo announcement; not evidence for 2026](https://gamefound.com/en/projects/tabletop-tycoon/blood-rage-valhalla/updates/24)
 
+#### Price, expansions & add-ons
+
+**$124.99 USD** — Valhalla · English. US distributor listing, checked 17 October 2026. US retail release listed for 6 November 2026. This is not a European landed price. [Price source](https://store.asmodee.com/collections/tabletop-tycoon/products/blood-rage-valhalla).
+
+Valhalla is a standalone sequel. Original Blood Rage expansions were not verified as plug-in Valhalla expansions. No additional Valhalla-specific gameplay expansion was verified in the cited retail listing.
+
+- **Rainbow Bridge** (Included crossover module): Links a game of the original Blood Rage to Valhalla for one longer match spanning Ragnarök and the afterlife. Module is included; you also need a copy of the original Blood Rage to use the crossover. Price reference: Included; original Blood Rage sold separately. [Source](https://store.asmodee.com/collections/tabletop-tycoon/products/blood-rage-valhalla).
+
 ### Thessaloniki
 
 Personal fit: **77/100** (Provisional: rules and early impressions are informative, but there is no mature review consensus.). BGG **7.3/10**, complexity **3.22/5**. 1–4 players; 90–120 minutes. Start with: Try 2–3 before a full four-player game.
@@ -349,6 +452,16 @@ Sources:
 - [BGG stats, early sample](https://boardgamegeek.com/boardgame/463637)
 - [German demo and booth listing](https://www.cliquenabend.de/spiele/983020-Thessaloniki-Demo-deutsche-Version.html)
 - [BGG critical watchlist discussion](https://boardgamegeek.com/geeklist/380023/essen-2026-picks?itemid=12913816)
+
+#### Price, expansions & add-ons
+
+**€50** — Thessaloniki · English + three promos. Publisher preorder bundle, checked 17 October 2026. November-delivery campaign listing. It is a bundle price; base-game MSRP is also listed as €50 in the Essen preview. [Price source](https://gamefound.com/cs/projects/board-and-dice/thessaloniki-windmill-duel/rewards).
+
+These are small promos for Thessaloniki, rather than a separately verified large expansion. Check the contents of ordinary retail copies; the campaign bundle explicitly includes them.
+
+- **Early Demand tiles** (Gameplay promo): Adds four demand tiles, varying the demand content used by the trade system. Detailed tile effects were not independently verified. Included in the cited publisher bundle. [Source](https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1).
+- **New Contract cards** (Gameplay promo): Adds four contracts, increasing the variety of tasks and rewards to pursue. Included in the cited publisher bundle. [Source](https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1).
+- **New Family cards** (Gameplay promo): Adds four family cards, expanding the family-card options. Detailed card effects were not independently verified. Included in the cited publisher bundle. [Source](https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1).
 
 ## Three deliberate experiments
 
@@ -380,6 +493,19 @@ Sources:
 - [BGG ratings snapshot](https://boardgamegeek.com/boardgame/162886/spirit-island/ratings?comment=1)
 - [Publisher](https://shop.greaterthangames.com/products/spirit-island)
 
+#### Price, expansions & add-ons
+
+**€89.99** — Spirit Island · English. Dutch retailer listing, checked 17 October 2026. English base-game shelf price; shipping extra. [Price source](https://www.subcultures.nl/expert/spirit-island/).
+
+Learn the base game first. For Nature Incarnate, the physical-game requirement is Jagged Earth; digital-edition requirements differ.
+
+- **Branch & Claw** (Gameplay expansion): Adds two spirits, France, events and beast / wilds / disease / strife tokens, making the island more dynamic. Requires Spirit Island. Price reference: €41.99 · Subcultures. [Source](https://shop.greaterthangames.com/products/spirit-island-branch-claw).
+- **Jagged Earth** (Gameplay expansion): Adds ten spirits, two island boards for up to six players, adversaries, aspects, events and badlands. Requires Spirit Island; Branch & Claw is not required. Price reference: €79.99 · Subcultures. [Source](https://shop.greaterthangames.com/products/spirit-island-jagged-earth).
+- **Feather & Flame** (Gameplay expansion): Collects Promo Packs 1 and 2: four spirits, aspects, Scotland and scenarios. Requires Spirit Island. Do not rebuy it if you already own both promo packs. Price reference: $34.95 USD publisher listing. [Source](https://shop.greaterthangames.com/products/spirit-island-feather-and-flame).
+- **Nature Incarnate** (Gameplay expansion): Adds eight spirits, Incarna, 24 aspects, a new adversary and more events and powers. Requires BOTH Spirit Island and Jagged Earth for the physical game. Price reference: €59.99 · Subcultures. [Source](https://shop.greaterthangames.com/products/spirit-island-nature-incarnate).
+- **Horizons of Spirit Island** (Compatible standalone game): Adds five low-complexity spirits that can be used in the main game; it also plays independently with its own starter components. Standalone for up to three; its spirits are compatible with Spirit Island. It is not a six-player component expansion. Price reference: €38.99 · Subcultures. [Source](https://shop.greaterthangames.com/products/horizons-of-spirit-island).
+- **Premium foil spirit panels** (Accessory): Replaces spirit boards with thin foil cards; does not include the powers needed to add new spirits. Own the corresponding game or expansion first. [Source](https://shop.greaterthangames.com/products/spirit-island-jagged-earth-premium-foil-spirit-panels).
+
 ### Santorini
 
 Personal fit: **79/100** (Medium: strong agency match, but your taste for a pure abstract duel is untested.). BGG **7.3/10**, complexity **1.72/5**. 2–4 players; 20 minutes. Start with: 2; recommend the duel for your first play.
@@ -409,6 +535,17 @@ Sources:
 - [BGG game facts](https://boardgamegeek.com/boardgame/194655/santorini)
 - [BGG ratings and comments](https://boardgamegeek.com/boardgame/194655/santorini/ratings?comment=1)
 - [Roxley publisher](https://roxley.com/collections/santorini/products/santorini)
+
+#### Price, expansions & add-ons
+
+**€54.95** — Santorini Second Edition · English. Dutch retailer listing, checked 17 October 2026. Current second-edition retail reference; the guide’s BGG statistics remain those of the 2016 entry. [Price source](https://boardgameshop.nl/product/santorini-second-edition/).
+
+For the competitive duel recommendation, the base game is enough. Riddle of the Sphinx changes the experience to cooperative scenario play.
+
+- **God card packs / Pantheon** (Gameplay cards / bundled edition): Additional god and mode cards vary player powers and game rules. Current Pantheon bundles all card packs, with 100 gods and 12 modes versus 32 gods and four modes in Second Edition. Pantheon is a complete edition, not a required add-on. Check the card format and edition when buying separate packs. Price reference: Pantheon $75 USD; Synth $85; Collector $110 · publisher. [Source](https://roxley.com/collections/santorini/products/santorini).
+- **Golden Fleece (classic edition)** (Legacy gameplay expansion): Adds more gods and heroes plus the Golden Fleece variant. Intended for the classic edition; check overlap with current Pantheon content before buying. [Source](https://boardgamegeek.com/boardgame/216033/santorini-golden-fleece).
+- **Riddle of the Sphinx** (Gameplay expansion): Turns the building puzzle into a solo / cooperative adventure for 1–4, with 22 scenarios and persistent unlocks. Requires Santorini’s blocks, domes and workers; the expansion is not standalone. Price reference: $39.98–60 USD · Essentials to Deluxe Synth. [Source](https://roxley.com/products/santorini-riddle).
+- **Synth cards / Collector components** (Accessory upgrades): Synthetic cards, acrylic tokens and the Collector turntable improve durability or presentation. They do not add gameplay beyond the matching Pantheon card content. Choose an edition once; these variants are alternatives, not multiple required purchases. [Source](https://roxley.com/collections/santorini/products/santorini).
 
 ### Modern Art
 
@@ -440,6 +577,13 @@ Sources:
 - [BGG ratings snapshot and comments](https://boardgamegeek.com/boardgame/118/modern-art/ratings?comment=1)
 - [CMON publisher](https://www.cmon.com/product-line/modern-art/)
 - [Asmodee product and official media](https://store.asmodee.com/products/modern-art)
+
+#### Price, expansions & add-ons
+
+**$34.99 USD** — CMON edition · English. US distributor listing, checked 17 October 2026. Listed price with a sold-out label in the accessible snapshot; not a European delivered quote. [Price source](https://store.asmodee.com/products/modern-art).
+
+No official gameplay expansion was verified for the recommended CMON auction game. Different art editions change presentation. Modern Art Card Game / Masters Gallery is a separate game, not an add-on. A gavel, sleeves or upgraded money adds handling or presentation rather than a new game system.
+
 
 ## Original play log
 

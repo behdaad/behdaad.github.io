@@ -7,8 +7,8 @@ test('every game exposes its sourced price, expansion effects and compatibility'
   const records = await page.evaluate(() => window.FIELD_GUIDE.games.map(g => ({
     id: g.id, price: g.commerce.price, extras: g.commerce.extras, note: g.commerce.note
   })));
-  expect(records).toHaveLength(14);
-  await expect(page.locator('.card-price')).toHaveCount(14);
+  expect(records).toHaveLength(23);
+  await expect(page.locator('.card-price')).toHaveCount(23);
   for (const record of records) {
     await page.locator(`#search`).fill('');
     await page.locator(`.card-title-button[data-detail="${record.id}"]`).click();

@@ -590,7 +590,7 @@ window.FIELD_GUIDE = {
     {
       "id": "concordia",
       "title": "Concordia",
-      "rank": 3,
+      "rank": 4,
       "fitScore": 90,
       "confidence": "High",
       "category": "essentials",
@@ -809,7 +809,7 @@ window.FIELD_GUIDE = {
     {
       "id": "inis",
       "title": "Inis",
-      "rank": 4,
+      "rank": 7,
       "fitScore": 87,
       "confidence": "Medium–high",
       "category": "essentials",
@@ -1011,7 +1011,7 @@ window.FIELD_GUIDE = {
     {
       "id": "dune-imperium-uprising",
       "title": "Dune: Imperium – Uprising",
-      "rank": 5,
+      "rank": 9,
       "fitScore": 85,
       "confidence": "Medium–high; demo first",
       "category": "essentials",
@@ -1248,7 +1248,7 @@ window.FIELD_GUIDE = {
       "name": "Foundations of Rome",
       "title": "Foundations of Rome",
       "category": "essentials",
-      "rank": 6,
+      "rank": 10,
       "year": 2022,
       "designer": "Emerson Matsuuchi",
       "publisher": "Arcane Wonders",
@@ -2411,7 +2411,7 @@ window.FIELD_GUIDE = {
         "short": "No demo claim established",
         "note": "No 2026 booth or demo claim was established in this wildcard research."
       },
-      "rank": 1,
+      "rank": 3,
       "designer": "R. Eric Reuss",
       "publisher": "Greater Than Games",
       "lowLuck": true,
@@ -2596,7 +2596,7 @@ window.FIELD_GUIDE = {
         "short": "No demo claim established",
         "note": "No 2026 booth or demo claim was established in this wildcard research."
       },
-      "rank": 2,
+      "rank": 4,
       "designer": "Gord!",
       "publisher": "Roxley",
       "lowLuck": true,
@@ -2753,7 +2753,7 @@ window.FIELD_GUIDE = {
         "short": "No demo claim established",
         "note": "No 2026 booth or demo claim was established in this wildcard research."
       },
-      "rank": 3,
+      "rank": 5,
       "designer": "Reiner Knizia",
       "publisher": "CMON / various editions",
       "lowLuck": false,
@@ -2779,6 +2779,1320 @@ window.FIELD_GUIDE = {
         "note": "No official gameplay expansion was verified for the recommended CMON auction game. Different art editions change presentation. Modern Art Card Game / Masters Gallery is a separate game, not an add-on. A gavel, sleeves or upgraded money adds handling or presentation rather than a new game system.",
         "checkedAt": "2026-10-17"
       }
+    },
+    {
+      "id": "el-grande",
+      "name": "El Grande",
+      "title": "El Grande",
+      "year": 1995,
+      "designer": "Wolfgang Kramer & Richard Ulrich",
+      "publisher": "Hans im Glück",
+      "bggId": 93,
+      "bggUrl": "https://boardgamegeek.com/boardgame/93",
+      "bggRating": 7.8,
+      "bggWeight": 2.93,
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playerCounts": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "minMinutes": 60,
+      "maxMinutes": 120,
+      "bestPlayers": "4–5, especially five",
+      "durationNote": "The publisher lists about 90 minutes; the broader BGG range shown here is 60–120. Allow extra time for teaching and a first play.",
+      "category": "essentials",
+      "rank": 3,
+      "fitScore": 92,
+      "fitLabel": "Choose when to act, then make every cube count.",
+      "tagline": "Choose when to act, then make every cube count.",
+      "shortReason": "Fight over majorities with controlled card choices and no combat dice. An overlooked fit for your four- and five-player groups.",
+      "tags": [
+        "Area control",
+        "Action drafting",
+        "Hand management",
+        "Competitive"
+      ],
+      "whyYou": [
+        "Blood Rage and Rising Sun suggest that contested territory matters to you; El Grande keeps that contest while making the action economy easier to inspect.",
+        "Your power-card choice trades turn priority against reinforcements, creating a meaningful cost before you even choose an action.",
+        "Four- and five-player sessions suit several counts in your play log."
+      ],
+      "cautions": [
+        "Action cards can move or remove your pieces, and several opponents can target the leader. Low dice luck does not remove kingmaking or sharp reversals.",
+        "This is a majority contest, not a growing engine of spectacular powers. Your 3/5 for The King is Dead makes confidence medium rather than automatic."
+      ],
+      "chance": {
+        "level": "Low–moderate",
+        "type": "The action-card offer changes each round. The Castillo conceals pieces and players choose their destinations simultaneously; there are no combat dice.",
+        "agency": "You manage your own power cards and see the available actions before choosing, but must anticipate opponents and remember hidden commitments."
+      },
+      "lowLuck": true,
+      "demoQuestion": "Can you explain when sacrificing first choice is worth the extra reinforcements, even if it loses one region this round?",
+      "factors": {
+        "Control": 4.5,
+        "Taste overlap": 4.5,
+        "Replay potential": 4.5,
+        "Group suitability": 5,
+        "Approachability": 4.5
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "Accessible player comments praise engagement at four and five players, while warning that disruptive cards and leader-targeting can feel vindictive. That tension is relevant given your mixed response to The King is Dead.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/93/el-grande/ratings?comment=1&rated=1"
+        }
+      ],
+      "editionNote": "BGG statistics refer to the original 1995 entry. Photo and price refer to the 2023 edition, which supports 2–5; the recommendation is strongest at 4–5.",
+      "images": [
+        {
+          "url": "https://store.asmodee.com/cdn/shop/files/HIGELG01EN-image3_2000_400x@2x.jpg?v=1701441865",
+          "local": "assets/el-grande-1.jpg",
+          "source": "https://store.asmodee.com/products/el-grande",
+          "credit": "Hans im Glück / Asmodee",
+          "alt": "El Grande 2023 edition board, Castillo and colorful caballeros"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://www.hans-im-glueck.de/game/el-grande/",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/93",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/93/el-grande/ratings?comment=1&rated=1",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://www.999games.nl/product/el-grande/8720289476403",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        },
+        {
+          "label": "Legacy Big Box expansions details",
+          "url": "https://www.999games.nl/product/el-grande-big-box/8717249197584",
+          "supports": "Expansion contents, compatibility or accessory information."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€49.99",
+          "edition": "2023 edition · Dutch",
+          "kind": "European retail listing",
+          "url": "https://www.999games.nl/product/el-grande/8720289476403",
+          "note": "Publisher reference is marked out of assortment, so this is a price reference rather than an available offer.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [
+          {
+            "name": "New power-card and action-card mini-expansions",
+            "kind": "Included gameplay content",
+            "adds": "Adds optional power and action choices to vary the classic rules.",
+            "compatibility": "Included in the 2023 edition; start with standard cards.",
+            "url": "https://www.999games.nl/product/el-grande/8720289476403",
+            "price": "Included"
+          },
+          {
+            "name": "Legacy Big Box expansions",
+            "kind": "Gameplay expansion",
+            "adds": "Older bundles collect Grandissimo, King & Intrigant and Grand Inquisitor & Colonies, changing cards, regions and action choices.",
+            "compatibility": "An older Big Box is a different product. Check component sizes and exact rules before mixing with 2023 editions.",
+            "url": "https://www.999games.nl/product/el-grande-big-box/8717249197584"
+          }
+        ],
+        "note": "The current-edition recommendation is for the base game. An old Big Box listing is not evidence that its content is included in a 2023 box.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      }
+    },
+    {
+      "id": "babylonia",
+      "name": "Babylonia",
+      "title": "Babylonia",
+      "year": 2019,
+      "designer": "Reiner Knizia",
+      "publisher": "Ludonova",
+      "bggId": 266164,
+      "bggUrl": "https://boardgamegeek.com/boardgame/266164",
+      "bggRating": 7.6,
+      "bggWeight": 2.39,
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playerCounts": [
+        2,
+        3,
+        4
+      ],
+      "minMinutes": 60,
+      "maxMinutes": 60,
+      "bestPlayers": "3–4; two also supported",
+      "durationNote": "Published duration is a guide. Allow extra time for teaching and a first play.",
+      "category": "essentials",
+      "rank": 5,
+      "fitScore": 90,
+      "fitLabel": "Place a small token; change the value of the whole network.",
+      "tagline": "Place a small token; change the value of the whole network.",
+      "shortReason": "Azul-like placement discipline meets contested trade networks, with a larger payoff for planning connections.",
+      "tags": [
+        "Tile placement",
+        "Network building",
+        "Spatial planning",
+        "Competitive"
+      ],
+      "whyYou": [
+        "Your 4/5 Azul rating suggests you may enjoy a compact spatial action with consequences beyond the immediate placement.",
+        "Ticket to Ride provides a second connection: blocking and network continuity matter, without dice-based battles.",
+        "Temple rewards and connected-city scoring reward timing rather than simply taking the largest visible number."
+      ],
+      "cautions": [
+        "The theme is thin, and the scoring routes need a careful teach. It will not reproduce Blood Rage’s dramatic power growth.",
+        "Blocking can close routes permanently. The game may feel understated before players learn to read its networks."
+      ],
+      "chance": {
+        "level": "Low–moderate",
+        "type": "Your hand of clan tokens is replenished through random draws. Available scoring opportunities and networks are visible.",
+        "agency": "Placement and timing matter strongly, but you cannot demand a specific token on the next refill."
+      },
+      "lowLuck": true,
+      "demoQuestion": "Can a modest immediate score create a stronger connected network than taking the obvious crop reward now?",
+      "factors": {
+        "Control": 4.5,
+        "Taste overlap": 4.5,
+        "Replay potential": 4.5,
+        "Group suitability": 4.5,
+        "Approachability": 4.5
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "Player comments describe a tension between early income and larger networks, and praise blocking and quick turns. Some find the tension too mild. These individual reactions support a trial, rather than a guarantee of depth for your group.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/266164/babylonia/ratings?comment=1&rated=1"
+        }
+      ],
+      "editionNote": "",
+      "images": [
+        {
+          "url": "https://ludonova.com/wp-content/uploads/2023/07/Babylonia_Pic1.jpg",
+          "local": "assets/babylonia-1.jpg",
+          "source": "https://ludonova.com/en/juego/babylonia/",
+          "credit": "Ludonova",
+          "alt": "Babylonia board with clan tokens, cities and ziggurats"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://ludonova.com/en/juego/babylonia/",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/266164",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/266164/babylonia/ratings?comment=1&rated=1",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://www.spellenvariant.nl/babylonia",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€48.88",
+          "edition": "Babylonia · English",
+          "kind": "European retail listing",
+          "url": "https://www.spellenvariant.nl/babylonia",
+          "note": "Discounted listing from €58.88; currently unavailable in the accessible shop snapshot.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [],
+        "note": "No official gameplay expansion or paid promo was verified in the publisher material reviewed. The core box already contains variable ziggurat rewards.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      }
+    },
+    {
+      "id": "quest-for-el-dorado",
+      "name": "The Quest for El Dorado",
+      "title": "The Quest for El Dorado",
+      "year": 2017,
+      "designer": "Reiner Knizia",
+      "publisher": "Lautapelit.fi / Ravensburger",
+      "bggId": 217372,
+      "bggUrl": "https://boardgamegeek.com/boardgame/217372",
+      "bggRating": 7.7,
+      "bggWeight": 1.94,
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playerCounts": [
+        2,
+        3,
+        4
+      ],
+      "minMinutes": 30,
+      "maxMinutes": 60,
+      "bestPlayers": "2 or 4; at two each player controls two explorers",
+      "durationNote": "Published duration is a guide. Allow extra time for teaching and a first play.",
+      "category": "essentials",
+      "rank": 6,
+      "fitScore": 89,
+      "fitLabel": "Build the expedition that fits the route ahead.",
+      "tagline": "Build the expedition that fits the route ahead.",
+      "shortReason": "Build a deck for a visible race course, then time your purchases and blocking. A lighter way to test deck-building.",
+      "tags": [
+        "Deck building",
+        "Racing",
+        "Blocking",
+        "Competitive"
+      ],
+      "whyYou": [
+        "Splendor’s investment timing and Ticket to Ride’s route competition meet in a physical race rather than an abstract points engine.",
+        "The terrain tells you what your deck needs; you can assess whether a purchase advances a plan instead of relying on theme or novelty.",
+        "Changing courses and a broad card market offer repeat-play decisions within a relatively accessible ruleset."
+      ],
+      "cautions": [
+        "Shuffled hands can arrive in the wrong order; this is a moderate-luck recommendation, not a fully deterministic puzzle.",
+        "It is lighter than The White Castle, and setup can feel long for the weight. Tight finishes can hinge on draw timing."
+      ],
+      "chance": {
+        "level": "Moderate",
+        "type": "You draw from your shuffled expedition deck. Optional cave tokens add another random reward source.",
+        "agency": "Card purchases, thinning and route selection shape future draws; leave optional caves out initially if you want fewer surprises."
+      },
+      "lowLuck": false,
+      "demoQuestion": "Can you identify a purchase that is powerful in general but wrong for the next stretch of this particular course?",
+      "factors": {
+        "Control": 4,
+        "Taste overlap": 4.5,
+        "Replay potential": 4.5,
+        "Group suitability": 4.5,
+        "Approachability": 5
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "BGG comments praise the combination of deck development and positional blocking, but also describe light interaction or an anticlimactic finish. One October 2026 comment flags setup relative to game weight.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/217372/the-quest-for-el-dorado/ratings?comment=1"
+        }
+      ],
+      "editionNote": "The image shows a Ravensburger edition. The priced and expansion-recommended edition is Lautapelit.fi with separate English cards. Components and card sizes vary across releases.",
+      "images": [
+        {
+          "url": "https://media.s-bol.com/31RDwg3Kyvmp/1200x818.jpg",
+          "local": "assets/quest-for-el-dorado-1.jpg",
+          "source": "https://www.bol.com/nl/nl/p/ravensburger-the-quest-for-el-dorado/9200000105634623/",
+          "credit": "Ravensburger promotional setup via bol",
+          "alt": "The Quest for El Dorado modular course, expedition cards and explorers"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://en.lautapelit.fi/product/30541/quest-for-el-dorado",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/217372",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/217372/the-quest-for-el-dorado/ratings?comment=1",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://en.lautapelit.fi/product/30541/quest-for-el-dorado",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        },
+        {
+          "label": "Heroes & Hexes details",
+          "url": "https://en.lautapelit.fi/product/48889/",
+          "supports": "Expansion contents, compatibility or accessory information."
+        },
+        {
+          "label": "Dragons & Treasures details",
+          "url": "https://en.lautapelit.fi/product/46157/quest-for-el-dorado-dragons--treasures-expansion",
+          "supports": "Expansion contents, compatibility or accessory information."
+        },
+        {
+          "label": "Golden Temples details",
+          "url": "https://en.lautapelit.fi/category/397/quest-for-eldorado",
+          "supports": "Expansion contents, compatibility or accessory information."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€42.00",
+          "edition": "Lautapelit.fi edition · includes English cards",
+          "kind": "European retail listing",
+          "url": "https://en.lautapelit.fi/product/30541/quest-for-el-dorado",
+          "note": "Publisher shop price; shipping to your delivery country is extra.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [
+          {
+            "name": "Heroes & Hexes",
+            "kind": "Gameplay expansion",
+            "adds": "Adds heroes to recruit and hexes / curses that complicate the expedition.",
+            "compatibility": "Included in Expansion Collection; match the card size of your base edition.",
+            "url": "https://en.lautapelit.fi/product/48889/"
+          },
+          {
+            "name": "Dangers & Muisca",
+            "kind": "Gameplay expansion",
+            "adds": "Adds hazards and Muisca content for additional course and expedition challenges.",
+            "compatibility": "Included in Expansion Collection; requires a compatible base game.",
+            "url": "https://en.lautapelit.fi/product/48889/"
+          },
+          {
+            "name": "Dragons & Treasures",
+            "kind": "Gameplay expansion",
+            "adds": "Adds moving dragons and treasures, changing route risks and rewards.",
+            "compatibility": "Included in Expansion Collection or sold separately; match the base-game card size.",
+            "url": "https://en.lautapelit.fi/product/46157/quest-for-el-dorado-dragons--treasures-expansion"
+          },
+          {
+            "name": "Expansion Collection & promo packs",
+            "kind": "Expansion bundle",
+            "adds": "Bundles the three named expansions plus Binoculars, Telegram and Letter of Recommendation cards.",
+            "compatibility": "Avoid buying individual expansions again if you choose this collection.",
+            "url": "https://en.lautapelit.fi/product/48889/",
+            "price": "€59.00 publisher listing"
+          },
+          {
+            "name": "Golden Temples",
+            "kind": "Compatible standalone game",
+            "adds": "A standalone companion with temple exploration that can be combined with a compatible El Dorado base.",
+            "compatibility": "Separate game; verify matching card format and combination rules.",
+            "url": "https://en.lautapelit.fi/category/397/quest-for-eldorado",
+            "price": "€42.00 publisher listing"
+          }
+        ],
+        "note": "Buy the base game first. The Lautapelit.fi / Vincent Dutrait edition uses a different card format from some older Ravensburger editions.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      }
+    },
+    {
+      "id": "tyrants-of-the-underdark",
+      "name": "Tyrants of the Underdark",
+      "title": "Tyrants of the Underdark",
+      "year": 2021,
+      "designer": "Peter Lee, Rodney Thompson & Andrew Veen",
+      "publisher": "Gale Force Nine",
+      "bggId": 336847,
+      "bggUrl": "https://boardgamegeek.com/boardgame/336847",
+      "bggRating": 8.2,
+      "bggWeight": 2.4,
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playerCounts": [
+        2,
+        3,
+        4
+      ],
+      "minMinutes": 90,
+      "maxMinutes": 90,
+      "bestPlayers": "3–4; two also works with the restricted map",
+      "durationNote": "Published duration is a guide. Allow extra time for teaching and a first play.",
+      "category": "essentials",
+      "rank": 8,
+      "fitScore": 86,
+      "fitLabel": "Your deck earns its keep on a contested map.",
+      "tagline": "Your deck earns its keep on a contested map.",
+      "shortReason": "Buy the tools for territorial control, then decide which cards to retire for points. A direct bridge from development to conflict.",
+      "tags": [
+        "Deck building",
+        "Area control",
+        "Power development",
+        "Competitive"
+      ],
+      "whyYou": [
+        "Blood Rage suggests that developing a distinctive toolkit is most satisfying when it has consequences on a shared board.",
+        "Map control gives your card engine an immediate tactical purpose rather than merely producing more currency.",
+        "Promoting cards to your inner circle creates a trade-off between keeping an effect and banking its higher endgame value."
+      ],
+      "cautions": [
+        "Card draws and market timing can swing your tactical options. Deck-building may be a weaker taste signal than territory control.",
+        "The dark map and cardboard troops are less inviting than the mechanisms, and direct assassinations can feel harsh."
+      ],
+      "chance": {
+        "level": "Moderate",
+        "type": "Both your deck and the central recruitment deck are shuffled. The two chosen market half-decks change each game’s character.",
+        "agency": "You control purchases, promotion and placement, but must build a deck robust enough to function with different hands."
+      },
+      "lowLuck": false,
+      "demoQuestion": "When is promoting a useful card worth weakening your next few turns on the map?",
+      "factors": {
+        "Control": 4,
+        "Taste overlap": 4.5,
+        "Replay potential": 4.5,
+        "Group suitability": 4.5,
+        "Approachability": 4
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "Player comments repeatedly connect deck-building to meaningful map tactics and describe variety from the paired market decks. Other comments criticize token visibility and the need to separate the market decks after play.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/336847/tyrants-of-the-underdark-board-game/ratings?comment=1"
+        }
+      ],
+      "editionNote": "BGG statistics use the 2021 compilation entry, not the original 2016 entry. The updated edition uses cardboard troop markers.",
+      "images": [
+        {
+          "url": "https://cdn1.philibertnet.com/524727-thickbox_default/tyrants-of-the-underdark-updated-edition-9781638840008.jpg",
+          "local": "assets/tyrants-of-the-underdark-1.jpg",
+          "source": "https://www.philibertnet.com/en/gale-force-nine/104303-tyrants-of-the-underdark-updated-edition-9781638840008.html",
+          "credit": "Gale Force Nine promotional setup via Philibert",
+          "alt": "Tyrants of the Underdark second-edition board, decks and cardboard troops"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://www.philibertnet.com/en/gale-force-nine/104303-tyrants-of-the-underdark-updated-edition-9781638840008.html",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/336847",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/336847/tyrants-of-the-underdark-board-game/ratings?comment=1",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://www.philibertnet.com/en/gale-force-nine/104303-tyrants-of-the-underdark-updated-edition-9781638840008.html",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        },
+        {
+          "label": "Aberrations & Undead market decks details",
+          "url": "https://www.gamenerdz.com/dungeons-dragons-tyrants-of-the-underdark-2nd-edition",
+          "supports": "Expansion contents, compatibility or accessory information."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€58.95",
+          "edition": "2021 updated edition · English",
+          "kind": "European retail listing",
+          "url": "https://www.philibertnet.com/en/gale-force-nine/104303-tyrants-of-the-underdark-updated-edition-9781638840008.html",
+          "note": "European retailer reference, with shipping extra.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [
+          {
+            "name": "Aberrations & Undead market decks",
+            "kind": "Included gameplay expansion",
+            "adds": "Adds two 40-card market half-decks, increasing the combinations of paired factions used to build the recruitment deck.",
+            "compatibility": "Included in the 2021 edition. The separately sold expansion was for older copies.",
+            "url": "https://www.gamenerdz.com/dungeons-dragons-tyrants-of-the-underdark-2nd-edition",
+            "price": "Included"
+          }
+        ],
+        "note": "The recommended 2021 edition already includes the expansion decks. No further official gameplay expansion was verified.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      }
+    },
+    {
+      "id": "ankh-gods-of-egypt",
+      "name": "Ankh: Gods of Egypt",
+      "title": "Ankh: Gods of Egypt",
+      "year": 2021,
+      "designer": "Eric M. Lang",
+      "publisher": "CMON / Tycoon Games",
+      "bggId": 285967,
+      "bggUrl": "https://boardgamegeek.com/boardgame/285967",
+      "bggRating": 7.7,
+      "bggWeight": 3.13,
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playerCounts": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "minMinutes": 90,
+      "maxMinutes": 90,
+      "bestPlayers": "2 for a clean duel; try four only after discussing the merger",
+      "durationNote": "Published duration is a guide. Allow extra time for teaching and a first play.",
+      "category": "essentials",
+      "rank": 11,
+      "fitScore": 84,
+      "fitLabel": "A deliberate battle of gods, with a merger to judge first.",
+      "tagline": "A deliberate battle of gods, with a merger to judge first.",
+      "shortReason": "Asymmetric gods, visible action timing and card-driven battles fit your conflict tastes, with an unusually important multiplayer caveat.",
+      "tags": [
+        "Area control",
+        "Asymmetric powers",
+        "Card combat",
+        "Competitive"
+      ],
+      "whyYou": [
+        "This is a relevant follow-up to Blood Rage and Rising Sun because of its card combat and power development, not merely the shared designer.",
+        "Choosing an action also advances the timing of events, making tempo itself a contested resource.",
+        "Deterministic battle resolution rewards anticipating an opponent’s card rather than hoping for a dice result."
+      ],
+      "cautions": [
+        "In games with three or more players, the two lowest gods merge partway through. Sharing control and the associated catch-up rules may conflict with your desire for agency.",
+        "Players can be eliminated by failing a devotion threshold. A two-player game avoids the merger but is a different social experience from Blood Rage."
+      ],
+      "chance": {
+        "level": "Very low",
+        "type": "Combat uses selected cards and known strengths rather than dice. Hidden card choices and opponents’ intentions supply uncertainty.",
+        "agency": "Action timing and positioning are highly deliberate; deterministic resolution does not mean opponents cannot punish a plan."
+      },
+      "lowLuck": true,
+      "demoQuestion": "After learning exactly how the merger works, do you still want this for multiplayer, or would you prefer it as a two-player game?",
+      "factors": {
+        "Control": 4.5,
+        "Taste overlap": 4.5,
+        "Replay potential": 4.5,
+        "Group suitability": 3.5,
+        "Approachability": 3.5
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "Comments praise event timing and battle-card decisions, while disagreeing sharply about the merger and strength of the god powers. The fit is conditional: try the actual multiplayer rules before buying a large bundle.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/285967/ankh-gods-of-egypt/ratings?comment=1&rated=1"
+        }
+      ],
+      "editionNote": "BGG statistics, rule cautions and this price refer to the original game. Verify changes and upgrade requirements if choosing the newer Tycoon edition.",
+      "images": [
+        {
+          "url": "https://cdn1.philibertnet.com/511436-thickbox_default/ankh-les-dieux-d-egypte-3558380087175.jpg",
+          "local": "assets/ankh-gods-of-egypt-1.jpg",
+          "source": "https://www.philibertnet.com/en/cool-mini-or-not/99858-ankh-les-dieux-d-egypte-3558380087175.html",
+          "credit": "CMON promotional setup via Philibert",
+          "alt": "Ankh board, god miniatures, dashboards and battle cards in the French edition"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://www.cmon.com/one-god-to-rule-them-all/",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/285967",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/boardgame/285967/ankh-gods-of-egypt/ratings?comment=1&rated=1",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://www.philibertnet.com/en/cool-mini-or-not/99858-ankh-les-dieux-d-egypte-3558380087175.html",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        },
+        {
+          "label": "Pantheon details",
+          "url": "https://www.asmodee.de/news/drei-erweiterungen-fuer-ankh-angekuendigt",
+          "supports": "Expansion contents, compatibility or accessory information."
+        },
+        {
+          "label": "Pharaoh details",
+          "url": "https://store.asmodee.com/products/ankh-gods-of-egypt-pharaoh-expansion",
+          "supports": "Expansion contents, compatibility or accessory information."
+        },
+        {
+          "label": "Eternal expansion pack details",
+          "url": "https://www.philibertnet.com/en/tycoon-games/165946-ankh-gods-of-egypt-2nd-edition-eternal-expansion-810082833188.html",
+          "supports": "Expansion contents, compatibility or accessory information."
+        },
+        {
+          "label": "Official rulebook: merger and elimination",
+          "url": "https://www.cmon.com/wp-content/uploads/2023/06/Ankh_Rulebook.pdf",
+          "supports": "Battle cards, merger at three or more players, and forgotten gods; pages 23–27."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€89.90",
+          "edition": "Original CMON base game · French",
+          "kind": "European retail listing",
+          "url": "https://www.philibertnet.com/en/cool-mini-or-not/99858-ankh-les-dieux-d-egypte-3558380087175.html",
+          "note": "Language-specific European reference. English second-edition listings are separate products.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [
+          {
+            "name": "Pantheon",
+            "kind": "Gameplay expansion",
+            "adds": "Adds five gods with different powers and warriors.",
+            "compatibility": "Original expansion needs the base; do not duplicate it if buying Eternal.",
+            "url": "https://www.asmodee.de/news/drei-erweiterungen-fuer-ankh-angekuendigt"
+          },
+          {
+            "name": "Pharaoh",
+            "kind": "Gameplay expansion",
+            "adds": "Adds priests and palace politics, allowing influence over royal affairs alongside the map conflict.",
+            "compatibility": "Requires the base game; also collected in Eternal.",
+            "url": "https://store.asmodee.com/products/ankh-gods-of-egypt-pharaoh-expansion"
+          },
+          {
+            "name": "Guardians Set",
+            "kind": "Gameplay expansion",
+            "adds": "Adds more guardian creatures and abilities for different shared recruitment options.",
+            "compatibility": "Requires the base; also collected in Eternal.",
+            "url": "https://www.asmodee.de/news/drei-erweiterungen-fuer-ankh-angekuendigt"
+          },
+          {
+            "name": "Eternal expansion pack",
+            "kind": "Expansion collection",
+            "adds": "Collects prior expansion gameplay from Pantheon, Pharaoh, Guardians and Tomb of Wonders.",
+            "compatibility": "Second-edition product: check the publisher’s exact compatibility and contents before adding it to an older copy.",
+            "url": "https://www.philibertnet.com/en/tycoon-games/165946-ankh-gods-of-egypt-2nd-edition-eternal-expansion-810082833188.html"
+          }
+        ],
+        "note": "Base game first. Current second-edition and Eternal bundles are distinct from the original CMON price quoted here.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      }
+    },
+    {
+      "id": "seven-wonders-duel",
+      "name": "7 Wonders Duel",
+      "title": "7 Wonders Duel",
+      "year": 2015,
+      "designer": "Antoine Bauza & Bruno Cathala",
+      "publisher": "Repos Production",
+      "bggId": 173346,
+      "bggUrl": "https://boardgamegeek.com/boardgame/173346",
+      "bggRating": 8.1,
+      "bggWeight": 2.23,
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playerCounts": [
+        2
+      ],
+      "minMinutes": 30,
+      "maxMinutes": 30,
+      "bestPlayers": "2 only",
+      "durationNote": "Published duration is a guide. Allow extra time for teaching and a first play.",
+      "category": "essentials",
+      "rank": 12,
+      "fitScore": 84,
+      "fitLabel": "Build efficiently while denying the card your rival needs.",
+      "tagline": "Build efficiently while denying the card your rival needs.",
+      "shortReason": "A natural follow-up to Splendor Duel: develop your economy while watching two sudden-death threats.",
+      "tags": [
+        "Card drafting",
+        "Engine building",
+        "Two-player",
+        "Competitive"
+      ],
+      "whyYou": [
+        "Your 4/5 Splendor Duel result makes a tense development duel worth testing alongside Santorini’s more abstract contest.",
+        "Military and science can end the game immediately, so an efficient points engine is not enough on its own.",
+        "Choosing a card can uncover your opponent’s next choice; timing and denial are linked rather than separate puzzles."
+      ],
+      "cautions": [
+        "Face-down cards create reveal luck, and turn-order parity can sometimes force an unattractive choice. This may be more frustrating than Splendor Duel’s open resource board.",
+        "It serves only two players, so it does not replace your three- to five-player nights."
+      ],
+      "chance": {
+        "level": "Low–moderate",
+        "type": "Some cards in each Age’s shared layout begin face down. The dealt wonders, removed cards and progress tokens vary the setup.",
+        "agency": "You can plan around visible paths and extra-turn wonders, but cannot know every card before revealing it."
+      },
+      "lowLuck": true,
+      "demoQuestion": "When would you discard an efficient card or delay a wonder just to avoid revealing a decisive card to your rival?",
+      "factors": {
+        "Control": 4,
+        "Taste overlap": 4.5,
+        "Replay potential": 4.5,
+        "Group suitability": 3.5,
+        "Approachability": 4.5
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "A detailed BGG review rates the interaction and strategic depth highly while retaining a luck caveat. Treat that as one reviewer’s assessment; the hidden-card layout is the main mechanism to test against your preferences.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/thread/3670346/7-wonders-duel-razorreview"
+        }
+      ],
+      "editionNote": "",
+      "images": [
+        {
+          "url": "https://cdn.svc.asmodee.net/production-rprod/storage/games/7-wonders-duel/duel-content-3d-small-15988580661cqoW.png",
+          "local": "assets/seven-wonders-duel-1.png",
+          "source": "https://www.rprod.com/en/games/7-wonders-duel",
+          "credit": "Repos Production",
+          "alt": "7 Wonders Duel cards, wonders, coins and military track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://www.rprod.com/en/games/7-wonders-duel",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/173346",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/thread/3670346/7-wonders-duel-razorreview",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://www.bol.com/nl/nl/p/7-wonders-duel-bordspel/9200000062721097/",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        },
+        {
+          "label": "Pantheon details",
+          "url": "https://www.rprod.com/en/games/7-wonders-duel/pantheon",
+          "supports": "Expansion contents, compatibility or accessory information."
+        },
+        {
+          "label": "Agora details",
+          "url": "https://www.rprod.com/en/games/7-wonders-duel/agora",
+          "supports": "Expansion contents, compatibility or accessory information."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€24.27",
+          "edition": "7 Wonders Duel · Dutch",
+          "kind": "European retail listing",
+          "url": "https://www.bol.com/nl/nl/p/7-wonders-duel-bordspel/9200000062721097/",
+          "note": "Discounted bol listing from €26.99 RRP; English editions may differ in price.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [
+          {
+            "name": "Pantheon",
+            "kind": "Gameplay expansion",
+            "adds": "Adds gods that can be invoked instead of taking a card, offering powers and a way to change the shared-draft rhythm.",
+            "compatibility": "Requires Duel; can combine with Agora.",
+            "url": "https://www.rprod.com/en/games/7-wonders-duel/pantheon"
+          },
+          {
+            "name": "Agora",
+            "kind": "Gameplay expansion",
+            "adds": "Adds a Senate, senators, conspiracies and political control as another path to victory.",
+            "compatibility": "Requires Duel; can combine with Pantheon.",
+            "url": "https://www.rprod.com/en/games/7-wonders-duel/agora"
+          }
+        ],
+        "note": "The original 7 Wonders expansions do not fit Duel. Learn Duel before choosing whether you want Pantheon’s tempo options or Agora’s extra political system.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      }
+    },
+    {
+      "id": "five-tribes",
+      "name": "Five Tribes",
+      "title": "Five Tribes",
+      "year": 2014,
+      "designer": "Bruno Cathala",
+      "publisher": "Days of Wonder",
+      "bggId": 157354,
+      "bggUrl": "https://boardgamegeek.com/boardgame/157354",
+      "bggRating": 7.8,
+      "bggWeight": 2.84,
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playerCounts": [
+        2,
+        3,
+        4
+      ],
+      "minMinutes": 40,
+      "maxMinutes": 80,
+      "bestPlayers": "2 for less downtime; 3–4 if your group plays briskly",
+      "durationNote": "Published duration is a guide. Allow extra time for teaching and a first play.",
+      "category": "essentials",
+      "rank": 13,
+      "fitScore": 83,
+      "fitLabel": "Turn a trail of meeples into the action nobody else saw.",
+      "tagline": "Turn a trail of meeples into the action nobody else saw.",
+      "shortReason": "A shared-board optimization puzzle for your Azul and White Castle side, with a warning about recalculating every turn.",
+      "tags": [
+        "Mancala",
+        "Spatial planning",
+        "Action selection",
+        "Competitive"
+      ],
+      "whyYou": [
+        "Like Azul, a visible shared pool can hide a rich placement puzzle; here picking up and distributing meeples creates the action.",
+        "Bidding for turn order links the value of a move to what you must pay to secure it.",
+        "Djinn powers and several scoring paths offer a different tactical optimization problem from The White Castle."
+      ],
+      "cautions": [
+        "Other players can remake the board before your turn, so analysis paralysis and downtime are substantial risks.",
+        "It leans tactical rather than toward a stable long-term plan. Your Woodcraft comment makes another optimization game a cautious addition."
+      ],
+      "chance": {
+        "level": "Low–moderate",
+        "type": "Initial tiles and meeples are randomized, and resource / Djinn card refills are shuffled. Your available board moves are visible on your turn.",
+        "agency": "You can choose among many legal moves and price turn order, but cannot assume a move will remain after another player acts."
+      },
+      "lowLuck": true,
+      "demoQuestion": "Can your group choose a good move quickly, or does the search for the best move stop the game?",
+      "factors": {
+        "Control": 4,
+        "Taste overlap": 4.5,
+        "Replay potential": 4.5,
+        "Group suitability": 4,
+        "Approachability": 3.5
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "The core rules expose a large shared-board search. A BGG discussion of game length specifically flags Five Tribes for making advance planning difficult when the board changes. This caution is central to its lower fit score.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/blog/5824/blogpost/120438/the-right-length-for-a-board-game"
+        }
+      ],
+      "editionNote": "",
+      "images": [
+        {
+          "url": "https://despelletjesvrienden.nl/cdn/shop/files/bordspellen-five-tribes-1.jpg?v=1718620424",
+          "local": "assets/five-tribes-1.jpg",
+          "source": "https://despelletjesvrienden.nl/products/five-tribes-bordspel-eng",
+          "credit": "Days of Wonder promotional setup via De Spelletjes Vrienden",
+          "alt": "Five Tribes tiled board with meeples, Djinn cards, camels and resources"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://www.daysofwonder.com/game/fives-tribes-the-djinns-of-naqala/",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/157354",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/blog/5824/blogpost/120438/the-right-length-for-a-board-game",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://despelletjesvrienden.nl/products/five-tribes-bordspel-eng",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        },
+        {
+          "label": "The Artisans of Naqala details",
+          "url": "https://www.daysofwonder.com/game/five-tribes-the-artisans-of-naqala/",
+          "supports": "Expansion contents, compatibility or accessory information."
+        },
+        {
+          "label": "Whims of the Sultan details",
+          "url": "https://www.daysofwonder.com/game/five-tribes-whims-of-the-sultan/",
+          "supports": "Expansion contents, compatibility or accessory information."
+        },
+        {
+          "label": "The Thieves of Naqala details",
+          "url": "https://www.daysofwonder.com/game/five-tribes-the-thieves-of-naqala/",
+          "supports": "Expansion contents, compatibility or accessory information."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€53.99",
+          "edition": "Five Tribes · English",
+          "kind": "European retail listing",
+          "url": "https://despelletjesvrienden.nl/products/five-tribes-bordspel-eng",
+          "note": "Discounted shop reference from €59.99; stock labels in the accessible page are mixed, so recheck availability.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [
+          {
+            "name": "The Artisans of Naqala",
+            "kind": "Gameplay expansion",
+            "adds": "Adds a sixth tribe, crafted items, workshops and mountain / chasm restrictions.",
+            "compatibility": "Requires Five Tribes.",
+            "url": "https://www.daysofwonder.com/game/five-tribes-the-artisans-of-naqala/"
+          },
+          {
+            "name": "Whims of the Sultan",
+            "kind": "Gameplay expansion",
+            "adds": "Adds a fifth player, fabulous cities and objectives requested by the Sultan.",
+            "compatibility": "Works with the base alone or with Artisans.",
+            "url": "https://www.daysofwonder.com/game/five-tribes-whims-of-the-sultan/"
+          },
+          {
+            "name": "The Thieves of Naqala",
+            "kind": "Gameplay expansion",
+            "adds": "Adds thieves that interfere with opponents, plus a new Djinn.",
+            "compatibility": "Requires Five Tribes; this increases direct disruption.",
+            "url": "https://www.daysofwonder.com/game/five-tribes-the-thieves-of-naqala/"
+          }
+        ],
+        "note": "Begin with the core game. Adding a fifth player does not solve its main risk for you: downtime between decisions.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      }
+    },
+    {
+      "id": "brass-birmingham",
+      "name": "Brass: Birmingham",
+      "title": "Brass: Birmingham",
+      "year": 2018,
+      "designer": "Martin Wallace, Gavan Brown & Matt Tolman",
+      "publisher": "Roxley Games",
+      "bggId": 224517,
+      "bggUrl": "https://boardgamegeek.com/boardgame/224517",
+      "bggRating": 8.6,
+      "bggWeight": 3.86,
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playerCounts": [
+        2,
+        3,
+        4
+      ],
+      "minMinutes": 60,
+      "maxMinutes": 120,
+      "bestPlayers": "3–4, with a patient teacher",
+      "durationNote": "Published duration is a guide. Allow extra time for teaching and a first play.",
+      "category": "wildcards",
+      "rank": 2,
+      "fitScore": 84,
+      "fitLabel": "Build an economy that your opponents also need.",
+      "tagline": "Build an economy that your opponents also need.",
+      "shortReason": "A heavier experiment in shared incentives: your rival’s coal mine or railway can become part of your plan.",
+      "tags": [
+        "Economic",
+        "Network building",
+        "Shared resources",
+        "Competitive"
+      ],
+      "whyYou": [
+        "Your White Castle and Splendor ratings suggest you may enjoy investments that change which later actions become efficient.",
+        "Interaction comes through networks, markets and resource access rather than attacking armies.",
+        "The canal-to-rail transition rewards planning the life cycle of an investment, not just its immediate score."
+      ],
+      "cautions": [
+        "A major learning commitment: coal connectivity, iron, beer, card restrictions and the two eras are easy to confuse on a first play.",
+        "It is longer and less immediately legible than your lighter favorites. High BGG popularity does not resolve that fit risk."
+      ],
+      "chance": {
+        "level": "Low–moderate",
+        "type": "Location / industry cards are drawn from a shuffled deck, and merchant availability varies with setup. There are no resolution dice.",
+        "agency": "Loans, development and scouting provide flexibility, but your hand and competitors’ timing constrain what can be built."
+      },
+      "lowLuck": true,
+      "demoQuestion": "Can you see how selling from an opponent’s infrastructure may help both of you, and when that is worth allowing?",
+      "factors": {
+        "Control": 4.5,
+        "Taste overlap": 4.5,
+        "Replay potential": 5,
+        "Group suitability": 4,
+        "Approachability": 2.5
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "Publisher rules establish the shared resource and network economy. An in-depth BGG review offers a play-based second perspective. The recommendation is an editorial stretch test, with teaching friction deliberately reducing its score.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/thread/3405292/brassed-off-an-ets-review-of-brass-birmingham"
+        }
+      ],
+      "editionNote": "Image shows the retail box. The retail / deluxe distinction concerns components, rather than extra core gameplay.",
+      "images": [
+        {
+          "url": "https://roxley.com/cdn/shop/products/top-section-product-image-alt_grande.png?v=1581282813",
+          "local": "assets/brass-birmingham-1.png",
+          "source": "https://roxley.com/products/brass-birmingham",
+          "credit": "Roxley Games",
+          "alt": "Brass Birmingham retail box artwork"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://roxley.com/products/brass-birmingham",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/224517",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/thread/3405292/brassed-off-an-ets-review-of-brass-birmingham",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://www.subcultures.nl/brass-birmingham.html",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€89.99",
+          "edition": "Brass: Birmingham · English",
+          "kind": "European retail listing",
+          "url": "https://www.subcultures.nl/brass-birmingham.html",
+          "note": "Dutch shop shelf-price reference; marked out of stock in the accessible snapshot.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [
+          {
+            "name": "Iron Clays / Deluxe / Collector components",
+            "kind": "Accessory / edition upgrade",
+            "adds": "Replace cardboard money and upgrade presentation or storage; the standard retail game already contains the full core gameplay.",
+            "compatibility": "Check the exact edition and chip set; do not treat an upgrade as a new game.",
+            "url": "https://roxley.com/products/brass-birmingham"
+          },
+          {
+            "name": "Brass: Lancashire / Pittsburgh",
+            "kind": "Related standalone games",
+            "adds": "Related standalone games explore the economic system in different settings and rules configurations.",
+            "compatibility": "These are separate games, not Birmingham expansions.",
+            "url": "https://roxley.com/products/brass-birmingham"
+          }
+        ],
+        "note": "No official gameplay expansion for Birmingham was verified in the publisher listing. Spend time on the base rules before spending on presentation.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      },
+      "whatIsNew": "Shared industrial incentives: using and supplying infrastructure that opponents can exploit becomes the central decision.",
+      "overlapCaveat": "Economic development and route-building overlap with Concordia and Hansa; the new emphasis is the shared industrial resource market and two-era investment cycle."
+    },
+    {
+      "id": "gaia-project",
+      "name": "Gaia Project",
+      "title": "Gaia Project",
+      "year": 2017,
+      "designer": "Jens Drögemüller & Helge Ostertag",
+      "publisher": "Feuerland Spiele",
+      "bggId": 220308,
+      "bggUrl": "https://boardgamegeek.com/boardgame/220308",
+      "bggRating": 8.3,
+      "bggWeight": 4.4,
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playerCounts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "minMinutes": 60,
+      "maxMinutes": 150,
+      "bestPlayers": "3–4 for competition; solo and two are supported",
+      "durationNote": "Published duration is a guide. Allow extra time for teaching and a first play.",
+      "category": "wildcards",
+      "rank": 1,
+      "fitScore": 86,
+      "fitLabel": "Plan a civilization engine with the scoring targets in sight.",
+      "tagline": "Plan a civilization engine with the scoring targets in sight.",
+      "shortReason": "A deliberate stretch toward asymmetric engines and almost complete information, with a substantial complexity cost.",
+      "tags": [
+        "Engine building",
+        "Asymmetric powers",
+        "Tech tracks",
+        "Competitive",
+        "Solo"
+      ],
+      "whyYou": [
+        "Your desire for control is strongly served by visible scoring rounds, known resource costs and no dice-driven action resolution.",
+        "Different factions and research paths offer the power development you liked in Blood Rage in an economic form.",
+        "The map and shared power actions prevent the engine puzzle from being entirely solitary."
+      ],
+      "cautions": [
+        "Its 4.40 complexity is a large step above much of your history. A first play can feel like learning several resource economies at once.",
+        "Interaction is largely competition for opportunities and proximity benefits; it will not replace a confrontational Blood Rage session."
+      ],
+      "chance": {
+        "level": "Very low",
+        "type": "The map, round scoring and technologies vary at setup. In multiplayer, ordinary actions then resolve without dice or randomly drawn action hands; the solo Automa uses cards.",
+        "agency": "You can calculate long plans, but opponents can occupy a planet or shared action first. Low luck does not remove tempo pressure."
+      },
+      "lowLuck": true,
+      "demoQuestion": "Can you plan a two-round development sequence without the resource conversions becoming work rather than fun?",
+      "factors": {
+        "Control": 5,
+        "Taste overlap": 4.5,
+        "Replay potential": 5,
+        "Group suitability": 4,
+        "Approachability": 2
+      },
+      "confidence": "Medium: established rules and player evidence support this inference; you have not rated this game.",
+      "provisional": false,
+      "reviewSummary": "An enthusiastic BGG review praises the interlocking systems, while other player discussions describe information overload and teaching friction. Its high control score is balanced by the lowest approachability score among the new additions.",
+      "reviewLinks": [
+        {
+          "label": "Read the review / player evidence",
+          "url": "https://boardgamegeek.com/thread/1904046/gaia-project-review-more-than-terra-nova"
+        }
+      ],
+      "editionNote": "The BGG average is rounded from the accessible 8.346 snapshot to 8.3; older search snippets sometimes show 8.4. Price is explicitly for the German edition.",
+      "images": [
+        {
+          "url": "https://www.feuerland-spiele.de/fileadmin/_processed_/b/e/csm_GaiaProject_800_DSC0861_2_6bebfcbea9.jpg",
+          "local": "assets/gaia-project-1.jpg",
+          "source": "https://www.feuerland-spiele.de/spiele/gaia-project/",
+          "credit": "Feuerland Spiele",
+          "alt": "Gaia Project hex map with planets and colored faction buildings"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: rules and game information",
+          "url": "https://www.feuerland-spiele.de/spiele/gaia-project/",
+          "supports": "Gameplay, designer, player count and duration."
+        },
+        {
+          "label": "BGG statistics snapshot",
+          "url": "https://boardgamegeek.com/boardgame/220308",
+          "supports": "Community rating and complexity in accessible indexed data; checked 18 October 2026."
+        },
+        {
+          "label": "Review / player evidence",
+          "url": "https://boardgamegeek.com/thread/1904046/gaia-project-review-more-than-terra-nova",
+          "supports": "Qualitative evidence; individual opinions, not a measured consensus."
+        },
+        {
+          "label": "European price and edition reference",
+          "url": "https://www.feuerland-spiele.de/spiele/gaia-project/",
+          "supports": "Dated price for the specified language and edition; shipping extra."
+        },
+        {
+          "label": "The Lost Fleet details",
+          "url": "https://www.feuerland-spiele.de/spiele/gaia-project-die-verlorene-flotte/",
+          "supports": "Expansion contents, compatibility or accessory information."
+        }
+      ],
+      "commerce": {
+        "price": {
+          "display": "€69.90 MSRP",
+          "edition": "Gaia Project · German edition",
+          "kind": "European retail listing",
+          "url": "https://www.feuerland-spiele.de/spiele/gaia-project/",
+          "note": "Publisher German RRP, not a live English-edition retail quote.",
+          "checkedAt": "2026-10-18"
+        },
+        "extras": [
+          {
+            "name": "The Lost Fleet",
+            "kind": "Gameplay expansion",
+            "adds": "Adds four factions, shuttles and ship actions, new technologies, asteroids / protoplanets and altered sectors.",
+            "compatibility": "Requires Gaia Project. Learn the core factions first.",
+            "url": "https://www.feuerland-spiele.de/spiele/gaia-project-die-verlorene-flotte/",
+            "price": "€39.90 German MSRP"
+          }
+        ],
+        "note": "Terra Mystica and Age of Innovation are separate games, not expansions. The Lost Fleet is an optional addition to this base game.",
+        "checkedAt": "2026-10-18"
+      },
+      "snapshotCheckedAt": "2026-10-18",
+      "researchAddedAt": "2026-10-18",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No playable demo verified",
+        "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
+      },
+      "whatIsNew": "Full-information asymmetric planning: a faction’s resource conversions, research and terraforming must serve visible round goals.",
+      "overlapCaveat": "This still shares engine development and competition for spaces with your existing favorites; the experiment is the sustained planning load and deterministic economy."
     }
   ],
   "eventSources": [
@@ -2797,5 +4111,22 @@ window.FIELD_GUIDE = {
       "url": "https://frostedgames.de/frosted-games-auf-der-spiel-essen-2026/",
       "supports": "Entropy is explicitly listed at demo tables, Hall 3, stand 3G300."
     }
-  ]
+  ],
+  "updatedAt": "2026-10-18",
+  "omissionAudit": {
+    "date": "2026-10-18",
+    "candidatesScreened": 20,
+    "addedIds": [
+      "el-grande",
+      "babylonia",
+      "quest-for-el-dorado",
+      "tyrants-of-the-underdark",
+      "ankh-gods-of-egypt",
+      "seven-wonders-duel",
+      "five-tribes",
+      "brass-birmingham",
+      "gaia-project"
+    ],
+    "report": "omission-audit.md"
+  }
 };

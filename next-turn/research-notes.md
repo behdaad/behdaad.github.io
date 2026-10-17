@@ -8,7 +8,7 @@ Fit is an editorial comparison, not a calibrated enjoyment prediction. Factors: 
 
 Prices and add-on listings were checked 17 October 2026. Euro references are preferred where verified; other currencies remain explicitly labeled without conversion. Each quote names its edition and language. Retail, MSRP, preorder and event offers are different kinds of reference; shipping and applicable checkout taxes may be extra. This is a sourced overview of verified official content, not an exhaustive list of third-party accessories or scarce promos.
 
-## Six strongest established matches
+## Original established matches (before the omission audit)
 
 ### Kemet: Blood and Sand
 
@@ -463,7 +463,7 @@ These are small promos for Thessaloniki, rather than a separately verified large
 - **New Contract cards** (Gameplay promo): Adds four contracts, increasing the variety of tasks and rewards to pursue. Included in the cited publisher bundle. [Source](https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1).
 - **New Family cards** (Gameplay promo): Adds four family cards, expanding the family-card options. Detailed card effects were not independently verified. Included in the cited publisher bundle. [Source](https://www.spiele-offensive.de/cf.php?menuoff=1&projekt=723&s=2864&schritt=1).
 
-## Three deliberate experiments
+## Original deliberate experiments (before the omission audit)
 
 ### Spirit Island
 
@@ -585,6 +585,380 @@ Sources:
 No official gameplay expansion was verified for the recommended CMON auction game. Different art editions change presentation. Modern Art Card Game / Masters Gallery is a separate game, not an add-on. A gavel, sleeves or upgraded money adds handling or presentation rather than a new game system.
 
 
+## Added after the omission audit — 18 October 2026
+
+See [the full audit](omission-audit.md) for the candidate screen, editorial score rationale and alternatives held back. The sections above preserve the original records; current category ranks are in data.js.
+
+### El Grande
+
+Personal fit: **92/100** (Medium confidence); BGG **7.8/10**, complexity **2.93/5**. Snapshot checked 18 October 2026. 2–5 players; 60–120 minutes. Start with: 4–5, especially five.
+
+Fight over majorities with controlled card choices and no combat dice. An overlooked fit for your four- and five-player groups.
+
+Factors /5: Control 4.5, Taste overlap 4.5, Replay potential 4.5, Group suitability 5, Approachability 4.5. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- Blood Rage and Rising Sun suggest that contested territory matters to you; El Grande keeps that contest while making the action economy easier to inspect.
+- Your power-card choice trades turn priority against reinforcements, creating a meaningful cost before you even choose an action.
+- Four- and five-player sessions suit several counts in your play log.
+
+Caution: Action cards can move or remove your pieces, and several opponents can target the leader. Low dice luck does not remove kingmaking or sharp reversals. This is a majority contest, not a growing engine of spectacular powers. Your 3/5 for The King is Dead makes confidence medium rather than automatic.
+
+Randomness: The action-card offer changes each round. The Castillo conceals pieces and players choose their destinations simultaneously; there are no combat dice. You manage your own power cards and see the available actions before choosing, but must anticipate opponents and remember hidden commitments.
+
+Review / rules interpretation: Accessible player comments praise engagement at four and five players, while warning that disruptive cards and leader-targeting can feel vindictive. That tension is relevant given your mixed response to The King is Dead.
+
+Edition: BGG statistics refer to the original 1995 entry. Photo and price refer to the 2023 edition, which supports 2–5; the recommendation is strongest at 4–5.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: Can you explain when sacrificing first choice is worth the extra reinforcements, even if it loses one region this round?
+
+#### Price, expansions & add-ons
+
+**€49.99** — 2023 edition · Dutch. European retail listing, checked 18 October 2026. Publisher reference is marked out of assortment, so this is a price reference rather than an available offer. [Price source](https://www.999games.nl/product/el-grande/8720289476403).
+
+The current-edition recommendation is for the base game. An old Big Box listing is not evidence that its content is included in a 2023 box.
+
+- **New power-card and action-card mini-expansions** (Included gameplay content): Adds optional power and action choices to vary the classic rules. Included in the 2023 edition; start with standard cards. Price reference: Included. [Source](https://www.999games.nl/product/el-grande/8720289476403).
+- **Legacy Big Box expansions** (Gameplay expansion): Older bundles collect Grandissimo, King & Intrigant and Grand Inquisitor & Colonies, changing cards, regions and action choices. An older Big Box is a different product. Check component sizes and exact rules before mixing with 2023 editions. [Source](https://www.999games.nl/product/el-grande-big-box/8717249197584).
+
+Sources:
+- [Publisher: rules and game information](https://www.hans-im-glueck.de/game/el-grande/) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/93) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/boardgame/93/el-grande/ratings?comment=1&rated=1) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://www.999games.nl/product/el-grande/8720289476403) — Dated price for the specified language and edition; shipping extra.
+- [Legacy Big Box expansions details](https://www.999games.nl/product/el-grande-big-box/8717249197584) — Expansion contents, compatibility or accessory information.
+
+### Babylonia
+
+Personal fit: **90/100** (Medium confidence); BGG **7.6/10**, complexity **2.39/5**. Snapshot checked 18 October 2026. 2–4 players; 60 minutes. Start with: 3–4; two also supported.
+
+Azul-like placement discipline meets contested trade networks, with a larger payoff for planning connections.
+
+Factors /5: Control 4.5, Taste overlap 4.5, Replay potential 4.5, Group suitability 4.5, Approachability 4.5. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- Your 4/5 Azul rating suggests you may enjoy a compact spatial action with consequences beyond the immediate placement.
+- Ticket to Ride provides a second connection: blocking and network continuity matter, without dice-based battles.
+- Temple rewards and connected-city scoring reward timing rather than simply taking the largest visible number.
+
+Caution: The theme is thin, and the scoring routes need a careful teach. It will not reproduce Blood Rage’s dramatic power growth. Blocking can close routes permanently. The game may feel understated before players learn to read its networks.
+
+Randomness: Your hand of clan tokens is replenished through random draws. Available scoring opportunities and networks are visible. Placement and timing matter strongly, but you cannot demand a specific token on the next refill.
+
+Review / rules interpretation: Player comments describe a tension between early income and larger networks, and praise blocking and quick turns. Some find the tension too mild. These individual reactions support a trial, rather than a guarantee of depth for your group.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: Can a modest immediate score create a stronger connected network than taking the obvious crop reward now?
+
+#### Price, expansions & add-ons
+
+**€48.88** — Babylonia · English. European retail listing, checked 18 October 2026. Discounted listing from €58.88; currently unavailable in the accessible shop snapshot. [Price source](https://www.spellenvariant.nl/babylonia).
+
+No official gameplay expansion or paid promo was verified in the publisher material reviewed. The core box already contains variable ziggurat rewards.
+
+
+Sources:
+- [Publisher: rules and game information](https://ludonova.com/en/juego/babylonia/) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/266164) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/boardgame/266164/babylonia/ratings?comment=1&rated=1) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://www.spellenvariant.nl/babylonia) — Dated price for the specified language and edition; shipping extra.
+
+### The Quest for El Dorado
+
+Personal fit: **89/100** (Medium confidence); BGG **7.7/10**, complexity **1.94/5**. Snapshot checked 18 October 2026. 2–4 players; 30–60 minutes. Start with: 2 or 4; at two each player controls two explorers.
+
+Build a deck for a visible race course, then time your purchases and blocking. A lighter way to test deck-building.
+
+Factors /5: Control 4, Taste overlap 4.5, Replay potential 4.5, Group suitability 4.5, Approachability 5. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- Splendor’s investment timing and Ticket to Ride’s route competition meet in a physical race rather than an abstract points engine.
+- The terrain tells you what your deck needs; you can assess whether a purchase advances a plan instead of relying on theme or novelty.
+- Changing courses and a broad card market offer repeat-play decisions within a relatively accessible ruleset.
+
+Caution: Shuffled hands can arrive in the wrong order; this is a moderate-luck recommendation, not a fully deterministic puzzle. It is lighter than The White Castle, and setup can feel long for the weight. Tight finishes can hinge on draw timing.
+
+Randomness: You draw from your shuffled expedition deck. Optional cave tokens add another random reward source. Card purchases, thinning and route selection shape future draws; leave optional caves out initially if you want fewer surprises.
+
+Review / rules interpretation: BGG comments praise the combination of deck development and positional blocking, but also describe light interaction or an anticlimactic finish. One October 2026 comment flags setup relative to game weight.
+
+Edition: The image shows a Ravensburger edition. The priced and expansion-recommended edition is Lautapelit.fi with separate English cards. Components and card sizes vary across releases.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: Can you identify a purchase that is powerful in general but wrong for the next stretch of this particular course?
+
+#### Price, expansions & add-ons
+
+**€42.00** — Lautapelit.fi edition · includes English cards. European retail listing, checked 18 October 2026. Publisher shop price; shipping to your delivery country is extra. [Price source](https://en.lautapelit.fi/product/30541/quest-for-el-dorado).
+
+Buy the base game first. The Lautapelit.fi / Vincent Dutrait edition uses a different card format from some older Ravensburger editions.
+
+- **Heroes & Hexes** (Gameplay expansion): Adds heroes to recruit and hexes / curses that complicate the expedition. Included in Expansion Collection; match the card size of your base edition. [Source](https://en.lautapelit.fi/product/48889/).
+- **Dangers & Muisca** (Gameplay expansion): Adds hazards and Muisca content for additional course and expedition challenges. Included in Expansion Collection; requires a compatible base game. [Source](https://en.lautapelit.fi/product/48889/).
+- **Dragons & Treasures** (Gameplay expansion): Adds moving dragons and treasures, changing route risks and rewards. Included in Expansion Collection or sold separately; match the base-game card size. [Source](https://en.lautapelit.fi/product/46157/quest-for-el-dorado-dragons--treasures-expansion).
+- **Expansion Collection & promo packs** (Expansion bundle): Bundles the three named expansions plus Binoculars, Telegram and Letter of Recommendation cards. Avoid buying individual expansions again if you choose this collection. Price reference: €59.00 publisher listing. [Source](https://en.lautapelit.fi/product/48889/).
+- **Golden Temples** (Compatible standalone game): A standalone companion with temple exploration that can be combined with a compatible El Dorado base. Separate game; verify matching card format and combination rules. Price reference: €42.00 publisher listing. [Source](https://en.lautapelit.fi/category/397/quest-for-eldorado).
+
+Sources:
+- [Publisher: rules and game information](https://en.lautapelit.fi/product/30541/quest-for-el-dorado) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/217372) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/boardgame/217372/the-quest-for-el-dorado/ratings?comment=1) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://en.lautapelit.fi/product/30541/quest-for-el-dorado) — Dated price for the specified language and edition; shipping extra.
+- [Heroes & Hexes details](https://en.lautapelit.fi/product/48889/) — Expansion contents, compatibility or accessory information.
+- [Dragons & Treasures details](https://en.lautapelit.fi/product/46157/quest-for-el-dorado-dragons--treasures-expansion) — Expansion contents, compatibility or accessory information.
+- [Golden Temples details](https://en.lautapelit.fi/category/397/quest-for-eldorado) — Expansion contents, compatibility or accessory information.
+
+### Tyrants of the Underdark
+
+Personal fit: **86/100** (Medium confidence); BGG **8.2/10**, complexity **2.40/5**. Snapshot checked 18 October 2026. 2–4 players; 90 minutes. Start with: 3–4; two also works with the restricted map.
+
+Buy the tools for territorial control, then decide which cards to retire for points. A direct bridge from development to conflict.
+
+Factors /5: Control 4, Taste overlap 4.5, Replay potential 4.5, Group suitability 4.5, Approachability 4. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- Blood Rage suggests that developing a distinctive toolkit is most satisfying when it has consequences on a shared board.
+- Map control gives your card engine an immediate tactical purpose rather than merely producing more currency.
+- Promoting cards to your inner circle creates a trade-off between keeping an effect and banking its higher endgame value.
+
+Caution: Card draws and market timing can swing your tactical options. Deck-building may be a weaker taste signal than territory control. The dark map and cardboard troops are less inviting than the mechanisms, and direct assassinations can feel harsh.
+
+Randomness: Both your deck and the central recruitment deck are shuffled. The two chosen market half-decks change each game’s character. You control purchases, promotion and placement, but must build a deck robust enough to function with different hands.
+
+Review / rules interpretation: Player comments repeatedly connect deck-building to meaningful map tactics and describe variety from the paired market decks. Other comments criticize token visibility and the need to separate the market decks after play.
+
+Edition: BGG statistics use the 2021 compilation entry, not the original 2016 entry. The updated edition uses cardboard troop markers.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: When is promoting a useful card worth weakening your next few turns on the map?
+
+#### Price, expansions & add-ons
+
+**€58.95** — 2021 updated edition · English. European retail listing, checked 18 October 2026. European retailer reference, with shipping extra. [Price source](https://www.philibertnet.com/en/gale-force-nine/104303-tyrants-of-the-underdark-updated-edition-9781638840008.html).
+
+The recommended 2021 edition already includes the expansion decks. No further official gameplay expansion was verified.
+
+- **Aberrations & Undead market decks** (Included gameplay expansion): Adds two 40-card market half-decks, increasing the combinations of paired factions used to build the recruitment deck. Included in the 2021 edition. The separately sold expansion was for older copies. Price reference: Included. [Source](https://www.gamenerdz.com/dungeons-dragons-tyrants-of-the-underdark-2nd-edition).
+
+Sources:
+- [Publisher: rules and game information](https://www.philibertnet.com/en/gale-force-nine/104303-tyrants-of-the-underdark-updated-edition-9781638840008.html) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/336847) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/boardgame/336847/tyrants-of-the-underdark-board-game/ratings?comment=1) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://www.philibertnet.com/en/gale-force-nine/104303-tyrants-of-the-underdark-updated-edition-9781638840008.html) — Dated price for the specified language and edition; shipping extra.
+- [Aberrations & Undead market decks details](https://www.gamenerdz.com/dungeons-dragons-tyrants-of-the-underdark-2nd-edition) — Expansion contents, compatibility or accessory information.
+
+### Gaia Project
+
+Personal fit: **86/100** (Medium confidence); BGG **8.3/10**, complexity **4.40/5**. Snapshot checked 18 October 2026. 1–4 players; 60–150 minutes. Start with: 3–4 for competition; solo and two are supported.
+
+A deliberate stretch toward asymmetric engines and almost complete information, with a substantial complexity cost.
+
+Factors /5: Control 5, Taste overlap 4.5, Replay potential 5, Group suitability 4, Approachability 2. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- Your desire for control is strongly served by visible scoring rounds, known resource costs and no dice-driven action resolution.
+- Different factions and research paths offer the power development you liked in Blood Rage in an economic form.
+- The map and shared power actions prevent the engine puzzle from being entirely solitary.
+
+Caution: Its 4.40 complexity is a large step above much of your history. A first play can feel like learning several resource economies at once. Interaction is largely competition for opportunities and proximity benefits; it will not replace a confrontational Blood Rage session.
+
+Randomness: The map, round scoring and technologies vary at setup. In multiplayer, ordinary actions then resolve without dice or randomly drawn action hands; the solo Automa uses cards. You can calculate long plans, but opponents can occupy a planet or shared action first. Low luck does not remove tempo pressure.
+
+Review / rules interpretation: An enthusiastic BGG review praises the interlocking systems, while other player discussions describe information overload and teaching friction. Its high control score is balanced by the lowest approachability score among the new additions.
+
+Edition: The BGG average is rounded from the accessible 8.346 snapshot to 8.3; older search snippets sometimes show 8.4. Price is explicitly for the German edition.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: Can you plan a two-round development sequence without the resource conversions becoming work rather than fun?
+
+#### Price, expansions & add-ons
+
+**€69.90 MSRP** — Gaia Project · German edition. European retail listing, checked 18 October 2026. Publisher German RRP, not a live English-edition retail quote. [Price source](https://www.feuerland-spiele.de/spiele/gaia-project/).
+
+Terra Mystica and Age of Innovation are separate games, not expansions. The Lost Fleet is an optional addition to this base game.
+
+- **The Lost Fleet** (Gameplay expansion): Adds four factions, shuttles and ship actions, new technologies, asteroids / protoplanets and altered sectors. Requires Gaia Project. Learn the core factions first. Price reference: €39.90 German MSRP. [Source](https://www.feuerland-spiele.de/spiele/gaia-project-die-verlorene-flotte/).
+
+Sources:
+- [Publisher: rules and game information](https://www.feuerland-spiele.de/spiele/gaia-project/) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/220308) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/thread/1904046/gaia-project-review-more-than-terra-nova) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://www.feuerland-spiele.de/spiele/gaia-project/) — Dated price for the specified language and edition; shipping extra.
+- [The Lost Fleet details](https://www.feuerland-spiele.de/spiele/gaia-project-die-verlorene-flotte/) — Expansion contents, compatibility or accessory information.
+
+### Ankh: Gods of Egypt
+
+Personal fit: **84/100** (Medium confidence); BGG **7.7/10**, complexity **3.13/5**. Snapshot checked 18 October 2026. 2–5 players; 90 minutes. Start with: 2 for a clean duel; try four only after discussing the merger.
+
+Asymmetric gods, visible action timing and card-driven battles fit your conflict tastes, with an unusually important multiplayer caveat.
+
+Factors /5: Control 4.5, Taste overlap 4.5, Replay potential 4.5, Group suitability 3.5, Approachability 3.5. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- This is a relevant follow-up to Blood Rage and Rising Sun because of its card combat and power development, not merely the shared designer.
+- Choosing an action also advances the timing of events, making tempo itself a contested resource.
+- Deterministic battle resolution rewards anticipating an opponent’s card rather than hoping for a dice result.
+
+Caution: In games with three or more players, the two lowest gods merge partway through. Sharing control and the associated catch-up rules may conflict with your desire for agency. Players can be eliminated by failing a devotion threshold. A two-player game avoids the merger but is a different social experience from Blood Rage.
+
+Randomness: Combat uses selected cards and known strengths rather than dice. Hidden card choices and opponents’ intentions supply uncertainty. Action timing and positioning are highly deliberate; deterministic resolution does not mean opponents cannot punish a plan.
+
+Review / rules interpretation: Comments praise event timing and battle-card decisions, while disagreeing sharply about the merger and strength of the god powers. The fit is conditional: try the actual multiplayer rules before buying a large bundle.
+
+Edition: BGG statistics, rule cautions and this price refer to the original game. Verify changes and upgrade requirements if choosing the newer Tycoon edition.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: After learning exactly how the merger works, do you still want this for multiplayer, or would you prefer it as a two-player game?
+
+#### Price, expansions & add-ons
+
+**€89.90** — Original CMON base game · French. European retail listing, checked 18 October 2026. Language-specific European reference. English second-edition listings are separate products. [Price source](https://www.philibertnet.com/en/cool-mini-or-not/99858-ankh-les-dieux-d-egypte-3558380087175.html).
+
+Base game first. Current second-edition and Eternal bundles are distinct from the original CMON price quoted here.
+
+- **Pantheon** (Gameplay expansion): Adds five gods with different powers and warriors. Original expansion needs the base; do not duplicate it if buying Eternal. [Source](https://www.asmodee.de/news/drei-erweiterungen-fuer-ankh-angekuendigt).
+- **Pharaoh** (Gameplay expansion): Adds priests and palace politics, allowing influence over royal affairs alongside the map conflict. Requires the base game; also collected in Eternal. [Source](https://store.asmodee.com/products/ankh-gods-of-egypt-pharaoh-expansion).
+- **Guardians Set** (Gameplay expansion): Adds more guardian creatures and abilities for different shared recruitment options. Requires the base; also collected in Eternal. [Source](https://www.asmodee.de/news/drei-erweiterungen-fuer-ankh-angekuendigt).
+- **Eternal expansion pack** (Expansion collection): Collects prior expansion gameplay from Pantheon, Pharaoh, Guardians and Tomb of Wonders. Second-edition product: check the publisher’s exact compatibility and contents before adding it to an older copy. [Source](https://www.philibertnet.com/en/tycoon-games/165946-ankh-gods-of-egypt-2nd-edition-eternal-expansion-810082833188.html).
+
+Sources:
+- [Publisher: rules and game information](https://www.cmon.com/one-god-to-rule-them-all/) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/285967) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/boardgame/285967/ankh-gods-of-egypt/ratings?comment=1&rated=1) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://www.philibertnet.com/en/cool-mini-or-not/99858-ankh-les-dieux-d-egypte-3558380087175.html) — Dated price for the specified language and edition; shipping extra.
+- [Pantheon details](https://www.asmodee.de/news/drei-erweiterungen-fuer-ankh-angekuendigt) — Expansion contents, compatibility or accessory information.
+- [Pharaoh details](https://store.asmodee.com/products/ankh-gods-of-egypt-pharaoh-expansion) — Expansion contents, compatibility or accessory information.
+- [Eternal expansion pack details](https://www.philibertnet.com/en/tycoon-games/165946-ankh-gods-of-egypt-2nd-edition-eternal-expansion-810082833188.html) — Expansion contents, compatibility or accessory information.
+
+### 7 Wonders Duel
+
+Personal fit: **84/100** (Medium confidence); BGG **8.1/10**, complexity **2.23/5**. Snapshot checked 18 October 2026. 2–2 players; 30 minutes. Start with: 2 only.
+
+A natural follow-up to Splendor Duel: develop your economy while watching two sudden-death threats.
+
+Factors /5: Control 4, Taste overlap 4.5, Replay potential 4.5, Group suitability 3.5, Approachability 4.5. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- Your 4/5 Splendor Duel result makes a tense development duel worth testing alongside Santorini’s more abstract contest.
+- Military and science can end the game immediately, so an efficient points engine is not enough on its own.
+- Choosing a card can uncover your opponent’s next choice; timing and denial are linked rather than separate puzzles.
+
+Caution: Face-down cards create reveal luck, and turn-order parity can sometimes force an unattractive choice. This may be more frustrating than Splendor Duel’s open resource board. It serves only two players, so it does not replace your three- to five-player nights.
+
+Randomness: Some cards in each Age’s shared layout begin face down. The dealt wonders, removed cards and progress tokens vary the setup. You can plan around visible paths and extra-turn wonders, but cannot know every card before revealing it.
+
+Review / rules interpretation: A detailed BGG review rates the interaction and strategic depth highly while retaining a luck caveat. Treat that as one reviewer’s assessment; the hidden-card layout is the main mechanism to test against your preferences.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: When would you discard an efficient card or delay a wonder just to avoid revealing a decisive card to your rival?
+
+#### Price, expansions & add-ons
+
+**€24.27** — 7 Wonders Duel · Dutch. European retail listing, checked 18 October 2026. Discounted bol listing from €26.99 RRP; English editions may differ in price. [Price source](https://www.bol.com/nl/nl/p/7-wonders-duel-bordspel/9200000062721097/).
+
+The original 7 Wonders expansions do not fit Duel. Learn Duel before choosing whether you want Pantheon’s tempo options or Agora’s extra political system.
+
+- **Pantheon** (Gameplay expansion): Adds gods that can be invoked instead of taking a card, offering powers and a way to change the shared-draft rhythm. Requires Duel; can combine with Agora. [Source](https://www.rprod.com/en/games/7-wonders-duel/pantheon).
+- **Agora** (Gameplay expansion): Adds a Senate, senators, conspiracies and political control as another path to victory. Requires Duel; can combine with Pantheon. [Source](https://www.rprod.com/en/games/7-wonders-duel/agora).
+
+Sources:
+- [Publisher: rules and game information](https://www.rprod.com/en/games/7-wonders-duel) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/173346) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/thread/3670346/7-wonders-duel-razorreview) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://www.bol.com/nl/nl/p/7-wonders-duel-bordspel/9200000062721097/) — Dated price for the specified language and edition; shipping extra.
+- [Pantheon details](https://www.rprod.com/en/games/7-wonders-duel/pantheon) — Expansion contents, compatibility or accessory information.
+- [Agora details](https://www.rprod.com/en/games/7-wonders-duel/agora) — Expansion contents, compatibility or accessory information.
+
+### Brass: Birmingham
+
+Personal fit: **84/100** (Medium confidence); BGG **8.6/10**, complexity **3.86/5**. Snapshot checked 18 October 2026. 2–4 players; 60–120 minutes. Start with: 3–4, with a patient teacher.
+
+A heavier experiment in shared incentives: your rival’s coal mine or railway can become part of your plan.
+
+Factors /5: Control 4.5, Taste overlap 4.5, Replay potential 5, Group suitability 4, Approachability 2.5. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- Your White Castle and Splendor ratings suggest you may enjoy investments that change which later actions become efficient.
+- Interaction comes through networks, markets and resource access rather than attacking armies.
+- The canal-to-rail transition rewards planning the life cycle of an investment, not just its immediate score.
+
+Caution: A major learning commitment: coal connectivity, iron, beer, card restrictions and the two eras are easy to confuse on a first play. It is longer and less immediately legible than your lighter favorites. High BGG popularity does not resolve that fit risk.
+
+Randomness: Location / industry cards are drawn from a shuffled deck, and merchant availability varies with setup. There are no resolution dice. Loans, development and scouting provide flexibility, but your hand and competitors’ timing constrain what can be built.
+
+Review / rules interpretation: Publisher rules establish the shared resource and network economy. An in-depth BGG review offers a play-based second perspective. The recommendation is an editorial stretch test, with teaching friction deliberately reducing its score.
+
+Edition: Image shows the retail box. The retail / deluxe distinction concerns components, rather than extra core gameplay.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: Can you see how selling from an opponent’s infrastructure may help both of you, and when that is worth allowing?
+
+#### Price, expansions & add-ons
+
+**€89.99** — Brass: Birmingham · English. European retail listing, checked 18 October 2026. Dutch shop shelf-price reference; marked out of stock in the accessible snapshot. [Price source](https://www.subcultures.nl/brass-birmingham.html).
+
+No official gameplay expansion for Birmingham was verified in the publisher listing. Spend time on the base rules before spending on presentation.
+
+- **Iron Clays / Deluxe / Collector components** (Accessory / edition upgrade): Replace cardboard money and upgrade presentation or storage; the standard retail game already contains the full core gameplay. Check the exact edition and chip set; do not treat an upgrade as a new game. [Source](https://roxley.com/products/brass-birmingham).
+- **Brass: Lancashire / Pittsburgh** (Related standalone games): Related standalone games explore the economic system in different settings and rules configurations. These are separate games, not Birmingham expansions. [Source](https://roxley.com/products/brass-birmingham).
+
+Sources:
+- [Publisher: rules and game information](https://roxley.com/products/brass-birmingham) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/224517) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/thread/3405292/brassed-off-an-ets-review-of-brass-birmingham) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://www.subcultures.nl/brass-birmingham.html) — Dated price for the specified language and edition; shipping extra.
+
+### Five Tribes
+
+Personal fit: **83/100** (Medium confidence); BGG **7.8/10**, complexity **2.84/5**. Snapshot checked 18 October 2026. 2–4 players; 40–80 minutes. Start with: 2 for less downtime; 3–4 if your group plays briskly.
+
+A shared-board optimization puzzle for your Azul and White Castle side, with a warning about recalculating every turn.
+
+Factors /5: Control 4, Taste overlap 4.5, Replay potential 4.5, Group suitability 4, Approachability 3.5. Weights: 30%, 25%, 15%, 15%, 15%; multiply the weighted mean by 20 and round half up.
+
+Why it may fit:
+- Like Azul, a visible shared pool can hide a rich placement puzzle; here picking up and distributing meeples creates the action.
+- Bidding for turn order links the value of a move to what you must pay to secure it.
+- Djinn powers and several scoring paths offer a different tactical optimization problem from The White Castle.
+
+Caution: Other players can remake the board before your turn, so analysis paralysis and downtime are substantial risks. It leans tactical rather than toward a stable long-term plan. Your Woodcraft comment makes another optimization game a cautious addition.
+
+Randomness: Initial tiles and meeples are randomized, and resource / Djinn card refills are shuffled. Your available board moves are visible on your turn. You can choose among many legal moves and price turn order, but cannot assume a move will remain after another player acts.
+
+Review / rules interpretation: The core rules expose a large shared-board search. A BGG discussion of game length specifically flags Five Tribes for making advance planning difficult when the board changes. This caution is central to its lower fit score.
+
+SPIEL: No playable 2026 demo verified.
+
+First-play test: Can your group choose a good move quickly, or does the search for the best move stop the game?
+
+#### Price, expansions & add-ons
+
+**€53.99** — Five Tribes · English. European retail listing, checked 18 October 2026. Discounted shop reference from €59.99; stock labels in the accessible page are mixed, so recheck availability. [Price source](https://despelletjesvrienden.nl/products/five-tribes-bordspel-eng).
+
+Begin with the core game. Adding a fifth player does not solve its main risk for you: downtime between decisions.
+
+- **The Artisans of Naqala** (Gameplay expansion): Adds a sixth tribe, crafted items, workshops and mountain / chasm restrictions. Requires Five Tribes. [Source](https://www.daysofwonder.com/game/five-tribes-the-artisans-of-naqala/).
+- **Whims of the Sultan** (Gameplay expansion): Adds a fifth player, fabulous cities and objectives requested by the Sultan. Works with the base alone or with Artisans. [Source](https://www.daysofwonder.com/game/five-tribes-whims-of-the-sultan/).
+- **The Thieves of Naqala** (Gameplay expansion): Adds thieves that interfere with opponents, plus a new Djinn. Requires Five Tribes; this increases direct disruption. [Source](https://www.daysofwonder.com/game/five-tribes-the-thieves-of-naqala/).
+
+Sources:
+- [Publisher: rules and game information](https://www.daysofwonder.com/game/fives-tribes-the-djinns-of-naqala/) — Gameplay, designer, player count and duration.
+- [BGG statistics snapshot](https://boardgamegeek.com/boardgame/157354) — Community rating and complexity in accessible indexed data; checked 18 October 2026.
+- [Review / player evidence](https://boardgamegeek.com/blog/5824/blogpost/120438/the-right-length-for-a-board-game) — Qualitative evidence; individual opinions, not a measured consensus.
+- [European price and edition reference](https://despelletjesvrienden.nl/products/five-tribes-bordspel-eng) — Dated price for the specified language and edition; shipping extra.
+- [The Artisans of Naqala details](https://www.daysofwonder.com/game/five-tribes-the-artisans-of-naqala/) — Expansion contents, compatibility or accessory information.
+- [Whims of the Sultan details](https://www.daysofwonder.com/game/five-tribes-whims-of-the-sultan/) — Expansion contents, compatibility or accessory information.
+- [The Thieves of Naqala details](https://www.daysofwonder.com/game/five-tribes-the-thieves-of-naqala/) — Expansion contents, compatibility or accessory information.
+
 ## Original play log
 
 Names and comments are preserved from the image, without guessing ambiguous BGG identities.
@@ -634,3 +1008,15 @@ Real board and component photos; rights remain with the credited owners. Santori
 - Modern Art: [CMON / Asmodee](https://store.asmodee.com/products/modern-art) — assets/modern-art-1.jpg
 
 - Foundations of Rome: [Arcane Wonders](https://www.arcanewonders.com/product/foundations-of-rome/) — assets/foundations-of-rome-1.webp
+
+- El Grande: [Hans im Glück / Asmodee](https://store.asmodee.com/products/el-grande) — assets/el-grande-1.jpg
+- Babylonia: [Ludonova](https://ludonova.com/en/juego/babylonia/) — assets/babylonia-1.jpg
+- The Quest for El Dorado: [Ravensburger promotional setup via bol](https://www.bol.com/nl/nl/p/ravensburger-the-quest-for-el-dorado/9200000105634623/) — assets/quest-for-el-dorado-1.jpg
+- Tyrants of the Underdark: [Gale Force Nine promotional setup via Philibert](https://www.philibertnet.com/en/gale-force-nine/104303-tyrants-of-the-underdark-updated-edition-9781638840008.html) — assets/tyrants-of-the-underdark-1.jpg
+- Ankh: Gods of Egypt: [CMON promotional setup via Philibert](https://www.philibertnet.com/en/cool-mini-or-not/99858-ankh-les-dieux-d-egypte-3558380087175.html) — assets/ankh-gods-of-egypt-1.jpg
+- 7 Wonders Duel: [Repos Production](https://www.rprod.com/en/games/7-wonders-duel) — assets/seven-wonders-duel-1.png
+- Five Tribes: [Days of Wonder promotional setup via De Spelletjes Vrienden](https://despelletjesvrienden.nl/products/five-tribes-bordspel-eng) — assets/five-tribes-1.jpg
+- Brass: Birmingham: [Roxley Games](https://roxley.com/products/brass-birmingham) — assets/brass-birmingham-1.png
+- Gaia Project: [Feuerland Spiele](https://www.feuerland-spiele.de/spiele/gaia-project/) — assets/gaia-project-1.jpg
+
+Additional Ankh rules evidence: [official rulebook, pages 23–27](https://www.cmon.com/wp-content/uploads/2023/06/Ankh_Rulebook.pdf), for battle cards, merger and forgotten gods.

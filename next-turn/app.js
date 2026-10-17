@@ -9,8 +9,8 @@ let shelf = 'all';
 let toastTimer;
 const categories = { essentials:'Strongest match',upcoming:'On the horizon',wildcards:'New territory' };
 const descriptions = {
- all:'Five strong matches, four upcoming launches / retail arrivals, one recent release with a confirmed Essen demo, and three deliberate experiments. Personal fit comes first; hype comes second.',
- essentials:'Your five strongest established matches. Ranked for your taste, with randomness and friction called out explicitly. A high BGG score alone does not win this list.',
+ all:'Six strong matches, four upcoming launches / retail arrivals, one recent release with a confirmed Essen demo, and three deliberate experiments. Personal fit comes first; hype comes second.',
+ essentials:'Your six strongest established matches. Ranked for your taste, with randomness and friction called out explicitly. A high BGG score alone does not win this list.',
  upcoming:'New launches and a US retail arrival plus one recent 2026 release to demo at Essen. Early BGG scores are provisional. A listing or a booth number is not proof of a playable demo.',
  wildcards:'Three different kinds of decision: cooperative threat planning, a positional duel, and market valuation. These expand your experience; some familiar mechanisms will still overlap.'
 };

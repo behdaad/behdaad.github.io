@@ -934,6 +934,117 @@ window.FIELD_GUIDE = {
       }
     },
     {
+      "id": "foundations-of-rome",
+      "name": "Foundations of Rome",
+      "title": "Foundations of Rome",
+      "category": "essentials",
+      "rank": 6,
+      "year": 2022,
+      "designer": "Emerson Matsuuchi",
+      "publisher": "Arcane Wonders",
+      "fitScore": 85,
+      "factors": {
+        "Control": 4,
+        "Taste overlap": 4,
+        "Replay potential": 4,
+        "Group suitability": 4.5,
+        "Approachability": 5
+      },
+      "confidence": "Medium: rules and community comments support the fit; your appetite for a lighter spatial game remains untested.",
+      "fitLabel": "A lighter spatial contender",
+      "tagline": "Claim the right lots, then make the city around them work for you.",
+      "shortReason": "Contested spaces and clear economic choices echo Azul and Splendor. Lighter strategy than Blood Rage, with a much larger physical footprint.",
+      "bggId": 284189,
+      "bggUrl": "https://boardgamegeek.com/boardgame/284189/foundations-of-rome",
+      "bggRating": 8.0,
+      "bggWeight": 2.02,
+      "bggRatingsCount": 5400,
+      "countApprox": true,
+      "provisional": false,
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playerCounts": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "playerLabel": "2–4; 5 with expansion",
+      "minMinutes": 60,
+      "maxMinutes": 90,
+      "bestPlayers": "3–4; start with the core rules",
+      "durationNote": "Published playing time is 60–90 minutes; allow extra time for your first teach.",
+      "playerNote": "The core game supports 2–4. Five players requires the fifth-player expansion, included in Emperor and Maximus editions. Solo requires Gardens of Ceres and is excluded from this core-game recommendation.",
+      "editionNote": "Statistics refer to the original 2022 BGG entry, not the separate Maximus entry. Begin without optional modules. Check the edition contents before arranging five players.",
+      "tags": [
+        "City building",
+        "Spatial planning",
+        "Market",
+        "Economic",
+        "Competitive"
+      ],
+      "whyYou": [
+        "As in Azul, the spaces you claim now change which placements remain possible later. The shared city gives opponents a direct role in your puzzle.",
+        "Buying land, constructing buildings and taking income create an accessible timing puzzle that may appeal to your 4/5 Splendor and Splendor Duel ratings.",
+        "Civic scoring can benefit from neighboring opponents. Reading their plans offers interaction beyond simply taking the largest immediate reward."
+      ],
+      "cautions": [
+        "The core game offers less power development and strategic breadth than Blood Rage or The White Castle. Test whether its lighter decisions stay interesting after the spectacle wears off.",
+        "The miniature city takes substantial table and storage space. Five-player support depends on the expansion; the physical production should not decide the fit score."
+      ],
+      "lowLuck": true,
+      "chance": {
+        "level": "Low–moderate",
+        "type": "Shuffled deeds determine starting lots and the order in which land reaches the public market. Core building and scoring have no dice checks.",
+        "agency": "Visible prices and available lots let you plan purchases, but a useful neighboring deed can appear at the wrong time or be bought by an opponent."
+      },
+      "reviewSummary": "Accessible BGG comments praise easy teaching, the simple gameplay loop and the miniature city. Other comments question its strategic depth and whether presentation inflates its appeal. These are individual opinions, not a consensus; try the core game to judge the depth yourself.",
+      "reviewLinks": [
+        {
+          "label": "BGG player comments",
+          "url": "https://boardgamegeek.com/boardgame/284189/foundations-of-rome/ratings?comment=1&rated=1"
+        }
+      ],
+      "demoQuestion": "After a few turns, can you explain when taking income or buying a neighboring lot is better than building for immediate points?",
+      "essen": {
+        "status": "unverified",
+        "title": "Demo not verified",
+        "short": "No demo claim established",
+        "note": "No specific playable SPIEL 2026 demo was verified for this established game."
+      },
+      "images": [
+        {
+          "url": "https://www.arcanewonders.com/wp-content/uploads/2022/05/foundations_of_rome_base_01.webp",
+          "local": "assets/foundations-of-rome-1.webp",
+          "source": "https://www.arcanewonders.com/product/foundations-of-rome/",
+          "credit": "Arcane Wonders",
+          "alt": "Foundations of Rome miniature buildings and colored ownership icons on the shared city grid"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Publisher: gameplay and edition contents",
+          "url": "https://www.arcanewonders.com/product/foundations-of-rome/",
+          "supports": "Three turn actions, scoring, duration and expansion contents."
+        },
+        {
+          "label": "Official English core rulebook",
+          "url": "https://www.arcanewonders.com/wp-content/uploads/2022/05/FoR_Rulebook_EN.pdf",
+          "supports": "Printed pages 4–8: setup, shuffled deeds, public market and turn actions; fifth-player expansion requirement."
+        },
+        {
+          "label": "BGG facts and community statistics",
+          "url": "https://boardgamegeek.com/boardgame/284189/foundations-of-rome",
+          "supports": "2022 edition; 8.0 average, 2.02 complexity and roughly 5,400 ratings in the accessible indexed snapshot checked 17 October 2026."
+        },
+        {
+          "label": "BGG player comments",
+          "url": "https://boardgamegeek.com/boardgame/284189/foundations-of-rome/ratings?comment=1&rated=1",
+          "supports": "Individual reactions to accessibility, presentation and strategic depth; not a representative survey."
+        }
+      ]
+    },
+    {
       "id": "windmill-valley-duel",
       "name": "Windmill Valley: Duel",
       "category": "upcoming",

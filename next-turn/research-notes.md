@@ -6,7 +6,7 @@ Based on the supplied image of 22 games. Explicit objections to randomness and w
 
 Fit is an editorial comparison, not a calibrated enjoyment prediction. Factors: control 30%, taste overlap 25%, replay potential 15%, group suitability 15%, approachability 15%; each factor is scored 1–5 and the total converted to 0–100. BGG average /10 and community weight /5 are independent, rounded, non-live snapshots. Some direct BGG fetches returned 403; readable search-index data and comments informed the review. Early scores can be unstable.
 
-## Five strongest established matches
+## Six strongest established matches
 
 ### Kemet: Blood and Sand
 
@@ -158,6 +158,43 @@ Sources:
 - [Official rulebook](https://www.direwolfdigital.com/assets/dune/DUNE_IMPERIUM_UPRISING_Main_Rulebook_23-10-12.pdf)
 - [BGG rating comments](https://boardgamegeek.com/boardgame/397598/dune-imperium-uprising/ratings?comment=1)
 - [BGG rating comments](https://boardgamegeek.com/boardgame/397598/dune-imperium-uprising/ratings)
+
+### Foundations of Rome
+
+Personal fit: **85/100** (Medium confidence). BGG **8.0/10**, complexity **2.02/5**, approximately 5,400 ratings in the accessible indexed snapshot. 2–4 players in the core game; five with the fifth-player expansion. 60–90 minutes. Start with: 3–4, core rules.
+
+Contested spaces and clear economic choices echo Azul and Splendor. Lighter strategy than Blood Rage, with a much larger physical footprint.
+
+Fit calculation: 20 × (4 × 0.30 control + 4 × 0.25 taste overlap + 4 × 0.15 replay potential + 4.5 × 0.15 group suitability + 5 × 0.15 approachability) = **85/100**. These dimension ratings are editorial judgments, not measured enjoyment probabilities.
+
+- Control 4/5: visible market choices and spatial planning; shuffled deeds can frustrate land acquisition.
+- Taste overlap 4/5: contested spaces and economic timing connect to Azul and Splendor; less power development than Blood Rage.
+- Replay potential 4/5: changing land availability and opponents vary the puzzle; core strategic breadth is lighter than the leading recommendations.
+- Group suitability 4.5/5: core support for your familiar 2–4 player counts, with five conditional on expansion; substantial table space.
+- Approachability 5/5: three core turn actions and visible building choices make the initial decision structure accessible.
+
+Why it may fit:
+- As in Azul, the spaces you claim now change which placements remain possible later. The shared city gives opponents a direct role in your puzzle.
+- Buying land, constructing buildings and taking income create an accessible timing puzzle that may appeal to your 4/5 Splendor and Splendor Duel ratings.
+- Civic scoring can benefit from neighboring opponents. Reading their plans offers interaction beyond simply taking the largest immediate reward.
+
+Caution: The core game offers less power development and strategic breadth than Blood Rage or The White Castle. Test whether its lighter decisions stay interesting after the spectacle wears off. The miniature city takes substantial table and storage space. Five-player support depends on the expansion; the physical production should not decide the fit score.
+
+Randomness: Shuffled deeds determine starting lots and the order in which land reaches the public market. Core building and scoring have no dice checks. Visible prices and available lots let you plan purchases, but a useful neighboring deed can appear at the wrong time or be bought by an opponent.
+
+SPIEL: Demo not verified. No specific playable SPIEL 2026 demo was established.
+
+First-play question: After a few turns, can you explain when taking income or buying a neighboring lot is better than building for immediate points?
+
+Review evidence: Accessible BGG comments praise easy teaching, the simple gameplay loop and the miniature city. Other comments question its strategic depth and whether presentation inflates its appeal. These are individual opinions, not a consensus; try the core game to judge the depth yourself.
+
+Edition note: The core game supports 2–4. Five players requires the fifth-player expansion, included in Emperor and Maximus editions. Solo requires Gardens of Ceres and is excluded from this core-game recommendation. Statistics refer to the original 2022 BGG entry, not the separate Maximus entry. Begin without optional modules. Check the edition contents before arranging five players.
+
+Sources:
+- [Publisher: gameplay and edition contents](https://www.arcanewonders.com/product/foundations-of-rome/)
+- [Official English core rulebook](https://www.arcanewonders.com/wp-content/uploads/2022/05/FoR_Rulebook_EN.pdf)
+- [BGG facts and community statistics](https://boardgamegeek.com/boardgame/284189/foundations-of-rome)
+- [BGG player comments](https://boardgamegeek.com/boardgame/284189/foundations-of-rome/ratings?comment=1&rated=1)
 
 ## Upcoming launches, retail arrivals and an Essen demo bonus
 
@@ -451,3 +488,5 @@ Real board and component photos; rights remain with the credited owners. Santori
 - Spirit Island: [Greater Than Games](https://shop.greaterthangames.com/products/spirit-island) — assets/spirit-island-2.jpg
 - Santorini: [Roxley Games](https://roxley.com/collections/santorini/products/santorini) — assets/santorini-1.jpg
 - Modern Art: [CMON / Asmodee](https://store.asmodee.com/products/modern-art) — assets/modern-art-1.jpg
+
+- Foundations of Rome: [Arcane Wonders](https://www.arcanewonders.com/product/foundations-of-rome/) — assets/foundations-of-rome-1.webp

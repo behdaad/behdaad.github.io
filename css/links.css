@@ -127,6 +127,10 @@ a:visited {
     display: block;
 }
 
+.link-icon img.imdb-wordmark {
+    width: 20px;
+}
+
 .link-copy {
     min-width: 0;
 }

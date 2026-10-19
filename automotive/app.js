@@ -1,0 +1,143 @@
+/* A buildless archive: all research and photograph credits live in data.json. */
+(async () => {
+  'use strict';
+  const $ = selector => document.querySelector(selector);
+  const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let data;
+  try {
+    const response = await fetch('data.json');
+    if (!response.ok) throw new Error(`Catalog request returned ${response.status}`);
+    data = await response.json();
+  } catch (error) {
+    $('#history').innerHTML = '<p class="load-error">The archive could not load. Please reload the page, or <a href="data.json">open the research catalog</a>.</p>';
+    console.error(error); return;
+  }
+  const { cars, sources, honors } = data;
+  const brands = [...new Set(cars.map(car => car.brand))];
+  const dialog = $('#car-dialog');
+  let activeCar, lastTrigger, pushedCar = false;
+  const galleries = new Map();
+  function sourceLink(key, full = false) {
+    const s = sources[key];
+    return `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.outlet)}${full ? ' · ' + esc(s.title) : ''} ↗</a>`;
+  }
+  function points(car) {
+    const corroboration = new Set(car.sources.map(key => sources[key].outlet)).size > 1 ? 10 : 0;
+    return { corroboration, total: car.design + car.industry + corroboration };
+  }
+  function photo(photo, alt, lazy = true) {
+    return photo ? `<img src="${esc(photo.src)}" alt="${esc(alt)}" ${lazy ? 'loading="lazy"' : 'fetchpriority="high"'} decoding="async" width="1000" height="650">` : '<p class="load-error">Photograph unavailable. See the linked model history.</p>';
+  }
+  const hero = cars.find(c => c.id === 'ds');
+  const heroPhoto = hero.variants[0].photos[0];
+  $('#hero').innerHTML = `${photo(heroPhoto,'Citroën DS, a study in aerodynamic form',false)}<a class="hero-credit" href="${esc(heroPhoto?.page || '#car=ds')}" target="_blank" rel="noopener noreferrer">Photo & credit ↗</a><figcaption><div><span>1955 / CITROËN</span><strong>A different idea of the future.</strong><span>DS · ${esc(heroPhoto?.origin || 'Archive photograph')}</span></div><a href="#car=ds" data-car="ds">Explore ↗</a></figcaption>`;
+  $('#makers').innerHTML = brands.map((brand, index) => {
+    const represented = cars.filter(c => c.brand === brand);
+    const outlets = [...new Set(represented.flatMap(c => c.sources.map(k => sources[k].outlet)))];
+    return `<button class="maker" data-brand="${esc(brand)}" aria-pressed="false"><span class="maker-top"><span>${String(index + 1).padStart(2,'0')}</span><span>${represented.length} ${represented.length === 1 ? 'CAR' : 'CARS'} ↘</span></span><strong>${esc(brand)}</strong><small>${esc(represented.map(c => c.name).join(' · '))}</small><small>Selected by ${esc(outlets.join(' / '))}</small></button>`;
+  }).join('');
+  brands.forEach(brand => $('#brand').add(new Option(brand, brand)));
+  $('#bibliography').innerHTML = Object.keys(sources).map(key => sourceLink(key, true)).join('');
+  const chapters = [
+    { start:1886,end:1953,years:'1886—1938',title:'Inventing the automobile',note:'From invention to industrial scale.' },
+    { start:1954,end:1965,years:'1954—1964',title:'A new language of possibility',note:'Optimism, packaging and the open road.' },
+    { start:1966,end:1983,years:'1966—1974',title:'Breaking the shape of things',note:'The supercar, the wedge, the rational hatch.' },
+    { start:1984,end:2011,years:'1984—1998',title:'Reinventing the familiar',note:'New formats for families, speed and efficiency.' },
+    { start:2012,end:2030,years:'2012—2023',title:'The electric reset',note:'New platforms. New proportions. New questions.' }
+  ];
+  function renderTimeline() {
+    const query = $('#search').value.trim().toLocaleLowerCase();
+    const brand = $('#brand').value;
+    const filtered = cars.filter(c => (!brand || c.brand === brand) && [c.brand,c.name,c.designer,c.country,c.title,c.story].join(' ').toLocaleLowerCase().includes(query));
+    $('#history').innerHTML = chapters.map(chapter => {
+      const entries = filtered.filter(c => c.year >= chapter.start && c.year <= chapter.end);
+      if (!entries.length) return '';
+      return `<section class="chapter" aria-label="${esc(chapter.title)}"><header class="chapter-heading"><span>${chapter.years}</span><h3>${chapter.title}</h3><p>${chapter.note}</p></header>${entries.map(car => {
+        const variant=car.variants[0];
+        return `<article class="car" id="entry-${car.id}"><div class="year">${car.year}</div><figure class="car-photo"><a href="#car=${car.id}" data-car="${car.id}" aria-label="Explore ${esc(car.brand+' '+car.name)}">${photo(variant.photos[0],car.name+' · '+variant.name)}</a><span class="photo-label">${esc(car.country.toUpperCase())} / ${esc(car.designer.split(' / ')[0])}</span></figure><div class="car-copy"><p class="car-meta"><span>${esc(car.brand)}</span><span class="design-score" title="Evidence index: design ${car.design}/60, industry ${car.industry}/30, independent corroboration ${points(car).corroboration}/10">${points(car).total} / 100</span></p><h4><a href="#car=${car.id}" data-car="${car.id}">${esc(car.name)}</a></h4><p class="car-deck">${esc(car.title)}</p><p class="car-story">${esc(car.story)}</p><p class="car-source">Editorial evidence: ${car.sources.slice(0,2).map(key=>sourceLink(key)).join(' / ')}</p><a class="arrow-link" href="#car=${car.id}" data-car="${car.id}">Explore the car <span>↗</span> <small>${car.variants.length} ${car.variants.length===1?'design chapter':'evolution entries'}</small></a></div></article>`;
+      }).join('')}</section>`;
+    }).join('');
+    $('#result-count').textContent = `${filtered.length} / ${cars.length} cars`;
+    $('#empty').hidden = Boolean(filtered.length);
+    document.querySelectorAll('[data-brand]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.brand===brand)));
+  }
+  $('#honors').innerHTML = honors.map(car=>`<article class="honor"><figure>${photo(car.photos[0],car.name)}</figure><div class="honor-meta"><h3>${esc(car.name)}</h3><span>${car.year}</span></div><p>${esc(car.reason)}</p><div class="honor-links">${sourceLink(car.source)}<a href="${esc(car.photos[0]?.page || car.factSource)}" target="_blank" rel="noopener noreferrer">Photo & credit ↗</a></div></article>`).join('');
+  function gallery(variant, id, label) {
+    galleries.set(id,{photos:variant.photos,index:0,label});
+    return `<div class="gallery" data-gallery="${id}" role="region" aria-label="${esc(label)} photo gallery"><div class="gallery-stage"><a class="gallery-original" href="${esc(variant.photos[0]?.src || variant.factSource)}" target="_blank" rel="noopener" aria-label="Open full-size ${esc(label)} photograph">${photo(variant.photos[0],label)}</a>${variant.photos.length>1?`<button class="gallery-prev" data-step="-1" aria-label="Previous ${esc(label)} photo">←</button><button class="gallery-next" data-step="1" aria-label="Next ${esc(label)} photo">→</button>`:''}</div><div class="gallery-thumbs" aria-label="Choose photograph">${variant.photos.map((p,i)=>`<button data-index="${i}" aria-pressed="${i===0}" aria-label="${esc(label)} photo ${i+1} of ${variant.photos.length}">${photo(p,'')}</button>`).join('')}</div><p class="gallery-credit"></p></div>`;
+  }
+  function updateGallery(element, index) {
+    const state=galleries.get(element.dataset.gallery);
+    if (!state?.photos.length) return;
+    state.index=(index+state.photos.length)%state.photos.length;
+    const p=state.photos[state.index];
+    const img=element.querySelector('.gallery-stage img');
+    img.src=p.src; img.alt=`${state.label} · photograph ${state.index+1}: ${p.description.slice(0,160)}`;
+    element.querySelector('.gallery-original').href=p.src;
+    element.querySelectorAll('[data-index]').forEach((button,i)=>button.setAttribute('aria-pressed',String(i===state.index)));
+    element.querySelector('.gallery-credit').innerHTML=`${state.index+1} / ${state.photos.length} · ${esc(p.origin)}<br><a href="${esc(p.page)}" target="_blank" rel="noopener noreferrer">${esc(p.credit)} ↗</a><a href="${esc(p.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(p.license)} ↗</a><span>${esc(p.file)}</span>`;
+  }
+  function video(car) {
+    const v=car.video;
+    return `<section class="watch-section"><h3>Watch the car.</h3><p>${esc(v.channel)}${v.note?' · '+esc(v.note):''}</p>${v.id?`<div class="video-wrap"><button class="video-consent" data-video="${esc(v.id)}" aria-label="Play ${esc(v.title)}"><span class="play" aria-hidden="true">▶</span><span><small>${esc(v.channel.toUpperCase())} / YOUTUBE</small><strong>${esc(v.title)}</strong><span>Play video · loads YouTube’s embedded player</span></span></button></div><div class="watch-links"><a href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>${v.related?`<a href="${esc(v.related.url)}" target="_blank" rel="noopener noreferrer">${esc(v.related.title)} ↗</a>`:""}</div>`:`<div class="episode"><strong>${esc(v.episode)}</strong><a href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">${esc(v.title)} ↗</a><p>Find this episode on your local broadcaster or streaming service. Availability varies by region.</p></div>`}</section>`;
+  }
+  function renderDetail(car) {
+    activeCar=car;
+    galleries.clear();
+    const score=points(car);
+    $('#detail').innerHTML=`<header class="detail-heading"><div><p class="eyebrow">${car.year} / ${esc(car.brand.toUpperCase())} / ${esc(car.country.toUpperCase())}</p><h2 id="detail-title">${esc(car.name)}</h2><p class="car-deck">${esc(car.title)}</p></div><p>DESIGN<br>${esc(car.designer)}</p></header>${gallery(car.variants[0],'main',car.name)}<p class="detail-story">${esc(car.story)}</p><section class="evidence"><h3>Why it is here.</h3><div class="score-grid"><div><span>DESIGN / 60</span><strong>${car.design}</strong></div><div><span>INDUSTRY / 30</span><strong>${car.industry}</strong></div><div><span>CORROBORATION / 10</span><strong>${score.corroboration}</strong></div><div><span>EVIDENCE INDEX / 100</span><strong>${score.total}</strong></div></div><p>${esc(car.evidence)}</p><p>Computed from the published evidence; not a score awarded by a reviewer. Design is weighted twice as heavily as industry influence. This score applies to the model family.</p><div class="source-links">${car.sources.map(k=>sourceLink(k,true)).join('')}</div></section>${video(car)}<section class="evolution-header"><p class="eyebrow">THE DESIGN, OVER TIME</p><h3>One idea. ${car.variants.length===1?'One distinct form.':'Different expressions.'}</h3><p>${esc(car.excluded)}</p></section><div class="evolution">${car.variants.map((v,i)=>{
+      const prev=car.variants[i-1];
+      const label=`${car.name} ${v.name}`;
+      return `<article class="generation"><div class="year">${v.year}</div><div><p class="eyebrow">${i===0?'THE STARTING POINT':`EVOLUTION ${String(i+1).padStart(2,'0')}`} / ${esc(v.kind)}</p><h4>${esc(v.name)}</h4>${gallery(v,'generation-'+i,label)}<section class="diff" aria-label="${esc(v.name)} differences"><p class="diff-label">${prev?'DIFF / FROM '+esc(prev.name.toUpperCase()):'BASELINE / WHAT DEFINES IT'}</p>${prev?`<div class="diff-pictures"><figure>${photo(prev.photos[0],car.name+' '+prev.name+' before')}<figcaption>BEFORE · ${prev.year} ${esc(prev.name)}</figcaption></figure><figure>${photo(v.photos[0],label+' after')}<figcaption>AFTER · ${v.year} ${esc(v.name)}</figcaption></figure></div>`:''}<div class="diff-text"><div><strong>${prev?'Form · what changed':'Form · the starting design'}</strong><p>${prev?`<span>Before: ${esc(prev.shape)}</span><br><span>After: ${esc(v.shape)}</span>`:esc(v.shape)}</p></div><div><strong>${prev?'Underneath · what changed':'Underneath · the starting architecture'}</strong><p>${prev?`<span>Before: ${esc(prev.engineering)}</span><br><span>After: ${esc(v.engineering)}</span>`:esc(v.engineering)}</p></div></div></section><a class="fact-source" href="${esc(v.factSource)}" target="_blank" rel="noopener noreferrer">Model history, dates & further references ↗</a></div></article>`;
+    }).join('')}</div><div class="archive-end"><button data-neighbor="-1" ${cars.indexOf(car)===0?'disabled':''}>← Previous car</button><span class="eyebrow">${String(cars.indexOf(car)+1).padStart(2,'0')} / ${cars.length}</span><button data-neighbor="1" ${cars.indexOf(car)===cars.length-1?'disabled':''}>Next car →</button></div>`;
+    $('#detail').querySelectorAll('[data-gallery]').forEach(el=>updateGallery(el,0));
+    $('#permalink').href=`${location.pathname}#car=${car.id}`;
+  }
+  function openCar(id, push = true, trigger = null) {
+    const car=cars.find(c=>c.id===id);
+    if (!car) return;
+    if (!dialog.open) lastTrigger=trigger || document.activeElement;
+    renderDetail(car);
+    if (!dialog.open) dialog.showModal();
+    document.body.classList.add('modal-open');
+    if (push && location.hash!==`#car=${id}`) { history.pushState({automotiveCar:true},'',`#car=${id}`);pushedCar=true; }
+    $('#close-dialog').focus({preventScroll:true});
+    // A closed dialog has no scroll box; reset only after it is visible.
+    dialog.scrollTo({top:0,left:0,behavior:'instant'});
+  }
+  function closeCar(fromHistory = false) {
+    if (!dialog.open) return;
+    dialog.close();
+    document.body.classList.remove('modal-open');
+    $('#detail').innerHTML='';galleries.clear();activeCar=null;
+    if (!fromHistory && location.hash.startsWith('#car=')) {
+      if (pushedCar) history.back();
+      else history.replaceState(null,'',location.pathname+location.search);
+    }
+    pushedCar=false;
+    if (lastTrigger?.isConnected) lastTrigger.focus({preventScroll:true});
+  }
+  document.addEventListener('click',async event=>{
+    const carLink=event.target.closest('[data-car]');
+    if (carLink && !event.ctrlKey && !event.metaKey && !event.shiftKey) { event.preventDefault();openCar(carLink.dataset.car,true,carLink);return; }
+    const maker=event.target.closest('[data-brand]');
+    if (maker) {$('#brand').value=$('#brand').value===maker.dataset.brand?'':maker.dataset.brand;$('#search').value='';renderTimeline();$('#timeline').scrollIntoView();$('#brand').focus({preventScroll:true});return;}
+    const galleryButton=event.target.closest('[data-step], [data-index]');
+    if (galleryButton) {const el=galleryButton.closest('[data-gallery]');const state=galleries.get(el.dataset.gallery);updateGallery(el,galleryButton.hasAttribute('data-index')?Number(galleryButton.dataset.index):state.index+Number(galleryButton.dataset.step));return;}
+    const play=event.target.closest('[data-video]');
+    if (play) {const frame=document.createElement('iframe');frame.title=activeCar.video.title;frame.src=`https://www.youtube-nocookie.com/embed/${play.dataset.video}?autoplay=1`;frame.allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';frame.allowFullscreen=true;frame.referrerPolicy='strict-origin-when-cross-origin';play.replaceWith(frame);frame.focus();return;}
+    const next=event.target.closest('[data-neighbor]');
+    if(next){const car=cars[cars.indexOf(activeCar)+Number(next.dataset.neighbor)];if(car){history.replaceState(history.state,'',`#car=${car.id}`);openCar(car.id,false);}return;}
+    if(event.target.closest('#permalink')){event.preventDefault();try{await navigator.clipboard.writeText(location.href);$('#permalink').textContent='LINK COPIED ✓';setTimeout(()=>{$('#permalink').textContent='COPY CAR LINK ↗';},1800);}catch{ $('#announcement').textContent='Copy the car link from the address bar.'; }}
+  });
+  $('#close-dialog').addEventListener('click',()=>closeCar());
+  dialog.addEventListener('cancel',event=>{event.preventDefault();closeCar();});
+  dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeCar();}});
+  $('#search').addEventListener('input',renderTimeline);
+  $('#brand').addEventListener('change',renderTimeline);
+  $('#reset').addEventListener('click',()=>{$('#search').value='';$('#brand').value='';renderTimeline();});
+  function route(){const match=location.hash.match(/^#car=([a-z0-9-]+)$/);if(match)openCar(match[1],false);else closeCar(true);}
+  window.addEventListener('popstate',route);
+  window.addEventListener('hashchange',route);
+  renderTimeline();route();
+})();

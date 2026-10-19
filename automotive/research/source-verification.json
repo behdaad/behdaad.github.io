@@ -1,0 +1,200 @@
+[
+  {
+    "key": "influence",
+    "status": 200,
+    "title": "The world’s most influential cars | Autocar",
+    "url": "https://www.autocar.co.uk/car-news/slideshow/world%E2%80%99s-most-influential-cars"
+  },
+  {
+    "key": "sixties",
+    "status": 200,
+    "title": "The Greatest Cars of All Time: The Sixties",
+    "url": "https://www.caranddriver.com/features/a32964167/the-greatest-cars-of-all-time-the-sixties/"
+  },
+  {
+    "key": "italian",
+    "status": 200,
+    "title": "These are the 50 greatest Italian cars of all time | Top Gear",
+    "url": "https://www.topgear.com/car-news/list/these-are-50-greatest-italian-cars-all-time"
+  },
+  {
+    "key": "french",
+    "status": 200,
+    "title": "The 50 greatest French cars of all time | Top Gear",
+    "url": "https://www.topgear.com/car-news/list/50-greatest-french-cars-all-time"
+  },
+  {
+    "key": "american",
+    "status": 200,
+    "title": "These are the 50 greatest American cars ever made | Top Gear",
+    "url": "https://www.topgear.com/car-news/usa/these-are-50-greatest-american-cars-ever-made"
+  },
+  {
+    "key": "patent",
+    "status": 200,
+    "title": "Mercedes-Benz Patent Motorwagen Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/mercedes-benz/patent-motorwagen"
+  },
+  {
+    "key": "sl",
+    "status": 200,
+    "title": "Here&#x27;s every generation of the Mercedes SL | Top Gear",
+    "url": "https://www.topgear.com/car-news/retro/heres-every-generation-mercedes-sl"
+  },
+  {
+    "key": "sl-icon",
+    "status": 200,
+    "title": "Hammond&#x27;s icons: Mercedes-Benz 300SL Gullwing",
+    "url": "https://www.topgear.com/car-news/richard-hammond/hammonds-icons-mercedes-benz-300sl-gullwing"
+  },
+  {
+    "key": "ds",
+    "status": 200,
+    "title": "Citroen DS Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/citroen/ds"
+  },
+  {
+    "key": "sm",
+    "status": 200,
+    "title": "Citroen SM Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/citroen/sm"
+  },
+  {
+    "key": "beetle",
+    "status": 200,
+    "title": "Gallery: bye bye, Volkswagen Beetle | Top Gear",
+    "url": "https://www.topgear.com/car-news/classic/gallery-bye-bye-volkswagen-beetle"
+  },
+  {
+    "key": "911",
+    "status": 200,
+    "title": "Here&#x27;s every single generation of Porsche 911 | Top Gear",
+    "url": "https://www.topgear.com/car-news/heres-every-single-generation-porsche-911"
+  },
+  {
+    "key": "mustang",
+    "status": 200,
+    "title": "Here&#x27;s a brief history of the Ford Mustang",
+    "url": "https://www.topgear.com/car-news/usa/heres-a-brief-history-ford-mustang"
+  },
+  {
+    "key": "golf",
+    "status": 200,
+    "title": "Volkswagen Golf GTI (Mk1) Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/volkswagen/golf-gti-mk1"
+  },
+  {
+    "key": "golf-history",
+    "status": 200,
+    "title": "The Volkswagen Golf turns 50: which is the best generation? | Top Gear",
+    "url": "https://www.topgear.com/car-news/retro/volkswagen-golf-turns-50-which-best-generation"
+  },
+  {
+    "key": "f40",
+    "status": 200,
+    "title": "Tested: 1991 Ferrari F40 Feasts on the Timid",
+    "url": "https://www.caranddriver.com/reviews/a32983963/tested-1991-ferrari-f40/"
+  },
+  {
+    "key": "mx5",
+    "status": 200,
+    "title": "Mazda MX-5 Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/mazda/mx-5"
+  },
+  {
+    "key": "f1",
+    "status": 200,
+    "title": "Top Gear mag&#x27;s greatest cars - hypercars | Top Gear",
+    "url": "https://www.topgear.com/car-news/supercars/top-gear-mags-greatest-cars-hypercars"
+  },
+  {
+    "key": "f1-race",
+    "status": 200,
+    "title": "Top Gear&#x27;s coolest racing cars: McLaren F1 GTR | Top Gear",
+    "url": "https://www.topgear.com/car-news/motorsport/top-gears-coolest-racing-cars-mclaren-f1-gtr"
+  },
+  {
+    "key": "tt",
+    "status": 200,
+    "title": "Progress Report: 2024 Audi TT MkIII vs 1999 Audi TT MkI | Top Gear",
+    "url": "https://www.topgear.com/car-news/retro/progress-report-2024-audi-tt-mkiii-vs-1999-audi-tt-mki"
+  },
+  {
+    "key": "tt-review",
+    "status": 200,
+    "title": "Audi TT Coupe Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/audi/tt-coupe"
+  },
+  {
+    "key": "prius",
+    "status": 200,
+    "title": "Toyota Prius Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/toyota/prius"
+  },
+  {
+    "key": "i3",
+    "status": 200,
+    "title": "BMW i3 Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/bmw/i3"
+  },
+  {
+    "key": "i3-icon",
+    "status": 200,
+    "title": "Celebrating two gamechanging icons: the BMW i3 and Audi A2 | Top Gear",
+    "url": "https://www.topgear.com/car-news/best-2022/celebrating-two-gamechanging-icons-bmw-i3-and-audi-a2"
+  },
+  {
+    "key": "ioniq",
+    "status": 200,
+    "title": "Hyundai Ioniq 5 Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/hyundai/ioniq-5"
+  },
+  {
+    "key": "retro",
+    "status": 200,
+    "title": "30 of the finest retro car designs | Top Gear",
+    "url": "https://www.topgear.com/car-news/retro/30-finest-retro-car-designs"
+  },
+  {
+    "key": "cyber",
+    "status": 200,
+    "title": "Tesla Cybertruck Review 2026 | Top Gear",
+    "url": "https://www.topgear.com/car-reviews/tesla/cybertruck"
+  },
+  {
+    "key": "cyber-design",
+    "status": 200,
+    "title": "Opinion: yes, the Tesla Cybertruck isn&#x27;t for everyone... but we still like it | Top Gear",
+    "url": "https://www.topgear.com/car-news/best-2023/opinion-yes-tesla-cybertruck-isnt-everyone-we-still-it"
+  },
+  {
+    "key": "etype",
+    "status": 200,
+    "title": "Jaguar is restoring 12 E-Types for its 60th anniversary | Top Gear",
+    "url": "https://www.topgear.com/car-news/retro/jaguar-restoring-12-e-types-its-60th-anniversary"
+  },
+  {
+    "key": "stratos",
+    "status": 200,
+    "title": "Data Dive: Lancia Stratos HF Stradale | Hagerty UK",
+    "url": "https://www.hagerty.co.uk/articles/data-dive-lancia-stratos-hf-stradale/"
+  },
+  {
+    "key": "m1",
+    "status": 200,
+    "title": "The Tragic Hero Arriving Too Late | TopGear South Africa",
+    "url": "https://topgear.co.za/retros/the-tragic-hero-arriving-too-late/"
+  },
+  {
+    "key": "japanese",
+    "status": 200,
+    "title": "The 50 best Japanese cars of all time | Top Gear",
+    "url": "https://www.topgear.com/car-news/list/50-best-japanese-cars-all-time"
+  },
+  {
+    "key": "italdesign",
+    "status": 200,
+    "title": "Take a look at Italdesign&#x27;s incredible collection | Top Gear",
+    "url": "https://www.topgear.com/car-news/best-2018/take-look-italdesigns-incredible-collection"
+  }
+]

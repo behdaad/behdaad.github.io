@@ -7,6 +7,7 @@
     "build:portfolio": "eleventy --config=portfolio.eleventy.config.js",
     "serve:blog": "eleventy --serve --config=eleventy.config.js",
     "serve:portfolio": "eleventy --serve --config=portfolio.eleventy.config.js",
+    "serve:automotive": "python3 -m http.server 4173 --bind 127.0.0.1",
     "test:visual": "playwright test",
     "test:visual:update": "playwright test --update-snapshots"
   },

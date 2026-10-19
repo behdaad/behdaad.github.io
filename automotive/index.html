@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="description" content="A chronological history of automotive design: 25 influential cars, 19 manufacturers, and the shapes that changed motoring. Explore photographs, reviews and generation-by-generation differences.">
+  <title>Automotive — Progress, in profile</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#timeline">Skip to the timeline</a>
+  <header class="masthead">
+    <a class="wordmark" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M2 24 16 2l14 22H2Zm7-4h14L16 9 9 20Z" fill="currentColor"/><path d="M8 29h16" stroke="currentColor" stroke-width="3"/></svg>AUTOMOTIVE<span>A DESIGN HISTORY</span></a>
+    <nav aria-label="Main navigation"><a href="#manufacturers">The makers</a><a href="#timeline">Timeline</a><a href="#honorable">Honorable mentions</a></nav>
+    <a class="home-link" href="/">BEHDAD ↗</a>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-text"><p class="eyebrow"><span class="red-dot"></span> MACHINES THAT MOVED US / 1886—2023</p><h1 id="page-title">Progress,<br><em>in profile.</em></h1><p class="standfirst">A history of the automobile, told through the shapes that changed it.</p><p class="intro-note">From the first purpose-built motorcar to the electric age. Follow the ideas, meet the makers, and see how a design evolves.</p><a class="arrow-link" href="#manufacturers">Start with the makers <span>↘</span></a></div>
+      <figure class="hero-figure" id="hero"><div class="hero-loading">THE SHAPE OF THINGS TO COME</div></figure>
+      <div class="edition-line"><span>AN INDEPENDENT READING OF THE AUTOMOTIVE PRESS</span><span>25 CARS <i>/</i> 19 MAKERS <i>/</i> 84 EVOLUTION ENTRIES</span></div>
+    </section>
+    <section class="makers-section" id="manufacturers" aria-labelledby="makers-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE MAKERS</p><h2 id="makers-title">The names behind the ideas.</h2></div><p>A shortlist drawn from published automotive criticism.<br>Each maker is represented in the timeline below.</p></div>
+      <div id="makers" class="makers" aria-label="Featured manufacturers"></div>
+      <details class="method"><summary>Why these makers and cars? <span>Selection, scoring & sources ↗</span></summary><div class="method-content"><h3>Editorial nominations first. Design gets the greatest weight.</h3><p>This is a compact, design-led introduction, not a definitive ranking of manufacturers. The makers are the union of the selected cars’ marques: every inclusion has an explicit nomination or design appraisal in <em>Top Gear</em>, <em>Autocar</em>, <em>Car and Driver</em> or <em>Hagerty</em>. Brand order follows first appearance here. BMC’s original Mini and the later MINI marque share one family; Benz is grouped with its successor Mercedes-Benz.</p><p>The score is a transparent evidence index, <strong>not a reviewer’s rating</strong>: design contributes up to <strong>60</strong> points, documented industry influence <strong>30</strong>, and a second independent publication <strong>10</strong>. A source explicitly describing radical form or packaging receives 60 design points; a positive or recognisable design appraisal receives 30; no design appraisal receives 0. Industry points require an explicit historical-impact claim. A second article from the same publication does not earn corroboration points. Every car’s breakdown and rationale appear in its detail view. These classifications are a synthesis of the cited writing, not scores awarded by those publications.</p><p>Only editorially recognised candidates enter the shortlist; design-led examples take priority within this bounded introduction. Honorable mentions preserve further published nominations for your review. There are <strong>25 model families / 19 makers = 1.32 cars per maker</strong>, below the requested cap of 2.5 (at most 47 main entries). Evolution entries inside the modals do not inflate the main count.</p><h3>Reading the dates and the pictures</h3><p>Timeline dates mark a production model’s introduction or first production year; the detail view distinguishes an earlier unveiling from a model year when relevant. The Cybertruck starts in 2023, not at its 2019 prototype reveal. A revival or racing derivative is labelled explicitly. Small facelifts and near-identical trims are condensed; exclusions are explained for every family.</p><p>Photographs are credited individually. Three-quarter views are preferred where available. Historic archive and contemporary Wikimedia photographs are used when official launch images could not be verified; they are not presented as launch photography. Original file descriptions, photographers and licenses remain accessible from each gallery. Backgrounds and angles vary with the surviving material.</p><p>Video links identify the car or generation actually filmed. Where no official YouTube upload was verified, the Top Gear series and episode are provided; some old-car films are historical features rather than full reviews. Press articles establish the selection; linked model histories support generation dates and specifications.</p><div id="bibliography" class="bibliography"></div><a href="research/README.md">Research and maintenance notes ↗</a></div></details>
+    </section>
+    <section class="history-section" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / THE TIMELINE</p><h2 id="timeline-title">Form follows possibility.</h2></div><p>Read chronologically.<br>Open a car to follow its evolution.</p></div>
+      <div class="filter-bar"><label class="search-label"><span aria-hidden="true">⌕</span><input type="search" id="search" placeholder="Find a car, maker or designer…" aria-label="Search cars"></label><label><span class="sr-only">Filter by manufacturer</span><select id="brand"><option value="">All manufacturers</option></select></label><button id="reset" type="button">Reset ↺</button><span id="result-count" role="status"></span></div>
+      <div id="history"></div><p id="empty" hidden>No cars match this search. Try another name or reset the filters.</p>
+    </section>
+    <section class="honors-section" id="honorable" aria-labelledby="honors-title"><div class="section-heading"><div><p class="eyebrow">03 / ROOM FOR MORE</p><h2 id="honors-title">Honorable mentions.</h2></div><p>More published nominations worth a look.<br>One photograph, one idea. Awaiting your verdict.</p></div><div class="honors" id="honors"></div></section>
+  </main>
+  <footer><a class="wordmark" href="./">AUTOMOTIVE</a><p>A history of ideas, through the cars that carried them.<br>Research edition · 19 October 2026</p><a href="#manufacturers">Sources & selection ↑</a></footer>
+  <dialog id="car-dialog" aria-labelledby="detail-title"><div class="dialog-top"><a href="#" id="permalink">COPY CAR LINK ↗</a><span>THE AUTOMOTIVE ARCHIVE</span><button type="button" id="close-dialog" aria-label="Close car details">Close <span aria-hidden="true">×</span></button></div><div id="detail"></div></dialog>
+  <div id="announcement" class="sr-only" role="status"></div>
+  <noscript><p class="noscript">This illustrated timeline needs JavaScript. Read the <a href="research/README.md">research notes</a> or <a href="data.json">complete car catalog</a>.</p></noscript>
+</body>
+</html>

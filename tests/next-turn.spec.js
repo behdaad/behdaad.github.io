@@ -114,7 +114,7 @@ test("browses every BGG gallery with buttons, thumbnails and keyboard", async ({
       await expect.poll(() => photo.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
       await expect(gallery.locator(".gallery-credit")).toHaveAttribute("href", image.source);
       await expect(gallery.locator(".gallery-credit")).toContainText(image.credit);
-      await expect(gallery.locator(".gallery-full")).toHaveAttribute("href", image.local);
+      await expect(gallery.getByRole("button", {name:"Full screen ⤢", exact:true})).toBeVisible();
       await expect(gallery.locator('[aria-pressed="true"]')).toHaveAttribute("data-gallery-index", String(index));
       await gallery.getByRole("button", {name: "Next photo", exact:true}).click();
     }
@@ -149,6 +149,62 @@ test("browses every BGG gallery with buttons, thumbnails and keyboard", async ({
       await swipe([200,100], [190,250]);
       await expect(gallery.locator(".gallery-count")).toHaveText("1 / 3");
     }
+    await page.keyboard.press("Escape");
+    await expect(page.locator("#detail-dialog")).not.toBeVisible();
+  }
+  expect(errors).toEqual([]);
+});
+
+test("opens full-screen photos and returns to the game after browsing", async ({ page }, testInfo) => {
+  const errors=[];
+  page.on("pageerror",error=>errors.push(error.message));
+  await page.goto("/next-turn/");
+  const games=await page.evaluate(()=>window.FIELD_GUIDE.games.map(({id,name,gallery})=>({id,name,gallery})));
+  for (const game of games) {
+    await page.locator("#search").fill(game.name);
+    await page.locator(`.card-title-button[data-detail="${game.id}"]`).click();
+    const original=page.locator("#detail-dialog .game-gallery");
+    await original.getByRole("button",{name:"Show photo 2 of 3",exact:true}).click();
+    await original.getByRole("button",{name:"Open photo full screen",exact:true}).click();
+    const viewer=page.getByRole("dialog",{name:"Full-screen photos",exact:true});
+    const photo=viewer.locator(".gallery-image");
+    await expect(viewer).toBeVisible();
+    await expect(photo).toHaveAttribute("src",game.gallery[1].local);
+    await expect.poll(()=>photo.evaluate(img=>img.complete&&img.naturalWidth>0)).toBe(true);
+    const viewport=await viewer.evaluate(el=>({width:el.clientWidth,height:el.clientHeight,screenWidth:innerWidth,screenHeight:innerHeight,overflow:el.scrollWidth>el.clientWidth+1||el.scrollHeight>el.clientHeight+1}));
+    expect(viewport.width).toBe(viewport.screenWidth);
+    expect(viewport.height).toBe(viewport.screenHeight);
+    expect(viewport.overflow).toBe(false);
+    await viewer.getByRole("button",{name:"Next photo",exact:true}).click();
+    await expect(photo).toHaveAttribute("src",game.gallery[2].local);
+    await viewer.getByRole("button",{name:"Next photo",exact:true}).click();
+    await expect(photo).toHaveAttribute("src",game.gallery[0].local);
+    await viewer.getByRole("button",{name:"Previous photo",exact:true}).click();
+    await expect(photo).toHaveAttribute("src",game.gallery[2].local);
+    await page.keyboard.press("ArrowLeft");
+    await expect(photo).toHaveAttribute("src",game.gallery[1].local);
+    await expect(viewer.locator(".gallery-credit")).toHaveAttribute("href",game.gallery[1].source);
+    if(game.id==="kemet-blood-and-sand"){
+      await page.screenshot({path:testInfo.outputPath("fullscreen-gallery.png")});
+      const stage=viewer.locator(".gallery-stage");
+      await stage.evaluate(el=>{
+        const touch=x=>new Touch({identifier:1,target:el,clientX:x,clientY:100});
+        el.dispatchEvent(new TouchEvent("touchstart",{bubbles:true,touches:[touch(250)]}));
+        el.dispatchEvent(new TouchEvent("touchend",{bubbles:true,changedTouches:[touch(100)]}));
+      });
+      await expect(photo).toHaveAttribute("src",game.gallery[2].local);
+    }
+    await page.keyboard.press("Escape");
+    await expect(viewer).not.toBeVisible();
+    await expect(page.locator("#detail-dialog")).toBeVisible();
+    await expect(original.locator(".gallery-image")).toHaveAttribute("src",game.gallery[game.id==="kemet-blood-and-sand"?2:1].local);
+    await expect(original.getByRole("button",{name:"Open photo full screen",exact:true})).toBeFocused();
+    // The other entry point opens the same viewer, with a close button back to details.
+    await original.getByRole("button",{name:"Full screen ⤢",exact:true}).click();
+    await expect(viewer).toBeVisible();
+    await viewer.getByRole("button",{name:"Close full-screen photos",exact:true}).click();
+    await expect(viewer).not.toBeVisible();
+    await expect(page.locator("#detail-dialog")).toBeVisible();
     await page.keyboard.press("Escape");
     await expect(page.locator("#detail-dialog")).not.toBeVisible();
   }

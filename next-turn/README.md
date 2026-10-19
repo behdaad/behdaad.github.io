@@ -19,7 +19,7 @@ The 23 game records, original 22-game play log and source links are in `data.js`
 - Browse thirteen established matches, four upcoming launches/retail arrivals, a recent-release Essen demo bonus, and five different strategic experiments.
 - Filter by player count, maximum full-game duration, BGG complexity, randomness and confirmed demos. Unknown complexity is excluded by an active maximum filter. Dune's six-player team mode is supported; five players is excluded.
 - See a dated price on every card and in comparisons. Open a game for edition, language, source and expansion details, including what changes gameplay, what is bundled and what is cosmetic.
-- Open any game’s photo gallery for three locally stored BoardGameGeek images. Choose a thumbnail, use previous/next, press the arrow keys while focused on the gallery, or swipe the main image on touch screens. Home/End select the first/last image; Full size opens the original-sized local asset. Contributor credits link to each BGG image page.
+- Open any game’s photo gallery for three locally stored BoardGameGeek images. Choose a thumbnail, use previous/next, press the arrow keys while focused on the gallery, or swipe the main image on touch screens. Home/End select the first/last image; Click the main photo or Full screen to open a full-screen viewer with browsing arrows, keyboard and swipe navigation. Close it with × or Escape to return to the game. Contributor credits link to each BGG image page.
 - Select up to three games to compare side by side. Two selections enable the comparison button. On narrow screens, scroll the comparison table horizontally.
 
 Photos and core functionality are local; optional Google web fonts and outbound links need internet. System fonts provide an offline fallback.

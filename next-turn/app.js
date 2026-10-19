@@ -20,12 +20,12 @@ function timeText(g) { return g.minMinutes===g.maxMinutes ? `${g.minMinutes}` : 
 function rating(g) { return g.bggRating==null?'—':Number(g.bggRating).toFixed(1); }
 function external(url,label,cls='') { return `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noreferrer">${label}</a>`; }
 function image(g, i=0) { const im=g.images[i] || g.images[0]; return im?`<img src="${esc(im.local || im.url)}" alt="${esc(im.alt || g.name+' board and components')}" loading="lazy" decoding="async">`:''; }
-function gallery(g) {
+function gallery(g, fullscreen=false) {
  const photos=g.gallery || g.images;
  return `<div class="game-gallery" data-gallery="${esc(g.id)}" data-index="0" role="region" aria-label="${esc(g.name)} photo gallery" aria-roledescription="carousel" tabindex="0">
- <figure class="gallery-figure"><div class="gallery-stage"><img class="gallery-image" src="${esc(photos[0].local || photos[0].url)}" alt="${esc(photos[0].alt)}" decoding="async"></div>
+ <figure class="gallery-figure"><${fullscreen?'div':'button type="button" data-gallery-open aria-label="Open photo full screen"'} class="gallery-stage"><img class="gallery-image" src="${esc(photos[0].local || photos[0].url)}" alt="${esc(photos[0].alt)}" decoding="async"></${fullscreen?'div':'button'}>
  <figcaption><p class="gallery-caption">${esc(photos[0].caption || photos[0].alt)}</p><a class="gallery-credit" href="${esc(photos[0].source)}" target="_blank" rel="noreferrer">Photo: ${esc(photos[0].credit)} ↗</a></figcaption></figure>
- <div class="gallery-controls"><button type="button" class="gallery-arrow" data-gallery-step="-1" aria-label="Previous photo">←</button><span class="gallery-count" aria-live="polite" aria-atomic="true">1 / ${photos.length}</span><button type="button" class="gallery-arrow" data-gallery-step="1" aria-label="Next photo">→</button><a class="gallery-full" href="${esc(photos[0].local || photos[0].url)}" target="_blank" rel="noreferrer">Full size ↗</a></div>
+ <div class="gallery-controls"><button type="button" class="gallery-arrow" data-gallery-step="-1" aria-label="Previous photo">←</button><span class="gallery-count" aria-live="polite" aria-atomic="true">1 / ${photos.length}</span><button type="button" class="gallery-arrow" data-gallery-step="1" aria-label="Next photo">→</button>${fullscreen?'':'<button type="button" class="gallery-full" data-gallery-open>Full screen ⤢</button>'}</div>
  <div class="gallery-thumbnails" aria-label="Choose a photo">${photos.map((im,i)=>`<button type="button" data-gallery-index="${i}" aria-label="Show photo ${i+1} of ${photos.length}" aria-pressed="${i===0}"><img src="${esc(im.local || im.url)}" alt="" loading="lazy" decoding="async"></button>`).join('')}</div></div>`;
 }
 function selectGalleryPhoto(root,index) {
@@ -34,10 +34,20 @@ function selectGalleryPhoto(root,index) {
  const img=$('.gallery-image',root);img.src=im.local || im.url;img.alt=im.alt;
  $('.gallery-caption',root).textContent=im.caption || im.alt;
  const credit=$('.gallery-credit',root);credit.href=im.source;credit.textContent=`Photo: ${im.credit} ↗`;
- $('.gallery-full',root).href=im.local || im.url;
  $('.gallery-count',root).textContent=`${index+1} / ${photos.length}`;
  $$('[data-gallery-index]',root).forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));
 }
+
+function openPhotoViewer(root) {
+ const g=games.find(g=>g.id===root.dataset.gallery);
+ $('#photo-content').innerHTML=`<header class="photo-viewer-header"><h2>${esc(g.name)}</h2><button type="button" class="icon-button" data-photo-close aria-label="Close full-screen photos" autofocus>×</button></header>${gallery(g,true)}`;
+ selectGalleryPhoto($('#photo-viewer [data-gallery]'),Number(root.dataset.index));
+ $('#photo-viewer').showModal();
+}
+$('#photo-viewer').addEventListener('close',()=>{
+ const expanded=$('#photo-viewer [data-gallery]'),original=$('#detail-dialog [data-gallery]');
+ if(expanded && original && expanded.dataset.gallery===original.dataset.gallery)selectGalleryPhoto(original,Number(expanded.dataset.index));
+});
 
 function checkedDate(value) { return new Date((value || guide.researchedAt)+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}); }
 function priceText(g) { return g.commerce?.price.display || 'Price not verified'; }
@@ -72,7 +82,9 @@ function showCompare(){const list=games.filter(g=>compare.has(g.id));const rows=
 function closeDialogs(){ $$('dialog[open]').forEach(d=>d.close());document.body.classList.remove('modal-open'); }
 document.addEventListener('click',e=>{
  const b=e.target.closest('button,[data-action]');if(!b)return;
+ if(b.hasAttribute('data-photo-close')){$('#photo-viewer').close();return;}
  const galleryRoot=b.closest('[data-gallery]');
+ if(galleryRoot && b.hasAttribute('data-gallery-open')){if(b!==gallerySuppressedStage || Date.now()>=gallerySuppressUntil)openPhotoViewer(galleryRoot);return;}
  if(galleryRoot && (b.hasAttribute('data-gallery-step') || b.hasAttribute('data-gallery-index'))){
   selectGalleryPhoto(galleryRoot,b.hasAttribute('data-gallery-index')?Number(b.dataset.galleryIndex):Number(galleryRoot.dataset.index)+Number(b.dataset.galleryStep));return;
  }
@@ -83,19 +95,21 @@ document.addEventListener('click',e=>{
  if(a==='profile')profile();if(a==='method')method();if(a==='reset')reset();
 });
 document.addEventListener('keydown',e=>{
- const root=e.target.closest('[data-gallery]');if(!root)return;
+ const root=$('#photo-viewer').open?$('#photo-viewer [data-gallery]'):e.target.closest('[data-gallery]');if(!root)return;
  const index=Number(root.dataset.index);
  if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();selectGalleryPhoto(root,index+(e.key==='ArrowRight'?1:-1));}
  if(e.key==='Home'||e.key==='End'){e.preventDefault();const g=games.find(g=>g.id===root.dataset.gallery);selectGalleryPhoto(root,e.key==='Home'?0:(g.gallery || g.images).length-1);}
 });
 let galleryTouch;
+let gallerySuppressUntil=0;
+let gallerySuppressedStage;
 document.addEventListener('touchstart',e=>{
  const root=e.target.closest('.gallery-stage');galleryTouch=root&&e.touches.length===1?{root,x:e.touches[0].clientX,y:e.touches[0].clientY}:null;
 },{passive:true});
 document.addEventListener('touchend',e=>{
  if(!galleryTouch)return;const {root,x,y}=galleryTouch;galleryTouch=null;
  const touch=e.changedTouches[0],dx=touch.clientX-x,dy=touch.clientY-y;
- if(Math.abs(dx)>50 && Math.abs(dx)>Math.abs(dy)*1.5){const gallery=root.closest('[data-gallery]');selectGalleryPhoto(gallery,Number(gallery.dataset.index)+(dx<0?1:-1));}
+ if(Math.abs(dx)>50 && Math.abs(dx)>Math.abs(dy)*1.5){gallerySuppressUntil=Date.now()+400;gallerySuppressedStage=root;const gallery=root.closest('[data-gallery]');selectGalleryPhoto(gallery,Number(gallery.dataset.index)+(dx<0?1:-1));}
 },{passive:true});
 document.addEventListener('touchcancel',()=>{galleryTouch=null;},{passive:true});
 document.addEventListener('change',e=>{const t=e.target;if(t.dataset.compare)toggleCompare(t.dataset.compare,t.checked);});

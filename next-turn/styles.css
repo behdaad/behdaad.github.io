@@ -119,3 +119,24 @@ body{font-size:18px}
  .game-gallery { padding: 16px; }
  .gallery-stage { height: 240px; }
 }
+
+/* Full-screen photo viewer above the game modal. */
+button.gallery-stage { display: block; width: 100%; padding: 0; cursor: zoom-in; }
+#photo-viewer { position: fixed; inset: 0; width: 100vw; max-width: none; height: 100dvh; max-height: none; margin: 0; border-radius: 0; background: #111914; color: #f3f1e8; }
+#photo-content { height: 100%; display: flex; flex-direction: column; }
+.photo-viewer-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 24px; border-bottom: 1px solid #ffffff26; flex-shrink: 0; }
+.photo-viewer-header h2 { font-size: clamp(18px, 3vw, 25px); }
+.photo-viewer-header .icon-button { width: 44px; height: 44px; flex-shrink: 0; }
+#photo-viewer .game-gallery { flex: 1; min-height: 0; width: 100%; padding: 16px 24px; display: flex; flex-direction: column; background: transparent; }
+#photo-viewer .gallery-figure { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+#photo-viewer .gallery-stage { flex: 1; min-height: 0; height: auto; background: transparent; }
+#photo-viewer figcaption { flex-shrink: 0; text-align: center; }
+#photo-viewer .gallery-caption { max-height: 4.5em; overflow-y: auto; }
+#photo-viewer .gallery-credit { color: #c0c9c0; }
+#photo-viewer .gallery-controls { justify-content: center; flex-shrink: 0; margin: 12px 0 0; }
+#photo-viewer .gallery-arrow { color: #f3f1e8; border-color: #ffffff40; background: #ffffff14; }
+#photo-viewer .gallery-thumbnails { display: none; }
+@media(max-width:640px) {
+ .photo-viewer-header { padding: 8px 12px; }
+ #photo-viewer .game-gallery { padding: 12px; }
+}

@@ -421,6 +421,33 @@ window.FIELD_GUIDE = {
           "caption": "Custom-painted sand worm on the game board.",
           "alt": "Kemet: Blood and Sand: Custom-painted sand worm on the game board.",
           "imageId": "6151797"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/hP1UOo6kq7OhXfPoXGLFdw__large/img/yPel69WviGMRfmPpUcBR_f5uqwg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8471075.jpg",
+          "local": "assets/bgg/kemet-blood-and-sand-8471075.jpg",
+          "source": "https://boardgamegeek.com/image/8471075/kemet-blood-and-sand",
+          "credit": "Sciurus / BoardGameGeek",
+          "caption": "A five-player game in progress.",
+          "alt": "Kemet: Blood and Sand: A five-player game in progress.",
+          "imageId": "8471075"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/X4ua8FZrQ1Vshz0yNqg4Rg__large/img/QRxt1cY24mDa11xcrW0ACjFNjzA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6171915.jpg",
+          "local": "assets/bgg/kemet-blood-and-sand-6171915.jpg",
+          "source": "https://boardgamegeek.com/image/6171915/kemet-blood-and-sand",
+          "credit": "achunkeemunkee / BoardGameGeek",
+          "caption": "The board during an early play.",
+          "alt": "Kemet: Blood and Sand: The board during an early play.",
+          "imageId": "6171915"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/UsRcqsLXs0P3aJQpeotbfw__large/img/uxYYH8WhvloasOLtP0XuGNGWrNg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8276620.jpg",
+          "local": "assets/bgg/kemet-blood-and-sand-8276620.jpg",
+          "source": "https://boardgamegeek.com/image/8276620/kemet-blood-and-sand",
+          "credit": "biosludge / BoardGameGeek",
+          "caption": "Armies and temples during gameplay.",
+          "alt": "Kemet: Blood and Sand: Armies and temples during gameplay.",
+          "imageId": "8276620"
         }
       ]
     },
@@ -646,6 +673,33 @@ window.FIELD_GUIDE = {
           "caption": "Big Box game materials.",
           "alt": "Hansa Teutonica: Big Box: Big Box game materials.",
           "imageId": "5863262"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/OHYpfLITCzdPEytDQFO7hw__large/img/Emeli21XA9I2ZA1nVJwbU8WUqU4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6047409.jpg",
+          "local": "assets/bgg/hansa-teutonica-big-box-6047409.jpg",
+          "source": "https://boardgamegeek.com/image/6047409/hansa-teutonica-big-box",
+          "credit": "henk.rolleman / BoardGameGeek",
+          "caption": "The board and player areas arranged for five players.",
+          "alt": "Hansa Teutonica: Big Box: The board and player areas arranged for five players.",
+          "imageId": "6047409"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/0Vzcp-BXKRptFRKU73uioA__large/img/v96CNvVKtEc1Ru96eUCVkx5vb_M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6525387.jpg",
+          "local": "assets/bgg/hansa-teutonica-big-box-6525387.jpg",
+          "source": "https://boardgamegeek.com/image/6525387/hansa-teutonica-big-box",
+          "credit": "tttokki / BoardGameGeek",
+          "caption": "A four-player game nearing its finish.",
+          "alt": "Hansa Teutonica: Big Box: A four-player game nearing its finish.",
+          "imageId": "6525387"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/EGXGo-i26p1gN5F0giEV1A__large/img/ANGbMb8_Thj_pnWmW15OWF_bKoM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9114215.jpg",
+          "local": "assets/bgg/hansa-teutonica-big-box-9114215.jpg",
+          "source": "https://boardgamegeek.com/image/9114215/hansa-teutonica-big-box",
+          "credit": "PaulS77 / BoardGameGeek",
+          "caption": "Trade routes midway through a four-player game.",
+          "alt": "Hansa Teutonica: Big Box: Trade routes midway through a four-player game.",
+          "imageId": "9114215"
         }
       ]
     },
@@ -896,6 +950,33 @@ window.FIELD_GUIDE = {
           "caption": "Storehouse board and starting resources.",
           "alt": "Concordia: Storehouse board and starting resources.",
           "imageId": "1795433"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/gG79hHJlIU9i55Dd7tHT6A__large/img/6qR9wLgYVVy4P9uZL_OCGQ78ZPo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1825370.jpg",
+          "local": "assets/bgg/concordia-1825370.jpg",
+          "source": "https://boardgamegeek.com/image/1825370/concordia",
+          "credit": "snog / BoardGameGeek",
+          "caption": "The board set up for three players.",
+          "alt": "Concordia: The board set up for three players.",
+          "imageId": "1825370"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/S5DcwI_DHdm0cakptHVMiQ__large/img/4AUQnPftM7Z8xmRjlETkw-nxp2Q=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1983850.jpg",
+          "local": "assets/bgg/concordia-1983850.jpg",
+          "source": "https://boardgamegeek.com/image/1983850/concordia",
+          "credit": "kilroy_locke / BoardGameGeek",
+          "caption": "Territory and production houses at the end of a game.",
+          "alt": "Concordia: Territory and production houses at the end of a game.",
+          "imageId": "1983850"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/TAighIUNRRPEcU6yfzPAQg__large/img/tw1KCGQZr9fFuMtRMZws_fGER1g=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1916009.jpg",
+          "local": "assets/bgg/concordia-1916009.jpg",
+          "source": "https://boardgamegeek.com/image/1916009/concordia",
+          "credit": "henk.rolleman / BoardGameGeek",
+          "caption": "Playing the Architect action.",
+          "alt": "Concordia: Playing the Architect action.",
+          "imageId": "1916009"
         }
       ]
     },
@@ -1129,6 +1210,33 @@ window.FIELD_GUIDE = {
           "caption": "The expanding island during play.",
           "alt": "Inis: The expanding island during play.",
           "imageId": "3166488"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/Xa-Z61a9-TNH4GlkK1j1qA__large/img/nr24BM7serCPSBU3om4QL0LJcXw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3631926.jpg",
+          "local": "assets/bgg/inis-3631926.jpg",
+          "source": "https://boardgamegeek.com/image/3631926/inis",
+          "credit": "AdelinDumitru / BoardGameGeek",
+          "caption": "The island during a two-player game.",
+          "alt": "Inis: The island during a two-player game.",
+          "imageId": "3631926"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/Q2HafBzOa0HpUV06bI0pNA__large/img/g5oTtjKm4Q27o8kulfzyPZfL6rg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5299839.jpg",
+          "local": "assets/bgg/inis-5299839.jpg",
+          "source": "https://boardgamegeek.com/image/5299839/inis",
+          "credit": "nimchalti / BoardGameGeek",
+          "caption": "A four-player game in progress.",
+          "alt": "Inis: A four-player game in progress.",
+          "imageId": "5299839"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/rFWkfHy_bkh8AHG2boRrrQ__large/img/GNcb2nzC4M8ED5qK1ZLTEREIl-U=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3344483.jpg",
+          "local": "assets/bgg/inis-3344483.jpg",
+          "source": "https://boardgamegeek.com/image/3344483/inis",
+          "credit": "jsper / BoardGameGeek",
+          "caption": "An overview of the island during play.",
+          "alt": "Inis: An overview of the island during play.",
+          "imageId": "3344483"
         }
       ]
     },
@@ -1395,6 +1503,33 @@ window.FIELD_GUIDE = {
           "caption": "Custom-painted sandworms.",
           "alt": "Dune: Imperium – Uprising: Custom-painted sandworms.",
           "imageId": "7847230"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/SZIOWWJzXMYvbLoNaMlNXQ__large/img/jMGOPsFgj8YJV-g56LA9tCPzeFk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8046269.jpg",
+          "local": "assets/bgg/dune-imperium-uprising-8046269.jpg",
+          "source": "https://boardgamegeek.com/image/8046269/dune-imperium-uprising",
+          "credit": "dustinhuman / BoardGameGeek",
+          "caption": "The board set up for solo play.",
+          "alt": "Dune: Imperium – Uprising: The board set up for solo play.",
+          "imageId": "8046269"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/JjKgN7yZX50XNyfiun4dRQ__large/img/UshItU7KSbsTVb9MkcAPp8qYHvA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9362244.jpg",
+          "local": "assets/bgg/dune-imperium-uprising-9362244.jpg",
+          "source": "https://boardgamegeek.com/image/9362244/dune-imperium-uprising",
+          "credit": "MeepleArg / BoardGameGeek",
+          "caption": "A game set up for a holiday session.",
+          "alt": "Dune: Imperium – Uprising: A game set up for a holiday session.",
+          "imageId": "9362244"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/CdRHJ15s1L1U1zODBqvmHg__large/img/9sdNt0UnrcjIVKQf69s3LW6AjSw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8370791.jpg",
+          "local": "assets/bgg/dune-imperium-uprising-8370791.jpg",
+          "source": "https://boardgamegeek.com/image/8370791/dune-imperium-uprising",
+          "credit": "cinek966 / BoardGameGeek",
+          "caption": "The board on a vinyl playmat; optional accessory.",
+          "alt": "Dune: Imperium – Uprising: The board on a vinyl playmat; optional accessory.",
+          "imageId": "8370791"
         }
       ]
     },
@@ -1612,6 +1747,33 @@ window.FIELD_GUIDE = {
           "caption": "Custom-painted buildings; standard miniatures are unpainted.",
           "alt": "Foundations of Rome: Custom-painted buildings; standard miniatures are unpainted.",
           "imageId": "7325729"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/yrX9NECJ1ESAwR65W9mGNg__large/img/1jAZ32LtapuxnPU0JysfktC_foM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7461833.jpg",
+          "local": "assets/bgg/foundations-of-rome-7461833.jpg",
+          "source": "https://boardgamegeek.com/image/7461833/foundations-of-rome",
+          "credit": "LadybugMeeple / BoardGameGeek",
+          "caption": "The shared city during play.",
+          "alt": "Foundations of Rome: The shared city during play.",
+          "imageId": "7461833"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/7jsnexNyi4SpV5oIKrVSuQ__large/img/kkKmvENcHyGsIte0U6lWuBiJ1fE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6790187.jpg",
+          "local": "assets/bgg/foundations-of-rome-6790187.jpg",
+          "source": "https://boardgamegeek.com/image/6790187/foundations-of-rome",
+          "credit": "Bohdominator / BoardGameGeek",
+          "caption": "An overhead view of the final city.",
+          "alt": "Foundations of Rome: An overhead view of the final city.",
+          "imageId": "6790187"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/HP-HCQZYiXptfRznImQ6GA__large/img/nBhFoSosUzWvWCR80IHLBWeGERw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6790186.jpg",
+          "local": "assets/bgg/foundations-of-rome-6790186.jpg",
+          "source": "https://boardgamegeek.com/image/6790186/foundations-of-rome",
+          "credit": "Bohdominator / BoardGameGeek",
+          "caption": "Buildings and city plots at the end of a game.",
+          "alt": "Foundations of Rome: Buildings and city plots at the end of a game.",
+          "imageId": "6790186"
         }
       ]
     },
@@ -1818,6 +1980,33 @@ window.FIELD_GUIDE = {
           "caption": "English-language box cover.",
           "alt": "Windmill Valley: Duel: English-language box cover.",
           "imageId": "9456514"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/MhDA_zuCIdfREhSJQ7zs2Q__large/img/2t5OAgfKXt6EKMq2z2xFfc2PMck=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9456513.png",
+          "local": "assets/bgg/windmill-valley-duel-9456513.png",
+          "source": "https://boardgamegeek.com/image/9456513/windmill-valley-duel",
+          "credit": "BudynJagodowy_ / BoardGameGeek",
+          "caption": "An additional publisher cover image; BGG has limited board photography for this title.",
+          "alt": "Windmill Valley: Duel: An additional publisher cover image; BGG has limited board photography for this title.",
+          "imageId": "9456513"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/AhOq9uNumn9PaiBntdtwlg__large/img/6DZoNyQd_70ClGVT7rZITPZMHzI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9826773.jpg",
+          "local": "assets/bgg/windmill-valley-duel-9826773.jpg",
+          "source": "https://boardgamegeek.com/image/9826773/windmill-valley-duel",
+          "credit": "Cthelnex / BoardGameGeek",
+          "caption": "Spanish-language edition cover.",
+          "alt": "Windmill Valley: Duel: Spanish-language edition cover.",
+          "imageId": "9826773"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/wGHFnMVb_m207Q4vqnRW0Q__large/img/RSrBkD55OuPW-HUEObnSJyZTr6M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9715736.png",
+          "local": "assets/bgg/windmill-valley-duel-9715736.png",
+          "source": "https://boardgamegeek.com/image/9715736/windmill-valley-duel",
+          "credit": "koddlh / BoardGameGeek",
+          "caption": "German-language edition cover.",
+          "alt": "Windmill Valley: Duel: German-language edition cover.",
+          "imageId": "9715736"
         }
       ]
     },
@@ -2003,6 +2192,33 @@ window.FIELD_GUIDE = {
           "caption": "Resource pieces and dice.",
           "alt": "Chronocritters: Resource pieces and dice.",
           "imageId": "9586442"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/ml7jM2CaoZ0n_2TJOju4ag__large/img/T-cY41fN66eazzRxXZWZI5MR-aU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9726941.jpg",
+          "local": "assets/bgg/chronocritters-9726941.jpg",
+          "source": "https://boardgamegeek.com/image/9726941/chronocritters",
+          "credit": "brettspielfieber / BoardGameGeek",
+          "caption": "Prototype board and components; final production may differ.",
+          "alt": "Chronocritters: Prototype board and components; final production may differ.",
+          "imageId": "9726941"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/KjY29cax6wfnJfTxTymVwQ__large/img/353tN6ciuceJuUhpy8Z1v_UIFU8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9726942.jpg",
+          "local": "assets/bgg/chronocritters-9726942.jpg",
+          "source": "https://boardgamegeek.com/image/9726942/chronocritters",
+          "credit": "brettspielfieber / BoardGameGeek",
+          "caption": "Another prototype view; final production may differ.",
+          "alt": "Chronocritters: Another prototype view; final production may differ.",
+          "imageId": "9726942"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/EX1Ps4OLByjv9axb8VY7VQ__large/img/4LB6DRuIJnNmDu1fJqc18iWNOJo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9474140.jpg",
+          "local": "assets/bgg/chronocritters-9474140.jpg",
+          "source": "https://boardgamegeek.com/image/9474140/chronocritters",
+          "credit": "polanek / BoardGameGeek",
+          "caption": "A playtest in progress; prototype components.",
+          "alt": "Chronocritters: A playtest in progress; prototype components.",
+          "imageId": "9474140"
         }
       ]
     },
@@ -2201,6 +2417,33 @@ window.FIELD_GUIDE = {
           "caption": "Publisher render of the board and components.",
           "alt": "Thessaloniki: Publisher render of the board and components.",
           "imageId": "9667226"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/nz0zyJC3UnCxR3KyjWTvaQ__large/img/USEaXyrYtMAdm9z0Jur8u1NLbH0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9667225.png",
+          "local": "assets/bgg/thessaloniki-9667225.png",
+          "source": "https://boardgamegeek.com/image/9667225/thessaloniki",
+          "credit": "BoardandDice / BoardGameGeek",
+          "caption": "Publisher render of the board and trading components.",
+          "alt": "Thessaloniki: Publisher render of the board and trading components.",
+          "imageId": "9667225"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/VG987KmfU1c6sONmCmBong__large/img/9HFRbuGu3zuaan0NVQ1n1JKloIg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9667224.png",
+          "local": "assets/bgg/thessaloniki-9667224.png",
+          "source": "https://boardgamegeek.com/image/9667224/thessaloniki",
+          "credit": "BoardandDice / BoardGameGeek",
+          "caption": "Another publisher render of the market.",
+          "alt": "Thessaloniki: Another publisher render of the market.",
+          "imageId": "9667224"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/Li-8B4zhIX8KHYQ0klC8Kg__large/img/JqI3Anykhj7SyQyyvzZ0X45ibtM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9386065.jpg",
+          "local": "assets/bgg/thessaloniki-9386065.jpg",
+          "source": "https://boardgamegeek.com/image/9386065/thessaloniki",
+          "credit": "OdpadAtomowy87 / BoardGameGeek",
+          "caption": "English-language edition cover; BGG currently has limited gameplay photography.",
+          "alt": "Thessaloniki: English-language edition cover; BGG currently has limited gameplay photography.",
+          "imageId": "9386065"
         }
       ]
     },
@@ -2417,6 +2660,33 @@ window.FIELD_GUIDE = {
           "caption": "Publisher render of the game and components.",
           "alt": "Entropy: Publisher render of the game and components.",
           "imageId": "9359932"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/KUfoFakfM8QeWH39ypl0Ng__large/img/bUVCEoEHvZ9UvVqiwU0G7loaJKU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9359934.png",
+          "local": "assets/bgg/entropy-9359934.png",
+          "source": "https://boardgamegeek.com/image/9359934/entropy",
+          "credit": "OdpadAtomowy87 / BoardGameGeek",
+          "caption": "Publisher render of lifeform pieces and other components.",
+          "alt": "Entropy: Publisher render of lifeform pieces and other components.",
+          "imageId": "9359934"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/LYMSlYYmpaDMDPIungH65A__large/img/4kbopsKeidJ0EaLHmY1cnZaH7vU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9359940.png",
+          "local": "assets/bgg/entropy-9359940.png",
+          "source": "https://boardgamegeek.com/image/9359940/entropy",
+          "credit": "OdpadAtomowy87 / BoardGameGeek",
+          "caption": "Publisher render of the console and creation tokens.",
+          "alt": "Entropy: Publisher render of the console and creation tokens.",
+          "imageId": "9359940"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/S7JeomM9du8rEBSMVK-4cA__large/img/9LiSVHGQ1eiM2dt81heVrccoshM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9359933.png",
+          "local": "assets/bgg/entropy-9359933.png",
+          "source": "https://boardgamegeek.com/image/9359933/entropy",
+          "credit": "OdpadAtomowy87 / BoardGameGeek",
+          "caption": "Publisher render of the board and player area.",
+          "alt": "Entropy: Publisher render of the board and player area.",
+          "imageId": "9359933"
         }
       ]
     },
@@ -2614,6 +2884,33 @@ window.FIELD_GUIDE = {
           "caption": "Thor cards and powers.",
           "alt": "Blood Rage: Valhalla: Thor cards and powers.",
           "imageId": "9815525"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/VpBwYiNXSnPSF40aIO-K3g__large/img/DbR2vcn9lUjd7i_mZDUnsHLajDs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9811121.jpg",
+          "local": "assets/bgg/blood-rage-valhalla-9811121.jpg",
+          "source": "https://boardgamegeek.com/image/9811121/blood-rage-valhalla",
+          "credit": "Exvilium / BoardGameGeek",
+          "caption": "The Valhalla map.",
+          "alt": "Blood Rage: Valhalla: The Valhalla map.",
+          "imageId": "9811121"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/vcPqNlStdv6uQnla78UDYw__large/img/ex0x4TmJf0mDewWZv96cHRvo01s=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9838970.jpg",
+          "local": "assets/bgg/blood-rage-valhalla-9838970.jpg",
+          "source": "https://boardgamegeek.com/image/9838970/blood-rage-valhalla",
+          "credit": "vendris97 / BoardGameGeek",
+          "caption": "A four-player game with upgraded components and a neoprene mat.",
+          "alt": "Blood Rage: Valhalla: A four-player game with upgraded components and a neoprene mat.",
+          "imageId": "9838970"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/YAKX69jZgBUY1CwSwTLr8Q__large/img/KZZMbN4hzw3a_U1p0M2UR0SznBI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9857470.jpg",
+          "local": "assets/bgg/blood-rage-valhalla-9857470.jpg",
+          "source": "https://boardgamegeek.com/image/9857470/blood-rage-valhalla",
+          "credit": "Djoedjoe / BoardGameGeek",
+          "caption": "A close view of Valhalla miniatures.",
+          "alt": "Blood Rage: Valhalla: A close view of Valhalla miniatures.",
+          "imageId": "9857470"
         }
       ]
     },
@@ -2855,6 +3152,33 @@ window.FIELD_GUIDE = {
           "caption": "A six-player game using additional content; the base game supports up to four.",
           "alt": "Spirit Island: A six-player game using additional content; the base game supports up to four.",
           "imageId": "3675276"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/Eiim4K7LfjBflceGPngqVw__large/img/z81gHhNFI9YGe9_GbA8MoNY4zio=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5459006.jpg",
+          "local": "assets/bgg/spirit-island-5459006.jpg",
+          "source": "https://boardgamegeek.com/image/5459006/spirit-island",
+          "credit": "DasNicolas / BoardGameGeek",
+          "caption": "The first round of a game.",
+          "alt": "Spirit Island: The first round of a game.",
+          "imageId": "5459006"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/LsC7zf_I16Sj2v3GSORVBw__large/img/T7xCRQIYKYSU79nV_tga_oXR254=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4192386.jpg",
+          "local": "assets/bgg/spirit-island-4192386.jpg",
+          "source": "https://boardgamegeek.com/image/4192386/spirit-island",
+          "credit": "ronster0 / BoardGameGeek",
+          "caption": "Spirits defending the island during play.",
+          "alt": "Spirit Island: Spirits defending the island during play.",
+          "imageId": "4192386"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/u7PSugnwUDL3uShemc-cNA__large/img/L7zTAyKXykpauc5LDzVXzsdo3qA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3692997.jpg",
+          "local": "assets/bgg/spirit-island-3692997.jpg",
+          "source": "https://boardgamegeek.com/image/3692997/spirit-island",
+          "credit": "Scotfree2 / BoardGameGeek",
+          "caption": "A solo game controlling four spirits against England.",
+          "alt": "Spirit Island: A solo game controlling four spirits against England.",
+          "imageId": "3692997"
         }
       ]
     },
@@ -3054,6 +3378,33 @@ window.FIELD_GUIDE = {
           "caption": "A close view of the towers during play.",
           "alt": "Santorini: A close view of the towers during play.",
           "imageId": "3303222"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/StQzGn97ALH9_-lvnWaO7A__large/img/rxyQsxo4lQpQJmO_W1Qa08qIKz8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3545185.jpg",
+          "local": "assets/bgg/santorini-3545185.jpg",
+          "source": "https://boardgamegeek.com/image/3545185/santorini",
+          "credit": "TRK27 / BoardGameGeek",
+          "caption": "Towers and workers in a close contest.",
+          "alt": "Santorini: Towers and workers in a close contest.",
+          "imageId": "3545185"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/iYEYCKjkg4A1dcvE_eTNbQ__large/img/aQ3DseOeiwzUiE78iOupgZ7lbMg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7275218.jpg",
+          "local": "assets/bgg/santorini-7275218.jpg",
+          "source": "https://boardgamegeek.com/image/7275218/santorini",
+          "credit": "siicis3 / BoardGameGeek",
+          "caption": "Buildings and workers during gameplay.",
+          "alt": "Santorini: Buildings and workers during gameplay.",
+          "imageId": "7275218"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/XujE6A6y4_p_m19ai8fQkQ__large/img/0NT10wFgR62R7jnSytUPFV1nq3Q=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3306885.png",
+          "local": "assets/bgg/santorini-3306885.png",
+          "source": "https://boardgamegeek.com/image/3306885/santorini",
+          "credit": "Nabako / BoardGameGeek",
+          "caption": "A first game in progress.",
+          "alt": "Santorini: A first game in progress.",
+          "imageId": "3306885"
         }
       ]
     },
@@ -3211,6 +3562,33 @@ window.FIELD_GUIDE = {
           "caption": "Brazilian Odysseia edition from 2006.",
           "alt": "Modern Art: Brazilian Odysseia edition from 2006.",
           "imageId": "170671"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/IMZIV3vcSixVvyUu4F9ksQ__large/img/91e4jM6DoqHXGOW7zkQ7YwPbmFI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic196889.jpg",
+          "local": "assets/bgg/modern-art-196889.jpg",
+          "source": "https://boardgamegeek.com/image/196889/modern-art",
+          "credit": "hotdog42 / BoardGameGeek",
+          "caption": "The auction game laid out on the table.",
+          "alt": "Modern Art: The auction game laid out on the table.",
+          "imageId": "196889"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/X9JzKrVAc1prBeRqoJPBYg__large/img/RylJPX48rji40i0iFGx8bnznwWg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic560882.jpg",
+          "local": "assets/bgg/modern-art-560882.jpg",
+          "source": "https://boardgamegeek.com/image/560882/modern-art",
+          "credit": "trenttsd / BoardGameGeek",
+          "caption": "Bidding during a game of Modern Art.",
+          "alt": "Modern Art: Bidding during a game of Modern Art.",
+          "imageId": "560882"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/os7ItOoY21iOq7ztCAE85g__large/img/uIOCjaFQqA5YQOyQku4hO7bGrCc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1067569.jpg",
+          "local": "assets/bgg/modern-art-1067569.jpg",
+          "source": "https://boardgamegeek.com/image/1067569/modern-art",
+          "credit": "Viki3m / BoardGameGeek",
+          "caption": "A game in progress; artwork varies by edition.",
+          "alt": "Modern Art: A game in progress; artwork varies by edition.",
+          "imageId": "1067569"
         }
       ]
     },
@@ -3384,6 +3762,33 @@ window.FIELD_GUIDE = {
           "caption": "A close view of the regional map.",
           "alt": "El Grande: A close view of the regional map.",
           "imageId": "788277"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/LnlImC7GeA3Jy9mqUCk7mw__large/img/LcYZQGvWeNN8dO4ohBt8jRv7uRI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8000200.jpg",
+          "local": "assets/bgg/el-grande-8000200.jpg",
+          "source": "https://boardgamegeek.com/image/8000200/el-grande",
+          "credit": "EvilCheesypoof / BoardGameGeek",
+          "caption": "A five-player game of the newer edition.",
+          "alt": "El Grande: A five-player game of the newer edition.",
+          "imageId": "8000200"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/Hg_DwneJjpuLwm40Qz7s1g__large/img/GEEDP0prldqpgzX8d4_9J-MHRS4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7837666.jpg",
+          "local": "assets/bgg/el-grande-7837666.jpg",
+          "source": "https://boardgamegeek.com/image/7837666/el-grande",
+          "credit": "BG_Geek / BoardGameGeek",
+          "caption": "The 2023 German edition at the end of a four-player game.",
+          "alt": "El Grande: The 2023 German edition at the end of a four-player game.",
+          "imageId": "7837666"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/vX_iDC80dgo8rrZf_kfhjQ__large/img/R1EdkUreqPQaOaNql-A2mMi7xDQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic178977.jpg",
+          "local": "assets/bgg/el-grande-178977.jpg",
+          "source": "https://boardgamegeek.com/image/178977/el-grande",
+          "credit": "lastalchemist / BoardGameGeek",
+          "caption": "An overhead view of the regional board.",
+          "alt": "El Grande: An overhead view of the regional board.",
+          "imageId": "178977"
         }
       ]
     },
@@ -3535,6 +3940,33 @@ window.FIELD_GUIDE = {
           "caption": "A game in progress.",
           "alt": "Babylonia: A game in progress.",
           "imageId": "6531853"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/SwVEPXCYuCIQ3nrbv7nowg__large/img/ZtB3JdlcWrSUq6zHQwK5HM6VXmI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5032284.jpg",
+          "local": "assets/bgg/babylonia-5032284.jpg",
+          "source": "https://boardgamegeek.com/image/5032284/babylonia",
+          "credit": "Bonapart / BoardGameGeek",
+          "caption": "A four-player game in progress.",
+          "alt": "Babylonia: A four-player game in progress.",
+          "imageId": "5032284"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/1ffzA7XiiVPfxKrZjTgJzg__large/img/0KbUf6S40cub6gyFyXwzrfeMTto=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7678097.jpg",
+          "local": "assets/bgg/babylonia-7678097.jpg",
+          "source": "https://boardgamegeek.com/image/7678097/babylonia",
+          "credit": "scottdarrington / BoardGameGeek",
+          "caption": "The board during a two-player game.",
+          "alt": "Babylonia: The board during a two-player game.",
+          "imageId": "7678097"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/WRhpdY3LIwhD2B-X4CgOvQ__large/img/mlvEjMDHwUX1HeOcaZ5lUv3vgJ0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6953616.jpg",
+          "local": "assets/bgg/babylonia-6953616.jpg",
+          "source": "https://boardgamegeek.com/image/6953616/babylonia",
+          "credit": "richcharters / BoardGameGeek",
+          "caption": "Clan networks in a two-player game.",
+          "alt": "Babylonia: Clan networks in a two-player game.",
+          "imageId": "6953616"
         }
       ]
     },
@@ -3739,6 +4171,33 @@ window.FIELD_GUIDE = {
           "caption": "Exploring a route to El Dorado.",
           "alt": "The Quest for El Dorado: Exploring a route to El Dorado.",
           "imageId": "4623101"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/_fZ8aQFDLK-VU0_B7sg4QA__large/img/ayrNuI6RSGnMlSDD7cTLnewIues=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3501310.jpg",
+          "local": "assets/bgg/quest-for-el-dorado-3501310.jpg",
+          "source": "https://boardgamegeek.com/image/3501310/the-quest-for-el-dorado",
+          "credit": "lacxox / BoardGameGeek",
+          "caption": "The race after its opening turns.",
+          "alt": "The Quest for El Dorado: The race after its opening turns.",
+          "imageId": "3501310"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/MZzLZ3nPW9izHfAZkor-bQ__large/img/5O8B2a1qbAZnpJrQX8TP4aV9LIQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3499735.jpg",
+          "local": "assets/bgg/quest-for-el-dorado-3499735.jpg",
+          "source": "https://boardgamegeek.com/image/3499735/the-quest-for-el-dorado",
+          "credit": "maeddes / BoardGameGeek",
+          "caption": "The end of a four-player race.",
+          "alt": "The Quest for El Dorado: The end of a four-player race.",
+          "imageId": "3499735"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/N1-MPC6z7YJjjHl-EYRQrg__large/img/oeZqaZYqsLd_Nzbo_EDUjsm0eAQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3503817.jpg",
+          "local": "assets/bgg/quest-for-el-dorado-3503817.jpg",
+          "source": "https://boardgamegeek.com/image/3503817/the-quest-for-el-dorado",
+          "credit": "maeddes / BoardGameGeek",
+          "caption": "A completed two-player race.",
+          "alt": "The Quest for El Dorado: A completed two-player race.",
+          "imageId": "3503817"
         }
       ]
     },
@@ -3904,6 +4363,33 @@ window.FIELD_GUIDE = {
           "caption": "Polish-language edition on the table.",
           "alt": "Tyrants of the Underdark: Polish-language edition on the table.",
           "imageId": "6504382"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/3QOW3RcMCIqW-tuC_k70qQ__large/img/1hwVuPWYwXbOGDAksnIUbxqeyME=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9495686.jpg",
+          "local": "assets/bgg/tyrants-of-the-underdark-9495686.jpg",
+          "source": "https://boardgamegeek.com/image/9495686/tyrants-of-the-underdark-board-game",
+          "credit": "celenac / BoardGameGeek",
+          "caption": "A two-player game in progress.",
+          "alt": "Tyrants of the Underdark: A two-player game in progress.",
+          "imageId": "9495686"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/n6fX6u9WsDOKmxlOPAb3Ww__large/img/Q2z1usvkTS_UQ7mgszL-KLM3DA8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8990328.jpg",
+          "local": "assets/bgg/tyrants-of-the-underdark-8990328.jpg",
+          "source": "https://boardgamegeek.com/image/8990328/tyrants-of-the-underdark-board-game",
+          "credit": "Ajohnny101 / BoardGameGeek",
+          "caption": "Tyrants of the Underdark at a board-game meetup.",
+          "alt": "Tyrants of the Underdark: Tyrants of the Underdark at a board-game meetup.",
+          "imageId": "8990328"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/a6cjDCaF6qHGHD9vfqil2Q__large/img/sJm8U7XNLwuk7ZFQbHDslYY6GaU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9221453.jpg",
+          "local": "assets/bgg/tyrants-of-the-underdark-9221453.jpg",
+          "source": "https://boardgamegeek.com/image/9221453/tyrants-of-the-underdark-board-game",
+          "credit": "Dhanival / BoardGameGeek",
+          "caption": "Gameplay with custom 3D replacement components.",
+          "alt": "Tyrants of the Underdark: Gameplay with custom 3D replacement components.",
+          "imageId": "9221453"
         }
       ]
     },
@@ -4105,6 +4591,33 @@ window.FIELD_GUIDE = {
           "caption": "Custom-painted Eternal Pledge collection, including additional content.",
           "alt": "Ankh: Gods of Egypt: Custom-painted Eternal Pledge collection, including additional content.",
           "imageId": "6532944"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/7a_RLFVwI3h24CBjoNQqpw__large/img/B0baSCoOTAUZtl_cc-p0W9NGYow=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6188239.jpg",
+          "local": "assets/bgg/ankh-gods-of-egypt-6188239.jpg",
+          "source": "https://boardgamegeek.com/image/6188239/ankh-gods-of-egypt",
+          "credit": "Nabako / BoardGameGeek",
+          "caption": "The board during the opening quarter of a game.",
+          "alt": "Ankh: Gods of Egypt: The board during the opening quarter of a game.",
+          "imageId": "6188239"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/8Tb-zolcGoqo4AsZUVYm2w__large/img/xEheeUoaRIf6GWUhpiE3UAk1qN8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6288432.jpg",
+          "local": "assets/bgg/ankh-gods-of-egypt-6288432.jpg",
+          "source": "https://boardgamegeek.com/image/6288432/ankh-gods-of-egypt",
+          "credit": "BriBriSlat / BoardGameGeek",
+          "caption": "A four-god game with Amun, Osiris, Isis and Anubis.",
+          "alt": "Ankh: Gods of Egypt: A four-god game with Amun, Osiris, Isis and Anubis.",
+          "imageId": "6288432"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/-E8AgippOXLIdF31rojNDQ__large/img/y3qwL3vL5LVeqY5XjavKX9D26Ts=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6372349.jpg",
+          "local": "assets/bgg/ankh-gods-of-egypt-6372349.jpg",
+          "source": "https://boardgamegeek.com/image/6372349/ankh-gods-of-egypt",
+          "credit": "TevK / BoardGameGeek",
+          "caption": "Custom-painted action trackers.",
+          "alt": "Ankh: Gods of Egypt: Custom-painted action trackers.",
+          "imageId": "6372349"
         }
       ]
     },
@@ -4279,6 +4792,33 @@ window.FIELD_GUIDE = {
           "caption": "A two-player game in progress.",
           "alt": "7 Wonders Duel: A two-player game in progress.",
           "imageId": "2722558"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/PMh6Ov_3gLJBnXnAb-yZKA__large/img/gkRHY7FIs_BgMA_8cXVwnQQjtds=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2558121.jpg",
+          "local": "assets/bgg/seven-wonders-duel-2558121.jpg",
+          "source": "https://boardgamegeek.com/image/2558121/7-wonders-duel",
+          "credit": "styren / BoardGameGeek",
+          "caption": "The first-age card layout during a preview game.",
+          "alt": "7 Wonders Duel: The first-age card layout during a preview game.",
+          "imageId": "2558121"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/jrwUmv5C5ZcCqzGdYZDZuw__large/img/psPx7wxBONnQtL3UFH2Yv7-4soU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2701747.jpg",
+          "local": "assets/bgg/seven-wonders-duel-2701747.jpg",
+          "source": "https://boardgamegeek.com/image/2701747/7-wonders-duel",
+          "credit": "maeddes / BoardGameGeek",
+          "caption": "A close-scoring duel in progress.",
+          "alt": "7 Wonders Duel: A close-scoring duel in progress.",
+          "imageId": "2701747"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/s3WVXXyzajGp_GuejVUR0Q__large/img/mz7zVFMkVZIlPOFkWXEC2hlsWxs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8640489.jpg",
+          "local": "assets/bgg/seven-wonders-duel-8640489.jpg",
+          "source": "https://boardgamegeek.com/image/8640489/7-wonders-duel",
+          "credit": "MisterStratego / BoardGameGeek",
+          "caption": "A two-player game in progress.",
+          "alt": "7 Wonders Duel: A two-player game in progress.",
+          "imageId": "8640489"
         }
       ]
     },
@@ -4467,6 +5007,33 @@ window.FIELD_GUIDE = {
           "caption": "Examples of djinn cards.",
           "alt": "Five Tribes: Examples of djinn cards.",
           "imageId": "2055258"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/7zp_KQc_u2v2yHCfFMPdrg__large/img/tQecH3MitPJumecjCsI4g0pcth4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2210505.jpg",
+          "local": "assets/bgg/five-tribes-2210505.jpg",
+          "source": "https://boardgamegeek.com/image/2210505/five-tribes-the-djinns-of-naqala",
+          "credit": "watertribetim / BoardGameGeek",
+          "caption": "The tiled board set up for play.",
+          "alt": "Five Tribes: The tiled board set up for play.",
+          "imageId": "2210505"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/toU57jRf0PsrcsEjlonFrA__large/img/kIyLWKWlcCc_c2DnK2qlprqb9s8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2475211.jpg",
+          "local": "assets/bgg/five-tribes-2475211.jpg",
+          "source": "https://boardgamegeek.com/image/2475211/five-tribes-the-djinns-of-naqala",
+          "credit": "Oblivion / BoardGameGeek",
+          "caption": "A three-player game in progress.",
+          "alt": "Five Tribes: A three-player game in progress.",
+          "imageId": "2475211"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/gZhInj-ts27_Zq_gAQ6OEw__large/img/S5k8zKDlpL1khECwhLUvfY5Z_Ms=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2215372.jpg",
+          "local": "assets/bgg/five-tribes-2215372.jpg",
+          "source": "https://boardgamegeek.com/image/2215372/five-tribes-the-djinns-of-naqala",
+          "credit": "boardgamersteph / BoardGameGeek",
+          "caption": "An overview of the board and its meeples.",
+          "alt": "Five Tribes: An overview of the board and its meeples.",
+          "imageId": "2215372"
         }
       ]
     },
@@ -4635,6 +5202,33 @@ window.FIELD_GUIDE = {
           "caption": "The beer-barrel turn-order track.",
           "alt": "Brass: Birmingham: The beer-barrel turn-order track.",
           "imageId": "3509698"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/w9llbCNUu8oMX9qs8ARDCw__large/img/r6yjTfgaPFhMsH_uhhTu9UvqM4Q=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4099879.jpg",
+          "local": "assets/bgg/brass-birmingham-4099879.jpg",
+          "source": "https://boardgamegeek.com/image/4099879/brass-birmingham",
+          "credit": "kmd2000 / BoardGameGeek",
+          "caption": "Production-sample overview of the board and components.",
+          "alt": "Brass: Birmingham: Production-sample overview of the board and components.",
+          "imageId": "4099879"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/klFnibADgbKMTmf8IUUksQ__large/img/ZolvaFCbLVRc5tEdBgdayDvhnmQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4250196.jpg",
+          "local": "assets/bgg/brass-birmingham-4250196.jpg",
+          "source": "https://boardgamegeek.com/image/4250196/brass-birmingham",
+          "credit": "brokengod / BoardGameGeek",
+          "caption": "Industries and transport links midway through a game.",
+          "alt": "Brass: Birmingham: Industries and transport links midway through a game.",
+          "imageId": "4250196"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/43it5NWo5G7_hmUD4Son9g__large/img/uWyfF7o8g7rOssAU-Fpi7eeDaoE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4231616.jpg",
+          "local": "assets/bgg/brass-birmingham-4231616.jpg",
+          "source": "https://boardgamegeek.com/image/4231616/brass-birmingham",
+          "credit": "Truthsayer / BoardGameGeek",
+          "caption": "The day side of the board.",
+          "alt": "Brass: Birmingham: The day side of the board.",
+          "imageId": "4231616"
         }
       ]
     },
@@ -4804,6 +5398,33 @@ window.FIELD_GUIDE = {
           "caption": "A preview of a faction board.",
           "alt": "Gaia Project: A preview of a faction board.",
           "imageId": "3529378"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/oXu1cYfICmDOrTE6KopAfA__large/img/5q0j2XUpJ8iUNmZWELneoDRXY5I=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3813836.jpg",
+          "local": "assets/bgg/gaia-project-3813836.jpg",
+          "source": "https://boardgamegeek.com/image/3813836/gaia-project",
+          "credit": "henk.rolleman / BoardGameGeek",
+          "caption": "An overview of the galaxy and player areas.",
+          "alt": "Gaia Project: An overview of the galaxy and player areas.",
+          "imageId": "3813836"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/KZ-2UdLCL_osuGg-MgnXnw__large/img/mSKpelV6YXuRJnlh45xmtdS99CY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4294520.jpg",
+          "local": "assets/bgg/gaia-project-4294520.jpg",
+          "source": "https://boardgamegeek.com/image/4294520/gaia-project",
+          "credit": "ki0n / BoardGameGeek",
+          "caption": "The galaxy at the end of a three-player game.",
+          "alt": "Gaia Project: The galaxy at the end of a three-player game.",
+          "imageId": "4294520"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/6h5GCZRC-TgQ08un3fTvkg__large/img/8s9Wg8ZrWQf8c6lm0r2FUMRnFKk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3813835.jpg",
+          "local": "assets/bgg/gaia-project-3813835.jpg",
+          "source": "https://boardgamegeek.com/image/3813835/gaia-project",
+          "credit": "henk.rolleman / BoardGameGeek",
+          "caption": "A player’s view across the board.",
+          "alt": "Gaia Project: A player’s view across the board.",
+          "imageId": "3813835"
         }
       ]
     }

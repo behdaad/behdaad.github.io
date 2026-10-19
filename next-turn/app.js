@@ -36,6 +36,8 @@ function selectGalleryPhoto(root,index) {
  const credit=$('.gallery-credit',root);credit.href=im.source;credit.textContent=`Photo: ${im.credit} ↗`;
  $('.gallery-count',root).textContent=`${index+1} / ${photos.length}`;
  $$('[data-gallery-index]',root).forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));
+ const thumbs=$('.gallery-thumbnails',root),selected=$('[aria-pressed="true"]',thumbs);
+ thumbs.scrollLeft=selected.offsetLeft-thumbs.offsetLeft-(thumbs.clientWidth-selected.clientWidth)/2;
 }
 
 function openPhotoViewer(root) {

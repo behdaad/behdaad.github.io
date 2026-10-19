@@ -1035,3 +1035,8 @@ All 23 game modals now use a separate `gallery` array with three locally stored 
 ## Full-screen gallery viewer — 19 October 2026
 
 Clicking a modal’s main gallery photo or Full screen opens a viewport-filling photo dialog above the game details. It starts with the selected photo and supports wrapping arrows, keyboard navigation and horizontal swipes, with captions and BGG credits retained. Close or Escape returns to the game details with the last-viewed photo selected and focus restored to the opening control. Swipe click suppression applies only to the image that received the gesture.
+
+
+## Expanded BGG galleries — 19 October 2026
+
+Added three images to every gallery, bringing each to six images (138 total). Selection emphasizes boards, setups and games in progress. Limited BGG selections for Windmill Valley: Duel, Thessaloniki and other newer titles are supplemented with explicitly labeled edition covers, renders or prototypes. All additions retain contributor credits and source links in photo-credits.md. Thumbnails now scroll horizontally and keep the selected image in view; full-screen browsing uses the complete expanded gallery.

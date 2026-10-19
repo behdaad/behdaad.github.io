@@ -391,7 +391,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "Start with Blood and Sand. Its revised rules make expansion compatibility different from the original Kemet edition.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Command an Egyptian army in a race for divine supremacy. You recruit troops, develop pyramids, buy powers and mythical creatures, and attack rivals or occupy temples to earn victory points.",
+      "distinctiveDynamic": "Build your own asymmetry. Players buy from a shared, visible supply of power tiles, so your army’s identity develops through purchases rather than a fixed faction. Aggressive victories earn lasting points, making power growth a reason to fight rather than stay home."
     },
     {
       "id": "hansa-teutonica-big-box",
@@ -585,7 +587,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "The recommended edition already bundles its main expansions. No additional purchase is needed to access these modules.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Build a trading network across medieval northern Europe. Place traders on routes, complete connections, establish offices and improve your personal abilities while competing for points and valuable city positions.",
+      "distinctiveDynamic": "Being displaced can help you. An opponent pays to push your trader off a route, but you relocate it with extra pieces. A deliberately inconvenient placement can therefore accelerate your network; blocking becomes an invitation with a price attached."
     },
     {
       "id": "concordia",
@@ -804,7 +808,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "Price references for add-ons are from the linked PD-Verlag catalog. Learn the original maps before adding extra systems.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Lead a Roman trading house around the Mediterranean. Play personality cards to move colonists, build production houses, collect goods and expand your hand, then score according to the gods represented on your cards.",
+      "distinctiveDynamic": "Your action deck is also your scoring plan. Buying a card adds an action and another endgame multiplier, tying expansion to the things you choose to score. Recovering your played cards creates a rhythm of spending actions now and deciding when to reset your options."
     },
     {
       "id": "inis",
@@ -1006,7 +1012,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "Edition compatibility matters: the original Jim Fitzpatrick presentation and the third edition use different component formats. Do not mix versions on name alone.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Compete to become ruler of a growing Celtic island. Draft action cards, move clans, explore territories and build sanctuaries while pursuing victory through presence, leadership over rival clans or sacred sites.",
+      "distinctiveDynamic": "You must announce your claim and survive the response. Meeting a victory condition does not immediately win: taking a pretender token gives rivals a chance to intervene. Because the core action cards recur in the draft, knowing which responses may still exist makes timing and restraint especially tense."
     },
     {
       "id": "dune-imperium-uprising",
@@ -1241,7 +1249,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "Uprising is standalone. Start there; expansions add complexity and the older ones need the adjustments in its rulebook.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Lead a great house in a struggle for influence on Arrakis. Build a deck, send agents to contested locations, cultivate faction alliances and commit troops to conflicts as you race for victory points.",
+      "distinctiveDynamic": "Every card has two competing jobs. Playing it sends an agent to a permitted location; saving it for your reveal turn supplies buying power or combat strength. Uprising adds spies that help bypass occupied locations and sandworms that can magnify conflict rewards, making commitment and timing tightly connected."
     },
     {
       "id": "foundations-of-rome",
@@ -1427,7 +1437,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "Most current boxes are bundles. Check included modules before buying separate add-ons; price and contents refer to the current shop, while the guide’s BGG statistics use the 2022 entry.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Compete to leave the greatest mark on a shared Roman city. Buy land deeds, construct buildings on plots you own, or collect income; your buildings provide population, money and civic scoring opportunities.",
+      "distinctiveDynamic": "Your building puzzle shares its edges with everyone else. Combining plots enables larger buildings, while civic buildings can score from neighboring structures, including rivals’ developments. A neighbor can improve your position even while competing with you for the land needed to expand."
     },
     {
       "id": "windmill-valley-duel",
@@ -1602,7 +1614,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "The publisher advertises a €35 preorder bundle with all three promos. Blooming Sails expands the original Windmill Valley, not this standalone Duel game.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Two rival growers develop tulip farms, improve windmills and export flowers for points. Rotate action wheels to gather resources, plant bulbs, claim building sites and develop bonuses across a shared landscape.",
+      "distinctiveDynamic": "Your action selection gives your rival an action too. The linked wheels determine both your choices and the opponent’s follow-up from the central wheel. An excellent move for your farm can therefore hand over exactly the opportunity the other grower needs."
     },
     {
       "id": "chronocritters",
@@ -1756,7 +1770,9 @@ window.FIELD_GUIDE = {
         "extras": [],
         "note": "No named gameplay expansion or official paid add-on was verified in the publisher catalog and accessible launch listing as of 17 October 2026. The solo rules are part of the base game, not an extra purchase.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Use robotic animals to restore a world whose timeline is breaking apart. Manage actions and resources across changing seasons, rediscover technologies and build time portals to extend your access to useful locations.",
+      "distinctiveDynamic": "Access to an action has an expiry date. Portals let you reach locations outside the current time, but decay unless maintained or replaced. The distinctive planning problem is not only which action you want, but when you can still reach it and whether keeping that route open is worth the investment."
     },
     {
       "id": "thessaloniki",
@@ -1923,7 +1939,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "These are small promos for Thessaloniki, rather than a separately verified large expansion. Check the contents of ordinary retail copies; the campaign bundle explicitly includes them.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Become an influential merchant in a Roman trading city. Move workers between market alcoves to gather and refine goods, fulfill contracts, trade and establish bonuses, aiming for the highest final score.",
+      "distinctiveDynamic": "The crowd changes what a market visit produces. You gain goods matching the workers in your destination alcove, and entering a full alcove pushes another worker onward with compensation. Other players’ positions help shape both your resource haul and the next arrangement of the market."
     },
     {
       "id": "entropy",
@@ -2108,7 +2126,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "The publisher’s €55 English campaign bundle includes these three promos. Shipping, tax and availability follow the campaign terms; it is not the German retail listing.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Compete as scientists creating simulated solar systems. Move around an action circle to develop stars and planets, establish biomes and introduce life, building combinations that score points and fulfill shared objectives.",
+      "distinctiveDynamic": "Your route through the action circle also reactivates your engine. Inner actions use matching creation tokens; passing your own tokens later retrieves them and lets you activate stars or gain entropy. Choosing how far to move therefore controls both the next action and when earlier investments pay again."
     },
     {
       "id": "blood-rage-valhalla",
@@ -2274,7 +2294,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "Valhalla is a standalone sequel. Original Blood Rage expansions were not verified as plug-in Valhalla expansions. No additional Valhalla-specific gameplay expansion was verified in the cited retail listing.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "This standalone sequel brings rival Viking clans into the afterlife. Draft cards, develop your clan and commit warriors to card-driven conflicts, competing for glory with a changing selection of gods influencing the game.",
+      "distinctiveDynamic": "The gods change the strategic toolkit. Different god combinations contribute cards and powers, changing which clan combinations are available from game to game. Its distinguishing promise relative to the original Blood Rage is a changing divine framework around the familiar draft, develop and fight rhythm; this remains a description of the announced design."
     },
     {
       "id": "spirit-island",
@@ -2484,7 +2506,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "Learn the base game first. For Nature Incarnate, the physical-game requirement is Jagged Earth; digital-edition requirements differ.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Work together as powerful spirits defending an island from invading settlers. Grow your presence, gain powers and coordinate with other spirits to stop ravages, protect the land and generate enough fear to drive the invaders away.",
+      "distinctiveDynamic": "You plan across two speeds of action. Fast powers happen before the invaders act, while slow powers happen afterward, so a strong move may solve the next threat rather than the current one. Very different spirits must combine those timings, and generating fear makes the victory requirements easier as resistance grows."
     },
     {
       "id": "santorini",
@@ -2652,7 +2676,9 @@ window.FIELD_GUIDE = {
         ],
         "note": "For the competitive duel recommendation, the base game is enough. Riddle of the Sphinx changes the experience to cooperative scenario play.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Guide two builders around a small shared island. Each turn, move one builder and construct beside it; win by moving up onto the third level of a building. Optional god powers alter the basic rules for each player.",
+      "distinctiveDynamic": "Every build creates both a route and a threat. The tower you raise can become your winning step or your opponent’s, while a dome permanently closes a summit. This makes construction itself the contest: you must create an ascent that your rival cannot use first or shut down."
     },
     {
       "id": "modern-art",
@@ -2778,7 +2804,9 @@ window.FIELD_GUIDE = {
         "extras": [],
         "note": "No official gameplay expansion was verified for the recommended CMON auction game. Different art editions change presentation. Modern Art Card Game / Masters Gallery is a separate game, not an add-on. A gavel, sleeves or upgraded money adds handling or presentation rather than a new game system.",
         "checkedAt": "2026-10-17"
-      }
+      },
+      "overview": "Run a gallery buying and selling paintings through auctions. Across four rounds, artists gain market value from the paintings players bring to sale; turn those purchases and sales into the largest cash fortune.",
+      "distinctiveDynamic": "The players create the value they are bidding on. Selling more work by an artist can make that artist valuable, but the fifth painting ends the round. Each sale also specifies an auction format, so the seller influences both price discovery and when the market closes."
     },
     {
       "id": "el-grande",
@@ -2920,7 +2948,9 @@ window.FIELD_GUIDE = {
         "title": "Demo not verified",
         "short": "No playable demo verified",
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
-      }
+      },
+      "overview": "Lead a noble house competing for influence across Spain. Choose power cards, take actions and place caballeros to earn points from regional majorities during scoring rounds.",
+      "distinctiveDynamic": "The Castillo hides a future swing in the map. Caballeros placed in the tower are concealed until scoring, then secretly assigned to a region. You must judge visible majorities against troops whose destination is uncertain, while the king restricts where reinforcements can enter the board."
     },
     {
       "id": "babylonia",
@@ -3040,7 +3070,9 @@ window.FIELD_GUIDE = {
         "title": "Demo not verified",
         "short": "No playable demo verified",
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
-      }
+      },
+      "overview": "Place clan tokens across ancient Mesopotamia to connect settlements, surround cities and compete around ziggurats. Build networks that turn carefully timed placements into points and lasting advantages.",
+      "distinctiveDynamic": "A local scoring event can reward a much larger network. Connecting your nobles to cities makes the reach of a network matter beyond immediate adjacency. Meanwhile, surrounding locations triggers rewards, so expanding a connection and deciding when to complete an enclosure pull your limited placements in different directions."
     },
     {
       "id": "quest-for-el-dorado",
@@ -3213,7 +3245,9 @@ window.FIELD_GUIDE = {
         "title": "Demo not verified",
         "short": "No playable demo verified",
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
-      }
+      },
+      "overview": "Race an expedition through jungle, water and villages to reach El Dorado. Play cards to cross matching terrain or spend their buying power on stronger expedition cards, reshaping your deck for the course ahead.",
+      "distinctiveDynamic": "Your deck has to navigate a physical bottleneck. A card’s value depends on the terrain still ahead and which spaces rivals occupy. Buying a powerful card helps only after it cycles into your hand, so improving the expedition competes directly with moving before the route closes."
     },
     {
       "id": "tyrants-of-the-underdark",
@@ -3347,7 +3381,9 @@ window.FIELD_GUIDE = {
         "title": "Demo not verified",
         "short": "No playable demo verified",
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
-      }
+      },
+      "overview": "Lead a drow house seeking control of the Underdark. Recruit cards into your deck, generate influence and military power, deploy troops and spies, and score through territorial control and your cards.",
+      "distinctiveDynamic": "You can retire a useful card to make it worth more points. Promoting cards into your inner circle removes them from your working deck in exchange for their higher scoring value. That links deck improvement to a real sacrifice: retire an effect too early and your army may lose the tool it still needs."
     },
     {
       "id": "ankh-gods-of-egypt",
@@ -3517,7 +3553,9 @@ window.FIELD_GUIDE = {
         "title": "Demo not verified",
         "short": "No playable demo verified",
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
-      }
+      },
+      "overview": "Compete as Egyptian gods struggling to retain worshippers. Recruit followers, unlock powers, control monuments and send figures into regional conflicts to gain devotion before rival gods overtake you.",
+      "distinctiveDynamic": "The trailing gods can become one team. In games with three or more players, the bottom two gods merge during the game, combining powers and sharing a path to victory. This changes both control and incentives partway through play; the action tracks also let players influence when major events occur."
     },
     {
       "id": "seven-wonders-duel",
@@ -3660,7 +3698,9 @@ window.FIELD_GUIDE = {
         "title": "Demo not verified",
         "short": "No playable demo verified",
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
-      }
+      },
+      "overview": "Two civilizations develop over three ages by taking cards from a shared display. Build resources, commerce, science, military strength and wonders; win immediately through military or scientific supremacy, or lead on points at the end.",
+      "distinctiveDynamic": "Taking a card changes what your opponent can take next. Overlapping face-up and face-down cards create a shared access puzzle: your useful purchase may uncover their crucial military or science card. Wonders that grant another turn can break that rhythm and let you claim the opportunity you just revealed."
     },
     {
       "id": "five-tribes",
@@ -3817,7 +3857,9 @@ window.FIELD_GUIDE = {
         "title": "Demo not verified",
         "short": "No playable demo verified",
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
-      }
+      },
+      "overview": "Compete for influence in Naqala by moving colored meeples across a tiled sultanate. Collect tribes, claim emptied tiles, buy goods and recruit djinn, combining several sources of points into the strongest final position.",
+      "distinctiveDynamic": "You manufacture an action by redistributing its pieces. Pick up all meeples on a tile and drop them along a path, ending on a matching color to collect and activate that tribe. Your move changes the opportunities left for everyone else, while bidding for turn order puts a price on reaching a strong move first."
     },
     {
       "id": "brass-birmingham",
@@ -3954,7 +3996,9 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "whatIsNew": "Shared industrial incentives: using and supplying infrastructure that opponents can exploit becomes the central decision.",
-      "overlapCaveat": "Economic development and route-building overlap with Concordia and Hansa; the new emphasis is the shared industrial resource market and two-era investment cycle."
+      "overlapCaveat": "Economic development and route-building overlap with Concordia and Hansa; the new emphasis is the shared industrial resource market and two-era investment cycle.",
+      "overview": "Build industries and transport links during Britain’s industrial revolution. Develop factories, mines and breweries, connect them to markets and sell goods across canal and rail eras to earn points and grow your income.",
+      "distinctiveDynamic": "An opponent can finish your investment for you. Shared coal and iron supplies let rivals consume resources from your industries, potentially flipping them to improve your income and score. You must exploit that interdependence while managing beer access and preparing for the canal-to-rail reset."
     },
     {
       "id": "gaia-project",
@@ -4092,7 +4136,9 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "whatIsNew": "Full-information asymmetric planning: a faction’s resource conversions, research and terraforming must serve visible round goals.",
-      "overlapCaveat": "This still shares engine development and competition for spaces with your existing favorites; the experiment is the sustained planning load and deterministic economy."
+      "overlapCaveat": "This still shares engine development and competition for spaces with your existing favorites; the experiment is the sustained planning load and deterministic economy.",
+      "overview": "Expand an asymmetric space civilization across a galaxy. Terraform planets, construct and upgrade buildings, advance research and form federations, shaping your economy around round bonuses and final scoring goals.",
+      "distinctiveDynamic": "Building near a rival can charge their power. Nearby construction offers opponents power at a potential points cost, making proximity useful as well as competitive. Combined with faction-specific resource cycles and terraforming needs, it turns where and when you build into an economic negotiation without direct trading."
     }
   ],
   "eventSources": [

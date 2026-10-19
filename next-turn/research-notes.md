@@ -1020,3 +1020,9 @@ Real board and component photos; rights remain with the credited owners. Santori
 - Gaia Project: [Feuerland Spiele](https://www.feuerland-spiele.de/spiele/gaia-project/) — assets/gaia-project-1.jpg
 
 Additional Ankh rules evidence: [official rulebook, pages 23–27](https://www.cmon.com/wp-content/uploads/2023/06/Ankh_Rulebook.pdf), for battle cards, merger and forgotten gods.
+
+## Game introductions and distinctive dynamics — 19 October 2026
+
+All 23 game detail views now start with a neutral overview (setting, main actions and objective) and a separate explanation of a signature mechanism and its consequences at the table. “What makes it stand out” describes a characteristic combination or dynamic, rather than claiming a mechanism appears in no other game. Existing personal-fit commentary remains separate.
+
+The established games draw on the per-game rules and publisher sources already listed in this record and each detail view. Newer-game descriptions were checked against [Windmill Valley: Duel](https://boardanddice.com/windmill-valley-duel/), [Chronocritters](https://deliciousgames.org/en/catalog/chronocritters), [Thessaloniki](https://boardanddice.com/thessaloniki/), [Entropy](https://boardanddice.com/entropy/), and [Blood Rage: Valhalla](https://store.asmodee.com/products/blood-rage-valhalla). These support, respectively, opponent follow-up wheel actions, decaying time portals, worker-dependent goods and pushing, creation-token retrieval on the action circle, and variable god powers. Valhalla’s description remains explicitly based on the announced design. Descriptions of the decisions those rules create are editorial interpretations.

@@ -72,3 +72,26 @@ test("keeps comparison selections through filters and enforces the three-game li
   await expect(page.locator("#compare-bar")).toBeHidden();
   await expect(page.locator("[data-compare]:checked")).toHaveCount(0);
 });
+
+test("introduces every game and explains its distinctive dynamic", async ({ page }) => {
+  const errors = [];
+  page.on("pageerror", error => errors.push(error.message));
+  await page.goto("/next-turn/");
+  const games = await page.evaluate(() => window.FIELD_GUIDE.games.map(({ id, name }) => ({ id, name })));
+  expect(games).toHaveLength(23);
+  for (const game of games) {
+    await page.locator("#search").fill(game.name);
+    await page.locator(`.card-title-button[data-detail="${game.id}"]`).click();
+    const dialog = page.locator("#detail-dialog");
+    await expect(dialog.getByRole("heading", { name: "Game overview", exact: true })).toBeVisible();
+    await expect(dialog.getByRole("heading", { name: "What makes it stand out", exact: true })).toBeVisible();
+    for (const section of [".game-overview", ".game-dynamic"]) {
+      expect((await dialog.locator(`${section} p`).innerText()).length).toBeGreaterThan(100);
+    }
+    expect(await dialog.locator(".detail-layout > div > section h3").allTextContents())
+      .toEqual(expect.arrayContaining(["Game overview", "What makes it stand out", "Why you might love it"]));
+    expect(await dialog.evaluate(el => el.scrollWidth > el.clientWidth + 1)).toBe(false);
+    await page.keyboard.press("Escape");
+  }
+  expect(errors).toEqual([]);
+});

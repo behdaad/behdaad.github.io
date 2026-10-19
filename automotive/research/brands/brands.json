@@ -1,0 +1,213 @@
+{
+  "ferrari": {
+    "name": "Ferrari",
+    "country": "Italy",
+    "heroId": "f40",
+    "tagline": "From coachbuilt V12s to the hybrid age.",
+    "intro": "A chronological road-car catalog, from the early Inter touring cars to today’s production families. Follow each model’s body styles and major design changes.",
+    "catalogUrl": "https://en.wikipedia.org/wiki/List_of_Ferrari_road_cars",
+    "officialUrl": "https://www.ferrari.com/en-EN/auto/past-models",
+    "films": [
+      {
+        "title": "Ferrari",
+        "year": "2023",
+        "type": "Biographical drama",
+        "origin": "Michael Mann / NEON",
+        "description": "A dramatisation of Enzo Ferrari’s personal and business crisis around the 1957 Mille Miglia. Treat it as a drama rather than a literal historical record.",
+        "url": "https://www.neonrated.com/film/ferrari"
+      },
+      {
+        "title": "Ferrari: Race to Immortality",
+        "year": "2017",
+        "type": "Documentary film",
+        "origin": "Daryl Goodrich / Universal Pictures",
+        "description": "The lives, rivalries and losses of Ferrari drivers during the dangerous 1950s racing era.",
+        "url": "https://www.motorsportmagazine.com/articles/single-seaters/f1/ferrari-race-immortality-trailer/"
+      },
+      {
+        "title": "Ford v Ferrari / Le Mans ’66",
+        "year": "2019",
+        "type": "Historical drama",
+        "origin": "James Mangold / 20th Century Studios",
+        "description": "The Ford-Ferrari Le Mans rivalry, told mainly from the Shelby and Miles side. Ferrari is central to the rivalry rather than the sole subject.",
+        "url": "https://www.20thcenturystudios.jp/movies/fordvsferrari"
+      },
+      {
+        "title": "Schumacher",
+        "year": "2021",
+        "type": "Documentary film",
+        "origin": "Netflix / B|14 FILM",
+        "description": "A driver biography with substantial Ferrari-era material. It is not a full history of Ferrari’s road cars.",
+        "url": "https://media.netflix.com/en/only-on-netflix/81399204",
+        "watchUrl": "https://www.netflix.com/title/81399204",
+        "watchLabel": "Netflix title page"
+      },
+      {
+        "title": "Megafactories / Ultimate Factories: Ferrari FF",
+        "year": "TV episode",
+        "type": "Factory documentary",
+        "origin": "National Geographic",
+        "description": "A production-focused episode about the FF, useful for seeing the factory and assembly process. Episode naming and ordering differ by territory.",
+        "url": "https://www.natgeotv.com/nl/programmas/natgeo/megafactories"
+      },
+      {
+        "title": "Formula 1: Drive to Survive",
+        "year": "2019–",
+        "type": "Documentary TV series",
+        "origin": "Netflix / Box to Box Films",
+        "description": "A wider Formula One series, not a single-brand history. Ferrari and Mercedes feature from season two onward.",
+        "url": "https://media.netflix.com/en/only-on-netflix/80204890",
+        "watchUrl": "https://www.netflix.com/title/80204890",
+        "watchLabel": "Netflix title page"
+      }
+    ]
+  },
+  "lamborghini": {
+    "name": "Lamborghini",
+    "country": "Italy",
+    "heroId": "miura",
+    "tagline": "Grand tourers, wedges and new extremes.",
+    "intro": "From the first front-engined GT to mid-engined sports cars, SUVs and road-going few-offs. Open a model to trace its changing shape.",
+    "catalogUrl": "https://en.wikipedia.org/wiki/List_of_Lamborghini_automobiles",
+    "officialUrl": "https://www.lamborghini.com/en-en/history",
+    "films": [
+      {
+        "title": "Lamborghini: The Man Behind the Legend",
+        "year": "2022",
+        "type": "Biographical drama",
+        "origin": "Bobby Moresco / Lionsgate",
+        "description": "A dramatisation of Ferruccio Lamborghini’s life and the creation of the company. Its characters and events should not be treated as documentary evidence.",
+        "url": "https://www.lionsgate.com/lamborghini-the-man-behind-the-legend",
+        "watchUrl": "https://www.youtube.com/watch?v=kzqwRxorvKE",
+        "watchLabel": "Official trailer"
+      },
+      {
+        "title": "Megafactories / Ultimate Factories: Lamborghini",
+        "year": "TV episodes",
+        "type": "Factory documentary",
+        "origin": "National Geographic",
+        "description": "Factory episodes cover the Murciélago SV and Aventador production programmes. The official series guide identifies the cars; regional episode numbers vary.",
+        "url": "https://www.natgeotv.com/nl/programmas/natgeo/megafactories"
+      }
+    ]
+  },
+  "porsche": {
+    "name": "Porsche",
+    "country": "Germany",
+    "heroId": "911",
+    "tagline": "One philosophy. Many configurations.",
+    "intro": "Rear engines, transaxles, mid-engined sports cars and electric platforms. Read the road-car families chronologically, then compare their generations.",
+    "catalogUrl": "https://en.wikipedia.org/wiki/List_of_Porsche_vehicles",
+    "officialUrl": "https://www.porsche.com/usa/accessoriesandservice/classic/models/",
+    "films": [
+      {
+        "title": "Endurance",
+        "year": "2020",
+        "type": "Manufacturer documentary",
+        "origin": "Porsche / James Routh",
+        "description": "Follows the Porsche GT Team through the 2019 Le Mans and Nürburgring 24-hour races, held on consecutive weekends.",
+        "url": "https://newsroom.porsche.com/en_US/motorsport/porsche-gt-team-documentary-24-hour-classic-youtube-amazon-prime-20368.html",
+        "watchUrl": "https://www.youtube.com/watch?v=Lvbkr-nXpjE",
+        "watchLabel": "Official full film"
+      },
+      {
+        "title": "Le Mans",
+        "year": "1971",
+        "type": "Motorsport drama",
+        "origin": "Lee H. Katzin / Steve McQueen",
+        "description": "A racing drama famous for its Porsche 917 and 911 imagery, mixing staged sequences with footage from the 1970 race.",
+        "url": "https://newsroom.porsche.com/en_AU/2020/history/porsche-le-mans-steve-mcqueen-911-targa-4s-heritage-design-edition-christophorus-395-21341.html"
+      },
+      {
+        "title": "Porsche: Decades of Disruption",
+        "year": "2017",
+        "type": "Manufacturer documentary",
+        "origin": "Porsche / CNBC broadcast",
+        "description": "A brand-produced retrospective following Porsche’s road-car development from the 356 toward its modern range.",
+        "url": "https://www.imdb.com/title/tt6675480/"
+      },
+      {
+        "title": "Megafactories / Ultimate Factories: Porsche 911",
+        "year": "TV episode",
+        "type": "Factory documentary",
+        "origin": "National Geographic",
+        "description": "A production-focused look at the 911 and its assembly. Use the car title rather than a regional season/episode number.",
+        "url": "https://www.natgeotv.com/nl/programmas/natgeo/megafactories"
+      }
+    ]
+  },
+  "tesla": {
+    "name": "Tesla",
+    "country": "United States",
+    "heroId": "roadster",
+    "tagline": "The electric car, in changing forms.",
+    "intro": "From the original Roadster to saloons, crossovers, the personal-use Cybertruck and the Cybercab production programme. Models and major redesigns share one visual timeline.",
+    "catalogUrl": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "officialUrl": "https://www.tesla.com/support/meet-your-tesla",
+    "films": [
+      {
+        "title": "Revenge of the Electric Car",
+        "year": "2011",
+        "type": "Documentary film",
+        "origin": "Chris Paine",
+        "description": "Follows Tesla, Nissan, GM and an independent converter during the return of the electric car. Tesla is one of several central stories.",
+        "url": "https://rocofilms.com/films/revenge-of-the-electric-car/"
+      },
+      {
+        "title": "The New York Times Presents: Elon Musk’s Crash Course",
+        "year": "2022",
+        "type": "Documentary TV episode",
+        "origin": "Emma Schwartz / The New York Times / FX",
+        "description": "Season 2, episode 1 investigates Tesla’s Autopilot programme and the gap between promises and real-world operation.",
+        "url": "https://tv.apple.com/es/movie/el-accidente-de-elon-musk/umc.cmc.1wuy1yj8eusq1ux0kyhyptzbo?l=en-GB",
+        "watchUrl": "https://www.youtube.com/watch?v=B16Yp5Vv-GE",
+        "watchLabel": "Official FX preview"
+      },
+      {
+        "title": "Megafactories / Ultimate Factories: Tesla Model S",
+        "year": "TV episode",
+        "type": "Factory documentary",
+        "origin": "National Geographic",
+        "description": "A production-focused episode about the Model S. This is about Tesla the car company, not the unrelated films about inventor Nikola Tesla.",
+        "url": "https://www.natgeotv.com/nl/programmas/natgeo/megafactories"
+      }
+    ]
+  },
+  "mercedes": {
+    "name": "Mercedes-Benz",
+    "country": "Germany",
+    "heroId": "sl",
+    "tagline": "A century of changing proportions.",
+    "intro": "The Mercedes-Benz road-car families from the 1926 merger onward, including carry-over models, pre-war touring cars, modern class lineages and AMG road cars.",
+    "catalogUrl": "https://en.wikipedia.org/wiki/List_of_Mercedes-Benz_vehicles",
+    "officialUrl": "https://www.mercedes-benz.com/en/art-and-culture/museum/",
+    "films": [
+      {
+        "title": "Magical Moments: The Hour of the Silver Arrows",
+        "year": "2013",
+        "type": "Manufacturer documentary series",
+        "origin": "Mercedes-Benz Classic / Cassian von Salomon",
+        "description": "A motorsport history combining archive footage, period cars and reenactments. The manufacturer’s role and the reconstructed scenes are part of its presentation.",
+        "url": "https://media.mercedes-benz.fr/-magical-momentslheure-des-fleches-dargent--le-film-ultime-qui-retrace-les-grandes-heures-de-la-competition-de-mercedes-benz/"
+      },
+      {
+        "title": "Carl & Bertha",
+        "year": "2011",
+        "type": "Television drama",
+        "origin": "Till Endemann / SWR / ARD",
+        "description": "A dramatisation of Carl and Bertha Benz’s lives and the early automobile. It covers a predecessor company, before the Mercedes-Benz merger.",
+        "url": "https://www.presseportal.de/pm/6694/2046197"
+      },
+      {
+        "title": "Formula 1: Drive to Survive",
+        "year": "2019–",
+        "type": "Documentary TV series",
+        "origin": "Netflix / Box to Box Films",
+        "description": "A wider Formula One series, not a single-brand history. Ferrari and Mercedes feature from season two onward.",
+        "url": "https://media.netflix.com/en/only-on-netflix/80204890",
+        "watchUrl": "https://www.netflix.com/title/80204890",
+        "watchLabel": "Netflix title page"
+      }
+    ]
+  }
+}

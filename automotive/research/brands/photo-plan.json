@@ -1,0 +1,5076 @@
+[
+  {
+    "key": "ferrari/inter/0",
+    "brand": "ferrari",
+    "car": "166 / 195 / 212 Inter",
+    "variant": "166 Inter",
+    "year": 1948,
+    "wiki": "Ferrari 166 Inter",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_166-Inter-Berlinetta_Front-view_(cropped).JPG",
+      "1947_Ferrari_166_Inter_Touring_Berlinetta_0043S_-_fvl.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/inter/1",
+    "brand": "ferrari",
+    "car": "166 / 195 / 212 Inter",
+    "variant": "195 Inter",
+    "year": 1950,
+    "wiki": "Ferrari 195 Inter",
+    "reason": "Model article photographs",
+    "files": [
+      "1951_Ferrari_195_Inter_Ghia,_ex-Villoresi,_front_left.jpg",
+      "1950_Ferrari_195S_Inter_Vignale_Competizione_Coupé_(rear_right_side),_Greenwich_2018.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/inter/2",
+    "brand": "ferrari",
+    "car": "166 / 195 / 212 Inter",
+    "variant": "212 Inter",
+    "year": 1951,
+    "wiki": "Ferrari 212 Inter",
+    "reason": "Model article photographs",
+    "files": [
+      "2021_Pebble_Tour_Ferrari_Ferrari_212_0092.jpg",
+      "1952_Ferrari_212_Vignale_Coupe.JPG"
+    ]
+  },
+  {
+    "key": "ferrari/america/0",
+    "brand": "ferrari",
+    "car": "America / Superamerica / Superfast",
+    "variant": "340 America",
+    "year": 1950,
+    "wiki": "Ferrari America",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_340_America_front_-_Flick_-_Concorso_Italiano_2004.jpg",
+      "Ferrari_340_America_Spyder_Vignale_at_Mille_Miglia_2012.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/america/1",
+    "brand": "ferrari",
+    "car": "America / Superamerica / Superfast",
+    "variant": "342 America",
+    "year": 1952,
+    "wiki": "Ferrari America",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_1952_342_America_Pinin_Farina_Front_Right_on_Pebble_Beach_Tour_d'Elegance_2011_-Moto@Club4AG.jpg",
+      "1952_Ferrari_342_America_Pinin_Farina_coupé,_rear_left_(2019_Greenwich_Concours).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/america/2",
+    "brand": "ferrari",
+    "car": "America / Superamerica / Superfast",
+    "variant": "375 America",
+    "year": 1953,
+    "wiki": "Ferrari America",
+    "reason": "Model/generation match",
+    "files": [
+      "1954_Ferrari_375_America_Vignale_Cabriolet.jpg",
+      "Ferrari_375_Vignale_2.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/america/3",
+    "brand": "ferrari",
+    "car": "America / Superamerica / Superfast",
+    "variant": "410 Superamerica",
+    "year": 1955,
+    "wiki": "Ferrari America",
+    "reason": "Model/generation match",
+    "files": [
+      "1959_Ferrari_410_Superamerica_-_white_-_fvl.jpg",
+      "1956_Ferrari_410_Superamerica_S1_Coupé_PF_in_Oro_Chiara,_front_right.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/america/4",
+    "brand": "ferrari",
+    "car": "America / Superamerica / Superfast",
+    "variant": "400 Superamerica",
+    "year": 1959,
+    "wiki": "Ferrari America",
+    "reason": "Model/generation match",
+    "files": [
+      "1963_Ferrari_400_Superamerica_Series_II_LWB_-_maroon_-_fvl_4.jpg",
+      "1960_Ferrari_400_Superamerica_in_the_Museo_Ferrari,_front_right.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/america/5",
+    "brand": "ferrari",
+    "car": "America / Superamerica / Superfast",
+    "variant": "500 Superfast",
+    "year": 1964,
+    "wiki": "Ferrari America",
+    "reason": "Model/generation match",
+    "files": [
+      "1964_Ferrari_500_Superfast_in_Dark_Red,_front_left.jpg",
+      "1964_Ferrari_500_Superfast_in_Dark_Red,_rear_left.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/0",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 Europa",
+    "year": 1953,
+    "wiki": "Ferrari 250",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_250-Europa_Front-view.JPG",
+      "1953_Ferrari_250_Europa_Vignale_Coupe_(21669370749)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/1",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 Europa GT",
+    "year": 1954,
+    "wiki": "Ferrari 250",
+    "reason": "Manual visual selection",
+    "files": [
+      "1955 Ferrari 250 GT Europa by Pininfarina HCC22.jpg",
+      "Ferrari 250 Europa GT 1.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/2",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 GT Boano / Ellena",
+    "year": 1956,
+    "wiki": "Ferrari 250",
+    "reason": "Model/generation match",
+    "files": [
+      "1955_(1956)_Ferrari_250_GT_Boano,_low-roof_all-alloy_Berlinetta.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/3",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 GT Berlinetta Tour de France",
+    "year": 1956,
+    "wiki": "Ferrari 250 GT Berlinetta",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_250_GT_LWB_Berlinetta_Scaglietti_TdF_-_\"PV_96\"_-_1997_GOODWOOD_FESTIVAL_OF_SPEED_(15660232918).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/4",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 GT Cabriolet",
+    "year": 1957,
+    "wiki": "Ferrari 250",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_250_PF_cabrio_SII_front_left.jpg",
+      "Hockenheimring_Michael_Schumacher.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/5",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 GT California Spyder",
+    "year": 1957,
+    "wiki": "Ferrari 250",
+    "reason": "Model/generation match",
+    "files": [
+      "BAIN_ferrari_03bf.jpg",
+      "DSC03667_(2685033708).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/6",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 GT Coupé Pinin Farina",
+    "year": 1958,
+    "wiki": "Ferrari 250",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_250_GT_Coupe_Pininfarina.JPG"
+    ]
+  },
+  {
+    "key": "ferrari/250/7",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 GT Berlinetta SWB",
+    "year": 1959,
+    "wiki": "Ferrari 250 GT Berlinetta",
+    "reason": "Manual visual selection",
+    "files": [
+      "1962_Ferrari_250_GT_Berlinetta_-_yellow_-_fvl_(4608953535).jpg",
+      "23NTBC_16_-_Ferrari.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/8",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 GTE 2+2",
+    "year": 1960,
+    "wiki": "Ferrari 250",
+    "reason": "Model/generation match",
+    "files": [
+      "1961_Ferrari_250_GTE_Series_I_in_Giallo_Modena,_front_left.jpg",
+      "1962_Ferrari_250_GTE.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250/9",
+    "brand": "ferrari",
+    "car": "250 GT family",
+    "variant": "250 GT Lusso",
+    "year": 1962,
+    "wiki": "Ferrari 250 GT Lusso",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_250_Lusso_in_Grey,_front_right.jpg",
+      "1963_Ferrari_250_Lusso_in_Grigio_Argento,_rear_right.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/250-gto/0",
+    "brand": "ferrari",
+    "car": "250 GTO",
+    "variant": "250 GTO Series I",
+    "year": 1962,
+    "wiki": "Ferrari 250 GTO",
+    "reason": "Manual visual selection",
+    "files": [
+      "1962_Ferrari_250_GTO_SP25.jpg",
+      "Collection_car_Musée_Ferrari_035.JPG"
+    ]
+  },
+  {
+    "key": "ferrari/250-gto/1",
+    "brand": "ferrari",
+    "car": "250 GTO",
+    "variant": "250 GTO Series II",
+    "year": 1964,
+    "wiki": "Ferrari 250 GTO",
+    "reason": "Manual visual selection",
+    "files": [
+      "1962_Ferrari_250_GTO_sn_4091GT,_front_right.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/275/0",
+    "brand": "ferrari",
+    "car": "275 GTB / GTS",
+    "variant": "275 GTB",
+    "year": 1964,
+    "wiki": "Ferrari 275",
+    "reason": "Model/generation match",
+    "files": [
+      "1966_Ferrari_275_GTB_sn_08549,_front_left_(Greenwich_2019).jpg",
+      "1966_Ferrari_275_GTB_in_Argento_Auteuil,_rear_right.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/275/1",
+    "brand": "ferrari",
+    "car": "275 GTB / GTS",
+    "variant": "275 GTS",
+    "year": 1964,
+    "wiki": "Ferrari 275",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_275_GTS_-_front_right_1_(Argyle_Place,_Carlton,_VIC,_Australia,_3_March_2007).JPG"
+    ]
+  },
+  {
+    "key": "ferrari/275/2",
+    "brand": "ferrari",
+    "car": "275 GTB / GTS",
+    "variant": "275 GTB/4",
+    "year": 1966,
+    "wiki": "Ferrari 275",
+    "reason": "Manual visual selection",
+    "files": [
+      "1967_Ferrari_275_GTB_4_in_Blu_Scuro,_front_right_(Greenwich_2022).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/275/3",
+    "brand": "ferrari",
+    "car": "275 GTB / GTS",
+    "variant": "275 GTB/4 NART Spyder",
+    "year": 1967,
+    "wiki": "Ferrari 275",
+    "reason": "Manual visual selection",
+    "files": [
+      "1967_Ferrari_275_GTB4-S_NART,_front_left_01.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/330/0",
+    "brand": "ferrari",
+    "car": "330",
+    "variant": "330 America",
+    "year": 1963,
+    "wiki": "Ferrari 330",
+    "reason": "Model/generation match",
+    "files": [
+      "1961_Ferrari_330_America.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/330/1",
+    "brand": "ferrari",
+    "car": "330",
+    "variant": "330 GT 2+2",
+    "year": 1964,
+    "wiki": "Ferrari 330",
+    "reason": "Manual visual selection",
+    "files": [
+      "1964_Ferrari_330GT_2+2_Series_I_at_Lime_Rock,_front_left.jpg",
+      "1966_Ferrari_330_GT_2+2_Series_II_Classic-Gala_2025_DSC_0913_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/330/2",
+    "brand": "ferrari",
+    "car": "330",
+    "variant": "330 GTC",
+    "year": 1966,
+    "wiki": "Ferrari 330 GTC",
+    "reason": "Manual visual selection",
+    "files": [
+      "Saxony_Classic_Rallye_2010_-_Ferrari_330_GTC_1967_(aka).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/330/3",
+    "brand": "ferrari",
+    "car": "330",
+    "variant": "330 GTS",
+    "year": 1966,
+    "wiki": "Ferrari 330 GTC",
+    "reason": "Model/generation match",
+    "files": [
+      "1968_Ferrari_330_GTS_1.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/365/0",
+    "brand": "ferrari",
+    "car": "365 GT / California / GTC",
+    "variant": "365 California",
+    "year": 1966,
+    "wiki": "Ferrari 365 California",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_365_California_Spyder.jpg",
+      "1966_Ferrari_365_California_Spyder_-_brown_-_rvlL.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/365/1",
+    "brand": "ferrari",
+    "car": "365 GT / California / GTC",
+    "variant": "365 GT 2+2",
+    "year": 1967,
+    "wiki": "Ferrari 365 GT 2+2",
+    "reason": "Manual visual selection",
+    "files": [
+      "1970_Ferrari_365_GT_BS_O24.jpg",
+      "1968_Ferrari_365_GT_2+2_-_dark_blue_met_-_rvl2_(4643919352).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/365/2",
+    "brand": "ferrari",
+    "car": "365 GT / California / GTC",
+    "variant": "365 GTC / GTS",
+    "year": 1968,
+    "wiki": "Ferrari 365 GTC",
+    "reason": "Model/generation match",
+    "files": [
+      "1970_Ferrari_365_GTC.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/daytona/0",
+    "brand": "ferrari",
+    "car": "365 GTB/4 / GTS/4 Daytona",
+    "variant": "365 GTB/4",
+    "year": 1968,
+    "wiki": "Ferrari Daytona",
+    "reason": "Model/generation match",
+    "files": [
+      "1973_Ferrari_Daytona_365_GTB4_Blue_LC22.jpg",
+      "Paris_-_RM_Sotheby’s_2016_-_Ferrari_365_GTB-4_Daytona_Berinetta_-_1971_-_010.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/daytona/1",
+    "brand": "ferrari",
+    "car": "365 GTB/4 / GTS/4 Daytona",
+    "variant": "365 GTS/4",
+    "year": 1969,
+    "wiki": "Ferrari Daytona",
+    "reason": "Model/generation match",
+    "files": [
+      "1973_Ferrari_Daytona_Spyder_Verde_Pino_front_left.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/dino/0",
+    "brand": "ferrari",
+    "car": "Dino 206 / 246",
+    "variant": "206 GT",
+    "year": 1967,
+    "wiki": "Dino 206 GT and 246 GT",
+    "reason": "Model/generation match",
+    "files": [
+      "Dino_206_GT_(15406731344).jpg",
+      "Petersen_Museum_(52042599362).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/dino/1",
+    "brand": "ferrari",
+    "car": "Dino 206 / 246",
+    "variant": "246 GT",
+    "year": 1969,
+    "wiki": "Dino 206 GT and 246 GT",
+    "reason": "Manual visual selection",
+    "files": [
+      "Dino_246_GT_(24627987921).jpg",
+      "Dino_246_GT_(24952494311).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/dino/2",
+    "brand": "ferrari",
+    "car": "Dino 206 / 246",
+    "variant": "246 GTS",
+    "year": 1972,
+    "wiki": "Dino 206 GT and 246 GT",
+    "reason": "Model/generation match",
+    "files": [
+      "1969_Dino_246_GTS_front_side.jpg",
+      "1969_Dino_246_GTS_rear.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/365-gtc4/0",
+    "brand": "ferrari",
+    "car": "365 GTC/4",
+    "variant": "365 GTC/4",
+    "year": 1971,
+    "wiki": "Ferrari 365 GTC/4",
+    "reason": "Model article photographs",
+    "files": [
+      "1972_Ferrari_365_GTC-4_in_Blu_Sera,_front_left.jpg",
+      "1972_Ferrari_365GTC4_red.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/400/0",
+    "brand": "ferrari",
+    "car": "365 GT4 2+2 / 400 / 412",
+    "variant": "365 GT4 2+2",
+    "year": 1972,
+    "wiki": "Ferrari 365 GT4 2+2, 400 and 412",
+    "reason": "Model/generation match",
+    "files": [
+      "1973_Ferrari_365_GT4_2+2,_front_left_-_Azzurro.jpg",
+      "Ferrari_365_GT4_2+2_rear_right.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/400/1",
+    "brand": "ferrari",
+    "car": "365 GT4 2+2 / 400 / 412",
+    "variant": "400 / 400i",
+    "year": 1976,
+    "wiki": "Ferrari 365 GT4 2+2, 400 and 412",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_400_automatic.JPG",
+      "1983_Ferrari_400i_Hagerty_parking_lot,_rear_6.1.19.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/400/2",
+    "brand": "ferrari",
+    "car": "365 GT4 2+2 / 400 / 412",
+    "variant": "412",
+    "year": 1985,
+    "wiki": "Ferrari 365 GT4 2+2, 400 and 412",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_412,_TC_24,_Essen_(TCE42741-RR).jpg",
+      "1988_Ferrari_412_(14526973134).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/bb/0",
+    "brand": "ferrari",
+    "car": "Berlinetta Boxer",
+    "variant": "365 GT4 BB",
+    "year": 1973,
+    "wiki": "Ferrari Berlinetta Boxer",
+    "reason": "Manual visual selection",
+    "files": [
+      "1975_Ferrari_Berlinetta_Boxer.jpg",
+      "Ferrari_365_GT4_BB_rear_at_CF_2022.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/bb/1",
+    "brand": "ferrari",
+    "car": "Berlinetta Boxer",
+    "variant": "512 BB / BBi",
+    "year": 1976,
+    "wiki": "Ferrari Berlinetta Boxer",
+    "reason": "Model/generation match",
+    "files": [
+      "1979_Ferrari_512_BB_in_Rosso_Chiaro,_front_left_(Greenwich_2025).jpg",
+      "Ferrari_512_Berlinetta_Boxer.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/gt4/0",
+    "brand": "ferrari",
+    "car": "Dino / Ferrari 208 / 308 GT4",
+    "variant": "308 / 208 GT4",
+    "year": 1973,
+    "wiki": "Ferrari GT4",
+    "reason": "Model article photographs",
+    "files": [
+      "1975_Dino_308_GT4_in_Marrone_Metallizzato,_Berlin.jpg",
+      "Dino_308GT4_GCdE.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/308/0",
+    "brand": "ferrari",
+    "car": "208 / 308 GTB / GTS",
+    "variant": "308 / 208 GTB",
+    "year": 1975,
+    "wiki": "Ferrari 308 GTB/GTS",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_308_GTB_IMG_3510.jpg",
+      "Ferrari_308GTB_Lightweight_(1976)_-_14453314104_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/308/1",
+    "brand": "ferrari",
+    "car": "208 / 308 GTB / GTS",
+    "variant": "308 / 208 GTS",
+    "year": 1977,
+    "wiki": "Ferrari 308 GTB/GTS",
+    "reason": "Model/generation match",
+    "files": [
+      "1985_Ferrari_308_GTS_QV_(US),_front_left.jpg",
+      "Paris_-_Bonhams_2014_-_Ferrari_308GTSi_berlinette_-_1981_-_004.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/mondial/0",
+    "brand": "ferrari",
+    "car": "Mondial",
+    "variant": "Mondial coupé",
+    "year": 1980,
+    "wiki": "Ferrari Mondial",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Ferrari-Mondial-3..2-front.jpg",
+      "1983_or_84_Ferrari_Mondial_qv_rear.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/mondial/1",
+    "brand": "ferrari",
+    "car": "Mondial",
+    "variant": "Mondial Cabriolet",
+    "year": 1983,
+    "wiki": "Ferrari Mondial",
+    "reason": "Manual visual selection",
+    "files": [
+      "1988_Ferrari_Mondial_3.2_Cabriolet_in_Red,_rear_right.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/mondial/2",
+    "brand": "ferrari",
+    "car": "Mondial",
+    "variant": "Mondial t",
+    "year": 1989,
+    "wiki": "Ferrari Mondial",
+    "reason": "Model/generation match",
+    "files": [
+      "1990_Ferrari_Mondial_t_Cabriolet_in_Blu_Chiaro,_front_left.jpg",
+      "1991_Ferrari_Mondial_t_cabriolet_dash.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/288-gto/0",
+    "brand": "ferrari",
+    "car": "288 GTO",
+    "variant": "288 GTO",
+    "year": 1984,
+    "wiki": "Ferrari 288 GTO",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_288_GTO_(1).JPG",
+      "Ferrari_288_GTO_(9287099236).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/testarossa/0",
+    "brand": "ferrari",
+    "car": "Testarossa / 512 TR / F512 M",
+    "variant": "Testarossa",
+    "year": 1984,
+    "wiki": "Ferrari Testarossa",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Ferrari_Testarossa_IMG_3043.jpg",
+      "1986_Ferrari_Testasrossa_Monodado_1.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/testarossa/1",
+    "brand": "ferrari",
+    "car": "Testarossa / 512 TR / F512 M",
+    "variant": "512 TR",
+    "year": 1991,
+    "wiki": "Ferrari Testarossa",
+    "reason": "Manual visual selection",
+    "files": [
+      "1992_Ferrari_512_TR_Petersen_Automotive_Museum.jpg",
+      "Ferrari_Testarossa_512_TR_-_Coupe_Florio_2013_(arrière).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/testarossa/2",
+    "brand": "ferrari",
+    "car": "Testarossa / 512 TR / F512 M",
+    "variant": "F512 M",
+    "year": 1994,
+    "wiki": "Ferrari Testarossa",
+    "reason": "Previously verified gallery",
+    "files": [
+      "1995_Ferrari_F512_M_in_Rosso_Corsa,_front_right.jpg",
+      "Ferrari_F512_M_1X7A6567.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/328/0",
+    "brand": "ferrari",
+    "car": "328 / GTB Turbo / GTS Turbo",
+    "variant": "328 GTB / GTB Turbo",
+    "year": 1985,
+    "wiki": "Ferrari 328",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_328_GTB_-_Flickr_-_Alexandre_Prévot_(crop2).jpg",
+      "Ferrari_GTB_Turbo_in_Rosso_Corsa,_rear_left_(New_Canaan).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/328/1",
+    "brand": "ferrari",
+    "car": "328 / GTB Turbo / GTS Turbo",
+    "variant": "328 GTS / GTS Turbo",
+    "year": 1985,
+    "wiki": "Ferrari 328",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_328_GTS_-_Flickr_-_Alexandre_Prévot_(4)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f40/0",
+    "brand": "ferrari",
+    "car": "F40",
+    "variant": "F40 road car",
+    "year": 1987,
+    "wiki": "Ferrari F40",
+    "reason": "Previously verified gallery",
+    "files": [
+      "1991_Ferrari_F40_front,_concours_6.1.19.jpg",
+      "1991_Ferrari_F40_rear,_concours_6.1.19.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/348/0",
+    "brand": "ferrari",
+    "car": "348",
+    "variant": "348 TB / GTB",
+    "year": 1989,
+    "wiki": "Ferrari 348",
+    "reason": "Manual visual selection",
+    "files": [
+      "1992_Ferrari_348.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/348/1",
+    "brand": "ferrari",
+    "car": "348",
+    "variant": "348 TS / GTS",
+    "year": 1989,
+    "wiki": "Ferrari 348",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_348_ts,_pre-facelift_model.jpg",
+      "1993_Ferrari_348_GTS_Targa_(37178394013)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/348/2",
+    "brand": "ferrari",
+    "car": "348",
+    "variant": "348 Spider",
+    "year": 1993,
+    "wiki": "Ferrari 348",
+    "reason": "Manual visual selection",
+    "files": [
+      "1993_Ferrari_348_Spider,_roof_up.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/456/0",
+    "brand": "ferrari",
+    "car": "456 / 456M",
+    "variant": "456 GT / GTA",
+    "year": 1992,
+    "wiki": "Ferrari 456",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_456_(1994-1998)_IMG_0228.jpg",
+      "Festival_automobile_international_2011_-_Vente_aux_enchères_-_Ferrari_456_M_GT_-_1994_06.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/456/1",
+    "brand": "ferrari",
+    "car": "456 / 456M",
+    "variant": "456M",
+    "year": 1998,
+    "wiki": "Ferrari 456",
+    "reason": "Model/generation match",
+    "files": [
+      "Paris_-_RM_Sotheby’s_2016_-_Ferrari_456M_GTA_-_1999_-_006.jpg",
+      "Paris_-_RM_Sotheby’s_2016_-_Ferrari_456M_GTA_-_1999_-_005.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f355/0",
+    "brand": "ferrari",
+    "car": "F355",
+    "variant": "F355 Berlinetta",
+    "year": 1994,
+    "wiki": "Ferrari F355",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_F355_Berlinetta_1X7A7333.jpg",
+      "Ferrari_355_(930042432)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f355/1",
+    "brand": "ferrari",
+    "car": "F355",
+    "variant": "F355 GTS",
+    "year": 1994,
+    "wiki": "Ferrari F355",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_355_F1_GTS_-_Flickr_-_The_Car_Spy_(23).jpg",
+      "Ferrari_355_F1_GTS_-_Flickr_-_The_Car_Spy_(15).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f355/2",
+    "brand": "ferrari",
+    "car": "F355",
+    "variant": "F355 Spider",
+    "year": 1995,
+    "wiki": "Ferrari F355",
+    "reason": "Model/generation match",
+    "files": [
+      "1997_Ferrari_F355_Spider_-_Flickr_-_The_Car_Spy_(3).jpg",
+      "Wdog_Ferrari.jpeg"
+    ]
+  },
+  {
+    "key": "ferrari/f50/0",
+    "brand": "ferrari",
+    "car": "F50",
+    "variant": "F50",
+    "year": 1995,
+    "wiki": "Ferrari F50",
+    "reason": "Model article photographs",
+    "files": [
+      "1999_Ferrari_F50.jpg",
+      "F50_Galleria.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/550/0",
+    "brand": "ferrari",
+    "car": "550 / 575M Maranello",
+    "variant": "550 / 575M Maranello",
+    "year": 1996,
+    "wiki": "Ferrari 550 Maranello",
+    "reason": "Model/generation match",
+    "files": [
+      "Paris_-_Bonhams_2016_-_Ferrari_550_Maranello_coupé_-_1999_-_005.jpg",
+      "Paris_-_Bonhams_2016_-_Ferrari_550_Maranello_coupé_-_2001_-_003.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/550/1",
+    "brand": "ferrari",
+    "car": "550 / 575M Maranello",
+    "variant": "550 Barchetta",
+    "year": 2000,
+    "wiki": "Ferrari 550 Maranello",
+    "reason": "Model/generation match",
+    "files": [
+      "2001_Ferrari_550_Barchetta_no_135,_front_right_side.jpg",
+      "Ferrari_550_Barchetta,_TC_24,_Essen_(TCE42641).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/550/2",
+    "brand": "ferrari",
+    "car": "550 / 575M Maranello",
+    "variant": "575 Superamerica",
+    "year": 2005,
+    "wiki": "Ferrari 575M Maranello",
+    "reason": "Model/generation match",
+    "files": [
+      "Paris_-_Bonhams_2016_-_Ferrari_575_Superamerica_-_2005_-_001.jpg",
+      "Ferrari_Superamerica_blue.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/360/0",
+    "brand": "ferrari",
+    "car": "360",
+    "variant": "360 Modena",
+    "year": 1999,
+    "wiki": "Ferrari 360",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_360_Modena_-_Flickr_-_Alexandre_Prévot_(24)_(cropped).jpg",
+      "Ferrari_F360_Modena_-_Flickr_-_The_Car_Spy_(6).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/360/1",
+    "brand": "ferrari",
+    "car": "360",
+    "variant": "360 Spider",
+    "year": 2000,
+    "wiki": "Ferrari 360",
+    "reason": "Model/generation match",
+    "files": [
+      "2000-2005_Ferrari_360_Spider_convertible_(2011-11-08).jpg",
+      "2005_Ferrari_360_Spider_F1_-_Flickr_-_The_Car_Spy_(24).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/360/2",
+    "brand": "ferrari",
+    "car": "360",
+    "variant": "Challenge Stradale",
+    "year": 2003,
+    "wiki": "Ferrari 360",
+    "reason": "Manual visual selection",
+    "files": [
+      "360 Challenge Stradale.jpg",
+      "Ferrari challenge stradale.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/enzo/0",
+    "brand": "ferrari",
+    "car": "Enzo",
+    "variant": "Enzo",
+    "year": 2002,
+    "wiki": "Enzo Ferrari (automobile)",
+    "reason": "Model article photographs",
+    "files": [
+      "Orange_Enzo_Ferrari_(7191948164).jpg",
+      "Enzo_Ferrari_x_2_(7262861958).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/612/0",
+    "brand": "ferrari",
+    "car": "612 Scaglietti",
+    "variant": "612 Scaglietti",
+    "year": 2004,
+    "wiki": "Ferrari 612 Scaglietti",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_612_Scaglietti_-_Flickr_-_Alexandre_Prévot_(16)_(cropped).jpg",
+      "Ferrari_612_Scaglietti_-_Flickr_-_Alexandre_Prévot_(15)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f430/0",
+    "brand": "ferrari",
+    "car": "F430",
+    "variant": "F430 coupé",
+    "year": 2004,
+    "wiki": "Ferrari F430",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_F430_-_Flickr_-_Alexandre_Prévot_(4)_(cropped).jpg",
+      "Ferrari_F430_-_Flickr_-_Alexandre_Prévot_(2)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f430/1",
+    "brand": "ferrari",
+    "car": "F430",
+    "variant": "F430 Spider",
+    "year": 2005,
+    "wiki": "Ferrari F430",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_F430_Spider_White.jpeg",
+      "Ferrari_F430_Spider_-_Flickr_-_Alexandre_Prévot_(33).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f430/2",
+    "brand": "ferrari",
+    "car": "F430",
+    "variant": "430 Scuderia / 16M",
+    "year": 2007,
+    "wiki": "Ferrari F430",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_F430_Scuderia_1X7A7332.jpg",
+      "Ferrari_F430_Scuderia_-_Flickr_-_Alexandre_Prévot_(18)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/599/0",
+    "brand": "ferrari",
+    "car": "599 GTB / GTO / SA Aperta",
+    "variant": "599 GTB Fiorano",
+    "year": 2006,
+    "wiki": "Ferrari 599",
+    "reason": "Model/generation match",
+    "files": [
+      "2009_Ferrari_599_GTB_Fiorano_F1,_Rosso_Fiorano_-_front_right.jpg",
+      "Ferrari_599_GTB_Fiorano_-_Flickr_-_Alexandre_Prévot_(30).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/599/1",
+    "brand": "ferrari",
+    "car": "599 GTB / GTO / SA Aperta",
+    "variant": "599 GTO",
+    "year": 2010,
+    "wiki": "Ferrari 599",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_599_GTO_-_Flickr_-_Alexandre_Prévot_(12)_(cropped).jpg",
+      "Ferrari_599_GTO_-_Flickr_-_Alexandre_Prévot_(8)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/599/2",
+    "brand": "ferrari",
+    "car": "599 GTB / GTO / SA Aperta",
+    "variant": "SA Aperta",
+    "year": 2010,
+    "wiki": "Ferrari 599",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferarri_Ferrari_599_SA_Aperta_(6736006081).jpg",
+      "Ferrari_599_SA_Aperta_-_Museo_Ferrari_(17948189268).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/california/0",
+    "brand": "ferrari",
+    "car": "California / California T",
+    "variant": "California",
+    "year": 2008,
+    "wiki": "Ferrari California",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_California_-_Flickr_-_Alexandre_Prévot_(13)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/california/1",
+    "brand": "ferrari",
+    "car": "California / California T",
+    "variant": "California T",
+    "year": 2014,
+    "wiki": "Ferrari California",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_California_T_-_Mondial_de_l'Automobile_de_Paris_2014_-_003.jpg",
+      "2014-03-04_Geneva_Motor_Show_1452_(cropped).JPG"
+    ]
+  },
+  {
+    "key": "ferrari/458/0",
+    "brand": "ferrari",
+    "car": "458",
+    "variant": "458 Italia",
+    "year": 2009,
+    "wiki": "Ferrari 458",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_458_Fort_Worth_June_2016_56_(Ferrari)_(cropped-2).jpg",
+      "Ferrari_458_Italia_(2012)_(54870064493).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/458/1",
+    "brand": "ferrari",
+    "car": "458",
+    "variant": "458 Spider",
+    "year": 2011,
+    "wiki": "Ferrari 458",
+    "reason": "Model/generation match",
+    "files": [
+      "2012_Ferrari_458_Spider_HT_front.jpg",
+      "Ferrari_458_Spider_-_Flickr_-_Alexandre_Prévot_(7)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/458/2",
+    "brand": "ferrari",
+    "car": "458",
+    "variant": "458 Speciale / Speciale A",
+    "year": 2013,
+    "wiki": "Ferrari 458",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_458_Speciale_(15848932487)_(cropped).jpg",
+      "2013-2015_Ferrari_458_Speciale_coupe_(2017-11-18)_03.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/ff/0",
+    "brand": "ferrari",
+    "car": "FF",
+    "variant": "FF",
+    "year": 2011,
+    "wiki": "Ferrari FF",
+    "reason": "Model article photographs",
+    "files": [
+      "2013_Ferrari_FF,_Blu_TdF,_front_left.jpg",
+      "2013_Ferrari_FF,_Blu_TdF,_rear_left.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f12/0",
+    "brand": "ferrari",
+    "car": "F12berlinetta / F12tdf",
+    "variant": "F12berlinetta",
+    "year": 2012,
+    "wiki": "Ferrari F12",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_F12berlinetta_IMG_2941.jpg",
+      "Ferrari_F12berlinetta_(Scottsdale,_Arizona).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f12/1",
+    "brand": "ferrari",
+    "car": "F12berlinetta / F12tdf",
+    "variant": "F12tdf",
+    "year": 2015,
+    "wiki": "Ferrari F12",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_F12_TDF_at_the_2016_Ferrari_Finali_Mondiali.jpg",
+      "2016_Ferrari_F12_TDF.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/laferrari/0",
+    "brand": "ferrari",
+    "car": "LaFerrari",
+    "variant": "LaFerrari coupé",
+    "year": 2013,
+    "wiki": "LaFerrari",
+    "reason": "Previously verified gallery",
+    "files": [
+      "LaFerrari_front.jpg",
+      "Ferrari_LaFerrari_rear.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/laferrari/1",
+    "brand": "ferrari",
+    "car": "LaFerrari",
+    "variant": "LaFerrari Aperta",
+    "year": 2016,
+    "wiki": "LaFerrari",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_LaFerrari_Aperta_(29989480538).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/488/0",
+    "brand": "ferrari",
+    "car": "488",
+    "variant": "488 GTB",
+    "year": 2015,
+    "wiki": "Ferrari 488",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_488_GTB_(55069717742)_(cropped).jpg",
+      "Frankfurt_Motor_Show_2015_(101).JPG"
+    ]
+  },
+  {
+    "key": "ferrari/488/1",
+    "brand": "ferrari",
+    "car": "488",
+    "variant": "488 Spider",
+    "year": 2015,
+    "wiki": "Ferrari 488",
+    "reason": "Manual visual selection",
+    "files": [
+      "2018_Ferrari_488_GTB_Spider_S-A_3.9_Front.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/488/2",
+    "brand": "ferrari",
+    "car": "488",
+    "variant": "488 Pista / Pista Spider",
+    "year": 2018,
+    "wiki": "Ferrari 488",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_488_Pista_MYLE_Festival_2025_DSC_9444.jpg",
+      "Ferrari_488_Pista_MYLE_Festival_2025_DSC_9445.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/gtc4lusso/0",
+    "brand": "ferrari",
+    "car": "GTC4Lusso",
+    "variant": "GTC4Lusso / T",
+    "year": 2016,
+    "wiki": "Ferrari GTC4Lusso",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_GTC4Lusso_IMG_4353.jpg",
+      "Ferrari_GTC4Lusso_IMG_4354.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/812/0",
+    "brand": "ferrari",
+    "car": "812 Superfast / GTS",
+    "variant": "812 Superfast",
+    "year": 2017,
+    "wiki": "Ferrari 812 Superfast",
+    "reason": "Model/generation match",
+    "files": [
+      "2019_Ferrari_812_Superfast_S-A_6.5.jpg",
+      "Ferrari_812_Superfast,_GIMS_2019,_Le_Grand-Saconnex_(GIMS1324).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/812/1",
+    "brand": "ferrari",
+    "car": "812 Superfast / GTS",
+    "variant": "812 GTS",
+    "year": 2019,
+    "wiki": "Ferrari 812 Superfast",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_812_GTS_in_Kuala_Lumpur,_Malaysia.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/812/2",
+    "brand": "ferrari",
+    "car": "812 Superfast / GTS",
+    "variant": "812 Competizione / A",
+    "year": 2021,
+    "wiki": "Ferrari 812 Superfast",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_812_Competizione_A_side.png",
+      "Ferrari_812_Competizione_rear.png"
+    ]
+  },
+  {
+    "key": "ferrari/portofino/0",
+    "brand": "ferrari",
+    "car": "Portofino",
+    "variant": "Portofino / M",
+    "year": 2017,
+    "wiki": "Ferrari Portofino",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_Portofino_M_IMG_4351.jpg",
+      "Ferrari_Portofino,_Paris_Motor_Show_2018,_IMG_0642.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/monza/0",
+    "brand": "ferrari",
+    "car": "Monza SP1 / SP2",
+    "variant": "Monza SP1",
+    "year": 2018,
+    "wiki": "Ferrari Monza SP1",
+    "reason": "Model/generation match",
+    "files": [
+      "Festival_automobile_international_2019_-_Ferrari_Monza_SP1_-_005_(cropped).jpg",
+      "Festival_automobile_international_2019_-_Ferrari_Monza_SP1_-_001_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/monza/1",
+    "brand": "ferrari",
+    "car": "Monza SP1 / SP2",
+    "variant": "Monza SP2",
+    "year": 2018,
+    "wiki": "Ferrari Monza SP1",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_Monza_SP2,_Paris_Motor_Show_2018,_IMG_0638.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f8/0",
+    "brand": "ferrari",
+    "car": "F8 Tributo / Spider",
+    "variant": "F8 Tributo",
+    "year": 2019,
+    "wiki": "Ferrari F8",
+    "reason": "Model/generation match",
+    "files": [
+      "2020_Ferrari_F8_Tributo_3.9.jpg",
+      "Ferrari_F8_Tributo_DSC_7014.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f8/1",
+    "brand": "ferrari",
+    "car": "F8 Tributo / Spider",
+    "variant": "F8 Spider",
+    "year": 2019,
+    "wiki": "Ferrari F8",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_F8_Spider_IMG_2940.jpg",
+      "Ferrari_F8_Spider_IMG_2936.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/sf90/0",
+    "brand": "ferrari",
+    "car": "SF90 Stradale / Spider / XX",
+    "variant": "SF90 Stradale",
+    "year": 2019,
+    "wiki": "Ferrari SF90 Stradale",
+    "reason": "Manual visual selection",
+    "files": [
+      "Red_2019_Ferrari_SF90_Stradale_(48264238897)_(cropped).jpg",
+      "2023_Ferrari_SF90_2.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/sf90/1",
+    "brand": "ferrari",
+    "car": "SF90 Stradale / Spider / XX",
+    "variant": "SF90 Spider",
+    "year": 2020,
+    "wiki": "Ferrari SF90 Stradale",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_SF90_Spider_IMG_8852.jpg",
+      "Ferrari_SF90_Spider_IMG_8856.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/sf90/2",
+    "brand": "ferrari",
+    "car": "SF90 Stradale / Spider / XX",
+    "variant": "SF90 XX Stradale / Spider",
+    "year": 2023,
+    "wiki": "Ferrari SF90 Stradale",
+    "reason": "Model/generation match",
+    "files": [
+      "2024_Ferrari_SF90_XX_Stradale_in_Bianco_Artico,_front_left.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/roma/0",
+    "brand": "ferrari",
+    "car": "Roma / Roma Spider",
+    "variant": "Roma",
+    "year": 2019,
+    "wiki": "Ferrari Roma",
+    "reason": "Model/generation match",
+    "files": [
+      "2021_Ferrari_Roma_in_Rosso_Fiorano,_front_right.jpg",
+      "Ferrari_Roma_1X7A0309.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/roma/1",
+    "brand": "ferrari",
+    "car": "Roma / Roma Spider",
+    "variant": "Roma Spider",
+    "year": 2023,
+    "wiki": "Ferrari Roma",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_Roma_Spider_Auto_Zuerich_2023_1X7A1493.jpg",
+      "Ferrari_Roma_Spider_Auto_Zuerich_2023_1X7A1455.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/296/0",
+    "brand": "ferrari",
+    "car": "296 GTB / GTS",
+    "variant": "296 GTB",
+    "year": 2021,
+    "wiki": "Ferrari 296",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_296_GTB_Assetto_Fiorano_front.png",
+      "Ferrari_296_GTB_Assetto_Fiorano_rear.png"
+    ]
+  },
+  {
+    "key": "ferrari/296/1",
+    "brand": "ferrari",
+    "car": "296 GTB / GTS",
+    "variant": "296 GTS",
+    "year": 2022,
+    "wiki": "Ferrari 296",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_296_GTS.png"
+    ]
+  },
+  {
+    "key": "ferrari/296/2",
+    "brand": "ferrari",
+    "car": "296 GTB / GTS",
+    "variant": "296 Speciale / Speciale A",
+    "year": 2025,
+    "wiki": "Ferrari 296",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_296_Speciale_(55112786260).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/daytona-sp3/0",
+    "brand": "ferrari",
+    "car": "Daytona SP3",
+    "variant": "Daytona SP3",
+    "year": 2021,
+    "wiki": "Ferrari Daytona SP3",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_Daytona_SP3_front_side_at_CF_2022.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/purosangue/0",
+    "brand": "ferrari",
+    "car": "Purosangue",
+    "variant": "Purosangue",
+    "year": 2022,
+    "wiki": "Ferrari Purosangue",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_Purosangue_DSC_7008.jpg",
+      "Ferrari_Purosangue_DSC_7003.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/12cilindri/0",
+    "brand": "ferrari",
+    "car": "12Cilindri",
+    "variant": "12Cilindri coupé",
+    "year": 2024,
+    "wiki": "Ferrari 12Cilindri",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "2025_Ferrari_12Cilindri_in_Rosso_Imola,_front_left.jpg",
+      "2025_Ferrari_12Cilindri_in_Rosso_Imola,_rear_left.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/12cilindri/1",
+    "brand": "ferrari",
+    "car": "12Cilindri",
+    "variant": "12Cilindri Spider",
+    "year": 2024,
+    "wiki": "Ferrari 12Cilindri",
+    "reason": "Model/generation match",
+    "files": [
+      "Ferrari_12Cilindri_Spider_Auto_Zuerich_2024_DSC_6809.jpg",
+      "Ferrari_12Cilindri_Spider_Auto_Zuerich_2024_DSC_6814.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f80/0",
+    "brand": "ferrari",
+    "car": "F80",
+    "variant": "F80",
+    "year": 2024,
+    "wiki": "Ferrari F80",
+    "reason": "Model article photographs",
+    "files": [
+      "FerrariF80_(resized)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/amalfi/0",
+    "brand": "ferrari",
+    "car": "Amalfi",
+    "variant": "Amalfi",
+    "year": 2025,
+    "wiki": "Ferrari Amalfi",
+    "reason": "Model article photographs",
+    "files": [
+      "Ferrari_Amalfi_(retouched).jpg",
+      "Ferrari_Amalfi_IMG_8179.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/amalfi/1",
+    "brand": "ferrari",
+    "car": "Amalfi",
+    "variant": "Amalfi Spider",
+    "year": 2026,
+    "wiki": "Ferrari Amalfi",
+    "reason": "Manual visual selection",
+    "files": [
+      "20260303_F169M_Spider_front34_16_9.jpg",
+      "20260303_F169M_Spider_side_A_16_9.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/849-testarossa/0",
+    "brand": "ferrari",
+    "car": "849 Testarossa",
+    "variant": "849 Testarossa",
+    "year": 2025,
+    "wiki": "Ferrari 849 Testarossa",
+    "reason": "Model article photographs",
+    "files": [
+      "2026_Ferrari_849_Testarossa_Assetto_Fiorano_in_Blu_Corsa.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/849-testarossa/1",
+    "brand": "ferrari",
+    "car": "849 Testarossa",
+    "variant": "849 Testarossa Spider",
+    "year": 2025,
+    "wiki": "Ferrari 849 Testarossa",
+    "reason": "Manual visual selection",
+    "files": [
+      "0x0-849_Testarossa_Spider_16x9_01.jpg",
+      "0x0-849_Testarossa_Spider_16x9_03.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/luce/0",
+    "brand": "ferrari",
+    "car": "Luce",
+    "variant": "Luce",
+    "year": 2026,
+    "wiki": "Ferrari Luce",
+    "reason": "Model article photographs",
+    "files": [
+      "2027_Ferrari_Luce,_front_left.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/f60-america/0",
+    "brand": "ferrari",
+    "car": "F60 America",
+    "variant": "F60 America",
+    "year": 2014,
+    "wiki": "Ferrari F60 America",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_F60_America_-_Museo_Ferrari_(17514670344).jpg"
+    ]
+  },
+  {
+    "key": "ferrari/sergio/0",
+    "brand": "ferrari",
+    "car": "Sergio",
+    "variant": "Production Sergio",
+    "year": 2015,
+    "wiki": "Pininfarina Sergio",
+    "reason": "Manual visual selection",
+    "files": [
+      "Ferrari_Sergio,_GIMS_2015_(Ank_Kumar,_Infosys_Ltd)_07.jpg"
+    ]
+  },
+  {
+    "key": "ferrari/j50/0",
+    "brand": "ferrari",
+    "car": "J50",
+    "variant": "J50",
+    "year": 2016,
+    "wiki": "Ferrari J50",
+    "reason": "Manual visual selection",
+    "files": [
+      "J50_at_London_Design_Museum_2018.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/350gt/0",
+    "brand": "lamborghini",
+    "car": "350 GT",
+    "variant": "350 GT",
+    "year": 1964,
+    "wiki": "Lamborghini 350 GT",
+    "reason": "Model article photographs",
+    "files": [
+      "1965_Lamborghini_350_GT_HCC24.jpg",
+      "Lamborghini_350_GTV.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/400gt/0",
+    "brand": "lamborghini",
+    "car": "400 GT",
+    "variant": "400 GT / Interim",
+    "year": 1966,
+    "wiki": "Lamborghini 400 GT",
+    "reason": "Model/generation match",
+    "files": [
+      "1966_Lamborghini_400_GT_Red.jpg",
+      "1966_Lamborghini_400_GT_Interim_in_Black,_rear_left.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/400gt/1",
+    "brand": "lamborghini",
+    "car": "400 GT",
+    "variant": "400 GT 2+2",
+    "year": 1966,
+    "wiki": "Lamborghini 400 GT",
+    "reason": "Model/generation match",
+    "files": [
+      "1967_Lamborghini_400_GT_2+2,_rear_left,_Greenwich_2018.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/miura/0",
+    "brand": "lamborghini",
+    "car": "Miura",
+    "variant": "P400 / S",
+    "year": 1966,
+    "wiki": "Lamborghini Miura",
+    "reason": "Previously verified gallery",
+    "files": [
+      "12-01-03-autostadtl-by-RalfR-32.jpg",
+      "Lamborghini Miura P400 (1967) Classic-Gala 2022 1X7A0082.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/miura/1",
+    "brand": "lamborghini",
+    "car": "Miura",
+    "variant": "P400 SV",
+    "year": 1971,
+    "wiki": "Lamborghini Miura",
+    "reason": "Previously verified gallery",
+    "files": [
+      "1971_Lamborghini_Miura_P400_SV.jpg",
+      "1972_Lamborghini_Miura_P400_SV_in_Verde_Chiaro,_front_right.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/islero/0",
+    "brand": "lamborghini",
+    "car": "Islero",
+    "variant": "Islero / S",
+    "year": 1968,
+    "wiki": "Lamborghini Islero",
+    "reason": "Model article photographs",
+    "files": [
+      "Lamborghini_Islero,_Techno_Classica_2018,_Essen_(IMG_9696).jpg",
+      "Lamborghini_Islero_-_Flick_-_Concorso_Italiano_2004.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/espada/0",
+    "brand": "lamborghini",
+    "car": "Espada",
+    "variant": "Series I",
+    "year": 1968,
+    "wiki": "Lamborghini Espada",
+    "reason": "Model/generation match",
+    "files": [
+      "Retro_Classics_Stuttgart_2010_-_Lamborghini_Espada.jpg",
+      "Lamborghini_Espada_-_Flickr_-_jns001_(1).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/espada/1",
+    "brand": "lamborghini",
+    "car": "Espada",
+    "variant": "Series II / III",
+    "year": 1970,
+    "wiki": "Lamborghini Espada",
+    "reason": "Manual visual selection",
+    "files": [
+      "1970_Lamborghini_Espada_S2.jpg",
+      "Lamborghini_Espada_S3.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/jarama/0",
+    "brand": "lamborghini",
+    "car": "Jarama",
+    "variant": "Jarama GT / GTS",
+    "year": 1970,
+    "wiki": "Lamborghini Jarama",
+    "reason": "Manual visual selection",
+    "files": [
+      "Lamborghini_Jarama_at_AutoItalia_Brooklands_May_2012_1-cropped.jpg",
+      "Lamborghini_Jarama_400_GT_Rear.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/urraco/0",
+    "brand": "lamborghini",
+    "car": "Urraco",
+    "variant": "P200 / P250 / P300",
+    "year": 1972,
+    "wiki": "Lamborghini Urraco",
+    "reason": "Model article photographs",
+    "files": [
+      "Lamborghini_Urraco_P111_(France).jpg",
+      "Lamborghini_Urraco_2.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/countach/0",
+    "brand": "lamborghini",
+    "car": "Countach",
+    "variant": "LP400",
+    "year": 1974,
+    "wiki": "Lamborghini Countach",
+    "reason": "Previously verified gallery",
+    "files": [
+      "FoS20162016_0623_090034AA_(27250796354).jpg",
+      "Lamborghini_Countach_-_Flickr_-_Alexandre_Prévot_(1).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/countach/1",
+    "brand": "lamborghini",
+    "car": "Countach",
+    "variant": "LP400 S / LP500 S",
+    "year": 1978,
+    "wiki": "Lamborghini Countach",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Rétromobile_2015_-_Lamborghini_Countach_LP_400_S_-_1981_-_002.jpg",
+      "1981_Lamborghini_Countach_LP400S_series_2_rear.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/countach/2",
+    "brand": "lamborghini",
+    "car": "Countach",
+    "variant": "5000 Quattrovalvole",
+    "year": 1985,
+    "wiki": "Lamborghini Countach",
+    "reason": "Model/generation match",
+    "files": [
+      "1985_Lamborghini_Countach_5000_Quattrovalvole_in_Rosso,_front_right.jpg",
+      "Lamborghini_Countach_-_Flickr_-_exfordy_(1).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/countach/3",
+    "brand": "lamborghini",
+    "car": "Countach",
+    "variant": "25th Anniversary",
+    "year": 1988,
+    "wiki": "Lamborghini Countach",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Paris_-_RM_Sotheby’s_2018_-_Lamborghini_Countach_25TH_anniversary_-_1991_-_002.jpg",
+      "Paris_-_RM_Sotheby’s_2018_-_Lamborghini_Countach_25TH_anniversary_-_1991_-_004.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/silhouette/0",
+    "brand": "lamborghini",
+    "car": "Silhouette",
+    "variant": "Silhouette",
+    "year": 1976,
+    "wiki": "Lamborghini Silhouette",
+    "reason": "Model article photographs",
+    "files": [
+      "Lamborghini_Silhouette_3000_targa_at_Classic_Remise_Berlin,_front_right.jpg",
+      "1976_Lamborghini_Silhouette.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/jalpa/0",
+    "brand": "lamborghini",
+    "car": "Jalpa",
+    "variant": "Jalpa",
+    "year": 1981,
+    "wiki": "Lamborghini Jalpa",
+    "reason": "Model article photographs",
+    "files": [
+      "Paris_-_RM_Sotheby’s_2018_-_Lamborghini_Jalpa_-_1985_-_001.jpg",
+      "Sausalito,_California_-_USA_(8725921986).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/lm002/0",
+    "brand": "lamborghini",
+    "car": "LM002",
+    "variant": "LM002",
+    "year": 1986,
+    "wiki": "Lamborghini LM002",
+    "reason": "Model article photographs",
+    "files": [
+      "Lamborghini_LM002_Gen1_Type129_1986-1993_1988_frontleft_2013-03-17_U_(cropped).JPG",
+      "1989_LM-002_rear.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/diablo/0",
+    "brand": "lamborghini",
+    "car": "Diablo",
+    "variant": "Original Diablo / VT",
+    "year": 1990,
+    "wiki": "Lamborghini Diablo",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Early_Lamborghini_Diablo_in_red.jpg",
+      "Diablo_(7162976163)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/diablo/1",
+    "brand": "lamborghini",
+    "car": "Diablo",
+    "variant": "VT Roadster",
+    "year": 1995,
+    "wiki": "Lamborghini Diablo",
+    "reason": "Manual visual selection",
+    "files": [
+      "-i---i-_(3749362921).jpg",
+      "2015_Detling_transport_show_DSC03824_(16931040326).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/diablo/2",
+    "brand": "lamborghini",
+    "car": "Diablo",
+    "variant": "Diablo GT",
+    "year": 1999,
+    "wiki": "Lamborghini Diablo",
+    "reason": "Manual visual selection",
+    "files": [
+      "Lamborghini_Diablo_GT_g'wich_front.JPG"
+    ]
+  },
+  {
+    "key": "lamborghini/diablo/3",
+    "brand": "lamborghini",
+    "car": "Diablo",
+    "variant": "VT 6.0",
+    "year": 2000,
+    "wiki": "Lamborghini Diablo",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2001 Lamborghini Diablo VT 2.jpg",
+      "2001 Lamborghini Diablo VT 4.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/murcielago/0",
+    "brand": "lamborghini",
+    "car": "Murciélago",
+    "variant": "Murciélago / LP640",
+    "year": 2001,
+    "wiki": "Lamborghini Murciélago",
+    "reason": "Manual visual selection",
+    "files": [
+      "Lamborghini_Murciélago_LP-640_-_Flickr_-_Alexandre_Prévot_(40).jpg",
+      "Lamborghini_Murciélago_LP-640_-_Flickr_-_Alexandre_Prévot_(6)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/murcielago/1",
+    "brand": "lamborghini",
+    "car": "Murciélago",
+    "variant": "Roadster",
+    "year": 2004,
+    "wiki": "Lamborghini Murciélago",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Murcielago_Roadster_-_Flickr_-_Alexandre_Prévot_(2)_(cropped).jpg",
+      "Lamborghini_Murciélago_Roadster_-_Flickr_-_exfordy_(1).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/murcielago/2",
+    "brand": "lamborghini",
+    "car": "Murciélago",
+    "variant": "LP670-4 SuperVeloce",
+    "year": 2009,
+    "wiki": "Lamborghini Murciélago",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Murcielago_LP670-4.jpg",
+      "LP670-4_SV._(7840348908).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/gallardo/0",
+    "brand": "lamborghini",
+    "car": "Gallardo",
+    "variant": "Gallardo coupé",
+    "year": 2003,
+    "wiki": "Lamborghini Gallardo",
+    "reason": "Manual visual selection",
+    "files": [
+      "Lamborghini_Gallardo_Coupe_E-Gear_-_Flickr_-_The_Car_Spy_(21).jpg",
+      "Lamborghini_Gallardo_Coupe_E-Gear_-_Flickr_-_The_Car_Spy_(12).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/gallardo/1",
+    "brand": "lamborghini",
+    "car": "Gallardo",
+    "variant": "Gallardo Spyder",
+    "year": 2006,
+    "wiki": "Lamborghini Gallardo",
+    "reason": "Manual visual selection",
+    "files": [
+      "06_Gallardo_spyder.jpg",
+      "Gallardo_Spyder._(6412396671)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/gallardo/2",
+    "brand": "lamborghini",
+    "car": "Gallardo",
+    "variant": "LP560-4 / LP550-2",
+    "year": 2008,
+    "wiki": "Lamborghini Gallardo",
+    "reason": "Manual visual selection",
+    "files": [
+      "Lamborghini_Gallardo_LP560-4_-_009.jpg",
+      "Lamborghini_Gallardo_LP560-4_-_Flickr_-_Alexandre_Prévot_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/gallardo/3",
+    "brand": "lamborghini",
+    "car": "Gallardo",
+    "variant": "LP570-4 Superleggera",
+    "year": 2010,
+    "wiki": "Lamborghini Gallardo",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Superleggera-20180708.jpg",
+      "Lamborghini_Galardo_Superleggera_(3549461537)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/reventon/0",
+    "brand": "lamborghini",
+    "car": "Reventón",
+    "variant": "Reventón coupé",
+    "year": 2007,
+    "wiki": "Lamborghini Reventón",
+    "reason": "Manual visual selection",
+    "files": [
+      "MotorShow_2007,_Lamborghini_-_Flickr_-_Gaspa_(1)_(cropped).jpg",
+      "Left_(22244505494).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/reventon/1",
+    "brand": "lamborghini",
+    "car": "Reventón",
+    "variant": "Reventón Roadster",
+    "year": 2009,
+    "wiki": "Lamborghini Reventón",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Reventón_Roadster.JPG"
+    ]
+  },
+  {
+    "key": "lamborghini/aventador/0",
+    "brand": "lamborghini",
+    "car": "Aventador",
+    "variant": "LP700-4 / S",
+    "year": 2011,
+    "wiki": "Lamborghini Aventador",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2013_Lamborghini_Aventador_LP700-4_BS_O24.jpg",
+      "Lamborghini_Aventador_6498cc_registered_July_2015.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/aventador/1",
+    "brand": "lamborghini",
+    "car": "Aventador",
+    "variant": "Roadster",
+    "year": 2012,
+    "wiki": "Lamborghini Aventador",
+    "reason": "Manual visual selection",
+    "files": [
+      "Lamborghini_Aventador_Lp700_4_Roadster_Grigio_Titans_Mexico_City_(70036277).jpeg",
+      "Lamborghini_2017_Aventador_S_Roadster.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/aventador/2",
+    "brand": "lamborghini",
+    "car": "Aventador",
+    "variant": "SuperVeloce",
+    "year": 2015,
+    "wiki": "Lamborghini Aventador",
+    "reason": "Model/generation match",
+    "files": [
+      "2016_Lamborghini_Aventador_LP_750-4_SV_S-A_6.5_Front.jpg",
+      "Lamborghini_Aventador_SV_Roadster_Monaco_IMG_1164.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/aventador/3",
+    "brand": "lamborghini",
+    "car": "Aventador",
+    "variant": "SVJ",
+    "year": 2018,
+    "wiki": "Lamborghini Aventador",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Lamborghini_Aventador_SVJ,_Paris_Motor_Show_2018,_IMG_0656.jpg",
+      "2019_Lamborghini_Aventador_SVJ_2.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/veneno/0",
+    "brand": "lamborghini",
+    "car": "Veneno",
+    "variant": "Veneno coupé",
+    "year": 2013,
+    "wiki": "Lamborghini Veneno",
+    "reason": "Manual visual selection",
+    "files": [
+      "Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg",
+      "2013-03-05_Geneva_Motor_Show_7888.JPG"
+    ]
+  },
+  {
+    "key": "lamborghini/veneno/1",
+    "brand": "lamborghini",
+    "car": "Veneno",
+    "variant": "Veneno Roadster",
+    "year": 2014,
+    "wiki": "Lamborghini Veneno",
+    "reason": "Model/generation match",
+    "files": [
+      "Autoworld_Brüssel_150_-_Italian_Car_Passion_-_Lamborghini_Veneno_Roadster.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/huracan/0",
+    "brand": "lamborghini",
+    "car": "Huracán",
+    "variant": "LP610-4 / Evo",
+    "year": 2014,
+    "wiki": "Lamborghini Huracán",
+    "reason": "Model/generation match",
+    "files": [
+      "2022_Lamborghini_Huracan_EVO_Orange.jpg",
+      "Lamborghini_Huracan_Evo_Spyder_Genf_2019_1Y7A5557.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/huracan/1",
+    "brand": "lamborghini",
+    "car": "Huracán",
+    "variant": "Spyder",
+    "year": 2015,
+    "wiki": "Lamborghini Huracán",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Huracan_Spyder_3.jpg",
+      "WMC_P_JAIA17_Lamborghini_Huracán_LP_580-2_RWD_Spyder_1.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/huracan/2",
+    "brand": "lamborghini",
+    "car": "Huracán",
+    "variant": "Performante",
+    "year": 2017,
+    "wiki": "Lamborghini Huracán",
+    "reason": "Model/generation match",
+    "files": [
+      "2018_Lamborghini_Huracan_Performante_2.jpg",
+      "2018_Lamborghini_Huracan_Performante_4.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/huracan/3",
+    "brand": "lamborghini",
+    "car": "Huracán",
+    "variant": "STO",
+    "year": 2020,
+    "wiki": "Lamborghini Huracán",
+    "reason": "Model/generation match",
+    "files": [
+      "2021_Lamborghini_Huracan_STO_Blue.jpg",
+      "2022_Lamborghini_Huracan_STO_Rear.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/huracan/4",
+    "brand": "lamborghini",
+    "car": "Huracán",
+    "variant": "Tecnica",
+    "year": 2022,
+    "wiki": "Lamborghini Huracán",
+    "reason": "Model/generation match",
+    "files": [
+      "2022_Lamborghini_Huracan_Tecnica_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/huracan/5",
+    "brand": "lamborghini",
+    "car": "Huracán",
+    "variant": "Sterrato",
+    "year": 2022,
+    "wiki": "Lamborghini Huracán",
+    "reason": "Model/generation match",
+    "files": [
+      "2023_Lamborghini_Huracan_Sterrato_Yellow.jpg",
+      "Lamborghini_Huracán_Sterrato_1X7A1622.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/centenario/0",
+    "brand": "lamborghini",
+    "car": "Centenario",
+    "variant": "Centenario coupé",
+    "year": 2016,
+    "wiki": "Lamborghini Centenario",
+    "reason": "Manual visual selection",
+    "files": [
+      "2016-03-01_Geneva_Motor_Show_0789_(cropped).JPG",
+      "2016-03-01_Geneva_Motor_Show_0802_(cropped).JPG"
+    ]
+  },
+  {
+    "key": "lamborghini/centenario/1",
+    "brand": "lamborghini",
+    "car": "Centenario",
+    "variant": "Centenario Roadster",
+    "year": 2016,
+    "wiki": "Lamborghini Centenario",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Centenario_Roadster_Retro_Classics_2020_IMG_0323.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/urus/0",
+    "brand": "lamborghini",
+    "car": "Urus",
+    "variant": "Urus / S",
+    "year": 2017,
+    "wiki": "Lamborghini Urus",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Urus_SE_DSC_8524.jpg",
+      "2019_Lamborghini_Urus_V8_Automatic_4.0_Rear.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/urus/1",
+    "brand": "lamborghini",
+    "car": "Urus",
+    "variant": "Performante",
+    "year": 2022,
+    "wiki": "Lamborghini Urus",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Urus_Performante_1X7A6803.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/urus/2",
+    "brand": "lamborghini",
+    "car": "Urus",
+    "variant": "SE",
+    "year": 2024,
+    "wiki": "Lamborghini Urus",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Urus_SE_DSC_8524.jpg",
+      "Lamborghini_Urus_SE_DSC_8521.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/sian/0",
+    "brand": "lamborghini",
+    "car": "Sián FKP 37",
+    "variant": "Sián FKP 37",
+    "year": 2019,
+    "wiki": "Lamborghini Sián FKP 37",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Sian_at_IAA_2019_IMG_0332.jpg",
+      "Lamborghini_Sian_at_IAA_2019_IMG_0325.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/sian/1",
+    "brand": "lamborghini",
+    "car": "Sián FKP 37",
+    "variant": "Sián Roadster",
+    "year": 2020,
+    "wiki": "Lamborghini Sián FKP 37",
+    "reason": "Model/generation match",
+    "files": [
+      "Lamborghini_Sián_FKP_37_Roadster_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/countach-lpi/0",
+    "brand": "lamborghini",
+    "car": "Countach LPI 800-4",
+    "variant": "Countach LPI 800-4",
+    "year": 2021,
+    "wiki": "Lamborghini Countach LPI 800-4",
+    "reason": "Model article photographs",
+    "files": [
+      "2022_Lamborghini_Countach.jpg",
+      "Lamborghini_Countach_LPI_800-4_IMG_8019.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/revuelto/0",
+    "brand": "lamborghini",
+    "car": "Revuelto",
+    "variant": "Revuelto",
+    "year": 2023,
+    "wiki": "Lamborghini Revuelto",
+    "reason": "Model article photographs",
+    "files": [
+      "Lamborghini_Revuelto_DSC_6985_(cropped).jpg",
+      "Lamborghini_Revuelto_DSC_6987.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/temerario/0",
+    "brand": "lamborghini",
+    "car": "Temerario",
+    "variant": "Temerario",
+    "year": 2024,
+    "wiki": "Lamborghini Temerario",
+    "reason": "Model article photographs",
+    "files": [
+      "Lamborghini_Temerario_IMG_5361.jpg",
+      "Lamborghini_Temerario_IMG_5364.jpg"
+    ]
+  },
+  {
+    "key": "lamborghini/fenomeno/0",
+    "brand": "lamborghini",
+    "car": "Fenomeno",
+    "variant": "Fenomeno",
+    "year": 2025,
+    "wiki": "Lamborghini Fenomeno",
+    "reason": "Model article photographs",
+    "files": [
+      "2025_Lamborghini_Fenomeno_USG26.jpg",
+      "Lamborghini_Fenomeno_(2026)_(55082081146)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "porsche/356/0",
+    "brand": "porsche",
+    "car": "356",
+    "variant": "356 Pre-A",
+    "year": 1948,
+    "wiki": "Porsche 356",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_356_Pre-A_1948.JPG",
+      "Porsche_356_pre_A_coupes_Classic-Gala_2021_1X7A0169.jpg"
+    ]
+  },
+  {
+    "key": "porsche/356/1",
+    "brand": "porsche",
+    "car": "356",
+    "variant": "356 A",
+    "year": 1955,
+    "wiki": "Porsche 356",
+    "reason": "Manual visual selection",
+    "files": [
+      "Nationale_oldtimerdag_Zandvoort_2010,_1956_PORSCHE_356A_1500_GS_CARRERA,_AL-42-19_pic2.JPG",
+      "1957_Porsche_356_Speedster_(A),_rear.jpg"
+    ]
+  },
+  {
+    "key": "porsche/356/2",
+    "brand": "porsche",
+    "car": "356",
+    "variant": "356 B",
+    "year": 1959,
+    "wiki": "Porsche 356",
+    "reason": "Model/generation match",
+    "files": [
+      "Nationale_oldtimerdag_Zandvoort_2010,_1963_PORSCHE_356A_1600,_AH-41-45_pic1.JPG",
+      "1963_Porsche_356B_90_(T6),_rear.jpg"
+    ]
+  },
+  {
+    "key": "porsche/356/3",
+    "brand": "porsche",
+    "car": "356",
+    "variant": "356 C",
+    "year": 1963,
+    "wiki": "Porsche 356",
+    "reason": "Manual visual selection",
+    "files": [
+      "2007-07-08_Porsche_356_C_(01_kl_ret).jpg",
+      "Porsche_356_C,_Coupé_(2007-07-08_Sp).jpg"
+    ]
+  },
+  {
+    "key": "porsche/550/0",
+    "brand": "porsche",
+    "car": "550 Spyder",
+    "variant": "550 Spyder",
+    "year": 1953,
+    "wiki": "Porsche 550",
+    "reason": "Model article photographs",
+    "files": [
+      "Porsche_550-1500_RS_Spyder_Carrera_Panamericana_1954_frontleft_2009-03-14_A.JPG",
+      "Back_of_a_Porsche_550A_Spyder.jpg"
+    ]
+  },
+  {
+    "key": "porsche/718-rsk/0",
+    "brand": "porsche",
+    "car": "718 RSK / RS60 / RS61",
+    "variant": "718 RSK",
+    "year": 1957,
+    "wiki": "Porsche 718",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_718RSK_Spyder,_front_right,_Stratford.jpg",
+      "Porsche_1958_Type_718_RSK_Spyder.jpg"
+    ]
+  },
+  {
+    "key": "porsche/718-rsk/1",
+    "brand": "porsche",
+    "car": "718 RSK / RS60 / RS61",
+    "variant": "718 RS60 / RS61",
+    "year": 1960,
+    "wiki": "Porsche 718",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_718_RS_60_Spyder_1960_backright_2009-03-14_A.JPG"
+    ]
+  },
+  {
+    "key": "porsche/904/0",
+    "brand": "porsche",
+    "car": "904 Carrera GTS",
+    "variant": "904 Carrera GTS",
+    "year": 1963,
+    "wiki": "Porsche 904",
+    "reason": "Model article photographs",
+    "files": [
+      "Porsche_904-terabass.jpg",
+      "Porsche_904-6.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/0",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "Original 911 / F series",
+    "year": 1963,
+    "wiki": "Porsche 911 (classic)",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_911E_ca_1969.jpg",
+      "Porsche_911_2.0_Coupe_IMG_0819.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/1",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "Classic Targa",
+    "year": 1965,
+    "wiki": "Porsche 911 (classic)",
+    "reason": "Manual visual selection",
+    "files": [
+      "12-01-03-autostadtl-by-RalfR-75.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/2",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "G series",
+    "year": 1973,
+    "wiki": "Porsche 911 (classic)",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_911SC_1981_20070316.jpg",
+      "1977_Porsche_911_SC_coupe_(29021719005).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/3",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "930 Turbo",
+    "year": 1974,
+    "wiki": "Porsche 930",
+    "reason": "Model article photographs",
+    "files": [
+      "1976_Porsche_930_Turbo,_Emerald_Green_met,_front_left.jpg",
+      "1988_Porsche_930_Turbo_Cabriolet_Flachbau,_front_right_(Hershey_2019).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/4",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "G-series Cabriolet",
+    "year": 1982,
+    "wiki": "Porsche 911 (classic)",
+    "reason": "Manual visual selection",
+    "files": [
+      "911_Carrera.jpg",
+      "1987_911carrera_Jubi_Targa_und_TLcabrio.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/5",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "964",
+    "year": 1988,
+    "wiki": "Porsche 964",
+    "reason": "Model article photographs",
+    "files": [
+      "1991_Porsche_964_Turbo_in_Summer_Yellow,_front_right.jpg",
+      "Porsche_Carrera_4_cabriolet_ca_1990_with_herbivores_dominating_the_background.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/6",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "993",
+    "year": 1993,
+    "wiki": "Porsche 993",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_911_(3395661765).jpg",
+      "Porsche_911_(993)_Carrera_(12573237805)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/7",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "996",
+    "year": 1997,
+    "wiki": "Porsche 996",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_996_Carrera_coupe.jpg",
+      "Porsche_996_Coupé_1.JPG"
+    ]
+  },
+  {
+    "key": "porsche/911/8",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "997",
+    "year": 2004,
+    "wiki": "Porsche 997",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_997_Turbo_-_Flickr_-_Alexandre_Prévot_(8).jpg",
+      "2004-2008_Porsche_911_(997)_Carrera_S_in_Petaling_Jaya,_Malaysia_(02).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/9",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "991",
+    "year": 2011,
+    "wiki": "Porsche 991",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2013_Porsche_911_Carrera_4S_(991)_(9626546987).jpg",
+      "2013_Porsche_911_Carrera_4S_(991)_(8824948364).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/10",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "991 Targa",
+    "year": 2014,
+    "wiki": "Porsche 991",
+    "reason": "Model/generation match",
+    "files": [
+      "2018_Porsche_911_Targa_4_GTS_S-A_3.0_Front.jpg",
+      "2014_Porsche_991_Targa_4S_South_Perth,_2014.JPG"
+    ]
+  },
+  {
+    "key": "porsche/911/11",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "992",
+    "year": 2018,
+    "wiki": "Porsche 992",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_911_(992)_Carrera_GTS.jpg",
+      "2019_Porsche_911_Carrera_S_S-A_3.0_Rear.jpg",
+      "GIMS_2019,_Le_Grand-Saconnex_(GIMS0973).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/12",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "992 GT3 RS",
+    "year": 2022,
+    "wiki": "Porsche 992",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_992_GT3_RS_MYLE_Festival_2025_DSC_9584_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/13",
+    "brand": "porsche",
+    "car": "911 / Turbo",
+    "variant": "992 Dakar",
+    "year": 2022,
+    "wiki": "Porsche 992",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_911_Dakar_(992)_–_f_18112022.jpg",
+      "Porsche_911_Dakar_(992)_–_h_18112022.jpg"
+    ]
+  },
+  {
+    "key": "porsche/906/0",
+    "brand": "porsche",
+    "car": "906 Carrera 6",
+    "variant": "906 Carrera 6",
+    "year": 1966,
+    "wiki": "Porsche 906",
+    "reason": "Model article photographs",
+    "files": [
+      "1966_Porsche_906_-_Carrera_Six_(54050279484).jpg",
+      "1966_Porsche_906_Coupé_(906-120),_rear_left.jpg"
+    ]
+  },
+  {
+    "key": "porsche/912/0",
+    "brand": "porsche",
+    "car": "912 / 912E",
+    "variant": "912",
+    "year": 1965,
+    "wiki": "Porsche 912",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_912_(2016-07-02_Sp).JPG",
+      "1967_Porsche_912_in_Agablau,_rear_right.jpg"
+    ]
+  },
+  {
+    "key": "porsche/912/1",
+    "brand": "porsche",
+    "car": "912 / 912E",
+    "variant": "912E",
+    "year": 1976,
+    "wiki": "Porsche 912",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_912E.jpg",
+      "RM_Sotheby’s_2017_-_Porsche_912_E_-_1976_-_002.jpg"
+    ]
+  },
+  {
+    "key": "porsche/914/0",
+    "brand": "porsche",
+    "car": "914 / 914-6",
+    "variant": "914 / 914-6",
+    "year": 1969,
+    "wiki": "Porsche 914",
+    "reason": "Model article photographs",
+    "files": [
+      "1973_Porsche_914_1.7_in_Silver,_front_left_side.jpg",
+      "Porsche_914_(1970)_-_9579225634.jpg"
+    ]
+  },
+  {
+    "key": "porsche/924/0",
+    "brand": "porsche",
+    "car": "924",
+    "variant": "924 / 924S",
+    "year": 1976,
+    "wiki": "Porsche 924",
+    "reason": "Manual visual selection",
+    "files": [
+      "Porsche_924_in_the_Porsche-Museum_(2009)_1X7A0347.jpg",
+      "1981_Porsche_924_2.0_Rear.jpg"
+    ]
+  },
+  {
+    "key": "porsche/924/1",
+    "brand": "porsche",
+    "car": "924",
+    "variant": "924 Turbo",
+    "year": 1978,
+    "wiki": "Porsche 924",
+    "reason": "Manual visual selection",
+    "files": [
+      "Porsche_924_Turbo_(3740494673).jpg"
+    ]
+  },
+  {
+    "key": "porsche/924/2",
+    "brand": "porsche",
+    "car": "924",
+    "variant": "924 Carrera GT",
+    "year": 1980,
+    "wiki": "Porsche 924",
+    "reason": "Manual visual selection",
+    "files": [
+      "1980_Porsche_924_Carrera_GT_front.jpg"
+    ]
+  },
+  {
+    "key": "porsche/928/0",
+    "brand": "porsche",
+    "car": "928",
+    "variant": "928 / S",
+    "year": 1977,
+    "wiki": "Porsche 928",
+    "reason": "Model/generation match",
+    "files": [
+      "1978_Porsche_928.jpg"
+    ]
+  },
+  {
+    "key": "porsche/928/1",
+    "brand": "porsche",
+    "car": "928",
+    "variant": "S4 / GT / GTS",
+    "year": 1986,
+    "wiki": "Porsche 928",
+    "reason": "Model/generation match",
+    "files": [
+      "1991_Porsche_928_S4_LC24.jpg"
+    ]
+  },
+  {
+    "key": "porsche/944/0",
+    "brand": "porsche",
+    "car": "944",
+    "variant": "944 / S",
+    "year": 1982,
+    "wiki": "Porsche 944",
+    "reason": "Model/generation match",
+    "files": [
+      "1984_Porsche_944_coupe_(19473129259)_(cropped).jpg",
+      "1983_Porsche_944_2.5.jpg"
+    ]
+  },
+  {
+    "key": "porsche/944/1",
+    "brand": "porsche",
+    "car": "944",
+    "variant": "944 Turbo / S2",
+    "year": 1985,
+    "wiki": "Porsche 944",
+    "reason": "Manual visual selection",
+    "files": [
+      "1986_Porsche_944_Turbo.jpg",
+      "Porsche_944_S2_1991.jpg"
+    ]
+  },
+  {
+    "key": "porsche/944/2",
+    "brand": "porsche",
+    "car": "944",
+    "variant": "944 S2 Cabriolet",
+    "year": 1989,
+    "wiki": "Porsche 944",
+    "reason": "Manual visual selection",
+    "files": [
+      "1991_Porsche_944_Convertible_(10333936763).jpg"
+    ]
+  },
+  {
+    "key": "porsche/959/0",
+    "brand": "porsche",
+    "car": "959",
+    "variant": "959 Komfort / Sport",
+    "year": 1986,
+    "wiki": "Porsche 959",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_959_–_Frontansicht_(2),_21._März_2013,_Düsseldorf.jpg",
+      "Porsche_959_–_Innenraum,_21._März_2013,_Düsseldorf.jpg"
+    ]
+  },
+  {
+    "key": "porsche/968/0",
+    "brand": "porsche",
+    "car": "968",
+    "variant": "968 coupé / Club Sport",
+    "year": 1991,
+    "wiki": "Porsche 968",
+    "reason": "Manual visual selection",
+    "files": [
+      "1994_Porsche_968_Club_Sport_in_Grandprixweiss,_front_right.jpg",
+      "1993_Porsche_968_CS_in_Speedgelb,_rear_right.jpg"
+    ]
+  },
+  {
+    "key": "porsche/968/1",
+    "brand": "porsche",
+    "car": "968",
+    "variant": "968 Cabriolet",
+    "year": 1991,
+    "wiki": "Porsche 968",
+    "reason": "Model/generation match",
+    "files": [
+      "1993_Porsche_968_Cabriolet,_rear_left.jpg"
+    ]
+  },
+  {
+    "key": "porsche/boxster/0",
+    "brand": "porsche",
+    "car": "Boxster / Cayman / modern 718",
+    "variant": "986 Boxster",
+    "year": 1996,
+    "wiki": "Porsche Boxster and Cayman",
+    "reason": "Manual visual selection",
+    "files": [
+      "1999_Porsche_Boxster_2.5_Front.jpg"
+    ]
+  },
+  {
+    "key": "porsche/boxster/1",
+    "brand": "porsche",
+    "car": "Boxster / Cayman / modern 718",
+    "variant": "987 Boxster",
+    "year": 2004,
+    "wiki": "Porsche Boxster and Cayman",
+    "reason": "Model/generation match",
+    "files": [
+      "2006_Porsche_Boxster_2.7_Front.jpg",
+      "2006_Porsche_Boxster_2.7_Rear.jpg"
+    ]
+  },
+  {
+    "key": "porsche/boxster/2",
+    "brand": "porsche",
+    "car": "Boxster / Cayman / modern 718",
+    "variant": "987 Cayman",
+    "year": 2005,
+    "wiki": "Porsche Boxster and Cayman",
+    "reason": "Manual visual selection",
+    "files": [
+      "2007_Porsche_Cayman_S_3.4.jpg",
+      "2011_Porsche_Cayman_R_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "porsche/boxster/3",
+    "brand": "porsche",
+    "car": "Boxster / Cayman / modern 718",
+    "variant": "981 Boxster / Cayman",
+    "year": 2012,
+    "wiki": "Porsche Boxster and Cayman",
+    "reason": "Manual visual selection",
+    "files": [
+      "2015_Porsche_Cayman_GTS_S-A_3.4_Front.jpg",
+      "2012_Porsche_Boxster_24V_S-A_2.7.jpg"
+    ]
+  },
+  {
+    "key": "porsche/boxster/4",
+    "brand": "porsche",
+    "car": "Boxster / Cayman / modern 718",
+    "variant": "982 / 718 Boxster and Cayman",
+    "year": 2016,
+    "wiki": "Porsche 982",
+    "reason": "Model article photographs",
+    "files": [
+      "2018_Porsche_718_Cayman_S_S-A_2.5_Front.jpg",
+      "2018_Porsche_718_Cayman_S_S-A_2.5_Rear.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-gt1/0",
+    "brand": "porsche",
+    "car": "911 GT1 Straßenversion",
+    "variant": "911 GT1 Straßenversion",
+    "year": 1996,
+    "wiki": "Porsche 911 GT1",
+    "reason": "Manual visual selection",
+    "files": [
+      "Porsche_911_GT1_street_version_1997_backleft_2010-03-12_A.jpg"
+    ]
+  },
+  {
+    "key": "porsche/cayenne/0",
+    "brand": "porsche",
+    "car": "Cayenne",
+    "variant": "955 / 957",
+    "year": 2002,
+    "wiki": "Porsche Cayenne",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Porsche_Cayenne_Turbo_front_20080527.jpg",
+      "Porsche_Cayenne_Turbo_rear_20080527.jpg"
+    ]
+  },
+  {
+    "key": "porsche/cayenne/1",
+    "brand": "porsche",
+    "car": "Cayenne",
+    "variant": "958",
+    "year": 2010,
+    "wiki": "Porsche Cayenne",
+    "reason": "Manual visual selection",
+    "files": [
+      "Porsche_Cayenne_S_(92A)_–_Frontansicht,_10._Oktober_2011,_Wülfrath.jpg",
+      "Porsche_Cayenne_S_(92A)_–_Heckansicht,_10._Oktober_2011,_Wülfrath.jpg"
+    ]
+  },
+  {
+    "key": "porsche/cayenne/2",
+    "brand": "porsche",
+    "car": "Cayenne",
+    "variant": "9Y0 / E3",
+    "year": 2017,
+    "wiki": "Porsche Cayenne",
+    "reason": "Model/generation match",
+    "files": [
+      "2018_Porsche_Cayenne_V8_Turbo_Tiptronic_4.0_Front.jpg",
+      "2018_Porsche_Cayenne_V8_Turbo_Tiptronic_4.0_Rear.jpg"
+    ]
+  },
+  {
+    "key": "porsche/cayenne/3",
+    "brand": "porsche",
+    "car": "Cayenne",
+    "variant": "Cayenne Coupé",
+    "year": 2019,
+    "wiki": "Porsche Cayenne",
+    "reason": "Model/generation match",
+    "files": [
+      "2019_Porsche_Cayenne_V8_Turbo_Automatic_Coupe_4.0_Front.jpg",
+      "2019_Porsche_Cayenne_V8_Turbo_Automatic_Coupe_4.0.jpg"
+    ]
+  },
+  {
+    "key": "porsche/cayenne/4",
+    "brand": "porsche",
+    "car": "Cayenne",
+    "variant": "Cayenne Electric",
+    "year": 2025,
+    "wiki": "Porsche Cayenne Electric",
+    "reason": "Manual visual selection",
+    "files": [
+      "Porsche_Cayenne_Electric_IMG_6129.jpg",
+      "Porsche_Cayenne_Electric_IMG_6136.jpg"
+    ]
+  },
+  {
+    "key": "porsche/carrera-gt/0",
+    "brand": "porsche",
+    "car": "Carrera GT",
+    "variant": "Carrera GT",
+    "year": 2003,
+    "wiki": "Porsche Carrera GT",
+    "reason": "Model article photographs",
+    "files": [
+      "Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_(July_2008).jpg",
+      "Carrera_GT._(4657378722).jpg"
+    ]
+  },
+  {
+    "key": "porsche/panamera/0",
+    "brand": "porsche",
+    "car": "Panamera",
+    "variant": "970",
+    "year": 2009,
+    "wiki": "Porsche Panamera",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_Panamera_Diesel_(970,_Facelift)_–_Frontansicht,_3._März_2014,_Düsseldorf.jpg",
+      "Porsche_Panamera_970,_facelift,_rear_view.jpg"
+    ]
+  },
+  {
+    "key": "porsche/panamera/1",
+    "brand": "porsche",
+    "car": "Panamera",
+    "variant": "971",
+    "year": 2016,
+    "wiki": "Porsche Panamera",
+    "reason": "Manual visual selection",
+    "files": [
+      "JAIA18_Porsche_Panamera_4_E-Hybrid_97ABE1_1.jpg",
+      "Porsche_Panamera_Turbo_grey.jpg"
+    ]
+  },
+  {
+    "key": "porsche/panamera/2",
+    "brand": "porsche",
+    "car": "Panamera",
+    "variant": "Sport Turismo",
+    "year": 2017,
+    "wiki": "Porsche Panamera",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_Panamera_Sport_Turismo_e-Hybrid_IMG_0621_(2).jpg",
+      "Porsche_971_Panamera_Turbo_S_E-Hybrid_Sport_Turismo_Classic-Gala_2021_1X7A0234.jpg"
+    ]
+  },
+  {
+    "key": "porsche/panamera/3",
+    "brand": "porsche",
+    "car": "Panamera",
+    "variant": "976",
+    "year": 2023,
+    "wiki": "Porsche Panamera",
+    "reason": "Manual visual selection",
+    "files": [
+      "Porsche_972_Turbo_E-Hybrid_IMG_0445.jpg",
+      "Porsche_972_IMG_9526.jpg"
+    ]
+  },
+  {
+    "key": "porsche/918/0",
+    "brand": "porsche",
+    "car": "918 Spyder",
+    "variant": "918 Spyder",
+    "year": 2013,
+    "wiki": "Porsche 918 Spyder",
+    "reason": "Model article photographs",
+    "files": [
+      "2015_Porsche_918_Spyder_Platinum_Silver_Metallic_SCD_24.jpg",
+      "Porsche_918_sports_car.jpg"
+    ]
+  },
+  {
+    "key": "porsche/macan/0",
+    "brand": "porsche",
+    "car": "Macan",
+    "variant": "95B",
+    "year": 2014,
+    "wiki": "Porsche Macan",
+    "reason": "Model/generation match",
+    "files": [
+      "2017_Porsche_Macan_S-A_3.0.jpg",
+      "Porsche_Macan_S_(51929836658)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "porsche/macan/1",
+    "brand": "porsche",
+    "car": "Macan",
+    "variant": "Electric / XAB",
+    "year": 2024,
+    "wiki": "Porsche Macan",
+    "reason": "Manual visual selection",
+    "files": [
+      "Porsche_Macan_(II)_–_f_22022025.jpg",
+      "Porsche_Macan_(II)_–_h_22022025.jpg"
+    ]
+  },
+  {
+    "key": "porsche/taycan/0",
+    "brand": "porsche",
+    "car": "Taycan",
+    "variant": "Taycan saloon",
+    "year": 2019,
+    "wiki": "Porsche Taycan",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2020_Porsche_Taycan_4S_79kWh_Front.jpg",
+      "2020_Porsche_Taycan_4S_79kWh_Rear.jpg"
+    ]
+  },
+  {
+    "key": "porsche/taycan/1",
+    "brand": "porsche",
+    "car": "Taycan",
+    "variant": "Cross Turismo / Sport Turismo",
+    "year": 2021,
+    "wiki": "Porsche Taycan",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_Taycan_Cross_Turismo.jpg",
+      "Porsche_Taycan_Turbo_S_Cross_Turismo_Rear.jpg"
+    ]
+  },
+  {
+    "key": "tesla/roadster/0",
+    "brand": "tesla",
+    "car": "Roadster",
+    "variant": "Original Roadster / Sport / 2.5",
+    "year": 2008,
+    "wiki": "Tesla Roadster (first generation)",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Roadster_San_Diego.jpg",
+      "Tesla_Roadster_-_Flickr_-_Alexandre_Prévot_(1).jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-s/0",
+    "brand": "tesla",
+    "car": "Model S",
+    "variant": "Original Model S",
+    "year": 2012,
+    "wiki": "Tesla Model S",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2013 Tesla Model S (11322176214) cropped.jpg",
+      "Tesla Model S interior - Tokyo Motor Show 2013.jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-s/1",
+    "brand": "tesla",
+    "car": "Model S",
+    "variant": "Revised nose",
+    "year": 2016,
+    "wiki": "Tesla Model S",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2016_Tesla_Model_S_75_Front.jpg",
+      "2016_Tesla_Model_S_75_Rear.jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-s/2",
+    "brand": "tesla",
+    "car": "Model S",
+    "variant": "Cabin redesign / Plaid",
+    "year": 2021,
+    "wiki": "Tesla Model S",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Tesla_Model_S_(2023)_Motorworld_Munich_1X7A0025.jpg",
+      "Tesla_Model_S_Plaid_Autofrühling_Ulm_IMG_9321_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-x/0",
+    "brand": "tesla",
+    "car": "Model X",
+    "variant": "Original Model X",
+    "year": 2015,
+    "wiki": "Tesla Model X",
+    "reason": "Model/generation match",
+    "files": [
+      "2017_Tesla_Model_X_100D_Front.jpg",
+      "2017_Tesla_Model_X_100D_Rear.jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-x/1",
+    "brand": "tesla",
+    "car": "Model X",
+    "variant": "Cabin redesign / Plaid",
+    "year": 2021,
+    "wiki": "Tesla Model X",
+    "reason": "Manual visual selection",
+    "files": [
+      "Tesla Model X Plaid Front.jpg",
+      "Tesla Model X Plaid Back.jpg",
+      "Tesla Model X Plaid Interior 2.jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-3/0",
+    "brand": "tesla",
+    "car": "Model 3",
+    "variant": "Original Model 3",
+    "year": 2017,
+    "wiki": "Tesla Model 3",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2019_Tesla_Model_3_Performance_AWD_Front.jpg",
+      "2019_Tesla_Model_3_Performance_AWD_Rear.jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-3/1",
+    "brand": "tesla",
+    "car": "Model 3",
+    "variant": "Highland",
+    "year": 2023,
+    "wiki": "Tesla Model 3",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Tesla_Model_3_(2023)_IMG_9488_(cropped).jpg",
+      "Tesla_Model_3_(2023)_Autofrühling_Ulm_IMG_9324.jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-y/0",
+    "brand": "tesla",
+    "car": "Model Y",
+    "variant": "Original Model Y",
+    "year": 2020,
+    "wiki": "Tesla Model Y",
+    "reason": "Model/generation match",
+    "files": [
+      "2024_Tesla_Model_Y_RWD_front.jpg",
+      "2024_Tesla_Model_Y_RWD_rear.jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-y/1",
+    "brand": "tesla",
+    "car": "Model Y",
+    "variant": "Juniper",
+    "year": 2025,
+    "wiki": "Tesla Model Y",
+    "reason": "Manual visual selection",
+    "files": [
+      "Tesla_Model_Y_Premium_(Facelift)_–_f_05052026.jpg",
+      "Tesla_Model_Y_Premium_(Facelift)_–_h_05052026.jpg"
+    ]
+  },
+  {
+    "key": "tesla/model-y/2",
+    "brand": "tesla",
+    "car": "Model Y",
+    "variant": "Model Y L",
+    "year": 2025,
+    "wiki": "Tesla Model Y",
+    "reason": "Manual visual selection",
+    "files": [
+      "Tesla_Model_Y_L_Premium_Long_Range_AWD_Cosmic_Silver_03.jpg",
+      "Tesla_Model_Y_L_Premium_Long_Range_AWD_Cosmic_Silver_04.jpg"
+    ]
+  },
+  {
+    "key": "tesla/cybertruck/0",
+    "brand": "tesla",
+    "car": "Cybertruck",
+    "variant": "Production Cybertruck",
+    "year": 2023,
+    "wiki": "Tesla Cybertruck",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2024_Tesla_Cybertruck_Foundation_Series,_front_left_(Greenwich).jpg",
+      "Tesla_Cybertruck_-_04.jpg",
+      "Tesla_Cybertruck_MYLE_Festival_2025_DSC_9389.jpg"
+    ]
+  },
+  {
+    "key": "tesla/cybercab/0",
+    "brand": "tesla",
+    "car": "Cybercab",
+    "variant": "Production programme",
+    "year": 2026,
+    "wiki": "Tesla Cybercab",
+    "reason": "Model article photographs",
+    "files": [
+      "Tesla_Cybercab_on_Interstate_280_near_Palo_Alto_dllu.jpg",
+      "Rear_of_the_Tesla_Cybercab.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/630/0",
+    "brand": "mercedes",
+    "car": "400 / 630 / K",
+    "variant": "400 / 630 / K",
+    "year": 1926,
+    "wiki": "Mercedes 24/100/140 PS",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes-Benz_630K,_1927_-_Flickr_-_granada_turnier.jpg",
+      "1926_Mercedes-Benz_24-100-140_PS_Roadster_IMG_3867_-_Flickr_-_nemor2.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/stuttgart/0",
+    "brand": "mercedes",
+    "car": "8/38 PS / Stuttgart 200 / 260",
+    "variant": "8/38 PS / W02",
+    "year": 1926,
+    "wiki": "Mercedes-Benz W02",
+    "reason": "Model article photographs",
+    "files": [
+      "MHV_MB_W02_8-38hp_1927.jpg",
+      "Mercedes_Benz_Type_Stuttgart_1928_(15115178944).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/stuttgart/1",
+    "brand": "mercedes",
+    "car": "8/38 PS / Stuttgart 200 / 260",
+    "variant": "Stuttgart 200 / 260 / W11",
+    "year": 1929,
+    "wiki": "Mercedes-Benz W11",
+    "reason": "Model article photographs",
+    "files": [
+      "Automuseum_Dr._Carl_Benz_Ladenburg_-_Flickr_-_KlausNahr_(11).jpg",
+      "Daimler-Benz_L_1000_Heusenstamm_05082011.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/300-350/0",
+    "brand": "mercedes",
+    "car": "300 / 350 W03-W05",
+    "variant": "300 / 350 / W03-W04-W05",
+    "year": 1926,
+    "wiki": "Mercedes-Benz W03",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes-Benz_12-55_PS_in_the_Mercedes-Benz-Museum_IMG_7346.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-series/0",
+    "brand": "mercedes",
+    "car": "S / SS / SSK",
+    "variant": "S / W06",
+    "year": 1927,
+    "wiki": "Mercedes-Benz S-Series",
+    "reason": "Manual visual selection",
+    "files": [
+      "1927Mercedes-Benz26180S-TypeRennsport.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-series/1",
+    "brand": "mercedes",
+    "car": "S / SS / SSK",
+    "variant": "SS / SSK",
+    "year": 1928,
+    "wiki": "Mercedes-Benz SSK",
+    "reason": "Manual visual selection",
+    "files": [
+      "MB_27-170-225hp_SSK-Type_1928.jpg",
+      "1929_Mercedes-Benz_SSK_photo10.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/nurburg/0",
+    "brand": "mercedes",
+    "car": "Nürburg 460 / 500",
+    "variant": "Nürburg 460 / 500",
+    "year": 1928,
+    "wiki": "Mercedes-Benz W08",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes_Benz_W_08_Sportroadster_front_20110611.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/mannheim/0",
+    "brand": "mercedes",
+    "car": "Mannheim / 380 S",
+    "variant": "Mannheim 350 / 370 / 380; 380 S",
+    "year": 1929,
+    "wiki": "Mercedes-Benz W10",
+    "reason": "Model article photographs",
+    "files": [
+      "Arvika_08_-_Mercedes-Benz.jpg",
+      "1933_Mercedes-Benz_370_Mannheim_pic1.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/770/0",
+    "brand": "mercedes",
+    "car": "770 Großer Mercedes",
+    "variant": "770 / W07",
+    "year": 1930,
+    "wiki": "Mercedes-Benz 770",
+    "reason": "Model/generation match",
+    "files": [
+      "Bundesarchiv_Bild_102-11249,_Berlin,_Eröffnung_der_Automobilausstellung.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/770/1",
+    "brand": "mercedes",
+    "car": "770 Großer Mercedes",
+    "variant": "770 / W150",
+    "year": 1938,
+    "wiki": "Mercedes-Benz 770",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_W150-770K_1938_LFront_SATM_05June2013_(14577676766).jpg",
+      "Mercedes-Benz_W150_Cabriolet_F_(The_Loh_Collection)_1.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/170/0",
+    "brand": "mercedes",
+    "car": "170 / W15",
+    "variant": "170 / W15",
+    "year": 1931,
+    "wiki": "Mercedes-Benz W15",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes-Benz_W15_(1932)_Classic-Gala_2022_1X7A0282.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/200/0",
+    "brand": "mercedes",
+    "car": "200 / W21",
+    "variant": "200 / W21",
+    "year": 1933,
+    "wiki": "Mercedes-Benz W21",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes-Benz_200_Pullmann-Limousine_AME.jpg",
+      "Mercedes_200_w21_1935.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/290/0",
+    "brand": "mercedes",
+    "car": "290 / W18",
+    "variant": "290 / W18",
+    "year": 1933,
+    "wiki": "Mercedes-Benz W18",
+    "reason": "Model article photographs",
+    "files": [
+      "1935_Mercedes-Benz_290_Cabriolet_D_in_Black_over_Green,_front_left.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/380/0",
+    "brand": "mercedes",
+    "car": "380 / W22",
+    "variant": "380 / W22",
+    "year": 1933,
+    "wiki": "Mercedes-Benz 380 (1933)",
+    "reason": "Model article photographs",
+    "files": [
+      "1934_Mercedes-Benz_380K,_140hp_3800cc_155kmh_photo-3.JPG",
+      "1933_Mercedes-Benz_380K_Erdmann_&_Rossi_Sport-Roadster.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/rear-engine/0",
+    "brand": "mercedes",
+    "car": "130 / 150 / 170 H",
+    "variant": "130 / W23",
+    "year": 1934,
+    "wiki": "Mercedes-Benz 130",
+    "reason": "Model article photographs",
+    "files": [
+      "MHV_MB_W23_130_1935_01.jpg",
+      "MHV_MB_W23_130_1935_02.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/rear-engine/1",
+    "brand": "mercedes",
+    "car": "130 / 150 / 170 H",
+    "variant": "150 Roadster / W30",
+    "year": 1935,
+    "wiki": "Mercedes-Benz 130",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_Benz_150H_c.1935_(16326178177).jpg",
+      "Mercedes_Benz_150H_c.1935_(16326176617).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/rear-engine/2",
+    "brand": "mercedes",
+    "car": "130 / 150 / 170 H",
+    "variant": "170 H / W28",
+    "year": 1936,
+    "wiki": "Mercedes-Benz 130",
+    "reason": "Model/generation match",
+    "files": [
+      "MHV_MB_W28_170H_01.jpg",
+      "MHV_MB_W28_170H_02.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/500k/0",
+    "brand": "mercedes",
+    "car": "500 K / 540 K",
+    "variant": "500 K",
+    "year": 1934,
+    "wiki": "Mercedes-Benz 500K",
+    "reason": "Model article photographs",
+    "files": [
+      "Paris_-_Bonhams_2014_-_Mercedes-Benz_500K_Cabriolet_A_-_1935_-_002.jpg",
+      "Rétromobile_2017_-_Mercedes-Benz_500_K_-_1934_-_001.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/500k/1",
+    "brand": "mercedes",
+    "car": "500 K / 540 K",
+    "variant": "540 K",
+    "year": 1936,
+    "wiki": "Mercedes-Benz 540K",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes_540K_front_20020707.jpg",
+      "Mercedes-Benz_540K-Autobahnkurier_Front-view.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/170v/0",
+    "brand": "mercedes",
+    "car": "170 V / 170 S",
+    "variant": "170 V / W136",
+    "year": 1936,
+    "wiki": "Mercedes-Benz W136",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_170D_OTP_W136_170Da_1951_1952_frontleft_2009-09-26_U.jpg",
+      "W136.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/170v/1",
+    "brand": "mercedes",
+    "car": "170 V / 170 S",
+    "variant": "170 S / W191",
+    "year": 1949,
+    "wiki": "Mercedes-Benz W136",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes-Benz_170_DS_front_20110611.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/260d/0",
+    "brand": "mercedes",
+    "car": "260 D",
+    "variant": "260 D / W138",
+    "year": 1936,
+    "wiki": "Mercedes-Benz 260 D",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes-Benz-Museum_2015-01_by-RaBoe_116.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/230/0",
+    "brand": "mercedes",
+    "car": "230 / W143 / W153",
+    "variant": "230 / W143",
+    "year": 1937,
+    "wiki": "Mercedes-Benz W143",
+    "reason": "Model/generation match",
+    "files": [
+      "1938_Mercedes-Benz_230_(W143)_front.jpg",
+      "1938_Mercedes-Benz_230_(W143)_rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/230/1",
+    "brand": "mercedes",
+    "car": "230 / W143 / W153",
+    "variant": "230 / W153",
+    "year": 1938,
+    "wiki": "Mercedes-Benz W153",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes-Benz_230_1939.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/320/0",
+    "brand": "mercedes",
+    "car": "320 / W142",
+    "variant": "320 / W142",
+    "year": 1937,
+    "wiki": "Mercedes-Benz W142",
+    "reason": "Model/generation match",
+    "files": [
+      "Paris_-_RM_Sotheby’s_2018_-_Mercedes-Benz_320_cabriolet_F_-_1942_-_002.jpg",
+      "1939_Mercedes-Benz_320_Stromlinien-Limousine_IMG_3810_-_Flickr_-_nemor2.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/adenauer/0",
+    "brand": "mercedes",
+    "car": "300 Adenauer",
+    "variant": "300 / W186",
+    "year": 1951,
+    "wiki": "Mercedes-Benz W186",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes_Benz_300_Limousine_front_20110611.jpg",
+      "Mercedes-Benz_300_Cabriolet_Adenauer_(4344576658).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/adenauer/1",
+    "brand": "mercedes",
+    "car": "300 Adenauer",
+    "variant": "300 d / W189",
+    "year": 1957,
+    "wiki": "Mercedes-Benz W189",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_Benz_W189_BW_1.JPG",
+      "Mercedes_Benz_W189_BW_2.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/300s/0",
+    "brand": "mercedes",
+    "car": "300 S / Sc",
+    "variant": "300 S / Sc / W188",
+    "year": 1951,
+    "wiki": "Mercedes-Benz W188",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_300_Coupe_1957.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/0",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "220 / W187",
+    "year": 1951,
+    "wiki": "Mercedes-Benz W187",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W187_front_20110611.jpg",
+      "1952_Mercedes-Benz_W187_Ditzingen_Mobil_IMG_9824.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/1",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "220 / W180 / W128 Ponton",
+    "year": 1954,
+    "wiki": "Mercedes-Benz W180",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W180_220S_Classic-Days_2022_DSC_0004.jpg",
+      "MB_W180_220S_cab_A.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/2",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W111 / W112 fintail saloon",
+    "year": 1959,
+    "wiki": "Mercedes-Benz W111",
+    "reason": "Manual visual selection",
+    "files": [
+      "P060_Mercedes-Benz_220_W111.jpg",
+      "Mercedes_W111_220SB_rear_MTP07.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/3",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W108 / W109",
+    "year": 1965,
+    "wiki": "Mercedes-Benz W108",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_Benz_W108_250SE_Automatic_Front.jpg",
+      "W108.Jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/4",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W116",
+    "year": 1972,
+    "wiki": "Mercedes-Benz W116",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W116_front_20080424.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/5",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W126",
+    "year": 1979,
+    "wiki": "Mercedes-Benz W126",
+    "reason": "Manual visual selection",
+    "files": [
+      "1987-1991_Mercedes-Benz_300_SEL_(V_126)_sedan_(2010-04-03)_02.jpg",
+      "1989_Mercedes-Benz_560_SEL_(V_126)_sedan_(23188230022).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/6",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W140",
+    "year": 1991,
+    "wiki": "Mercedes-Benz W140",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_W140_front_20070609.jpg",
+      "Mercedes_W140_rear_20070609.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/7",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W220",
+    "year": 1998,
+    "wiki": "Mercedes-Benz W220",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes-Benz_S430_W220.jpg",
+      "2001_Mercedes-Benz_S_430_(W_220)_sedan_(2010-09-23)_02.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/8",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W221",
+    "year": 2005,
+    "wiki": "Mercedes-Benz W221",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_S_400_HYBRID_(W221)_Facelift_front_20101002.jpg",
+      "Mercedes_S_400_HYBRID_(W221)_Facelift_rear_20101002.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/9",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W222",
+    "year": 2013,
+    "wiki": "Mercedes-Benz W222",
+    "reason": "Model/generation match",
+    "files": [
+      "2019_Mercedes-Benz_S350d_L_AMG_Line_Executive_3.0_Front.jpg",
+      "2019_Mercedes-Benz_S350d_L_AMG_Line_Executive_3.0_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/10",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "Mercedes-Maybach S-Class",
+    "year": 2015,
+    "wiki": "Mercedes-Benz W222",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Maybach_S_500_4MATIC_(X_222)_–_Frontansicht,_14._September_2015,_Münster.jpg",
+      "Mercedes-Maybach_S_500_4MATIC_(X_222)_–_Heckansicht,_14._September_2015,_Münster.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/s-class/11",
+    "brand": "mercedes",
+    "car": "220 / S-Class lineage",
+    "variant": "W223",
+    "year": 2020,
+    "wiki": "Mercedes-Benz S-Class (W223)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W223_IMG_3951.jpg",
+      "Mercedes-Benz_W223_IMG_6670.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/0",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "180 / 190 / W120-W121 Ponton",
+    "year": 1953,
+    "wiki": "Mercedes-Benz W120",
+    "reason": "Manual visual selection",
+    "files": [
+      "1953_Mercedes-Benz_180_(W_120)_sedan_(29009931566).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/1",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "219 / W105",
+    "year": 1956,
+    "wiki": "Mercedes-Benz W105",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes-Benz_219_(ret)_am_15.06.2007.jpg",
+      "Mercedes-Benz_219_grey_vr.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/2",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W110 fintail",
+    "year": 1961,
+    "wiki": "Mercedes-Benz W110",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W110_200D,_2019-05-31,_3_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/3",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W114 / W115 Stroke Eight",
+    "year": 1968,
+    "wiki": "Mercedes-Benz W114",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "1975_MB_280_US_front.jpg",
+      "Mercedes-Benz_W115_220_D_(1970)_Classic-Gala_2022_1X7A0312_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/4",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W123",
+    "year": 1976,
+    "wiki": "Mercedes-Benz W123",
+    "reason": "Model/generation match",
+    "files": [
+      "W123_Side_Profile.jpg",
+      "Mercedes-Benz_W123_T-Modell_rear_20090430.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/5",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W124",
+    "year": 1984,
+    "wiki": "Mercedes-Benz W124",
+    "reason": "Model/generation match",
+    "files": [
+      "1992_Mercedes-Benz_500E_(W124.036),_front_right.jpg",
+      "1991_Mercedes-Benz_300_TE_(W124)_Estate_rear_5.20.18.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/6",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W210",
+    "year": 1995,
+    "wiki": "Mercedes-Benz E-Class (W210)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_W210_front_20080326.jpg",
+      "Mercedes-Benz_W210_rear_20080809.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/7",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W211",
+    "year": 2002,
+    "wiki": "Mercedes-Benz E-Class (W211)",
+    "reason": "Model/generation match",
+    "files": [
+      "2004_Mercedes-Benz_E55_AMG_W211_Front.jpg",
+      "2004_Mercedes-Benz_E55_AMG_W211_Rear_2.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/8",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W212",
+    "year": 2009,
+    "wiki": "Mercedes-Benz E-Class (W212)",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes-Benz_E_220_CDI_BlueEFFICIENCY_Elegance_(W_212)_–_Frontansicht,_23._September_2012,_Düsseldorf.jpg",
+      "Mercedes-Benz_E_220_CDI_BlueEFFICIENCY_Elegance_(W_212)_–_Heckansicht,_23._September_2012,_Düsseldorf.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/9",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W213",
+    "year": 2016,
+    "wiki": "Mercedes-Benz E-Class (W213)",
+    "reason": "Manual visual selection",
+    "files": [
+      "2019_Mercedes-Benz_E220d_SE_Automatic_2.0_Front.jpg",
+      "2019_Mercedes-Benz_E220d_SE_Automatic_2.0_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/e-class/10",
+    "brand": "mercedes",
+    "car": "Ponton / fintail / E-Class lineage",
+    "variant": "W214",
+    "year": 2023,
+    "wiki": "Mercedes-Benz E-Class (W214)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W214_1X7A1841.jpg",
+      "Mercedes-Benz_W214_1X7A1843.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sl/0",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "300 SL Gullwing / W198",
+    "year": 1954,
+    "wiki": "Mercedes-Benz 300 SL",
+    "reason": "Previously verified gallery",
+    "files": [
+      "1955_Mercedes-Benz_300SL_Gullwin.jpg",
+      "56_300SL_Gullwing_opened_up.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/sl/1",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "300 SL Roadster",
+    "year": 1957,
+    "wiki": "Mercedes-Benz 300 SL",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Mercedes_300_SL_Cabrio.jpg",
+      "Armaturenbrett_Mercedes_300_SL_Cabrio.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sl/2",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "Pagoda / W113",
+    "year": 1963,
+    "wiki": "Mercedes-Benz W113",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W113_250_SL_at_Schaffen-Diest_2018_edit.jpg",
+      "Mercedes-Benz_W113_280SL.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sl/3",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "R107",
+    "year": 1971,
+    "wiki": "Mercedes-Benz R107 and C107",
+    "reason": "Manual visual selection",
+    "files": [
+      "1973_Mercedes-Benz_450_SL_in_Maple_Yellow,_front_right.jpg",
+      "1987_Mercedes-Benz_560_SL_(R_107)_roadster_(2012-06-04)_02.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sl/4",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "R129",
+    "year": 1989,
+    "wiki": "Mercedes-Benz SL-Class (R129)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_SL_R129_.jpg",
+      "R129-Facelift-Difference3.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sl/5",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "R230",
+    "year": 2001,
+    "wiki": "Mercedes-Benz SL-Class (R230)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_R230_front_20071102.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sl/6",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "R231",
+    "year": 2012,
+    "wiki": "Mercedes-Benz SL-Class (R231)",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes-Benz_SL_350_(R_231)_–_Frontansicht_geöffnet_(1),_22._Mai_2013,_Düsseldorf.jpg",
+      "Mercedes-Benz_SL_350_AMG_Line_(R_231)_–_Heckansicht,_16._März_2014,_Düsseldorf.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sl/7",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "R232 / Mercedes-AMG SL",
+    "year": 2021,
+    "wiki": "Mercedes-AMG SL (R232)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-AMG_SL_63_(R232)_IMG_0213.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sl/8",
+    "brand": "mercedes",
+    "car": "SL",
+    "variant": "Mercedes-Maybach SL",
+    "year": 2024,
+    "wiki": "Mercedes-AMG SL (R232)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Maybach_SL_680_Monogram_IAA_2025_DSC_2095.jpg",
+      "Mercedes-Maybach_SL_680_Monogram_IAA_2025_DSC_2100.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/190sl/0",
+    "brand": "mercedes",
+    "car": "190 SL",
+    "variant": "190 SL / R121",
+    "year": 1955,
+    "wiki": "Mercedes-Benz 190 SL",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "MB_190_SL_am_2006-07-16_(ret_kl).JPG",
+      "Mercedes-Benz_W121BII_1X7A0281.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/two-door-luxury/0",
+    "brand": "mercedes",
+    "car": "220 SE Coupé / SEC / CL / S Coupé",
+    "variant": "W111 / W112 Coupé and Cabriolet",
+    "year": 1961,
+    "wiki": "Mercedes-Benz W111",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_280_SE_coupe_--_03-14-2012.JPG",
+      "1969_Mercedes-Benz_280_SE_(W_111)_coupe_(2010-07-25).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/two-door-luxury/1",
+    "brand": "mercedes",
+    "car": "220 SE Coupé / SEC / CL / S Coupé",
+    "variant": "C126 SEC",
+    "year": 1981,
+    "wiki": "Mercedes-Benz C126",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_500_SEC_(C_126,_Facelift)_–_Frontansicht,_10._August_2013,_Hilden.jpg",
+      "Mercedes_Benz_500_SEC_1983_(15003999886).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/two-door-luxury/2",
+    "brand": "mercedes",
+    "car": "220 SE Coupé / SEC / CL / S Coupé",
+    "variant": "C140 S Coupé / CL",
+    "year": 1992,
+    "wiki": "Mercedes-Benz W140",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_Coupé-Baureihe_140.jpg",
+      "Mercedes-Benz_CL600_C140_1991-1998_backleft_2008-04-18_U.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/two-door-luxury/3",
+    "brand": "mercedes",
+    "car": "220 SE Coupé / SEC / CL / S Coupé",
+    "variant": "C215 CL",
+    "year": 1999,
+    "wiki": "Mercedes-Benz CL-Class (C215)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_CL500_C215_4966cc_first_registered_May_2001.JPG",
+      "Mercedes-Benz_CL_600_(C215)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/two-door-luxury/4",
+    "brand": "mercedes",
+    "car": "220 SE Coupé / SEC / CL / S Coupé",
+    "variant": "C216 CL",
+    "year": 2006,
+    "wiki": "Mercedes-Benz CL-Class (C216)",
+    "reason": "Model/generation match",
+    "files": [
+      "Black_MB_CL_65_AMG_(C216.1)_rl_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/two-door-luxury/5",
+    "brand": "mercedes",
+    "car": "220 SE Coupé / SEC / CL / S Coupé",
+    "variant": "C217 S Coupé",
+    "year": 2014,
+    "wiki": "Mercedes-Benz S-Class (C217)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_S_65_AMG_Coupé_(C217)_front.JPG",
+      "Mercedes-Benz_S_65_AMG_Coupé_(C217)_rear.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/two-door-luxury/6",
+    "brand": "mercedes",
+    "car": "220 SE Coupé / SEC / CL / S Coupé",
+    "variant": "A217 S Cabriolet",
+    "year": 2015,
+    "wiki": "Mercedes-Benz S-Class (C217)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Maybach_S_650_Cabriolet_1Y7A6044.jpg",
+      "Mercedes-Maybach_S_650_Cabriolet_1Y7A6043.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/600/0",
+    "brand": "mercedes",
+    "car": "600 / W100",
+    "variant": "600 / W100",
+    "year": 1963,
+    "wiki": "Mercedes-Benz 600",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_600_vl_silver_TCE.jpg",
+      "Mercedes-Benz_W100_600_Classic-Gala_2021_1X7A0195.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/600/1",
+    "brand": "mercedes",
+    "car": "600 / W100",
+    "variant": "Pullman / Landaulet",
+    "year": 1964,
+    "wiki": "Mercedes-Benz 600",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_600_Pullman_Landaulet.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/slc-c107/0",
+    "brand": "mercedes",
+    "car": "SLC / C107",
+    "variant": "C107 SLC",
+    "year": 1971,
+    "wiki": "Mercedes-Benz R107 and C107",
+    "reason": "Manual visual selection",
+    "files": [
+      "1977_Mercedes-Benz_450_SLC_in_Astral_Silver_Metallic_(US_model),_front_right.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/g-class/0",
+    "brand": "mercedes",
+    "car": "G-Class",
+    "variant": "W460 / W461",
+    "year": 1979,
+    "wiki": "Mercedes-Benz G-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "1986_280GE.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/g-class/1",
+    "brand": "mercedes",
+    "car": "G-Class",
+    "variant": "W463",
+    "year": 1990,
+    "wiki": "Mercedes-Benz G-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_G_550_manufaktur_Program_(W463)_front.jpg",
+      "Mercedes-Benz_G_550_manufaktur_Program_(W463)_rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/g-class/2",
+    "brand": "mercedes",
+    "car": "G-Class",
+    "variant": "G63 AMG 6×6",
+    "year": 2013,
+    "wiki": "Mercedes-Benz G-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W463_G_63_AMG_6x6_at_Legendy_2014_(cropped).JPG",
+      "Mercedes-Benz_G63_AMG_6x6,_Monaco_diplomatic_plates,_rear_right.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/g-class/3",
+    "brand": "mercedes",
+    "car": "G-Class",
+    "variant": "Second-generation W463",
+    "year": 2018,
+    "wiki": "Mercedes-Benz G-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "Techno-Classica_2018,_Essen_(IMG_9835).jpg",
+      "Mercedes-AMG_G_63_Back_Genf_2018.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/g-class/4",
+    "brand": "mercedes",
+    "car": "G-Class",
+    "variant": "W465 / electric G580",
+    "year": 2024,
+    "wiki": "Mercedes-Benz G-Class",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes-Benz_G_580_with_EQ_Technology_DSC_8256.jpg",
+      "Mercedes-Benz_G580_with_EQ_Technology_(W465)_front.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/c-class/0",
+    "brand": "mercedes",
+    "car": "190 / C-Class",
+    "variant": "190 / W201",
+    "year": 1982,
+    "wiki": "Mercedes-Benz W201",
+    "reason": "Manual visual selection",
+    "files": [
+      "1993_190E_2.3.jpg",
+      "1985_Mercedes-Benz_190_E_(W_201)_2.0_sedan_(2015-05-29)_02.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/c-class/1",
+    "brand": "mercedes",
+    "car": "190 / C-Class",
+    "variant": "W202",
+    "year": 1993,
+    "wiki": "Mercedes-Benz C-Class (W202)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W202_C_280_DSC_8896.jpg",
+      "Mercedes-Benz_AMG_C36_(W202)_rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/c-class/2",
+    "brand": "mercedes",
+    "car": "190 / C-Class",
+    "variant": "W203",
+    "year": 2000,
+    "wiki": "Mercedes-Benz C-Class (W203)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W203_front_20171214.jpg",
+      "2007_Mercedes-Benz_C180_Kompressor_W203.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/c-class/3",
+    "brand": "mercedes",
+    "car": "190 / C-Class",
+    "variant": "W204",
+    "year": 2007,
+    "wiki": "Mercedes-Benz C-Class (W204)",
+    "reason": "Manual visual selection",
+    "files": [
+      "2010_Mercedes-Benz_C180_BlueEfficiency_Elegance_CGi_Automatic_1.8_Front.jpg",
+      "2010_Mercedes-Benz_C180_BlueEfficiency_Elegance_CGi_Automatic_1.8_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/c-class/4",
+    "brand": "mercedes",
+    "car": "190 / C-Class",
+    "variant": "W205",
+    "year": 2014,
+    "wiki": "Mercedes-Benz C-Class (W205)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_C_180_Exclusive_(W_205)_–_Frontansicht,_24._Oktober_2015,_Münster.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/c-class/5",
+    "brand": "mercedes",
+    "car": "190 / C-Class",
+    "variant": "W206",
+    "year": 2021,
+    "wiki": "Mercedes-Benz C-Class (W206)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W206_IMG_5796.jpg",
+      "Mercedes-Benz_W206_IMG_5793.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/c-class/6",
+    "brand": "mercedes",
+    "car": "190 / C-Class",
+    "variant": "Electric C-Class",
+    "year": 2026,
+    "wiki": "Mercedes-Benz C-Class Electric",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes-Benz_W520_IMG_8871.jpg",
+      "Mercedes-Benz_W520_IMG_8876.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/slk/0",
+    "brand": "mercedes",
+    "car": "SLK / SLC",
+    "variant": "R170 SLK",
+    "year": 1996,
+    "wiki": "Mercedes-Benz SLK-Class (R170)",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "SLK200K.jpg",
+      "1st_Mercedes-Benz_SLK.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/slk/1",
+    "brand": "mercedes",
+    "car": "SLK / SLC",
+    "variant": "R171 SLK",
+    "year": 2004,
+    "wiki": "Mercedes-Benz SLK-Class (R171)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_SLK55_R171.jpg",
+      "Mercedes_SLK_200_Kompressor_(R171)_Facelift_rear_20100515.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/slk/2",
+    "brand": "mercedes",
+    "car": "SLK / SLC",
+    "variant": "R172 SLK",
+    "year": 2011,
+    "wiki": "Mercedes-Benz SLK-Class (R172)",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "2015_Mercedes-Benz_SLK250_AMG_Sport_CDi_BlueTec_2.1_Front.jpg",
+      "2015_Mercedes-Benz_SLK250_AMG_Sport_CDi_BlueTec_2.1_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/slk/3",
+    "brand": "mercedes",
+    "car": "SLK / SLC",
+    "variant": "R172 SLC",
+    "year": 2016,
+    "wiki": "Mercedes-Benz SLC-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_SLC_300_(MSP16).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/a-class/0",
+    "brand": "mercedes",
+    "car": "A-Class",
+    "variant": "W168",
+    "year": 1997,
+    "wiki": "Mercedes-Benz A-Class (W168)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_A_160_Elegance_(W168)_front_20090926.jpg",
+      "W168-A160_novaviolett.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/a-class/1",
+    "brand": "mercedes",
+    "car": "A-Class",
+    "variant": "W169",
+    "year": 2004,
+    "wiki": "Mercedes-Benz A-Class (W169)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_A_150_Avantgarde_(W169)_Facelift_rear_20100818.jpg",
+      "Mercedes_A_150_Elegance_(W169)_rear_20100405.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/a-class/2",
+    "brand": "mercedes",
+    "car": "A-Class",
+    "variant": "W176",
+    "year": 2012,
+    "wiki": "Mercedes-Benz A-Class (W176)",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes-Benz_A_180_Urban_(W_176)_–_Frontansicht,_30._November_2014,_Ratingen.jpg",
+      "Mercedes-Benz_A_180_Urban_(W_176)_–_Heckansicht,_25._Mai_2013,_Hilden.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/a-class/3",
+    "brand": "mercedes",
+    "car": "A-Class",
+    "variant": "W177 / V177",
+    "year": 2018,
+    "wiki": "Mercedes-Benz A-Class (W177)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-AMG_A_35_4MATIC_(W177)_1X7A0360.jpg",
+      "Mercedes-AMG_A_35_4MATIC_(W177)_1X7A0358.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/clk/0",
+    "brand": "mercedes",
+    "car": "CLK",
+    "variant": "C208 / A208",
+    "year": 1997,
+    "wiki": "Mercedes-Benz CLK-Class (C208)",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes_W208_front_20080228.jpg",
+      "Mercedes_W208_rear_20080228.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/clk/1",
+    "brand": "mercedes",
+    "car": "CLK",
+    "variant": "C209 / A209",
+    "year": 2002,
+    "wiki": "Mercedes-Benz CLK-Class (C209)",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes_CLK200Kompressor_Sportpaket_front.JPG",
+      "Mercedes-Benz_CLK200_Kompressor_rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/clk-gtr/0",
+    "brand": "mercedes",
+    "car": "CLK GTR Straßenversion",
+    "variant": "CLK GTR coupé",
+    "year": 1997,
+    "wiki": "Mercedes-Benz CLK GTR",
+    "reason": "Model/generation match",
+    "files": [
+      "Paris_-_Bonhams_2016_-_Mercedes-Benz_CLK_GTR_coupé_-_2000_-_001.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/clk-gtr/1",
+    "brand": "mercedes",
+    "car": "CLK GTR Straßenversion",
+    "variant": "CLK GTR Roadster",
+    "year": 2002,
+    "wiki": "Mercedes-Benz CLK GTR",
+    "reason": "Manual visual selection",
+    "files": [
+      "2005 Mercedes-Benz CLK GTR Roadster.jpg",
+      "2005 Mercedes-Benz CLK GTR Roadster Low.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gle/0",
+    "brand": "mercedes",
+    "car": "M-Class / GLE",
+    "variant": "W163 M-Class",
+    "year": 1997,
+    "wiki": "Mercedes-Benz M-Class (W163)",
+    "reason": "Model/generation match",
+    "files": [
+      "2001_Mercedes-Benz_ML_55_AMG_(W163)_(3844040002)_(cropped).jpg",
+      "2000_Mercedes-Benz_ML_320_(W_163_MY00)_wagon_(2010-09-23)_01.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gle/1",
+    "brand": "mercedes",
+    "car": "M-Class / GLE",
+    "variant": "W164 M-Class",
+    "year": 2005,
+    "wiki": "Mercedes-Benz M-Class (W164)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W164_ML_63_AMG_AME.jpg",
+      "Mercedes-Benz_W164_ML_63_AMG_Heck_AME.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gle/2",
+    "brand": "mercedes",
+    "car": "M-Class / GLE",
+    "variant": "W166 M-Class / GLE",
+    "year": 2011,
+    "wiki": "Mercedes-Benz GLE-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_ML_350_BlueTEC_4MATIC_(W_166)_–_Frontansicht,_8._September_2013,_Bösensell.jpg",
+      "2011-2015_Mercedes-Benz_ML_250_(W_166)_BlueTEC_wagon_(2018-11-13)_01.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gle/3",
+    "brand": "mercedes",
+    "car": "M-Class / GLE",
+    "variant": "C292 GLE Coupé",
+    "year": 2015,
+    "wiki": "Mercedes-Benz GLE-Class (C292)",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes-AMG_GLE_43_Coupe_1Y7A4927.jpg",
+      "Mercedes-Benz_GLE_350_d_4MATIC_Coupé_(C_292)_–_Heckansicht,_12._Juni_2017,_Düsseldorf.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gle/4",
+    "brand": "mercedes",
+    "car": "M-Class / GLE",
+    "variant": "W167 / C167 GLE",
+    "year": 2018,
+    "wiki": "Mercedes-Benz GLE-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "2026_Mercedes-Benz_W167_IMG_6655.jpg",
+      "2026_Mercedes-Benz_W167_IMG_6666.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/slr/0",
+    "brand": "mercedes",
+    "car": "SLR McLaren",
+    "variant": "SLR McLaren coupé",
+    "year": 2003,
+    "wiki": "Mercedes-Benz SLR McLaren",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_SLR-McLaren_722_Coupé_Rear-view.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/slr/1",
+    "brand": "mercedes",
+    "car": "SLR McLaren",
+    "variant": "SLR Roadster",
+    "year": 2007,
+    "wiki": "Mercedes-Benz SLR McLaren",
+    "reason": "Model/generation match",
+    "files": [
+      "Paris_-_Bonhams_2016_-_Mercedes-Benz_SLR_McLaren_Roadster_-_2005_-_003.jpg",
+      "Mercedes-Benz_SLR_722_Roadster_1Y7A6042.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/slr/2",
+    "brand": "mercedes",
+    "car": "SLR McLaren",
+    "variant": "Stirling Moss",
+    "year": 2009,
+    "wiki": "Mercedes-Benz SLR McLaren",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_SLR_Stirling_Moss_McLaren.jpg",
+      "Mercedes-Benz_SLR_Stirling_Moss_-_Flickr_-_Alexandre_Prévot_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cls/0",
+    "brand": "mercedes",
+    "car": "CLS",
+    "variant": "C219",
+    "year": 2004,
+    "wiki": "Mercedes-Benz CLS-Class (C219)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_C219_front_20080620.jpg",
+      "Mercedes_CLS_63_AMG_(C219)_Facelift_rear_20100814.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cls/1",
+    "brand": "mercedes",
+    "car": "CLS",
+    "variant": "C218",
+    "year": 2010,
+    "wiki": "Mercedes-Benz CLS-Class (C218)",
+    "reason": "Model/generation match",
+    "files": [
+      "MERCEDES-BENZ_CLS-CLASS_(C218)_China_(3).jpg",
+      "Mercedes-Benz_CLS63_AMG_(C218)_rear.JPG"
+    ]
+  },
+  {
+    "key": "mercedes/cls/2",
+    "brand": "mercedes",
+    "car": "CLS",
+    "variant": "X218 Shooting Brake",
+    "year": 2012,
+    "wiki": "Mercedes-Benz CLS-Class (C218)",
+    "reason": "Model/generation match",
+    "files": [
+      "2015_Mercedes-Benz_CLS_350_D_AMG-Line_3.0.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cls/3",
+    "brand": "mercedes",
+    "car": "CLS",
+    "variant": "C257",
+    "year": 2018,
+    "wiki": "Mercedes-Benz CLS-Class (C257)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_C257_at_IAA_2019_IMG_0391.jpg",
+      "Mercedes-Benz_C257_CLS_450_4MATIC_Designo_Diamond_White_Bright_(6)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/b-class/0",
+    "brand": "mercedes",
+    "car": "B-Class",
+    "variant": "W245",
+    "year": 2005,
+    "wiki": "Mercedes-Benz B-Class (W245)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_Benz_B_170_silver_vl.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/b-class/1",
+    "brand": "mercedes",
+    "car": "B-Class",
+    "variant": "W246",
+    "year": 2011,
+    "wiki": "Mercedes-Benz B-Class (W246)",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes-Benz_B_200_CDI_Sport-Paket_(W_246)_–_Frontansicht,_21._April_2014,_Düsseldorf.jpg",
+      "Mercedes-Benz_B_180_BlueEFFICIENCY_(W_246)_–_Heckansicht,_10._März_2012,_Düsseldorf.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/b-class/2",
+    "brand": "mercedes",
+    "car": "B-Class",
+    "variant": "W247",
+    "year": 2018,
+    "wiki": "Mercedes-Benz B-Class (W247)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W247_IMG_0398.jpg",
+      "Mercedes-Benz_W247_IMG_0380.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/r-class/0",
+    "brand": "mercedes",
+    "car": "R-Class",
+    "variant": "W251",
+    "year": 2005,
+    "wiki": "Mercedes-Benz R-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_W251_front_20090204.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/r-class/1",
+    "brand": "mercedes",
+    "car": "R-Class",
+    "variant": "W251 restyle",
+    "year": 2010,
+    "wiki": "Mercedes-Benz R-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "2010_Mercedes-Benz_R350L_Grand_Edition_CDi_Automatic_3.0_Front.jpg",
+      "Mercedes_R_350_CDI_4MATIC_Lang_(V251)_Facelift_rear_20101017.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gls/0",
+    "brand": "mercedes",
+    "car": "GL / GLS",
+    "variant": "X164 GL",
+    "year": 2006,
+    "wiki": "Mercedes-Benz GL-Class (X164)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes_GL_450_CDI_4MATIC_(X164)_Facelift_front_20100926.jpg",
+      "Mercedes_GL_350_CDI_BlueEFFICIENCY_4MATIC_(X164)_Facelift_front_20100710.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gls/1",
+    "brand": "mercedes",
+    "car": "GL / GLS",
+    "variant": "X166 GL / GLS",
+    "year": 2012,
+    "wiki": "Mercedes-Benz GL-Class (X166)",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "2017_Mercedes-Benz_GLS_450_wagon_(White),_front_left.jpg",
+      "Mercedes-Benz_GL_350_BlueTEC_4MATIC_(X_166)_–_Heckansicht,_25._Mai_2013,_Hilden.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gls/2",
+    "brand": "mercedes",
+    "car": "GL / GLS",
+    "variant": "X167 GLS / Mercedes-Maybach GLS",
+    "year": 2019,
+    "wiki": "Mercedes-Benz GLS (X167)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Maybach_GLS600_IMG_8066.jpg",
+      "Mercedes-Maybach_GLS600_IMG_8106.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/glc/0",
+    "brand": "mercedes",
+    "car": "GLK / GLC",
+    "variant": "X204 GLK",
+    "year": 2008,
+    "wiki": "Mercedes-Benz GLK-Class",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes-Benz_GLK_220_CDI_4MATIC_Sport-Paket_AMG_(X_204,_Facelift)_–_Frontansicht,_24._August_2014,_Düsseldorf.jpg",
+      "Mercedes_GLK_350_CDI_4MATIC_rear_20100508.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/glc/1",
+    "brand": "mercedes",
+    "car": "GLK / GLC",
+    "variant": "X253 GLC",
+    "year": 2015,
+    "wiki": "Mercedes-Benz GLC-Class (X253)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_GLC_X253_L_01_China_2019-03-14.jpg",
+      "2018_Mercedes-Benz_GLC_250_Urban_Edition_4MATIC_2.0_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/glc/2",
+    "brand": "mercedes",
+    "car": "GLK / GLC",
+    "variant": "C253 GLC Coupé",
+    "year": 2016,
+    "wiki": "Mercedes-Benz GLC-Class (X253)",
+    "reason": "Model/generation match",
+    "files": [
+      "2020_Mercedes-AMG_GLC_63_S_Coupe_front_NYIAS_2019.jpg",
+      "2020_Mercedes-AMG_GLC_63_S_Coupe_rear_NYIAS_2019.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/glc/3",
+    "brand": "mercedes",
+    "car": "GLK / GLC",
+    "variant": "X254 / C254 GLC",
+    "year": 2022,
+    "wiki": "Mercedes-Benz GLC-Class (X254)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_X254_1X7A6343.jpg",
+      "Mercedes-Benz_X254_400e_1X7A6270.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/glc/4",
+    "brand": "mercedes",
+    "car": "GLK / GLC",
+    "variant": "GLC with EQ Technology",
+    "year": 2025,
+    "wiki": "Mercedes-Benz GLC Electric",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes-Benz_GLC_with_EQ_Technology_IMG_6095.jpg",
+      "Mercedes-Benz_GLC_with_EQ_Technology_IMG_6451.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sls/0",
+    "brand": "mercedes",
+    "car": "SLS AMG",
+    "variant": "SLS AMG coupé / Electric Drive",
+    "year": 2009,
+    "wiki": "Mercedes-Benz SLS AMG",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "Mercedes-Benz_SLS_AMG_(C_197)_–_Frontansicht_geöffnet,_10._August_2011,_Düsseldorf.jpg",
+      "Mercedes_SLS_rear_20110416.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sls/1",
+    "brand": "mercedes",
+    "car": "SLS AMG",
+    "variant": "SLS Roadster",
+    "year": 2011,
+    "wiki": "Mercedes-Benz SLS AMG",
+    "reason": "Model/generation match",
+    "files": [
+      "2012_Mercedes-Benz_SLS_AMG_(R_197)_roadster_(2012-10-26)_02.jpg",
+      "Mercedes-Benz_SLS_AMG_GT_Roadster_Final_Edition_Vorderansicht_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/sls/2",
+    "brand": "mercedes",
+    "car": "SLS AMG",
+    "variant": "SLS Black Series",
+    "year": 2013,
+    "wiki": "Mercedes-Benz SLS AMG",
+    "reason": "Model/generation match",
+    "files": [
+      "2010_Mercedes-Benz_SLS_AMG_(C_197)_Blackbird_coupe_(2010-10-16)_02.jpg",
+      "2010_Mercedes-Benz_SLS_AMG_(C_197)_Blackbird_coupe_(2010-10-16)_04.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cla/0",
+    "brand": "mercedes",
+    "car": "CLA",
+    "variant": "C117",
+    "year": 2013,
+    "wiki": "Mercedes-Benz CLA-Class (C117)",
+    "reason": "Model/generation match",
+    "files": [
+      "MERCEDES_BENZ_CLA_(C117)_China_(2).jpg",
+      "Mercedes-Benz_CLA_180_Urban_(C_117)_–_Frontansicht,_18._August_2013,_Hilden.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cla/1",
+    "brand": "mercedes",
+    "car": "CLA",
+    "variant": "X117 Shooting Brake",
+    "year": 2015,
+    "wiki": "Mercedes-Benz CLA-Class (C117)",
+    "reason": "Model/generation match",
+    "files": [
+      "2015_Mercedes-Benz_CLA_250_(X_117)_Sport_4MATIC_station_wagon_(2016-02-27)_01.jpg",
+      "2015_Mercedes-Benz_CLA_250_(X_117)_Sport_4MATIC_station_wagon_(2016-02-27)_02.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cla/2",
+    "brand": "mercedes",
+    "car": "CLA",
+    "variant": "C118 / X118",
+    "year": 2019,
+    "wiki": "Mercedes-Benz CLA-Class (C118)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_C118_IMG_2673.jpg",
+      "Mercedes-Benz_CLA_180_(C118)_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cla/3",
+    "brand": "mercedes",
+    "car": "CLA",
+    "variant": "C178 / new CLA",
+    "year": 2025,
+    "wiki": "Mercedes-Benz CLA-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_C174_350_4Matic_DSC_8529.jpg",
+      "Mercedes-Benz_C174_350_4Matic_DSC_8536.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gla/0",
+    "brand": "mercedes",
+    "car": "GLA",
+    "variant": "X156",
+    "year": 2013,
+    "wiki": "Mercedes-Benz GLA-Class (X156)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_GLA_200_CDI_Urban_(X_156)_–_Frontansicht,_30._August_2014,_Düsseldorf.jpg",
+      "Mercedes-Benz_GLA_200_CDI_Urban_(X_156)_–_Heckansicht,_30._August_2014,_Düsseldorf.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gla/1",
+    "brand": "mercedes",
+    "car": "GLA",
+    "variant": "H247",
+    "year": 2019,
+    "wiki": "Mercedes-Benz GLA-Class",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_H247_IMG_3397.jpg",
+      "Mercedes-AMG_GLA_35_4MATIC_(H247)_Auto_Zuerich_2021_IMG_0269.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/amg-gt/0",
+    "brand": "mercedes",
+    "car": "AMG GT",
+    "variant": "C190 coupé",
+    "year": 2014,
+    "wiki": "Mercedes-AMG GT",
+    "reason": "Model/generation match",
+    "files": [
+      "2015-2017_Mercedes-AMG_GT_(C_190)_S_coupe_(2017-07-15)_01.jpg",
+      "2015-2017_Mercedes-AMG_GT_(C_190)_S_coupe_(2017-07-15)_02.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/amg-gt/1",
+    "brand": "mercedes",
+    "car": "AMG GT",
+    "variant": "R190 Roadster",
+    "year": 2016,
+    "wiki": "Mercedes-AMG GT",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-AMG_GT_R_Roadster,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0619).jpg",
+      "2016_LA_Auto_Show_Mercedes_AMG_GT_C_Roadster.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/amg-gt/2",
+    "brand": "mercedes",
+    "car": "AMG GT",
+    "variant": "Black Series",
+    "year": 2020,
+    "wiki": "Mercedes-AMG GT",
+    "reason": "Model/generation match",
+    "files": [
+      "2021_Mercedes-AMG_GT_Black_Series_at_FOS_2021.jpg",
+      "2021_Mercedes-AMG_GT_Black_Series.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/amg-gt/3",
+    "brand": "mercedes",
+    "car": "AMG GT",
+    "variant": "C192",
+    "year": 2023,
+    "wiki": "Mercedes-AMG GT (C192)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-AMG_C192_1X7A0832.jpg",
+      "Mercedes-AMG_C192_63_IAA_2023_1X7A0621.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/x-class/0",
+    "brand": "mercedes",
+    "car": "X-Class",
+    "variant": "W470 X-Class",
+    "year": 2017,
+    "wiki": "Mercedes-Benz X-Class",
+    "reason": "REVIEW: no exact generation filename match",
+    "files": [
+      "2018_Mercedes-Benz_X250_Power_D_4MATIC_Automatic_2.3_Front.jpg",
+      "2018_Mercedes-Benz_X250_Power_D_4MATIC_Automatic_2.3_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gt-four-door/0",
+    "brand": "mercedes",
+    "car": "AMG GT 4-Door",
+    "variant": "X290",
+    "year": 2018,
+    "wiki": "Mercedes-AMG GT 4-Door Coupé",
+    "reason": "Model/generation match",
+    "files": [
+      "MERCEDES-AMG_GT_4_DOOR_(X290)_China_(3).jpg",
+      "MERCEDES-AMG_GT_4_DOOR_(X290)_China_(4).jpg"
+    ]
+  },
+  {
+    "key": "mercedes/gt-four-door/1",
+    "brand": "mercedes",
+    "car": "AMG GT 4-Door",
+    "variant": "Electric generation",
+    "year": 2026,
+    "wiki": "Mercedes-AMG GT 4-Door Coupé",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes-AMG electric GT 4-Door — official press photograph"
+    ]
+  },
+  {
+    "key": "mercedes/eqc/0",
+    "brand": "mercedes",
+    "car": "EQC",
+    "variant": "N293 EQC",
+    "year": 2019,
+    "wiki": "Mercedes-Benz EQC",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes-Benz_EQC_400_4MATIC_AMG_Line_(N_293)_–_f_02042021.jpg",
+      "2020_Mercedes-Benz_EQC_400_AMG_Line_4MATIC_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/glb/0",
+    "brand": "mercedes",
+    "car": "GLB",
+    "variant": "X247",
+    "year": 2019,
+    "wiki": "Mercedes-Benz GLB",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_X247_IMG_5751.jpg",
+      "2020_Mercedes-Benz_GLB_200_AMG_Line_Premium_2.0_Rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/glb/1",
+    "brand": "mercedes",
+    "car": "GLB",
+    "variant": "New electric GLB",
+    "year": 2025,
+    "wiki": "Mercedes-Benz GLB",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_X244_IMG_6206.jpg",
+      "Mercedes-Benz_X244_IMG_6208.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/eqa/0",
+    "brand": "mercedes",
+    "car": "EQA",
+    "variant": "H243 EQA",
+    "year": 2021,
+    "wiki": "Mercedes-Benz EQA",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_H243_IMG_5876.jpg",
+      "Mercedes-Benz_H243_IMG_0006.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/eqb/0",
+    "brand": "mercedes",
+    "car": "EQB",
+    "variant": "X243 EQB",
+    "year": 2021,
+    "wiki": "Mercedes-Benz EQB",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_X243_300_1X7A0422.jpg",
+      "Mercedes-Benz_X243_300_1X7A0306.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/eqs/0",
+    "brand": "mercedes",
+    "car": "EQS / EQS SUV",
+    "variant": "V297 EQS liftback",
+    "year": 2021,
+    "wiki": "Mercedes-Benz EQS",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-AMG_EQS_53_4MATIC+_(V297)_front.jpg",
+      "Mercedes-Benz_V297_Classic-Days_2022_DSC_0016.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/eqs/1",
+    "brand": "mercedes",
+    "car": "EQS / EQS SUV",
+    "variant": "X296 EQS SUV",
+    "year": 2022,
+    "wiki": "Mercedes-Benz EQS SUV",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_X296_1X7A1725.jpg",
+      "Mercedes-Benz_X296_1X7A5779.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/eqe/0",
+    "brand": "mercedes",
+    "car": "EQE / EQE SUV",
+    "variant": "V295 EQE saloon",
+    "year": 2022,
+    "wiki": "Mercedes-Benz EQE",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_V295_350+_Classic-Days_2022_DSC_0018.jpg",
+      "Mercedes-Benz_V295_350+_Classic-Days_2022_DSC_0020.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/eqe/1",
+    "brand": "mercedes",
+    "car": "EQE / EQE SUV",
+    "variant": "X294 EQE SUV",
+    "year": 2022,
+    "wiki": "Mercedes-Benz EQE SUV",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_X294_IMG_8682.jpg",
+      "Mercedes-Benz_X294_IMG_8672.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/amg-one/0",
+    "brand": "mercedes",
+    "car": "AMG ONE",
+    "variant": "AMG ONE",
+    "year": 2022,
+    "wiki": "Mercedes-AMG ONE",
+    "reason": "Model article photographs",
+    "files": [
+      "Mercedes-AMG_One_at_the_2022_Goodwood_Festival_of_Speed.jpg",
+      "Mercedes-AMG_One_IAA_2021_1X7A0112.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cle/0",
+    "brand": "mercedes",
+    "car": "CLE",
+    "variant": "C236 CLE Coupé",
+    "year": 2023,
+    "wiki": "Mercedes-Benz CLE",
+    "reason": "Manual visual selection",
+    "files": [
+      "Mercedes-Benz_CLE_200_Coupé_AMG_Line_(C_236)_–_f_21012024.jpg",
+      "Mercedes-Benz_CLE_200_Coupé_AMG_Line_(C_236)_–_h_21012024.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/cle/1",
+    "brand": "mercedes",
+    "car": "CLE",
+    "variant": "A236 CLE Cabriolet",
+    "year": 2024,
+    "wiki": "Mercedes-Benz CLE",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_CLE_200_Cabriolet_(A236)_front.jpg",
+      "Mercedes-Benz_CLE_200_Cabriolet_(A236)_rear.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/clc/0",
+    "brand": "mercedes",
+    "car": "C-Class SportCoupé / CLC",
+    "variant": "CL203 SportCoupé",
+    "year": 2000,
+    "wiki": "Mercedes-Benz C-Class (W203)",
+    "reason": "Model/generation match",
+    "files": [
+      "Mercedes-Benz_C_230_Kompressor_Sportcoupé_(CL_203)_–_Frontansicht,_31._Mai_2011,_Wülfrath.jpg",
+      "Mercedes-Benz_C_230_Kompressor_Sportcoupé_(CL_203)_–_Heckansicht,_31._Mai_2011,_Wülfrath.jpg"
+    ]
+  },
+  {
+    "key": "mercedes/clc/1",
+    "brand": "mercedes",
+    "car": "C-Class SportCoupé / CLC",
+    "variant": "CLC",
+    "year": 2008,
+    "wiki": "Mercedes-Benz C-Class (W203)",
+    "reason": "Manual visual selection",
+    "files": [
+      "2008-2011_Mercedes-Benz_CLC_200_Kompressor_(CL_203)_hatchback_(2011-11-17)_01.jpg",
+      "2008-2011_Mercedes-Benz_CLC_200_Kompressor_(CL_203)_hatchback_(2011-11-17)_03.jpg"
+    ]
+  }
+]

@@ -1,0 +1,1057 @@
+{
+  "archive": true,
+  "brand": "Tesla",
+  "heroId": "roadster",
+  "updated": "20 October 2026",
+  "sources": {
+    "history-roadster-0": {
+      "outlet": "Model history",
+      "title": "Original Roadster / Sport / 2.5 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_%28first_generation%29"
+    },
+    "reading-roadster-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Tesla declares transmission problems solved, finished Roadster now in production",
+      "url": "http://wot.motortrend.com/6294593/green/tesla-declares-transmission-problems-solved-finished-roadster-now-in-production/index.html"
+    },
+    "reading-roadster-0-1": {
+      "outlet": "MotorTrend",
+      "title": "2009 Lotus Elise Recalls—2009 Lotus Elise Recall Reports",
+      "url": "https://web.archive.org/web/20091011232810/http://www.motortrend.com/cars/2009/lotus/elise/recalls/index.html"
+    },
+    "reading-roadster-0-2": {
+      "outlet": "MotorTrend",
+      "title": "2010 Tesla Roadster Sport Specs",
+      "url": "http://www.motortrend.com/roadtests/alternative/112_0912_2010_tesla_roadster_sport_test/specs.html#ixzz0b8yiYKO0"
+    },
+    "history-model-s-0": {
+      "outlet": "Model history",
+      "title": "Original Model S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_S"
+    },
+    "reading-model-s-0-0": {
+      "outlet": "Auto Express",
+      "title": "Tesla Model S practicality, boot size, dimensions & luggage capacity",
+      "url": "https://www.autoexpress.co.uk/tesla/model-s/practicality"
+    },
+    "reading-model-s-0-1": {
+      "outlet": "Road & Track",
+      "title": "Tesla Model S has lived long enough to see itself become a villain",
+      "url": "https://www.roadandtrack.com/reviews/a45688551/2023-tesla-model-s-plaid-pevoty-review/"
+    },
+    "reading-model-s-0-2": {
+      "outlet": "Car and Driver",
+      "title": "2024 Tesla Model X review, pricing, and specs",
+      "url": "https://www.caranddriver.com/tesla/model-x"
+    },
+    "history-model-s-1": {
+      "outlet": "Model history",
+      "title": "Revised nose — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_S"
+    },
+    "history-model-s-2": {
+      "outlet": "Model history",
+      "title": "Cabin redesign / Plaid — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_S"
+    },
+    "history-model-x-0": {
+      "outlet": "Model history",
+      "title": "Original Model X — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_X"
+    },
+    "reading-model-x-0-0": {
+      "outlet": "Auto Express",
+      "title": "Tesla Model X facelift: new interior and 1,006bhp Plaid model for 2021",
+      "url": "https://www.autoexpress.co.uk/news/354161/tesla-model-x-facelift-new-interior-and-1006bhp-plaid-model-2021"
+    },
+    "reading-model-x-0-1": {
+      "outlet": "Autocar",
+      "title": "Geneva show: Tesla Model X",
+      "url": "http://www.autocar.co.uk/www.autocar.co.uk/News/NewsArticle/AllCars/261282/"
+    },
+    "reading-model-x-0-2": {
+      "outlet": "Car and Driver",
+      "title": "Lowercase x: Tesla Launches Lower-Priced Model X 60D",
+      "url": "https://www.caranddriver.com/news/lowercase-x-tesla-launches-lower-priced-model-x-60d"
+    },
+    "history-model-x-1": {
+      "outlet": "Model history",
+      "title": "Cabin redesign / Plaid — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_X"
+    },
+    "history-model-3-0": {
+      "outlet": "Model history",
+      "title": "Original Model 3 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_3"
+    },
+    "reading-model-3-0-0": {
+      "outlet": "Car and Driver",
+      "title": "2024 Tesla Model 3",
+      "url": "https://www.caranddriver.com/tesla/model-3"
+    },
+    "reading-model-3-0-1": {
+      "outlet": "Road & Track",
+      "title": "Tesla Motors Will Produce a Semi Truck and a Model 3-Based Pickup",
+      "url": "http://www.roadandtrack.com/new-cars/future-cars/news/a30051/tesla-secret-master-plan-elon-musk-trucks/"
+    },
+    "reading-model-3-0-2": {
+      "outlet": "Car and Driver",
+      "title": "The \"$35,000\" Tesla Model 3 Is No More, and It Seems That It Never Was",
+      "url": "https://www.caranddriver.com/news/a27120534/tesla-model-3-lineup-changes-standard-range/"
+    },
+    "history-model-3-1": {
+      "outlet": "Model history",
+      "title": "Highland — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_3"
+    },
+    "history-model-y-0": {
+      "outlet": "Model history",
+      "title": "Original Model Y — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y"
+    },
+    "reading-model-y-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Tesla Model Y Performance First Drive Review: Putting Europe on Notice",
+      "url": "https://www.motortrend.com/reviews/2020-tesla-model-y-performance-first-drive-review/"
+    },
+    "reading-model-y-0-1": {
+      "outlet": "Car and Driver",
+      "title": "Tesla Beats Expectations, Declares a Profit, and Has Started Model Y Production",
+      "url": "https://www.caranddriver.com/news/a30705862/tesla-production-results-q4-model-y/"
+    },
+    "reading-model-y-0-2": {
+      "outlet": "MotorTrend",
+      "title": "Tesla Model Y First Ride: A Compact Crossover For Canyon Roads",
+      "url": "https://www.motortrend.com/news/tesla-model-y-first-ride/"
+    },
+    "history-model-y-1": {
+      "outlet": "Model history",
+      "title": "Juniper — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y"
+    },
+    "history-model-y-2": {
+      "outlet": "Model history",
+      "title": "Model Y L — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y"
+    },
+    "history-cybertruck-0": {
+      "outlet": "Model history",
+      "title": "Production Cybertruck — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+    },
+    "reading-cybertruck-0-0": {
+      "outlet": "Top Gear",
+      "title": "Tesla Cybertruck review",
+      "url": "https://www.topgear.com/car-reviews/tesla/cybertruck"
+    },
+    "reading-cybertruck-0-1": {
+      "outlet": "MotorTrend",
+      "title": "2024 Tesla Cybertruck Dual Motor Foundation Series First Test: You're All Wrong",
+      "url": "https://www.motortrend.com/reviews/2024-tesla-cybertruck-dual-motor-foundation-series-first-test-review/"
+    },
+    "reading-cybertruck-0-2": {
+      "outlet": "Car and Driver",
+      "title": "2024 Tesla Cybertruck Beast Tested: Space Truckin'",
+      "url": "https://www.caranddriver.com/reviews/a60115630/2024-tesla-cybertruck-beast-test/"
+    },
+    "history-cybercab-0": {
+      "outlet": "Model history",
+      "title": "Production programme — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Cybercab"
+    },
+    "reading-cybercab-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Tesla Cybercab First Look: No Steering Wheel! No Brake Pedal! No Problem?",
+      "url": "https://www.motortrend.com/news/tesla-cybercab-first-look-no-steering-wheel-no-brake-pedal-no-problem"
+    },
+    "reading-cybercab-0-1": {
+      "outlet": "MotorTrend",
+      "title": "Tesla Cybercab First Ride: What It's Really Like to Use Tesla's New Autonomous Taxi",
+      "url": "https://www.motortrend.com/reviews/tesla-cybercab-first-ride-austin-robotaxi-review"
+    },
+    "reading-cybercab-0-2": {
+      "outlet": "Car and Driver",
+      "title": "New Tesla Cybercab Specs Have Been Revealed in EPA Documents",
+      "url": "https://www.caranddriver.com/news/a71590701/tesla-cybercab-specs-epa-documents-revealed/"
+    }
+  },
+  "cars": [
+    {
+      "id": "roadster",
+      "name": "Roadster",
+      "category": "Electric sports car",
+      "story": "Tesla’s first production car uses a Lotus-derived open sports-car body and battery-electric power. Later Sport and 2.5 updates retain the same principal design.",
+      "variants": [
+        {
+          "year": 2008,
+          "name": "Original Roadster / Sport / 2.5",
+          "wiki": "Tesla Roadster (first generation)",
+          "match": "Roadster",
+          "shape": "A compact open two-seater with side cooling intakes.",
+          "engineering": "A Lotus-derived structure repackaged around a battery and electric motor.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Roadster_%28first_generation%29",
+          "photos": [
+            {
+              "src": "../assets/efac46770a28d4.webp",
+              "file": "Roadster_San_Diego.jpg",
+              "credit": "Tesla Motors Inc.",
+              "license": "Copyrighted free use",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Copyrighted_free_use",
+              "page": "https://commons.wikimedia.org/wiki/File:Roadster_San_Diego.jpg",
+              "description": "Tesla Roadster is sold throughout North America, Europe and Asia.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/5804c826a33a76.webp",
+              "file": "Tesla_Roadster_-_Flickr_-_Alexandre_Prévot_(1).jpg",
+              "credit": "Alexandre Prévot from Nancy, France",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Roadster_-_Flickr_-_Alexandre_Pr%C3%A9vot_(1).jpg",
+              "description": "Tesla Roadster",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2008–2012",
+            "Class": "Two-seater / sports car ( S )",
+            "Body style": "2-door roadster",
+            "Layout": "Rear mid-motor, rear-wheel drive",
+            "Electric motor": "3-phase 4-pole AC induction motor 1.5 : 248 hp (185 kW), 200 lb⋅ft (270 N⋅m) 2.0, 2.5 : 288 hp (215 kW), 280 lb⋅ft (380 N⋅m) 2.5 Sport : 288 hp (215 kW), 295 lb⋅ft (400 N⋅m)",
+            "Transmission": "1-speed BorgWarner (8.27:1 ratio)"
+          }
+        }
+      ],
+      "inherit": "roadster",
+      "brand": "Tesla",
+      "country": "United States",
+      "year": 2008,
+      "designer": "Tesla design teams",
+      "title": "A compact open two-seater with side cooling intakes.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-roadster-0-2",
+        "reading-roadster-0-1",
+        "reading-roadster-0-0",
+        "history-roadster-0"
+      ],
+      "video": {
+        "title": "Jeremy Clarkson tests the original Tesla Roadster",
+        "channel": "Top Gear",
+        "episode": "Series 12 · Episode 7",
+        "url": "https://www.ausmotive.com/2008/12/15/top-gear-series-12-episode-7.html",
+        "note": "Historical episode reference. Its range and breakdown portrayal was disputed by Tesla; use the linked evo retrospective for the selection rationale."
+      },
+      "facts": {
+        "Production": "2008–2012",
+        "Class": "Two-seater / sports car ( S )",
+        "Body style": "2-door roadster",
+        "Layout": "Rear mid-motor, rear-wheel drive",
+        "Electric motor": "3-phase 4-pole AC induction motor 1.5 : 248 hp (185 kW), 200 lb⋅ft (270 N⋅m) 2.0, 2.5 : 288 hp (215 kW), 280 lb⋅ft (380 N⋅m) 2.5 Sport : 288 hp (215 kW), 295 lb⋅ft (400 N⋅m)",
+        "Transmission": "1-speed BorgWarner (8.27:1 ratio)"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "model-s",
+      "name": "Model S",
+      "category": "Electric liftback",
+      "story": "The Model S combines a large five-door body with electric power and a touchscreen-led cabin. Its nose and later interior redesigns mark the main visual chapters.",
+      "variants": [
+        {
+          "year": 2012,
+          "name": "Original Model S",
+          "wiki": "Tesla Model S",
+          "match": "201[2-5]",
+          "shape": "A dark nose panel and tall central portrait screen.",
+          "engineering": "A battery-electric liftback platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+          "photos": [
+            {
+              "src": "../assets/09b0dd822cac9f.webp",
+              "file": "2013 Tesla Model S (11322176214) cropped.jpg",
+              "credit": "Niels de Wit from Lunteren, The Netherlands",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2013_Tesla_Model_S_(11322176214)_cropped.jpg",
+              "description": "White Tesla Model S all-electric sedan in the Netherlands",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/8331e2c5b15ac9.webp",
+              "file": "Tesla Model S interior - Tokyo Motor Show 2013.jpg",
+              "credit": "Loadbeta",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_interior_-_Tokyo_Motor_Show_2013.jpg",
+              "description": "Tesla Model S photographed at the Tokyo Motor Show 2013.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "June 2012 – May 2026",
+            "Designer": "Franz von Holzhausen (2008) Peter Rawlinson (Chief Engineer)",
+            "Class": "Full-size",
+            "Body style": "4-door liftback sedan",
+            "Layout": "Rear-motor, rear-wheel drive Dual-motor, all-wheel drive Tri-motor, all-wheel-drive (Plaid)",
+            "Electric motor": "Alternating current induction motor Permanent magnet synchronous reluctance motor (rear motor for dual-motor models; 2019–2026)",
+            "Transmission": "Single-speed reduction gear"
+          }
+        },
+        {
+          "year": 2016,
+          "name": "Revised nose",
+          "wiki": "Tesla Model S",
+          "match": "201[6-9]",
+          "shape": "A smaller grille-free nose opening.",
+          "engineering": "The same body platform with developed electric drivetrains.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+          "photos": [
+            {
+              "src": "../assets/1545a95ab4d572.webp",
+              "file": "2016_Tesla_Model_S_75_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2016_Tesla_Model_S_75_Front.jpg",
+              "description": "2016 Tesla Model S 75 Front Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/70a125d699449c.webp",
+              "file": "2016_Tesla_Model_S_75_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2016_Tesla_Model_S_75_Rear.jpg",
+              "description": "2016 Tesla Model S 75 Front Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "June 2012 – May 2026",
+            "Designer": "Franz von Holzhausen (2008) Peter Rawlinson (Chief Engineer)",
+            "Class": "Full-size",
+            "Body style": "4-door liftback sedan",
+            "Layout": "Rear-motor, rear-wheel drive Dual-motor, all-wheel drive Tri-motor, all-wheel-drive (Plaid)",
+            "Electric motor": "Alternating current induction motor Permanent magnet synchronous reluctance motor (rear motor for dual-motor models; 2019–2026)",
+            "Transmission": "Single-speed reduction gear"
+          }
+        },
+        {
+          "year": 2021,
+          "name": "Cabin redesign / Plaid",
+          "wiki": "Tesla Model S",
+          "match": "Plaid",
+          "shape": "A horizontal central display and revised cabin controls.",
+          "engineering": "A redesigned cabin; Plaid adds a three-motor drivetrain.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+          "photos": [
+            {
+              "src": "../assets/9fc2bd272b9b7e.webp",
+              "file": "Tesla_Model_S_(2023)_Motorworld_Munich_1X7A0025.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_(2023)_Motorworld_Munich_1X7A0025.jpg",
+              "description": "Tesla Model S (2023) at Motorworld Munich",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/590a1a4b7ac70e.webp",
+              "file": "Tesla_Model_S_Plaid_Autofrühling_Ulm_IMG_9321_(cropped).jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_Plaid_Autofr%C3%BChling_Ulm_IMG_9321_(cropped).jpg",
+              "description": "Tesla Model S Plaid at Autofrühling Ulm",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "June 2012 – May 2026",
+            "Designer": "Franz von Holzhausen (2008) Peter Rawlinson (Chief Engineer)",
+            "Class": "Full-size",
+            "Body style": "4-door liftback sedan",
+            "Layout": "Rear-motor, rear-wheel drive Dual-motor, all-wheel drive Tri-motor, all-wheel-drive (Plaid)",
+            "Electric motor": "Alternating current induction motor Permanent magnet synchronous reluctance motor (rear motor for dual-motor models; 2019–2026)",
+            "Transmission": "Single-speed reduction gear"
+          }
+        }
+      ],
+      "inherit": "model-s",
+      "brand": "Tesla",
+      "country": "United States",
+      "year": 2012,
+      "designer": "Franz von Holzhausen (2008) Peter Rawlinson (Chief Engineer)",
+      "title": "A dark nose panel and tall central portrait screen.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-model-s-0-2",
+        "reading-model-s-0-1",
+        "reading-model-s-0-0",
+        "history-model-s-0",
+        "history-model-s-1",
+        "history-model-s-2"
+      ],
+      "video": {
+        "id": "34VZzBWBDN0",
+        "title": "Model S Plaid: things I love and hate",
+        "channel": "Auto Focus",
+        "note": "Marques Brownlee’s ownership review of the 2021-onward interior and powertrain.",
+        "url": "https://www.youtube.com/watch?v=34VZzBWBDN0"
+      },
+      "facts": {
+        "Production": "June 2012 – May 2026",
+        "Designer": "Franz von Holzhausen (2008) Peter Rawlinson (Chief Engineer)",
+        "Class": "Full-size",
+        "Body style": "4-door liftback sedan",
+        "Layout": "Rear-motor, rear-wheel drive Dual-motor, all-wheel drive Tri-motor, all-wheel-drive (Plaid)",
+        "Electric motor": "Alternating current induction motor Permanent magnet synchronous reluctance motor (rear motor for dual-motor models; 2019–2026)",
+        "Transmission": "Single-speed reduction gear"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "model-x",
+      "name": "Model X",
+      "category": "Electric SUV",
+      "story": "The Model X combines a tall electric SUV body with roof-hinged rear doors. The 2021 cabin update changes the interface while retaining the main body design.",
+      "variants": [
+        {
+          "year": 2015,
+          "name": "Original Model X",
+          "wiki": "Tesla Model X",
+          "match": "201[5-9]",
+          "shape": "A tall body with roof-hinged Falcon Wing rear doors.",
+          "engineering": "An electric SUV platform with a low battery pack.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+          "photos": [
+            {
+              "src": "../brand-assets/0f7cad963b0c07.webp",
+              "file": "2017_Tesla_Model_X_100D_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2017_Tesla_Model_X_100D_Front.jpg",
+              "description": "2017 Tesla Model X 100D Front Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/fab0a34405c58f.webp",
+              "file": "2017_Tesla_Model_X_100D_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2017_Tesla_Model_X_100D_Rear.jpg",
+              "description": "2017 Tesla Model X 100D Rear Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2015 – May 2026",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Mid-size luxury crossover SUV ( E )",
+            "Body style": "5-door SUV",
+            "Layout": "Dual-motor, all-wheel-drive Tri-motor, all-wheel-drive (Plaid)",
+            "Electric motor": "670 hp (500 kW) (Long Range) 1,020 hp (760 kW) (Plaid) Discontinued previously 60D, 75D, 90D, 100D : 259 hp (193 kW) front and rear P90D, P100D : 259 hp (193 kW) front, 503 hp (375 kW) rear",
+            "Transmission": "Single-speed transaxle gearboxes 60D, 75D, 90D, 100D : 9.34:1 front, 9.34:1 rear P90D, P100D : 9.34:1 front, 9.73:1 rear"
+          }
+        },
+        {
+          "year": 2021,
+          "name": "Cabin redesign / Plaid",
+          "wiki": "Tesla Model X",
+          "match": "Plaid",
+          "shape": "A horizontal centre display and revised steering controls.",
+          "engineering": "A revised cabin and updated electric drivetrains.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+          "photos": [
+            {
+              "src": "../brand-assets/b3d57428af8e89.webp",
+              "file": "Tesla Model X Plaid Front.jpg",
+              "credit": "Mpelas199",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_X_Plaid_Front.jpg",
+              "description": "Tesla Model X Plaid Front at Tesla Athens",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/d52f50ddee0420.webp",
+              "file": "Tesla Model X Plaid Back.jpg",
+              "credit": "Mpelas199",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_X_Plaid_Back.jpg",
+              "description": "Tesla Model X Plaid Back at Tesla Athens",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/353d21e79a5472.webp",
+              "file": "Tesla Model X Plaid Interior 2.jpg",
+              "credit": "Mpelas199",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_X_Plaid_Interior_2.jpg",
+              "description": "Tesla Model X Plaid with yoke, interior view from 3rd row",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2015 – May 2026",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Mid-size luxury crossover SUV ( E )",
+            "Body style": "5-door SUV",
+            "Layout": "Dual-motor, all-wheel-drive Tri-motor, all-wheel-drive (Plaid)",
+            "Electric motor": "670 hp (500 kW) (Long Range) 1,020 hp (760 kW) (Plaid) Discontinued previously 60D, 75D, 90D, 100D : 259 hp (193 kW) front and rear P90D, P100D : 259 hp (193 kW) front, 503 hp (375 kW) rear",
+            "Transmission": "Single-speed transaxle gearboxes 60D, 75D, 90D, 100D : 9.34:1 front, 9.34:1 rear P90D, P100D : 9.34:1 front, 9.73:1 rear"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Tesla",
+      "country": "United States",
+      "year": 2015,
+      "designer": "Franz von Holzhausen",
+      "title": "A tall body with roof-hinged Falcon Wing rear doors.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-model-x-0-2",
+        "reading-model-x-0-1",
+        "reading-model-x-0-0",
+        "history-model-x-0",
+        "history-model-x-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2015 – May 2026",
+        "Designer": "Franz von Holzhausen",
+        "Class": "Mid-size luxury crossover SUV ( E )",
+        "Body style": "5-door SUV",
+        "Layout": "Dual-motor, all-wheel-drive Tri-motor, all-wheel-drive (Plaid)",
+        "Electric motor": "670 hp (500 kW) (Long Range) 1,020 hp (760 kW) (Plaid) Discontinued previously 60D, 75D, 90D, 100D : 259 hp (193 kW) front and rear P90D, P100D : 259 hp (193 kW) front, 503 hp (375 kW) rear",
+        "Transmission": "Single-speed transaxle gearboxes 60D, 75D, 90D, 100D : 9.34:1 front, 9.34:1 rear P90D, P100D : 9.34:1 front, 9.73:1 rear"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "model-3",
+      "name": "Model 3",
+      "category": "Electric saloon",
+      "story": "Tesla’s smaller saloon centres its cabin on one display. The Highland redesign changes the lighting, cabin details and control arrangement.",
+      "variants": [
+        {
+          "year": 2017,
+          "name": "Original Model 3",
+          "wiki": "Tesla Model 3",
+          "match": "2019",
+          "shape": "A smooth nose and bare dashboard centred on one screen.",
+          "engineering": "A battery-electric saloon platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+          "photos": [
+            {
+              "src": "../assets/d2d02850c2206e.webp",
+              "file": "2019_Tesla_Model_3_Performance_AWD_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2019_Tesla_Model_3_Performance_AWD_Front.jpg",
+              "description": "2019 Tesla Model 3 Performance AWD Front Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/ee2d08a018dd0f.webp",
+              "file": "2019_Tesla_Model_3_Performance_AWD_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2019_Tesla_Model_3_Performance_AWD_Rear.jpg",
+              "description": "2019 Tesla Model 3 Performance AWD Rear Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2017–present",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Mid-size car",
+            "Body style": "4-door sedan",
+            "Layout": "Rear-motor, rear-wheel drive Dual-motor, all-wheel drive",
+            "Electric motor": "Rear : Internal permanent magnet , synchronous reluctance (IPM-SynRM) Front (optional): Induction",
+            "Transmission": "Single-speed fixed (9:1 ratio)"
+          }
+        },
+        {
+          "year": 2023,
+          "name": "Highland",
+          "wiki": "Tesla Model 3",
+          "match": "2023",
+          "shape": "Slimmer lamps and revised rear lighting; a new cabin light strip.",
+          "engineering": "Updated suspension, sound insulation and cabin controls.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+          "photos": [
+            {
+              "src": "../assets/f5dd161c54549a.webp",
+              "file": "Tesla_Model_3_(2023)_IMG_9488_(cropped).jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_IMG_9488_(cropped).jpg",
+              "description": "Tesla Model 3 (2023) in Neu-Ulm",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/d80b2bbb67c763.webp",
+              "file": "Tesla_Model_3_(2023)_Autofrühling_Ulm_IMG_9324.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_Autofr%C3%BChling_Ulm_IMG_9324.jpg",
+              "description": "Tesla Model 3 (2023) at Autofrühling Ulm",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2017–present",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Mid-size car",
+            "Body style": "4-door sedan",
+            "Layout": "Rear-motor, rear-wheel drive Dual-motor, all-wheel drive",
+            "Electric motor": "Rear : Internal permanent magnet , synchronous reluctance (IPM-SynRM) Front (optional): Induction",
+            "Transmission": "Single-speed fixed (9:1 ratio)"
+          }
+        }
+      ],
+      "inherit": "model-3",
+      "brand": "Tesla",
+      "country": "United States",
+      "year": 2017,
+      "designer": "Franz von Holzhausen",
+      "title": "A smooth nose and bare dashboard centred on one screen.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-model-3-0-2",
+        "reading-model-3-0-1",
+        "reading-model-3-0-0",
+        "history-model-3-0",
+        "history-model-3-1"
+      ],
+      "video": {
+        "id": "3YI7Lxop0n8",
+        "title": "Tesla Model 3: ride, handling, controls and charging",
+        "channel": "Top Gear",
+        "note": "Top Gear Tested review of the pre-Highland car, filmed in 2021.",
+        "url": "https://www.youtube.com/watch?v=3YI7Lxop0n8"
+      },
+      "facts": {
+        "Production": "2017–present",
+        "Designer": "Franz von Holzhausen",
+        "Class": "Mid-size car",
+        "Body style": "4-door sedan",
+        "Layout": "Rear-motor, rear-wheel drive Dual-motor, all-wheel drive",
+        "Electric motor": "Rear : Internal permanent magnet , synchronous reluctance (IPM-SynRM) Front (optional): Induction",
+        "Transmission": "Single-speed fixed (9:1 ratio)"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "model-y",
+      "name": "Model Y",
+      "category": "Electric crossover",
+      "story": "The Model Y extends Tesla’s compact electric platform into a taller five-door body. The Juniper redesign and longer Model Y L provide distinct later forms.",
+      "variants": [
+        {
+          "year": 2020,
+          "name": "Original Model Y",
+          "wiki": "Tesla Model Y",
+          "match": "202[0-4]",
+          "shape": "A high roof and hatchback body related to the Model 3.",
+          "engineering": "A battery-electric crossover platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+          "photos": [
+            {
+              "src": "../brand-assets/a1c6e763699a45.webp",
+              "file": "2024_Tesla_Model_Y_RWD_front.jpg",
+              "credit": "LuvsMG481",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Model_Y_RWD_front.jpg",
+              "description": "2024 Tesla Model Y RWD at Bondi. Nice find, to be honest last one on the memory card before change to new one.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/4571604ca02f2a.webp",
+              "file": "2024_Tesla_Model_Y_RWD_rear.jpg",
+              "credit": "LuvsMG481",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Model_Y_RWD_rear.jpg",
+              "description": "2024 Tesla Model Y RWD at Bondi. Nice find, to be honest last one on the memory card before change to new one.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "January 2020 – present",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Compact crossover SUV Mid-size crossover SUV (Model Y L)",
+            "Body style": "5-door SUV",
+            "Layout": "Rear-motor, rear-wheel-drive Dual-motor, all-wheel-drive",
+            "Electric motor": "Internal permanent magnet , synchronous reluctance (rear) Induction (front, AWD only)"
+          }
+        },
+        {
+          "year": 2025,
+          "name": "Juniper",
+          "wiki": "Tesla Model Y",
+          "match": "Juniper",
+          "shape": "Full-width front and rear lighting change the face and tail.",
+          "engineering": "A revised cabin and updated crossover platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+          "photos": [
+            {
+              "src": "../brand-assets/7fab0b5af27913.webp",
+              "file": "Tesla_Model_Y_Premium_(Facelift)_–_f_05052026.jpg",
+              "credit": "© M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_Premium_(Facelift)_%E2%80%93_f_05052026.jpg",
+              "description": "Tesla Model Y Premium (Facelift)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/b1e6f8a9cce27e.webp",
+              "file": "Tesla_Model_Y_Premium_(Facelift)_–_h_05052026.jpg",
+              "credit": "© M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_Premium_(Facelift)_%E2%80%93_h_05052026.jpg",
+              "description": "Tesla Model Y Premium (Facelift)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "January 2020 – present",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Compact crossover SUV Mid-size crossover SUV (Model Y L)",
+            "Body style": "5-door SUV",
+            "Layout": "Rear-motor, rear-wheel-drive Dual-motor, all-wheel-drive",
+            "Electric motor": "Internal permanent magnet , synchronous reluctance (rear) Induction (front, AWD only)"
+          }
+        },
+        {
+          "year": 2025,
+          "name": "Model Y L",
+          "wiki": "Tesla Model Y",
+          "match": "Model.Y.L",
+          "shape": "A longer body and taller rear passenger area.",
+          "engineering": "A longer-wheelbase six-seat body variant.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+          "photos": [
+            {
+              "src": "../brand-assets/424f04c46e747a.webp",
+              "file": "Tesla_Model_Y_L_Premium_Long_Range_AWD_Cosmic_Silver_03.jpg",
+              "credit": "Ethan Llamas",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_L_Premium_Long_Range_AWD_Cosmic_Silver_03.jpg",
+              "description": "Cosmic Silver Tesla Model Y L Premium Long Range AWD BEV crossover SUV at the Model Y L \"Delivery Day\" at Seven Neo, BGC; handing over the first few units of the Model Y L.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/de08f55f0bda14.webp",
+              "file": "Tesla_Model_Y_L_Premium_Long_Range_AWD_Cosmic_Silver_04.jpg",
+              "credit": "Ethan Llamas",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_L_Premium_Long_Range_AWD_Cosmic_Silver_04.jpg",
+              "description": "Cosmic Silver Tesla Model Y L Premium Long Range AWD BEV crossover SUV at the Model Y L \"Delivery Day\" at Seven Neo, BGC; handing over the first few units of the Model Y L.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "January 2020 – present",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Compact crossover SUV Mid-size crossover SUV (Model Y L)",
+            "Body style": "5-door SUV",
+            "Layout": "Rear-motor, rear-wheel-drive Dual-motor, all-wheel-drive",
+            "Electric motor": "Internal permanent magnet , synchronous reluctance (rear) Induction (front, AWD only)"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Tesla",
+      "country": "United States",
+      "year": 2020,
+      "designer": "Franz von Holzhausen",
+      "title": "A high roof and hatchback body related to the Model 3.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-model-y-0-2",
+        "reading-model-y-0-1",
+        "reading-model-y-0-0",
+        "history-model-y-0",
+        "history-model-y-1",
+        "history-model-y-2"
+      ],
+      "video": {
+        "id": "wGymLNmfhvo",
+        "title": "Tesla Model Y review",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=wGymLNmfhvo",
+        "note": "Ollie Kew tests the original Model Y; the later Juniper body is shown separately in the timeline.",
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+      },
+      "facts": {
+        "Production": "January 2020 – present",
+        "Designer": "Franz von Holzhausen",
+        "Class": "Compact crossover SUV Mid-size crossover SUV (Model Y L)",
+        "Body style": "5-door SUV",
+        "Layout": "Rear-motor, rear-wheel-drive Dual-motor, all-wheel-drive",
+        "Electric motor": "Internal permanent magnet , synchronous reluctance (rear) Induction (front, AWD only)"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "cybertruck",
+      "name": "Cybertruck",
+      "category": "Electric pickup",
+      "story": "Tesla’s personal-use pickup uses exposed stainless-steel panels and a sharply faceted body. The road production car is dated from 2023, rather than the 2019 prototype reveal.",
+      "variants": [
+        {
+          "year": 2023,
+          "name": "Production Cybertruck",
+          "wiki": "Tesla Cybertruck",
+          "match": "202[3-6]",
+          "shape": "Flat stainless-steel panels, a triangular roof and a full-width light strip.",
+          "engineering": "A battery-electric pickup platform with steer-by-wire.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+          "photos": [
+            {
+              "src": "../assets/b623ab541d4429.webp",
+              "file": "2024_Tesla_Cybertruck_Foundation_Series,_front_left_(Greenwich).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck_Foundation_Series,_front_left_(Greenwich).jpg",
+              "description": "A 2024 Tesla Cybertruck Foundation Series at the 2024 Greenwich Concours d'Elegance. I feel vaguely dirty for having photographed one of these idiocies, but I can never resist a shot of any car with an uncluttered background. Weighs 6669 lbs as per the registration - absolute insanity; this is not the way forward.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/80f0f4087ab72b.webp",
+              "file": "Tesla_Cybertruck_-_04.jpg",
+              "credit": "Oleg Yunakov",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Cybertruck_-_04.jpg",
+              "description": "Tesla Cybertruck",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/b82589aaf90e91.webp",
+              "file": "Tesla_Cybertruck_MYLE_Festival_2025_DSC_9389.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Cybertruck_MYLE_Festival_2025_DSC_9389.jpg",
+              "description": "Tesla Cybertruck at MYLE Festival Munich 2025",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "November 2023 – present",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Full-size pickup truck",
+            "Body style": "4-door crew cab",
+            "Layout": "Rear motor, rear-wheel drive Dual- or tri-motor, all-wheel drive",
+            "Electric motor": "RWD: Permanent magnet AWD: Induction (front) , permanent magnet (rear) Cyberbeast: Permanent magnet (front) , 2 × induction (rear)",
+            "Transmission": "Single-speed fixed (15:1 ratio)"
+          }
+        }
+      ],
+      "inherit": "cybertruck",
+      "brand": "Tesla",
+      "country": "United States",
+      "year": 2023,
+      "designer": "Franz von Holzhausen",
+      "title": "Flat stainless-steel panels, a triangular roof and a full-width light strip.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-cybertruck-0-2",
+        "reading-cybertruck-0-1",
+        "reading-cybertruck-0-0",
+        "history-cybertruck-0"
+      ],
+      "video": {
+        "id": "hcioIka_ByE",
+        "title": "Living with the Cybertruck so you don’t have to",
+        "channel": "Auto Focus",
+        "note": "",
+        "url": "https://www.youtube.com/watch?v=hcioIka_ByE"
+      },
+      "facts": {
+        "Production": "November 2023 – present",
+        "Designer": "Franz von Holzhausen",
+        "Class": "Full-size pickup truck",
+        "Body style": "4-door crew cab",
+        "Layout": "Rear motor, rear-wheel drive Dual- or tri-motor, all-wheel drive",
+        "Electric motor": "RWD: Permanent magnet AWD: Induction (front) , permanent magnet (rear) Cyberbeast: Permanent magnet (front) , 2 × induction (rear)",
+        "Transmission": "Single-speed fixed (15:1 ratio)"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "cybercab",
+      "name": "Cybercab",
+      "category": "Electric passenger vehicle",
+      "story": "A purpose-built two-seat autonomous passenger vehicle. Tesla’s 2026 production start is recorded separately from its 2024 presentation; its proposed driverless use is not a claim of unrestricted road approval.",
+      "variants": [
+        {
+          "year": 2026,
+          "name": "Production programme",
+          "wiki": "Tesla Cybercab",
+          "match": "",
+          "shape": "A two-seat body with butterfly doors and no conventional driver controls.",
+          "engineering": "A dedicated electric autonomous-passenger-vehicle programme.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Tesla_Cybercab",
+          "photos": [
+            {
+              "src": "../brand-assets/00d63cb221a1c8.webp",
+              "file": "Tesla_Cybercab_on_Interstate_280_near_Palo_Alto_dllu.jpg",
+              "credit": "Daniel Lu (User:dllu)",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Tesla_Cybercab_on_Interstate_280_near_Palo_Alto_dllu.jpg",
+              "description": "A gold Tesla Cybercab traveling on Interstate 280 near Palo Alto, California, viewed from the front left on September 19, 2026.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/487a11c475df68.webp",
+              "file": "Rear_of_the_Tesla_Cybercab.jpg",
+              "credit": "Steve Jurvetson from Los Altos, USA",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Rear_of_the_Tesla_Cybercab.jpg",
+              "description": "Cybercab concept at the unveiling, rear veiw, October 2024",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "February 2026 – present",
+            "Designer": "Franz von Holzhausen",
+            "Class": "Driverless vehicle",
+            "Body style": "2-door liftback coupe",
+            "Layout": "Front-motor, front-wheel-drive",
+            "Electric motor": "1× AC permanent magnet synchronous"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Tesla",
+      "country": "United States",
+      "year": 2026,
+      "designer": "Franz von Holzhausen",
+      "title": "A two-seat body with butterfly doors and no conventional driver controls.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-cybercab-0-2",
+        "reading-cybercab-0-1",
+        "reading-cybercab-0-0",
+        "history-cybercab-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "February 2026 – present",
+        "Designer": "Franz von Holzhausen",
+        "Class": "Driverless vehicle",
+        "Body style": "2-door liftback coupe",
+        "Layout": "Front-motor, front-wheel-drive",
+        "Electric motor": "1× AC permanent magnet synchronous"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    }
+  ],
+  "honors": [],
+  "films": [
+    {
+      "title": "Revenge of the Electric Car",
+      "year": "2011",
+      "type": "Documentary film",
+      "origin": "Chris Paine",
+      "description": "Follows Tesla, Nissan, GM and an independent converter during the return of the electric car. Tesla is one of several central stories.",
+      "url": "https://rocofilms.com/films/revenge-of-the-electric-car/"
+    },
+    {
+      "title": "The New York Times Presents: Elon Musk’s Crash Course",
+      "year": "2022",
+      "type": "Documentary TV episode",
+      "origin": "Emma Schwartz / The New York Times / FX",
+      "description": "Season 2, episode 1 investigates Tesla’s Autopilot programme and the gap between promises and real-world operation.",
+      "url": "https://tv.apple.com/es/movie/el-accidente-de-elon-musk/umc.cmc.1wuy1yj8eusq1ux0kyhyptzbo?l=en-GB",
+      "watchUrl": "https://www.youtube.com/watch?v=B16Yp5Vv-GE",
+      "watchLabel": "Official FX preview"
+    },
+    {
+      "title": "Megafactories / Ultimate Factories: Tesla Model S",
+      "year": "TV episode",
+      "type": "Factory documentary",
+      "origin": "National Geographic",
+      "description": "A production-focused episode about the Model S. This is about Tesla the car company, not the unrelated films about inventor Nikola Tesla.",
+      "url": "https://www.natgeotv.com/nl/programmas/natgeo/megafactories"
+    }
+  ]
+}

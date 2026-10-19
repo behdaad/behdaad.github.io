@@ -1,0 +1,646 @@
+{
+  "sources": {
+    "testarossa": {
+      "outlet": "evo",
+      "title": "Ferrari Testarossa (1984–1991) review",
+      "url": "https://www.evo.co.uk/ferrari/testarossa"
+    },
+    "testarossa-design": {
+      "outlet": "Top Gear Spain",
+      "title": "How the Testarossa’s radiators created its unmistakable appearance",
+      "url": "https://www.topgear.es/deportivos/los-anos-80-ferrari-testarossa-enamoraba-por-su-imagen-todo-gracias-los-radiadores-su-motor-5-0-v12_6984012_0.html"
+    },
+    "laferrari": {
+      "outlet": "Top Gear",
+      "title": "Ferrari LaFerrari review",
+      "url": "https://www.topgear.com/car-reviews/ferrari/laferrari"
+    },
+    "aventador": {
+      "outlet": "Car and Driver",
+      "title": "Tested: 2012 Lamborghini Aventador LP700-4",
+      "url": "https://www.caranddriver.com/reviews/a15122583/2012-lamborghini-aventador-lp700-4-road-test-review/"
+    },
+    "959": {
+      "outlet": "Top Gear",
+      "title": "Richard Hammond on Ferrari F40 vs Porsche 959",
+      "url": "https://www.topgear.com/car-news/richard-hammond/richard-hammond-ferrari-f40-vs-porsche-959"
+    },
+    "959-best": {
+      "outlet": "Auto Express",
+      "title": "Best Porsche cars ever: Porsche 959",
+      "url": "https://www.autoexpress.co.uk/best-cars-vans/361828/best-porsche-cars-ever-porsche-959"
+    },
+    "taycan": {
+      "outlet": "Top Gear",
+      "title": "Porsche Taycan review",
+      "url": "https://www.topgear.com/car-reviews/porsche/taycan"
+    },
+    "roadster": {
+      "outlet": "evo",
+      "title": "Tesla Roadster (Mk1, 2008–2012) review",
+      "url": "https://www.evo.co.uk/tesla/roadster/9351/tesla-roadster-mk1-2008-2012-review-the-original-electric-sports-car"
+    },
+    "model3": {
+      "outlet": "Top Gear",
+      "title": "Tesla Model 3 review",
+      "url": "https://www.topgear.com/car-reviews/tesla/model-3"
+    },
+    "model3-design": {
+      "outlet": "Top Gear",
+      "title": "Tesla Model 3 Performance review: a BMW M3/C63 rival?",
+      "url": "https://www.topgear.com/car-reviews/tesla/model-3/tesla-model-3/first-drive"
+    },
+    "utopia": {
+      "outlet": "Top Gear",
+      "title": "Pagani Utopia review",
+      "url": "https://www.topgear.com/car-reviews/pagani/utopia"
+    },
+    "720s-design": {
+      "outlet": "evo",
+      "title": "McLaren 720S (2017–2023) review: design",
+      "url": "https://www.evo.co.uk/mclaren/720s/design"
+    },
+    "720s": {
+      "outlet": "Car and Driver",
+      "title": "2018 McLaren 720S first drive",
+      "url": "https://www.caranddriver.com/reviews/a15093417/2018-mclaren-720s-first-drive-review/"
+    },
+    "mc20": {
+      "outlet": "Top Gear",
+      "title": "Maserati MC20 review",
+      "url": "https://www.topgear.com/car-reviews/maserati/mc20"
+    },
+    "mc20-design": {
+      "outlet": "Car and Driver",
+      "title": "2025 Maserati MC20 review",
+      "url": "https://www.caranddriver.com/maserati/mc20-2025"
+    },
+    "emira": {
+      "outlet": "Top Gear",
+      "title": "Lotus Emira review",
+      "url": "https://www.topgear.com/car-reviews/lotus/emira"
+    },
+    "emira-design": {
+      "outlet": "Top Gear",
+      "title": "Lotus Emira review",
+      "url": "https://topgear.co.za/reviews/lotus-emira/"
+    },
+    "jesko": {
+      "outlet": "Top Gear",
+      "title": "Koenigsegg Jesko review",
+      "url": "https://www.topgear.com/car-reviews/koenigsegg/jesko"
+    },
+    "jesko-attack": {
+      "outlet": "Top Gear",
+      "title": "Koenigsegg Jesko Attack first drive",
+      "url": "https://www.topgear.com/car-reviews/jesko/first-drive"
+    }
+  },
+  "cars": [
+    {
+      "id": "testarossa",
+      "brand": "Ferrari",
+      "name": "Testarossa",
+      "year": 1984,
+      "country": "Italy",
+      "designer": "Pininfarina / Leonardo Fioravanti’s team",
+      "title": "Cooling becomes a signature.",
+      "story": "Broad rear haunches and horizontal side strakes turn cooling requirements into a graphic identity. The Testarossa brings a different kind of Ferrari drama: a wide, low grand tourer whose functional openings become its most memorable ornament.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "testarossa",
+        "testarossa-design"
+      ],
+      "evidence": "evo’s retrospective establishes the original car’s significance; Top Gear Spain explains how its radiator packaging produced the defining side strakes.",
+      "video": {
+        "id": "1XlPUQjmJyk",
+        "title": "Ferrari Testarossa drive and review",
+        "channel": "Harry’s Garage",
+        "note": "An owner’s tour and drive of a 1987 Testarossa.",
+        "url": "https://www.youtube.com/watch?v=1XlPUQjmJyk"
+      },
+      "variants": [
+        {
+          "year": 1984,
+          "name": "Original Testarossa",
+          "wiki": "Ferrari Testarossa",
+          "shape": "Pop-up lamps, full-width rear grille and long side strakes.",
+          "engineering": "A mid-mounted flat-12 with radiators beside the engine.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        },
+        {
+          "year": 1994,
+          "name": "F512 M",
+          "wiki": "Ferrari Testarossa",
+          "shape": "Fixed covered headlights replace pop-ups; round rear lamps emerge from the grille.",
+          "engineering": "The final development retains the flat-12 and manual gearbox.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The 512 TR’s subtler nose and mechanical revisions are condensed. One-off Spiders and coachbuilt projects are excluded. The later 849 Testarossa is a separate model, not a generation of this car."
+    },
+    {
+      "id": "959",
+      "brand": "Porsche",
+      "name": "959",
+      "year": 1986,
+      "country": "Germany",
+      "designer": "Porsche / Helmuth Bott’s development team",
+      "title": "The supercar becomes a complete system.",
+      "story": "A familiar Porsche roofline sits inside a much wider, smoother body with a blended rear wing. Beneath the restrained shape, turbocharging, electronically managed four-wheel drive and sophisticated suspension propose a more technical route to supercar speed.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "959",
+        "959-best"
+      ],
+      "evidence": "Hammond’s Top Gear retrospective treats the 959 as the technological counterpoint to the F40; Auto Express places it among the best Porsches ever.",
+      "video": {
+        "id": "7mFleLfedrU",
+        "title": "1980s supercar powertest: F40 and 959",
+        "channel": "Top Gear",
+        "note": "Richard Hammond compares the Porsche 959 and Ferrari F40.",
+        "url": "https://www.youtube.com/watch?v=7mFleLfedrU"
+      },
+      "variants": [
+        {
+          "year": 1986,
+          "name": "959 road car",
+          "wiki": "Porsche 959",
+          "shape": "Wide integrated wheelarches, flush detailing and a body-coloured hoop wing.",
+          "engineering": "Sequential turbocharging, variable four-wheel drive and advanced suspension.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The 1983 Gruppe B concept, Dakar competition cars and 961 racer are excluded. Komfort and Sport specifications share this design chapter; the gallery includes the Sport’s closely related cabin/body family. The date follows first production, before most customer deliveries in 1987."
+    },
+    {
+      "id": "diablo",
+      "brand": "Lamborghini",
+      "name": "Diablo",
+      "year": 1990,
+      "country": "Italy",
+      "designer": "Marcello Gandini / Chrysler styling team",
+      "title": "The wedge gets shoulders.",
+      "story": "The Countach’s successor rounds the wedge without losing its scissor doors or spectacular proportions. Its long, low nose and swelling rear quarters bridge the sharp-edged supercars of the seventies and the fuller surfaces of the nineties.",
+      "design": 30,
+      "industry": 0,
+      "sources": [
+        "italian"
+      ],
+      "evidence": "Top Gear includes the Diablo in its 50 greatest Italian cars, recognising its place in Lamborghini’s succession of poster supercars.",
+      "video": {
+        "id": "BrplqE9bUB8",
+        "title": "Lamborghini Diablo review",
+        "channel": "Harry’s Garage",
+        "note": "Harry Metcalfe reviews an original 1991 Diablo, rather than a modern restomod.",
+        "url": "https://www.youtube.com/watch?v=BrplqE9bUB8"
+      },
+      "variants": [
+        {
+          "year": 1990,
+          "name": "Original Diablo",
+          "wiki": "Lamborghini Diablo",
+          "shape": "Pop-up lamps and a low wedge above broad rear shoulders.",
+          "engineering": "A mid-mounted V12 and manual gearbox; rear-wheel drive at launch.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        },
+        {
+          "year": 2000,
+          "name": "VT 6.0",
+          "wiki": "Lamborghini Diablo",
+          "shape": "Fixed headlights, a wider nose and cleaner bumper surfaces change the face.",
+          "engineering": "A larger V12 and four-wheel drive accompany the late Luc Donckerwolke redesign.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The SV, SE30, roadsters and racing derivatives are condensed or omitted. The earlier fixed-light facelift is represented by the more substantially restyled VT 6.0. Modern Eccentrica restomods are not factory generations."
+    },
+    {
+      "id": "roadster",
+      "brand": "Tesla",
+      "name": "Roadster",
+      "year": 2008,
+      "country": "United States",
+      "designer": "Barney Hatt / Lotus & Tesla teams",
+      "title": "An electric future starts with a sports car.",
+      "story": "A compact Lotus-derived roadster makes battery power visible through familiar sports-car proportions. Before Tesla’s screen-led saloons, its first production car presents electrification as something light-looking, low-slung and desirable.",
+      "design": 30,
+      "industry": 0,
+      "sources": [
+        "roadster"
+      ],
+      "evidence": "evo’s retrospective selects the original Roadster as a convincing early proof of the electric sports-car concept, while identifying its Lotus-derived design and driving character.",
+      "video": {
+        "title": "Jeremy Clarkson tests the original Tesla Roadster",
+        "channel": "Top Gear",
+        "episode": "Series 12 · Episode 7",
+        "url": "https://www.ausmotive.com/2008/12/15/top-gear-series-12-episode-7.html",
+        "note": "Historical episode reference. Its range and breakdown portrayal was disputed by Tesla; use the linked evo retrospective for the selection rationale."
+      },
+      "variants": [
+        {
+          "year": 2008,
+          "name": "First-generation Roadster",
+          "wiki": "Tesla Roadster (first generation)",
+          "shape": "A compact open two-seater with a low nose and sculpted side intakes.",
+          "engineering": "Lotus-derived structure repackaged around a battery pack and electric motor.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "Sport and 2.5 updates are too similar to warrant separate design chapters. The later four-seat Roadster project is not a generation of this production car."
+    },
+    {
+      "id": "aventador",
+      "brand": "Lamborghini",
+      "name": "Aventador",
+      "year": 2011,
+      "country": "Italy",
+      "designer": "Filippo Perini / Lamborghini Centro Stile",
+      "title": "The wedge becomes a stealth aircraft.",
+      "story": "Faceted surfaces, deep air intakes and a sharply cut cabin give the V12 Lamborghini an overtly aerospace character. Its later SVJ evolution makes airflow even more visible through an outsized wing and a more open, aggressive nose.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "aventador"
+      ],
+      "evidence": "Car and Driver’s period test appraises the Aventador’s dramatic appearance alongside its new carbon structure and V12, supporting this design-led inclusion.",
+      "video": {
+        "id": "UZiHPLGh-Ek",
+        "title": "Richard Hammond drives the Lamborghini Aventador",
+        "channel": "Top Gear",
+        "note": "Original LP700-4; Series 17, Episode 6.",
+        "url": "https://www.youtube.com/watch?v=UZiHPLGh-Ek"
+      },
+      "variants": [
+        {
+          "year": 2011,
+          "name": "LP700-4",
+          "wiki": "Lamborghini Aventador",
+          "shape": "Angular lamp graphics, deep hexagonal intakes and a sharply faceted body.",
+          "engineering": "A carbon-fibre monocoque and a new naturally aspirated V12.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        },
+        {
+          "year": 2018,
+          "name": "SVJ",
+          "wiki": "Lamborghini Aventador",
+          "shape": "A large fixed wing, slotted nose and extensive aero additions.",
+          "engineering": "ALA active aerodynamics manages airflow for greater track performance.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The S, SV, Ultimae, roof variants and special liveries are condensed. The SVJ remains for its visibly different aero treatment. The successor Revuelto and Aventador-based limited models are separate cars."
+    },
+    {
+      "id": "laferrari",
+      "brand": "Ferrari",
+      "name": "LaFerrari",
+      "year": 2013,
+      "country": "Italy",
+      "designer": "Flavio Manzoni / Ferrari Design",
+      "title": "Hybrid power enters Ferrari’s flagship.",
+      "story": "A tightly wrapped cabin, plunging nose and deeply carved flanks express a new hybrid flagship. The V12 remains central, with electrical assistance integrated into the performance rather than changing the car into a quiet electric commuter.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "laferrari"
+      ],
+      "evidence": "Top Gear explicitly describes the car’s spaceship-like appearance and selects it as an especially evocative hybrid hypercar. No unproven long-term influence points are assigned.",
+      "video": {
+        "id": "C_E3bSFi8lI",
+        "title": "James May reviews LaFerrari",
+        "channel": "Top Gear",
+        "note": "Series 22, Episode 5.",
+        "url": "https://www.youtube.com/watch?v=C_E3bSFi8lI"
+      },
+      "variants": [
+        {
+          "year": 2013,
+          "name": "LaFerrari coupé",
+          "wiki": "LaFerrari",
+          "shape": "A narrow canopy above deeply channelled body sides and a low, pointed nose.",
+          "engineering": "A carbon structure combines a naturally aspirated V12 with HY-KERS electrical assistance.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "Aperta roof changes are condensed because the basic body design is very similar. The FXX K track programme and later F80 are separate projects."
+    },
+    {
+      "id": "model-3",
+      "brand": "Tesla",
+      "name": "Model 3",
+      "year": 2017,
+      "country": "United States",
+      "designer": "Franz von Holzhausen & Tesla design team",
+      "title": "The dashboard becomes an interface.",
+      "story": "A smooth nose and arcing glass roof surround an unusually stripped-back cabin. The single central screen carries instruments as well as controls, pushing the design story from exterior styling toward the way a driver interacts with the car.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "model3",
+        "model3-design"
+      ],
+      "evidence": "Top Gear’s period Performance review explicitly praises the minimalist interior and questions why other cars are not arranged this way; its full review supports the later redesign chapter.",
+      "video": {
+        "id": "3YI7Lxop0n8",
+        "title": "Tesla Model 3: ride, handling, controls and charging",
+        "channel": "Top Gear",
+        "note": "Top Gear Tested review of the pre-Highland car, filmed in 2021.",
+        "url": "https://www.youtube.com/watch?v=3YI7Lxop0n8"
+      },
+      "variants": [
+        {
+          "year": 2017,
+          "name": "Original Model 3",
+          "wiki": "Tesla Model 3",
+          "shape": "Rounded headlights, a grille-free nose and a bare dashboard centred on one screen.",
+          "engineering": "Battery-electric saloon with software-led controls and over-the-air updates.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        },
+        {
+          "year": 2023,
+          "name": "Highland redesign",
+          "wiki": "Tesla Model 3",
+          "shape": "Slimmer lamps and revised rear lighting; a new cabin light strip and steering-wheel controls.",
+          "engineering": "More cabin isolation and revised suspension accompany the interface changes.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The 2021 trim changes, battery choices and Performance drivetrains are condensed. Highland stays for its distinct front/rear graphics and redesigned cabin; its dates begin with the 2023 international introduction."
+    },
+    {
+      "id": "720s",
+      "brand": "McLaren",
+      "name": "720S",
+      "year": 2017,
+      "country": "United Kingdom",
+      "designer": "Rob Melville / McLaren design team",
+      "title": "Airflow hollows out the body.",
+      "story": "Dark headlamp sockets double as air passages while channels around the cabin feed the engine. The 720S makes negative space part of its identity; the 765LT derivative stretches that idea into a more visibly track-focused shape.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "720s-design",
+        "720s"
+      ],
+      "evidence": "evo’s dedicated design appraisal explains the aero-led surfaces; Car and Driver discusses the unusual headlight/intake openings and P1-related rear treatment.",
+      "video": {
+        "id": "7X6261vVmN8",
+        "title": "Chris Harris drives the McLaren 720S",
+        "channel": "Top Gear",
+        "note": "Series 25 road-car review.",
+        "url": "https://www.youtube.com/watch?v=7X6261vVmN8"
+      },
+      "variants": [
+        {
+          "year": 2017,
+          "name": "720S coupé",
+          "wiki": "McLaren 720S",
+          "shape": "Deep eye-socket air intakes, slender pillars and sculpted channels beside the cabin.",
+          "engineering": "A carbon Monocage II structure and a twin-turbo V8.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        },
+        {
+          "year": 2020,
+          "name": "765LT",
+          "wiki": "McLaren 720S",
+          "shape": "An extended splitter, larger rear aero and four high-mounted exhaust outlets.",
+          "engineering": "A lighter, more track-focused derivative of the 720S architecture.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The Spider is condensed because it retains the main body language. Track-only GT3 cars are excluded; the later 750S is a separately named evolution with relatively similar styling."
+    },
+    {
+      "id": "taycan",
+      "brand": "Porsche",
+      "name": "Taycan",
+      "year": 2019,
+      "country": "Germany",
+      "designer": "Michael Mauer / Porsche design team",
+      "title": "Electric packaging, unmistakable shoulders.",
+      "story": "Porsche’s first production battery-electric car carries a low bonnet, pronounced wings and a tightly curved roof into a four-door format. The Cross Turismo then extends that roof into an estate, revealing how one electric platform can support a different silhouette.",
+      "design": 30,
+      "industry": 0,
+      "sources": [
+        "taycan"
+      ],
+      "evidence": "Top Gear’s review endorses the Taycan as a convincing electric Porsche and documents the restrained design evolution; the Cross Turismo provides a substantial body-shape change.",
+      "video": {
+        "id": "c2dkDhhtm8I",
+        "title": "Porsche Taycan Turbo: real-world EV test",
+        "channel": "Top Gear",
+        "note": "Top Gear Tested review of the original-shape Taycan, filmed in 2021.",
+        "url": "https://www.youtube.com/watch?v=c2dkDhhtm8I"
+      },
+      "variants": [
+        {
+          "year": 2019,
+          "name": "Taycan saloon",
+          "wiki": "Porsche Taycan",
+          "shape": "A low four-door roof, sculpted front wings and drooping four-point lamp graphics.",
+          "engineering": "A dedicated battery-electric platform with an 800-volt electrical system.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        },
+        {
+          "year": 2021,
+          "name": "Cross Turismo",
+          "wiki": "Porsche Taycan",
+          "shape": "An extended estate roof, larger rear opening and wheelarch cladding.",
+          "engineering": "A higher-riding all-wheel-drive body variant on the Taycan platform.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "Sport Turismo differs mainly in ride height and cladding, so it is grouped with the estate shape. Turbo GT hardware and the visually modest 2024 refresh are condensed."
+    },
+    {
+      "id": "mc20",
+      "brand": "Maserati",
+      "name": "MC20",
+      "year": 2020,
+      "country": "Italy",
+      "designer": "Klaus Busse / Maserati design team",
+      "title": "A quieter kind of Italian supercar.",
+      "story": "Butterfly doors provide the theatre, while the main body relies on smooth surfaces and compact lighting. Maserati’s return to the mid-engined supercar uses restraint to distinguish itself from more heavily cut and ornamented rivals.",
+      "design": 30,
+      "industry": 0,
+      "sources": [
+        "mc20",
+        "mc20-design"
+      ],
+      "evidence": "Top Gear places the MC20 in Maserati’s limited mid-engined lineage; Car and Driver explicitly praises the beauty of its body, supporting its design-led place here.",
+      "video": {
+        "id": "1sEIxRGN7Kg",
+        "title": "Maserati MC20 first drive",
+        "channel": "Top Gear",
+        "note": "Road-car review of the original coupé.",
+        "url": "https://www.youtube.com/watch?v=1sEIxRGN7Kg"
+      },
+      "variants": [
+        {
+          "year": 2020,
+          "name": "MC20 coupé",
+          "wiki": "Maserati MC20",
+          "shape": "A smooth upper body, butterfly doors and small trident grille above functional lower aero.",
+          "engineering": "A carbon monocoque and Maserati’s Nettuno twin-turbo V6.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The Cielo’s roof mechanism, MCPura’s modest restyling and special liveries are condensed. GT2 racing cars and MCXtrema are separate competition/track projects."
+    },
+    {
+      "id": "emira",
+      "brand": "Lotus",
+      "name": "Emira",
+      "year": 2021,
+      "country": "United Kingdom",
+      "designer": "Russell Carr / Lotus design team",
+      "title": "Supercar form at a smaller scale.",
+      "story": "A low nose, strongly outlined rear haunches and carefully carved side intakes bring exotic proportions to Lotus’s compact sports car. Its 2021 unveiling precedes production in 2022, marking a final new combustion-engined chapter for the marque.",
+      "design": 30,
+      "industry": 0,
+      "sources": [
+        "emira",
+        "emira-design"
+      ],
+      "evidence": "Top Gear reviews the Emira as Lotus’s new sports-car chapter; Top Gear South Africa specifically praises its supercar silhouette and simple, taut design lines.",
+      "video": {
+        "id": "95iXNnm9FfY",
+        "title": "Lotus Emira: road and track review",
+        "channel": "Top Gear",
+        "note": "Road and track test of the V6 car.",
+        "url": "https://www.youtube.com/watch?v=95iXNnm9FfY"
+      },
+      "variants": [
+        {
+          "year": 2021,
+          "name": "Emira road car",
+          "wiki": "Lotus Emira",
+          "shape": "A low nose, muscular rear shoulders and sculpted intakes within compact dimensions.",
+          "engineering": "A bonded-aluminium structure with mid-mounted combustion power; production begins in 2022.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "V6, four-cylinder, SE and anniversary specifications are mechanically or cosmetically close, so they share one design chapter. The GT4 racer is omitted."
+    },
+    {
+      "id": "utopia",
+      "brand": "Pagani",
+      "name": "Utopia",
+      "year": 2022,
+      "country": "Italy",
+      "designer": "Horacio Pagani & Pagani design team",
+      "title": "The supercar as a crafted object.",
+      "story": "A teardrop cabin, suspended-looking lamps and intricate metalwork treat the car as a collection of crafted objects. Revealed in 2022 before customer deliveries in 2023, the Utopia combines an ornate analogue cabin with a modern carbon structure.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "utopia"
+      ],
+      "evidence": "Top Gear’s review explicitly treats the Utopia as sculpture and praises its creative fusion of historical design influences and intricate detailing.",
+      "video": {
+        "id": "WU8R7cR-gKA",
+        "title": "Pagani Utopia: V12 hypercar or art?",
+        "channel": "Top Gear",
+        "note": "First drive of the coupé.",
+        "url": "https://www.youtube.com/watch?v=WU8R7cR-gKA"
+      },
+      "variants": [
+        {
+          "year": 2022,
+          "name": "Utopia coupé",
+          "wiki": "Pagani Utopia",
+          "shape": "A teardrop canopy, porthole openings and elaborate exposed cabin metalwork.",
+          "engineering": "A carbon-composite structure with a twin-turbo AMG V12 and a choice of manual or automated transmission.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The Roadster is condensed because its open roof retains the coupé’s main design. Customer colours, exposed-carbon finishes and transmission choices do not create separate entries."
+    },
+    {
+      "id": "jesko",
+      "brand": "Koenigsegg",
+      "name": "Jesko",
+      "year": 2023,
+      "country": "Sweden",
+      "designer": "Christian von Koenigsegg / Sasha Selipanov’s team",
+      "title": "Two shapes for two kinds of speed.",
+      "story": "The Attack wears a towering rear wing and deep aero surfaces; the Absolut pares those devices away for a smoother, longer tail. First shown in 2019, the Jesko reaches customers in 2023; the two forms make downforce and low drag visibly different priorities.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "jesko",
+        "jesko-attack"
+      ],
+      "evidence": "Top Gear’s reviews praise the Jesko’s engineering and exposed carbon workmanship and explain the radical aero contrast between Attack and Absolut. No projected top speed is presented as an achieved record.",
+      "video": {
+        "id": "uTd5f_Tj89M",
+        "title": "Koenigsegg Jesko Absolut: road and track first drive",
+        "channel": "Top Gear",
+        "note": "A development Absolut, filmed in 2022 before customer deliveries.",
+        "url": "https://www.youtube.com/watch?v=uTd5f_Tj89M"
+      },
+      "variants": [
+        {
+          "year": 2023,
+          "name": "Attack",
+          "wiki": "Koenigsegg Jesko",
+          "shape": "A huge rear wing, deep front splitter and sculpted airflow surfaces.",
+          "engineering": "A twin-turbo V8 and nine-speed multi-clutch Light Speed Transmission; the downforce-focused specification.",
+          "kind": "Production",
+          "match": "",
+          "reject": ""
+        },
+        {
+          "year": 2023,
+          "name": "Absolut",
+          "wiki": "Koenigsegg Jesko",
+          "shape": "The large wing disappears; a longer tail and twin fins reduce visual bulk.",
+          "engineering": "A low-drag sibling designed for high-speed running, rather than the Attack’s maximum downforce.",
+          "kind": "Parallel body/aero variant",
+          "match": "",
+          "reject": ""
+        }
+      ],
+      "excluded": "The 2019 reveal and 2021 pre-series car are context, not earlier production generations. Attack and Absolut are parallel aero variants, not a facelift sequence. Sadair’s Spear is a separately named derivative. The Attack gallery includes the 2019 pre-production show car to illustrate its rear wing."
+    }
+  ]
+}

@@ -8,9 +8,11 @@ Run `npm run serve:automotive` from the repository root, then open <http://127.0
 
 ## Scope and inclusion
 
-The main timeline contains **25 model families from 19 makers** (1.32 families per maker; maximum permitted at 2.5 is 47). Every listed maker is represented. There are **84 selected evolution entries** inside those families, and **11 honorable mentions** outside the main timeline.
+The main timeline contains **38 model families from 23 makers** (1.65 families per maker; maximum permitted at 2.5 is 57). Every listed maker is represented. There are **104 selected evolution entries** inside those families, and **11 honorable mentions** outside the main timeline.
 
 This is a bounded introduction to industrial and visual history, not a claim that these are objectively the 19 most important manufacturers. Candidates must have an explicit nomination, retrospective appraisal or design assessment in a named automotive publication. The maker registry is derived from the marques of the cited candidates; a maker’s presence is evidence of its included cars, rather than an invented brand ranking.
+
+The October expansion adds Testarossa and LaFerrari; Diablo and Aventador; 959 and Taycan; Roadster and Model 3; and the requested Utopia, 720S, MC20, Emira and Jesko. The additional nominations and design appraisals come from Top Gear, evo, Car and Driver and Auto Express. The 20 added design chapters omit minor trims and close roof/face changes. `expansion.json` is their maintained source; `expansion-image-candidates.json` records the initial photo candidates.
 
 The selection bibliography is in `../data.json` and visible under the page’s selection disclosure and in each car modal. The major anchors are:
 
@@ -36,6 +38,8 @@ The main dates use introduction or first-production years. Generation dates can 
 
 Wikipedia model histories, linked individually in each evolution entry, support generation dates, body changes and further references. They are **not used to establish editorial importance**. `image-candidates.json` records the filenames and surrounding captions retrieved from model articles; `media-overrides.json` stores explicit choices to avoid blindly mixing generations on redirect pages.
 
+The Utopia and Emira use their production-design unveiling years (2022 and 2021), with deliveries/production explained in the entries. The Jesko uses 2023 customer deliveries; its 2019 reveal and 2021 pre-series car are explicitly separated from that date. Attack and Absolut are parallel aero variants dated to the customer-production period, not successive generations.
+
 Minor trims, small facelifts and engine-only changes are condensed. Each family explains its exclusions. The following are explicitly distinguished:
 
 - Benz’s pre-merger cars and the later Mercedes-Benz marque.
@@ -45,7 +49,7 @@ Minor trims, small facelifts and engine-only changes are condensed. Each family 
 - The i3 I01 hatchback and unrelated later i3 saloons.
 - The Model S cabin redesign and Plaid drivetrain, which do not constitute a new vehicle generation.
 
-The 84 entries are selective visual chapters, not an exhaustive list of every badge, body style or mechanical derivative. Photographs may show a later example within the stated chapter; the original file description identifies the pictured example. A replica is described as such in its source caption.
+The 104 entries are selective visual chapters, not an exhaustive list of every badge, body style or mechanical derivative. Photographs may show a later example within the stated chapter; the original file description identifies the pictured example. A replica is described as such in its source caption.
 
 ## Photography and video
 
@@ -53,13 +57,14 @@ Launch photography and a common three-quarter angle were preferred, but a consis
 
 `image-credits.json` is the media attribution manifest. Resizing and WebP conversion, where applied, are the only image transformations. Images are contained in their frames to preserve the complete car; they are never mirrored to force a matching angle.
 
-`video-verification.json` records YouTube oEmbed title/channel checks. Preference is given to official Top Gear / Top Gear Classic and Auto Focus uploads. Jay Leno’s Garage, Harry’s Garage, Carbuyer, Auto Express, AutoWeek, Carfection and Petrolicious cover gaps; their identities and the actual filmed generation are visible. Historical driving features, performance comparisons and owner films are labelled as such. Three entries use Top Gear episode references rather than a verified official YouTube upload:
+`video-verification.json` records YouTube oEmbed title/channel checks. Preference is given to official Top Gear / Top Gear Classic and Auto Focus uploads. Jay Leno’s Garage, Harry’s Garage, Carbuyer, Auto Express, AutoWeek, Carfection and Petrolicious cover gaps; their identities and the actual filmed generation are visible. Historical driving features, performance comparisons and owner films are labelled as such. Four entries use Top Gear episode references rather than a verified official YouTube upload:
 
 | Car | Top Gear episode | Segment |
 | --- | --- | --- |
 | 300 SL | Series 5, episode 5 | James May’s anniversary retrospective |
 | DS | Series 2, episode 8 | James May’s greatest-car nomination |
 | E-Type | Series 17, episode 1 | 50th-anniversary feature |
+| Original Tesla Roadster | Series 12, episode 7 | Clarkson’s test; Tesla disputed its range/breakdown portrayal |
 
 The Beetle has a stock-car review from Jay Leno’s Garage, with the Top Gear series 16, episode 1 stunt as an additional reference. The F1 has a Carfection driving review, with the Top Gear Veyron comparison as an additional video.
 
@@ -67,9 +72,9 @@ Players load only after an explicit play click, using YouTube’s privacy-enhanc
 
 ## Regenerating the catalog
 
-1. Edit and run `build-catalog.py` (Python standard library). This regenerates `../data.json` **without media**.
+1. Edit `build-catalog.py` for the original catalog or `expansion.json` for the 13 requested additions, then run `build-catalog.py` (Python standard library). It preserves verified media for unchanged `(wiki, name)` chapters. New chapters initially have no media.
 2. Existing filename selections are retained in `media-overrides.json`. To discover new photos, `fetch-media.py --catalog-only` refreshes the candidate snapshot. Network requests are cached under `/tmp/automotive-research-cache` and spaced apart to respect Wikimedia throttling.
-3. Run `fetch-media.py` to attach metadata and download the selected photographs. Inspect its output for failed licenses, empty galleries or galleries with fewer than two pictures. The script does not substitute another generation’s image after a failure.
+3. Run `fetch-media.py --missing-only` to attach only new galleries, or `fetch-media.py` to refresh everything. The incremental mode preserves existing photos and attribution. The script attaches metadata and download the selected photographs. Inspect its output for failed licenses, empty galleries or galleries with fewer than two pictures. The script does not substitute another generation’s image after a failure.
 4. Run `optimize-media.py` using a Python environment with Pillow to produce WebP assets and contact sheets for visual inspection. All attribution links survive conversion.
 5. Run `npm run build` and `npx playwright test tests/automotive.spec.js --reporter=list` from the repository root. The tests cover the count cap, chronological order, media completeness, filtering, every modal, generation differences, gallery controls, deep links, browser back, focus return, video opt-in and mobile overflow.
 

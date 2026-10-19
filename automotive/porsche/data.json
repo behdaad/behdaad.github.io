@@ -1,0 +1,3731 @@
+{
+  "archive": true,
+  "brand": "Porsche",
+  "heroId": "911",
+  "updated": "20 October 2026",
+  "sources": {
+    "history-356-0": {
+      "outlet": "Model history",
+      "title": "356 Pre-A — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_356"
+    },
+    "reading-356-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Backward Glances: 1960 AMC M-422 Mighty Mite",
+      "url": "https://www.motortrend.com/features/1804-backward-glances-1960-amc-m-422-mighty-mite/"
+    },
+    "reading-356-0-1": {
+      "outlet": "MotorTrend",
+      "title": "5 Porsche Prototypes That Gave Us the Panamera",
+      "url": "https://www.motortrend.com/news/5-prototype-porsche-panamera/"
+    },
+    "reading-356-0-2": {
+      "outlet": "Car and Driver",
+      "title": "Tested: 1956 Porsche 1600 Speedster",
+      "url": "https://www.caranddriver.com/reviews/a15141920/porsche-1600-speedster-archived-test-review/"
+    },
+    "history-356-1": {
+      "outlet": "Model history",
+      "title": "356 A — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_356"
+    },
+    "history-356-2": {
+      "outlet": "Model history",
+      "title": "356 B — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_356"
+    },
+    "history-356-3": {
+      "outlet": "Model history",
+      "title": "356 C — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_356"
+    },
+    "history-550-0": {
+      "outlet": "Model history",
+      "title": "550 Spyder — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_550"
+    },
+    "reading-550-0-0": {
+      "outlet": "Hagerty",
+      "title": "The Most Commonly Replicated Classic Cars",
+      "url": "https://www.hagerty.com/articles-videos/articles/2014/02/21/replicated-cars/"
+    },
+    "history-718-rsk-0": {
+      "outlet": "Model history",
+      "title": "718 RSK — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_718"
+    },
+    "history-718-rsk-1": {
+      "outlet": "Model history",
+      "title": "718 RS60 / RS61 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_718"
+    },
+    "history-904-0": {
+      "outlet": "Model history",
+      "title": "904 Carrera GTS — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_904"
+    },
+    "history-911-0": {
+      "outlet": "Model history",
+      "title": "Original 911 / F series — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+    },
+    "reading-911-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Future: Porsche Panamera",
+      "url": "https://web.archive.org/web/20100915123235/http://www.motortrend.com/future/concept_cars/112_0510_2010_porsche_panamera/index.html"
+    },
+    "reading-911-0-1": {
+      "outlet": "Car and Driver",
+      "title": "Tested: 1984 Porsche 911 Carrera",
+      "url": "https://www.caranddriver.com/reviews/1984-porsche-911-carrera-archived-road-test-review"
+    },
+    "history-911-1": {
+      "outlet": "Model history",
+      "title": "Classic Targa — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+    },
+    "history-911-2": {
+      "outlet": "Model history",
+      "title": "G series — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+    },
+    "history-911-3": {
+      "outlet": "Model history",
+      "title": "930 Turbo — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_930"
+    },
+    "reading-911-3-0": {
+      "outlet": "Car and Driver",
+      "title": "Car and Driver January 1986",
+      "url": "http://media.caranddriver.com/files/porsche-911-turbo1986-porsche-911-turbo.pdf"
+    },
+    "reading-911-3-1": {
+      "outlet": "Road & Track",
+      "title": "roadandtrack.com, A Porsche 930 Turbo Is the Anti-Modern Car, By Kristen Lee, Nov 10, 2015",
+      "url": "https://www.roadandtrack.com/car-culture/classic-cars/videos/a27301/a-porsche-930-turbo-is-the-anti-modern-car/"
+    },
+    "reading-911-3-2": {
+      "outlet": "Road & Track",
+      "title": "13 of the Greatest Porsche 911s Ever Made, Porsche's made a lot of 911s over the last 53 years. These are the best",
+      "url": "https://www.roadandtrack.com/car-culture/g6829/best-porsche-911s/"
+    },
+    "history-911-4": {
+      "outlet": "Model history",
+      "title": "G-series Cabriolet — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+    },
+    "history-911-5": {
+      "outlet": "Model history",
+      "title": "964 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_964"
+    },
+    "reading-911-5-0": {
+      "outlet": "Road & Track",
+      "title": "The Porsche 965 was a V8-powered 911 from 1984",
+      "url": "https://www.roadandtrack.com/car-culture/videos/a7876/1984-porsche-965/"
+    },
+    "history-911-6": {
+      "outlet": "Model history",
+      "title": "993 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_993"
+    },
+    "reading-911-6-0": {
+      "outlet": "Auto Express",
+      "title": "Porsche 993 Carrera 2S",
+      "url": "http://www.autoexpress.co.uk/car-reviews/38634/porsche-993-carrera-2s."
+    },
+    "reading-911-6-1": {
+      "outlet": "Top Gear",
+      "title": "Porsche 993 Turbo Review 2021",
+      "url": "https://www.topgear.com/car-reviews/porsche/993-turbo"
+    },
+    "reading-911-6-2": {
+      "outlet": "Road & Track",
+      "title": "Dr. Wolfgang Porsche's 993 Turbo S Is a Green Dream",
+      "url": "https://www.roadandtrack.com/car-culture/profiles/a20660295/dr-wolfgang-porsches-993-turbo-s-is-a-green-dream/"
+    },
+    "history-911-7": {
+      "outlet": "Model history",
+      "title": "996 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_996"
+    },
+    "reading-911-7-0": {
+      "outlet": "evo",
+      "title": "Porsche 996 Turbo buying advice",
+      "url": "https://www.evo.co.uk/porsche/911-turbo/6202/porsche-996-turbo-buying-advice"
+    },
+    "reading-911-7-1": {
+      "outlet": "MotorTrend",
+      "title": "First Drive: 2002 Porsche 911 GT2",
+      "url": "https://web.archive.org/web/20060701203402/http://www.motortrend.com/roadtests/coupe/112_0106_2002_porsche_911_gt2/"
+    },
+    "reading-911-7-2": {
+      "outlet": "Road & Track",
+      "title": "The 996 GT3 Is One of the All-Time Great Porsche 911s",
+      "url": "https://www.roadandtrack.com/new-cars/a19693746/porsche-911-996-gt3-review/"
+    },
+    "history-911-8": {
+      "outlet": "Model history",
+      "title": "997 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_997"
+    },
+    "reading-911-8-0": {
+      "outlet": "Top Gear",
+      "title": "Jeremy Clarkson on: the Porsche 911",
+      "url": "https://www.topgear.com/car-news/jeremy-clarkson/jeremy-clarkson-porsche-911"
+    },
+    "reading-911-8-1": {
+      "outlet": "Car and Driver",
+      "title": "2007 Porsche 911 Turbo 997",
+      "url": "https://www.caranddriver.com/reviews/2007-porsche-911-turbo-997-first-drive-review"
+    },
+    "reading-911-8-2": {
+      "outlet": "MotorTrend",
+      "title": "First Test: 2007 Porsche 911 Turbo",
+      "url": "https://www.motortrend.com/reviews/2007-porsche-911-turbo"
+    },
+    "history-911-9": {
+      "outlet": "Model history",
+      "title": "991 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_991"
+    },
+    "reading-911-9-0": {
+      "outlet": "Car and Driver",
+      "title": "Porsche 911 GTS Rennsport Reunion Edition: You Want One, Probably Can't Have One",
+      "url": "https://www.caranddriver.com/news/a15352234/porsche-911-gts-rennsport-reunion-edition-you-want-one-probably-cant-have-one"
+    },
+    "reading-911-9-1": {
+      "outlet": "evo",
+      "title": "Porsche 911 50th Anniversary Edition review",
+      "url": "https://www.evo.co.uk/porsche/911/7335/porsche-911-50th-anniversary-edition-review"
+    },
+    "reading-911-9-2": {
+      "outlet": "Autocar",
+      "title": "Porsche 911 50th Anniversary Edition first drive review",
+      "url": "https://www.autocar.co.uk/car-review/porsche/911/first-drives/porsche-911-50th-anniversary-edition-first-drive-review"
+    },
+    "history-911-10": {
+      "outlet": "Model history",
+      "title": "991 Targa — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_991"
+    },
+    "history-911-11": {
+      "outlet": "Model history",
+      "title": "992 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_992"
+    },
+    "reading-911-11-0": {
+      "outlet": "Top Gear",
+      "title": "This is the all-new Porsche 911",
+      "url": "https://www.topgear.com/car-news/la-motor-show-2018/all-new-porsche-911"
+    },
+    "reading-911-11-1": {
+      "outlet": "Road & Track",
+      "title": "2020 Porsche 911: Meet the 992",
+      "url": "https://www.roadandtrack.com/car-shows/los-angeles-auto-show/a25305159/2020-porsche-911-992-debut-official-photos-specs-price/"
+    },
+    "reading-911-11-2": {
+      "outlet": "Car and Driver",
+      "title": "2020 Porsche 911 Carrera S Finally Available with Seven-Speed Manual",
+      "url": "https://www.caranddriver.com/news/a29643067/2020-porsche-911-992-manual/"
+    },
+    "history-911-12": {
+      "outlet": "Model history",
+      "title": "992 GT3 RS — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_992"
+    },
+    "history-911-13": {
+      "outlet": "Model history",
+      "title": "992 Dakar — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_992"
+    },
+    "history-906-0": {
+      "outlet": "Model history",
+      "title": "906 Carrera 6 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_906"
+    },
+    "history-912-0": {
+      "outlet": "Model history",
+      "title": "912 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_912"
+    },
+    "history-912-1": {
+      "outlet": "Model history",
+      "title": "912E — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_912"
+    },
+    "history-914-0": {
+      "outlet": "Model history",
+      "title": "914 / 914-6 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_914"
+    },
+    "reading-914-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Motor Trend \"Import Car of the Year\" Porsche Unearthed",
+      "url": "https://web.archive.org/web/20100307023957/http://www.motortrend.com/classic/features/c12_0601_1970_porsche_914/index.html"
+    },
+    "history-924-0": {
+      "outlet": "Model history",
+      "title": "924 / 924S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_924"
+    },
+    "reading-924-0-0": {
+      "outlet": "Autocar",
+      "title": "How to look after your turbocharged car",
+      "url": "https://www.autocar.co.uk/car-news/advice/how-look-after-your-turbocharged-car"
+    },
+    "reading-924-0-1": {
+      "outlet": "evo",
+      "title": "Porsche 924 Carrera GT: review, history and specs of an icon",
+      "url": "https://www.evo.co.uk/porsche/porsche-924/21017/porsche-924-carrera-gt-review-history-and-specs-of-an-icon"
+    },
+    "reading-924-0-2": {
+      "outlet": "Top Gear",
+      "title": "You need this Porsche 924 GTR. Here's why",
+      "url": "https://www.topgear.com/car-news/classic/you-need-porsche-924-gtr-heres-why#1"
+    },
+    "history-924-1": {
+      "outlet": "Model history",
+      "title": "924 Turbo — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_924"
+    },
+    "history-924-2": {
+      "outlet": "Model history",
+      "title": "924 Carrera GT — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_924"
+    },
+    "history-928-0": {
+      "outlet": "Model history",
+      "title": "928 / S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_928"
+    },
+    "reading-928-0-0": {
+      "outlet": "Hagerty",
+      "title": "The 1978-95 Porsche 928 is no longer a black sheep",
+      "url": "https://www.hagerty.com/media/car-profiles/the-1978-95-porsche-928-no-longer-black-sheep/"
+    },
+    "reading-928-0-1": {
+      "outlet": "Autocar",
+      "title": "Used car buying guide: Porsche 928",
+      "url": "https://www.autocar.co.uk/car-news/used-cars-used-car-buying-guides/used-car-buying-guide-porsche-928"
+    },
+    "reading-928-0-2": {
+      "outlet": "Hagerty",
+      "title": "This is why the Porsche 928 died",
+      "url": "https://www.hagerty.com/media/car-profiles/porsche-928/"
+    },
+    "history-928-1": {
+      "outlet": "Model history",
+      "title": "S4 / GT / GTS — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_928"
+    },
+    "history-944-0": {
+      "outlet": "Model history",
+      "title": "944 / S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_944"
+    },
+    "reading-944-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Porsche 944: History, Changes, Specifications",
+      "url": "https://www.motortrend.com/vehicle-genres/porsche-944-history-changes-specifications/"
+    },
+    "reading-944-0-1": {
+      "outlet": "Road & Track",
+      "title": "Someone Please Take This Never-Raced 944 Turbo Cup Car to the Track",
+      "url": "https://www.roadandtrack.com/motorsports/a29022843/1988-porsche-944-turbo-cup-for-sale/"
+    },
+    "history-944-1": {
+      "outlet": "Model history",
+      "title": "944 Turbo / S2 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_944"
+    },
+    "history-944-2": {
+      "outlet": "Model history",
+      "title": "944 S2 Cabriolet — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_944"
+    },
+    "history-959-0": {
+      "outlet": "Model history",
+      "title": "959 Komfort / Sport — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_959"
+    },
+    "reading-959-0-0": {
+      "outlet": "evo",
+      "title": "Porsche 959, everything you need to know",
+      "url": "http://www.evo.co.uk/porsche/11376/porsche-959-review-the-80s-supercar-with-modern-performance-and-tech/page/0/1"
+    },
+    "reading-959-0-1": {
+      "outlet": "Car and Driver",
+      "title": "Tested: 1987 Porsche 959",
+      "url": "https://www.caranddriver.com/reviews/a15143088/1987-porsche-959-archived-test-review/"
+    },
+    "reading-959-0-2": {
+      "outlet": "MotorTrend",
+      "title": "2015 Porsche 918 Spyder First Test",
+      "url": "https://www.motortrend.com/cars/porsche/918/2015/2015-porsche-918-spyder-first-test/"
+    },
+    "history-968-0": {
+      "outlet": "Model history",
+      "title": "968 coupé / Club Sport — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_968"
+    },
+    "history-968-1": {
+      "outlet": "Model history",
+      "title": "968 Cabriolet — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_968"
+    },
+    "history-boxster-0": {
+      "outlet": "Model history",
+      "title": "986 Boxster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman"
+    },
+    "reading-boxster-0-0": {
+      "outlet": "Road & Track",
+      "title": "Production of the Gas-Powered Porsche 718 Cayman and Boxster Will End This October",
+      "url": "https://www.roadandtrack.com/news/a64850794/gasoline-porsche-718-cayman-boxster-product-end-october-2025/"
+    },
+    "reading-boxster-0-1": {
+      "outlet": "Car and Driver",
+      "title": "Porsche 718 Boxster and Cayman Production to End Later This Year",
+      "url": "https://www.caranddriver.com/news/a61534170/porsche-718-internal-combustion-dead-for-2025/"
+    },
+    "reading-boxster-0-2": {
+      "outlet": "evo",
+      "title": "Porsche Boxster S review",
+      "url": "https://web.archive.org/web/20120614094326/http://www.evo.co.uk/carreviews/evocarreviews/280084/porsche_boxster_s_review.html"
+    },
+    "history-boxster-1": {
+      "outlet": "Model history",
+      "title": "987 Boxster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman"
+    },
+    "history-boxster-2": {
+      "outlet": "Model history",
+      "title": "987 Cayman — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman"
+    },
+    "history-boxster-3": {
+      "outlet": "Model history",
+      "title": "981 Boxster / Cayman — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman"
+    },
+    "history-boxster-4": {
+      "outlet": "Model history",
+      "title": "982 / 718 Boxster and Cayman — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_982"
+    },
+    "reading-boxster-4-0": {
+      "outlet": "Car and Driver",
+      "title": "The Porsche 718 Cayman GT4 Brings a Glorious Flat-Six Back to the 718 Family",
+      "url": "https://www.caranddriver.com/news/a28072370/2020-porsche-718-cayman-gt4-photos-info/"
+    },
+    "reading-boxster-4-1": {
+      "outlet": "Car and Driver",
+      "title": "The Porsche 718 Spyder Is the Six-Cylinder Boxster of Your Dreams",
+      "url": "https://www.caranddriver.com/news/a28073458/2020-porsche-718-spyder-photos-info/"
+    },
+    "reading-boxster-4-2": {
+      "outlet": "Car and Driver",
+      "title": "Tested: 2020 Porsche 718 Cayman T Simmers in Basic Excellence",
+      "url": "https://www.caranddriver.com/reviews/a34005587/2020-porsche-cayman-t-by-the-numbers/"
+    },
+    "history-911-gt1-0": {
+      "outlet": "Model history",
+      "title": "911 GT1 Straßenversion — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_GT1"
+    },
+    "history-cayenne-0": {
+      "outlet": "Model history",
+      "title": "955 / 957 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+    },
+    "reading-cayenne-0-0": {
+      "outlet": "Auto Express",
+      "title": "Porsche Cayenne review",
+      "url": "https://www.autoexpress.co.uk/porsche/cayenne"
+    },
+    "reading-cayenne-0-1": {
+      "outlet": "Road & Track",
+      "title": "2020 Porsche Cayenne Coupe Looks Like a Big Macan",
+      "url": "https://www.roadandtrack.com/new-cars/a26895451/2020-porsche-cayenne-coupe-pictures-specs-hp-price-info/"
+    },
+    "reading-cayenne-0-2": {
+      "outlet": "Car and Driver",
+      "title": "Porsche Cayenne",
+      "url": "https://www.caranddriver.com/porsche/cayenne"
+    },
+    "history-cayenne-1": {
+      "outlet": "Model history",
+      "title": "958 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+    },
+    "history-cayenne-2": {
+      "outlet": "Model history",
+      "title": "9Y0 / E3 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+    },
+    "history-cayenne-3": {
+      "outlet": "Model history",
+      "title": "Cayenne Coupé — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+    },
+    "history-cayenne-4": {
+      "outlet": "Model history",
+      "title": "Cayenne Electric — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric"
+    },
+    "history-carrera-gt-0": {
+      "outlet": "Model history",
+      "title": "Carrera GT — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Carrera_GT"
+    },
+    "reading-carrera-gt-0-0": {
+      "outlet": "Car and Driver",
+      "title": "Porsche Carrera GT - Road Test Page 2: Handling Precision",
+      "url": "http://www.caranddriver.com/reviews/porsche-carrera-gt-road-test-handling-precision-page-2"
+    },
+    "reading-carrera-gt-0-1": {
+      "outlet": "Car and Driver",
+      "title": "Porsche Carrera GT - Auto Shows",
+      "url": "https://web.archive.org/web/20080507162557/http://www.caranddriver.com/reviews/hot_lists/high_performance/sports_car_central/porsche_carrera_gt_auto_shows"
+    },
+    "reading-carrera-gt-0-2": {
+      "outlet": "Car and Driver",
+      "title": "Porsche Carrera GT - Road Test",
+      "url": "http://www.caranddriver.com/reviews/porsche-carrera-gt-road-test"
+    },
+    "history-panamera-0": {
+      "outlet": "Model history",
+      "title": "970 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+    },
+    "reading-panamera-0-0": {
+      "outlet": "MotorTrend",
+      "title": "First Test: 2010 Porsche Panamera S: If Looks Could Ill",
+      "url": "https://web.archive.org/web/20131229053754/http://www.motortrend.com/roadtests/sedans/112_0910_2010_porsche_panamera_s_test/"
+    },
+    "reading-panamera-0-1": {
+      "outlet": "MotorTrend",
+      "title": "Future: Porsche Panamera",
+      "url": "http://www.motortrend.com/future/concept_cars/112_0510_2010_porsche_panamera"
+    },
+    "reading-panamera-0-2": {
+      "outlet": "Autocar",
+      "title": "Porsche Panamera Sport Turismo Review (2019) | Autocar",
+      "url": "https://www.autocar.co.uk/car-review/porsche/panamera-sport-turismo"
+    },
+    "history-panamera-1": {
+      "outlet": "Model history",
+      "title": "971 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+    },
+    "history-panamera-2": {
+      "outlet": "Model history",
+      "title": "Sport Turismo — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+    },
+    "history-panamera-3": {
+      "outlet": "Model history",
+      "title": "976 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+    },
+    "history-918-0": {
+      "outlet": "Model history",
+      "title": "918 Spyder — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_918_Spyder"
+    },
+    "reading-918-0-0": {
+      "outlet": "MotorTrend",
+      "title": "The Porsche 918 Spyder: History, Photos, Specifications",
+      "url": "https://www.motortrend.com/vehicle-genres/porsche-918-spyder-history-photos-specifications/"
+    },
+    "reading-918-0-1": {
+      "outlet": "MotorTrend",
+      "title": "2015 Porsche 918 Spyder First Test - Motor Trend",
+      "url": "http://www.motortrend.com/roadtests/exotic/1405_2015_porsche_918_spyder_first_test/viewall.html"
+    },
+    "reading-918-0-2": {
+      "outlet": "Top Gear",
+      "title": "First Drive: Porsche 918 Spyder Weissach Pack",
+      "url": "http://www.topgear.com/car-reviews/porsche/918-spyder/weissach-pack/first-drive-0"
+    },
+    "history-macan-0": {
+      "outlet": "Model history",
+      "title": "95B — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Macan"
+    },
+    "reading-macan-0-0": {
+      "outlet": "Car and Driver",
+      "title": "2014 Porsche Cajun Rendered",
+      "url": "https://web.archive.org/web/20210919072832/https://www.caranddriver.com/news/a15121580/2014-porsche-cajun-rendered-news/"
+    },
+    "reading-macan-0-1": {
+      "outlet": "Auto Express",
+      "title": "Porsche Macan price and release date",
+      "url": "http://www.autoexpress.co.uk/porsche/macan/64159/porsche-macan-price-and-release-date"
+    },
+    "reading-macan-0-2": {
+      "outlet": "Autocar",
+      "title": "Porsche Macan – first ride",
+      "url": "http://www.autocar.co.uk/car-news/new-cars/porsche-macan-first-ride"
+    },
+    "history-macan-1": {
+      "outlet": "Model history",
+      "title": "Electric / XAB — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Macan"
+    },
+    "history-taycan-0": {
+      "outlet": "Model history",
+      "title": "Taycan saloon — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Taycan"
+    },
+    "reading-taycan-0-0": {
+      "outlet": "Car and Driver",
+      "title": "2020 Porsche Taycan Electric Sports Saloon Is the First Real Threat to Tesla",
+      "url": "https://www.caranddriver.com/news/a28899036/2020-porsche-taycan-photos-info/"
+    },
+    "reading-taycan-0-1": {
+      "outlet": "Autocar",
+      "title": "Porsche Mission E due with Level 4 autonomy and 15min fast-charging",
+      "url": "https://www.autocar.co.uk/car-news/new-cars/porsche-mission-e-due-level-4-autonomy-and-15min-fast-charging"
+    },
+    "reading-taycan-0-2": {
+      "outlet": "Car and Driver",
+      "title": "2020 Porsche Taycan 4S Is More Sensible yet Still Damn Good",
+      "url": "https://www.caranddriver.com/reviews/a30176492/2020-porsche-taycan-4s-drive/"
+    },
+    "history-taycan-1": {
+      "outlet": "Model history",
+      "title": "Cross Turismo / Sport Turismo — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Porsche_Taycan"
+    }
+  },
+  "cars": [
+    {
+      "id": "356",
+      "name": "356",
+      "category": "Sports car",
+      "story": "Porsche’s first series-production sports-car family evolves through Pre-A, A, B and C forms. Open Speedster and later Cabriolet bodies belong to the same rear-engined lineage.",
+      "variants": [
+        {
+          "year": 1948,
+          "name": "356 Pre-A",
+          "wiki": "Porsche 356",
+          "match": "Pre.A",
+          "shape": "A compact rounded coupé with a split or bent windscreen on early cars.",
+          "engineering": "An air-cooled rear engine and rear-wheel drive.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_356",
+          "photos": [
+            {
+              "src": "../brand-assets/59ca532f376dc7.webp",
+              "file": "Porsche_356_Pre-A_1948.JPG",
+              "credit": "No machine-readable author provided. Luc106 assumed (based on copyright claims).",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_356_Pre-A_1948.JPG",
+              "description": "Subject:Porsche 356 Pre-A Coupé (1948)\nAuthor:Luc106\nDate:November 24th, 2007\nEvent: Marke-Retrò 2007\nPlace/Country: Cesena (FC), Italy\n\nI release all rights in the public domain.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/1d4698fc9d6e09.webp",
+              "file": "Porsche_356_pre_A_coupes_Classic-Gala_2021_1X7A0169.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_356_pre_A_coupes_Classic-Gala_2021_1X7A0169.jpg",
+              "description": "Porsche_356_pre_A_coupes at Classic-Gala 2021",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1948–1965",
+            "Designer": "Ferry Porsche , Erwin Komenda",
+            "Class": "Sports car",
+            "Body style": "2-door coupé 2-door convertible 2-door roadster",
+            "Layout": "Rear-engine, rear-wheel-drive"
+          }
+        },
+        {
+          "year": 1955,
+          "name": "356 A",
+          "wiki": "Porsche 356",
+          "match": "356.A",
+          "shape": "A curved windscreen and revised body details.",
+          "engineering": "A developed rear-engined chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_356",
+          "photos": [
+            {
+              "src": "../brand-assets/4c928d138fdf56.webp",
+              "file": "Nationale_oldtimerdag_Zandvoort_2010,_1956_PORSCHE_356A_1500_GS_CARRERA,_AL-42-19_pic2.JPG",
+              "credit": "Alf van Beem",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Nationale_oldtimerdag_Zandvoort_2010,_1956_PORSCHE_356A_1500_GS_CARRERA,_AL-42-19_pic2.JPG",
+              "description": "Photographed at the Nationaal Oldtimer Festival Zandvoort 2010, The Netherlands.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/f19be54175eca1.webp",
+              "file": "1957_Porsche_356_Speedster_(A),_rear.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1957_Porsche_356_Speedster_(A),_rear.jpg",
+              "description": "1957 (early) Porsche 356 Speedster (A).",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1948–1955",
+            "Engine": "1.1 L Type 369 B4 (1948–1953, 1100) 1.3 L Type 506 B4 (1300) 1.3 L Type 506/1 B4 (1300 A) 1.3 L Type 589 B4 (1953–1954, 1300 S) 1.5 L Type 527 B4 (1951–1952, 1500) 1.5 L Type 528 B4 (1952–1953, 1500 S) 1.5 L Type 528/2 B",
+            "Transmission": "four-speed manual"
+          }
+        },
+        {
+          "year": 1959,
+          "name": "356 B",
+          "wiki": "Porsche 356",
+          "match": "356.B",
+          "shape": "Higher bumpers and a revised nose.",
+          "engineering": "Continued development of the air-cooled platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_356",
+          "photos": [
+            {
+              "src": "../brand-assets/c67a4f66ad37df.webp",
+              "file": "Nationale_oldtimerdag_Zandvoort_2010,_1963_PORSCHE_356A_1600,_AH-41-45_pic1.JPG",
+              "credit": "Alf van Beem",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Nationale_oldtimerdag_Zandvoort_2010,_1963_PORSCHE_356A_1600,_AH-41-45_pic1.JPG",
+              "description": "Photographed at the Nationaal Oldtimer Festival Zandvoort 2010, The Netherlands.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/dc2e1bf8b1a0ae.webp",
+              "file": "1963_Porsche_356B_90_(T6),_rear.jpg",
+              "credit": "allen watkin from London, UK",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1963_Porsche_356B_90_(T6),_rear.jpg",
+              "description": "Reigate Heath,Dec 2009",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1955–1959",
+            "Engine": "1.3 L Type 506 B4 (1300) 1.3 L Type 506/2 B4 (1300 S) 1.5 L Type 547/1 B4 (Carrera 1500 GS/GT, 1955–1959) 1.5 L Type 692/0 B4 (Carrera 1500 GT, 1958) 1.5 L Type 692/1 B4 (Carrera 1500 GT, 1958) 1.6 L Type 616/1 B4 (1600)",
+            "Transmission": "four-speed manual"
+          }
+        },
+        {
+          "year": 1963,
+          "name": "356 C",
+          "wiki": "Porsche 356",
+          "match": "356.C",
+          "shape": "The late body with revised wheels and details.",
+          "engineering": "Disc brakes distinguish the final principal series.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_356",
+          "photos": [
+            {
+              "src": "../brand-assets/23bc587c456263.webp",
+              "file": "2007-07-08_Porsche_356_C_(01_kl_ret).jpg",
+              "credit": "Wikimedia Commons",
+              "license": "CC BY-SA 2.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:2007-07-08_Porsche_356_C_(01_kl_ret).jpg",
+              "description": "2007-07-08_Porsche_356_C_(01_kl_ret).jpg",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/75172cb84fd96c.webp",
+              "file": "Porsche_356_C,_Coupé_(2007-07-08_Sp).jpg",
+              "credit": "Lothar Spurzem",
+              "license": "CC BY-SA 2.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_356_C,_Coup%C3%A9_(2007-07-08_Sp).jpg",
+              "description": "Porsche 356 C Coupé, Bauzeit 1964 bis 1965, bei einer Oldtimerveranstaltung am Forellenhof in Vallendar",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1960–1963",
+            "Engine": "1.6 L Type 616/1 B4 (1600) 1.6 L Type 616/2 B4 (1600 S, 1960–1962) 1.6 L Type 616/7 B4 (1600 Super 90) 1.6 L Type 616/12 B4 (1600 S, 1962–1963) 1.6 L Type 692/3 B4 (1600 Carrera GS GT, 1960) 1.6 L Type 692/3A B4 (1600 Ca",
+            "Transmission": "four-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1948,
+      "designer": "Ferry Porsche , Erwin Komenda",
+      "title": "A compact rounded coupé with a split or bent windscreen on early cars.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-356-0-2",
+        "reading-356-0-1",
+        "reading-356-0-0",
+        "history-356-0",
+        "history-356-1",
+        "history-356-2",
+        "history-356-3"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1948–1965",
+        "Designer": "Ferry Porsche , Erwin Komenda",
+        "Class": "Sports car",
+        "Body style": "2-door coupé 2-door convertible 2-door roadster",
+        "Layout": "Rear-engine, rear-wheel-drive"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "550",
+      "name": "550 Spyder",
+      "category": "Homologation road car",
+      "story": "The small mid-engined 550 was built for sports-car competition but also existed in road-capable form. Only the road-capable production family is represented here.",
+      "variants": [
+        {
+          "year": 1953,
+          "name": "550 Spyder",
+          "wiki": "Porsche 550",
+          "match": "",
+          "shape": "A small open aluminium body with a very low windscreen.",
+          "engineering": "A mid-mounted flat-four in a lightweight chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_550",
+          "photos": [
+            {
+              "src": "../brand-assets/75f43b56014d23.webp",
+              "file": "Porsche_550-1500_RS_Spyder_Carrera_Panamericana_1954_frontleft_2009-03-14_A.JPG",
+              "credit": "Detectandpreserve",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_550-1500_RS_Spyder_Carrera_Panamericana_1954_frontleft_2009-03-14_A.JPG",
+              "description": "see filename for despcription - seen at \n\n\nNunos porsche Museum\n  \n\n\n\n\n\nNative name\nPorsche-Museum\n\nLocation\nStuttgart\n\nCoordinates\n48° 50′ 04.06″ N, 9° 09′ 07.02″ E   \n\nEstablished\n1976 (old museum)  2009 (new museum)\n\nWebsite\nwww.porsche.com\n\nAuthority file\n\n: Q328623\nVIAF: 138511768\nLCCN: n91050974\nGND: 2087859-X\nSUDOC: 155641123\nNKC: ko2015876799\nWorldCat\n\n\n\ninstitution QS:P195,Q328623",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/f3333b509f0375.webp",
+              "file": "Back_of_a_Porsche_550A_Spyder.jpg",
+              "credit": "Yanko Malinov",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Back_of_a_Porsche_550A_Spyder.jpg",
+              "description": "Backside of a 1957 Porsche 550A Spyder",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1953–1956 90 produced",
+            "Designer": "Erwin Komenda",
+            "Class": "Sports car",
+            "Body style": "2-door coupé 2-door spyder",
+            "Layout": "RMR layout",
+            "Engine": "1.5L (1,498 cc) DOHC flat four engine",
+            "Transmission": "4-speed manual 5-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1953,
+      "designer": "Erwin Komenda",
+      "title": "A small open aluminium body with a very low windscreen.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-550-0-0",
+        "history-550-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1953–1956 90 produced",
+        "Designer": "Erwin Komenda",
+        "Class": "Sports car",
+        "Body style": "2-door coupé 2-door spyder",
+        "Layout": "RMR layout",
+        "Engine": "1.5L (1,498 cc) DOHC flat four engine",
+        "Transmission": "4-speed manual 5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "718-rsk",
+      "name": "718 RSK / RS60 / RS61",
+      "category": "Homologation road car",
+      "story": "The original 718 name belongs to road-capable sports-racing cars of the late 1950s and early 1960s. It is kept separate from the modern Boxster/Cayman nameplate revival.",
+      "variants": [
+        {
+          "year": 1957,
+          "name": "718 RSK",
+          "wiki": "Porsche 718",
+          "match": "RSK",
+          "shape": "A small open sports-racing body.",
+          "engineering": "A mid-mounted air-cooled flat-four.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_718",
+          "photos": [
+            {
+              "src": "../brand-assets/23ea737dc67e4b.webp",
+              "file": "Porsche_718RSK_Spyder,_front_right,_Stratford.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_718RSK_Spyder,_front_right,_Stratford.jpg",
+              "description": "A Porsche 718 RSK Spyder at a \"Pints & Pistons\" event in Stratford, CT. Cared for by a well-known restorer and vintage car dealer.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/9dec682ea0718c.webp",
+              "file": "Porsche_1958_Type_718_RSK_Spyder.jpg",
+              "credit": "J Brew",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_1958_Type_718_RSK_Spyder.jpg",
+              "description": "Porsche 1958 Type 718 RSK Spyder",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Designer": "Wilhelm Hild : 221",
+            "Engine": "Type 547 1,498 cc (91.4 cu in) DOHC F4 boxer engine normally aspirated Mid-engined",
+            "Transmission": "5-speed manual"
+          }
+        },
+        {
+          "year": 1960,
+          "name": "718 RS60 / RS61",
+          "wiki": "Porsche 718",
+          "match": "RS60",
+          "shape": "Revised open bodywork and a taller windscreen.",
+          "engineering": "A developed sports-racing chassis; race-only formula derivatives are excluded.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_718",
+          "photos": [
+            {
+              "src": "../brand-assets/146a432074be35.webp",
+              "file": "Porsche_718_RS_60_Spyder_1960_backright_2009-03-14_A.JPG",
+              "credit": "Detectandpreserve",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_718_RS_60_Spyder_1960_backright_2009-03-14_A.JPG",
+              "description": "Porsche 718 RS 60 Spyder 1960 backright - seen at \n\n\nNunos porsche Museum\n  \n\n\n\n\n\nNative name\nPorsche-Museum\n\nLocation\nStuttgart\n\nCoordinates\n48° 50′ 04.06″ N, 9° 09′ 07.02″ E   \n\nEstablished\n1976 (old museum)  2009 (new museum)\n\nWebsite\nwww.porsche.com\n\nAuthority file\n\n: Q328623\nVIAF: 138511768\nLCCN: n91050974\nGND: 2087859-X\nSUDOC: 155641123\nNKC: ko2015876799\nWorldCat\n\n\n\ninstitution QS:P195,Q328623",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Designer": "Wilhelm Hild : 221",
+            "Engine": "Type 547 1,498 cc (91.4 cu in) DOHC F4 boxer engine normally aspirated Mid-engined",
+            "Transmission": "5-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1957,
+      "designer": "Wilhelm Hild : 221",
+      "title": "A small open sports-racing body.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-718-rsk-0",
+        "history-718-rsk-1"
+      ],
+      "video": null,
+      "facts": {
+        "Designer": "Wilhelm Hild : 221",
+        "Engine": "Type 547 1,498 cc (91.4 cu in) DOHC F4 boxer engine normally aspirated Mid-engined",
+        "Transmission": "5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "904",
+      "name": "904 Carrera GTS",
+      "category": "Homologation road car",
+      "story": "A GT homologation car with a low, enclosed body. Its small road-going series sits between Porsche’s open sports-racing cars and later racing prototypes.",
+      "variants": [
+        {
+          "year": 1963,
+          "name": "904 Carrera GTS",
+          "wiki": "Porsche 904",
+          "match": "",
+          "shape": "A low coupé body with a compact cabin and small side intakes.",
+          "engineering": "A mid-engine chassis with bonded glassfibre bodywork.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_904",
+          "photos": [
+            {
+              "src": "../brand-assets/812ec76ea465b4.webp",
+              "file": "Porsche_904-terabass.jpg",
+              "credit": "Terabass",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_904-terabass.jpg",
+              "description": "Porsche 904",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/c760d934d0e852.webp",
+              "file": "Porsche_904-6.jpg",
+              "credit": "Wikimedia Commons",
+              "license": "CC BY-SA 2.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_904-6.jpg",
+              "description": "Porsche_904-6.jpg",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1964–1965",
+            "Designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+            "Layout": "Rear mid-engine, rear-wheel-drive layout",
+            "Engine": "2.0 L F4 2.0 L F6 ( 904/6 ) 2.0 L F8 (904/8)",
+            "Transmission": "5-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1963,
+      "designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+      "title": "A low coupé body with a compact cabin and small side intakes.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-904-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1964–1965",
+        "Designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+        "Layout": "Rear mid-engine, rear-wheel-drive layout",
+        "Engine": "2.0 L F4 2.0 L F6 ( 904/6 ) 2.0 L F8 (904/8)",
+        "Transmission": "5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "911",
+      "name": "911 / Turbo",
+      "category": "Sports car",
+      "story": "Porsche’s rear-engined sports-car line evolves through air-cooled and water-cooled generations. Turbo, GT and open bodies remain inside this family rather than becoming duplicate main entries.",
+      "variants": [
+        {
+          "year": 1963,
+          "name": "Original 911 / F series",
+          "wiki": "Porsche 911 (classic)",
+          "match": "196[3-9]",
+          "shape": "A narrow body, round lamps and a fastback roof.",
+          "engineering": "An air-cooled rear-mounted flat-six.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29",
+          "photos": [
+            {
+              "src": "../assets/6d454209593895.webp",
+              "file": "Porsche_911E_ca_1969.jpg",
+              "credit": "Charles01",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911E_ca_1969.jpg",
+              "description": "Porsche 911E at Knebworth\nDate of first registration in UK: November 2004\nDeclared Year of manufacture: 1970\nEngine size Cylinder capacity (cc): 2195 cc",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/42b23ac5b3463b.webp",
+              "file": "Porsche_911_2.0_Coupe_IMG_0819.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_2.0_Coupe_IMG_0819.jpg",
+              "description": "Porsche 911 2.0 Coupe (1964) im Porsche Museum 2018",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1964–1989",
+            "Designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+            "Class": "Sports car",
+            "Body style": "2-door coupé 2-door Targa top (1966–1989) 2-door convertible (1982–1989)",
+            "Layout": "Rear-engine, rear-wheel drive",
+            "Engine": "2.0 L air-cooled H6 2.2 L air-cooled H6 2.3 L air-cooled H6 2.7 L air-cooled H6 3.0 L air-cooled H6 3.2 L air-cooled H6 3.0 L air-cooled turbo H6 3.3 L air-cooled turbo H6",
+            "Transmission": "5-speed manual 4-speed semi-automatic 4-speed manual"
+          }
+        },
+        {
+          "year": 1965,
+          "name": "Classic Targa",
+          "wiki": "Porsche 911 (classic)",
+          "match": "Targa",
+          "shape": "A fixed roof hoop and removable centre roof panel.",
+          "engineering": "An open-roof version of the early rear-engined 911.",
+          "kind": "Body variant",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29",
+          "photos": [
+            {
+              "src": "../brand-assets/a70c9f4f8cae35.webp",
+              "file": "12-01-03-autostadtl-by-RalfR-75.jpg",
+              "credit": "Ralf Roletschek (talk) - Wissensmanagement mit Wikis",
+              "license": "FAL",
+              "licenseUrl": "http://artlibre.org/licence/lal/en",
+              "page": "https://commons.wikimedia.org/wiki/File:12-01-03-autostadtl-by-RalfR-75.jpg",
+              "description": "1972 Porsche 911 T Targa at the Autostadt Wolfsburg. In 1967 the Targa body style was introduced in Porsche 911 models. The Targa had a stainless steel-clad roll bar, as Porsche had, at one point, thought that  the NHTSA would outlaw fully open convertibles in the United States, an important market for the 911. The name \"Targa\" (which means \"shield\" in Italian) came from the Targa Florio sports car road race in Sicily, Italy in which Porsche had notable success. The road going Targa was equipped with a removable roof panel and a removable plastic rear window (although a fixed glass version was",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1964–1989",
+            "Designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+            "Class": "Sports car",
+            "Body style": "2-door coupé 2-door Targa top (1966–1989) 2-door convertible (1982–1989)",
+            "Layout": "Rear-engine, rear-wheel drive",
+            "Engine": "2.0 L air-cooled H6 2.2 L air-cooled H6 2.3 L air-cooled H6 2.7 L air-cooled H6 3.0 L air-cooled H6 3.2 L air-cooled H6 3.0 L air-cooled turbo H6 3.3 L air-cooled turbo H6",
+            "Transmission": "5-speed manual 4-speed semi-automatic 4-speed manual"
+          }
+        },
+        {
+          "year": 1973,
+          "name": "G series",
+          "wiki": "Porsche 911 (classic)",
+          "match": "930",
+          "shape": "Impact bumpers; Turbo versions add broad arches and a large rear spoiler.",
+          "engineering": "The air-cooled platform gains turbocharged road versions.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29",
+          "photos": [
+            {
+              "src": "../assets/6b5e4b8705e7bd.webp",
+              "file": "Porsche_911SC_1981_20070316.jpg",
+              "credit": "Bergfalke2",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911SC_1981_20070316.jpg",
+              "description": "Porsche 911 SC model 1981 amb WTL (Werks-Turbo-Look), fotografiat el 16 de març del 2007 a Ravensburg (Alemanya).",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/0c7a79459d160d.webp",
+              "file": "1977_Porsche_911_SC_coupe_(29021719005).jpg",
+              "credit": "Jeremy from Sydney, Australia",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1977_Porsche_911_SC_coupe_(29021719005).jpg",
+              "description": "Porsche 911 SC",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1964–1989",
+            "Designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+            "Class": "Sports car",
+            "Body style": "2-door coupé 2-door Targa top (1966–1989) 2-door convertible (1982–1989)",
+            "Layout": "Rear-engine, rear-wheel drive",
+            "Engine": "2.0 L air-cooled H6 2.2 L air-cooled H6 2.3 L air-cooled H6 2.7 L air-cooled H6 3.0 L air-cooled H6 3.2 L air-cooled H6 3.0 L air-cooled turbo H6 3.3 L air-cooled turbo H6",
+            "Transmission": "5-speed manual 4-speed semi-automatic 4-speed manual"
+          }
+        },
+        {
+          "year": 1974,
+          "name": "930 Turbo",
+          "wiki": "Porsche 930",
+          "match": "",
+          "shape": "Wide rear arches and a prominent rear spoiler.",
+          "engineering": "A turbocharged air-cooled rear-engine road car.",
+          "kind": "Body / powertrain variant",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_930",
+          "photos": [
+            {
+              "src": "../brand-assets/89bf5873cd3f6c.webp",
+              "file": "1976_Porsche_930_Turbo,_Emerald_Green_met,_front_left.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1976_Porsche_930_Turbo,_Emerald_Green_met,_front_left.jpg",
+              "description": "A 1976 Porsche 930 Turbo in fairly unusual Emerald Green Metallic with Cinnamon interior, US-spec, photographed at Autosports Designs in Huntington, NY (Long Island). Love the graphics. Chassis number 472 out of 520, long-time Alaska car.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/343d7f925eb41b.webp",
+              "file": "1988_Porsche_930_Turbo_Cabriolet_Flachbau,_front_right_(Hershey_2019).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1988_Porsche_930_Turbo_Cabriolet_Flachbau,_front_right_(Hershey_2019).jpg",
+              "description": "1988 Porsche 930 Turbo Cabriolet Flachbau (genuine M505 option) at Hershey 2019. One owner, many dollars.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1975–1977 (3.0-litre) 2,819 produced 1978–1989 (3.3-litre) 18,770 produced",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door 2+2 coupé 2-door 2+2 convertible 2-door targa",
+            "Layout": "Rear-engine, rear-wheel-drive",
+            "Engine": "3.0 L 930/50 air-cooled turbo H6 3.3 L 930/60 air-cooled turbo H6",
+            "Transmission": "4-speed manual 5-speed Getrag G50 manual"
+          }
+        },
+        {
+          "year": 1982,
+          "name": "G-series Cabriolet",
+          "wiki": "Porsche 911 (classic)",
+          "match": "Cabriolet",
+          "shape": "A fully folding fabric roof replaces the fixed coupé roof.",
+          "engineering": "The G-series rear-engine platform in an open body.",
+          "kind": "Body variant",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29",
+          "photos": [
+            {
+              "src": "../brand-assets/3afe7113fa1f58.webp",
+              "file": "911_Carrera.jpg",
+              "credit": "Rémi Duvergey",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:911_Carrera.jpg",
+              "description": "Prussian blue 1986 911 Carrera Cabriolet.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/b861f8d03bcc05.webp",
+              "file": "1987_911carrera_Jubi_Targa_und_TLcabrio.jpg",
+              "credit": "The original uploader was Jubi88 at German Wikipedia.\n\n(Original text: Johannes Warns)",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:1987_911carrera_Jubi_Targa_und_TLcabrio.jpg",
+              "description": "Porsche 911 Carrera 3,2 (Jubiläumsmodell 1987).",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1964–1989",
+            "Designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+            "Class": "Sports car",
+            "Body style": "2-door coupé 2-door Targa top (1966–1989) 2-door convertible (1982–1989)",
+            "Layout": "Rear-engine, rear-wheel drive",
+            "Engine": "2.0 L air-cooled H6 2.2 L air-cooled H6 2.3 L air-cooled H6 2.7 L air-cooled H6 3.0 L air-cooled H6 3.2 L air-cooled H6 3.0 L air-cooled turbo H6 3.3 L air-cooled turbo H6",
+            "Transmission": "5-speed manual 4-speed semi-automatic 4-speed manual"
+          }
+        },
+        {
+          "year": 1988,
+          "name": "964",
+          "wiki": "Porsche 964",
+          "match": "",
+          "shape": "Integrated bumpers and a deployable rear spoiler.",
+          "engineering": "A substantially revised chassis with optional four-wheel drive.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_964",
+          "photos": [
+            {
+              "src": "../brand-assets/38effc044b7d70.webp",
+              "file": "1991_Porsche_964_Turbo_in_Summer_Yellow,_front_right.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1991_Porsche_964_Turbo_in_Summer_Yellow,_front_right.jpg",
+              "description": "1991 Porsche 964 Turbo in Summer Yellow with Black leather interior, fitted with 18-inch Speedline multi-piece wheels, at a Cars & Coffee in Bridgehampton, NY. 1 of 5 964 Turbos to have been painted this Paint-to-Sample shade.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/493134e1ab57c5.webp",
+              "file": "Porsche_Carrera_4_cabriolet_ca_1990_with_herbivores_dominating_the_background.jpg",
+              "credit": "Charles01",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Carrera_4_cabriolet_ca_1990_with_herbivores_dominating_the_background.jpg",
+              "description": "Porsche Carrera 4",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1989 – December 1993 63,762 built",
+            "Designer": "Benjamin Dimson (1985, 1986)",
+            "Class": "Sports car",
+            "Body style": "2-door coupé 2-door convertible 2-door targa",
+            "Layout": "RR layout R4 layout",
+            "Engine": "3.3 L M30/69 turbo F6 3.6 L M64/01, 02, 03 F6 3.6 L M64/50 turbo F6 3.75 L M64/04 F6 (3.8 RS/RSR)",
+            "Transmission": "5-speed Getrag G50 manual 4-speed Tiptronic automatic 5-speed 4WD Getrag G64 manual"
+          }
+        },
+        {
+          "year": 1993,
+          "name": "993",
+          "wiki": "Porsche 993",
+          "match": "",
+          "shape": "Lower front wings and more integrated body surfaces.",
+          "engineering": "The final principal air-cooled 911 generation.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_993",
+          "photos": [
+            {
+              "src": "../assets/e7e70c0f125122.webp",
+              "file": "Porsche_911_(3395661765).jpg",
+              "credit": "allen watkin from London, UK",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_(3395661765).jpg",
+              "description": "@ Volksworld 2009",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/f8bfa02f07cb4a.webp",
+              "file": "Porsche_911_(993)_Carrera_(12573237805)_(cropped).jpg",
+              "credit": "nakhon100",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_(993)_Carrera_(12573237805)_(cropped).jpg",
+              "description": "Porsche 911 (993) Carrera",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "January 1994 – March 1998",
+            "Designer": "Tony Hatter (1991)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible 2-door Targa top 2-door speedster",
+            "Layout": "Rear-engine, rear-wheel-drive / rear-engine, all-wheel drive",
+            "Engine": "3.6 L M64 air-cooled SOHC H6 3.8 L M64/20 air-cooled SOHC H6 3.6 L M64/60 air-cooled twin-turbo SOHC H6",
+            "Transmission": "4-speed automatic 5-speed manual 6-speed manual"
+          }
+        },
+        {
+          "year": 1997,
+          "name": "996",
+          "wiki": "Porsche 996",
+          "match": "",
+          "shape": "A larger body and combined headlamp units.",
+          "engineering": "Water cooling replaces the air-cooled engine.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_996",
+          "photos": [
+            {
+              "src": "../assets/68b6faa2d7777a.webp",
+              "file": "Porsche_996_Carrera_coupe.jpg",
+              "credit": "Mark Harkin",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_996_Carrera_coupe.jpg",
+              "description": "Porsche 996 Carrera coupe",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/d9f58f92dab18f.webp",
+              "file": "Porsche_996_Coupé_1.JPG",
+              "credit": "Thomas doerfer",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_996_Coup%C3%A9_1.JPG",
+              "description": "Porsche 996 Carrera Coupé",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "July 17, 1997–2004 (2005 and 2006 for 911 Turbo S, GT2 and GT3 models only)",
+            "Designer": "Pinky Lai (1993–2006) Harm Lagaay",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible 2-door Targa top",
+            "Layout": "Rear-engine, rear-wheel drive / Rear-engine, all-wheel drive",
+            "Engine": "3.4 L – 3.6 L M96 naturally aspirated / twin-turbocharged flat-6",
+            "Transmission": "6-speed Getrag G96/00 manual 5-speed ZF 5HP19 automatic 5-speed Mercedes-Benz 5G-Tronic automatic"
+          }
+        },
+        {
+          "year": 2004,
+          "name": "997",
+          "wiki": "Porsche 997",
+          "match": "",
+          "shape": "Rounder lamps and a more traditional-looking front.",
+          "engineering": "A development of the water-cooled rear-engine layout.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_997",
+          "photos": [
+            {
+              "src": "../assets/7f923af1d4d10b.webp",
+              "file": "Porsche_997_Turbo_-_Flickr_-_Alexandre_Prévot_(8).jpg",
+              "credit": "Alexandre Prévot from Nancy, France",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_(8).jpg",
+              "description": "Porsche 997",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/0d1f92477c6caa.webp",
+              "file": "2004-2008_Porsche_911_(997)_Carrera_S_in_Petaling_Jaya,_Malaysia_(02).jpg",
+              "credit": "Aero777",
+              "license": "CC BY-SA 2.5 my",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/my/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:2004-2008_Porsche_911_(997)_Carrera_S_in_Petaling_Jaya,_Malaysia_(02).jpg",
+              "description": "2004-2008 Porsche 911 (997) Carrera S in Petaling Jaya, Malaysia.Designed & Assembled in Germany",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "July 2004–2013",
+            "Designer": "Grant Larson (2001)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible 2-door targa top 2-door speedster",
+            "Layout": "Rear engine , rear wheel drive / all wheel drive",
+            "Engine": "3.6 L naturally aspirated / twin-turbocharged Flat-6 3.8 L naturally aspirated/twin-turbocharged Flat-6 4.0 L naturally aspirated Flat-6",
+            "Transmission": "5-speed Mercedes-Benz 5G-Tronic (722.6) automatic 6-speed Aisin manual 7-speed ZF 7DT-series PDK"
+          }
+        },
+        {
+          "year": 2011,
+          "name": "991",
+          "wiki": "Porsche 991",
+          "match": "",
+          "shape": "A longer wheelbase and lower-looking roof.",
+          "engineering": "A new platform with a broader footprint.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_991",
+          "photos": [
+            {
+              "src": "../assets/064fb19b242a80.webp",
+              "file": "2013_Porsche_911_Carrera_4S_(991)_(9626546987).jpg",
+              "credit": "David Villarreal Fernández",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2013_Porsche_911_Carrera_4S_(991)_(9626546987).jpg",
+              "description": "Test Drive for Diariomotor - Porsche 911 Carrera 4S vs Audi R8 Spyder.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/b93beb1dd9f292.webp",
+              "file": "2013_Porsche_911_Carrera_4S_(991)_(8824948364).jpg",
+              "credit": "David Villarreal Fernández",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2013_Porsche_911_Carrera_4S_(991)_(8824948364).jpg",
+              "description": "Test Drive for Diariomotor - Porsche 911 Carrera 4S vs Audi R8 Spyder \n\nIf you want to use this image feel free to do it but please give credit to me and link to this test-drive: www.diariomotor.com/altas-prestaciones/comparativa-audi-r...",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "September 2011 – December 2019",
+            "Designer": "Michael Mauer (2008)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door Targa top 2-door convertible 2-door speedster",
+            "Layout": "Rear engine , rear wheel drive / all wheel drive",
+            "Engine": "3.0 L twin-turbocharged flat-6 3.4 L flat-6 3.8 L flat-6 3.8 L twin-turbocharged flat-6 4.0 L flat-6",
+            "Transmission": "6-speed manual 7-speed manual 7-speed PDK"
+          }
+        },
+        {
+          "year": 2014,
+          "name": "991 Targa",
+          "wiki": "Porsche 991",
+          "match": "Targa",
+          "shape": "A fixed-looking hoop with a moving rear roof and glass assembly.",
+          "engineering": "A powered roof system within the 991 platform.",
+          "kind": "Body variant",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_991",
+          "photos": [
+            {
+              "src": "../brand-assets/0c4cb144840006.webp",
+              "file": "2018_Porsche_911_Targa_4_GTS_S-A_3.0_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Porsche_911_Targa_4_GTS_S-A_3.0_Front.jpg",
+              "description": "2018 Porsche 911 Targa 4 GTS S-A 3.0 Front Taken in Warwick",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/20fe1845d384d8.webp",
+              "file": "2014_Porsche_991_Targa_4S_South_Perth,_2014.JPG",
+              "credit": "Bahnfrend",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2014_Porsche_991_Targa_4S_South_Perth,_2014.JPG",
+              "description": "A 2014 Porsche 991 Targa 4S, on display at the Porsche Club of Western Australia annual concours, Sir James Mitchell Park, South Perth, WA, Australia.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "September 2011 – December 2019",
+            "Designer": "Michael Mauer (2008)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door Targa top 2-door convertible 2-door speedster",
+            "Layout": "Rear engine , rear wheel drive / all wheel drive",
+            "Engine": "3.0 L twin-turbocharged flat-6 3.4 L flat-6 3.8 L flat-6 3.8 L twin-turbocharged flat-6 4.0 L flat-6",
+            "Transmission": "6-speed manual 7-speed manual 7-speed PDK"
+          }
+        },
+        {
+          "year": 2018,
+          "name": "992",
+          "wiki": "Porsche 992",
+          "match": "",
+          "shape": "A full-width rear light bar and a wider body.",
+          "engineering": "The latest principal rear-engine platform; later powertrain updates remain grouped.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_992",
+          "photos": [
+            {
+              "src": "../assets/651f08509ccd36.webp",
+              "file": "Porsche_911_(992)_Carrera_GTS.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_(992)_Carrera_GTS.jpg",
+              "description": "A Porsche 911 (992) Carrera GTS.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/f156302af12db0.webp",
+              "file": "2019_Porsche_911_Carrera_S_S-A_3.0_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2019_Porsche_911_Carrera_S_S-A_3.0_Rear.jpg",
+              "description": "2019 Porsche 911 Carrera S S-A 3.0 Rear Taken at the Salon Privé Concours d'Elegance Classic Car Motor Show 2019, Blenheim Palace",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/920cc111048fea.webp",
+              "file": "GIMS_2019,_Le_Grand-Saconnex_(GIMS0973).jpg",
+              "credit": "Matti Blume",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:GIMS_2019,_Le_Grand-Saconnex_(GIMS0973).jpg",
+              "description": "Geneva International Motor Show 2019, Le Grand-Saconnex",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2019–present",
+            "Designer": "Ben Baum under Michael Mauer",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door targa top 2-door convertible",
+            "Layout": "Rear-engine, rear-wheel drive Rear-engine, all-wheel drive",
+            "Engine": "Petrol : Porsche MDC.K 3.0 L twin-turbocharged flat-6 Porsche MDB.CB 3.7 L twin-turbocharged flat-6 Porsche MA2.75 4.0 L naturally aspirated flat-6 Mild-hybrid : 3.6 L turbocharged flat-6 3.6 L twin-turbocharged flat-6",
+            "Electric motor": "Permanent magnet synchronous electric motor",
+            "Transmission": "6-speed manual 7-speed manual 7-speed PDK 8-speed PDK"
+          }
+        },
+        {
+          "year": 2022,
+          "name": "992 GT3 RS",
+          "wiki": "Porsche 992",
+          "match": "GT3.RS",
+          "shape": "A large swan-neck rear wing, bonnet outlets and highly open front aero.",
+          "engineering": "A road-legal, naturally aspirated track-focused 911 derivative.",
+          "kind": "Road-legal performance variant",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_992",
+          "photos": [
+            {
+              "src": "../brand-assets/dbd1ebbc166521.webp",
+              "file": "Porsche_992_GT3_RS_MYLE_Festival_2025_DSC_9584_(cropped).jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_992_GT3_RS_MYLE_Festival_2025_DSC_9584_(cropped).jpg",
+              "description": "Porsche 992 GT3 RS at MYLE Festival 2025",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2019–present",
+            "Designer": "Ben Baum under Michael Mauer",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door targa top 2-door convertible",
+            "Layout": "Rear-engine, rear-wheel drive Rear-engine, all-wheel drive",
+            "Engine": "Petrol : Porsche MDC.K 3.0 L twin-turbocharged flat-6 Porsche MDB.CB 3.7 L twin-turbocharged flat-6 Porsche MA2.75 4.0 L naturally aspirated flat-6 Mild-hybrid : 3.6 L turbocharged flat-6 3.6 L twin-turbocharged flat-6",
+            "Electric motor": "Permanent magnet synchronous electric motor",
+            "Transmission": "6-speed manual 7-speed manual 7-speed PDK 8-speed PDK"
+          }
+        },
+        {
+          "year": 2022,
+          "name": "992 Dakar",
+          "wiki": "Porsche 992",
+          "match": "Dakar",
+          "shape": "Raised suspension, arch protection and an off-road stance.",
+          "engineering": "A limited all-wheel-drive, all-surface road car.",
+          "kind": "Body / chassis variant",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_992",
+          "photos": [
+            {
+              "src": "../brand-assets/f82c1216cfe547.webp",
+              "file": "Porsche_911_Dakar_(992)_–_f_18112022.jpg",
+              "credit": "© M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_Dakar_(992)_%E2%80%93_f_18112022.jpg",
+              "description": "Porsche 911 Dakar (992)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/f614221f6192ce.webp",
+              "file": "Porsche_911_Dakar_(992)_–_h_18112022.jpg",
+              "credit": "© M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_Dakar_(992)_%E2%80%93_h_18112022.jpg",
+              "description": "Porsche 911 Dakar (992)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2019–present",
+            "Designer": "Ben Baum under Michael Mauer",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door targa top 2-door convertible",
+            "Layout": "Rear-engine, rear-wheel drive Rear-engine, all-wheel drive",
+            "Engine": "Petrol : Porsche MDC.K 3.0 L twin-turbocharged flat-6 Porsche MDB.CB 3.7 L twin-turbocharged flat-6 Porsche MA2.75 4.0 L naturally aspirated flat-6 Mild-hybrid : 3.6 L turbocharged flat-6 3.6 L twin-turbocharged flat-6",
+            "Electric motor": "Permanent magnet synchronous electric motor",
+            "Transmission": "6-speed manual 7-speed manual 7-speed PDK 8-speed PDK"
+          }
+        }
+      ],
+      "inherit": "911",
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1963,
+      "designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+      "title": "A narrow body, round lamps and a fastback roof.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-911-11-2",
+        "reading-911-11-1",
+        "reading-911-11-0",
+        "reading-911-9-2",
+        "reading-911-9-1",
+        "reading-911-9-0",
+        "reading-911-8-2",
+        "reading-911-8-1",
+        "reading-911-8-0",
+        "reading-911-7-2",
+        "reading-911-7-1",
+        "reading-911-7-0",
+        "reading-911-6-2",
+        "reading-911-6-1",
+        "reading-911-6-0",
+        "reading-911-5-0",
+        "reading-911-3-2",
+        "reading-911-3-1",
+        "reading-911-3-0",
+        "reading-911-0-1",
+        "reading-911-0-0",
+        "history-911-0",
+        "history-911-1",
+        "history-911-2",
+        "history-911-3",
+        "history-911-4",
+        "history-911-5",
+        "history-911-6",
+        "history-911-7",
+        "history-911-8",
+        "history-911-9",
+        "history-911-10",
+        "history-911-11",
+        "history-911-12",
+        "history-911-13"
+      ],
+      "video": {
+        "id": "8WMMjO6gafg",
+        "title": "Top Gear decides the best Porsche 911 ever",
+        "channel": "Top Gear",
+        "note": "",
+        "url": "https://www.youtube.com/watch?v=8WMMjO6gafg"
+      },
+      "facts": {
+        "Production": "1964–1989",
+        "Designer": "Ferdinand Alexander Porsche , Erwin Komenda",
+        "Class": "Sports car",
+        "Body style": "2-door coupé 2-door Targa top (1966–1989) 2-door convertible (1982–1989)",
+        "Layout": "Rear-engine, rear-wheel drive",
+        "Engine": "2.0 L air-cooled H6 2.2 L air-cooled H6 2.3 L air-cooled H6 2.7 L air-cooled H6 3.0 L air-cooled H6 3.2 L air-cooled H6 3.0 L air-cooled turbo H6 3.3 L air-cooled turbo H6",
+        "Transmission": "5-speed manual 4-speed semi-automatic 4-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "912",
+      "name": "912 / 912E",
+      "category": "Sports car",
+      "story": "The 912 uses a four-cylinder engine in the early 911 body. A later 912E briefly revisits the formula for the American market.",
+      "variants": [
+        {
+          "year": 1965,
+          "name": "912",
+          "wiki": "Porsche 912",
+          "match": "912",
+          "shape": "The early narrow 911 body with four-cylinder identification.",
+          "engineering": "An air-cooled rear-mounted flat-four.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_912",
+          "photos": [
+            {
+              "src": "../brand-assets/7bc14971720849.webp",
+              "file": "Porsche_912_(2016-07-02_Sp).JPG",
+              "credit": "Lothar Spurzem",
+              "license": "CC BY-SA 2.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_912_(2016-07-02_Sp).JPG",
+              "description": "Porsche 912, Baujahr 1968; gleiche Karosserie wie 911, aber mit Vierzylindermotor, 1582 cm³, 90 PS. Die Leichtmetallräder sind Sonderausstattung.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/13f4c1fd8183cf.webp",
+              "file": "1967_Porsche_912_in_Agablau,_rear_right.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1967_Porsche_912_in_Agablau,_rear_right.jpg",
+              "description": "1967 Porsche 912 in Aga Blue. Agablau 6608B, black leather interior. Build date 2 May 1967.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1965 – 1969 (912) 1975 – 1976 (912E)",
+            "Designer": "Ferdinand Alexander Porsche",
+            "Class": "Sports car",
+            "Body style": "Coupé",
+            "Layout": "RR layout",
+            "Engine": "1.6 L Type 616/36 B4 1.6 L Type 616/39 B4 (US) 2.0 L Volkswagen Type 4 H4 (912E)"
+          }
+        },
+        {
+          "year": 1976,
+          "name": "912E",
+          "wiki": "Porsche 912",
+          "match": "912E",
+          "shape": "The later impact-bumper body.",
+          "engineering": "A fuel-injected flat-four in a short-run road model.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_912",
+          "photos": [
+            {
+              "src": "../brand-assets/046db6a537b3b6.webp",
+              "file": "Porsche_912E.jpg",
+              "credit": "Abehn",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_912E.jpg",
+              "description": "Porsche 912 E (US-Version, only produced for US-Market). Photo taken on Nürburgring.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/034a5e37bcc3ad.webp",
+              "file": "RM_Sotheby’s_2017_-_Porsche_912_E_-_1976_-_002.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:RM_Sotheby%E2%80%99s_2017_-_Porsche_912_E_-_1976_-_002.jpg",
+              "description": "Une Porsche 912 E de 1976 exposée lors de la vente RM Sotheby’s 2017 aux Invalides à Paris.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1965 – 1969 (912) 1975 – 1976 (912E)",
+            "Designer": "Ferdinand Alexander Porsche",
+            "Class": "Sports car",
+            "Body style": "Coupé",
+            "Layout": "RR layout",
+            "Engine": "1.6 L Type 616/36 B4 1.6 L Type 616/39 B4 (US) 2.0 L Volkswagen Type 4 H4 (912E)"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1965,
+      "designer": "Ferdinand Alexander Porsche",
+      "title": "The early narrow 911 body with four-cylinder identification.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-912-0",
+        "history-912-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1965 – 1969 (912) 1975 – 1976 (912E)",
+        "Designer": "Ferdinand Alexander Porsche",
+        "Class": "Sports car",
+        "Body style": "Coupé",
+        "Layout": "RR layout",
+        "Engine": "1.6 L Type 616/36 B4 1.6 L Type 616/39 B4 (US) 2.0 L Volkswagen Type 4 H4 (912E)"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "906",
+      "name": "906 Carrera 6",
+      "category": "Homologation road car",
+      "story": "A small road-capable homologation series links Porsche’s GT cars and prototype racers. Race-only engine and body derivatives are outside this road-car entry.",
+      "variants": [
+        {
+          "year": 1966,
+          "name": "906 Carrera 6",
+          "wiki": "Porsche 906",
+          "match": "",
+          "shape": "A low glassfibre coupé with gullwing doors.",
+          "engineering": "A mid-mounted flat-six and a tubular chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_906",
+          "photos": [
+            {
+              "src": "../brand-assets/228ba22929ea56.webp",
+              "file": "1966_Porsche_906_-_Carrera_Six_(54050279484).jpg",
+              "credit": "David Merrett from Daventry, England",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1966_Porsche_906_-_Carrera_Six_(54050279484).jpg",
+              "description": "Goodwood Revival 2024",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/a4bff2ed0f8cce.webp",
+              "file": "1966_Porsche_906_Coupé_(906-120),_rear_left.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1966_Porsche_906_Coup%C3%A9_(906-120),_rear_left.jpg",
+              "description": "1966 Porsche 906 Carrera 6 Coupé (906-120) seen at Caffeine and Carburetors in New Canaan, CT. This is the Ex-Shintaro Taki/Kenjiro Tanaka/Mashiro Hasemi/Peter Bellamy car, winning the 1967 and 1969 Suzuka 1,000 Kilometers races and the 1968 Suzuka 500 Kilometers. Delivered to Shintaro Taki in March 1966, this car started racing immediately and kept being campaigned until 1974, when it finished a respectable fourth at the Macau grand Prix. The original 2.0-litre flat-six was enlarged to 2.5 litres at some point and rebuilt as a 2.5 by Porsche in 1993. 260hp, five-speed manual.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1966",
+            "Designer": "Ferdinand Piëch , Erwin Komenda",
+            "Class": "Group 4 Group 6",
+            "Layout": "RMR layout",
+            "Engine": "2.0L (1991cc) flat 6"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1966,
+      "designer": "Ferdinand Piëch , Erwin Komenda",
+      "title": "A low glassfibre coupé with gullwing doors.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-906-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1966",
+        "Designer": "Ferdinand Piëch , Erwin Komenda",
+        "Class": "Group 4 Group 6",
+        "Layout": "RMR layout",
+        "Engine": "2.0L (1991cc) flat 6"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "914",
+      "name": "914 / 914-6",
+      "category": "Sports car",
+      "story": "A joint Volkswagen-Porsche project with a mid-engine layout and removable roof. Four- and six-cylinder road versions share the same basic body.",
+      "variants": [
+        {
+          "year": 1969,
+          "name": "914 / 914-6",
+          "wiki": "Porsche 914",
+          "match": "",
+          "shape": "A low central cabin, removable roof and upright rear screen.",
+          "engineering": "A mid-mounted flat-four or flat-six; race-only prototypes are excluded.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_914",
+          "photos": [
+            {
+              "src": "../brand-assets/b66d2c4eb4731f.webp",
+              "file": "1973_Porsche_914_1.7_in_Silver,_front_left_side.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1973_Porsche_914_1.7_in_Silver,_front_left_side.jpg",
+              "description": "1973 Porsche 914 1.7. Sold new to San Bernardino, CA, emigrated to Canada in 1992 and returned to the US (Long Island) in 2011. A nice, unmolested 914.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/ea235d0e37471c.webp",
+              "file": "Porsche_914_(1970)_-_9579225634.jpg",
+              "credit": "SG2012",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_914_(1970)_-_9579225634.jpg",
+              "description": "Bodelwyddan Classic Car Show 21/07/2013",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1969 – 1976 118,978 produced 914/4 : 115,646 914/6 : 3,332 914/8 : 2",
+            "Designer": "Ferdinand Alexander Porsche , Heinrich Klie",
+            "Class": "Sports car",
+            "Body style": "2-door targa",
+            "Layout": "Rear mid-engine, rear-wheel drive",
+            "Engine": "1.7 L Volkswagen Type 4 F4 1.8 L Volkswagen Type 4 F4 2.0 L Volkswagen Type 4 F4 2.0 L Type 901/36 F6 (914/6)",
+            "Transmission": "5-speed manual 4-speed semi-automatic transmission ( Sportomatic )"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1969,
+      "designer": "Ferdinand Alexander Porsche , Heinrich Klie",
+      "title": "A low central cabin, removable roof and upright rear screen.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-914-0-0",
+        "history-914-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1969 – 1976 118,978 produced 914/4 : 115,646 914/6 : 3,332 914/8 : 2",
+        "Designer": "Ferdinand Alexander Porsche , Heinrich Klie",
+        "Class": "Sports car",
+        "Body style": "2-door targa",
+        "Layout": "Rear mid-engine, rear-wheel drive",
+        "Engine": "1.7 L Volkswagen Type 4 F4 1.8 L Volkswagen Type 4 F4 2.0 L Volkswagen Type 4 F4 2.0 L Type 901/36 F6 (914/6)",
+        "Transmission": "5-speed manual 4-speed semi-automatic transmission ( Sportomatic )"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "924",
+      "name": "924",
+      "category": "Sports car",
+      "story": "The 924 begins Porsche’s front-engined, water-cooled transaxle line. Turbo and Carrera GT bodies add progressively larger cooling openings and arches.",
+      "variants": [
+        {
+          "year": 1976,
+          "name": "924 / 924S",
+          "wiki": "Porsche 924",
+          "match": "924",
+          "shape": "A low nose and a large glass rear hatch.",
+          "engineering": "A front four-cylinder engine and rear transaxle.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_924",
+          "photos": [
+            {
+              "src": "../brand-assets/1d6f7fb539f3c9.webp",
+              "file": "Porsche_924_in_the_Porsche-Museum_(2009)_1X7A0347.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_924_in_the_Porsche-Museum_(2009)_1X7A0347.jpg",
+              "description": "Porsche_924_in_the_Porsche-Museum_(2009)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/5d99e8880c9f42.webp",
+              "file": "1981_Porsche_924_2.0_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1981_Porsche_924_2.0_Rear.jpg",
+              "description": "1981 Porsche 924 2.0 Rear Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1976–1988",
+            "Designer": "Harm Lagaay ( Porsche AG )",
+            "Class": "Sports car",
+            "Body style": "2-door 2+2 coupé",
+            "Layout": "Front-engine, rear-wheel-drive layout",
+            "Engine": "2.0 L VW EA831 I4 2.0 L VW EA831 turbo I4 2.5 L M44/40 I4",
+            "Transmission": "3-speed automatic 4-speed manual 5-speed Getrag manual"
+          }
+        },
+        {
+          "year": 1978,
+          "name": "924 Turbo",
+          "wiki": "Porsche 924",
+          "match": "Turbo",
+          "shape": "Bonnet and nose cooling openings.",
+          "engineering": "A turbocharged development of the transaxle layout.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_924",
+          "photos": [
+            {
+              "src": "../brand-assets/172e9a37900c5c.webp",
+              "file": "Porsche_924_Turbo_(3740494673).jpg",
+              "credit": "dave_7 from Lethbridge, Canada",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_924_Turbo_(3740494673).jpg",
+              "description": "Porsche 924 Turbo parked outside the European Classic Car show.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1976–1988",
+            "Designer": "Harm Lagaay ( Porsche AG )",
+            "Class": "Sports car",
+            "Body style": "2-door 2+2 coupé",
+            "Layout": "Front-engine, rear-wheel-drive layout",
+            "Engine": "2.0 L VW EA831 I4 2.0 L VW EA831 turbo I4 2.5 L M44/40 I4",
+            "Transmission": "3-speed automatic 4-speed manual 5-speed Getrag manual"
+          }
+        },
+        {
+          "year": 1980,
+          "name": "924 Carrera GT",
+          "wiki": "Porsche 924",
+          "match": "Carrera",
+          "shape": "Flared arches, a bonnet scoop and revised front aero.",
+          "engineering": "A limited road-going homologation model.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_924",
+          "photos": [
+            {
+              "src": "../brand-assets/1dbfce5f708a63.webp",
+              "file": "1980_Porsche_924_Carrera_GT_front.jpg",
+              "credit": "Pelicanactor",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1980_Porsche_924_Carrera_GT_front.jpg",
+              "description": "1980 Porsche 924 Carrera GT front",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1976–1988",
+            "Designer": "Harm Lagaay ( Porsche AG )",
+            "Class": "Sports car",
+            "Body style": "2-door 2+2 coupé",
+            "Layout": "Front-engine, rear-wheel-drive layout",
+            "Engine": "2.0 L VW EA831 I4 2.0 L VW EA831 turbo I4 2.5 L M44/40 I4",
+            "Transmission": "3-speed automatic 4-speed manual 5-speed Getrag manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1976,
+      "designer": "Harm Lagaay ( Porsche AG )",
+      "title": "A low nose and a large glass rear hatch.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-924-0-2",
+        "reading-924-0-1",
+        "reading-924-0-0",
+        "history-924-0",
+        "history-924-1",
+        "history-924-2"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1976–1988",
+        "Designer": "Harm Lagaay ( Porsche AG )",
+        "Class": "Sports car",
+        "Body style": "2-door 2+2 coupé",
+        "Layout": "Front-engine, rear-wheel-drive layout",
+        "Engine": "2.0 L VW EA831 I4 2.0 L VW EA831 turbo I4 2.5 L M44/40 I4",
+        "Transmission": "3-speed automatic 4-speed manual 5-speed Getrag manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "928",
+      "name": "928",
+      "category": "Grand tourer",
+      "story": "A front-V8 grand tourer with a rounded hatchback body. Later S4, GT and GTS models revise the nose, rear treatment and powertrain.",
+      "variants": [
+        {
+          "year": 1977,
+          "name": "928 / S",
+          "wiki": "Porsche 928",
+          "match": "197[7-9]",
+          "shape": "A rounded hatchback body and exposed pop-up headlamps.",
+          "engineering": "A front V8 and rear transaxle.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_928",
+          "photos": [
+            {
+              "src": "../brand-assets/6ded1b9c6f2f9c.webp",
+              "file": "1978_Porsche_928.jpg",
+              "credit": "Decampos",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1978_Porsche_928.jpg",
+              "description": "Interior showing Pasha pattern seat trim",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "May 1977 – 1995 61,056 produced",
+            "Designer": "Wolfgang Möbius Anatole Lapine",
+            "Class": "Grand tourer ( S )",
+            "Body style": "2-door 2+2 liftback coupé",
+            "Layout": "Front-engine, rear-wheel-drive",
+            "Engine": "4.5 L M28/01 – M28/18 V8 4.7 L M28/19 – M28/22 V8 5.0 L M28/41 – M28/47 DOHC V8 5.4 L M28/49 – M28/50 DOHC V8 Note",
+            "Transmission": "5-speed manual 3-speed automatic 4-speed automatic"
+          }
+        },
+        {
+          "year": 1986,
+          "name": "S4 / GT / GTS",
+          "wiki": "Porsche 928",
+          "match": "S4",
+          "shape": "Smoother bumpers and revised rear lighting.",
+          "engineering": "A developed V8 and transaxle package; GTS is the final principal road version.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_928",
+          "photos": [
+            {
+              "src": "../brand-assets/d5c9382ebfc862.webp",
+              "file": "1991_Porsche_928_S4_LC24.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1991_Porsche_928_S4_LC24.jpg",
+              "description": "A 1991 Porsche 928 S4 taken at London Concours 2024.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "May 1977 – 1995 61,056 produced",
+            "Designer": "Wolfgang Möbius Anatole Lapine",
+            "Class": "Grand tourer ( S )",
+            "Body style": "2-door 2+2 liftback coupé",
+            "Layout": "Front-engine, rear-wheel-drive",
+            "Engine": "4.5 L M28/01 – M28/18 V8 4.7 L M28/19 – M28/22 V8 5.0 L M28/41 – M28/47 DOHC V8 5.4 L M28/49 – M28/50 DOHC V8 Note",
+            "Transmission": "5-speed manual 3-speed automatic 4-speed automatic"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1977,
+      "designer": "Wolfgang Möbius Anatole Lapine",
+      "title": "A rounded hatchback body and exposed pop-up headlamps.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-928-0-2",
+        "reading-928-0-1",
+        "reading-928-0-0",
+        "history-928-0",
+        "history-928-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "May 1977 – 1995 61,056 produced",
+        "Designer": "Wolfgang Möbius Anatole Lapine",
+        "Class": "Grand tourer ( S )",
+        "Body style": "2-door 2+2 liftback coupé",
+        "Layout": "Front-engine, rear-wheel-drive",
+        "Engine": "4.5 L M28/01 – M28/18 V8 4.7 L M28/19 – M28/22 V8 5.0 L M28/41 – M28/47 DOHC V8 5.4 L M28/49 – M28/50 DOHC V8 Note",
+        "Transmission": "5-speed manual 3-speed automatic 4-speed automatic"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "944",
+      "name": "944",
+      "category": "Sports car",
+      "story": "The 944 develops the 924’s transaxle layout with much wider arches. Turbo and S2 nose treatments make the later cars visibly different.",
+      "variants": [
+        {
+          "year": 1982,
+          "name": "944 / S",
+          "wiki": "Porsche 944",
+          "match": "198[2-5]",
+          "shape": "Broad squared wheelarches around the glass-hatch body.",
+          "engineering": "A Porsche-designed front four-cylinder engine and rear transaxle.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_944",
+          "photos": [
+            {
+              "src": "../brand-assets/f3ea77bb01c128.webp",
+              "file": "1984_Porsche_944_coupe_(19473129259)_(cropped).jpg",
+              "credit": "Jeremy from Sydney, Australia",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1984_Porsche_944_coupe_(19473129259)_(cropped).jpg",
+              "description": "1984 Porsche 944",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/0b8790aa63926e.webp",
+              "file": "1983_Porsche_944_2.5.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1983_Porsche_944_2.5.jpg",
+              "description": "1983 Porsche 944 2.5 Taken in Warwick",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1982–1991",
+            "Designer": "Harm Lagaay ( Porsche AG )",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Front-engine, rear-wheel-drive layout",
+            "Engine": "2.5 L M44/40 I4 2.5 L M44/51, M44/52 turbo I4 2.7 L M44/12 I4 3.0 L M44/41 I4",
+            "Transmission": "3-speed automatic 5-speed manual"
+          }
+        },
+        {
+          "year": 1985,
+          "name": "944 Turbo / S2",
+          "wiki": "Porsche 944",
+          "match": "Turbo",
+          "shape": "A more integrated, rounded front bumper.",
+          "engineering": "Turbocharged or larger naturally aspirated engines in the transaxle platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_944",
+          "photos": [
+            {
+              "src": "../brand-assets/f2839f080e9103.webp",
+              "file": "1986_Porsche_944_Turbo.jpg",
+              "credit": "Daniel J. Leivick",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1986_Porsche_944_Turbo.jpg",
+              "description": "Stock 1986 Porsche 944 Turbo",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/6846716a1fbe70.webp",
+              "file": "Porsche_944_S2_1991.jpg",
+              "credit": "Jeanmanu",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_944_S2_1991.jpg",
+              "description": "Porsche 944 S2 - 3.0l, 211ch",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1982–1991",
+            "Designer": "Harm Lagaay ( Porsche AG )",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Front-engine, rear-wheel-drive layout",
+            "Engine": "2.5 L M44/40 I4 2.5 L M44/51, M44/52 turbo I4 2.7 L M44/12 I4 3.0 L M44/41 I4",
+            "Transmission": "3-speed automatic 5-speed manual"
+          }
+        },
+        {
+          "year": 1989,
+          "name": "944 S2 Cabriolet",
+          "wiki": "Porsche 944",
+          "match": "Cabriolet",
+          "shape": "A folding fabric roof replaces the large rear hatch.",
+          "engineering": "A reinforced open-body version of the S2.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_944",
+          "photos": [
+            {
+              "src": "../brand-assets/b618abfa853bb6.webp",
+              "file": "1991_Porsche_944_Convertible_(10333936763).jpg",
+              "credit": "Niels de Wit from Lunteren, The Netherlands",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1991_Porsche_944_Convertible_(10333936763).jpg",
+              "description": "RD-NN-08",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1982–1991",
+            "Designer": "Harm Lagaay ( Porsche AG )",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Front-engine, rear-wheel-drive layout",
+            "Engine": "2.5 L M44/40 I4 2.5 L M44/51, M44/52 turbo I4 2.7 L M44/12 I4 3.0 L M44/41 I4",
+            "Transmission": "3-speed automatic 5-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1982,
+      "designer": "Harm Lagaay ( Porsche AG )",
+      "title": "Broad squared wheelarches around the glass-hatch body.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-944-0-1",
+        "reading-944-0-0",
+        "history-944-0",
+        "history-944-1",
+        "history-944-2"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1982–1991",
+        "Designer": "Harm Lagaay ( Porsche AG )",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door convertible",
+        "Layout": "Front-engine, rear-wheel-drive layout",
+        "Engine": "2.5 L M44/40 I4 2.5 L M44/51, M44/52 turbo I4 2.7 L M44/12 I4 3.0 L M44/41 I4",
+        "Transmission": "3-speed automatic 5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "959",
+      "name": "959",
+      "category": "Supercar",
+      "story": "Porsche’s technical flagship uses a wide, integrated body over an advanced four-wheel-drive platform. Komfort and Sport specifications remain in one body chapter.",
+      "variants": [
+        {
+          "year": 1986,
+          "name": "959 Komfort / Sport",
+          "wiki": "Porsche 959",
+          "match": "Front",
+          "shape": "Integrated rear arches and a body-coloured rear wing.",
+          "engineering": "Turbocharging, variable four-wheel drive and advanced suspension.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_959",
+          "photos": [
+            {
+              "src": "../assets/2ec237870e0968.webp",
+              "file": "Porsche_959_–_Frontansicht_(2),_21._März_2013,_Düsseldorf.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_959_%E2%80%93_Frontansicht_(2),_21._M%C3%A4rz_2013,_D%C3%BCsseldorf.jpg",
+              "description": "Frontansicht eines Porsche 959.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/95a3e7df5c2f05.webp",
+              "file": "Porsche_959_–_Innenraum,_21._März_2013,_Düsseldorf.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_959_%E2%80%93_Innenraum,_21._M%C3%A4rz_2013,_D%C3%BCsseldorf.jpg",
+              "description": "Innenraum eines Porsche 959.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1986–1993 (337+8 produced)",
+            "Designer": "Helmuth Bott",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé",
+            "Layout": "Rear-engine, four-wheel-drive",
+            "Engine": "2.8 L (2,849 cc) twin-turbocharged flat-6",
+            "Transmission": "6-speed manual"
+          }
+        }
+      ],
+      "inherit": "959",
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1986,
+      "designer": "Helmuth Bott",
+      "title": "Integrated rear arches and a body-coloured rear wing.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-959-0-2",
+        "reading-959-0-1",
+        "reading-959-0-0",
+        "history-959-0"
+      ],
+      "video": {
+        "id": "7mFleLfedrU",
+        "title": "1980s supercar powertest: F40 and 959",
+        "channel": "Top Gear",
+        "note": "Richard Hammond compares the Porsche 959 and Ferrari F40.",
+        "url": "https://www.youtube.com/watch?v=7mFleLfedrU"
+      },
+      "facts": {
+        "Production": "1986–1993 (337+8 produced)",
+        "Designer": "Helmuth Bott",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé",
+        "Layout": "Rear-engine, four-wheel-drive",
+        "Engine": "2.8 L (2,849 cc) twin-turbocharged flat-6",
+        "Transmission": "6-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "968",
+      "name": "968",
+      "category": "Sports car",
+      "story": "The final principal development of Porsche’s four-cylinder transaxle line uses exposed round pop-up lamps and a smoother body. Coupé and Cabriolet forms share the layout.",
+      "variants": [
+        {
+          "year": 1991,
+          "name": "968 coupé / Club Sport",
+          "wiki": "Porsche 968",
+          "match": "Coupe",
+          "shape": "Round exposed pop-up lamps and a smoother glass-hatch body.",
+          "engineering": "A front four-cylinder engine and rear transaxle; Club Sport is grouped here.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_968",
+          "photos": [
+            {
+              "src": "../brand-assets/918eca709aa38e.webp",
+              "file": "1994_Porsche_968_Club_Sport_in_Grandprixweiss,_front_right.jpg",
+              "credit": "File:Porsche 968 Club Sport On The Beach.jpg: Jake Thomas\nderivative work: Mr.choppers",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1994_Porsche_968_Club_Sport_in_Grandprixweiss,_front_right.jpg",
+              "description": "1994 Porsche 968 Club Sport in Grandprixweiss; 3/4 View Photo On The Beach",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/dad44a7b68c507.webp",
+              "file": "1993_Porsche_968_CS_in_Speedgelb,_rear_right.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1993_Porsche_968_CS_in_Speedgelb,_rear_right.jpg",
+              "description": "1993 Porsche 968 CS in Speedgelb at the 2026 Greenwich Concours d'Elegance.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1991 – 1995",
+            "Designer": "Harm Lagaay ( Porsche AG )",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Front-engine, rear-wheel-drive layout",
+            "Engine": "3.0 L M44/12 16-valve I4 3.0 L M44/60 8-valve turbo I4",
+            "Transmission": "6-speed manual 4-speed Tiptronic automatic"
+          }
+        },
+        {
+          "year": 1991,
+          "name": "968 Cabriolet",
+          "wiki": "Porsche 968",
+          "match": "Cabriolet",
+          "shape": "A folding roof and conventional boot replace the hatch.",
+          "engineering": "The same transaxle concept in an open body.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_968",
+          "photos": [
+            {
+              "src": "../brand-assets/773bbcc4dcd47d.webp",
+              "file": "1993_Porsche_968_Cabriolet,_rear_left.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1993_Porsche_968_Cabriolet,_rear_left.jpg",
+              "description": "A 1993 Porsche 968 Cabriolet, six-speed manual in US (federalized) specs. For sale, at $16,900 which might be reasonable.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1991 – 1995",
+            "Designer": "Harm Lagaay ( Porsche AG )",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Front-engine, rear-wheel-drive layout",
+            "Engine": "3.0 L M44/12 16-valve I4 3.0 L M44/60 8-valve turbo I4",
+            "Transmission": "6-speed manual 4-speed Tiptronic automatic"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1991,
+      "designer": "Harm Lagaay ( Porsche AG )",
+      "title": "Round exposed pop-up lamps and a smoother glass-hatch body.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-968-0",
+        "history-968-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1991 – 1995",
+        "Designer": "Harm Lagaay ( Porsche AG )",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door convertible",
+        "Layout": "Front-engine, rear-wheel-drive layout",
+        "Engine": "3.0 L M44/12 16-valve I4 3.0 L M44/60 8-valve turbo I4",
+        "Transmission": "6-speed manual 4-speed Tiptronic automatic"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "boxster",
+      "name": "Boxster / Cayman / modern 718",
+      "category": "Sports car",
+      "story": "The Boxster roadster and Cayman coupé share Porsche’s smaller mid-engine platform. The revived 718 badge belongs to their later generation, not to the original 1950s sports-racer chassis.",
+      "variants": [
+        {
+          "year": 1996,
+          "name": "986 Boxster",
+          "wiki": "Porsche Boxster and Cayman",
+          "match": "986",
+          "shape": "An open two-seater with rounded, combined lamp units.",
+          "engineering": "A mid-mounted water-cooled flat-six.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman",
+          "photos": [
+            {
+              "src": "../brand-assets/53a34f6e2bf061.webp",
+              "file": "1999_Porsche_Boxster_2.5_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1999_Porsche_Boxster_2.5_Front.jpg",
+              "description": "1999 Porsche Boxster 2.5 Front Taken at Snowshill Manor, Snowshill",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1996–2025 2005–2025",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door roadster (Boxster) 2-door fastback coupé (Cayman; 2005–present)",
+            "Layout": "Rear mid-engine, rear-wheel drive"
+          }
+        },
+        {
+          "year": 2004,
+          "name": "987 Boxster",
+          "wiki": "Porsche Boxster and Cayman",
+          "match": "987",
+          "shape": "More separate-looking lamps and revised side openings.",
+          "engineering": "A developed mid-engine platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman",
+          "photos": [
+            {
+              "src": "../brand-assets/732ba756112259.webp",
+              "file": "2006_Porsche_Boxster_2.7_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2006_Porsche_Boxster_2.7_Front.jpg",
+              "description": "2006 Porsche Boxster 2.7 Front Taken in Warwick",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/e1a97f9f9f7c39.webp",
+              "file": "2006_Porsche_Boxster_2.7_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2006_Porsche_Boxster_2.7_Rear.jpg",
+              "description": "2006 Porsche Boxster 2.7 Rear Taken in Warwick",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1996–2025 2005–2025",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door roadster (Boxster) 2-door fastback coupé (Cayman; 2005–present)",
+            "Layout": "Rear mid-engine, rear-wheel drive"
+          }
+        },
+        {
+          "year": 2005,
+          "name": "987 Cayman",
+          "wiki": "Porsche Boxster and Cayman",
+          "match": "Cayman",
+          "shape": "A fixed coupé roof and a large rear hatch.",
+          "engineering": "A closed-body companion to the Boxster.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman",
+          "photos": [
+            {
+              "src": "../brand-assets/5a66ba431b6bdf.webp",
+              "file": "2007_Porsche_Cayman_S_3.4.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2007_Porsche_Cayman_S_3.4.jpg",
+              "description": "2007 Porsche Cayman S 3.4 Taken in Warwick",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/1c8a6dbb695ee9.webp",
+              "file": "2011_Porsche_Cayman_R_(cropped).jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2011_Porsche_Cayman_R_(cropped).jpg",
+              "description": "Porsche Cayman R",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1996–2025 2005–2025",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door roadster (Boxster) 2-door fastback coupé (Cayman; 2005–present)",
+            "Layout": "Rear mid-engine, rear-wheel drive"
+          }
+        },
+        {
+          "year": 2012,
+          "name": "981 Boxster / Cayman",
+          "wiki": "Porsche Boxster and Cayman",
+          "match": "981",
+          "shape": "A wider stance and deeply sculpted side intakes.",
+          "engineering": "A new mid-engine platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman",
+          "photos": [
+            {
+              "src": "../brand-assets/9c074de6fc5abc.webp",
+              "file": "2015_Porsche_Cayman_GTS_S-A_3.4_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2015_Porsche_Cayman_GTS_S-A_3.4_Front.jpg",
+              "description": "2015 Porsche Cayman GTS S-A 3.4 Front Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/6462d10aa854ef.webp",
+              "file": "2012_Porsche_Boxster_24V_S-A_2.7.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2012_Porsche_Boxster_24V_S-A_2.7.jpg",
+              "description": "2012 Porsche Boxster 24V S-A 2.7 Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1996–2025 2005–2025",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door roadster (Boxster) 2-door fastback coupé (Cayman; 2005–present)",
+            "Layout": "Rear mid-engine, rear-wheel drive"
+          }
+        },
+        {
+          "year": 2016,
+          "name": "982 / 718 Boxster and Cayman",
+          "wiki": "Porsche 982",
+          "match": "",
+          "shape": "Revised lamps and air openings in roadster and coupé bodies.",
+          "engineering": "Turbo flat-fours join the range; later GT/GTS versions use flat-sixes.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_982",
+          "photos": [
+            {
+              "src": "../brand-assets/3fcc1b68d901f8.webp",
+              "file": "2018_Porsche_718_Cayman_S_S-A_2.5_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Porsche_718_Cayman_S_S-A_2.5_Front.jpg",
+              "description": "2018 Porsche 718 Cayman S S-A 2.5 Front",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/de52f1feeb44a9.webp",
+              "file": "2018_Porsche_718_Cayman_S_S-A_2.5_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Porsche_718_Cayman_S_S-A_2.5_Rear.jpg",
+              "description": "2018 Porsche 718 Cayman S S-A 2.5 Rear",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2016 – 2025",
+            "Designer": "Peter Varga (2015) Fabian Schmölz (GT4, 2018)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door roadster (718 Boxster / Spyder) 2-door fastback coupé (718 Cayman)",
+            "Layout": "MR layout",
+            "Engine": "2.0 L MA2.2 turbo flat-4 2.5 L MA2.22 turbo flat-4 4.0 L MDG flat-6",
+            "Transmission": "6-speed G82.00 manual 7-speed PDK dual-clutch auto"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1996,
+      "designer": "Porsche design teams",
+      "title": "An open two-seater with rounded, combined lamp units.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-boxster-4-2",
+        "reading-boxster-4-1",
+        "reading-boxster-4-0",
+        "reading-boxster-0-2",
+        "reading-boxster-0-1",
+        "reading-boxster-0-0",
+        "history-boxster-0",
+        "history-boxster-1",
+        "history-boxster-2",
+        "history-boxster-3",
+        "history-boxster-4"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1996–2025 2005–2025",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door roadster (Boxster) 2-door fastback coupé (Cayman; 2005–present)",
+        "Layout": "Rear mid-engine, rear-wheel drive"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "911-gt1",
+      "name": "911 GT1 Straßenversion",
+      "category": "Homologation road car",
+      "story": "Despite its name, the road-going GT1 is a mid-engined homologation car. Race-only GT1 chassis are excluded; the small road series is shown separately from the production 911 lineage.",
+      "variants": [
+        {
+          "year": 1996,
+          "name": "911 GT1 Straßenversion",
+          "wiki": "Porsche 911 GT1",
+          "match": "Stra",
+          "shape": "A long mid-engine body with 911-related lamp styling.",
+          "engineering": "A mid-mounted turbo flat-six in a homologation chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_911_GT1",
+          "photos": [
+            {
+              "src": "../brand-assets/7012f5704ced13.webp",
+              "file": "Porsche_911_GT1_street_version_1997_backleft_2010-03-12_A.jpg",
+              "credit": "Detectandpreserve",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_GT1_street_version_1997_backleft_2010-03-12_A.jpg",
+              "description": "see filename for despcription - seen at \n\n\nNunos porsche Museum\n  \n\n\n\n\n\nNative name\nPorsche-Museum\n\nLocation\nStuttgart\n\nCoordinates\n48° 50′ 04.06″ N, 9° 09′ 07.02″ E   \n\nEstablished\n1976 (old museum)  2009 (new museum)\n\nWebsite\nwww.porsche.com\n\nAuthority file\n\n: Q328623\nVIAF: 138511768\nLCCN: n91050974\nGND: 2087859-X\nSUDOC: 155641123\nNKC: ko2015876799\nWorldCat\n\n\n\ninstitution QS:P195,Q328623",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1996 – 1999 (25 produced)",
+            "Designer": "Tony Hatter",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé",
+            "Layout": "Rear mid-engine, rear-wheel-drive",
+            "Engine": "193.1 cu in (3,164 cc), twin-turbocharged , Porsche M96/80 flat-6 ,",
+            "Transmission": "6-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 1996,
+      "designer": "Tony Hatter",
+      "title": "A long mid-engine body with 911-related lamp styling.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-911-gt1-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1996 – 1999 (25 produced)",
+        "Designer": "Tony Hatter",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé",
+        "Layout": "Rear mid-engine, rear-wheel-drive",
+        "Engine": "193.1 cu in (3,164 cc), twin-turbocharged , Porsche M96/80 flat-6 ,",
+        "Transmission": "6-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "cayenne",
+      "name": "Cayenne",
+      "category": "SUV",
+      "story": "Porsche’s SUV develops through three combustion-platform generations and a new electric branch. Coupé bodies and electrification sit within the Cayenne family.",
+      "variants": [
+        {
+          "year": 2002,
+          "name": "955 / 957",
+          "wiki": "Porsche Cayenne",
+          "match": "955",
+          "shape": "An upright SUV body with Porsche-like front wings.",
+          "engineering": "A front-engine four-wheel-drive platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+          "photos": [
+            {
+              "src": "../brand-assets/a634b23f875452.webp",
+              "file": "Porsche_Cayenne_Turbo_front_20080527.jpg",
+              "credit": "Rudolf Stricker",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_Turbo_front_20080527.jpg",
+              "description": "Porsche Cayenne Turbo",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/1dd8f021aea051.webp",
+              "file": "Porsche_Cayenne_Turbo_rear_20080527.jpg",
+              "credit": "Rudolf Stricker",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_Turbo_rear_20080527.jpg",
+              "description": "Porsche Cayenne Turbo",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "August 2002 – present",
+            "Class": "E-segment SUV",
+            "Body style": "5-door crossover SUV",
+            "Layout": "Front-engine, four-wheel-drive"
+          }
+        },
+        {
+          "year": 2010,
+          "name": "958",
+          "wiki": "Porsche Cayenne",
+          "match": "958",
+          "shape": "A lower-looking, more sculpted body.",
+          "engineering": "A lighter second-generation platform with hybrid derivatives.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+          "photos": [
+            {
+              "src": "../brand-assets/4d95f49d1fb560.webp",
+              "file": "Porsche_Cayenne_S_(92A)_–_Frontansicht,_10._Oktober_2011,_Wülfrath.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_S_(92A)_%E2%80%93_Frontansicht,_10._Oktober_2011,_W%C3%BClfrath.jpg",
+              "description": "Porsche Cayenne S (92A)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/a3e26d4150b368.webp",
+              "file": "Porsche_Cayenne_S_(92A)_–_Heckansicht,_10._Oktober_2011,_Wülfrath.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_S_(92A)_%E2%80%93_Heckansicht,_10._Oktober_2011,_W%C3%BClfrath.jpg",
+              "description": "Porsche Cayenne S (92A)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "April 2010 – August 2017",
+            "Designer": "Mitja Borkert",
+            "Body style": "5-door crossover SUV 5-door coupe crossover SUV",
+            "Engine": "Petrol : 3.0 L EA837 V6 supercharged 3.6 L EA390 VR6 4.8 L M4801 V8 4.8 L M4851 V8 twin-turbo Petrol hybrid : 3.0 L EA837 V6 supercharged Petrol plug-in hybrid : 3.0 L EA837 V6 supercharged (E-Hybrid) Diesel : 3.0 L CNR/",
+            "Electric motor": "35 kW (47 hp; 48 PS) 1NM AC synchronous (Cayenne S hybrid) 61 kW (82 hp; 83 PS) 1NM AC synchronous (Cayenne S E-Hybrid)",
+            "Transmission": "8-speed TL-80SN/TR-82SD automatic (Tiptronic S) 6-speed manual (2011–2014 V6 base model only)"
+          }
+        },
+        {
+          "year": 2017,
+          "name": "9Y0 / E3",
+          "wiki": "Porsche Cayenne",
+          "match": "201[7-9]",
+          "shape": "A broader rear light treatment and sharper body surfaces.",
+          "engineering": "A third-generation combustion/hybrid SUV platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+          "photos": [
+            {
+              "src": "../brand-assets/c694cb1ab10351.webp",
+              "file": "2018_Porsche_Cayenne_V8_Turbo_Tiptronic_4.0_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Porsche_Cayenne_V8_Turbo_Tiptronic_4.0_Front.jpg",
+              "description": "2018 Porsche Cayenne V8 Turbo Tiptronic 4.0 Front Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/a79182a13aeef4.webp",
+              "file": "2018_Porsche_Cayenne_V8_Turbo_Tiptronic_4.0_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Porsche_Cayenne_V8_Turbo_Tiptronic_4.0_Rear.jpg",
+              "description": "2018 Porsche Cayenne V8 Turbo Tiptronic 4.0 Rear Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "April 2010 – August 2017",
+            "Designer": "Mitja Borkert",
+            "Body style": "5-door crossover SUV 5-door coupe crossover SUV",
+            "Engine": "Petrol : 3.0 L EA837 V6 supercharged 3.6 L EA390 VR6 4.8 L M4801 V8 4.8 L M4851 V8 twin-turbo Petrol hybrid : 3.0 L EA837 V6 supercharged Petrol plug-in hybrid : 3.0 L EA837 V6 supercharged (E-Hybrid) Diesel : 3.0 L CNR/",
+            "Electric motor": "35 kW (47 hp; 48 PS) 1NM AC synchronous (Cayenne S hybrid) 61 kW (82 hp; 83 PS) 1NM AC synchronous (Cayenne S E-Hybrid)",
+            "Transmission": "8-speed TL-80SN/TR-82SD automatic (Tiptronic S) 6-speed manual (2011–2014 V6 base model only)"
+          }
+        },
+        {
+          "year": 2019,
+          "name": "Cayenne Coupé",
+          "wiki": "Porsche Cayenne",
+          "match": "Coupe",
+          "shape": "A sloping coupé-like roof within the SUV format.",
+          "engineering": "A body derivative of the E3 platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+          "photos": [
+            {
+              "src": "../brand-assets/778e9e966cff25.webp",
+              "file": "2019_Porsche_Cayenne_V8_Turbo_Automatic_Coupe_4.0_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2019_Porsche_Cayenne_V8_Turbo_Automatic_Coupe_4.0_Front.jpg",
+              "description": "2019 Porsche Cayenne V8 Turbo Automatic Coupe 4.0 Front Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/fc92e851ba30f3.webp",
+              "file": "2019_Porsche_Cayenne_V8_Turbo_Automatic_Coupe_4.0.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2019_Porsche_Cayenne_V8_Turbo_Automatic_Coupe_4.0.jpg",
+              "description": "2019 Porsche Cayenne V8 Turbo Automatic Coupe 4.0 Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "April 2010 – August 2017",
+            "Designer": "Mitja Borkert",
+            "Body style": "5-door crossover SUV 5-door coupe crossover SUV",
+            "Engine": "Petrol : 3.0 L EA837 V6 supercharged 3.6 L EA390 VR6 4.8 L M4801 V8 4.8 L M4851 V8 twin-turbo Petrol hybrid : 3.0 L EA837 V6 supercharged Petrol plug-in hybrid : 3.0 L EA837 V6 supercharged (E-Hybrid) Diesel : 3.0 L CNR/",
+            "Electric motor": "35 kW (47 hp; 48 PS) 1NM AC synchronous (Cayenne S hybrid) 61 kW (82 hp; 83 PS) 1NM AC synchronous (Cayenne S E-Hybrid)",
+            "Transmission": "8-speed TL-80SN/TR-82SD automatic (Tiptronic S) 6-speed manual (2011–2014 V6 base model only)"
+          }
+        },
+        {
+          "year": 2025,
+          "name": "Cayenne Electric",
+          "wiki": "Porsche Cayenne Electric",
+          "match": "",
+          "shape": "A dedicated electric SUV body and cabin.",
+          "engineering": "A separate battery-electric platform within the Cayenne nameplate.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+          "photos": [
+            {
+              "src": "../brand-assets/485ed29e7e1112.webp",
+              "file": "Porsche_Cayenne_Electric_IMG_6129.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_Electric_IMG_6129.jpg",
+              "description": "Porsche_Cayenne_Electric in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/f96d86b3ebd973.webp",
+              "file": "Porsche_Cayenne_Electric_IMG_6136.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_Electric_IMG_6136.jpg",
+              "description": "Porsche_Cayenne_Electric in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "February 2026 – present",
+            "Designer": "Fabian Schmõlz",
+            "Body style": "5-door crossover SUV 5-door coupe crossover SUV",
+            "Electric motor": "2× PMSM"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 2002,
+      "designer": "Porsche design teams",
+      "title": "An upright SUV body with Porsche-like front wings.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-cayenne-0-2",
+        "reading-cayenne-0-1",
+        "reading-cayenne-0-0",
+        "history-cayenne-0",
+        "history-cayenne-1",
+        "history-cayenne-2",
+        "history-cayenne-3",
+        "history-cayenne-4"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "August 2002 – present",
+        "Class": "E-segment SUV",
+        "Body style": "5-door crossover SUV",
+        "Layout": "Front-engine, four-wheel-drive"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "carrera-gt",
+      "name": "Carrera GT",
+      "category": "Supercar",
+      "story": "An open-roof V10 supercar with a carbon structure. Its removable roof panels and metal-mesh engine cover expose a different design approach from Porsche’s rear-engined 911.",
+      "variants": [
+        {
+          "year": 2003,
+          "name": "Carrera GT",
+          "wiki": "Porsche Carrera GT",
+          "match": "",
+          "shape": "A low open-roof body, removable panels and a mesh rear deck.",
+          "engineering": "A mid-mounted V10, carbon structure and manual gearbox.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Carrera_GT",
+          "photos": [
+            {
+              "src": "../brand-assets/49ed38fb6e64dd.webp",
+              "file": "Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_(July_2008).jpg",
+              "credit": "Brian Snelson from Hockley, Essex, England",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_(July_2008).jpg",
+              "description": "Porsche Carrera GT at the Goodwood Breakfast Club, July 2008.Porsche Carrera GT",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/52212192334a99.webp",
+              "file": "Carrera_GT._(4657378722).jpg",
+              "credit": "Damian Morys from New York City, United States",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Carrera_GT._(4657378722).jpg",
+              "description": "Topless, one of my favorite cars.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2003–2006 1,270 produced",
+            "Designer": "Jason Hill (concept) Harm Lagaay (production)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door Targa roadster",
+            "Layout": "Longitudinally mounted rear mid-engine, rear-wheel drive",
+            "Engine": "5.7 L (5,733 cc) Porsche M80/01 DOHC V10",
+            "Transmission": "6-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 2003,
+      "designer": "Jason Hill (concept) Harm Lagaay (production)",
+      "title": "A low open-roof body, removable panels and a mesh rear deck.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-carrera-gt-0-2",
+        "reading-carrera-gt-0-1",
+        "reading-carrera-gt-0-0",
+        "history-carrera-gt-0"
+      ],
+      "video": {
+        "id": "vE_WqdKbTvY",
+        "title": "Porsche Carrera GT car review",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=vE_WqdKbTvY",
+        "note": "Jeremy Clarkson and the Stig review the Carrera GT.",
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+      },
+      "facts": {
+        "Production": "2003–2006 1,270 produced",
+        "Designer": "Jason Hill (concept) Harm Lagaay (production)",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door Targa roadster",
+        "Layout": "Longitudinally mounted rear mid-engine, rear-wheel drive",
+        "Engine": "5.7 L (5,733 cc) Porsche M80/01 DOHC V10",
+        "Transmission": "6-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "panamera",
+      "name": "Panamera",
+      "category": "Grand tourer",
+      "story": "The Panamera takes Porsche’s sporting body language into a large four-door car. The Sport Turismo provides a separate estate-roof interpretation within the second generation.",
+      "variants": [
+        {
+          "year": 2009,
+          "name": "970",
+          "wiki": "Porsche Panamera",
+          "match": "970",
+          "shape": "A large four-door fastback with a high rounded tail.",
+          "engineering": "A front-engine touring platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Panamera",
+          "photos": [
+            {
+              "src": "../brand-assets/9f829dc260ce6b.webp",
+              "file": "Porsche_Panamera_Diesel_(970,_Facelift)_–_Frontansicht,_3._März_2014,_Düsseldorf.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Panamera_Diesel_(970,_Facelift)_%E2%80%93_Frontansicht,_3._M%C3%A4rz_2014,_D%C3%BCsseldorf.jpg",
+              "description": "Porsche Panamera Diesel (970, Facelift)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/ec0aef7058415f.webp",
+              "file": "Porsche_Panamera_970,_facelift,_rear_view.jpg",
+              "credit": "EurovisionNim",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Panamera_970,_facelift,_rear_view.jpg",
+              "description": "Porsche Panamera 970, facelift, photographed in Ho Chi Minh City, Vietnam",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2009–present",
+            "Class": "Executive car ( E ) Full-size luxury car ( F ) (LWB)",
+            "Layout": "Front-engine, rear-wheel-drive / four-wheel-drive"
+          }
+        },
+        {
+          "year": 2016,
+          "name": "971",
+          "wiki": "Porsche Panamera",
+          "match": "971",
+          "shape": "A lower-looking roof arc and full-width rear lighting.",
+          "engineering": "A second-generation touring platform with plug-in hybrids.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Panamera",
+          "photos": [
+            {
+              "src": "../brand-assets/8eeba5ff453ab5.webp",
+              "file": "JAIA18_Porsche_Panamera_4_E-Hybrid_97ABE1_1.jpg",
+              "credit": "Shirley 501JFW",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:JAIA18_Porsche_Panamera_4_E-Hybrid_97ABE1_1.jpg",
+              "description": "Front view of the Porsche Panamera 4 E-Hybrid 97ABE1.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/6715abdbb715e5.webp",
+              "file": "Porsche_Panamera_Turbo_grey.jpg",
+              "credit": "Alexandre Prévot from Nancy, France",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Panamera_Turbo_grey.jpg",
+              "description": "Couleur : Gris Quartz métallisé\n\nwww.grand-est-supercars.com",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "April 2009–2016",
+            "Designer": "Michael Mauer",
+            "Body style": "five-door liftback / fastback sedan",
+            "Engine": "3.0 L V6 turbodiesel 3.6 L V6 3.0 L supercharged V6 EA837 (Hybrid) 4.8 L V8 M48.20 4.8 L twin-turbocharged V8 M48.70",
+            "Electric motor": "47 hp (35 kW; 48 PS) AC Brushless electric motor (Panamera S Hybrid) 95 hp (71 kW; 96 PS) AC induction electric motor (Panamera S E-Hybrid)",
+            "Transmission": "6-speed manual 7-speed ZF 7DT PDK 8-speed ZF 8HP automatic (Tiptronic S) (Hybrid models only) 8-Speed TL-80SN/TR-82SD automatic (13-17 Diesel models only)"
+          }
+        },
+        {
+          "year": 2017,
+          "name": "Sport Turismo",
+          "wiki": "Porsche Panamera",
+          "match": "Turismo",
+          "shape": "An extended roof and larger rear opening.",
+          "engineering": "An estate body on the second-generation platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Panamera",
+          "photos": [
+            {
+              "src": "../brand-assets/da81ecaed3d2a9.webp",
+              "file": "Porsche_Panamera_Sport_Turismo_e-Hybrid_IMG_0621_(2).jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Panamera_Sport_Turismo_e-Hybrid_IMG_0621_(2).jpg",
+              "description": "Porsche Panamera Sport Turismo e-Hybrid",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/810f603f6eebe1.webp",
+              "file": "Porsche_971_Panamera_Turbo_S_E-Hybrid_Sport_Turismo_Classic-Gala_2021_1X7A0234.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_971_Panamera_Turbo_S_E-Hybrid_Sport_Turismo_Classic-Gala_2021_1X7A0234.jpg",
+              "description": "Porsche_971_Panamera_Turbo_S_E-Hybrid_Sport_Turismo at Classic-Gala 2021",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "April 2009–2016",
+            "Designer": "Michael Mauer",
+            "Body style": "five-door liftback / fastback sedan",
+            "Engine": "3.0 L V6 turbodiesel 3.6 L V6 3.0 L supercharged V6 EA837 (Hybrid) 4.8 L V8 M48.20 4.8 L twin-turbocharged V8 M48.70",
+            "Electric motor": "47 hp (35 kW; 48 PS) AC Brushless electric motor (Panamera S Hybrid) 95 hp (71 kW; 96 PS) AC induction electric motor (Panamera S E-Hybrid)",
+            "Transmission": "6-speed manual 7-speed ZF 7DT PDK 8-speed ZF 8HP automatic (Tiptronic S) (Hybrid models only) 8-Speed TL-80SN/TR-82SD automatic (13-17 Diesel models only)"
+          }
+        },
+        {
+          "year": 2023,
+          "name": "976",
+          "wiki": "Porsche Panamera",
+          "match": "202[3-6]",
+          "shape": "A revised nose and cleaner, more angular body details.",
+          "engineering": "A new generation with further hybrid and active-suspension development.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Panamera",
+          "photos": [
+            {
+              "src": "../brand-assets/e253eae860a831.webp",
+              "file": "Porsche_972_Turbo_E-Hybrid_IMG_0445.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_972_Turbo_E-Hybrid_IMG_0445.jpg",
+              "description": "Porsche 972 Panamera Turbo E-Hybrid in Stuttgart",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/62e8188695e6f4.webp",
+              "file": "Porsche_972_IMG_9526.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_972_IMG_9526.jpg",
+              "description": "Porsche Panamera 4 in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2016–2024",
+            "Designer": "Peter Varga",
+            "Body style": "5-door fastback / liftback sedan 5-door shooting brake",
+            "Engine": "Petrol: 3.0 L Volkswagen - Audi EA839T turbo V6 2.9 L Volkswagen - Audi EA839TT twin-turbo V6 4.0 L Volkswagen - Porsche EA825TT twin-turbo V8 Diesel: 4.0 L Volkswagen - Audi EA898TTD twin-turbo V8 Plug-in Hybrid: 2.9 L ",
+            "Electric motor": "100 kW (136 PS; 134 hp) integrated Electric motor (e-Hybrid Only)",
+            "Transmission": "8-speed PDK dual clutch"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 2009,
+      "designer": "Porsche design teams",
+      "title": "A large four-door fastback with a high rounded tail.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-panamera-0-2",
+        "reading-panamera-0-1",
+        "reading-panamera-0-0",
+        "history-panamera-0",
+        "history-panamera-1",
+        "history-panamera-2",
+        "history-panamera-3"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2009–present",
+        "Class": "Executive car ( E ) Full-size luxury car ( F ) (LWB)",
+        "Layout": "Front-engine, rear-wheel-drive / four-wheel-drive"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "918",
+      "name": "918 Spyder",
+      "category": "Hybrid supercar",
+      "story": "The 918 combines a mid-mounted V8 with electric drive and an open-roof body. Its high exhaust outlets and removable roof panels give it a distinctive profile.",
+      "variants": [
+        {
+          "year": 2013,
+          "name": "918 Spyder",
+          "wiki": "Porsche 918 Spyder",
+          "match": "",
+          "shape": "High-mounted exhaust outlets and removable roof panels.",
+          "engineering": "A V8 plug-in hybrid with electric front-axle drive.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_918_Spyder",
+          "photos": [
+            {
+              "src": "../brand-assets/7bd74c5d2637ab.webp",
+              "file": "2015_Porsche_918_Spyder_Platinum_Silver_Metallic_SCD_24.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2015_Porsche_918_Spyder_Platinum_Silver_Metallic_SCD_24.jpg",
+              "description": "A 2015 Porsche 918 Spyder taken at SCD Secret Meet 2024.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/1b5cb2822728e9.webp",
+              "file": "Porsche_918_sports_car.jpg",
+              "credit": "Ben",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_918_sports_car.jpg",
+              "description": "Porsche 918",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "September 2013 – June 2015",
+            "Designer": "Michael Mauer , Hakan Saracoğlu",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door Targa top roadster (Spyder) 2-door coupé (RSR)",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "4.6 L (4,593 cc) Porsche M18.00 90° V8",
+            "Electric motor": "2 electric motors on front and rear axle",
+            "Transmission": "7-speed PDK dual-clutch"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 2013,
+      "designer": "Michael Mauer , Hakan Saracoğlu",
+      "title": "High-mounted exhaust outlets and removable roof panels.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-918-0-2",
+        "reading-918-0-1",
+        "reading-918-0-0",
+        "history-918-0"
+      ],
+      "video": {
+        "id": "nSqzp3kdAm4",
+        "title": "The awesome Porsche 918",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=nSqzp3kdAm4",
+        "note": "Richard Hammond; Top Gear series 21, episode 5.",
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+      },
+      "facts": {
+        "Production": "September 2013 – June 2015",
+        "Designer": "Michael Mauer , Hakan Saracoğlu",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door Targa top roadster (Spyder) 2-door coupé (RSR)",
+        "Layout": "Mid-engine, all-wheel-drive",
+        "Engine": "4.6 L (4,593 cc) Porsche M18.00 90° V8",
+        "Electric motor": "2 electric motors on front and rear axle",
+        "Transmission": "7-speed PDK dual-clutch"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "macan",
+      "name": "Macan",
+      "category": "SUV",
+      "story": "The Macan starts as a compact combustion-engined SUV, then gains a dedicated electric generation. The two platforms overlap rather than representing a simple engine swap.",
+      "variants": [
+        {
+          "year": 2014,
+          "name": "95B",
+          "wiki": "Porsche Macan",
+          "match": "95B",
+          "shape": "A compact five-door SUV with a descending roofline.",
+          "engineering": "A front-engine platform with four-wheel drive.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Macan",
+          "photos": [
+            {
+              "src": "../brand-assets/a05e18b6a81e77.webp",
+              "file": "2017_Porsche_Macan_S-A_3.0.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2017_Porsche_Macan_S-A_3.0.jpg",
+              "description": "2017 Porsche Macan S-A 3.0 Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/c6752c4665c18f.webp",
+              "file": "Porsche_Macan_S_(51929836658)_(cropped).jpg",
+              "credit": "Alexandre Prevot",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Macan_S_(51929836658)_(cropped).jpg",
+              "description": "www.grand-est-supercars.com",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "February 2014 – present",
+            "Class": "Compact luxury crossover SUV ( D )",
+            "Body style": "5-door SUV"
+          }
+        },
+        {
+          "year": 2024,
+          "name": "Electric / XAB",
+          "wiki": "Porsche Macan",
+          "match": "",
+          "shape": "Split front lighting and a more streamlined rear body.",
+          "engineering": "A dedicated battery-electric platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Macan",
+          "photos": [
+            {
+              "src": "../brand-assets/29bf2a3a64817f.webp",
+              "file": "Porsche_Macan_(II)_–_f_22022025.jpg",
+              "credit": "© M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Macan_(II)_%E2%80%93_f_22022025.jpg",
+              "description": "Porsche Macan (II)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/b03534d21d5a50.webp",
+              "file": "Porsche_Macan_(II)_–_h_22022025.jpg",
+              "credit": "© M 93",
+              "license": "CC BY-SA 3.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Macan_(II)_%E2%80%93_h_22022025.jpg",
+              "description": "Porsche Macan (II)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "May 2024 – present",
+            "Designer": "Michael Mauer , Woosung Chung",
+            "Layout": "Rear-motor, rear-wheel-drive Dual-motors, all-wheel-drive",
+            "Electric motor": "2× permanent magnet synchronous",
+            "Transmission": "Single-speed automatic"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 2014,
+      "designer": "Porsche design teams",
+      "title": "A compact five-door SUV with a descending roofline.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-macan-0-2",
+        "reading-macan-0-1",
+        "reading-macan-0-0",
+        "history-macan-0",
+        "history-macan-1"
+      ],
+      "video": {
+        "id": "oxc3dzwpQsY",
+        "title": "First drive: Porsche Macan Turbo",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=oxc3dzwpQsY",
+        "note": "Tom Ford tests the electric Macan.",
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+      },
+      "facts": {
+        "Production": "February 2014 – present",
+        "Class": "Compact luxury crossover SUV ( D )",
+        "Body style": "5-door SUV"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "taycan",
+      "name": "Taycan",
+      "category": "Electric grand tourer",
+      "story": "Porsche’s first series-production battery-electric family includes a low saloon and longer-roof Turismo bodies. The 2024 update retains the underlying silhouette.",
+      "variants": [
+        {
+          "year": 2019,
+          "name": "Taycan saloon",
+          "wiki": "Porsche Taycan",
+          "match": "2020",
+          "shape": "A low four-door body with sculpted front wings.",
+          "engineering": "An 800-volt battery-electric platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+          "photos": [
+            {
+              "src": "../assets/4725127ea27f68.webp",
+              "file": "2020_Porsche_Taycan_4S_79kWh_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2020_Porsche_Taycan_4S_79kWh_Front.jpg",
+              "description": "2020 Porsche Taycan 4S 79kWh Front Taken in Warwick",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/8d80a7320248d4.webp",
+              "file": "2020_Porsche_Taycan_4S_79kWh_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2020_Porsche_Taycan_4S_79kWh_Rear.jpg",
+              "description": "2020 Porsche Taycan 4S 79kWh Rear Taken in Warwick",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2019–present",
+            "Designer": "Emiel Burki and Mitja Borkert under Michael Mauer",
+            "Class": "Executive car ( E )",
+            "Body style": "4-door sedan/saloon 5-door shooting brake (Taycan Cross Turismo / Taycan Sport Turismo)",
+            "Layout": "Rear-motor, rear-wheel-drive (Taycan) Dual-motor, all-wheel-drive (Taycan 4, 4S, GTS, Turbo & Turbo S)",
+            "Engine": "2× AC synchronous electric motors",
+            "Transmission": "1-speed direct-drive (front 8.05:1) 2-speed automatic (rear; 16:1 and 8.05:1)"
+          }
+        },
+        {
+          "year": 2021,
+          "name": "Cross Turismo / Sport Turismo",
+          "wiki": "Porsche Taycan",
+          "match": "Turismo",
+          "shape": "A longer estate roof; Cross Turismo adds cladding and extra ground clearance.",
+          "engineering": "Estate-body versions of the electric platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+          "photos": [
+            {
+              "src": "../assets/ab287207c6a0a5.webp",
+              "file": "Porsche_Taycan_Cross_Turismo.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_Cross_Turismo.jpg",
+              "description": "A white Porsche Taycan Cross Turismo taken at the Goodwood Festival of Speed 2021.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/cd8e31ba2237ab.webp",
+              "file": "Porsche_Taycan_Turbo_S_Cross_Turismo_Rear.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_Turbo_S_Cross_Turismo_Rear.jpg",
+              "description": "Rear view.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2019–present",
+            "Designer": "Emiel Burki and Mitja Borkert under Michael Mauer",
+            "Class": "Executive car ( E )",
+            "Body style": "4-door sedan/saloon 5-door shooting brake (Taycan Cross Turismo / Taycan Sport Turismo)",
+            "Layout": "Rear-motor, rear-wheel-drive (Taycan) Dual-motor, all-wheel-drive (Taycan 4, 4S, GTS, Turbo & Turbo S)",
+            "Engine": "2× AC synchronous electric motors",
+            "Transmission": "1-speed direct-drive (front 8.05:1) 2-speed automatic (rear; 16:1 and 8.05:1)"
+          }
+        }
+      ],
+      "inherit": "taycan",
+      "brand": "Porsche",
+      "country": "Germany",
+      "year": 2019,
+      "designer": "Emiel Burki and Mitja Borkert under Michael Mauer",
+      "title": "A low four-door body with sculpted front wings.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-taycan-0-2",
+        "reading-taycan-0-1",
+        "reading-taycan-0-0",
+        "history-taycan-0",
+        "history-taycan-1"
+      ],
+      "video": {
+        "id": "c2dkDhhtm8I",
+        "title": "Porsche Taycan Turbo: real-world EV test",
+        "channel": "Top Gear",
+        "note": "Top Gear Tested review of the original-shape Taycan, filmed in 2021.",
+        "url": "https://www.youtube.com/watch?v=c2dkDhhtm8I"
+      },
+      "facts": {
+        "Production": "2019–present",
+        "Designer": "Emiel Burki and Mitja Borkert under Michael Mauer",
+        "Class": "Executive car ( E )",
+        "Body style": "4-door sedan/saloon 5-door shooting brake (Taycan Cross Turismo / Taycan Sport Turismo)",
+        "Layout": "Rear-motor, rear-wheel-drive (Taycan) Dual-motor, all-wheel-drive (Taycan 4, 4S, GTS, Turbo & Turbo S)",
+        "Engine": "2× AC synchronous electric motors",
+        "Transmission": "1-speed direct-drive (front 8.05:1) 2-speed automatic (rear; 16:1 and 8.05:1)"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    }
+  ],
+  "honors": [],
+  "films": [
+    {
+      "title": "Endurance",
+      "year": "2020",
+      "type": "Manufacturer documentary",
+      "origin": "Porsche / James Routh",
+      "description": "Follows the Porsche GT Team through the 2019 Le Mans and Nürburgring 24-hour races, held on consecutive weekends.",
+      "url": "https://newsroom.porsche.com/en_US/motorsport/porsche-gt-team-documentary-24-hour-classic-youtube-amazon-prime-20368.html",
+      "watchUrl": "https://www.youtube.com/watch?v=Lvbkr-nXpjE",
+      "watchLabel": "Official full film"
+    },
+    {
+      "title": "Le Mans",
+      "year": "1971",
+      "type": "Motorsport drama",
+      "origin": "Lee H. Katzin / Steve McQueen",
+      "description": "A racing drama famous for its Porsche 917 and 911 imagery, mixing staged sequences with footage from the 1970 race.",
+      "url": "https://newsroom.porsche.com/en_AU/2020/history/porsche-le-mans-steve-mcqueen-911-targa-4s-heritage-design-edition-christophorus-395-21341.html"
+    },
+    {
+      "title": "Porsche: Decades of Disruption",
+      "year": "2017",
+      "type": "Manufacturer documentary",
+      "origin": "Porsche / CNBC broadcast",
+      "description": "A brand-produced retrospective following Porsche’s road-car development from the 356 toward its modern range.",
+      "url": "https://www.imdb.com/title/tt6675480/"
+    },
+    {
+      "title": "Megafactories / Ultimate Factories: Porsche 911",
+      "year": "TV episode",
+      "type": "Factory documentary",
+      "origin": "National Geographic",
+      "description": "A production-focused look at the 911 and its assembly. Use the car title rather than a regional season/episode number.",
+      "url": "https://www.natgeotv.com/nl/programmas/natgeo/megafactories"
+    }
+  ]
+}

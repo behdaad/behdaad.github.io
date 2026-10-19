@@ -130,5 +130,82 @@
     "id": "3Rs-cyKNvE8",
     "title": "Mazda MX-5 review (Mazda Miata review) - Carbuyer",
     "channel": "Carbuyer"
+  },
+  {
+    "car": "testarossa",
+    "id": "1XlPUQjmJyk",
+    "title": "Ferrari Testarossa drive and review",
+    "channel": "Harry's garage"
+  },
+  {
+    "car": "959",
+    "id": "7mFleLfedrU",
+    "title": "1980s Supercar Powertest | Top Gear",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "diablo",
+    "id": "BrplqE9bUB8",
+    "title": "Lamborghini Diablo; is the first version the best driving Diablo of all?",
+    "channel": "Harry's garage"
+  },
+  {
+    "car": "roadster",
+    "episode": "Series 12 · Episode 7",
+    "url": "https://www.ausmotive.com/2008/12/15/top-gear-series-12-episode-7.html"
+  },
+  {
+    "car": "aventador",
+    "id": "UZiHPLGh-Ek",
+    "title": "Lamborghini Aventador | Top Gear | BBC",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "laferrari",
+    "id": "C_E3bSFi8lI",
+    "title": "LaFerrari Review | Top Gear | Series 22 | BBC",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "model-3",
+    "id": "3YI7Lxop0n8",
+    "title": "Tesla Model 3 2021 Review: 0-60mph, ride, handling, user guide & Tesla Autopilot | Top Gear Tested",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "720s",
+    "id": "7X6261vVmN8",
+    "title": "Chris Harris Drives the McLaren 720s | Top Gear: Series 25",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "taycan",
+    "id": "c2dkDhhtm8I",
+    "title": "Porsche Taycan Turbo EV Review: 0-60, 0-100, Ride, Handling, Charging & Real-world Range | Top Gear",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "mc20",
+    "id": "1sEIxRGN7Kg",
+    "title": "FIRST DRIVE: Maserati MC20 – 621bhp, £190k supercar with F1 engine tech | Top Gear",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "emira",
+    "id": "95iXNnm9FfY",
+    "title": "Lotus Emira Review: Exclusive Road + Track Test of 400bhp Baby Supercar | Top Gear",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "utopia",
+    "id": "WU8R7cR-gKA",
+    "title": "FIRST DRIVE: Pagani Utopia – 864bhp V12 Hypercar Or Art?",
+    "channel": "Top Gear"
+  },
+  {
+    "car": "jesko",
+    "id": "uTd5f_Tj89M",
+    "title": "FIRST DRIVE: Koenigsegg Jesko Absolut - £2.3m, 1578bhp Hypercar Tested On Road And Track | Top Gear",
+    "channel": "Top Gear"
   }
 ]

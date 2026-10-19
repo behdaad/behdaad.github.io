@@ -226,6 +226,20 @@ honors = [
  ('DeLorean DMC-12',1981,'DMC DeLorean','Giugiaro’s wedge, stainless steel and gullwing doors become a cultural icon.','italdesign'),
  ('Honda NSX',1990,'Honda NSX (first generation)','The usable supercar, influential enough to inform the McLaren F1.','f1'),
 ]
-data=dict(updated='19 October 2026',sources={k:dict(outlet=v[0],title=v[1],url=v[2]) for k,v in SOURCES.items()},cars=sorted(cars,key=lambda c:c['year']),honors=[dict(name=n,year=y,wiki=w,reason=r,source=s) for n,y,w,r,s in sorted(honors,key=lambda x:x[1])])
+expansion=json.loads(ROOT.joinpath('research/expansion.json').read_text())
+cars.extend(expansion['cars'])
+source_data={k:dict(outlet=v[0],title=v[1],url=v[2]) for k,v in SOURCES.items()}
+source_data.update(expansion['sources'])
+data=dict(updated='19 October 2026',sources=source_data,cars=sorted(cars,key=lambda c:c['year']),honors=[dict(name=n,year=y,wiki=w,reason=r,source=s) for n,y,w,r,s in sorted(honors,key=lambda x:x[1])])
+# Preserve verified media when regenerating unchanged design chapters.
+previous_path=ROOT.joinpath('data.json')
+if previous_path.exists():
+    previous=json.loads(previous_path.read_text())
+    old_items=[v for c in previous['cars'] for v in c['variants']]+previous['honors']
+    old_media={(v['wiki'],v['name']):v for v in old_items}
+    for item in [v for c in data['cars'] for v in c['variants']]+data['honors']:
+        old=old_media.get((item['wiki'],item['name']),{})
+        for key in ('photos','factSource'):
+            if key in old:item[key]=old[key]
 ROOT.joinpath('data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(cars)} cars · {len(set(c["brand"] for c in cars))} brands · {sum(len(c["variants"]) for c in cars)} evolution entries')

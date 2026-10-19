@@ -13,6 +13,7 @@
     console.error(error); return;
   }
   const { cars, sources, honors } = data;
+  const archive = Boolean(data.archive);
   const brands = [...new Set(cars.map(car => car.brand))];
   const dialog = $('#car-dialog');
   let activeCar, lastTrigger, pushedCar = false;
@@ -28,33 +29,39 @@
   function photo(photo, alt, lazy = true) {
     return photo ? `<img src="${esc(photo.src)}" alt="${esc(alt)}" ${lazy ? 'loading="lazy"' : 'fetchpriority="high"'} decoding="async" width="1000" height="650">` : '<p class="load-error">Photograph unavailable. See the linked model history.</p>';
   }
-  const hero = cars.find(c => c.id === 'ds');
+  const hero = cars.find(c => c.id === data.heroId) || cars.find(c => c.id === 'ds') || cars[0];
   const heroPhoto = hero.variants[0].photos[0];
-  $('#hero').innerHTML = `${photo(heroPhoto,'Citroën DS, a study in aerodynamic form',false)}<a class="hero-credit" href="${esc(heroPhoto?.page || '#car=ds')}" target="_blank" rel="noopener noreferrer">Photo & credit ↗</a><figcaption><div><span>1955 / CITROËN</span><strong>A different idea of the future.</strong><span>DS · ${esc(heroPhoto?.origin || 'Archive photograph')}</span></div><a href="#car=ds" data-car="ds">Explore ↗</a></figcaption>`;
-  $('#makers').innerHTML = brands.map((brand, index) => {
+  $('#hero').innerHTML = `${photo(heroPhoto,hero.brand+' '+hero.name,false)}<a class="hero-credit" href="${esc(heroPhoto?.page || '#car=ds')}" target="_blank" rel="noopener noreferrer">Photo & credit ↗</a><figcaption><div><span>${hero.year} / ${esc(hero.brand.toUpperCase())}</span><strong>${archive?esc(hero.name):'A different idea of the future.'}</strong><span>${archive?'':esc(hero.name)+' · '}${esc(heroPhoto?.origin || 'Archive photograph')}</span></div><a href="#car=${hero.id}" data-car="${hero.id}">Explore ↗</a></figcaption>`;
+  $('#makers').innerHTML = archive ? cars.map(car => `<a class="maker model-index-item" href="#car=${car.id}" data-car="${car.id}"><span class="maker-top"><span>${car.year}</span><span>${car.variants.length} ${car.variants.length===1?'CHAPTER':'CHAPTERS'} ↗</span></span><strong>${esc(car.name)}</strong><small>${esc(car.category)}</small></a>`).join('') : brands.map((brand, index) => {
     const represented = cars.filter(c => c.brand === brand);
     const outlets = [...new Set(represented.flatMap(c => c.sources.map(k => sources[k].outlet)))];
     return `<button class="maker" data-brand="${esc(brand)}" aria-pressed="false"><span class="maker-top"><span>${String(index + 1).padStart(2,'0')}</span><span>${represented.length} ${represented.length === 1 ? 'CAR' : 'CARS'} ↘</span></span><strong>${esc(brand)}</strong><small>${esc(represented.map(c => c.name).join(' · '))}</small><small>Selected by ${esc(outlets.join(' / '))}</small></button>`;
   }).join('');
-  brands.forEach(brand => $('#brand').add(new Option(brand, brand)));
+  (archive ? [...new Set(cars.map(car=>car.category))].sort() : brands).forEach(value => $('#brand').add(new Option(value, value)));
   $('#bibliography').innerHTML = Object.keys(sources).map(key => sourceLink(key, true)).join('');
-  const chapters = [
+  const chapters = archive ? [
+    {start:1800,end:1949,years:'BEFORE 1950',title:'The early road cars',note:'Origins, coachbuilders and the first series.'},
+    {start:1950,end:1969,years:'1950—1969',title:'A new design language',note:'Postwar platforms and new proportions.'},
+    {start:1970,end:1989,years:'1970—1989',title:'New shapes and new branches',note:'Wedges, touring cars and growing model ranges.'},
+    {start:1990,end:2009,years:'1990—2009',title:'Expanding the family',note:'New platforms, body styles and technologies.'},
+    {start:2010,end:2100,years:'2010—2026',title:'Power and form, reconsidered',note:'Electrification and the modern range.'}
+  ] : [
     { start:1886,end:1953,years:'1886—1938',title:'Inventing the automobile',note:'From invention to industrial scale.' },
     { start:1954,end:1965,years:'1954—1964',title:'A new language of possibility',note:'Optimism, packaging and the open road.' },
     { start:1966,end:1983,years:'1966—1974',title:'Breaking the shape of things',note:'The supercar, the wedge, the rational hatch.' },
-    { start:1984,end:2011,years:'1984—1998',title:'Reinventing the familiar',note:'New formats for families, speed and efficiency.' },
-    { start:2012,end:2030,years:'2012—2023',title:'The electric reset',note:'New platforms. New proportions. New questions.' }
+    { start:1984,end:2011,years:'1984—2011',title:'Reinventing the familiar',note:'New formats for families, speed and efficiency.' },
+    { start:2012,end:2030,years:'2012—2023',title:'Rethinking power and form',note:'Electric platforms and new supercar extremes.' }
   ];
   function renderTimeline() {
     const query = $('#search').value.trim().toLocaleLowerCase();
     const brand = $('#brand').value;
-    const filtered = cars.filter(c => (!brand || c.brand === brand) && [c.brand,c.name,c.designer,c.country,c.title,c.story].join(' ').toLocaleLowerCase().includes(query));
+    const filtered = cars.filter(c => (!brand || (archive?c.category:c.brand) === brand) && [c.brand,c.name,c.designer,c.country,c.title,c.story,...c.variants.map(v=>v.name)].join(' ').toLocaleLowerCase().includes(query));
     $('#history').innerHTML = chapters.map(chapter => {
       const entries = filtered.filter(c => c.year >= chapter.start && c.year <= chapter.end);
       if (!entries.length) return '';
       return `<section class="chapter" aria-label="${esc(chapter.title)}"><header class="chapter-heading"><span>${chapter.years}</span><h3>${chapter.title}</h3><p>${chapter.note}</p></header>${entries.map(car => {
         const variant=car.variants[0];
-        return `<article class="car" id="entry-${car.id}"><div class="year">${car.year}</div><figure class="car-photo"><a href="#car=${car.id}" data-car="${car.id}" aria-label="Explore ${esc(car.brand+' '+car.name)}">${photo(variant.photos[0],car.name+' · '+variant.name)}</a><span class="photo-label">${esc(car.country.toUpperCase())} / ${esc(car.designer.split(' / ')[0])}</span></figure><div class="car-copy"><p class="car-meta"><span>${esc(car.brand)}</span><span class="design-score" title="Evidence index: design ${car.design}/60, industry ${car.industry}/30, independent corroboration ${points(car).corroboration}/10">${points(car).total} / 100</span></p><h4><a href="#car=${car.id}" data-car="${car.id}">${esc(car.name)}</a></h4><p class="car-deck">${esc(car.title)}</p><p class="car-story">${esc(car.story)}</p><p class="car-source">Editorial evidence: ${car.sources.slice(0,2).map(key=>sourceLink(key)).join(' / ')}</p><a class="arrow-link" href="#car=${car.id}" data-car="${car.id}">Explore the car <span>↗</span> <small>${car.variants.length} ${car.variants.length===1?'design chapter':'evolution entries'}</small></a></div></article>`;
+        return `<article class="car" id="entry-${car.id}"><div class="year">${car.year}</div><figure class="car-photo"><a href="#car=${car.id}" data-car="${car.id}" aria-label="Explore ${esc(car.brand+' '+car.name)}">${photo(variant.photos[0],car.name+' · '+variant.name)}</a><span class="photo-label">${esc(car.country.toUpperCase())} / ${esc(car.designer.split(' / ')[0])}</span></figure><div class="car-copy"><p class="car-meta"><span>${esc(archive?car.category:car.brand)}</span>${archive?`<span title="Introduction years of the design chapters">${car.year===car.variants.at(-1).year?'DEBUT '+car.year:car.year+'—'+car.variants.at(-1).year}</span>`:`<span class="design-score" title="Evidence index: design ${car.design}/60, industry ${car.industry}/30, independent corroboration ${points(car).corroboration}/10">${points(car).total} / 100</span>`}</p><h4><a href="#car=${car.id}" data-car="${car.id}">${esc(car.name)}</a></h4><p class="car-deck">${esc(car.title)}</p><p class="car-story">${esc(car.story)}</p><p class="car-source">${archive?'Reading & reviews':'Editorial evidence'}: ${car.sources.slice(0,2).map(key=>sourceLink(key)).join(' / ')}</p><a class="arrow-link" href="#car=${car.id}" data-car="${car.id}">Explore the car <span>↗</span> <small>${car.variants.length} ${car.variants.length===1?'design chapter':'evolution entries'}</small></a></div></article>`;
       }).join('')}</section>`;
     }).join('');
     $('#result-count').textContent = `${filtered.length} / ${cars.length} cars`;
@@ -79,13 +86,18 @@
   }
   function video(car) {
     const v=car.video;
+    if (!v) return '';
+    if (!v.id && !v.episode) return `<section class="watch-section"><h3>Watch the car.</h3><p>${esc(v.channel)} · ${esc(v.note||'Model-specific review or historical feature.')}</p><a href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">${esc(v.title)} ↗</a></section>`;
     return `<section class="watch-section"><h3>Watch the car.</h3><p>${esc(v.channel)}${v.note?' · '+esc(v.note):''}</p>${v.id?`<div class="video-wrap"><button class="video-consent" data-video="${esc(v.id)}" aria-label="Play ${esc(v.title)}"><span class="play" aria-hidden="true">▶</span><span><small>${esc(v.channel.toUpperCase())} / YOUTUBE</small><strong>${esc(v.title)}</strong><span>Play video · loads YouTube’s embedded player</span></span></button></div><div class="watch-links"><a href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>${v.related?`<a href="${esc(v.related.url)}" target="_blank" rel="noopener noreferrer">${esc(v.related.title)} ↗</a>`:""}</div>`:`<div class="episode"><strong>${esc(v.episode)}</strong><a href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">${esc(v.title)} ↗</a><p>Find this episode on your local broadcaster or streaming service. Availability varies by region.</p></div>`}</section>`;
+  }
+  function archiveEvidence(car) {
+    return `<section class="evidence"><h3>History & reviews.</h3><p>${esc(car.evidence)}</p><div class="source-links">${car.sources.map(k=>sourceLink(k,true)).join('')}</div>${car.facts?`<dl class="model-facts">${Object.entries(car.facts).map(([key,value])=>`<div><dt>${esc(key)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>`:''}</section>`;
   }
   function renderDetail(car) {
     activeCar=car;
     galleries.clear();
     const score=points(car);
-    $('#detail').innerHTML=`<header class="detail-heading"><div><p class="eyebrow">${car.year} / ${esc(car.brand.toUpperCase())} / ${esc(car.country.toUpperCase())}</p><h2 id="detail-title">${esc(car.name)}</h2><p class="car-deck">${esc(car.title)}</p></div><p>DESIGN<br>${esc(car.designer)}</p></header>${gallery(car.variants[0],'main',car.name)}<p class="detail-story">${esc(car.story)}</p><section class="evidence"><h3>Why it is here.</h3><div class="score-grid"><div><span>DESIGN / 60</span><strong>${car.design}</strong></div><div><span>INDUSTRY / 30</span><strong>${car.industry}</strong></div><div><span>CORROBORATION / 10</span><strong>${score.corroboration}</strong></div><div><span>EVIDENCE INDEX / 100</span><strong>${score.total}</strong></div></div><p>${esc(car.evidence)}</p><p>Computed from the published evidence; not a score awarded by a reviewer. Design is weighted twice as heavily as industry influence. This score applies to the model family.</p><div class="source-links">${car.sources.map(k=>sourceLink(k,true)).join('')}</div></section>${video(car)}<section class="evolution-header"><p class="eyebrow">THE DESIGN, OVER TIME</p><h3>One idea. ${car.variants.length===1?'One distinct form.':'Different expressions.'}</h3><p>${esc(car.excluded)}</p></section><div class="evolution">${car.variants.map((v,i)=>{
+    $('#detail').innerHTML=`<header class="detail-heading"><div><p class="eyebrow">${car.year} / ${esc(car.brand.toUpperCase())} / ${esc(car.country.toUpperCase())}</p><h2 id="detail-title">${esc(car.name)}</h2><p class="car-deck">${esc(car.title)}</p></div><p>DESIGN<br>${esc(car.designer)}</p></header>${gallery(car.variants[0],'main',car.name)}<p class="detail-story">${esc(car.story)}</p>${archive?archiveEvidence(car):`<section class="evidence"><h3>Why it is here.</h3><div class="score-grid"><div><span>DESIGN / 60</span><strong>${car.design}</strong></div><div><span>INDUSTRY / 30</span><strong>${car.industry}</strong></div><div><span>CORROBORATION / 10</span><strong>${score.corroboration}</strong></div><div><span>EVIDENCE INDEX / 100</span><strong>${score.total}</strong></div></div><p>${esc(car.evidence)}</p><p>Computed from the published evidence; not a score awarded by a reviewer. Design is weighted twice as heavily as industry influence. This score applies to the model family.</p><div class="source-links">${car.sources.map(k=>sourceLink(k,true)).join('')}</div></section>`}${video(car)}<section class="evolution-header"><p class="eyebrow">THE DESIGN, OVER TIME</p><h3>One idea. ${car.variants.length===1?'One distinct form.':'Different expressions.'}</h3><p>${esc(car.excluded)}</p></section><div class="evolution">${car.variants.map((v,i)=>{
       const prev=car.variants[i-1];
       const label=`${car.name} ${v.name}`;
       return `<article class="generation"><div class="year">${v.year}</div><div><p class="eyebrow">${i===0?'THE STARTING POINT':`EVOLUTION ${String(i+1).padStart(2,'0')}`} / ${esc(v.kind)}</p><h4>${esc(v.name)}</h4>${gallery(v,'generation-'+i,label)}<section class="diff" aria-label="${esc(v.name)} differences"><p class="diff-label">${prev?'DIFF / FROM '+esc(prev.name.toUpperCase()):'BASELINE / WHAT DEFINES IT'}</p>${prev?`<div class="diff-pictures"><figure>${photo(prev.photos[0],car.name+' '+prev.name+' before')}<figcaption>BEFORE · ${prev.year} ${esc(prev.name)}</figcaption></figure><figure>${photo(v.photos[0],label+' after')}<figcaption>AFTER · ${v.year} ${esc(v.name)}</figcaption></figure></div>`:''}<div class="diff-text"><div><strong>${prev?'Form · what changed':'Form · the starting design'}</strong><p>${prev?`<span>Before: ${esc(prev.shape)}</span><br><span>After: ${esc(v.shape)}</span>`:esc(v.shape)}</p></div><div><strong>${prev?'Underneath · what changed':'Underneath · the starting architecture'}</strong><p>${prev?`<span>Before: ${esc(prev.engineering)}</span><br><span>After: ${esc(v.engineering)}</span>`:esc(v.engineering)}</p></div></div></section><a class="fact-source" href="${esc(v.factSource)}" target="_blank" rel="noopener noreferrer">Model history, dates & further references ↗</a></div></article>`;
@@ -139,5 +151,15 @@
   function route(){const match=location.hash.match(/^#car=([a-z0-9-]+)$/);if(match)openCar(match[1],false);else closeCar(true);}
   window.addEventListener('popstate',route);
   window.addEventListener('hashchange',route);
+  if (archive && $('#films')) {
+    $('#films').innerHTML=data.films.map(film=>`<article class="film-card"><p class="eyebrow">${esc(film.year)} / ${esc(film.type)}</p><h3>${esc(film.title)}</h3><p class="film-origin">${esc(film.origin)}</p><p>${esc(film.description)}</p><div class="watch-links"><a href="${esc(film.url)}" target="_blank" rel="noopener noreferrer">${esc(film.linkLabel||'Film information')} ↗</a>${film.watchUrl?`<a href="${esc(film.watchUrl)}" target="_blank" rel="noopener noreferrer">${esc(film.watchLabel||'Watch / trailer')} ↗</a>`:''}</div></article>`).join('');
+  }
   renderTimeline();route();
+  // Initial section anchors otherwise resolve before the fetched timeline exists.
+  const initialSection = location.hash;
+  if (archive && ['#watch','#timeline','#manufacturers'].includes(initialSection)) {
+    document.fonts.ready.then(() => {
+      if (location.hash === initialSection) document.getElementById(initialSection.slice(1))?.scrollIntoView({behavior:'instant'});
+    });
+  }
 })();

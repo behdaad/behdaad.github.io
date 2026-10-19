@@ -1,0 +1,37 @@
+{
+  "ferrari/amalfi/1": {
+    "page": "https://www.ferrarivancouver.com/ferrari-amalfi-spider-en.html",
+    "images": [
+      {
+        "file": "20260303_F169M_Spider_front34_16_9.jpg",
+        "url": "https://img3.d2cmedia.ca//globalpages/cb6ad66bd684c2d//Ferrari/Amalfi Spider/883ae235-78ce-22c-1d3d-2da9f7fe6d7f/20260303_F169M_Spider_front34_16_9.jpg"
+      },
+      {
+        "file": "20260303_F169M_Spider_side_A_16_9.jpg",
+        "url": "https://img3.d2cmedia.ca//globalpages/cb6ad66bd684c46//Ferrari/Amalfi Spider/883ae235-78ce-22c-1d3d-2da9f7fe6d7f/20260303_F169M_Spider_side_A_16_9.jpg"
+      }
+    ]
+  },
+  "ferrari/849-testarossa/1": {
+    "page": "https://www.ferrariofalberta.com/849-testarossa-spider-en.html",
+    "images": [
+      {
+        "file": "0x0-849_Testarossa_Spider_16x9_01.jpg",
+        "url": "https://img5.d2cmedia.ca//globalpages/cb6ad66bd39d8b5//Ferrari/849 Testarossa Spider/f30f5ab6-8491-35a8-e920-a4f5862a1f8/0x0-849_Testarossa_Spider_16x9_01.jpg"
+      },
+      {
+        "file": "0x0-849_Testarossa_Spider_16x9_03.jpg",
+        "url": "https://img4.d2cmedia.ca//globalpages/cb6ad66bd39d8b7//Ferrari/849 Testarossa Spider/f30f5ab6-8491-35a8-e920-a4f5862a1f8/0x0-849_Testarossa_Spider_16x9_03.jpg"
+      }
+    ]
+  },
+  "mercedes/gt-four-door/1": {
+    "page": "https://media.mbusa.com/news/the-new-mercedes-amg-gt-4-door-coupe-revolutionary-performance-maximum-intensity",
+    "images": [
+      {
+        "file": "Mercedes-AMG electric GT 4-Door — official press photograph",
+        "url": "https://media.mbusa.com/storage/media/thumbnails/jyd5cV1FuTgPycsAejcJ1f8jNENGAaOVbFt5kHsB_thumb.jpg"
+      }
+    ]
+  }
+}

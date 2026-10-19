@@ -50,6 +50,8 @@ def candidates(wiki):
 def main():
     data=json.loads(ROOT.joinpath('data.json').read_text())
     items=[v for c in data['cars'] for v in c['variants']]+data['honors']
+    if '--missing-only' in sys.argv:
+        items=[v for v in items if len(v.get('photos',[])) < (1 if v in data['honors'] else 2)]
     pages=sorted(set(v['wiki'] for v in items)); gathered={}
     with concurrent.futures.ThreadPoolExecutor(max_workers=1) as ex:
         futs={ex.submit(candidates,w):w for w in pages}
@@ -57,7 +59,10 @@ def main():
             w=futs[fut]
             try:gathered[w]=fut.result()
             except Exception as e:print('PAGE FAILED',w,str(e),flush=True);gathered[w]=[]
-    ROOT.joinpath('research/image-candidates.json').write_text(json.dumps(gathered,ensure_ascii=False,indent=2))
+    candidate_path=ROOT.joinpath('research/image-candidates.json')
+    previous_candidates=json.loads(candidate_path.read_text()) if candidate_path.exists() else {}
+    previous_candidates.update(gathered)
+    candidate_path.write_text(json.dumps(previous_candidates,ensure_ascii=False,indent=2))
     if '--catalog-only' in sys.argv:
         print('Candidate pages ready:',len(gathered),flush=True)
         return
@@ -81,8 +86,8 @@ def main():
         j=api('commons.wikimedia.org',action='query',titles='|'.join('File:'+f for f in unique[i:i+25]),prop='imageinfo',iiprop='url|extmetadata',iiurlwidth=1000)
         for p in j['query']['pages'].values():
             if 'imageinfo' in p:info[p['title'][5:].replace('_',' ')]=p['imageinfo'][0]
-    manifest={}
     old_manifest=json.loads(ROOT.joinpath('research/image-credits.json').read_text()) if ROOT.joinpath('research/image-credits.json').exists() else {}
+    manifest=dict(old_manifest) if '--missing-only' in sys.argv else {}
     def download(f):
         if f in old_manifest and ROOT.joinpath(old_manifest[f]['src']).exists():
             return(f,old_manifest[f],None)
@@ -91,7 +96,7 @@ def main():
         inf=info[key];ext=inf.get('extmetadata',{})
         license=clean(ext.get('LicenseShortName',{}).get('value',''))
         license_url=ext.get('LicenseUrl',{}).get('value','')
-        if not license or ('cc' not in license.lower() and 'public domain' not in license.lower() and 'pd' not in license.lower() and license not in ['FAL','Attribution'] and 'creativecommons.org/licenses/' not in license_url):
+        if not license or ('cc' not in license.lower() and 'public domain' not in license.lower() and 'pd' not in license.lower() and license not in ['FAL','Attribution','Copyrighted free use'] and 'creativecommons.org/licenses/' not in license_url):
             return(f,None,'Unrecognised license: '+license)
         url=inf.get('thumburl',inf['url'])
         suffix=Path(urllib.parse.urlparse(url).path).suffix.lower()
@@ -100,7 +105,7 @@ def main():
             target=ROOT/path
             if not target.exists():target.write_bytes(get(url))
             return(f,dict(src=path,file=f,credit=clean(ext.get('Artist',{}).get('value','Wikimedia Commons')),license=license,
-                licenseUrl=ext.get('LicenseUrl',{}).get('value','https://artlibre.org/licence/lal/en/' if license=='FAL' else 'https://commons.wikimedia.org/wiki/Template:Attribution' if license=='Attribution' else 'https://commons.wikimedia.org/wiki/Commons:Licensing'),
+                licenseUrl=ext.get('LicenseUrl',{}).get('value','https://commons.wikimedia.org/wiki/Template:Copyrighted_free_use' if license=='Copyrighted free use' else 'https://artlibre.org/licence/lal/en/' if license=='FAL' else 'https://commons.wikimedia.org/wiki/Template:Attribution' if license=='Attribution' else 'https://commons.wikimedia.org/wiki/Commons:Licensing'),
                 page=inf['descriptionurl'],description=clean(ext.get('ImageDescription',{}).get('value',f))[:800],origin='Wikimedia Commons · archive / contemporary photograph'),None)
         except Exception as e:return(f,None,str(e))
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
@@ -112,5 +117,5 @@ def main():
         v['factSource']='https://en.wikipedia.org/wiki/'+urllib.parse.quote(v['wiki'].replace(' ','_'))
     ROOT.joinpath('data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     ROOT.joinpath('research/image-credits.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-    print('DONE',len(manifest),'unique photographs;',sum(not v['photos'] for v in items),'empty galleries;',sum(len(v['photos'])<2 for v in items[:-len(data['honors'])]),'galleries with fewer than two images',flush=True)
+    print('DONE',len(manifest),'unique photographs;',sum(not v['photos'] for v in items),'empty galleries;',sum(len(v['photos'])<2 for v in items if v not in data['honors']),'galleries with fewer than two images',flush=True)
 if __name__=='__main__':main()

@@ -1,0 +1,3669 @@
+{
+  "archive": true,
+  "brand": "Lamborghini",
+  "heroId": "miura",
+  "updated": "20 October 2026",
+  "sources": {
+    "history-350gt-0": {
+      "outlet": "Model history",
+      "title": "350 GT — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_350_GT"
+    },
+    "reading-350gt-0-0": {
+      "outlet": "MotorTrend",
+      "title": "The Ultimate Barn Find: 1966 Lamborghini 400GT Monza",
+      "url": "http://www.motortrend.com/classic/features/c12_0603_1966_lamborghini_400gt_monza"
+    },
+    "reading-350gt-0-1": {
+      "outlet": "Hagerty",
+      "title": "Rare classic 1965 Lamborghini could be only survivor",
+      "url": "https://www.hagerty.com/media/car-profiles/rare-lamborghini/"
+    },
+    "history-400gt-0": {
+      "outlet": "Model history",
+      "title": "400 GT / Interim — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_400_GT"
+    },
+    "reading-400gt-0-0": {
+      "outlet": "MotorTrend",
+      "title": "The Ultimate Barn Find: 1966 Lamborghini 400GT Monza",
+      "url": "http://www.motortrend.com/classic/features/c12_0603_1966_lamborghini_400gt_monza"
+    },
+    "history-400gt-1": {
+      "outlet": "Model history",
+      "title": "400 GT 2+2 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_400_GT"
+    },
+    "history-miura-0": {
+      "outlet": "Model history",
+      "title": "P400 / S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Miura"
+    },
+    "reading-miura-0-0": {
+      "outlet": "Car and Driver",
+      "title": "Lamborghini Miura: The Supercar That Started It All",
+      "url": "https://www.caranddriver.com/reviews/a15143199/lamborghini-miura-archived-first-drive-review/"
+    },
+    "reading-miura-0-1": {
+      "outlet": "Road & Track",
+      "title": "When Miles Davis crashed his Lamborghini, I was there",
+      "url": "https://www.roadandtrack.com/car-culture/entertainment/a24896/when-miles-davis-crashed-his-lamborghini-i-was-there/"
+    },
+    "reading-miura-0-2": {
+      "outlet": "Road & Track",
+      "title": "This Is the 'Italian Job' Lamborghini Miura",
+      "url": "https://www.roadandtrack.com/car-culture/entertainment/a27391926/1969-lamborghini-miura-italian-job-found/"
+    },
+    "history-miura-1": {
+      "outlet": "Model history",
+      "title": "P400 SV — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Miura"
+    },
+    "history-islero-0": {
+      "outlet": "Model history",
+      "title": "Islero / S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Islero"
+    },
+    "history-espada-0": {
+      "outlet": "Model history",
+      "title": "Series I — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Espada"
+    },
+    "history-espada-1": {
+      "outlet": "Model history",
+      "title": "Series II / III — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Espada"
+    },
+    "history-jarama-0": {
+      "outlet": "Model history",
+      "title": "Jarama GT / GTS — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Jarama"
+    },
+    "reading-jarama-0-0": {
+      "outlet": "Road & Track",
+      "title": "Ferruccio Lamborghini's Favorite Car Was the Lamborghini You Forgot About",
+      "url": "https://www.roadandtrack.com/car-culture/classic-cars/a29003/ferruccio-lamborghini-jarama/"
+    },
+    "history-urraco-0": {
+      "outlet": "Model history",
+      "title": "P200 / P250 / P300 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Urraco"
+    },
+    "reading-urraco-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Sant'Agata Bolognese to Zaragoza, the Heming-Way",
+      "url": "http://www.motortrend.com/features/travel/1202_search_of_lamborghini_aventador_death_in_the_afternoon/viewall.html"
+    },
+    "reading-urraco-0-1": {
+      "outlet": "Road & Track",
+      "title": "Lamborghini Makes a Mean-Sounding V-8 Too",
+      "url": "https://www.roadandtrack.com/car-culture/a26821307/lamborghini-jalpa-v-8-sound/"
+    },
+    "history-countach-0": {
+      "outlet": "Model history",
+      "title": "LP400 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+    },
+    "reading-countach-0-0": {
+      "outlet": "Car and Driver",
+      "title": "How the Lamborghini Countach Got That Name",
+      "url": "https://www.caranddriver.com/features/a24406140/lamborghini-countach-name-origin/"
+    },
+    "reading-countach-0-1": {
+      "outlet": "MotorTrend",
+      "title": "Lamborghini Recreated the Original Countach LP500 Concept",
+      "url": "https://www.motortrend.com/news/lamborghini-countach-lp500-recreation/"
+    },
+    "history-countach-1": {
+      "outlet": "Model history",
+      "title": "LP400 S / LP500 S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+    },
+    "history-countach-2": {
+      "outlet": "Model history",
+      "title": "5000 Quattrovalvole — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+    },
+    "history-countach-3": {
+      "outlet": "Model history",
+      "title": "25th Anniversary — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+    },
+    "history-silhouette-0": {
+      "outlet": "Model history",
+      "title": "Silhouette — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Silhouette"
+    },
+    "reading-silhouette-0-0": {
+      "outlet": "evo",
+      "title": "Lamborghini Silhouette: history, review and specs of an icon",
+      "url": "https://www.evo.co.uk/lamborghini/18632/lamborghini-silhouette-history-review-and-specs-of-an-icon"
+    },
+    "history-jalpa-0": {
+      "outlet": "Model history",
+      "title": "Jalpa — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Jalpa"
+    },
+    "reading-jalpa-0-0": {
+      "outlet": "Car and Driver",
+      "title": "Lamborghini Jalpa Buyer's Guide: What You Need to Know About Values, Problem Areas, and More",
+      "url": "https://www.caranddriver.com/news/a15351078/lamborghini-jalpa-buyers-guide-what-you-need-to-know-about-values-problem-areas-and-more"
+    },
+    "reading-jalpa-0-1": {
+      "outlet": "MotorTrend",
+      "title": "The Lamborghini Jalpa: History, Photos, Specifications",
+      "url": "https://www.motortrend.com/vehicle-genres/lamborghini-jalpa-history-generations-specifications/"
+    },
+    "reading-jalpa-0-2": {
+      "outlet": "MotorTrend",
+      "title": "Sant'Agata Bolognese to Zaragoza, the Heming-Way",
+      "url": "http://www.motortrend.com/features/travel/1202_search_of_lamborghini_aventador_death_in_the_afternoon/viewall.html"
+    },
+    "history-lm002-0": {
+      "outlet": "Model history",
+      "title": "LM002 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_LM002"
+    },
+    "history-diablo-0": {
+      "outlet": "Model history",
+      "title": "Original Diablo / VT — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+    },
+    "reading-diablo-0-0": {
+      "outlet": "Top Gear",
+      "title": "Rarer than rare? One of only two Lamborghini Diablo SV Roadsters is up for sale",
+      "url": "https://www.topgear.com/car-news/used-cars/rarer-rare-one-only-two-lamborghini-diablo-sv-roadsters-sale"
+    },
+    "reading-diablo-0-1": {
+      "outlet": "Top Gear",
+      "title": "Classified of the week: one-off Zagato Raptor concept",
+      "url": "https://www.topgear.com/car-news/concept/classified-week-one-zagato-raptor-concept"
+    },
+    "history-diablo-1": {
+      "outlet": "Model history",
+      "title": "VT Roadster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+    },
+    "history-diablo-2": {
+      "outlet": "Model history",
+      "title": "Diablo GT — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+    },
+    "history-diablo-3": {
+      "outlet": "Model history",
+      "title": "VT 6.0 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+    },
+    "history-murcielago-0": {
+      "outlet": "Model history",
+      "title": "Murciélago / LP640 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+    },
+    "reading-murcielago-0-0": {
+      "outlet": "Car and Driver",
+      "title": "Lamborghini Murciélago",
+      "url": "https://web.archive.org/web/20150531102635/http://media.caranddriver.com/files/lamborghini-murcielago.pdf"
+    },
+    "reading-murcielago-0-1": {
+      "outlet": "Car and Driver",
+      "title": "Lamborghini Murciélago Roadster – First Drive Review",
+      "url": "http://www.caranddriver.com/reviews/lamborghini-murcielago-roadster-first-drive-review"
+    },
+    "reading-murcielago-0-2": {
+      "outlet": "Car and Driver",
+      "title": "2007 Lamborghini Murciélago LP640 First Drive",
+      "url": "http://www.caranddriver.com/reviews/2007-lamborghini-murcielago-lp640-first-drive-review"
+    },
+    "history-murcielago-1": {
+      "outlet": "Model history",
+      "title": "Roadster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+    },
+    "history-murcielago-2": {
+      "outlet": "Model history",
+      "title": "LP670-4 SuperVeloce — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+    },
+    "history-gallardo-0": {
+      "outlet": "Model history",
+      "title": "Gallardo coupé — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+    },
+    "reading-gallardo-0-0": {
+      "outlet": "MotorTrend",
+      "title": "Exclusive First Test: 2009 Lamborghini Gallardo LP560-4 - First Test - Motor Trend",
+      "url": "https://www.motortrend.com/cars/lamborghini/crossman/2009/2009-lamborghini-gallardo-lp560-4-test/"
+    },
+    "reading-gallardo-0-1": {
+      "outlet": "Car and Driver",
+      "title": "Tested: Six-Way 2005 Supercar Comparison Test (August 2005 issue) - Vehicle Chart",
+      "url": "http://media.caranddriver.com/files/aston-martin-db9-vs-ferrari-f430-ford-gt-lamborghini-gallardo-m-b-sl65-amg-porsche-911-turbo-s-cabrioletlords-of-envy-vehicle-chart.pdf"
+    },
+    "reading-gallardo-0-2": {
+      "outlet": "Car and Driver",
+      "title": "2006 Ferrari F430 Spider F1 vs. Lamborghini Gallardo Spyder",
+      "url": "http://media.caranddriver.com/files/2006-ferrari-f430-spider-f1-vs-lamborghini-gallardo-spyderlords-of-envy-vehicle-chart.pdf"
+    },
+    "history-gallardo-1": {
+      "outlet": "Model history",
+      "title": "Gallardo Spyder — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+    },
+    "history-gallardo-2": {
+      "outlet": "Model history",
+      "title": "LP560-4 / LP550-2 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+    },
+    "history-gallardo-3": {
+      "outlet": "Model history",
+      "title": "LP570-4 Superleggera — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+    },
+    "history-reventon-0": {
+      "outlet": "Model history",
+      "title": "Reventón coupé — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Revent%C3%B3n"
+    },
+    "reading-reventon-0-0": {
+      "outlet": "Autocar",
+      "title": "The £1m open Lambo Reventon",
+      "url": "https://web.archive.org/web/20090915205307/http://www.autocar.co.uk/News/NewsArticle/AllCars/242006/"
+    },
+    "reading-reventon-0-1": {
+      "outlet": "Car and Driver",
+      "title": "2010 Lamborghini Reventón Roadster",
+      "url": "https://www.caranddriver.com/news/a16578720/2010-lamborghini-reventon-roadster-news"
+    },
+    "reading-reventon-0-2": {
+      "outlet": "Top Gear",
+      "title": "Lamborghini Reventon Roadster news - Frankfurt show: Lambo Reventon Roadster - 2009",
+      "url": "https://www.topgear.com/car-news/supercar/lamborghini-reventon-roadster-news-frankfurt-show-lambo-reventon-roadster-2009"
+    },
+    "history-reventon-1": {
+      "outlet": "Model history",
+      "title": "Reventón Roadster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Revent%C3%B3n"
+    },
+    "history-aventador-0": {
+      "outlet": "Model history",
+      "title": "LP700-4 / S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
+    },
+    "reading-aventador-0-0": {
+      "outlet": "Top Gear",
+      "title": "Genesis has hired Lamborghini's former designer",
+      "url": "https://www.topgear.com/car-news/insider/genesis-has-hired-lamborghinis-former-designer"
+    },
+    "reading-aventador-0-1": {
+      "outlet": "MotorTrend",
+      "title": "2012 Lamborghini Aventador LP 700-4 European Spec First Test",
+      "url": "https://www.motortrend.com/news/2012-lamborghini-aventador-lp-700-4-test/"
+    },
+    "reading-aventador-0-2": {
+      "outlet": "Car and Driver",
+      "title": "2012-Lamborghini-Aventador-LP700-4-specs",
+      "url": "https://web.archive.org/web/20181003065746/http://media.caranddriver.com/files/2012-lamborghini-aventador-lp700-4-road-test-review-car-and-driver2012-lamborghini-aventador-lp700-4-specs.pdf"
+    },
+    "history-aventador-1": {
+      "outlet": "Model history",
+      "title": "Roadster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
+    },
+    "history-aventador-2": {
+      "outlet": "Model history",
+      "title": "SuperVeloce — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
+    },
+    "history-aventador-3": {
+      "outlet": "Model history",
+      "title": "SVJ — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
+    },
+    "history-veneno-0": {
+      "outlet": "Model history",
+      "title": "Veneno coupé — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Veneno"
+    },
+    "reading-veneno-0-0": {
+      "outlet": "Car and Driver",
+      "title": "Lamborghini Veneno Roadster - Car and Driver",
+      "url": "https://www.caranddriver.com/news/a15112638/lamborghini-veneno-roadster-photos-and-info-news/"
+    },
+    "reading-veneno-0-1": {
+      "outlet": "Autocar",
+      "title": "Geneva motor show: Lamborghini Veneno",
+      "url": "http://www.autocar.co.uk/car-news/geneva-motor-show-2013/geneva-motor-show-lamborghini-veneno"
+    },
+    "reading-veneno-0-2": {
+      "outlet": "Top Gear",
+      "title": "This is the Lamborghini Veneno",
+      "url": "https://www.topgear.com/car-news/geneva-motor-show/lamborghini-veneno"
+    },
+    "history-veneno-1": {
+      "outlet": "Model history",
+      "title": "Veneno Roadster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Veneno"
+    },
+    "history-huracan-0": {
+      "outlet": "Model history",
+      "title": "LP610-4 / Evo — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+    },
+    "reading-huracan-0-0": {
+      "outlet": "Car and Driver",
+      "title": "2016 Audi R8: We Ride in and Detail the Next Four-Ringed Supercar",
+      "url": "https://www.caranddriver.com/reviews/a15108385/2016-audi-r8-prototype-poked-and-prodded-review/"
+    },
+    "reading-huracan-0-1": {
+      "outlet": "Top Gear",
+      "title": "'Project Panther' is a new Italian supercar with a Lambo base",
+      "url": "https://www.topgear.com/car-news/supercars/project-panther-new-italian-supercar-lambo-base"
+    },
+    "reading-huracan-0-2": {
+      "outlet": "Car and Driver",
+      "title": "Lamborghini Huracan LP610-4",
+      "url": "https://www.caranddriver.com/reviews/a15108747/2015-lamborghini-huracan-lp610-4-tested-review/"
+    },
+    "history-huracan-1": {
+      "outlet": "Model history",
+      "title": "Spyder — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+    },
+    "history-huracan-2": {
+      "outlet": "Model history",
+      "title": "Performante — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+    },
+    "history-huracan-3": {
+      "outlet": "Model history",
+      "title": "STO — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+    },
+    "history-huracan-4": {
+      "outlet": "Model history",
+      "title": "Tecnica — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+    },
+    "history-huracan-5": {
+      "outlet": "Model history",
+      "title": "Sterrato — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+    },
+    "history-centenario-0": {
+      "outlet": "Model history",
+      "title": "Centenario coupé — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Centenario"
+    },
+    "reading-centenario-0-0": {
+      "outlet": "Top Gear",
+      "title": "Review: Lamborghini's 760bhp, £1.7m Centenario",
+      "url": "https://www.topgear.com/car-reviews/centenario/first-drive"
+    },
+    "reading-centenario-0-1": {
+      "outlet": "Road & Track",
+      "title": "Lamborghini Centenario: First Drive",
+      "url": "https://www.roadandtrack.com/new-cars/first-drives/a13786264/lamborghini-centenario-first-drive/"
+    },
+    "history-centenario-1": {
+      "outlet": "Model history",
+      "title": "Centenario Roadster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Centenario"
+    },
+    "history-urus-0": {
+      "outlet": "Model history",
+      "title": "Urus / S — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Urus"
+    },
+    "reading-urus-0-0": {
+      "outlet": "Car and Driver",
+      "title": "Every 2022 Mid-Size Luxury Crossover and SUV Ranked from Worst to Best",
+      "url": "https://www.caranddriver.com/features/g24419845/mid-size-luxury-crossovers-suvs-ranked/"
+    },
+    "reading-urus-0-1": {
+      "outlet": "Car and Driver",
+      "title": "2019 Lamborghini Urus",
+      "url": "https://www.caranddriver.com/reviews/2019-lamborghini-urus-first-drive-review"
+    },
+    "reading-urus-0-2": {
+      "outlet": "Car and Driver",
+      "title": "2019 Lamborghini Urus SUV Horsepower Revealed by CEO",
+      "url": "https://www.caranddriver.com/news/a15341364/2019-lamborghini-urus-suv-horsepower-revealed-by-ceo/"
+    },
+    "history-urus-1": {
+      "outlet": "Model history",
+      "title": "Performante — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Urus"
+    },
+    "history-urus-2": {
+      "outlet": "Model history",
+      "title": "SE — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Urus"
+    },
+    "history-sian-0": {
+      "outlet": "Model history",
+      "title": "Sián FKP 37 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Si%C3%A1n_FKP_37"
+    },
+    "reading-sian-0-0": {
+      "outlet": "Car and Driver",
+      "title": "Lamborghini Sián Kicks Off Lambo's Hybrid Era with 807 HP and a 218-MPH Top Speed",
+      "url": "https://www.caranddriver.com/news/a28898213/lamborghini-sian-hybrid-photos-info/"
+    },
+    "reading-sian-0-1": {
+      "outlet": "Auto Express",
+      "title": "New 808bhp Lamborghini Sian is brand's first hybrid",
+      "url": "https://www.autoexpress.co.uk/lamborghini/107798/new-808bhp-lamborghini-sian-is-brand-s-first-hybrid"
+    },
+    "reading-sian-0-2": {
+      "outlet": "Autocar",
+      "title": "Lamborghini uncovers 808bhp Sian as first hybrid model",
+      "url": "https://www.autocar.co.uk/car-news/motor-shows-frankfurt-motor-show/lamborghini-uncovers-808bhp-sian-first-hybrid-model"
+    },
+    "history-sian-1": {
+      "outlet": "Model history",
+      "title": "Sián Roadster — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Si%C3%A1n_FKP_37"
+    },
+    "history-countach-lpi-0": {
+      "outlet": "Model history",
+      "title": "Countach LPI 800-4 — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach_LPI_800-4"
+    },
+    "reading-countach-lpi-0-0": {
+      "outlet": "Car and Driver",
+      "title": "Why Lamborghini Decided to Bring Back the Countach",
+      "url": "https://www.caranddriver.com/features/a37303174/lamborghini-countach-why/"
+    },
+    "reading-countach-lpi-0-1": {
+      "outlet": "Top Gear",
+      "title": "Guess who's back: all hail the new Lamborghini Countach LPI 800-4",
+      "url": "https://www.topgear.com/car-news/supercars/guess-whos-back-all-hail-new-lamborghini-countach-lpi-800-4"
+    },
+    "reading-countach-lpi-0-2": {
+      "outlet": "MotorTrend",
+      "title": "2022 Lamborghini Countach LPI 800-4 First Look: A Retro Remastering of a Disco Classic",
+      "url": "https://www.motortrend.com/news/2022-lamborghini-countach-lpi-800-4-first-look-review/"
+    },
+    "history-revuelto-0": {
+      "outlet": "Model history",
+      "title": "Revuelto — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Revuelto"
+    },
+    "reading-revuelto-0-0": {
+      "outlet": "evo",
+      "title": "Lamborghini Revuelto: the design story",
+      "url": "https://www.evo.co.uk/lamborghini/205802/lamborghini-revuelto-the-design-story"
+    },
+    "reading-revuelto-0-1": {
+      "outlet": "evo",
+      "title": "Lamborghini Revuelto revealed: all the details on the Aventador replacement",
+      "url": "https://www.evo.co.uk/lamborghini/204969/lamborghini-revuelto-revealed-all-the-details-on-the-aventador-replacement"
+    },
+    "reading-revuelto-0-2": {
+      "outlet": "Autocar",
+      "title": "Lamborghini Revuelto is 1000bhp PHEV Aventador replacement",
+      "url": "https://www.autocar.co.uk/car-news/new-cars/lamborghini-revuelto-1000bhp-phev-aventador-replacement"
+    },
+    "history-temerario-0": {
+      "outlet": "Model history",
+      "title": "Temerario — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Temerario"
+    },
+    "reading-temerario-0-0": {
+      "outlet": "Top Gear",
+      "title": "Farewell, V10: this is the new Lamborghini Temerario, a 907bhp V8 hybrid",
+      "url": "https://www.topgear.com/car-news/big-reads/farewell-v10-new-lamborghini-temerario-a-907bhp-v8-hybrid"
+    },
+    "reading-temerario-0-1": {
+      "outlet": "Auto Express",
+      "title": "Lamborghini Temerario: new supercar will be faster and more powerful than Huracan",
+      "url": "https://www.autoexpress.co.uk/lamborghini/358433/lamborghini-temerario-new-supercar-will-be-faster-and-more-powerful-huracan"
+    },
+    "reading-temerario-0-2": {
+      "outlet": "Car and Driver",
+      "title": "907-HP 2025 Lamborghini Temerario Ditches V-10 for V-8 Hybrid",
+      "url": "https://www.caranddriver.com/news/a61883126/2025-lamborghini-temerario-revealed/"
+    },
+    "history-fenomeno-0": {
+      "outlet": "Model history",
+      "title": "Fenomeno — history and specifications",
+      "url": "https://en.wikipedia.org/wiki/Lamborghini_Fenomeno"
+    }
+  },
+  "cars": [
+    {
+      "id": "350gt",
+      "name": "350 GT",
+      "category": "Grand tourer",
+      "story": "Lamborghini’s first series-production car was a front-engined V12 grand tourer. Touring’s rounded aluminium body differs from the earlier GTV prototype.",
+      "variants": [
+        {
+          "year": 1964,
+          "name": "350 GT",
+          "wiki": "Lamborghini 350 GT",
+          "match": "",
+          "shape": "A rounded coupé with oval lamps and a compact cabin.",
+          "engineering": "A front V12 and independent suspension.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_350_GT",
+          "photos": [
+            {
+              "src": "../brand-assets/c786e3ad826842.webp",
+              "file": "1965_Lamborghini_350_GT_HCC24.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1965_Lamborghini_350_GT_HCC24.jpg",
+              "description": "A 1965 Lamborghini 350 GT taken at Hampton Court Concours 2024.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/b522a1a4687bc4.webp",
+              "file": "Lamborghini_350_GTV.jpg",
+              "credit": "Craig Howell from San Carlos, CA, USA; \n\n(cropped and adjusted by uploader Mr.choppers)",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_350_GTV.jpg",
+              "description": "The 1963 Lamborghini 350 GTV at the Concorso Italiano in 2001",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "May 1964–1966 120 built",
+            "Designer": "Carrozzeria Touring",
+            "Class": "Grand tourer",
+            "Body style": "2- door coupé 2-door roadster (350 GTS)",
+            "Layout": "FR layout",
+            "Engine": "3.5 L (3,464 cc) Lamborghini V12",
+            "Transmission": "5-speed ZF manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1964,
+      "designer": "Carrozzeria Touring",
+      "title": "A rounded coupé with oval lamps and a compact cabin.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-350gt-0-1",
+        "reading-350gt-0-0",
+        "history-350gt-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "May 1964–1966 120 built",
+        "Designer": "Carrozzeria Touring",
+        "Class": "Grand tourer",
+        "Body style": "2- door coupé 2-door roadster (350 GTS)",
+        "Layout": "FR layout",
+        "Engine": "3.5 L (3,464 cc) Lamborghini V12",
+        "Transmission": "5-speed ZF manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "400gt",
+      "name": "400 GT",
+      "category": "Grand tourer",
+      "story": "The 400 GT enlarges the first Lamborghini GT’s engine and, in 2+2 form, adds a taller cabin and rear seats. Coachbuilt one-offs are outside this family catalog.",
+      "variants": [
+        {
+          "year": 1966,
+          "name": "400 GT / Interim",
+          "wiki": "Lamborghini 400 GT",
+          "match": "400",
+          "shape": "A rounded two-seat body close to the 350 GT.",
+          "engineering": "An enlarged front-mounted V12.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_400_GT",
+          "photos": [
+            {
+              "src": "../brand-assets/528e3ecb2e01d3.webp",
+              "file": "1966_Lamborghini_400_GT_Red.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1966_Lamborghini_400_GT_Red.jpg",
+              "description": "A Lamborghini 400 GT taken at Salon Prive 2022.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/729bbefb53b8b6.webp",
+              "file": "1966_Lamborghini_400_GT_Interim_in_Black,_rear_left.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1966_Lamborghini_400_GT_Interim_in_Black,_rear_left.jpg",
+              "description": "1966 Lamborghini 400 GT Interim heading out from the 2022 Greenwich Concours d'Elegance. Completed in June 1966, Touring body number #18928, chassis number #0445. Originally painted Grigio Saint Vincent with Tabacco interior, it used to have a red interior and is currently painted black. Italian license plate PV 200250 (Pavia). Apparently this chassis number is somehow the same as 0505, not sure what the story is but it seems that a second car was built from parts in Japan with the same Touring body number?",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1966–1968 247 built",
+            "Designer": "Carrozzeria Touring",
+            "Class": "Grand tourer",
+            "Body style": "2-door coupé",
+            "Layout": "FR layout",
+            "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+            "Transmission": "5-speed manual"
+          }
+        },
+        {
+          "year": 1966,
+          "name": "400 GT 2+2",
+          "wiki": "Lamborghini 400 GT",
+          "match": "2.2",
+          "shape": "A higher roof and revised rear window accommodate rear seats.",
+          "engineering": "A four-seat development of the front-V12 GT.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_400_GT",
+          "photos": [
+            {
+              "src": "../brand-assets/74bb61bec0237f.webp",
+              "file": "1967_Lamborghini_400_GT_2+2,_rear_left,_Greenwich_2018.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1967_Lamborghini_400_GT_2%2B2,_rear_left,_Greenwich_2018.jpg",
+              "description": "A 1967 Lamborghini 400 GT 2+2 at the 2018 Greenwich Concours d'Elegance. Unrestored, 13,000 miles. Belongs to Arthur Mbanefo, the Odu (chief) of Onitsha.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1966–1968 247 built",
+            "Designer": "Carrozzeria Touring",
+            "Class": "Grand tourer",
+            "Body style": "2-door coupé",
+            "Layout": "FR layout",
+            "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+            "Transmission": "5-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1966,
+      "designer": "Carrozzeria Touring",
+      "title": "A rounded two-seat body close to the 350 GT.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-400gt-0-0",
+        "history-400gt-0",
+        "history-400gt-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1966–1968 247 built",
+        "Designer": "Carrozzeria Touring",
+        "Class": "Grand tourer",
+        "Body style": "2-door coupé",
+        "Layout": "FR layout",
+        "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+        "Transmission": "5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "miura",
+      "name": "Miura",
+      "category": "Mid-engine sports car",
+      "story": "The Miura packages a transverse V12 behind the cabin under Gandini’s low, flowing body. The SV develops its rear stance and removes the original headlamp eyelashes.",
+      "variants": [
+        {
+          "year": 1966,
+          "name": "P400 / S",
+          "wiki": "Lamborghini Miura",
+          "match": "P400",
+          "shape": "A low rounded nose, rising doors and headlamp eyelashes.",
+          "engineering": "A transverse mid-mounted V12; the S develops the specification.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Miura",
+          "photos": [
+            {
+              "src": "../assets/8c84cf4b2eff56.webp",
+              "file": "12-01-03-autostadtl-by-RalfR-32.jpg",
+              "credit": "Ralf Roletschek (talk) - Wissensmanagement mit Wikis",
+              "license": "FAL",
+              "licenseUrl": "http://artlibre.org/licence/lal/en",
+              "page": "https://commons.wikimedia.org/wiki/File:12-01-03-autostadtl-by-RalfR-32.jpg",
+              "description": "Fahrzeug in der Autostadt Wolfsburg; Lamborghini Miura",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/225e94fa08814e.webp",
+              "file": "Lamborghini Miura P400 (1967) Classic-Gala 2022 1X7A0082.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Miura_P400_(1967)_Classic-Gala_2022_1X7A0082.jpg",
+              "description": "Lamborghini_Miura_P400_(1967) at Classic-Gala 2022",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1966–1973 764 made",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé",
+            "Layout": "Transverse rear mid-engine, rear-wheel-drive",
+            "Engine": "3,929 cc (3.9 L) L406 V12",
+            "Transmission": "5-speed manual"
+          }
+        },
+        {
+          "year": 1971,
+          "name": "P400 SV",
+          "wiki": "Lamborghini Miura",
+          "match": "SV",
+          "shape": "Wider rear haunches and plainer headlamp surrounds.",
+          "engineering": "A revised rear chassis and more developed V12 installation.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Miura",
+          "photos": [
+            {
+              "src": "../assets/bc7f9f7b6a4bac.webp",
+              "file": "1971_Lamborghini_Miura_P400_SV.jpg",
+              "credit": "Chelsea Jay",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1971_Lamborghini_Miura_P400_SV.jpg",
+              "description": "1971 Lamborghini Miura P400 SV Taken at the Concours d'Elegance Hampton Court 2019",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/dacd9e6f81e76a.webp",
+              "file": "1972_Lamborghini_Miura_P400_SV_in_Verde_Chiaro,_front_right.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1972_Lamborghini_Miura_P400_SV_in_Verde_Chiaro,_front_right.jpg",
+              "description": "1972 Lamborghini Miura P400 SV in Verde Chiaro with a powerful Blue interior in the parking lot of the 2025 Greenwich Concours d'Elegance. Chassis 5064 was originally painted white when it was sold to a pilot in White Plains, NY; it was the last Miura delivered new to the US. Factory air conditioning. This car was owned by Lamborghini test driver Bob Wallace in 1980, who restored it and upgraded it with numerous Jota spec items including a \"seam-welded and reinforced chassis, uprated brakes and suspension, a deeper sump with baffles, lightened reduction gears with hard-chromed pins, independent transfer gear oilers, teflon-sealed oil intake guides, a full-flow oil radiator (in place of the A/C condenser, which was relocated), and breakerless electronic ignition.\"[1]",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1966–1973 764 made",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé",
+            "Layout": "Transverse rear mid-engine, rear-wheel-drive",
+            "Engine": "3,929 cc (3.9 L) L406 V12",
+            "Transmission": "5-speed manual"
+          }
+        }
+      ],
+      "inherit": "miura",
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1966,
+      "designer": "Marcello Gandini at Bertone",
+      "title": "A low rounded nose, rising doors and headlamp eyelashes.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-miura-0-2",
+        "reading-miura-0-1",
+        "reading-miura-0-0",
+        "history-miura-0",
+        "history-miura-1"
+      ],
+      "video": {
+        "id": "vSj7GFLDhew",
+        "title": "Lamborghini Miura — the first modern supercar",
+        "channel": "Top Gear",
+        "note": "The video title uses “first”; the historical claim is more nuanced.",
+        "url": "https://www.youtube.com/watch?v=vSj7GFLDhew"
+      },
+      "facts": {
+        "Production": "1966–1973 764 made",
+        "Designer": "Marcello Gandini at Bertone",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé",
+        "Layout": "Transverse rear mid-engine, rear-wheel-drive",
+        "Engine": "3,929 cc (3.9 L) L406 V12",
+        "Transmission": "5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "islero",
+      "name": "Islero",
+      "category": "Grand tourer",
+      "story": "A restrained four-seat V12 coupé developed from Lamborghini’s first front-engined GTs. The S is grouped with the same body design.",
+      "variants": [
+        {
+          "year": 1968,
+          "name": "Islero / S",
+          "wiki": "Lamborghini Islero",
+          "match": "",
+          "shape": "A relatively upright coupé with a conventional boot and slim pillars.",
+          "engineering": "A front-mounted V12 and four-seat touring layout.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Islero",
+          "photos": [
+            {
+              "src": "../brand-assets/3869a102f6017f.webp",
+              "file": "Lamborghini_Islero,_Techno_Classica_2018,_Essen_(IMG_9696).jpg",
+              "credit": "Matti Blume",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Islero,_Techno_Classica_2018,_Essen_(IMG_9696).jpg",
+              "description": "Lamborghini Islero at Techno-Classica 2018, Essen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/2edb03cb6d6979.webp",
+              "file": "Lamborghini_Islero_-_Flick_-_Concorso_Italiano_2004.jpg",
+              "credit": "Craig Howell from San Carlos, CA, USA",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Islero_-_Flick_-_Concorso_Italiano_2004.jpg",
+              "description": "Lamborghini Islero.\n\nPhotograph taken at 2004 Concorso Italiano.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1968–1969 225 built",
+            "Designer": "Mario Marazzi at Carrozzeria Marazzi",
+            "Class": "Grand tourer",
+            "Body style": "2-door 2+2 coupé",
+            "Layout": "FR layout",
+            "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+            "Transmission": "5-speed manual with all-synchromesh"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1968,
+      "designer": "Mario Marazzi at Carrozzeria Marazzi",
+      "title": "A relatively upright coupé with a conventional boot and slim pillars.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-islero-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1968–1969 225 built",
+        "Designer": "Mario Marazzi at Carrozzeria Marazzi",
+        "Class": "Grand tourer",
+        "Body style": "2-door 2+2 coupé",
+        "Layout": "FR layout",
+        "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+        "Transmission": "5-speed manual with all-synchromesh"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "espada",
+      "name": "Espada",
+      "category": "Four-seat grand tourer",
+      "story": "A very low four-seat body with a long glasshouse and a large rear hatch. Three series revise the cabin and details while retaining the same unusually broad proportions.",
+      "variants": [
+        {
+          "year": 1968,
+          "name": "Series I",
+          "wiki": "Lamborghini Espada",
+          "match": "Series.I",
+          "shape": "A low roof, long glasshouse and glass-backed tail.",
+          "engineering": "A front V12 and a full four-seat cabin.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Espada",
+          "photos": [
+            {
+              "src": "../brand-assets/ddad9ee6f1b5d3.webp",
+              "file": "Retro_Classics_Stuttgart_2010_-_Lamborghini_Espada.jpg",
+              "credit": "Klaus Nahr",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Retro_Classics_Stuttgart_2010_-_Lamborghini_Espada.jpg",
+              "description": "Lamborghini Espada",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/e35165ac4e0ece.webp",
+              "file": "Lamborghini_Espada_-_Flickr_-_jns001_(1).jpg",
+              "credit": "János Tamás",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Espada_-_Flickr_-_jns001_(1).jpg",
+              "description": "Lamborghini Espada",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1968–1978 1,227 made",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Grand tourer",
+            "Body style": "2-door coupé",
+            "Layout": "Front-engine, rear-wheel-drive",
+            "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+            "Transmission": "5-speed manual 3-speed TorqueFlite automatic"
+          }
+        },
+        {
+          "year": 1970,
+          "name": "Series II / III",
+          "wiki": "Lamborghini Espada",
+          "match": "Series.II",
+          "shape": "Revised dashboards and exterior details retain the long hatchback body.",
+          "engineering": "The touring drivetrain develops; an automatic option joins later.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Espada",
+          "photos": [
+            {
+              "src": "../brand-assets/63a6a8c0baaceb.webp",
+              "file": "1970_Lamborghini_Espada_S2.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1970_Lamborghini_Espada_S2.jpg",
+              "description": "A Lamborghini Espada S2 taken at the London Concours 2021.  Owned by Harry Metcalfe until 2025 (when sold for GBP 132K at NEC 2025).",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/0efed432da0236.webp",
+              "file": "Lamborghini_Espada_S3.jpg",
+              "credit": "No machine-readable author provided. Mobius assumed (based on copyright claims).",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Espada_S3.jpg",
+              "description": "A white Lamborghini Espada S3\nTaken at the 29th annual Palo Alto Concours d'Elegance at Stanford.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1968–1978 1,227 made",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Grand tourer",
+            "Body style": "2-door coupé",
+            "Layout": "Front-engine, rear-wheel-drive",
+            "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+            "Transmission": "5-speed manual 3-speed TorqueFlite automatic"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1968,
+      "designer": "Marcello Gandini at Bertone",
+      "title": "A low roof, long glasshouse and glass-backed tail.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-espada-0",
+        "history-espada-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1968–1978 1,227 made",
+        "Designer": "Marcello Gandini at Bertone",
+        "Class": "Grand tourer",
+        "Body style": "2-door coupé",
+        "Layout": "Front-engine, rear-wheel-drive",
+        "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+        "Transmission": "5-speed manual 3-speed TorqueFlite automatic"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "jarama",
+      "name": "Jarama",
+      "category": "Grand tourer",
+      "story": "The Jarama replaces the Islero with a shorter, more angular 2+2 body. Its distinctive partially covered headlamps contrast with Lamborghini’s mid-engined sports cars.",
+      "variants": [
+        {
+          "year": 1970,
+          "name": "Jarama GT / GTS",
+          "wiki": "Lamborghini Jarama",
+          "match": "",
+          "shape": "An angular 2+2 coupé with partially covered headlamps.",
+          "engineering": "A front V12; the GTS develops the same touring layout.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Jarama",
+          "photos": [
+            {
+              "src": "../brand-assets/95f2b053e6a5a1.webp",
+              "file": "Lamborghini_Jarama_at_AutoItalia_Brooklands_May_2012_1-cropped.jpg",
+              "credit": "Tony Harrison from Farnborough, UK\n\nAltered by Cloverleaf II",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Jarama_at_AutoItalia_Brooklands_May_2012_1-cropped.jpg",
+              "description": "Lamborghini Jarama at AutoItalia Brooklands, May 2012",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/ccfa58d2a00a48.webp",
+              "file": "Lamborghini_Jarama_400_GT_Rear.jpg",
+              "credit": "Robotriot",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Jarama_400_GT_Rear.jpg",
+              "description": "Lamborghini Jarama 400 GT (Bj. 1971)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1970–1976 Jarama: 177 units Jarama S: 150 units Total: 327 units",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Grand tourer",
+            "Body style": "2-door 2+2 coupé",
+            "Layout": "FR layout",
+            "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+            "Transmission": "5-speed manual 3-speed TorqueFlite automatic"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1970,
+      "designer": "Marcello Gandini at Bertone",
+      "title": "An angular 2+2 coupé with partially covered headlamps.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-jarama-0-0",
+        "history-jarama-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1970–1976 Jarama: 177 units Jarama S: 150 units Total: 327 units",
+        "Designer": "Marcello Gandini at Bertone",
+        "Class": "Grand tourer",
+        "Body style": "2-door 2+2 coupé",
+        "Layout": "FR layout",
+        "Engine": "3.9 L (3,929 cc) Lamborghini V12",
+        "Transmission": "5-speed manual 3-speed TorqueFlite automatic"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "urraco",
+      "name": "Urraco",
+      "category": "Mid-engine 2+2",
+      "story": "The Urraco brings a transverse V8 and four-seat packaging to a smaller Lamborghini. Engine-size derivatives share the wedge-shaped body.",
+      "variants": [
+        {
+          "year": 1972,
+          "name": "P200 / P250 / P300",
+          "wiki": "Lamborghini Urraco",
+          "match": "",
+          "shape": "A compact wedge with a long louvred rear deck.",
+          "engineering": "A transverse mid-mounted V8 and 2+2 seating.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Urraco",
+          "photos": [
+            {
+              "src": "../brand-assets/b73537e9f9d7a0.webp",
+              "file": "Lamborghini_Urraco_P111_(France).jpg",
+              "credit": "Alexandre Prévot from Nancy, France,cropped and lightly altered by uploader Mr.choppers",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urraco_P111_(France).jpg",
+              "description": "Lamborghini Urraco P111, a US market version of which only 21 were built from 1974 until 1976.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/e77734cc09c691.webp",
+              "file": "Lamborghini_Urraco_2.jpg",
+              "credit": "Shawcross1989",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urraco_2.jpg",
+              "description": "Taken at the manchester cars and coffee event at city airport",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1972–1979 791 produced",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Sports car",
+            "Body style": "2+2 coupé",
+            "Layout": "Transverse mid-engine, rear-wheel-drive",
+            "Engine": "2.0 L (1,995 cc) Lamborghini V8 (P200) 2.5 L (2,463 cc) Lamborghini L240 V8 (P250 & P111) 3.0 L (2,996 cc) Lamborghini V8 (P300)",
+            "Transmission": "5-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1972,
+      "designer": "Marcello Gandini at Bertone",
+      "title": "A compact wedge with a long louvred rear deck.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-urraco-0-1",
+        "reading-urraco-0-0",
+        "history-urraco-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1972–1979 791 produced",
+        "Designer": "Marcello Gandini at Bertone",
+        "Class": "Sports car",
+        "Body style": "2+2 coupé",
+        "Layout": "Transverse mid-engine, rear-wheel-drive",
+        "Engine": "2.0 L (1,995 cc) Lamborghini V8 (P200) 2.5 L (2,463 cc) Lamborghini L240 V8 (P250 & P111) 3.0 L (2,996 cc) Lamborghini V8 (P300)",
+        "Transmission": "5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "countach",
+      "name": "Countach",
+      "category": "Mid-engine sports car",
+      "story": "The Countach’s wedge and scissor doors become progressively wider and more ornamented. The later LPI revival is a separate production family on this brand page.",
+      "variants": [
+        {
+          "year": 1974,
+          "name": "LP400",
+          "wiki": "Lamborghini Countach",
+          "match": "LP400",
+          "shape": "A clean wedge and narrow wheelarches.",
+          "engineering": "A longitudinal mid-mounted V12.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+          "photos": [
+            {
+              "src": "../assets/715de99753cfaf.webp",
+              "file": "FoS20162016_0623_090034AA_(27250796354).jpg",
+              "credit": "Matthew Lamb",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:FoS20162016_0623_090034AA_(27250796354).jpg",
+              "description": "Goodwood Festival of Speed\nThursday 23rd June 2016\nGoodwood House\n\nEngland",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/3b2e53b6a34e93.webp",
+              "file": "Lamborghini_Countach_-_Flickr_-_Alexandre_Prévot_(1).jpg",
+              "credit": "Alexandre Prévot from Nancy, France",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Countach_-_Flickr_-_Alexandre_Pr%C3%A9vot_(1).jpg",
+              "description": "Lamborghini Countach",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1974–1990",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupe",
+            "Layout": "Longitudinal mid-engine , rear-wheel-drive",
+            "Engine": "Lamborghini V12 LP400, LP400 S: 3.9 L (3,929 cc) LP500 S: 4.8 L (4,754 cc) 5000 QV, 25th Anniversary: 5.2 L (5,167 cc)",
+            "Transmission": "5-speed synchromesh manual"
+          }
+        },
+        {
+          "year": 1978,
+          "name": "LP400 S / LP500 S",
+          "wiki": "Lamborghini Countach",
+          "match": "400.S",
+          "shape": "Bolt-on arches, wide wheels and a deep front spoiler.",
+          "engineering": "A wider chassis stance and successive V12 developments.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+          "photos": [
+            {
+              "src": "../assets/0accd9565f0421.webp",
+              "file": "Rétromobile_2015_-_Lamborghini_Countach_LP_400_S_-_1981_-_002.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2015_-_Lamborghini_Countach_LP_400_S_-_1981_-_002.jpg",
+              "description": "Une des voiture présentée lors du salon Rétromobile de Paris 2015",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/a92087c76e0ef7.webp",
+              "file": "1981_Lamborghini_Countach_LP400S_series_2_rear.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1981_Lamborghini_Countach_LP400S_series_2_rear.jpg",
+              "description": "Rear view of 1981 Lamborghini Countach LP400S, a late series 2 version.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1974–1990",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupe",
+            "Layout": "Longitudinal mid-engine , rear-wheel-drive",
+            "Engine": "Lamborghini V12 LP400, LP400 S: 3.9 L (3,929 cc) LP500 S: 4.8 L (4,754 cc) 5000 QV, 25th Anniversary: 5.2 L (5,167 cc)",
+            "Transmission": "5-speed synchromesh manual"
+          }
+        },
+        {
+          "year": 1985,
+          "name": "5000 Quattrovalvole",
+          "wiki": "Lamborghini Countach",
+          "match": "Quattrovalvole",
+          "shape": "An enlarged engine-cover bulge changes rearward sightlines.",
+          "engineering": "A four-valve-per-cylinder V12.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+          "photos": [
+            {
+              "src": "../brand-assets/94f8453c9e1769.webp",
+              "file": "1985_Lamborghini_Countach_5000_Quattrovalvole_in_Rosso,_front_right.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1985_Lamborghini_Countach_5000_Quattrovalvole_in_Rosso,_front_right.jpg",
+              "description": "1988 Lamborghini Countach 5000 \"Downdraft\" Quattrovalvole in Rosso with Champagne Cruscotto/Testa di Moro interior, at the 2025 Greenwich Concours d'Elegance. VIN ZA9C005A0FLA12831",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/8b43559d2db184.webp",
+              "file": "Lamborghini_Countach_-_Flickr_-_exfordy_(1).jpg",
+              "credit": "Brian Snelson from Hockley, Essex, England",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Countach_-_Flickr_-_exfordy_(1).jpg",
+              "description": "Lamborghini Countach",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1974–1990",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupe",
+            "Layout": "Longitudinal mid-engine , rear-wheel-drive",
+            "Engine": "Lamborghini V12 LP400, LP400 S: 3.9 L (3,929 cc) LP500 S: 4.8 L (4,754 cc) 5000 QV, 25th Anniversary: 5.2 L (5,167 cc)",
+            "Transmission": "5-speed synchromesh manual"
+          }
+        },
+        {
+          "year": 1988,
+          "name": "25th Anniversary",
+          "wiki": "Lamborghini Countach",
+          "match": "Anniversary",
+          "shape": "Straked side openings and extensive body additions.",
+          "engineering": "The final original-chassis development.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+          "photos": [
+            {
+              "src": "../assets/c0d3c59f340c65.webp",
+              "file": "Paris_-_RM_Sotheby’s_2018_-_Lamborghini_Countach_25TH_anniversary_-_1991_-_002.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Paris_-_RM_Sotheby%E2%80%99s_2018_-_Lamborghini_Countach_25TH_anniversary_-_1991_-_002.jpg",
+              "description": "Un véhicule exposé lors de la vente RM Sotheby’s 2018 aux Invalides à Paris.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/799908ed1dd884.webp",
+              "file": "Paris_-_RM_Sotheby’s_2018_-_Lamborghini_Countach_25TH_anniversary_-_1991_-_004.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Paris_-_RM_Sotheby%E2%80%99s_2018_-_Lamborghini_Countach_25TH_anniversary_-_1991_-_004.jpg",
+              "description": "Un véhicule exposé lors de la vente RM Sotheby’s 2018 aux Invalides à Paris.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1974–1990",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupe",
+            "Layout": "Longitudinal mid-engine , rear-wheel-drive",
+            "Engine": "Lamborghini V12 LP400, LP400 S: 3.9 L (3,929 cc) LP500 S: 4.8 L (4,754 cc) 5000 QV, 25th Anniversary: 5.2 L (5,167 cc)",
+            "Transmission": "5-speed synchromesh manual"
+          }
+        }
+      ],
+      "inherit": "countach",
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1974,
+      "designer": "Marcello Gandini at Bertone",
+      "title": "A clean wedge and narrow wheelarches.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-countach-0-1",
+        "reading-countach-0-0",
+        "history-countach-0",
+        "history-countach-1",
+        "history-countach-2",
+        "history-countach-3"
+      ],
+      "video": {
+        "id": "jLd4z4QKx6w",
+        "title": "James May reviews the Countach",
+        "channel": "Top Gear Classic",
+        "note": "",
+        "url": "https://www.youtube.com/watch?v=jLd4z4QKx6w"
+      },
+      "facts": {
+        "Production": "1974–1990",
+        "Designer": "Marcello Gandini at Bertone",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupe",
+        "Layout": "Longitudinal mid-engine , rear-wheel-drive",
+        "Engine": "Lamborghini V12 LP400, LP400 S: 3.9 L (3,929 cc) LP500 S: 4.8 L (4,754 cc) 5000 QV, 25th Anniversary: 5.2 L (5,167 cc)",
+        "Transmission": "5-speed synchromesh manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "silhouette",
+      "name": "Silhouette",
+      "category": "Mid-engine sports car",
+      "story": "A short-lived open-roof development of Lamborghini’s small V8 line. Its removable roof and flared body differ from the enclosed Urraco.",
+      "variants": [
+        {
+          "year": 1976,
+          "name": "Silhouette",
+          "wiki": "Lamborghini Silhouette",
+          "match": "",
+          "shape": "A removable roof and heavily flared arches.",
+          "engineering": "A transverse mid-mounted V8.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Silhouette",
+          "photos": [
+            {
+              "src": "../brand-assets/19690f22b896f7.webp",
+              "file": "Lamborghini_Silhouette_3000_targa_at_Classic_Remise_Berlin,_front_right.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Silhouette_3000_targa_at_Classic_Remise_Berlin,_front_right.jpg",
+              "description": "Another photo of the Lamborghini (Urraco) Silhouette 3000 at Classic Remise Berlin. Never ever thought I'd see one of these rare beasts in real life.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/d53b2fae414b3a.webp",
+              "file": "1976_Lamborghini_Silhouette.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1976_Lamborghini_Silhouette.jpg",
+              "description": "Lamborghini Silhouette",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1976–1979 54 produced",
+            "Designer": "Marcello Gandini at Bertone",
+            "Class": "Sports car",
+            "Body style": "2- door targa",
+            "Layout": "Transverse mid-engine , rear-wheel drive",
+            "Engine": "3.0 L (2,997 cc) Lamborghini V8",
+            "Transmission": "5-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1976,
+      "designer": "Marcello Gandini at Bertone",
+      "title": "A removable roof and heavily flared arches.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-silhouette-0-0",
+        "history-silhouette-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1976–1979 54 produced",
+        "Designer": "Marcello Gandini at Bertone",
+        "Class": "Sports car",
+        "Body style": "2- door targa",
+        "Layout": "Transverse mid-engine , rear-wheel drive",
+        "Engine": "3.0 L (2,997 cc) Lamborghini V8",
+        "Transmission": "5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "jalpa",
+      "name": "Jalpa",
+      "category": "Mid-engine sports car",
+      "story": "The Jalpa develops the Silhouette’s open-roof V8 layout with a larger engine and revised body details. It remains separate from Lamborghini’s V12 flagship line.",
+      "variants": [
+        {
+          "year": 1981,
+          "name": "Jalpa",
+          "wiki": "Lamborghini Jalpa",
+          "match": "",
+          "shape": "An angular targa body, broad arches and large side intakes.",
+          "engineering": "An enlarged transverse mid-mounted V8.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Jalpa",
+          "photos": [
+            {
+              "src": "../brand-assets/5a88600fc0b3a7.webp",
+              "file": "Paris_-_RM_Sotheby’s_2018_-_Lamborghini_Jalpa_-_1985_-_001.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Paris_-_RM_Sotheby%E2%80%99s_2018_-_Lamborghini_Jalpa_-_1985_-_001.jpg",
+              "description": "Un véhicule exposé lors de la vente RM Sotheby’s 2018 aux Invalides à Paris.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/4577f2e1390605.webp",
+              "file": "Sausalito,_California_-_USA_(8725921986).jpg",
+              "credit": "Mic from Reading - Berkshire, United Kingdom",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Sausalito,_California_-_USA_(8725921986).jpg",
+              "description": "1984-1988 Lamborghini Jalpa 3.5 - only 410 units produced.\n\n3.5L V8 engine (190 kW; 255 bhp) - Top Speed: 234 Km/h (145 mph).",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1981–1988 (410 produced)",
+            "Designer": "Marc Deschamps at Bertone",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door targa 2-door roadster (Jalpa Spyder)",
+            "Layout": "Transverse mid-engine , rear-wheel drive",
+            "Engine": "3.5 L (3,485 cc) L353 V8",
+            "Transmission": "5-speed synchromesh manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1981,
+      "designer": "Marc Deschamps at Bertone",
+      "title": "An angular targa body, broad arches and large side intakes.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-jalpa-0-2",
+        "reading-jalpa-0-1",
+        "reading-jalpa-0-0",
+        "history-jalpa-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1981–1988 (410 produced)",
+        "Designer": "Marc Deschamps at Bertone",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door targa 2-door roadster (Jalpa Spyder)",
+        "Layout": "Transverse mid-engine , rear-wheel drive",
+        "Engine": "3.5 L (3,485 cc) L353 V8",
+        "Transmission": "5-speed synchromesh manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "lm002",
+      "name": "LM002",
+      "category": "Off-road vehicle",
+      "story": "A four-door off-road production vehicle powered by a Lamborghini V12. Its high bonnet, huge tyres and upright cabin form a separate branch from the sports cars.",
+      "variants": [
+        {
+          "year": 1986,
+          "name": "LM002",
+          "wiki": "Lamborghini LM002",
+          "match": "",
+          "shape": "A high, angular four-door body and very large tyres.",
+          "engineering": "A front V12, four-wheel drive and a heavy off-road chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_LM002",
+          "photos": [
+            {
+              "src": "../brand-assets/e934475d7bd5a0.webp",
+              "file": "Lamborghini_LM002_Gen1_Type129_1986-1993_1988_frontleft_2013-03-17_U_(cropped).JPG",
+              "credit": "Detectandpreserve",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_LM002_Gen1_Type129_1986-1993_1988_frontleft_2013-03-17_U_(cropped).JPG",
+              "description": "Lamborghini LM 002, 1988, seen at CLASSIC REMISE, Duesseldorf, Germany",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/13c483e041bab0.webp",
+              "file": "1989_LM-002_rear.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1989_LM-002_rear.jpg",
+              "description": "1989 Lamborghini LM 002 belonging to Ferrari of Long Island dealership in Southampton, NY",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1986–1993",
+            "Designer": "Giulio Alfieri",
+            "Class": "Light commercial vehicle",
+            "Body style": "4-door SUV 4-door sport utility truck",
+            "Layout": "Front-engine, four-wheel-drive",
+            "Engine": "5.2 L (5167 cc) L503 V12 7.2 L L804 marine V12",
+            "Transmission": "5-speed manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1986,
+      "designer": "Giulio Alfieri",
+      "title": "A high, angular four-door body and very large tyres.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-lm002-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "1986–1993",
+        "Designer": "Giulio Alfieri",
+        "Class": "Light commercial vehicle",
+        "Body style": "4-door SUV 4-door sport utility truck",
+        "Layout": "Front-engine, four-wheel-drive",
+        "Engine": "5.2 L (5167 cc) L503 V12 7.2 L L804 marine V12",
+        "Transmission": "5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "diablo",
+      "name": "Diablo",
+      "category": "Mid-engine sports car",
+      "story": "The Diablo rounds the Countach’s wedge while retaining scissor doors. Open, more aero-focused and fixed-headlight forms show the model’s major body changes.",
+      "variants": [
+        {
+          "year": 1990,
+          "name": "Original Diablo / VT",
+          "wiki": "Lamborghini Diablo",
+          "match": "Early",
+          "shape": "A rounded wedge with pop-up lamps and broad rear shoulders.",
+          "engineering": "A mid-mounted V12; VT adds four-wheel drive.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Diablo",
+          "photos": [
+            {
+              "src": "../assets/bfa44ba2ceece0.webp",
+              "file": "Early_Lamborghini_Diablo_in_red.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Early_Lamborghini_Diablo_in_red.jpg",
+              "description": "1990/1991 Lamborghini Diablo.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/025b7df70412ea.webp",
+              "file": "Diablo_(7162976163)_(cropped).jpg",
+              "credit": "Tobiasvde",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Diablo_(7162976163)_(cropped).jpg",
+              "description": "Just an awesome car in a nice street in Visp in Switzerland",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1990–2001 2,903 built",
+            "Designer": "Marcello Gandini (initial design) Tom Gale at Chrysler Styling Center (final design) Luc Donckerwolke (Diablo VT 6.0)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door retractable hard-top convertible (roadster)",
+            "Layout": "Longitudinal , Mid-engine , rear-wheel drive / all-wheel drive",
+            "Engine": "5.7 – 6.0 L Lamborghini V12",
+            "Transmission": "5-speed manual"
+          }
+        },
+        {
+          "year": 1995,
+          "name": "VT Roadster",
+          "wiki": "Lamborghini Diablo",
+          "match": "Roadster",
+          "shape": "A removable roof and a redesigned rear engine cover.",
+          "engineering": "An open-body four-wheel-drive V12 model.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Diablo",
+          "photos": [
+            {
+              "src": "../brand-assets/f37957d45fa6f2.webp",
+              "file": "-i---i-_(3749362921).jpg",
+              "credit": "Damian Morys from New York City, United States",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:-i---i-_(3749362921).jpg",
+              "description": "Timeless design.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/2eac6210e6b081.webp",
+              "file": "2015_Detling_transport_show_DSC03824_(16931040326).jpg",
+              "credit": "MANHATTAN RESEARCH INC  (MANHATTAN RESEARCH INC) from MANHATTAN RESEARCH INC , MANHATTAN RESEARCH INC",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2015_Detling_transport_show_DSC03824_(16931040326).jpg",
+              "description": "DSC03824",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1990–2001 2,903 built",
+            "Designer": "Marcello Gandini (initial design) Tom Gale at Chrysler Styling Center (final design) Luc Donckerwolke (Diablo VT 6.0)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door retractable hard-top convertible (roadster)",
+            "Layout": "Longitudinal , Mid-engine , rear-wheel drive / all-wheel drive",
+            "Engine": "5.7 – 6.0 L Lamborghini V12",
+            "Transmission": "5-speed manual"
+          }
+        },
+        {
+          "year": 1999,
+          "name": "Diablo GT",
+          "wiki": "Lamborghini Diablo",
+          "match": "Diablo.GT",
+          "shape": "A roof intake, wider body and more open front aero.",
+          "engineering": "A limited road-legal, rear-wheel-drive performance derivative.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Diablo",
+          "photos": [
+            {
+              "src": "../brand-assets/bbd1e073bd46bb.webp",
+              "file": "Lamborghini_Diablo_GT_g'wich_front.JPG",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Diablo_GT_g%27wich_front.JPG",
+              "description": "Front view of Lamborghini Diablo GT in Greenwich, CT.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1990–2001 2,903 built",
+            "Designer": "Marcello Gandini (initial design) Tom Gale at Chrysler Styling Center (final design) Luc Donckerwolke (Diablo VT 6.0)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door retractable hard-top convertible (roadster)",
+            "Layout": "Longitudinal , Mid-engine , rear-wheel drive / all-wheel drive",
+            "Engine": "5.7 – 6.0 L Lamborghini V12",
+            "Transmission": "5-speed manual"
+          }
+        },
+        {
+          "year": 2000,
+          "name": "VT 6.0",
+          "wiki": "Lamborghini Diablo",
+          "match": "6.0",
+          "shape": "Fixed lamps, a wider nose and cleaner body surfaces.",
+          "engineering": "A larger V12 and a revised four-wheel-drive chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Diablo",
+          "photos": [
+            {
+              "src": "../assets/a4eb439baa6b69.webp",
+              "file": "2001 Lamborghini Diablo VT 2.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2001_Lamborghini_Diablo_VT_2.jpg",
+              "description": "Lamborghini Diablo",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/a03aa380f2ffcb.webp",
+              "file": "2001 Lamborghini Diablo VT 4.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2001_Lamborghini_Diablo_VT_4.jpg",
+              "description": "Lamborghini Diablo",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "1990–2001 2,903 built",
+            "Designer": "Marcello Gandini (initial design) Tom Gale at Chrysler Styling Center (final design) Luc Donckerwolke (Diablo VT 6.0)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door retractable hard-top convertible (roadster)",
+            "Layout": "Longitudinal , Mid-engine , rear-wheel drive / all-wheel drive",
+            "Engine": "5.7 – 6.0 L Lamborghini V12",
+            "Transmission": "5-speed manual"
+          }
+        }
+      ],
+      "inherit": "diablo",
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 1990,
+      "designer": "Marcello Gandini (initial design) Tom Gale at Chrysler Styling Center (final design) Luc Donckerwolke (Diablo VT 6.0)",
+      "title": "A rounded wedge with pop-up lamps and broad rear shoulders.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-diablo-0-1",
+        "reading-diablo-0-0",
+        "history-diablo-0",
+        "history-diablo-1",
+        "history-diablo-2",
+        "history-diablo-3"
+      ],
+      "video": {
+        "id": "BrplqE9bUB8",
+        "title": "Lamborghini Diablo review",
+        "channel": "Harry’s Garage",
+        "note": "Harry Metcalfe reviews an original 1991 Diablo, rather than a modern restomod.",
+        "url": "https://www.youtube.com/watch?v=BrplqE9bUB8"
+      },
+      "facts": {
+        "Production": "1990–2001 2,903 built",
+        "Designer": "Marcello Gandini (initial design) Tom Gale at Chrysler Styling Center (final design) Luc Donckerwolke (Diablo VT 6.0)",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door retractable hard-top convertible (roadster)",
+        "Layout": "Longitudinal , Mid-engine , rear-wheel drive / all-wheel drive",
+        "Engine": "5.7 – 6.0 L Lamborghini V12",
+        "Transmission": "5-speed manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "murcielago",
+      "name": "Murciélago",
+      "category": "Mid-engine sports car",
+      "story": "Lamborghini’s first new V12 model under Audi ownership keeps scissor doors and a broad wedge. Roadster and SuperVeloce forms substantially change its roof and aero treatment.",
+      "variants": [
+        {
+          "year": 2001,
+          "name": "Murciélago / LP640",
+          "wiki": "Lamborghini Murciélago",
+          "match": "LP640",
+          "shape": "A broad wedge with adjustable shoulder intakes.",
+          "engineering": "A mid-mounted V12 and four-wheel drive; LP640 develops the same architecture.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago",
+          "photos": [
+            {
+              "src": "../brand-assets/a26789833228d8.webp",
+              "file": "Lamborghini_Murciélago_LP-640_-_Flickr_-_Alexandre_Prévot_(40).jpg",
+              "credit": "Alexandre Prévot from Nancy, France",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Murci%C3%A9lago_LP-640_-_Flickr_-_Alexandre_Pr%C3%A9vot_(40).jpg",
+              "description": "Lamborghini Murciélago LP640",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/c4428978b1f62b.webp",
+              "file": "Lamborghini_Murciélago_LP-640_-_Flickr_-_Alexandre_Prévot_(6)_(cropped).jpg",
+              "credit": "Alexandre Prévot from Nancy, France",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Murci%C3%A9lago_LP-640_-_Flickr_-_Alexandre_Pr%C3%A9vot_(6)_(cropped).jpg",
+              "description": "Lamborghini Murciélago LP-640.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2001–2010",
+            "Designer": "Luc Donckerwolke (original design) Filippo Perini at Lamborghini Style Center (facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Longitudinal , mid-engine , all wheel drive",
+            "Engine": "6.2 L–6.5 L Lamborghini V12",
+            "Transmission": "6-speed manual 6-speed e-gear automated manual"
+          }
+        },
+        {
+          "year": 2004,
+          "name": "Roadster",
+          "wiki": "Lamborghini Murciélago",
+          "match": "Roadster",
+          "shape": "An open cabin and a strongly sculpted rear deck.",
+          "engineering": "A reinforced open-body V12 chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago",
+          "photos": [
+            {
+              "src": "../brand-assets/793d5cf3fd264f.webp",
+              "file": "Lamborghini_Murcielago_Roadster_-_Flickr_-_Alexandre_Prévot_(2)_(cropped).jpg",
+              "credit": "Alexandre Prévot from Nancy, France",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Murcielago_Roadster_-_Flickr_-_Alexandre_Pr%C3%A9vot_(2)_(cropped).jpg",
+              "description": "Lamborghini Murcielago Roadster.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/7448bc20cea268.webp",
+              "file": "Lamborghini_Murciélago_Roadster_-_Flickr_-_exfordy_(1).jpg",
+              "credit": "Brian Snelson from Hockley, Essex, England",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Murci%C3%A9lago_Roadster_-_Flickr_-_exfordy_(1).jpg",
+              "description": "Lamborghini Murciélago Roadster",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2001–2010",
+            "Designer": "Luc Donckerwolke (original design) Filippo Perini at Lamborghini Style Center (facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Longitudinal , mid-engine , all wheel drive",
+            "Engine": "6.2 L–6.5 L Lamborghini V12",
+            "Transmission": "6-speed manual 6-speed e-gear automated manual"
+          }
+        },
+        {
+          "year": 2009,
+          "name": "LP670-4 SuperVeloce",
+          "wiki": "Lamborghini Murciélago",
+          "match": "670",
+          "shape": "Large aero devices, a fixed wing and a revised engine cover.",
+          "engineering": "A lighter road-going performance derivative.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago",
+          "photos": [
+            {
+              "src": "../brand-assets/ba0db8aa5f6d24.webp",
+              "file": "Lamborghini_Murcielago_LP670-4.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Murcielago_LP670-4.jpg",
+              "description": "A picture of a Lamborghini Murcielago LP670-4 SV",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/f827e760b21aec.webp",
+              "file": "LP670-4_SV._(7840348908).jpg",
+              "credit": "Damian Morys from New York City, United States",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:LP670-4_SV._(7840348908).jpg",
+              "description": "I'm so happy I got to see this SV while in Paris, incredible color combo on a incredible car!",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2001–2010",
+            "Designer": "Luc Donckerwolke (original design) Filippo Perini at Lamborghini Style Center (facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Longitudinal , mid-engine , all wheel drive",
+            "Engine": "6.2 L–6.5 L Lamborghini V12",
+            "Transmission": "6-speed manual 6-speed e-gear automated manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2001,
+      "designer": "Luc Donckerwolke (original design) Filippo Perini at Lamborghini Style Center (facelift)",
+      "title": "A broad wedge with adjustable shoulder intakes.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-murcielago-0-2",
+        "reading-murcielago-0-1",
+        "reading-murcielago-0-0",
+        "history-murcielago-0",
+        "history-murcielago-1",
+        "history-murcielago-2"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2001–2010",
+        "Designer": "Luc Donckerwolke (original design) Filippo Perini at Lamborghini Style Center (facelift)",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door roadster",
+        "Layout": "Longitudinal , mid-engine , all wheel drive",
+        "Engine": "6.2 L–6.5 L Lamborghini V12",
+        "Transmission": "6-speed manual 6-speed e-gear automated manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "gallardo",
+      "name": "Gallardo",
+      "category": "Mid-engine sports car",
+      "story": "The V10 Gallardo creates a smaller series-production Lamborghini line. Its coupé, Spyder and later sharper-nosed bodies record a decade of development.",
+      "variants": [
+        {
+          "year": 2003,
+          "name": "Gallardo coupé",
+          "wiki": "Lamborghini Gallardo",
+          "match": "200[3-7]",
+          "shape": "A compact angular body with upright lamp units.",
+          "engineering": "A mid-mounted V10 and a compact all-wheel-drive platform.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+          "photos": [
+            {
+              "src": "../brand-assets/f553d2199581de.webp",
+              "file": "Lamborghini_Gallardo_Coupe_E-Gear_-_Flickr_-_The_Car_Spy_(21).jpg",
+              "credit": "The Car Spy",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Gallardo_Coupe_E-Gear_-_Flickr_-_The_Car_Spy_(21).jpg",
+              "description": "Lamborghini Gallardo Coupe E-Gear",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/1950fe3ad60449.webp",
+              "file": "Lamborghini_Gallardo_Coupe_E-Gear_-_Flickr_-_The_Car_Spy_(12).jpg",
+              "credit": "The Car Spy",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Gallardo_Coupe_E-Gear_-_Flickr_-_The_Car_Spy_(12).jpg",
+              "description": "Lamborghini Gallardo Coupe E-Gear",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2003–2013",
+            "Designer": "Fabrizio Giugiaro at Italdesign (initial design) Luc Donckerwolke (final design) Walter de Silva (facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible (Spyder)",
+            "Layout": "Longitudinal , mid-engine, all-wheel-drive (Gallardo 5.0, LP 560-4 & LP 570-4) Rear mid-engine, rear-wheel-drive (LP 550-2)",
+            "Engine": "5.0 L Lamborghini even firing V10 (pre-facelift) 5.2 L Lamborghini CEH odd firing V10 (facelift)",
+            "Transmission": "6-speed Graziano manual 6-speed e-gear Graziano automated manual"
+          }
+        },
+        {
+          "year": 2006,
+          "name": "Gallardo Spyder",
+          "wiki": "Lamborghini Gallardo",
+          "match": "Spyder",
+          "shape": "A fabric folding roof and a new rear deck.",
+          "engineering": "The V10 architecture in an open-body model.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+          "photos": [
+            {
+              "src": "../brand-assets/8d9a4f73e75cf6.webp",
+              "file": "06_Gallardo_spyder.jpg",
+              "credit": "Skievl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:06_Gallardo_spyder.jpg",
+              "description": "The 2006 Lamborghini Gallardo Spyder with a black soft top convertible.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/5373b8f64c750c.webp",
+              "file": "Gallardo_Spyder._(6412396671)_(cropped).jpg",
+              "credit": "Damian Morys from New York City, United States",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Gallardo_Spyder._(6412396671)_(cropped).jpg",
+              "description": "Broadway traffic.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2003–2013",
+            "Designer": "Fabrizio Giugiaro at Italdesign (initial design) Luc Donckerwolke (final design) Walter de Silva (facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible (Spyder)",
+            "Layout": "Longitudinal , mid-engine, all-wheel-drive (Gallardo 5.0, LP 560-4 & LP 570-4) Rear mid-engine, rear-wheel-drive (LP 550-2)",
+            "Engine": "5.0 L Lamborghini even firing V10 (pre-facelift) 5.2 L Lamborghini CEH odd firing V10 (facelift)",
+            "Transmission": "6-speed Graziano manual 6-speed e-gear Graziano automated manual"
+          }
+        },
+        {
+          "year": 2008,
+          "name": "LP560-4 / LP550-2",
+          "wiki": "Lamborghini Gallardo",
+          "match": "560",
+          "shape": "Sharper nose openings and revised lamp graphics.",
+          "engineering": "A larger V10; later versions include rear-wheel drive.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+          "photos": [
+            {
+              "src": "../brand-assets/4652682188e343.webp",
+              "file": "Lamborghini_Gallardo_LP560-4_-_009.jpg",
+              "credit": "Brandon Lim",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Gallardo_LP560-4_-_009.jpg",
+              "description": "Lamborghini Gallardo LP560-4.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/8a55d5f5b780b2.webp",
+              "file": "Lamborghini_Gallardo_LP560-4_-_Flickr_-_Alexandre_Prévot_(cropped).jpg",
+              "credit": "Alexandre Prévot from Nancy, France",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Gallardo_LP560-4_-_Flickr_-_Alexandre_Pr%C3%A9vot_(cropped).jpg",
+              "description": "Lamborghini Gallardo LP560-4.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2003–2013",
+            "Designer": "Fabrizio Giugiaro at Italdesign (initial design) Luc Donckerwolke (final design) Walter de Silva (facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible (Spyder)",
+            "Layout": "Longitudinal , mid-engine, all-wheel-drive (Gallardo 5.0, LP 560-4 & LP 570-4) Rear mid-engine, rear-wheel-drive (LP 550-2)",
+            "Engine": "5.0 L Lamborghini even firing V10 (pre-facelift) 5.2 L Lamborghini CEH odd firing V10 (facelift)",
+            "Transmission": "6-speed Graziano manual 6-speed e-gear Graziano automated manual"
+          }
+        },
+        {
+          "year": 2010,
+          "name": "LP570-4 Superleggera",
+          "wiki": "Lamborghini Gallardo",
+          "match": "Superleggera",
+          "shape": "A fixed wing, more open aero and exposed carbon details.",
+          "engineering": "A lighter road-legal performance specification.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+          "photos": [
+            {
+              "src": "../brand-assets/535846dfaadbbe.webp",
+              "file": "Lamborghini_Superleggera-20180708.jpg",
+              "credit": "JoachimKohler-HB",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Superleggera-20180708.jpg",
+              "description": "Lamborghini LP570-4 (Gallardo) Superleggera",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/e0d65b33bdb0e6.webp",
+              "file": "Lamborghini_Galardo_Superleggera_(3549461537)_(cropped).jpg",
+              "credit": "nakhon100",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Galardo_Superleggera_(3549461537)_(cropped).jpg",
+              "description": "Lamborghini Galardo Superleggera",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2003–2013",
+            "Designer": "Fabrizio Giugiaro at Italdesign (initial design) Luc Donckerwolke (final design) Walter de Silva (facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible (Spyder)",
+            "Layout": "Longitudinal , mid-engine, all-wheel-drive (Gallardo 5.0, LP 560-4 & LP 570-4) Rear mid-engine, rear-wheel-drive (LP 550-2)",
+            "Engine": "5.0 L Lamborghini even firing V10 (pre-facelift) 5.2 L Lamborghini CEH odd firing V10 (facelift)",
+            "Transmission": "6-speed Graziano manual 6-speed e-gear Graziano automated manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2003,
+      "designer": "Fabrizio Giugiaro at Italdesign (initial design) Luc Donckerwolke (final design) Walter de Silva (facelift)",
+      "title": "A compact angular body with upright lamp units.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-gallardo-0-2",
+        "reading-gallardo-0-1",
+        "reading-gallardo-0-0",
+        "history-gallardo-0",
+        "history-gallardo-1",
+        "history-gallardo-2",
+        "history-gallardo-3"
+      ],
+      "video": {
+        "id": "Hovbx6rvBaA",
+        "title": "Lamborghini Gallardo Spyder review",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=Hovbx6rvBaA",
+        "note": "Jeremy Clarkson tests the open-roof Gallardo.",
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+      },
+      "facts": {
+        "Production": "2003–2013",
+        "Designer": "Fabrizio Giugiaro at Italdesign (initial design) Luc Donckerwolke (final design) Walter de Silva (facelift)",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door convertible (Spyder)",
+        "Layout": "Longitudinal , mid-engine, all-wheel-drive (Gallardo 5.0, LP 560-4 & LP 570-4) Rear mid-engine, rear-wheel-drive (LP 550-2)",
+        "Engine": "5.0 L Lamborghini even firing V10 (pre-facelift) 5.2 L Lamborghini CEH odd firing V10 (facelift)",
+        "Transmission": "6-speed Graziano manual 6-speed e-gear Graziano automated manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "reventon",
+      "name": "Reventón",
+      "category": "Limited-production sports car",
+      "story": "A low-volume V12 family with sharply faceted bodywork. Coupé and Roadster versions are road cars; they are distinguished from show cars and single commissions.",
+      "variants": [
+        {
+          "year": 2007,
+          "name": "Reventón coupé",
+          "wiki": "Lamborghini Reventón",
+          "match": "Revent",
+          "shape": "Flat facets, angular air openings and aircraft-like instruments.",
+          "engineering": "A Murciélago-derived V12 chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Revent%C3%B3n",
+          "photos": [
+            {
+              "src": "../brand-assets/05cb7978a13501.webp",
+              "file": "MotorShow_2007,_Lamborghini_-_Flickr_-_Gaspa_(1)_(cropped).jpg",
+              "credit": "Francesco Gasparetti from Senigallia, Italy",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:MotorShow_2007,_Lamborghini_-_Flickr_-_Gaspa_(1)_(cropped).jpg",
+              "description": "MotorShow 2007: Lamborghini",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/da4f15c944fbf5.webp",
+              "file": "Left_(22244505494).jpg",
+              "credit": "Rob Oo from NL",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Left_(22244505494).jpg",
+              "description": "Lamborghini Reventon",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2007–2009 21 coupés (\"00/20\" for museum), 15 roadsters",
+            "Designer": "Filippo Perini",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Mid-engine , all wheel drive",
+            "Engine": "6.5 L Lamborghini V12",
+            "Transmission": "6-speed e-gear automated manual"
+          }
+        },
+        {
+          "year": 2009,
+          "name": "Reventón Roadster",
+          "wiki": "Lamborghini Reventón",
+          "match": "Roadster",
+          "shape": "The faceted body loses its fixed roof.",
+          "engineering": "An open V12 development in the limited series.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Revent%C3%B3n",
+          "photos": [
+            {
+              "src": "../brand-assets/76338b0c9fc859.webp",
+              "file": "Lamborghini_Reventón_Roadster.JPG",
+              "credit": "Thomas doerfer",
+              "license": "CC BY 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Revent%C3%B3n_Roadster.JPG",
+              "description": "Lamborghini Reventón Roadster",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2007–2009 21 coupés (\"00/20\" for museum), 15 roadsters",
+            "Designer": "Filippo Perini",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Mid-engine , all wheel drive",
+            "Engine": "6.5 L Lamborghini V12",
+            "Transmission": "6-speed e-gear automated manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2007,
+      "designer": "Filippo Perini",
+      "title": "Flat facets, angular air openings and aircraft-like instruments.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-reventon-0-2",
+        "reading-reventon-0-1",
+        "reading-reventon-0-0",
+        "history-reventon-0",
+        "history-reventon-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2007–2009 21 coupés (\"00/20\" for museum), 15 roadsters",
+        "Designer": "Filippo Perini",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door roadster",
+        "Layout": "Mid-engine , all wheel drive",
+        "Engine": "6.5 L Lamborghini V12",
+        "Transmission": "6-speed e-gear automated manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "aventador",
+      "name": "Aventador",
+      "category": "Mid-engine sports car",
+      "story": "A carbon-bodied V12 flagship whose angular shape becomes increasingly aero-focused. The open roof and SVJ wing treatment are distinct design chapters.",
+      "variants": [
+        {
+          "year": 2011,
+          "name": "LP700-4 / S",
+          "wiki": "Lamborghini Aventador",
+          "match": "LP700",
+          "shape": "A faceted wedge with large hexagonal intakes.",
+          "engineering": "A carbon monocoque and a new V12; S adds further chassis development.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+          "photos": [
+            {
+              "src": "../assets/8b3b38ba32d3d1.webp",
+              "file": "2013_Lamborghini_Aventador_LP700-4_BS_O24.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2013_Lamborghini_Aventador_LP700-4_BS_O24.jpg",
+              "description": "A 2013 Lamborghini Aventador LP700-4 taken at Bicester Scramble October 2024.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/b935fe9cf6e4a2.webp",
+              "file": "Lamborghini_Aventador_6498cc_registered_July_2015.jpg",
+              "credit": "Charles01",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_6498cc_registered_July_2015.jpg",
+              "description": "Lamborghini Aventador (2015) in 2018",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "February 2011 – September 2022",
+            "Designer": "Filippo Perini (original) Mitja Borkert (Aventador S)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door Targa top roadster",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L L539 V12",
+            "Transmission": "7-speed Graziano ISR automated manual"
+          }
+        },
+        {
+          "year": 2012,
+          "name": "Roadster",
+          "wiki": "Lamborghini Aventador",
+          "match": "Roadster",
+          "shape": "Removable roof panels and revised rear-deck surfaces.",
+          "engineering": "An open version of the carbon-chassis V12 car.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+          "photos": [
+            {
+              "src": "../brand-assets/467cf943516652.webp",
+              "file": "Lamborghini_Aventador_Lp700_4_Roadster_Grigio_Titans_Mexico_City_(70036277).jpeg",
+              "credit": "Aarón Rueda Bracamontes",
+              "license": "CC BY 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_Lp700_4_Roadster_Grigio_Titans_Mexico_City_(70036277).jpeg",
+              "description": "500px provided description: One of the most beautiful and impressive super-exotic cars and photographed in Mexico. \nFollow us on Facebook www.facebook.com/arbphotography\nSubscribe to our YouTube channel www.youtube.com/user/bomer70\n\nFollow in Instagram instagram.com/exoticcarsmexico [#Lamborghini ,#Aventador ,#LamborghiniAventador]",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/69640ab5746703.webp",
+              "file": "Lamborghini_2017_Aventador_S_Roadster.jpg",
+              "credit": "Spielvogel\n\nFor a gallery of some more of my uploaded pictures see: here.",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_2017_Aventador_S_Roadster.jpg",
+              "description": "Photo taken at IAA 2017:\nLamborghini Aventador S Roadster\n6,5 l engine / 12 cylinders /\nPower: 740 HP at 8400 RPM /\n\n7 speed ISR / 4 wheel drive with haldex",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "February 2011 – September 2022",
+            "Designer": "Filippo Perini (original) Mitja Borkert (Aventador S)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door Targa top roadster",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L L539 V12",
+            "Transmission": "7-speed Graziano ISR automated manual"
+          }
+        },
+        {
+          "year": 2015,
+          "name": "SuperVeloce",
+          "wiki": "Lamborghini Aventador",
+          "match": "750",
+          "shape": "A large fixed wing and exposed aero additions.",
+          "engineering": "A lighter road-going performance version.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+          "photos": [
+            {
+              "src": "../brand-assets/af9c3c85425de7.webp",
+              "file": "2016_Lamborghini_Aventador_LP_750-4_SV_S-A_6.5_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2016_Lamborghini_Aventador_LP_750-4_SV_S-A_6.5_Front.jpg",
+              "description": "2016 Lamborghini Aventador LP 750-4 SV S-A 6.5 Front Taken in Solihull",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/1731d617b29044.webp",
+              "file": "Lamborghini_Aventador_SV_Roadster_Monaco_IMG_1164.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_SV_Roadster_Monaco_IMG_1164.jpg",
+              "description": "Lamborghini Aventador SV Roadster in Monaco",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "February 2011 – September 2022",
+            "Designer": "Filippo Perini (original) Mitja Borkert (Aventador S)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door Targa top roadster",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L L539 V12",
+            "Transmission": "7-speed Graziano ISR automated manual"
+          }
+        },
+        {
+          "year": 2018,
+          "name": "SVJ",
+          "wiki": "Lamborghini Aventador",
+          "match": "SVJ",
+          "shape": "A slotted nose and large rear wing.",
+          "engineering": "ALA active aerodynamics develops the V12 flagship.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+          "photos": [
+            {
+              "src": "../assets/2dfc32acfcee38.webp",
+              "file": "Lamborghini_Aventador_SVJ,_Paris_Motor_Show_2018,_IMG_0656.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_SVJ,_Paris_Motor_Show_2018,_IMG_0656.jpg",
+              "description": "Lamborghini Aventador SVJ at Paris Motor Show 2018",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../assets/89b8d8a60b2141.webp",
+              "file": "2019_Lamborghini_Aventador_SVJ_2.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2019_Lamborghini_Aventador_SVJ_2.jpg",
+              "description": "Lamborghini Aventador",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "February 2011 – September 2022",
+            "Designer": "Filippo Perini (original) Mitja Borkert (Aventador S)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door Targa top roadster",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L L539 V12",
+            "Transmission": "7-speed Graziano ISR automated manual"
+          }
+        }
+      ],
+      "inherit": "aventador",
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2011,
+      "designer": "Filippo Perini (original) Mitja Borkert (Aventador S)",
+      "title": "A faceted wedge with large hexagonal intakes.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-aventador-0-2",
+        "reading-aventador-0-1",
+        "reading-aventador-0-0",
+        "history-aventador-0",
+        "history-aventador-1",
+        "history-aventador-2",
+        "history-aventador-3"
+      ],
+      "video": {
+        "id": "UZiHPLGh-Ek",
+        "title": "Richard Hammond drives the Lamborghini Aventador",
+        "channel": "Top Gear",
+        "note": "Original LP700-4; Series 17, Episode 6.",
+        "url": "https://www.youtube.com/watch?v=UZiHPLGh-Ek"
+      },
+      "facts": {
+        "Production": "February 2011 – September 2022",
+        "Designer": "Filippo Perini (original) Mitja Borkert (Aventador S)",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door Targa top roadster",
+        "Layout": "Mid-engine, all-wheel-drive",
+        "Engine": "6.5 L L539 V12",
+        "Transmission": "7-speed Graziano ISR automated manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "veneno",
+      "name": "Veneno",
+      "category": "Limited-production sports car",
+      "story": "A small road-going series with prominent aero structures and a spine-like centre line. Coupé and Roadster versions share an Aventador-derived mechanical basis.",
+      "variants": [
+        {
+          "year": 2013,
+          "name": "Veneno coupé",
+          "wiki": "Lamborghini Veneno",
+          "match": "Veneno",
+          "shape": "A central fin, large rear wing and highly open body surfaces.",
+          "engineering": "An Aventador-derived carbon chassis and V12.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Veneno",
+          "photos": [
+            {
+              "src": "../brand-assets/cf579cfac801c3.webp",
+              "file": "Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg",
+              "credit": "Clément Bucco-Lechat",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg",
+              "description": "Geneva MotorShow 2013 - Lamborghini Veneno 1",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/f82c3f2e1ae712.webp",
+              "file": "2013-03-05_Geneva_Motor_Show_7888.JPG",
+              "credit": "Norbert Aepli, Switzerland (User:Noebu)",
+              "license": "CC BY 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2013-03-05_Geneva_Motor_Show_7888.JPG",
+              "description": "Geneva Motor Show 2013 (photos taken on the 1st press day)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2013 – 2014 (3 coupés, 9 roadsters)",
+            "Designer": "Filippo Perini Michele Tinazzo",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L L539 V12",
+            "Transmission": "7-speed ISR automated manual"
+          }
+        },
+        {
+          "year": 2014,
+          "name": "Veneno Roadster",
+          "wiki": "Lamborghini Veneno",
+          "match": "Roadster",
+          "shape": "A permanently open cabin within the aero-heavy body.",
+          "engineering": "A limited open-body V12 road car.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Veneno",
+          "photos": [
+            {
+              "src": "../brand-assets/5fd9ae608a7b4c.webp",
+              "file": "Autoworld_Brüssel_150_-_Italian_Car_Passion_-_Lamborghini_Veneno_Roadster.jpg",
+              "credit": "Klaus Nahr",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Autoworld_Br%C3%BCssel_150_-_Italian_Car_Passion_-_Lamborghini_Veneno_Roadster.jpg",
+              "description": "Lamborghini Veneno Roadster",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2013 – 2014 (3 coupés, 9 roadsters)",
+            "Designer": "Filippo Perini Michele Tinazzo",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L L539 V12",
+            "Transmission": "7-speed ISR automated manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2013,
+      "designer": "Filippo Perini Michele Tinazzo",
+      "title": "A central fin, large rear wing and highly open body surfaces.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-veneno-0-2",
+        "reading-veneno-0-1",
+        "reading-veneno-0-0",
+        "history-veneno-0",
+        "history-veneno-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2013 – 2014 (3 coupés, 9 roadsters)",
+        "Designer": "Filippo Perini Michele Tinazzo",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door roadster",
+        "Layout": "Mid-engine, all-wheel-drive",
+        "Engine": "6.5 L L539 V12",
+        "Transmission": "7-speed ISR automated manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "huracan",
+      "name": "Huracán",
+      "category": "Mid-engine sports car",
+      "story": "The Huracán develops Lamborghini’s smaller V10 line. The STO’s exposed aero and the raised Sterrato body extend the range well beyond the original coupé.",
+      "variants": [
+        {
+          "year": 2014,
+          "name": "LP610-4 / Evo",
+          "wiki": "Lamborghini Huracán",
+          "match": "Evo",
+          "shape": "A low, compact wedge with narrow lamps.",
+          "engineering": "A mid-mounted V10; Evo develops the chassis and control systems.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+          "photos": [
+            {
+              "src": "../brand-assets/bc31d5cbe1935a.webp",
+              "file": "2022_Lamborghini_Huracan_EVO_Orange.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2022_Lamborghini_Huracan_EVO_Orange.jpg",
+              "description": "A Lamborghini Huracan EVO taken at Goodwood FOS 2022.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/080188c3814284.webp",
+              "file": "Lamborghini_Huracan_Evo_Spyder_Genf_2019_1Y7A5557.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Huracan_Evo_Spyder_Genf_2019_1Y7A5557.jpg",
+              "description": "Lamborghini Huracán Evo Spyder at Geneva Motor Show 2019",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2014–2024",
+            "Designer": "Filippo Perini (original design) Mitja Borkert (LP 640-4, facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Longitudinal , mid-engine, four-wheel-drive (LP 610-4, LP 640-4 Performante, LP 640-4 Sterrato) Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)",
+            "Engine": "DFJ (2014–2018)/DGF (2019–2024) 5.2 L odd-firing V10",
+            "Transmission": "7-speed dual-clutch"
+          }
+        },
+        {
+          "year": 2015,
+          "name": "Spyder",
+          "wiki": "Lamborghini Huracán",
+          "match": "Spyder",
+          "shape": "A folding fabric roof and revised rear deck.",
+          "engineering": "An open V10 chassis.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+          "photos": [
+            {
+              "src": "../brand-assets/d67fa712af2d5e.webp",
+              "file": "Lamborghini_Huracan_Spyder_3.jpg",
+              "credit": "Calreyn88",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Huracan_Spyder_3.jpg",
+              "description": "Lamborghini Huracan",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/d8458e499fb235.webp",
+              "file": "WMC_P_JAIA17_Lamborghini_Huracán_LP_580-2_RWD_Spyder_1.jpg",
+              "credit": "Shirley 501JFW",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:WMC_P_JAIA17_Lamborghini_Hurac%C3%A1n_LP_580-2_RWD_Spyder_1.jpg",
+              "description": "Vorderseite dem Lamborghini Huracán LP 580-2 RWD Spyder mit geschlossenem Dach.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2014–2024",
+            "Designer": "Filippo Perini (original design) Mitja Borkert (LP 640-4, facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Longitudinal , mid-engine, four-wheel-drive (LP 610-4, LP 640-4 Performante, LP 640-4 Sterrato) Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)",
+            "Engine": "DFJ (2014–2018)/DGF (2019–2024) 5.2 L odd-firing V10",
+            "Transmission": "7-speed dual-clutch"
+          }
+        },
+        {
+          "year": 2017,
+          "name": "Performante",
+          "wiki": "Lamborghini Huracán",
+          "match": "Performante",
+          "shape": "A large rear wing and more exposed composite aero.",
+          "engineering": "ALA active aerodynamics and a lighter specification.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+          "photos": [
+            {
+              "src": "../brand-assets/0795dfc5b4154a.webp",
+              "file": "2018_Lamborghini_Huracan_Performante_2.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Lamborghini_Huracan_Performante_2.jpg",
+              "description": "Lamborghini Huracan",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/3255c484f6818f.webp",
+              "file": "2018_Lamborghini_Huracan_Performante_4.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Lamborghini_Huracan_Performante_4.jpg",
+              "description": "Lamborghini Huracan Performante",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2014–2024",
+            "Designer": "Filippo Perini (original design) Mitja Borkert (LP 640-4, facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Longitudinal , mid-engine, four-wheel-drive (LP 610-4, LP 640-4 Performante, LP 640-4 Sterrato) Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)",
+            "Engine": "DFJ (2014–2018)/DGF (2019–2024) 5.2 L odd-firing V10",
+            "Transmission": "7-speed dual-clutch"
+          }
+        },
+        {
+          "year": 2020,
+          "name": "STO",
+          "wiki": "Lamborghini Huracán",
+          "match": "STO",
+          "shape": "A roof intake, fin, large wing and one-piece front clamshell.",
+          "engineering": "A rear-wheel-drive road model inspired by competition hardware.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+          "photos": [
+            {
+              "src": "../brand-assets/468245a1ee43f1.webp",
+              "file": "2021_Lamborghini_Huracan_STO_Blue.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2021_Lamborghini_Huracan_STO_Blue.jpg",
+              "description": "A Lamborghini Huracan STO taken at the Goodwood FOS 2021.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/5e0e2ba8eb5ad6.webp",
+              "file": "2022_Lamborghini_Huracan_STO_Rear.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2022_Lamborghini_Huracan_STO_Rear.jpg",
+              "description": "A Lamborghini Huracan STO taken at the Goodwood FOS 2022.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2014–2024",
+            "Designer": "Filippo Perini (original design) Mitja Borkert (LP 640-4, facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Longitudinal , mid-engine, four-wheel-drive (LP 610-4, LP 640-4 Performante, LP 640-4 Sterrato) Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)",
+            "Engine": "DFJ (2014–2018)/DGF (2019–2024) 5.2 L odd-firing V10",
+            "Transmission": "7-speed dual-clutch"
+          }
+        },
+        {
+          "year": 2022,
+          "name": "Tecnica",
+          "wiki": "Lamborghini Huracán",
+          "match": "Tecnica",
+          "shape": "Revised nose openings and a smaller fixed rear wing.",
+          "engineering": "A rear-wheel-drive model between the standard car and STO.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+          "photos": [
+            {
+              "src": "../brand-assets/c4c2614dfb89f0.webp",
+              "file": "2022_Lamborghini_Huracan_Tecnica_(cropped).jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2022_Lamborghini_Huracan_Tecnica_(cropped).jpg",
+              "description": "A Lamborghini Huracan Tecnica taken at the Goodwood FOS 2022.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2014–2024",
+            "Designer": "Filippo Perini (original design) Mitja Borkert (LP 640-4, facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Longitudinal , mid-engine, four-wheel-drive (LP 610-4, LP 640-4 Performante, LP 640-4 Sterrato) Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)",
+            "Engine": "DFJ (2014–2018)/DGF (2019–2024) 5.2 L odd-firing V10",
+            "Transmission": "7-speed dual-clutch"
+          }
+        },
+        {
+          "year": 2022,
+          "name": "Sterrato",
+          "wiki": "Lamborghini Huracán",
+          "match": "Sterrato",
+          "shape": "Raised suspension, arch cladding and extra roof intake.",
+          "engineering": "A limited all-surface road-going derivative.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+          "photos": [
+            {
+              "src": "../brand-assets/1a7d64beb553f6.webp",
+              "file": "2023_Lamborghini_Huracan_Sterrato_Yellow.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2023_Lamborghini_Huracan_Sterrato_Yellow.jpg",
+              "description": "A Lamborghini Huracan Sterrato taken at the Goodwood FOS 2023.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/31375220cd7be5.webp",
+              "file": "Lamborghini_Huracán_Sterrato_1X7A1622.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Hurac%C3%A1n_Sterrato_1X7A1622.jpg",
+              "description": "Lamborghini Huracán Sterrato in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2014–2024",
+            "Designer": "Filippo Perini (original design) Mitja Borkert (LP 640-4, facelift)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door convertible",
+            "Layout": "Longitudinal , mid-engine, four-wheel-drive (LP 610-4, LP 640-4 Performante, LP 640-4 Sterrato) Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)",
+            "Engine": "DFJ (2014–2018)/DGF (2019–2024) 5.2 L odd-firing V10",
+            "Transmission": "7-speed dual-clutch"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2014,
+      "designer": "Filippo Perini (original design) Mitja Borkert (LP 640-4, facelift)",
+      "title": "A low, compact wedge with narrow lamps.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-huracan-0-2",
+        "reading-huracan-0-1",
+        "reading-huracan-0-0",
+        "history-huracan-0",
+        "history-huracan-1",
+        "history-huracan-2",
+        "history-huracan-3",
+        "history-huracan-4",
+        "history-huracan-5"
+      ],
+      "video": {
+        "id": "fYpjmc2MyII",
+        "title": "Lamborghini Huracán review",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=fYpjmc2MyII",
+        "note": "Richard Hammond; series 22, episode 1.",
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+      },
+      "facts": {
+        "Production": "2014–2024",
+        "Designer": "Filippo Perini (original design) Mitja Borkert (LP 640-4, facelift)",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door convertible",
+        "Layout": "Longitudinal , mid-engine, four-wheel-drive (LP 610-4, LP 640-4 Performante, LP 640-4 Sterrato) Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)",
+        "Engine": "DFJ (2014–2018)/DGF (2019–2024) 5.2 L odd-firing V10",
+        "Transmission": "7-speed dual-clutch"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "centenario",
+      "name": "Centenario",
+      "category": "Limited-production sports car",
+      "story": "A limited V12 road-car family with deeply cut aero surfaces. Coupé and Roadster bodies mark the centenary of Ferruccio Lamborghini’s birth.",
+      "variants": [
+        {
+          "year": 2016,
+          "name": "Centenario coupé",
+          "wiki": "Lamborghini Centenario",
+          "match": "Centenario",
+          "shape": "A low body with deep aero channels and a large rear diffuser.",
+          "engineering": "An Aventador-derived V12 chassis with rear-wheel steering.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Centenario",
+          "photos": [
+            {
+              "src": "../brand-assets/6b9c2c862b09fb.webp",
+              "file": "2016-03-01_Geneva_Motor_Show_0789_(cropped).JPG",
+              "credit": "Norbert Aepli, Switzerland (User:Noebu)",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2016-03-01_Geneva_Motor_Show_0789_(cropped).JPG",
+              "description": "Geneva Motor Show 2016 (photo taken on the first press day)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/a64c78b4b9b584.webp",
+              "file": "2016-03-01_Geneva_Motor_Show_0802_(cropped).JPG",
+              "credit": "Norbert Aepli, Switzerland (User:Noebu)",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2016-03-01_Geneva_Motor_Show_0802_(cropped).JPG",
+              "description": "Geneva Motor Show 2016 (photo taken on the first press day)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2016 – 2017 (20 coupés and 20 roadsters )",
+            "Designer": "Filippo Perini (coupé) Mitja Borkert (roadster)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L L539 V12",
+            "Transmission": "7-speed ISR automated manual"
+          }
+        },
+        {
+          "year": 2016,
+          "name": "Centenario Roadster",
+          "wiki": "Lamborghini Centenario",
+          "match": "Roadster",
+          "shape": "An open cabin within the same deeply channelled body.",
+          "engineering": "An open limited-series V12 road car.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Centenario",
+          "photos": [
+            {
+              "src": "../brand-assets/de34c72f9f3dfa.webp",
+              "file": "Lamborghini_Centenario_Roadster_Retro_Classics_2020_IMG_0323.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Centenario_Roadster_Retro_Classics_2020_IMG_0323.jpg",
+              "description": "Lamborghini_Centenario_Roadster at Retro Classics 2020",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2016 – 2017 (20 coupés and 20 roadsters )",
+            "Designer": "Filippo Perini (coupé) Mitja Borkert (roadster)",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L L539 V12",
+            "Transmission": "7-speed ISR automated manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2016,
+      "designer": "Filippo Perini (coupé) Mitja Borkert (roadster)",
+      "title": "A low body with deep aero channels and a large rear diffuser.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-centenario-0-1",
+        "reading-centenario-0-0",
+        "history-centenario-0",
+        "history-centenario-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2016 – 2017 (20 coupés and 20 roadsters )",
+        "Designer": "Filippo Perini (coupé) Mitja Borkert (roadster)",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door roadster",
+        "Layout": "Mid-engine, all-wheel-drive",
+        "Engine": "6.5 L L539 V12",
+        "Transmission": "7-speed ISR automated manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "urus",
+      "name": "Urus",
+      "category": "SUV",
+      "story": "The Urus brings a turbocharged V8 into a high-volume five-door Lamborghini. Performante and plug-in-hybrid SE versions change the body details and powertrain.",
+      "variants": [
+        {
+          "year": 2017,
+          "name": "Urus / S",
+          "wiki": "Lamborghini Urus",
+          "match": "Urus",
+          "shape": "An angular five-door SUV body and a low roofline.",
+          "engineering": "A front turbo V8 and four-wheel drive.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Urus",
+          "photos": [
+            {
+              "src": "../brand-assets/f61319d8396205.webp",
+              "file": "Lamborghini_Urus_SE_DSC_8524.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urus_SE_DSC_8524.jpg",
+              "description": "Lamborghini Urus SE in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/f2ab4d8b39994f.webp",
+              "file": "2019_Lamborghini_Urus_V8_Automatic_4.0_Rear.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2019_Lamborghini_Urus_V8_Automatic_4.0_Rear.jpg",
+              "description": "2019 Lamborghini Urus V8 Automatic 4.0 Rear Taken in the NEC Car Park, Birmingham",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2017–present",
+            "Designer": "Filippo Perini (concept) Mitja Borkert (production version)",
+            "Class": "Mid-size luxury crossover SUV",
+            "Body style": "5-door SUV",
+            "Layout": "Front-engine, all-wheel-drive",
+            "Engine": "Petrol : 4.0 L FSI twin-turbo V8",
+            "Electric motor": "AC Synchronus EM with PM (Urus SE)",
+            "Transmission": "8-speed ZF 8HP automatic"
+          }
+        },
+        {
+          "year": 2022,
+          "name": "Performante",
+          "wiki": "Lamborghini Urus",
+          "match": "Performante",
+          "shape": "A vented bonnet, revised bumpers and additional aero.",
+          "engineering": "A lowered, lighter road-going SUV specification.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Urus",
+          "photos": [
+            {
+              "src": "../brand-assets/996a46e5482147.webp",
+              "file": "Lamborghini_Urus_Performante_1X7A6803.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urus_Performante_1X7A6803.jpg",
+              "description": "Lamborghini Urus Performante in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2017–present",
+            "Designer": "Filippo Perini (concept) Mitja Borkert (production version)",
+            "Class": "Mid-size luxury crossover SUV",
+            "Body style": "5-door SUV",
+            "Layout": "Front-engine, all-wheel-drive",
+            "Engine": "Petrol : 4.0 L FSI twin-turbo V8",
+            "Electric motor": "AC Synchronus EM with PM (Urus SE)",
+            "Transmission": "8-speed ZF 8HP automatic"
+          }
+        },
+        {
+          "year": 2024,
+          "name": "SE",
+          "wiki": "Lamborghini Urus",
+          "match": "SE",
+          "shape": "A revised bonnet, slimmer lighting and a new rear treatment.",
+          "engineering": "A plug-in hybrid turbo-V8 powertrain.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Urus",
+          "photos": [
+            {
+              "src": "../brand-assets/f61319d8396205.webp",
+              "file": "Lamborghini_Urus_SE_DSC_8524.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urus_SE_DSC_8524.jpg",
+              "description": "Lamborghini Urus SE in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/a35a134043cad0.webp",
+              "file": "Lamborghini_Urus_SE_DSC_8521.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urus_SE_DSC_8521.jpg",
+              "description": "Lamborghini Urus SE in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2017–present",
+            "Designer": "Filippo Perini (concept) Mitja Borkert (production version)",
+            "Class": "Mid-size luxury crossover SUV",
+            "Body style": "5-door SUV",
+            "Layout": "Front-engine, all-wheel-drive",
+            "Engine": "Petrol : 4.0 L FSI twin-turbo V8",
+            "Electric motor": "AC Synchronus EM with PM (Urus SE)",
+            "Transmission": "8-speed ZF 8HP automatic"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2017,
+      "designer": "Filippo Perini (concept) Mitja Borkert (production version)",
+      "title": "An angular five-door SUV body and a low roofline.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-urus-0-2",
+        "reading-urus-0-1",
+        "reading-urus-0-0",
+        "history-urus-0",
+        "history-urus-1",
+        "history-urus-2"
+      ],
+      "video": {
+        "id": "oL-fHltu9ro",
+        "title": "The Lamborghini Urus tested on and off road",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=oL-fHltu9ro",
+        "note": "A road and off-road test.",
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+      },
+      "facts": {
+        "Production": "2017–present",
+        "Designer": "Filippo Perini (concept) Mitja Borkert (production version)",
+        "Class": "Mid-size luxury crossover SUV",
+        "Body style": "5-door SUV",
+        "Layout": "Front-engine, all-wheel-drive",
+        "Engine": "Petrol : 4.0 L FSI twin-turbo V8",
+        "Electric motor": "AC Synchronus EM with PM (Urus SE)",
+        "Transmission": "8-speed ZF 8HP automatic"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "sian",
+      "name": "Sián FKP 37",
+      "category": "Limited-production hybrid",
+      "story": "A limited V12 hybrid family that uses a supercapacitor for its electrical assistance. Its low roof, hexagonal rear lamps and open-roadster derivative distinguish it from the Aventador.",
+      "variants": [
+        {
+          "year": 2019,
+          "name": "Sián FKP 37",
+          "wiki": "Lamborghini Sián FKP 37",
+          "match": "Sian",
+          "shape": "A sharply channelled body and six hexagonal rear lights.",
+          "engineering": "A V12 with supercapacitor-based electrical assistance.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Si%C3%A1n_FKP_37",
+          "photos": [
+            {
+              "src": "../brand-assets/288be8fa7d763f.webp",
+              "file": "Lamborghini_Sian_at_IAA_2019_IMG_0332.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Sian_at_IAA_2019_IMG_0332.jpg",
+              "description": "Lamborghini_Sian at IAA 2019",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/7d7f384c470f81.webp",
+              "file": "Lamborghini_Sian_at_IAA_2019_IMG_0325.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Sian_at_IAA_2019_IMG_0325.jpg",
+              "description": "Lamborghini_Sian at IAA 2019",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2020–2022",
+            "Designer": "Mitja Borkert",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Mid-engine, all-wheel drive",
+            "Engine": "6.5 L L539 V12",
+            "Electric motor": "48-volt e-motor to the gearbox",
+            "Transmission": "7-speed ISR automated manual"
+          }
+        },
+        {
+          "year": 2020,
+          "name": "Sián Roadster",
+          "wiki": "Lamborghini Sián FKP 37",
+          "match": "Roadster",
+          "shape": "A permanently open roof within the hybrid body.",
+          "engineering": "An open development of the limited hybrid series.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Si%C3%A1n_FKP_37",
+          "photos": [
+            {
+              "src": "../brand-assets/561f58d4e1070d.webp",
+              "file": "Lamborghini_Sián_FKP_37_Roadster_(cropped).jpg",
+              "credit": "pelican-actor",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Si%C3%A1n_FKP_37_Roadster_(cropped).jpg",
+              "description": "Lamborghini Sián FKP 37 Roadster",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2020–2022",
+            "Designer": "Mitja Borkert",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster",
+            "Layout": "Mid-engine, all-wheel drive",
+            "Engine": "6.5 L L539 V12",
+            "Electric motor": "48-volt e-motor to the gearbox",
+            "Transmission": "7-speed ISR automated manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2019,
+      "designer": "Mitja Borkert",
+      "title": "A sharply channelled body and six hexagonal rear lights.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-sian-0-2",
+        "reading-sian-0-1",
+        "reading-sian-0-0",
+        "history-sian-0",
+        "history-sian-1"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2020–2022",
+        "Designer": "Mitja Borkert",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door roadster",
+        "Layout": "Mid-engine, all-wheel drive",
+        "Engine": "6.5 L L539 V12",
+        "Electric motor": "48-volt e-motor to the gearbox",
+        "Transmission": "7-speed ISR automated manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "countach-lpi",
+      "name": "Countach LPI 800-4",
+      "category": "Limited-production hybrid",
+      "story": "A separate modern revival of the Countach name, rather than a continuation of the 1970s chassis. Its body recalls the early wedge on a larger V12 hybrid platform.",
+      "variants": [
+        {
+          "year": 2021,
+          "name": "Countach LPI 800-4",
+          "wiki": "Lamborghini Countach LPI 800-4",
+          "match": "",
+          "shape": "A wedge-shaped nose, rectangular openings and a smooth roof arc.",
+          "engineering": "An Aventador-related V12 platform with supercapacitor hybrid assistance.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Countach_LPI_800-4",
+          "photos": [
+            {
+              "src": "../assets/49f9db06f6a56e.webp",
+              "file": "2022_Lamborghini_Countach.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2022_Lamborghini_Countach.jpg",
+              "description": "A Lamborghini Countach LPI 800-4 taken in Hatfield.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "../brand-assets/cdc8f1116a5e09.webp",
+              "file": "Lamborghini_Countach_LPI_800-4_IMG_8019.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Countach_LPI_800-4_IMG_8019.jpg",
+              "description": "Lamborghini Countach LPI 800-4 in Stuttgart",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2022 (112 units)",
+            "Designer": "Mitja Borkert",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupe",
+            "Layout": "Rear mid-engine, four-wheel drive",
+            "Engine": "6.5 L (397 cu in) L539 V12",
+            "Electric motor": "48-volt",
+            "Transmission": "7-speed single clutch ISR automated manual"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2021,
+      "designer": "Mitja Borkert",
+      "title": "A wedge-shaped nose, rectangular openings and a smooth roof arc.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-countach-lpi-0-2",
+        "reading-countach-lpi-0-1",
+        "reading-countach-lpi-0-0",
+        "history-countach-lpi-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2022 (112 units)",
+        "Designer": "Mitja Borkert",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupe",
+        "Layout": "Rear mid-engine, four-wheel drive",
+        "Engine": "6.5 L (397 cu in) L539 V12",
+        "Electric motor": "48-volt",
+        "Transmission": "7-speed single clutch ISR automated manual"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "revuelto",
+      "name": "Revuelto",
+      "category": "Plug-in hybrid sports car",
+      "story": "The Revuelto succeeds the Aventador with a plug-in hybrid system and a new carbon structure. Y-shaped graphics and an exposed V12 become central to its appearance.",
+      "variants": [
+        {
+          "year": 2023,
+          "name": "Revuelto",
+          "wiki": "Lamborghini Revuelto",
+          "match": "",
+          "shape": "Y-shaped lighting and an exposed upper engine installation.",
+          "engineering": "A V12 plug-in hybrid with three electric motors.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Revuelto",
+          "photos": [
+            {
+              "src": "../brand-assets/f75434e63fdb85.webp",
+              "file": "Lamborghini_Revuelto_DSC_6985_(cropped).jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Revuelto_DSC_6985_(cropped).jpg",
+              "description": "Lamborghini Revuelto in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/93c2259d20b669.webp",
+              "file": "Lamborghini_Revuelto_DSC_6987.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Revuelto_DSC_6987.jpg",
+              "description": "Lamborghini Revuelto in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2023–present",
+            "Designer": "Mitja Borkert",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L (6,498 cc) L545 naturally aspirated V12",
+            "Electric motor": "3× permanent magnet motors",
+            "Transmission": "8-speed Graziano dual-clutch automatic"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2023,
+      "designer": "Mitja Borkert",
+      "title": "Y-shaped lighting and an exposed upper engine installation.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-revuelto-0-2",
+        "reading-revuelto-0-1",
+        "reading-revuelto-0-0",
+        "history-revuelto-0"
+      ],
+      "video": {
+        "id": "dZIg75EYumo",
+        "title": "We take our driving test in a Lamborghini Revuelto",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=dZIg75EYumo",
+        "note": "A driving feature by Ollie Marriage.",
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+      },
+      "facts": {
+        "Production": "2023–present",
+        "Designer": "Mitja Borkert",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé",
+        "Layout": "Mid-engine, all-wheel-drive",
+        "Engine": "6.5 L (6,498 cc) L545 naturally aspirated V12",
+        "Electric motor": "3× permanent magnet motors",
+        "Transmission": "8-speed Graziano dual-clutch automatic"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "temerario",
+      "name": "Temerario",
+      "category": "Plug-in hybrid sports car",
+      "story": "The Temerario replaces the Huracán’s naturally aspirated V10 with a turbocharged V8 hybrid. Its compact two-seat body continues Lamborghini’s smaller mid-engined line.",
+      "variants": [
+        {
+          "year": 2024,
+          "name": "Temerario",
+          "wiki": "Lamborghini Temerario",
+          "match": "",
+          "shape": "Hexagonal lighting details and a low, broad mid-engine body.",
+          "engineering": "A turbocharged V8 plug-in hybrid with three electric motors.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Temerario",
+          "photos": [
+            {
+              "src": "../brand-assets/02ed1ef7cf5bac.webp",
+              "file": "Lamborghini_Temerario_IMG_5361.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Temerario_IMG_5361.jpg",
+              "description": "Lamborghini_Temerario in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/2d83adf32b9fe5.webp",
+              "file": "Lamborghini_Temerario_IMG_5364.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Temerario_IMG_5364.jpg",
+              "description": "Lamborghini_Temerario in Böblingen",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2025–present",
+            "Designer": "Mitja Borkert",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé",
+            "Layout": "Longitudinal mid-engine, four-wheel-drive",
+            "Engine": "4.0 L L411 twin-turbocharged V8",
+            "Electric motor": "3x electric motors (2x in front and 1 in rear)",
+            "Transmission": "8-speed Graziano dual-clutch"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2024,
+      "designer": "Mitja Borkert",
+      "title": "Hexagonal lighting details and a low, broad mid-engine body.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "reading-temerario-0-2",
+        "reading-temerario-0-1",
+        "reading-temerario-0-0",
+        "history-temerario-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2025–present",
+        "Designer": "Mitja Borkert",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé",
+        "Layout": "Longitudinal mid-engine, four-wheel-drive",
+        "Engine": "4.0 L L411 twin-turbocharged V8",
+        "Electric motor": "3x electric motors (2x in front and 1 in rear)",
+        "Transmission": "8-speed Graziano dual-clutch"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    },
+    {
+      "id": "fenomeno",
+      "name": "Fenomeno",
+      "category": "Limited-production hybrid",
+      "story": "A road-going few-off derived from Lamborghini’s V12 hybrid programme. Its production-series announcement is separate from one-off commissions such as Invencible and Auténtica.",
+      "variants": [
+        {
+          "year": 2025,
+          "name": "Fenomeno",
+          "wiki": "Lamborghini Fenomeno",
+          "match": "",
+          "shape": "A redesigned nose, large front channels and a new rear lighting treatment.",
+          "engineering": "A limited-series V12 hybrid road car.",
+          "kind": "Production",
+          "factSource": "https://en.wikipedia.org/wiki/Lamborghini_Fenomeno",
+          "photos": [
+            {
+              "src": "../brand-assets/90d21a0def8490.webp",
+              "file": "2025_Lamborghini_Fenomeno_USG26.jpg",
+              "credit": "MrWalkr",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2025_Lamborghini_Fenomeno_USG26.jpg",
+              "description": "A 2025 Lamborghini Fenomeno taken at Ultimate Supercar Garage 2026.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            },
+            {
+              "src": "../brand-assets/be2f7a54ad3972.webp",
+              "file": "Lamborghini_Fenomeno_(2026)_(55082081146)_(cropped).jpg",
+              "credit": "Charles from Port Chester, New York",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Fenomeno_(2026)_(55082081146)_(cropped).jpg",
+              "description": "Lamborghini Fenomeno (2026)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original linked in credit."
+            }
+          ],
+          "facts": {
+            "Production": "2025–present (44 units planned)",
+            "Designer": "Mitja Borkert",
+            "Class": "Sports car ( S )",
+            "Body style": "2-door coupé 2-door roadster (limited 15 units)",
+            "Layout": "Mid-engine, all-wheel-drive",
+            "Engine": "6.5 L (6,498 cc) L545 naturally aspirated V12",
+            "Electric motor": "3x permanent magnet motors",
+            "Transmission": "8-speed Graziano dual-clutch automatic"
+          }
+        }
+      ],
+      "inherit": null,
+      "brand": "Lamborghini",
+      "country": "Italy",
+      "year": 2025,
+      "designer": "Mitja Borkert",
+      "title": "A redesigned nose, large front channels and a new rear lighting treatment.",
+      "design": 0,
+      "industry": 0,
+      "sources": [
+        "history-fenomeno-0"
+      ],
+      "video": null,
+      "facts": {
+        "Production": "2025–present (44 units planned)",
+        "Designer": "Mitja Borkert",
+        "Class": "Sports car ( S )",
+        "Body style": "2-door coupé 2-door roadster (limited 15 units)",
+        "Layout": "Mid-engine, all-wheel-drive",
+        "Engine": "6.5 L (6,498 cc) L545 naturally aspirated V12",
+        "Electric motor": "3x permanent magnet motors",
+        "Transmission": "8-speed Graziano dual-clutch automatic"
+      },
+      "evidence": "A production road-car family. Read the linked model histories for dates and construction, and the published coverage for contemporary assessments.",
+      "excluded": "Distinct generations and body forms are shown below. Engine-only versions, small trim changes and closely related editions share a chapter. Race-only derivatives and one-off commissions are excluded."
+    }
+  ],
+  "honors": [],
+  "films": [
+    {
+      "title": "Lamborghini: The Man Behind the Legend",
+      "year": "2022",
+      "type": "Biographical drama",
+      "origin": "Bobby Moresco / Lionsgate",
+      "description": "A dramatisation of Ferruccio Lamborghini’s life and the creation of the company. Its characters and events should not be treated as documentary evidence.",
+      "url": "https://www.lionsgate.com/lamborghini-the-man-behind-the-legend",
+      "watchUrl": "https://www.youtube.com/watch?v=kzqwRxorvKE",
+      "watchLabel": "Official trailer"
+    },
+    {
+      "title": "Megafactories / Ultimate Factories: Lamborghini",
+      "year": "TV episodes",
+      "type": "Factory documentary",
+      "origin": "National Geographic",
+      "description": "Factory episodes cover the Murciélago SV and Aventador production programmes. The official series guide identifies the cars; regional episode numbers vary.",
+      "url": "https://www.natgeotv.com/nl/programmas/natgeo/megafactories"
+    }
+  ]
+}

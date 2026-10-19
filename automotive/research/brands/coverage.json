@@ -1,0 +1,2977 @@
+{
+  "ferrari": {
+    "name": "Ferrari",
+    "modelIndex": "https://en.wikipedia.org/wiki/List_of_Ferrari_road_cars",
+    "officialReference": "https://www.ferrari.com/en-EN/auto/past-models",
+    "families": [
+      {
+        "id": "inter",
+        "name": "166 / 195 / 212 Inter",
+        "chapters": [
+          {
+            "year": 1948,
+            "name": "166 Inter",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_166_Inter"
+          },
+          {
+            "year": 1950,
+            "name": "195 Inter",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_195_Inter"
+          },
+          {
+            "year": 1951,
+            "name": "212 Inter",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_212_Inter"
+          }
+        ]
+      },
+      {
+        "id": "america",
+        "name": "America / Superamerica / Superfast",
+        "chapters": [
+          {
+            "year": 1950,
+            "name": "340 America",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_America"
+          },
+          {
+            "year": 1952,
+            "name": "342 America",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_America"
+          },
+          {
+            "year": 1953,
+            "name": "375 America",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_America"
+          },
+          {
+            "year": 1955,
+            "name": "410 Superamerica",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_America"
+          },
+          {
+            "year": 1959,
+            "name": "400 Superamerica",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_America"
+          },
+          {
+            "year": 1964,
+            "name": "500 Superfast",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_America"
+          }
+        ]
+      },
+      {
+        "id": "250",
+        "name": "250 GT family",
+        "chapters": [
+          {
+            "year": 1953,
+            "name": "250 Europa",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250"
+          },
+          {
+            "year": 1954,
+            "name": "250 Europa GT",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250"
+          },
+          {
+            "year": 1956,
+            "name": "250 GT Boano / Ellena",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250"
+          },
+          {
+            "year": 1956,
+            "name": "250 GT Berlinetta Tour de France",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250_GT_Berlinetta"
+          },
+          {
+            "year": 1957,
+            "name": "250 GT Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250"
+          },
+          {
+            "year": 1957,
+            "name": "250 GT California Spyder",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250"
+          },
+          {
+            "year": 1958,
+            "name": "250 GT Coupé Pinin Farina",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250"
+          },
+          {
+            "year": 1959,
+            "name": "250 GT Berlinetta SWB",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250_GT_Berlinetta"
+          },
+          {
+            "year": 1960,
+            "name": "250 GTE 2+2",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250"
+          },
+          {
+            "year": 1962,
+            "name": "250 GT Lusso",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250_GT_Lusso"
+          }
+        ]
+      },
+      {
+        "id": "250-gto",
+        "name": "250 GTO",
+        "chapters": [
+          {
+            "year": 1962,
+            "name": "250 GTO Series I",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250_GTO"
+          },
+          {
+            "year": 1964,
+            "name": "250 GTO Series II",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_250_GTO"
+          }
+        ]
+      },
+      {
+        "id": "330",
+        "name": "330",
+        "chapters": [
+          {
+            "year": 1963,
+            "name": "330 America",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_330"
+          },
+          {
+            "year": 1964,
+            "name": "330 GT 2+2",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_330"
+          },
+          {
+            "year": 1966,
+            "name": "330 GTC",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_330_GTC"
+          },
+          {
+            "year": 1966,
+            "name": "330 GTS",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_330_GTC"
+          }
+        ]
+      },
+      {
+        "id": "275",
+        "name": "275 GTB / GTS",
+        "chapters": [
+          {
+            "year": 1964,
+            "name": "275 GTB",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_275"
+          },
+          {
+            "year": 1964,
+            "name": "275 GTS",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_275"
+          },
+          {
+            "year": 1966,
+            "name": "275 GTB/4",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_275"
+          },
+          {
+            "year": 1967,
+            "name": "275 GTB/4 NART Spyder",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_275"
+          }
+        ]
+      },
+      {
+        "id": "365",
+        "name": "365 GT / California / GTC",
+        "chapters": [
+          {
+            "year": 1966,
+            "name": "365 California",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_365_California"
+          },
+          {
+            "year": 1967,
+            "name": "365 GT 2+2",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_365_GT_2%2B2"
+          },
+          {
+            "year": 1968,
+            "name": "365 GTC / GTS",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_365_GTC"
+          }
+        ]
+      },
+      {
+        "id": "dino",
+        "name": "Dino 206 / 246",
+        "chapters": [
+          {
+            "year": 1967,
+            "name": "206 GT",
+            "source": "https://en.wikipedia.org/wiki/Dino_206_GT_and_246_GT"
+          },
+          {
+            "year": 1969,
+            "name": "246 GT",
+            "source": "https://en.wikipedia.org/wiki/Dino_206_GT_and_246_GT"
+          },
+          {
+            "year": 1972,
+            "name": "246 GTS",
+            "source": "https://en.wikipedia.org/wiki/Dino_206_GT_and_246_GT"
+          }
+        ]
+      },
+      {
+        "id": "daytona",
+        "name": "365 GTB/4 / GTS/4 Daytona",
+        "chapters": [
+          {
+            "year": 1968,
+            "name": "365 GTB/4",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Daytona"
+          },
+          {
+            "year": 1969,
+            "name": "365 GTS/4",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Daytona"
+          }
+        ]
+      },
+      {
+        "id": "365-gtc4",
+        "name": "365 GTC/4",
+        "chapters": [
+          {
+            "year": 1971,
+            "name": "365 GTC/4",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_365_GTC/4"
+          }
+        ]
+      },
+      {
+        "id": "400",
+        "name": "365 GT4 2+2 / 400 / 412",
+        "chapters": [
+          {
+            "year": 1972,
+            "name": "365 GT4 2+2",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_365_GT4_2%2B2%2C_400_and_412"
+          },
+          {
+            "year": 1976,
+            "name": "400 / 400i",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_365_GT4_2%2B2%2C_400_and_412"
+          },
+          {
+            "year": 1985,
+            "name": "412",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_365_GT4_2%2B2%2C_400_and_412"
+          }
+        ]
+      },
+      {
+        "id": "bb",
+        "name": "Berlinetta Boxer",
+        "chapters": [
+          {
+            "year": 1973,
+            "name": "365 GT4 BB",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Berlinetta_Boxer"
+          },
+          {
+            "year": 1976,
+            "name": "512 BB / BBi",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Berlinetta_Boxer"
+          }
+        ]
+      },
+      {
+        "id": "gt4",
+        "name": "Dino / Ferrari 208 / 308 GT4",
+        "chapters": [
+          {
+            "year": 1973,
+            "name": "308 / 208 GT4",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_GT4"
+          }
+        ]
+      },
+      {
+        "id": "308",
+        "name": "208 / 308 GTB / GTS",
+        "chapters": [
+          {
+            "year": 1975,
+            "name": "308 / 208 GTB",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_308_GTB/GTS"
+          },
+          {
+            "year": 1977,
+            "name": "308 / 208 GTS",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_308_GTB/GTS"
+          }
+        ]
+      },
+      {
+        "id": "mondial",
+        "name": "Mondial",
+        "chapters": [
+          {
+            "year": 1980,
+            "name": "Mondial coupé",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Mondial"
+          },
+          {
+            "year": 1983,
+            "name": "Mondial Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Mondial"
+          },
+          {
+            "year": 1989,
+            "name": "Mondial t",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Mondial"
+          }
+        ]
+      },
+      {
+        "id": "288-gto",
+        "name": "288 GTO",
+        "chapters": [
+          {
+            "year": 1984,
+            "name": "288 GTO",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_288_GTO"
+          }
+        ]
+      },
+      {
+        "id": "testarossa",
+        "name": "Testarossa / 512 TR / F512 M",
+        "chapters": [
+          {
+            "year": 1984,
+            "name": "Testarossa",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Testarossa"
+          },
+          {
+            "year": 1991,
+            "name": "512 TR",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Testarossa"
+          },
+          {
+            "year": 1994,
+            "name": "F512 M",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Testarossa"
+          }
+        ]
+      },
+      {
+        "id": "328",
+        "name": "328 / GTB Turbo / GTS Turbo",
+        "chapters": [
+          {
+            "year": 1985,
+            "name": "328 GTB / GTB Turbo",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_328"
+          },
+          {
+            "year": 1985,
+            "name": "328 GTS / GTS Turbo",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_328"
+          }
+        ]
+      },
+      {
+        "id": "f40",
+        "name": "F40",
+        "chapters": [
+          {
+            "year": 1987,
+            "name": "F40 road car",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F40"
+          }
+        ]
+      },
+      {
+        "id": "348",
+        "name": "348",
+        "chapters": [
+          {
+            "year": 1989,
+            "name": "348 TB / GTB",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_348"
+          },
+          {
+            "year": 1989,
+            "name": "348 TS / GTS",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_348"
+          },
+          {
+            "year": 1993,
+            "name": "348 Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_348"
+          }
+        ]
+      },
+      {
+        "id": "456",
+        "name": "456 / 456M",
+        "chapters": [
+          {
+            "year": 1992,
+            "name": "456 GT / GTA",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_456"
+          },
+          {
+            "year": 1998,
+            "name": "456M",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_456"
+          }
+        ]
+      },
+      {
+        "id": "f355",
+        "name": "F355",
+        "chapters": [
+          {
+            "year": 1994,
+            "name": "F355 Berlinetta",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F355"
+          },
+          {
+            "year": 1994,
+            "name": "F355 GTS",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F355"
+          },
+          {
+            "year": 1995,
+            "name": "F355 Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F355"
+          }
+        ]
+      },
+      {
+        "id": "f50",
+        "name": "F50",
+        "chapters": [
+          {
+            "year": 1995,
+            "name": "F50",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F50"
+          }
+        ]
+      },
+      {
+        "id": "550",
+        "name": "550 / 575M Maranello",
+        "chapters": [
+          {
+            "year": 1996,
+            "name": "550 / 575M Maranello",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_550_Maranello"
+          },
+          {
+            "year": 2000,
+            "name": "550 Barchetta",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_550_Maranello"
+          },
+          {
+            "year": 2005,
+            "name": "575 Superamerica",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_575M_Maranello"
+          }
+        ]
+      },
+      {
+        "id": "360",
+        "name": "360",
+        "chapters": [
+          {
+            "year": 1999,
+            "name": "360 Modena",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_360"
+          },
+          {
+            "year": 2000,
+            "name": "360 Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_360"
+          },
+          {
+            "year": 2003,
+            "name": "Challenge Stradale",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_360"
+          }
+        ]
+      },
+      {
+        "id": "enzo",
+        "name": "Enzo",
+        "chapters": [
+          {
+            "year": 2002,
+            "name": "Enzo",
+            "source": "https://en.wikipedia.org/wiki/Enzo_Ferrari_%28automobile%29"
+          }
+        ]
+      },
+      {
+        "id": "612",
+        "name": "612 Scaglietti",
+        "chapters": [
+          {
+            "year": 2004,
+            "name": "612 Scaglietti",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_612_Scaglietti"
+          }
+        ]
+      },
+      {
+        "id": "f430",
+        "name": "F430",
+        "chapters": [
+          {
+            "year": 2004,
+            "name": "F430 coupé",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F430"
+          },
+          {
+            "year": 2005,
+            "name": "F430 Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F430"
+          },
+          {
+            "year": 2007,
+            "name": "430 Scuderia / 16M",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F430"
+          }
+        ]
+      },
+      {
+        "id": "599",
+        "name": "599 GTB / GTO / SA Aperta",
+        "chapters": [
+          {
+            "year": 2006,
+            "name": "599 GTB Fiorano",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_599"
+          },
+          {
+            "year": 2010,
+            "name": "599 GTO",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_599"
+          },
+          {
+            "year": 2010,
+            "name": "SA Aperta",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_599"
+          }
+        ]
+      },
+      {
+        "id": "california",
+        "name": "California / California T",
+        "chapters": [
+          {
+            "year": 2008,
+            "name": "California",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_California"
+          },
+          {
+            "year": 2014,
+            "name": "California T",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_California"
+          }
+        ]
+      },
+      {
+        "id": "458",
+        "name": "458",
+        "chapters": [
+          {
+            "year": 2009,
+            "name": "458 Italia",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_458"
+          },
+          {
+            "year": 2011,
+            "name": "458 Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_458"
+          },
+          {
+            "year": 2013,
+            "name": "458 Speciale / Speciale A",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_458"
+          }
+        ]
+      },
+      {
+        "id": "ff",
+        "name": "FF",
+        "chapters": [
+          {
+            "year": 2011,
+            "name": "FF",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_FF"
+          }
+        ]
+      },
+      {
+        "id": "f12",
+        "name": "F12berlinetta / F12tdf",
+        "chapters": [
+          {
+            "year": 2012,
+            "name": "F12berlinetta",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F12"
+          },
+          {
+            "year": 2015,
+            "name": "F12tdf",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F12"
+          }
+        ]
+      },
+      {
+        "id": "laferrari",
+        "name": "LaFerrari",
+        "chapters": [
+          {
+            "year": 2013,
+            "name": "LaFerrari coupé",
+            "source": "https://en.wikipedia.org/wiki/LaFerrari"
+          },
+          {
+            "year": 2016,
+            "name": "LaFerrari Aperta",
+            "source": "https://en.wikipedia.org/wiki/LaFerrari"
+          }
+        ]
+      },
+      {
+        "id": "f60-america",
+        "name": "F60 America",
+        "chapters": [
+          {
+            "year": 2014,
+            "name": "F60 America",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F60_America"
+          }
+        ]
+      },
+      {
+        "id": "488",
+        "name": "488",
+        "chapters": [
+          {
+            "year": 2015,
+            "name": "488 GTB",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_488"
+          },
+          {
+            "year": 2015,
+            "name": "488 Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_488"
+          },
+          {
+            "year": 2018,
+            "name": "488 Pista / Pista Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_488"
+          }
+        ]
+      },
+      {
+        "id": "sergio",
+        "name": "Sergio",
+        "chapters": [
+          {
+            "year": 2015,
+            "name": "Production Sergio",
+            "source": "https://en.wikipedia.org/wiki/Pininfarina_Sergio"
+          }
+        ]
+      },
+      {
+        "id": "gtc4lusso",
+        "name": "GTC4Lusso",
+        "chapters": [
+          {
+            "year": 2016,
+            "name": "GTC4Lusso / T",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_GTC4Lusso"
+          }
+        ]
+      },
+      {
+        "id": "j50",
+        "name": "J50",
+        "chapters": [
+          {
+            "year": 2016,
+            "name": "J50",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_J50"
+          }
+        ]
+      },
+      {
+        "id": "812",
+        "name": "812 Superfast / GTS",
+        "chapters": [
+          {
+            "year": 2017,
+            "name": "812 Superfast",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_812_Superfast"
+          },
+          {
+            "year": 2019,
+            "name": "812 GTS",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_812_Superfast"
+          },
+          {
+            "year": 2021,
+            "name": "812 Competizione / A",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_812_Superfast"
+          }
+        ]
+      },
+      {
+        "id": "portofino",
+        "name": "Portofino",
+        "chapters": [
+          {
+            "year": 2017,
+            "name": "Portofino / M",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Portofino"
+          }
+        ]
+      },
+      {
+        "id": "monza",
+        "name": "Monza SP1 / SP2",
+        "chapters": [
+          {
+            "year": 2018,
+            "name": "Monza SP1",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Monza_SP1"
+          },
+          {
+            "year": 2018,
+            "name": "Monza SP2",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Monza_SP1"
+          }
+        ]
+      },
+      {
+        "id": "f8",
+        "name": "F8 Tributo / Spider",
+        "chapters": [
+          {
+            "year": 2019,
+            "name": "F8 Tributo",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F8"
+          },
+          {
+            "year": 2019,
+            "name": "F8 Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F8"
+          }
+        ]
+      },
+      {
+        "id": "sf90",
+        "name": "SF90 Stradale / Spider / XX",
+        "chapters": [
+          {
+            "year": 2019,
+            "name": "SF90 Stradale",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_SF90_Stradale"
+          },
+          {
+            "year": 2020,
+            "name": "SF90 Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_SF90_Stradale"
+          },
+          {
+            "year": 2023,
+            "name": "SF90 XX Stradale / Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_SF90_Stradale"
+          }
+        ]
+      },
+      {
+        "id": "roma",
+        "name": "Roma / Roma Spider",
+        "chapters": [
+          {
+            "year": 2019,
+            "name": "Roma",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Roma"
+          },
+          {
+            "year": 2023,
+            "name": "Roma Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Roma"
+          }
+        ]
+      },
+      {
+        "id": "296",
+        "name": "296 GTB / GTS",
+        "chapters": [
+          {
+            "year": 2021,
+            "name": "296 GTB",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_296"
+          },
+          {
+            "year": 2022,
+            "name": "296 GTS",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_296"
+          },
+          {
+            "year": 2025,
+            "name": "296 Speciale / Speciale A",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_296"
+          }
+        ]
+      },
+      {
+        "id": "daytona-sp3",
+        "name": "Daytona SP3",
+        "chapters": [
+          {
+            "year": 2021,
+            "name": "Daytona SP3",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Daytona_SP3"
+          }
+        ]
+      },
+      {
+        "id": "purosangue",
+        "name": "Purosangue",
+        "chapters": [
+          {
+            "year": 2022,
+            "name": "Purosangue",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Purosangue"
+          }
+        ]
+      },
+      {
+        "id": "12cilindri",
+        "name": "12Cilindri",
+        "chapters": [
+          {
+            "year": 2024,
+            "name": "12Cilindri coupé",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_12Cilindri"
+          },
+          {
+            "year": 2024,
+            "name": "12Cilindri Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_12Cilindri"
+          }
+        ]
+      },
+      {
+        "id": "f80",
+        "name": "F80",
+        "chapters": [
+          {
+            "year": 2024,
+            "name": "F80",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_F80"
+          }
+        ]
+      },
+      {
+        "id": "amalfi",
+        "name": "Amalfi",
+        "chapters": [
+          {
+            "year": 2025,
+            "name": "Amalfi",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Amalfi"
+          },
+          {
+            "year": 2026,
+            "name": "Amalfi Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Amalfi"
+          }
+        ]
+      },
+      {
+        "id": "849-testarossa",
+        "name": "849 Testarossa",
+        "chapters": [
+          {
+            "year": 2025,
+            "name": "849 Testarossa",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_849_Testarossa"
+          },
+          {
+            "year": 2025,
+            "name": "849 Testarossa Spider",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_849_Testarossa"
+          }
+        ]
+      },
+      {
+        "id": "luce",
+        "name": "Luce",
+        "chapters": [
+          {
+            "year": 2026,
+            "name": "Luce",
+            "source": "https://en.wikipedia.org/wiki/Ferrari_Luce"
+          }
+        ]
+      }
+    ]
+  },
+  "lamborghini": {
+    "name": "Lamborghini",
+    "modelIndex": "https://en.wikipedia.org/wiki/List_of_Lamborghini_automobiles",
+    "officialReference": "https://www.lamborghini.com/en-en/history",
+    "families": [
+      {
+        "id": "350gt",
+        "name": "350 GT",
+        "chapters": [
+          {
+            "year": 1964,
+            "name": "350 GT",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_350_GT"
+          }
+        ]
+      },
+      {
+        "id": "400gt",
+        "name": "400 GT",
+        "chapters": [
+          {
+            "year": 1966,
+            "name": "400 GT / Interim",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_400_GT"
+          },
+          {
+            "year": 1966,
+            "name": "400 GT 2+2",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_400_GT"
+          }
+        ]
+      },
+      {
+        "id": "miura",
+        "name": "Miura",
+        "chapters": [
+          {
+            "year": 1966,
+            "name": "P400 / S",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Miura"
+          },
+          {
+            "year": 1971,
+            "name": "P400 SV",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Miura"
+          }
+        ]
+      },
+      {
+        "id": "islero",
+        "name": "Islero",
+        "chapters": [
+          {
+            "year": 1968,
+            "name": "Islero / S",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Islero"
+          }
+        ]
+      },
+      {
+        "id": "espada",
+        "name": "Espada",
+        "chapters": [
+          {
+            "year": 1968,
+            "name": "Series I",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Espada"
+          },
+          {
+            "year": 1970,
+            "name": "Series II / III",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Espada"
+          }
+        ]
+      },
+      {
+        "id": "jarama",
+        "name": "Jarama",
+        "chapters": [
+          {
+            "year": 1970,
+            "name": "Jarama GT / GTS",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Jarama"
+          }
+        ]
+      },
+      {
+        "id": "urraco",
+        "name": "Urraco",
+        "chapters": [
+          {
+            "year": 1972,
+            "name": "P200 / P250 / P300",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Urraco"
+          }
+        ]
+      },
+      {
+        "id": "countach",
+        "name": "Countach",
+        "chapters": [
+          {
+            "year": 1974,
+            "name": "LP400",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+          },
+          {
+            "year": 1978,
+            "name": "LP400 S / LP500 S",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+          },
+          {
+            "year": 1985,
+            "name": "5000 Quattrovalvole",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+          },
+          {
+            "year": 1988,
+            "name": "25th Anniversary",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+          }
+        ]
+      },
+      {
+        "id": "silhouette",
+        "name": "Silhouette",
+        "chapters": [
+          {
+            "year": 1976,
+            "name": "Silhouette",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Silhouette"
+          }
+        ]
+      },
+      {
+        "id": "jalpa",
+        "name": "Jalpa",
+        "chapters": [
+          {
+            "year": 1981,
+            "name": "Jalpa",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Jalpa"
+          }
+        ]
+      },
+      {
+        "id": "lm002",
+        "name": "LM002",
+        "chapters": [
+          {
+            "year": 1986,
+            "name": "LM002",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_LM002"
+          }
+        ]
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo",
+        "chapters": [
+          {
+            "year": 1990,
+            "name": "Original Diablo / VT",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+          },
+          {
+            "year": 1995,
+            "name": "VT Roadster",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+          },
+          {
+            "year": 1999,
+            "name": "Diablo GT",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+          },
+          {
+            "year": 2000,
+            "name": "VT 6.0",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+          }
+        ]
+      },
+      {
+        "id": "murcielago",
+        "name": "Murciélago",
+        "chapters": [
+          {
+            "year": 2001,
+            "name": "Murciélago / LP640",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+          },
+          {
+            "year": 2004,
+            "name": "Roadster",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+          },
+          {
+            "year": 2009,
+            "name": "LP670-4 SuperVeloce",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+          }
+        ]
+      },
+      {
+        "id": "gallardo",
+        "name": "Gallardo",
+        "chapters": [
+          {
+            "year": 2003,
+            "name": "Gallardo coupé",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+          },
+          {
+            "year": 2006,
+            "name": "Gallardo Spyder",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+          },
+          {
+            "year": 2008,
+            "name": "LP560-4 / LP550-2",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+          },
+          {
+            "year": 2010,
+            "name": "LP570-4 Superleggera",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+          }
+        ]
+      },
+      {
+        "id": "reventon",
+        "name": "Reventón",
+        "chapters": [
+          {
+            "year": 2007,
+            "name": "Reventón coupé",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Revent%C3%B3n"
+          },
+          {
+            "year": 2009,
+            "name": "Reventón Roadster",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Revent%C3%B3n"
+          }
+        ]
+      },
+      {
+        "id": "aventador",
+        "name": "Aventador",
+        "chapters": [
+          {
+            "year": 2011,
+            "name": "LP700-4 / S",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
+          },
+          {
+            "year": 2012,
+            "name": "Roadster",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
+          },
+          {
+            "year": 2015,
+            "name": "SuperVeloce",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
+          },
+          {
+            "year": 2018,
+            "name": "SVJ",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
+          }
+        ]
+      },
+      {
+        "id": "veneno",
+        "name": "Veneno",
+        "chapters": [
+          {
+            "year": 2013,
+            "name": "Veneno coupé",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Veneno"
+          },
+          {
+            "year": 2014,
+            "name": "Veneno Roadster",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Veneno"
+          }
+        ]
+      },
+      {
+        "id": "huracan",
+        "name": "Huracán",
+        "chapters": [
+          {
+            "year": 2014,
+            "name": "LP610-4 / Evo",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+          },
+          {
+            "year": 2015,
+            "name": "Spyder",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+          },
+          {
+            "year": 2017,
+            "name": "Performante",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+          },
+          {
+            "year": 2020,
+            "name": "STO",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+          },
+          {
+            "year": 2022,
+            "name": "Tecnica",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+          },
+          {
+            "year": 2022,
+            "name": "Sterrato",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n"
+          }
+        ]
+      },
+      {
+        "id": "centenario",
+        "name": "Centenario",
+        "chapters": [
+          {
+            "year": 2016,
+            "name": "Centenario coupé",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Centenario"
+          },
+          {
+            "year": 2016,
+            "name": "Centenario Roadster",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Centenario"
+          }
+        ]
+      },
+      {
+        "id": "urus",
+        "name": "Urus",
+        "chapters": [
+          {
+            "year": 2017,
+            "name": "Urus / S",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Urus"
+          },
+          {
+            "year": 2022,
+            "name": "Performante",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Urus"
+          },
+          {
+            "year": 2024,
+            "name": "SE",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Urus"
+          }
+        ]
+      },
+      {
+        "id": "sian",
+        "name": "Sián FKP 37",
+        "chapters": [
+          {
+            "year": 2019,
+            "name": "Sián FKP 37",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Si%C3%A1n_FKP_37"
+          },
+          {
+            "year": 2020,
+            "name": "Sián Roadster",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Si%C3%A1n_FKP_37"
+          }
+        ]
+      },
+      {
+        "id": "countach-lpi",
+        "name": "Countach LPI 800-4",
+        "chapters": [
+          {
+            "year": 2021,
+            "name": "Countach LPI 800-4",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Countach_LPI_800-4"
+          }
+        ]
+      },
+      {
+        "id": "revuelto",
+        "name": "Revuelto",
+        "chapters": [
+          {
+            "year": 2023,
+            "name": "Revuelto",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Revuelto"
+          }
+        ]
+      },
+      {
+        "id": "temerario",
+        "name": "Temerario",
+        "chapters": [
+          {
+            "year": 2024,
+            "name": "Temerario",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Temerario"
+          }
+        ]
+      },
+      {
+        "id": "fenomeno",
+        "name": "Fenomeno",
+        "chapters": [
+          {
+            "year": 2025,
+            "name": "Fenomeno",
+            "source": "https://en.wikipedia.org/wiki/Lamborghini_Fenomeno"
+          }
+        ]
+      }
+    ]
+  },
+  "porsche": {
+    "name": "Porsche",
+    "modelIndex": "https://en.wikipedia.org/wiki/List_of_Porsche_vehicles",
+    "officialReference": "https://www.porsche.com/usa/accessoriesandservice/classic/models/",
+    "families": [
+      {
+        "id": "356",
+        "name": "356",
+        "chapters": [
+          {
+            "year": 1948,
+            "name": "356 Pre-A",
+            "source": "https://en.wikipedia.org/wiki/Porsche_356"
+          },
+          {
+            "year": 1955,
+            "name": "356 A",
+            "source": "https://en.wikipedia.org/wiki/Porsche_356"
+          },
+          {
+            "year": 1959,
+            "name": "356 B",
+            "source": "https://en.wikipedia.org/wiki/Porsche_356"
+          },
+          {
+            "year": 1963,
+            "name": "356 C",
+            "source": "https://en.wikipedia.org/wiki/Porsche_356"
+          }
+        ]
+      },
+      {
+        "id": "550",
+        "name": "550 Spyder",
+        "chapters": [
+          {
+            "year": 1953,
+            "name": "550 Spyder",
+            "source": "https://en.wikipedia.org/wiki/Porsche_550"
+          }
+        ]
+      },
+      {
+        "id": "718-rsk",
+        "name": "718 RSK / RS60 / RS61",
+        "chapters": [
+          {
+            "year": 1957,
+            "name": "718 RSK",
+            "source": "https://en.wikipedia.org/wiki/Porsche_718"
+          },
+          {
+            "year": 1960,
+            "name": "718 RS60 / RS61",
+            "source": "https://en.wikipedia.org/wiki/Porsche_718"
+          }
+        ]
+      },
+      {
+        "id": "904",
+        "name": "904 Carrera GTS",
+        "chapters": [
+          {
+            "year": 1963,
+            "name": "904 Carrera GTS",
+            "source": "https://en.wikipedia.org/wiki/Porsche_904"
+          }
+        ]
+      },
+      {
+        "id": "911",
+        "name": "911 / Turbo",
+        "chapters": [
+          {
+            "year": 1963,
+            "name": "Original 911 / F series",
+            "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+          },
+          {
+            "year": 1965,
+            "name": "Classic Targa",
+            "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+          },
+          {
+            "year": 1973,
+            "name": "G series",
+            "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+          },
+          {
+            "year": 1974,
+            "name": "930 Turbo",
+            "source": "https://en.wikipedia.org/wiki/Porsche_930"
+          },
+          {
+            "year": 1982,
+            "name": "G-series Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+          },
+          {
+            "year": 1988,
+            "name": "964",
+            "source": "https://en.wikipedia.org/wiki/Porsche_964"
+          },
+          {
+            "year": 1993,
+            "name": "993",
+            "source": "https://en.wikipedia.org/wiki/Porsche_993"
+          },
+          {
+            "year": 1997,
+            "name": "996",
+            "source": "https://en.wikipedia.org/wiki/Porsche_996"
+          },
+          {
+            "year": 2004,
+            "name": "997",
+            "source": "https://en.wikipedia.org/wiki/Porsche_997"
+          },
+          {
+            "year": 2011,
+            "name": "991",
+            "source": "https://en.wikipedia.org/wiki/Porsche_991"
+          },
+          {
+            "year": 2014,
+            "name": "991 Targa",
+            "source": "https://en.wikipedia.org/wiki/Porsche_991"
+          },
+          {
+            "year": 2018,
+            "name": "992",
+            "source": "https://en.wikipedia.org/wiki/Porsche_992"
+          },
+          {
+            "year": 2022,
+            "name": "992 GT3 RS",
+            "source": "https://en.wikipedia.org/wiki/Porsche_992"
+          },
+          {
+            "year": 2022,
+            "name": "992 Dakar",
+            "source": "https://en.wikipedia.org/wiki/Porsche_992"
+          }
+        ]
+      },
+      {
+        "id": "912",
+        "name": "912 / 912E",
+        "chapters": [
+          {
+            "year": 1965,
+            "name": "912",
+            "source": "https://en.wikipedia.org/wiki/Porsche_912"
+          },
+          {
+            "year": 1976,
+            "name": "912E",
+            "source": "https://en.wikipedia.org/wiki/Porsche_912"
+          }
+        ]
+      },
+      {
+        "id": "906",
+        "name": "906 Carrera 6",
+        "chapters": [
+          {
+            "year": 1966,
+            "name": "906 Carrera 6",
+            "source": "https://en.wikipedia.org/wiki/Porsche_906"
+          }
+        ]
+      },
+      {
+        "id": "914",
+        "name": "914 / 914-6",
+        "chapters": [
+          {
+            "year": 1969,
+            "name": "914 / 914-6",
+            "source": "https://en.wikipedia.org/wiki/Porsche_914"
+          }
+        ]
+      },
+      {
+        "id": "924",
+        "name": "924",
+        "chapters": [
+          {
+            "year": 1976,
+            "name": "924 / 924S",
+            "source": "https://en.wikipedia.org/wiki/Porsche_924"
+          },
+          {
+            "year": 1978,
+            "name": "924 Turbo",
+            "source": "https://en.wikipedia.org/wiki/Porsche_924"
+          },
+          {
+            "year": 1980,
+            "name": "924 Carrera GT",
+            "source": "https://en.wikipedia.org/wiki/Porsche_924"
+          }
+        ]
+      },
+      {
+        "id": "928",
+        "name": "928",
+        "chapters": [
+          {
+            "year": 1977,
+            "name": "928 / S",
+            "source": "https://en.wikipedia.org/wiki/Porsche_928"
+          },
+          {
+            "year": 1986,
+            "name": "S4 / GT / GTS",
+            "source": "https://en.wikipedia.org/wiki/Porsche_928"
+          }
+        ]
+      },
+      {
+        "id": "944",
+        "name": "944",
+        "chapters": [
+          {
+            "year": 1982,
+            "name": "944 / S",
+            "source": "https://en.wikipedia.org/wiki/Porsche_944"
+          },
+          {
+            "year": 1985,
+            "name": "944 Turbo / S2",
+            "source": "https://en.wikipedia.org/wiki/Porsche_944"
+          },
+          {
+            "year": 1989,
+            "name": "944 S2 Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Porsche_944"
+          }
+        ]
+      },
+      {
+        "id": "959",
+        "name": "959",
+        "chapters": [
+          {
+            "year": 1986,
+            "name": "959 Komfort / Sport",
+            "source": "https://en.wikipedia.org/wiki/Porsche_959"
+          }
+        ]
+      },
+      {
+        "id": "968",
+        "name": "968",
+        "chapters": [
+          {
+            "year": 1991,
+            "name": "968 coupé / Club Sport",
+            "source": "https://en.wikipedia.org/wiki/Porsche_968"
+          },
+          {
+            "year": 1991,
+            "name": "968 Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Porsche_968"
+          }
+        ]
+      },
+      {
+        "id": "boxster",
+        "name": "Boxster / Cayman / modern 718",
+        "chapters": [
+          {
+            "year": 1996,
+            "name": "986 Boxster",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman"
+          },
+          {
+            "year": 2004,
+            "name": "987 Boxster",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman"
+          },
+          {
+            "year": 2005,
+            "name": "987 Cayman",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman"
+          },
+          {
+            "year": 2012,
+            "name": "981 Boxster / Cayman",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Boxster_and_Cayman"
+          },
+          {
+            "year": 2016,
+            "name": "982 / 718 Boxster and Cayman",
+            "source": "https://en.wikipedia.org/wiki/Porsche_982"
+          }
+        ]
+      },
+      {
+        "id": "911-gt1",
+        "name": "911 GT1 Straßenversion",
+        "chapters": [
+          {
+            "year": 1996,
+            "name": "911 GT1 Straßenversion",
+            "source": "https://en.wikipedia.org/wiki/Porsche_911_GT1"
+          }
+        ]
+      },
+      {
+        "id": "cayenne",
+        "name": "Cayenne",
+        "chapters": [
+          {
+            "year": 2002,
+            "name": "955 / 957",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+          },
+          {
+            "year": 2010,
+            "name": "958",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+          },
+          {
+            "year": 2017,
+            "name": "9Y0 / E3",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+          },
+          {
+            "year": 2019,
+            "name": "Cayenne Coupé",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+          },
+          {
+            "year": 2025,
+            "name": "Cayenne Electric",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric"
+          }
+        ]
+      },
+      {
+        "id": "carrera-gt",
+        "name": "Carrera GT",
+        "chapters": [
+          {
+            "year": 2003,
+            "name": "Carrera GT",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Carrera_GT"
+          }
+        ]
+      },
+      {
+        "id": "panamera",
+        "name": "Panamera",
+        "chapters": [
+          {
+            "year": 2009,
+            "name": "970",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+          },
+          {
+            "year": 2016,
+            "name": "971",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+          },
+          {
+            "year": 2017,
+            "name": "Sport Turismo",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+          },
+          {
+            "year": 2023,
+            "name": "976",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+          }
+        ]
+      },
+      {
+        "id": "918",
+        "name": "918 Spyder",
+        "chapters": [
+          {
+            "year": 2013,
+            "name": "918 Spyder",
+            "source": "https://en.wikipedia.org/wiki/Porsche_918_Spyder"
+          }
+        ]
+      },
+      {
+        "id": "macan",
+        "name": "Macan",
+        "chapters": [
+          {
+            "year": 2014,
+            "name": "95B",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Macan"
+          },
+          {
+            "year": 2024,
+            "name": "Electric / XAB",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Macan"
+          }
+        ]
+      },
+      {
+        "id": "taycan",
+        "name": "Taycan",
+        "chapters": [
+          {
+            "year": 2019,
+            "name": "Taycan saloon",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Taycan"
+          },
+          {
+            "year": 2021,
+            "name": "Cross Turismo / Sport Turismo",
+            "source": "https://en.wikipedia.org/wiki/Porsche_Taycan"
+          }
+        ]
+      }
+    ]
+  },
+  "tesla": {
+    "name": "Tesla",
+    "modelIndex": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "officialReference": "https://www.tesla.com/support/meet-your-tesla",
+    "families": [
+      {
+        "id": "roadster",
+        "name": "Roadster",
+        "chapters": [
+          {
+            "year": 2008,
+            "name": "Original Roadster / Sport / 2.5",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Roadster_%28first_generation%29"
+          }
+        ]
+      },
+      {
+        "id": "model-s",
+        "name": "Model S",
+        "chapters": [
+          {
+            "year": 2012,
+            "name": "Original Model S",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_S"
+          },
+          {
+            "year": 2016,
+            "name": "Revised nose",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_S"
+          },
+          {
+            "year": 2021,
+            "name": "Cabin redesign / Plaid",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_S"
+          }
+        ]
+      },
+      {
+        "id": "model-x",
+        "name": "Model X",
+        "chapters": [
+          {
+            "year": 2015,
+            "name": "Original Model X",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_X"
+          },
+          {
+            "year": 2021,
+            "name": "Cabin redesign / Plaid",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_X"
+          }
+        ]
+      },
+      {
+        "id": "model-3",
+        "name": "Model 3",
+        "chapters": [
+          {
+            "year": 2017,
+            "name": "Original Model 3",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_3"
+          },
+          {
+            "year": 2023,
+            "name": "Highland",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_3"
+          }
+        ]
+      },
+      {
+        "id": "model-y",
+        "name": "Model Y",
+        "chapters": [
+          {
+            "year": 2020,
+            "name": "Original Model Y",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_Y"
+          },
+          {
+            "year": 2025,
+            "name": "Juniper",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_Y"
+          },
+          {
+            "year": 2025,
+            "name": "Model Y L",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Model_Y"
+          }
+        ]
+      },
+      {
+        "id": "cybertruck",
+        "name": "Cybertruck",
+        "chapters": [
+          {
+            "year": 2023,
+            "name": "Production Cybertruck",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+          }
+        ]
+      },
+      {
+        "id": "cybercab",
+        "name": "Cybercab",
+        "chapters": [
+          {
+            "year": 2026,
+            "name": "Production programme",
+            "source": "https://en.wikipedia.org/wiki/Tesla_Cybercab"
+          }
+        ]
+      }
+    ]
+  },
+  "mercedes": {
+    "name": "Mercedes-Benz",
+    "modelIndex": "https://en.wikipedia.org/wiki/List_of_Mercedes-Benz_vehicles",
+    "officialReference": "https://www.mercedes-benz.com/en/art-and-culture/museum/",
+    "families": [
+      {
+        "id": "630",
+        "name": "400 / 630 / K",
+        "chapters": [
+          {
+            "year": 1926,
+            "name": "400 / 630 / K",
+            "source": "https://en.wikipedia.org/wiki/Mercedes_24/100/140_PS"
+          }
+        ]
+      },
+      {
+        "id": "stuttgart",
+        "name": "8/38 PS / Stuttgart 200 / 260",
+        "chapters": [
+          {
+            "year": 1926,
+            "name": "8/38 PS / W02",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W02"
+          },
+          {
+            "year": 1929,
+            "name": "Stuttgart 200 / 260 / W11",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W11"
+          }
+        ]
+      },
+      {
+        "id": "300-350",
+        "name": "300 / 350 W03-W05",
+        "chapters": [
+          {
+            "year": 1926,
+            "name": "300 / 350 / W03-W04-W05",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W03"
+          }
+        ]
+      },
+      {
+        "id": "s-series",
+        "name": "S / SS / SSK",
+        "chapters": [
+          {
+            "year": 1927,
+            "name": "S / W06",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_S-Series"
+          },
+          {
+            "year": 1928,
+            "name": "SS / SSK",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SSK"
+          }
+        ]
+      },
+      {
+        "id": "nurburg",
+        "name": "Nürburg 460 / 500",
+        "chapters": [
+          {
+            "year": 1928,
+            "name": "Nürburg 460 / 500",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W08"
+          }
+        ]
+      },
+      {
+        "id": "mannheim",
+        "name": "Mannheim / 380 S",
+        "chapters": [
+          {
+            "year": 1929,
+            "name": "Mannheim 350 / 370 / 380; 380 S",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W10"
+          }
+        ]
+      },
+      {
+        "id": "770",
+        "name": "770 Großer Mercedes",
+        "chapters": [
+          {
+            "year": 1930,
+            "name": "770 / W07",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_770"
+          },
+          {
+            "year": 1938,
+            "name": "770 / W150",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_770"
+          }
+        ]
+      },
+      {
+        "id": "170",
+        "name": "170 / W15",
+        "chapters": [
+          {
+            "year": 1931,
+            "name": "170 / W15",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W15"
+          }
+        ]
+      },
+      {
+        "id": "200",
+        "name": "200 / W21",
+        "chapters": [
+          {
+            "year": 1933,
+            "name": "200 / W21",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W21"
+          }
+        ]
+      },
+      {
+        "id": "290",
+        "name": "290 / W18",
+        "chapters": [
+          {
+            "year": 1933,
+            "name": "290 / W18",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W18"
+          }
+        ]
+      },
+      {
+        "id": "380",
+        "name": "380 / W22",
+        "chapters": [
+          {
+            "year": 1933,
+            "name": "380 / W22",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_380_%281933%29"
+          }
+        ]
+      },
+      {
+        "id": "rear-engine",
+        "name": "130 / 150 / 170 H",
+        "chapters": [
+          {
+            "year": 1934,
+            "name": "130 / W23",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_130"
+          },
+          {
+            "year": 1935,
+            "name": "150 Roadster / W30",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_130"
+          },
+          {
+            "year": 1936,
+            "name": "170 H / W28",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_130"
+          }
+        ]
+      },
+      {
+        "id": "500k",
+        "name": "500 K / 540 K",
+        "chapters": [
+          {
+            "year": 1934,
+            "name": "500 K",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_500K"
+          },
+          {
+            "year": 1936,
+            "name": "540 K",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_540K"
+          }
+        ]
+      },
+      {
+        "id": "170v",
+        "name": "170 V / 170 S",
+        "chapters": [
+          {
+            "year": 1936,
+            "name": "170 V / W136",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W136"
+          },
+          {
+            "year": 1949,
+            "name": "170 S / W191",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W136"
+          }
+        ]
+      },
+      {
+        "id": "260d",
+        "name": "260 D",
+        "chapters": [
+          {
+            "year": 1936,
+            "name": "260 D / W138",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_260_D"
+          }
+        ]
+      },
+      {
+        "id": "230",
+        "name": "230 / W143 / W153",
+        "chapters": [
+          {
+            "year": 1937,
+            "name": "230 / W143",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W143"
+          },
+          {
+            "year": 1938,
+            "name": "230 / W153",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W153"
+          }
+        ]
+      },
+      {
+        "id": "320",
+        "name": "320 / W142",
+        "chapters": [
+          {
+            "year": 1937,
+            "name": "320 / W142",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W142"
+          }
+        ]
+      },
+      {
+        "id": "adenauer",
+        "name": "300 Adenauer",
+        "chapters": [
+          {
+            "year": 1951,
+            "name": "300 / W186",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W186"
+          },
+          {
+            "year": 1957,
+            "name": "300 d / W189",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W189"
+          }
+        ]
+      },
+      {
+        "id": "300s",
+        "name": "300 S / Sc",
+        "chapters": [
+          {
+            "year": 1951,
+            "name": "300 S / Sc / W188",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W188"
+          }
+        ]
+      },
+      {
+        "id": "s-class",
+        "name": "220 / S-Class lineage",
+        "chapters": [
+          {
+            "year": 1951,
+            "name": "220 / W187",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W187"
+          },
+          {
+            "year": 1954,
+            "name": "220 / W180 / W128 Ponton",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W180"
+          },
+          {
+            "year": 1959,
+            "name": "W111 / W112 fintail saloon",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W111"
+          },
+          {
+            "year": 1965,
+            "name": "W108 / W109",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W108"
+          },
+          {
+            "year": 1972,
+            "name": "W116",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W116"
+          },
+          {
+            "year": 1979,
+            "name": "W126",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W126"
+          },
+          {
+            "year": 1991,
+            "name": "W140",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W140"
+          },
+          {
+            "year": 1998,
+            "name": "W220",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W220"
+          },
+          {
+            "year": 2005,
+            "name": "W221",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W221"
+          },
+          {
+            "year": 2013,
+            "name": "W222",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W222"
+          },
+          {
+            "year": 2015,
+            "name": "Mercedes-Maybach S-Class",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W222"
+          },
+          {
+            "year": 2020,
+            "name": "W223",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_S-Class_%28W223%29"
+          }
+        ]
+      },
+      {
+        "id": "e-class",
+        "name": "Ponton / fintail / E-Class lineage",
+        "chapters": [
+          {
+            "year": 1953,
+            "name": "180 / 190 / W120-W121 Ponton",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W120"
+          },
+          {
+            "year": 1956,
+            "name": "219 / W105",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W105"
+          },
+          {
+            "year": 1961,
+            "name": "W110 fintail",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W110"
+          },
+          {
+            "year": 1968,
+            "name": "W114 / W115 Stroke Eight",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W114"
+          },
+          {
+            "year": 1976,
+            "name": "W123",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W123"
+          },
+          {
+            "year": 1984,
+            "name": "W124",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W124"
+          },
+          {
+            "year": 1995,
+            "name": "W210",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_%28W210%29"
+          },
+          {
+            "year": 2002,
+            "name": "W211",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_%28W211%29"
+          },
+          {
+            "year": 2009,
+            "name": "W212",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_%28W212%29"
+          },
+          {
+            "year": 2016,
+            "name": "W213",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_%28W213%29"
+          },
+          {
+            "year": 2023,
+            "name": "W214",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_%28W214%29"
+          }
+        ]
+      },
+      {
+        "id": "sl",
+        "name": "SL",
+        "chapters": [
+          {
+            "year": 1954,
+            "name": "300 SL Gullwing / W198",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_300_SL"
+          },
+          {
+            "year": 1957,
+            "name": "300 SL Roadster",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_300_SL"
+          },
+          {
+            "year": 1963,
+            "name": "Pagoda / W113",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W113"
+          },
+          {
+            "year": 1971,
+            "name": "R107",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_R107_and_C107"
+          },
+          {
+            "year": 1989,
+            "name": "R129",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SL-Class_%28R129%29"
+          },
+          {
+            "year": 2001,
+            "name": "R230",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SL-Class_%28R230%29"
+          },
+          {
+            "year": 2012,
+            "name": "R231",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SL-Class_%28R231%29"
+          },
+          {
+            "year": 2021,
+            "name": "R232 / Mercedes-AMG SL",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_SL_%28R232%29"
+          },
+          {
+            "year": 2024,
+            "name": "Mercedes-Maybach SL",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_SL_%28R232%29"
+          }
+        ]
+      },
+      {
+        "id": "190sl",
+        "name": "190 SL",
+        "chapters": [
+          {
+            "year": 1955,
+            "name": "190 SL / R121",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_190_SL"
+          }
+        ]
+      },
+      {
+        "id": "two-door-luxury",
+        "name": "220 SE Coupé / SEC / CL / S Coupé",
+        "chapters": [
+          {
+            "year": 1961,
+            "name": "W111 / W112 Coupé and Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W111"
+          },
+          {
+            "year": 1981,
+            "name": "C126 SEC",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C126"
+          },
+          {
+            "year": 1992,
+            "name": "C140 S Coupé / CL",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W140"
+          },
+          {
+            "year": 1999,
+            "name": "C215 CL",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CL-Class_%28C215%29"
+          },
+          {
+            "year": 2006,
+            "name": "C216 CL",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CL-Class_%28C216%29"
+          },
+          {
+            "year": 2014,
+            "name": "C217 S Coupé",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_S-Class_%28C217%29"
+          },
+          {
+            "year": 2015,
+            "name": "A217 S Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_S-Class_%28C217%29"
+          }
+        ]
+      },
+      {
+        "id": "600",
+        "name": "600 / W100",
+        "chapters": [
+          {
+            "year": 1963,
+            "name": "600 / W100",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_600"
+          },
+          {
+            "year": 1964,
+            "name": "Pullman / Landaulet",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_600"
+          }
+        ]
+      },
+      {
+        "id": "slc-c107",
+        "name": "SLC / C107",
+        "chapters": [
+          {
+            "year": 1971,
+            "name": "C107 SLC",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_R107_and_C107"
+          }
+        ]
+      },
+      {
+        "id": "g-class",
+        "name": "G-Class",
+        "chapters": [
+          {
+            "year": 1979,
+            "name": "W460 / W461",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+          },
+          {
+            "year": 1990,
+            "name": "W463",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+          },
+          {
+            "year": 2013,
+            "name": "G63 AMG 6×6",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+          },
+          {
+            "year": 2018,
+            "name": "Second-generation W463",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+          },
+          {
+            "year": 2024,
+            "name": "W465 / electric G580",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+          }
+        ]
+      },
+      {
+        "id": "c-class",
+        "name": "190 / C-Class",
+        "chapters": [
+          {
+            "year": 1982,
+            "name": "190 / W201",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_W201"
+          },
+          {
+            "year": 1993,
+            "name": "W202",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_%28W202%29"
+          },
+          {
+            "year": 2000,
+            "name": "W203",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_%28W203%29"
+          },
+          {
+            "year": 2007,
+            "name": "W204",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_%28W204%29"
+          },
+          {
+            "year": 2014,
+            "name": "W205",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_%28W205%29"
+          },
+          {
+            "year": 2021,
+            "name": "W206",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_%28W206%29"
+          },
+          {
+            "year": 2026,
+            "name": "Electric C-Class",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_Electric"
+          }
+        ]
+      },
+      {
+        "id": "slk",
+        "name": "SLK / SLC",
+        "chapters": [
+          {
+            "year": 1996,
+            "name": "R170 SLK",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLK-Class_%28R170%29"
+          },
+          {
+            "year": 2004,
+            "name": "R171 SLK",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLK-Class_%28R171%29"
+          },
+          {
+            "year": 2011,
+            "name": "R172 SLK",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLK-Class_%28R172%29"
+          },
+          {
+            "year": 2016,
+            "name": "R172 SLC",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLC-Class"
+          }
+        ]
+      },
+      {
+        "id": "a-class",
+        "name": "A-Class",
+        "chapters": [
+          {
+            "year": 1997,
+            "name": "W168",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class_%28W168%29"
+          },
+          {
+            "year": 2004,
+            "name": "W169",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class_%28W169%29"
+          },
+          {
+            "year": 2012,
+            "name": "W176",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class_%28W176%29"
+          },
+          {
+            "year": 2018,
+            "name": "W177 / V177",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class_%28W177%29"
+          }
+        ]
+      },
+      {
+        "id": "clk",
+        "name": "CLK",
+        "chapters": [
+          {
+            "year": 1997,
+            "name": "C208 / A208",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLK-Class_%28C208%29"
+          },
+          {
+            "year": 2002,
+            "name": "C209 / A209",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLK-Class_%28C209%29"
+          }
+        ]
+      },
+      {
+        "id": "clk-gtr",
+        "name": "CLK GTR Straßenversion",
+        "chapters": [
+          {
+            "year": 1997,
+            "name": "CLK GTR coupé",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLK_GTR"
+          },
+          {
+            "year": 2002,
+            "name": "CLK GTR Roadster",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLK_GTR"
+          }
+        ]
+      },
+      {
+        "id": "gle",
+        "name": "M-Class / GLE",
+        "chapters": [
+          {
+            "year": 1997,
+            "name": "W163 M-Class",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_M-Class_%28W163%29"
+          },
+          {
+            "year": 2005,
+            "name": "W164 M-Class",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_M-Class_%28W164%29"
+          },
+          {
+            "year": 2011,
+            "name": "W166 M-Class / GLE",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE-Class"
+          },
+          {
+            "year": 2015,
+            "name": "C292 GLE Coupé",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE-Class_%28C292%29"
+          },
+          {
+            "year": 2018,
+            "name": "W167 / C167 GLE",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE-Class"
+          }
+        ]
+      },
+      {
+        "id": "clc",
+        "name": "C-Class SportCoupé / CLC",
+        "chapters": [
+          {
+            "year": 2000,
+            "name": "CL203 SportCoupé",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_%28W203%29"
+          },
+          {
+            "year": 2008,
+            "name": "CLC",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_%28W203%29"
+          }
+        ]
+      },
+      {
+        "id": "slr",
+        "name": "SLR McLaren",
+        "chapters": [
+          {
+            "year": 2003,
+            "name": "SLR McLaren coupé",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLR_McLaren"
+          },
+          {
+            "year": 2007,
+            "name": "SLR Roadster",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLR_McLaren"
+          },
+          {
+            "year": 2009,
+            "name": "Stirling Moss",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLR_McLaren"
+          }
+        ]
+      },
+      {
+        "id": "cls",
+        "name": "CLS",
+        "chapters": [
+          {
+            "year": 2004,
+            "name": "C219",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLS-Class_%28C219%29"
+          },
+          {
+            "year": 2010,
+            "name": "C218",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLS-Class_%28C218%29"
+          },
+          {
+            "year": 2012,
+            "name": "X218 Shooting Brake",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLS-Class_%28C218%29"
+          },
+          {
+            "year": 2018,
+            "name": "C257",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLS-Class_%28C257%29"
+          }
+        ]
+      },
+      {
+        "id": "b-class",
+        "name": "B-Class",
+        "chapters": [
+          {
+            "year": 2005,
+            "name": "W245",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_B-Class_%28W245%29"
+          },
+          {
+            "year": 2011,
+            "name": "W246",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_B-Class_%28W246%29"
+          },
+          {
+            "year": 2018,
+            "name": "W247",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_B-Class_%28W247%29"
+          }
+        ]
+      },
+      {
+        "id": "r-class",
+        "name": "R-Class",
+        "chapters": [
+          {
+            "year": 2005,
+            "name": "W251",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_R-Class"
+          },
+          {
+            "year": 2010,
+            "name": "W251 restyle",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_R-Class"
+          }
+        ]
+      },
+      {
+        "id": "gls",
+        "name": "GL / GLS",
+        "chapters": [
+          {
+            "year": 2006,
+            "name": "X164 GL",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GL-Class_%28X164%29"
+          },
+          {
+            "year": 2012,
+            "name": "X166 GL / GLS",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GL-Class_%28X166%29"
+          },
+          {
+            "year": 2019,
+            "name": "X167 GLS / Mercedes-Maybach GLS",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLS_%28X167%29"
+          }
+        ]
+      },
+      {
+        "id": "glc",
+        "name": "GLK / GLC",
+        "chapters": [
+          {
+            "year": 2008,
+            "name": "X204 GLK",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLK-Class"
+          },
+          {
+            "year": 2015,
+            "name": "X253 GLC",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLC-Class_%28X253%29"
+          },
+          {
+            "year": 2016,
+            "name": "C253 GLC Coupé",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLC-Class_%28X253%29"
+          },
+          {
+            "year": 2022,
+            "name": "X254 / C254 GLC",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLC-Class_%28X254%29"
+          },
+          {
+            "year": 2025,
+            "name": "GLC with EQ Technology",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLC_Electric"
+          }
+        ]
+      },
+      {
+        "id": "sls",
+        "name": "SLS AMG",
+        "chapters": [
+          {
+            "year": 2009,
+            "name": "SLS AMG coupé / Electric Drive",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG"
+          },
+          {
+            "year": 2011,
+            "name": "SLS Roadster",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG"
+          },
+          {
+            "year": 2013,
+            "name": "SLS Black Series",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG"
+          }
+        ]
+      },
+      {
+        "id": "cla",
+        "name": "CLA",
+        "chapters": [
+          {
+            "year": 2013,
+            "name": "C117",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLA-Class_%28C117%29"
+          },
+          {
+            "year": 2015,
+            "name": "X117 Shooting Brake",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLA-Class_%28C117%29"
+          },
+          {
+            "year": 2019,
+            "name": "C118 / X118",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLA-Class_%28C118%29"
+          },
+          {
+            "year": 2025,
+            "name": "C178 / new CLA",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLA-Class"
+          }
+        ]
+      },
+      {
+        "id": "gla",
+        "name": "GLA",
+        "chapters": [
+          {
+            "year": 2013,
+            "name": "X156",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLA-Class_%28X156%29"
+          },
+          {
+            "year": 2019,
+            "name": "H247",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLA-Class"
+          }
+        ]
+      },
+      {
+        "id": "amg-gt",
+        "name": "AMG GT",
+        "chapters": [
+          {
+            "year": 2014,
+            "name": "C190 coupé",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT"
+          },
+          {
+            "year": 2016,
+            "name": "R190 Roadster",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT"
+          },
+          {
+            "year": 2020,
+            "name": "Black Series",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT"
+          },
+          {
+            "year": 2023,
+            "name": "C192",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT_%28C192%29"
+          }
+        ]
+      },
+      {
+        "id": "x-class",
+        "name": "X-Class",
+        "chapters": [
+          {
+            "year": 2017,
+            "name": "W470 X-Class",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_X-Class"
+          }
+        ]
+      },
+      {
+        "id": "gt-four-door",
+        "name": "AMG GT 4-Door",
+        "chapters": [
+          {
+            "year": 2018,
+            "name": "X290",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT_4-Door_Coup%C3%A9"
+          },
+          {
+            "year": 2026,
+            "name": "Electric generation",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT_4-Door_Coup%C3%A9"
+          }
+        ]
+      },
+      {
+        "id": "eqc",
+        "name": "EQC",
+        "chapters": [
+          {
+            "year": 2019,
+            "name": "N293 EQC",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQC"
+          }
+        ]
+      },
+      {
+        "id": "glb",
+        "name": "GLB",
+        "chapters": [
+          {
+            "year": 2019,
+            "name": "X247",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLB"
+          },
+          {
+            "year": 2025,
+            "name": "New electric GLB",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLB"
+          }
+        ]
+      },
+      {
+        "id": "eqa",
+        "name": "EQA",
+        "chapters": [
+          {
+            "year": 2021,
+            "name": "H243 EQA",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQA"
+          }
+        ]
+      },
+      {
+        "id": "eqb",
+        "name": "EQB",
+        "chapters": [
+          {
+            "year": 2021,
+            "name": "X243 EQB",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQB"
+          }
+        ]
+      },
+      {
+        "id": "eqs",
+        "name": "EQS / EQS SUV",
+        "chapters": [
+          {
+            "year": 2021,
+            "name": "V297 EQS liftback",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQS"
+          },
+          {
+            "year": 2022,
+            "name": "X296 EQS SUV",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQS_SUV"
+          }
+        ]
+      },
+      {
+        "id": "eqe",
+        "name": "EQE / EQE SUV",
+        "chapters": [
+          {
+            "year": 2022,
+            "name": "V295 EQE saloon",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQE"
+          },
+          {
+            "year": 2022,
+            "name": "X294 EQE SUV",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQE_SUV"
+          }
+        ]
+      },
+      {
+        "id": "amg-one",
+        "name": "AMG ONE",
+        "chapters": [
+          {
+            "year": 2022,
+            "name": "AMG ONE",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-AMG_ONE"
+          }
+        ]
+      },
+      {
+        "id": "cle",
+        "name": "CLE",
+        "chapters": [
+          {
+            "year": 2023,
+            "name": "C236 CLE Coupé",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLE"
+          },
+          {
+            "year": 2024,
+            "name": "A236 CLE Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLE"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -19,9 +19,9 @@ test('serves every referenced photograph with an image content type',async({requ
 test('keeps the archive bounded, chronological and complete',async({page})=>{
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto('/automotive/');
-  await expect(page.locator('.car')).toHaveCount(25);
+  await expect(page.locator('.car')).toHaveCount(38);
   const brands=new Set(catalog.cars.map(c=>c.brand));
-  expect(brands.size).toBe(19);
+  expect(brands.size).toBe(23);
   expect(catalog.cars.length).toBeLessThanOrEqual(Math.floor(brands.size*2.5));
   const years=await page.locator('.car>.year').allTextContents();
   expect(years.map(Number)).toEqual([...years.map(Number)].sort((a,b)=>a-b));
@@ -41,6 +41,19 @@ test('keeps the archive bounded, chronological and complete',async({page})=>{
     }
   }
   expect(errors).toEqual([]);
+});
+
+test('includes all 13 requested additions and expands the four favourite makers',async()=>{
+  const added=['testarossa','laferrari','diablo','aventador','959','taycan','roadster','model-3','utopia','720s','mc20','emira','jesko'];
+  expect(added).toHaveLength(13);
+  for(const id of added){
+    const car=catalog.cars.find(car=>car.id===id);
+    expect(car,id).toBeDefined();
+    expect(car.video.id||car.video.episode,id).not.toMatch(/PENDING/);
+  }
+  for(const [brand,count] of Object.entries({Ferrari:3,Lamborghini:4,Porsche:3,Tesla:4})){
+    expect(catalog.cars.filter(car=>car.brand===brand),brand).toHaveLength(count);
+  }
 });
 
 test('opens every car with its own galleries, evidence and evolution',async({page})=>{
@@ -75,14 +88,15 @@ test('opens every car with its own galleries, evidence and evolution',async({pag
 test('filters by maker and name, preserves chronology, and resets',async({page})=>{
   await page.goto('/automotive/');
   await page.locator('[data-brand="Lamborghini"]').click();
-  await expect(page.locator('.car')).toHaveCount(2);
-  await expect(page.locator('.car h4')).toHaveText(['Miura','Countach']);
+  await expect(page.locator('.car')).toHaveCount(4);
+  await expect(page.locator('.car h4')).toHaveText(['Miura','Countach','Diablo','Aventador']);
   await page.locator('#search').fill('countach');
-  await expect(page.locator('.car')).toHaveCount(1);
+  await expect(page.locator('.car')).toHaveCount(2);
+  await expect(page.locator('.car h4')).toHaveText(['Countach','Diablo']);
   await page.locator('#search').fill('no such car');
   await expect(page.locator('#empty')).toBeVisible();
   await page.locator('#reset').click();
-  await expect(page.locator('.car')).toHaveCount(25);
+  await expect(page.locator('.car')).toHaveCount(38);
 });
 
 test('opens each car at the top after closing or navigating from a scrolled modal',async({page})=>{
@@ -124,7 +138,7 @@ test('supports direct links, browser back, keyboard focus and video opt-in',asyn
 
 test('renders loaded photographs without narrow-screen overflow',async({page},testInfo)=>{
   await page.goto('/automotive/');
-  await expect(page.locator('.car')).toHaveCount(25);
+  await expect(page.locator('.car')).toHaveCount(38);
   await page.locator('#hero img').evaluate(img=>img.decode());
   await page.screenshot({path:testInfo.outputPath('automotive.png')});
   await page.locator('#entry-countach .arrow-link').click();

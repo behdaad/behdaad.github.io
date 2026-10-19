@@ -2,6 +2,7 @@ const {test,expect}=require('@playwright/test');
 const fs=require('node:fs');
 const path=require('node:path');
 const slugs=['ferrari','lamborghini','porsche','tesla','mercedes'];
+const videoAudit=require('../automotive/research/brands/video-verification.json');
 const catalogs=Object.fromEntries(slugs.map(slug=>[slug,require(`../automotive/${slug}/data.json`)]));
 
 for(const slug of slugs){
@@ -20,6 +21,10 @@ for(const slug of slugs){
     for(const car of data.cars){
       expect(car.variants.map(v=>v.year)).toEqual([...car.variants.map(v=>v.year)].sort((a,b)=>a-b));
       expect(car.sources.length).toBeGreaterThan(0);
+      expect(car.video.id,`${slug}/${car.id} YouTube review`).toMatch(/^[A-Za-z0-9_-]{11}$/);
+      const verified=videoAudit[`${slug}/${car.id}`];
+      expect(verified?.status,`${slug}/${car.id} verified public YouTube metadata`).toBe('verified');
+      expect(verified.id).toBe(car.video.id);
       for(const v of car.variants){
         expect(v.photos.length,`${car.name}: ${v.name}`).toBeGreaterThan(0);
         expect(v.shape.length).toBeGreaterThan(15);
@@ -41,6 +46,8 @@ for(const slug of slugs){
       await dialog.locator('[data-gallery="main"] .gallery-stage img').evaluate(img=>img.decode());
       expect(await dialog.evaluate(el=>el.scrollWidth<=el.clientWidth+1),car.name).toBe(true);
       await expect(dialog.locator('iframe')).toHaveCount(0);
+      await expect(dialog.locator('[data-video]')).toHaveAttribute('data-video',car.video.id);
+      await expect(dialog.locator('.video-kind')).not.toHaveText('');
       if(car.variants[0].photos.length>1){
         const gallery=dialog.locator('[data-gallery="main"]');
         const before=await gallery.locator('.gallery-stage img').getAttribute('src');
@@ -78,7 +85,7 @@ for(const slug of slugs){
 test('brand archive assets are served locally and all five pages are linked from Automotive',async({page,request})=>{
   test.setTimeout(60000);
   const paths=[...new Set(Object.entries(catalogs).flatMap(([slug,data])=>data.cars.flatMap(car=>car.variants.flatMap(v=>v.photos.map(p=>new URL(p.src,`http://127.0.0.1:4173/automotive/${slug}/`).pathname)))))];
-  for(let offset=0;offset<paths.length;offset+=12)await Promise.all(paths.slice(offset,offset+12).map(async url=>{
+  for(let offset=0;offset<paths.length;offset+=4)await Promise.all(paths.slice(offset,offset+4).map(async url=>{
     const response=await request.get(url);expect(response.status(),url).toBe(200);expect(response.headers()['content-type'],url).toMatch(/^image\//);
   }));
   await page.goto('/automotive/');
@@ -92,5 +99,23 @@ test('direct film-section links land after the asynchronous timeline has rendere
     await expect(page.locator('.film-card')).toHaveCount(catalogs[slug].films.length);
     await expect.poll(()=>page.locator('#watch').evaluate(el=>{const top=el.getBoundingClientRect().top;return top>=-1 && (top<100 || scrollY+innerHeight>=document.documentElement.scrollHeight-1);})).toBe(true);
     await expect(page.locator('#films-title')).toBeInViewport();
+  }
+});
+
+
+test('brand video players require opt-in, use the selected video, and clear between models',async({page})=>{
+  await page.route('https://www.youtube-nocookie.com/**',route=>route.fulfill({status:200,contentType:'text/html',body:'<!doctype html><title>Video test fixture</title>'}));
+  for(const slug of slugs){
+    const data=catalogs[slug],car=data.cars[0];
+    await page.goto(`/automotive/${slug}/#car=${car.id}`);
+    const dialog=page.locator('#car-dialog');
+    await expect(dialog.locator('iframe')).toHaveCount(0);
+    await dialog.locator('[data-video]').click();
+    await expect(dialog.locator('iframe')).toHaveAttribute('src',`https://www.youtube-nocookie.com/embed/${car.video.id}?autoplay=1`);
+    await page.locator('#close-dialog').click();
+    await page.locator('.model-index-item').last().click();
+    await expect(dialog.locator('iframe')).toHaveCount(0);
+    await expect(dialog.locator('[data-video]')).toHaveAttribute('data-video',data.cars.at(-1).video.id);
+    await page.locator('#close-dialog').click();
   }
 });

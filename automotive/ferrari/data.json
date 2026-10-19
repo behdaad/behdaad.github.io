@@ -1328,7 +1328,17 @@
         "history-inter-1",
         "history-inter-2"
       ],
-      "video": null,
+      "video": {
+        "id": "gjII4dDSCpw",
+        "title": "1951 Ferrari 212 Inter by Ghia - Jay Leno's Garage",
+        "channel": "Jay Leno's Garage",
+        "url": "https://www.youtube.com/watch?v=gjII4dDSCpw",
+        "kind": "review",
+        "note": "Jay Leno examines and drives the Ghia-bodied 212 Inter.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+212+Inter+review",
+        "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+      },
       "facts": {
         "Production": "1948 – 1950 38 produced",
         "Designer": "Touring Stabilimenti Farina Vignale",
@@ -1609,7 +1619,17 @@
         "history-america-4",
         "history-america-5"
       ],
-      "video": null,
+      "video": {
+        "id": "mc8RNjW5p3Y",
+        "title": "Tom Talks: Ferrari 500 Superfast | Tom Hartley Jnr",
+        "channel": "Tom Hartley Jnr Ltd",
+        "url": "https://www.youtube.com/watch?v=mc8RNjW5p3Y",
+        "kind": "walkaround",
+        "note": "A specialist dealer presentation of the 500 Superfast, representing the America family; not an independent road test.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+500+Superfast+review",
+        "channelUrl": "https://www.youtube.com/channel/UCVcX6LugtAGlxnRsS_M1W8Q"
+      },
       "facts": {
         "Production": "1950–1967",
         "Class": "Grand tourer",
@@ -2049,7 +2069,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=a_ISmKypLig",
         "note": "The 250 GT TDF feature is part of this official compilation; other models also appear.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "1952 – 1964",
@@ -2160,7 +2181,17 @@
         "history-250-gto-0",
         "history-250-gto-1"
       ],
-      "video": null,
+      "video": {
+        "id": "q4-TF3rKcnQ",
+        "title": "Ferrari 250 GTO drive review. Does it still deserve its almost mythical status today?",
+        "channel": "Harry's garage",
+        "url": "https://www.youtube.com/watch?v=q4-TF3rKcnQ",
+        "kind": "review",
+        "note": "Harry Metcalfe drives the 250 GTO on the road.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+250+GTO+review",
+        "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+      },
       "facts": {
         "Production": "1962–1964 (36 produced)",
         "Designer": "Giotto Bizzarrini Sergio Scaglietti",
@@ -2318,7 +2349,17 @@
         "history-330-2",
         "history-330-3"
       ],
-      "video": null,
+      "video": {
+        "id": "nU7SpMaX_uE",
+        "title": "1966 Ferrari 330 GT 2+2 - Jay Leno's Garage",
+        "channel": "Jay Leno's Garage",
+        "url": "https://www.youtube.com/watch?v=nU7SpMaX_uE",
+        "kind": "review",
+        "note": "Jay Leno reviews a 330 GT 2+2 from this model family.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+330+GT+review",
+        "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+      },
       "facts": {
         "Production": "1963 – 1968",
         "Class": "Grand tourer",
@@ -2491,7 +2532,17 @@
         "history-275-2",
         "history-275-3"
       ],
-      "video": null,
+      "video": {
+        "id": "NQ379uN_O2E",
+        "title": "1967 Ferrari 275 GTB4 - Jay Leno's Garage",
+        "channel": "Jay Leno's Garage",
+        "url": "https://www.youtube.com/watch?v=NQ379uN_O2E",
+        "kind": "review",
+        "note": "Jay Leno reviews the four-cam 275 GTB/4.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+275+GTB+review",
+        "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+      },
       "facts": {
         "Production": "1964–1966 (275 GTB, GTS) 1966–1968 (275 GTB/4) 1967 (275 GTS/4 NART Spyder)",
         "Designer": "Francesco Salamone at Pininfarina Scaglietti (275 GTS/4 NART Spyder)",
@@ -2635,7 +2686,17 @@
         "history-365-1",
         "history-365-2"
       ],
-      "video": null,
+      "video": {
+        "id": "g_qvu5xPWzQ",
+        "title": "1969 Ferrari 365 GT 2+2 - Driving The Colombo V12 Grand Tourer (POV Binaural Audio)",
+        "channel": "Tedward",
+        "url": "https://www.youtube.com/watch?v=g_qvu5xPWzQ",
+        "kind": "review",
+        "note": "A POV driving review of the 365 GT 2+2; this is separate from the Daytona and GTC/4 families.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+365+GT+2%2B2+review",
+        "channelUrl": "https://www.youtube.com/channel/UCU1v3aREdaFD6BA-FRLYUQQ"
+      },
       "facts": {
         "Production": "1964–1966 36 produced",
         "Designer": "Aldo Brovarone at Pininfarina",
@@ -2786,7 +2847,17 @@
         "history-dino-1",
         "history-dino-2"
       ],
-      "video": null,
+      "video": {
+        "id": "GyEpXsxwiP0",
+        "title": "The 246 GTS Dino is a better Ferrari than most Ferraris | Buyer's Guide | Ep. 304",
+        "channel": "Hagerty",
+        "url": "https://www.youtube.com/watch?v=GyEpXsxwiP0",
+        "kind": "review",
+        "note": "Hagerty buyer guide to the 246 GTS Dino.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Dino+246+review",
+        "channelUrl": "https://www.youtube.com/channel/UCLgEVx4mzk3T3mzgbKG54Eg"
+      },
       "facts": {
         "Production": "1967–1969 152 produced",
         "Body style": "2-door berlinetta",
@@ -2890,7 +2961,17 @@
         "history-daytona-0",
         "history-daytona-1"
       ],
-      "video": null,
+      "video": {
+        "id": "yFj5nAgtNBk",
+        "title": "Ferrari Daytona 365 GTB/4: Road Review | Catchpole on Carfection",
+        "channel": "Carfection",
+        "url": "https://www.youtube.com/watch?v=yFj5nAgtNBk",
+        "kind": "review",
+        "note": "Henry Catchpole road-tests the 365 GTB/4 Daytona.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+365+Daytona+review",
+        "channelUrl": "https://www.youtube.com/channel/UCwuDqQjo53xnxWKRVfw_41w"
+      },
       "facts": {
         "Production": "GTB/4: 1968 – 1973 (1,284 produced) GTS/4: 1971 – 1973 (122 produced)",
         "Designer": "Leonardo Fioravanti at Pininfarina",
@@ -2964,7 +3045,17 @@
       "sources": [
         "history-365-gtc4-0"
       ],
-      "video": null,
+      "video": {
+        "id": "Ybz344JJJQ8",
+        "title": "Driving The 1972 Ferrari 365 GTC/4 -  Real Italian V12 Sounds (POV Review)",
+        "channel": "Tedward",
+        "url": "https://www.youtube.com/watch?v=Ybz344JJJQ8",
+        "kind": "review",
+        "note": "A POV driving review of the 365 GTC/4.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+365+GTC4+review",
+        "channelUrl": "https://www.youtube.com/channel/UCU1v3aREdaFD6BA-FRLYUQQ"
+      },
       "facts": {
         "Production": "1971 – 1972 505 produced",
         "Designer": "Filippo Sapino under the supervision of Aldo Brovarone at Pininfarina",
@@ -3117,7 +3208,17 @@
         "history-400-1",
         "history-400-2"
       ],
-      "video": null,
+      "video": {
+        "id": "W1XkdbStI8E",
+        "title": "Ferrari 412: The Legacy of a Classic | Tyrrell's Classic Workshop",
+        "channel": "Tyrrell's Classic Workshop",
+        "url": "https://www.youtube.com/watch?v=W1XkdbStI8E",
+        "kind": "feature",
+        "note": "A specialist assessment of the 412, the final development of the 365 GT4 2+2 / 400 family.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+412+review",
+        "channelUrl": "https://www.youtube.com/channel/UC2pQT90JBqbMHSVLtbJBvyw"
+      },
       "facts": {
         "Production": "1972–1989",
         "Designer": "Leonardo Fioravanti at Pininfarina",
@@ -3230,7 +3331,17 @@
         "history-bb-0",
         "history-bb-1"
       ],
-      "video": null,
+      "video": {
+        "id": "xhILXmbqCg0",
+        "title": "1977 Ferrari 512 BB Review: Driving Ferrari's Iconic Countach Rival",
+        "channel": "JayEmm on Cars",
+        "url": "https://www.youtube.com/watch?v=xhILXmbqCg0",
+        "kind": "review",
+        "note": "A road review of the 512 BB Berlinetta Boxer.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+512+BB+review",
+        "channelUrl": "https://www.youtube.com/channel/UCkwBmrgwtoaaXZSilir6qsg"
+      },
       "facts": {
         "Production": "1973 – 1984 2,323 produced",
         "Designer": "Leonardo Fioravanti at Pininfarina",
@@ -3304,7 +3415,17 @@
       "sources": [
         "history-gt4-0"
       ],
-      "video": null,
+      "video": {
+        "id": "ZNImX4r2vPo",
+        "title": "Ferrari Dino 308 GT4 review. 3.0 V8, Gandini design, loved by Enzo yet almost forgotten today. Why?",
+        "channel": "Harry's garage",
+        "url": "https://www.youtube.com/watch?v=ZNImX4r2vPo",
+        "kind": "review",
+        "note": "Harry Metcalfe reviews the Bertone-designed Dino 308 GT4.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+308+GT4+review",
+        "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+      },
       "facts": {
         "Production": "1973–1980 (308 GT4) 1975–1980 (208 GT4)",
         "Designer": "Marcello Gandini at Bertone",
@@ -3416,7 +3537,17 @@
         "history-308-0",
         "history-308-1"
       ],
-      "video": null,
+      "video": {
+        "id": "uqybS7j4UtU",
+        "title": "Here’s Why the Ferrari 308 Changed Everything",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=uqybS7j4UtU",
+        "kind": "review",
+        "note": "Doug DeMuro examines and reviews the 308.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+308+GTS+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "1975 – 1985",
         "Designer": "Leonardo Fioravanti at Pininfarina",
@@ -3557,7 +3688,17 @@
         "history-mondial-1",
         "history-mondial-2"
       ],
-      "video": null,
+      "video": {
+        "id": "2GU3lelURic",
+        "title": "The Ferrari Mondial Really Isn’t So Bad",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=2GU3lelURic",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the Mondial.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Mondial+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "Mondial 8 : 1980 – 1982 703 produced Mondial qv : 1983 – 1985 1,145 (coupé) produced 629 (cabriolet) produced Mondial 3.2 : 1986 – 1988 987 (coupé) produced 810 (cabriolet) produced Mondial t : 1988 – 1993 858 (coupé) pr",
         "Designer": "Pininfarina : Pierangelo Andreani (1976) Leonardo Fioravanti",
@@ -3629,7 +3770,17 @@
         "reading-288-gto-0-0",
         "history-288-gto-0"
       ],
-      "video": null,
+      "video": {
+        "id": "SzLH8VZDVT8",
+        "title": "Ferrari 288 GTO 1000km review plus why I didn't buy one back in 2005 & bought a Zonda instead",
+        "channel": "Harry's garage",
+        "url": "https://www.youtube.com/watch?v=SzLH8VZDVT8",
+        "kind": "review",
+        "note": "Harry Metcalfe reviews the 288 GTO after a 1,000 km drive.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+288+GTO+review",
+        "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+      },
       "facts": {
         "Production": "1984 – 1987 272 produced",
         "Designer": "Leonardo Fioravanti at Pininfarina Nicola Materazzi (Chief Engineer)",
@@ -3790,7 +3941,8 @@
         "title": "Ferrari Testarossa drive and review",
         "channel": "Harry’s Garage",
         "note": "An owner’s tour and drive of a 1987 Testarossa.",
-        "url": "https://www.youtube.com/watch?v=1XlPUQjmJyk"
+        "url": "https://www.youtube.com/watch?v=1XlPUQjmJyk",
+        "kind": "review"
       },
       "facts": {
         "Production": "1984–1996 9,939 produced",
@@ -3898,7 +4050,17 @@
         "history-328-0",
         "history-328-1"
       ],
-      "video": null,
+      "video": {
+        "id": "KwB8Sw64f5I",
+        "title": "The Ferrari 328 Is an Underrated 1980s Analog Exotic Car",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=KwB8Sw64f5I",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the 328.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+328+GTS+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "1985–1989 7,412 produced",
         "Designer": "Leonardo Fioravanti at Pininfarina",
@@ -3980,7 +4142,8 @@
         "title": "1980s supercar powertest: F40 and 959",
         "channel": "Top Gear",
         "note": "",
-        "url": "https://www.youtube.com/watch?v=7mFleLfedrU"
+        "url": "https://www.youtube.com/watch?v=7mFleLfedrU",
+        "kind": "review"
       },
       "facts": {
         "Production": "1987–1996 1,311 produced (including LM, Competizione, and GTE)",
@@ -4124,7 +4287,17 @@
         "history-348-1",
         "history-348-2"
       ],
-      "video": null,
+      "video": {
+        "id": "1-r5zArIp-U",
+        "title": "Here's Why the Ferrari 348 Doesn't Deserve Its Bad Reputation",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=1-r5zArIp-U",
+        "kind": "review",
+        "note": "Doug DeMuro assesses the 348.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+348+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "1989 – 1994 8,844 produced",
         "Designer": "Leonardo Fioravanti at Pininfarina",
@@ -4242,7 +4415,17 @@
         "history-456-0",
         "history-456-1"
       ],
-      "video": null,
+      "video": {
+        "id": "Pm2T0a-HXH4",
+        "title": "The Ferrari 456 Is Ferrari’s Forgotten Beautiful V12 Supercar",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=Pm2T0a-HXH4",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the front-V12 456.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+456+GT+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "16 July 1992–1997 (456) 16 July 1998–2003 (456M)",
         "Designer": "456: Pietro Camardella and Maurzio Corbi (interior) under Lorenzo Ramaciotti at Pininfarina 456M: Ken Okuyama at Pininfarina",
@@ -4406,7 +4589,17 @@
         "history-f355-1",
         "history-f355-2"
       ],
-      "video": null,
+      "video": {
+        "id": "P8YZzGaprtA",
+        "title": "Why I Have to Have a Ferrari | Clarkson's Car Years | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=P8YZzGaprtA",
+        "kind": "review",
+        "note": "Jeremy Clarkson examines the F355 in the official Clarkson’s Car Years feature.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F355+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "May 1994–1999",
         "Designer": "Maurizio Corbi at Pininfarina",
@@ -4482,7 +4675,17 @@
         "reading-f50-0-0",
         "history-f50-0"
       ],
-      "video": null,
+      "video": {
+        "id": "LOyxA3bQvC0",
+        "title": "Chris Harris - Quick Steer | The Ferrari F50 | Living Up to The F40?",
+        "channel": "Collecting Cars",
+        "url": "https://www.youtube.com/watch?v=LOyxA3bQvC0",
+        "kind": "review",
+        "note": "Chris Harris drives the F50 for Collecting Cars.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F50+review",
+        "channelUrl": "https://www.youtube.com/channel/UCTBpuYRzqvJjNKzJ7SzcYpw"
+      },
       "facts": {
         "Production": "1995–1997 349 produced",
         "Designer": "Pietro Camardella and Lorenzo Ramaciotti at Pininfarina",
@@ -4650,7 +4853,17 @@
         "history-550-1",
         "history-550-2"
       ],
-      "video": null,
+      "video": {
+        "id": "LXsG3TopW_8",
+        "title": "Ferrari 550 Maranello: V12 Perfection | Catchpole on Carfection",
+        "channel": "Carfection",
+        "url": "https://www.youtube.com/watch?v=LXsG3TopW_8",
+        "kind": "review",
+        "note": "Henry Catchpole road-tests the 550 Maranello.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+550+Maranello+review",
+        "channelUrl": "https://www.youtube.com/channel/UCwuDqQjo53xnxWKRVfw_41w"
+      },
       "facts": {
         "Production": "1996 – 2002 3,083 produced",
         "Designer": "Pininfarina : Lorenzo Ramaciotti Elvio D'Aprile Goran Popović (interior)",
@@ -4815,7 +5028,17 @@
         "history-360-1",
         "history-360-2"
       ],
-      "video": null,
+      "video": {
+        "id": "JGRXIDf9yTg",
+        "title": "Porsche GT3 vs Ferrari 360 | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=JGRXIDf9yTg",
+        "kind": "review",
+        "note": "Top Gear compares the Ferrari 360 with the Porsche 911 GT3.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+360+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "1999–2004",
         "Designer": "Goran Popović at Pininfarina",
@@ -4892,7 +5115,17 @@
         "reading-enzo-0-0",
         "history-enzo-0"
       ],
-      "video": null,
+      "video": {
+        "id": "f7jsauspMmU",
+        "title": "Enzo Car Review | Top Gear | BBC",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=f7jsauspMmU",
+        "kind": "review",
+        "note": "The official Top Gear Enzo review.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Enzo+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2002–2004",
         "Designer": "Ken Okuyama at Pininfarina Frank Stephenson (FXX)",
@@ -4969,7 +5202,17 @@
         "reading-612-0-0",
         "history-612-0"
       ],
-      "video": null,
+      "video": {
+        "id": "vK7AV6i25pM",
+        "title": "Ferrari 612 Scaglietti Drive Test | Fifth Gear Classic",
+        "channel": "Fifth Gear",
+        "url": "https://www.youtube.com/watch?v=vK7AV6i25pM",
+        "kind": "review",
+        "note": "Fifth Gear tests the 612 Scaglietti.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+612+Scaglietti+review",
+        "channelUrl": "https://www.youtube.com/channel/UCa6xsp7d4s-NgpPUGc57ZGA"
+      },
       "facts": {
         "Production": "2004–2011 3,025 produced",
         "Designer": "Ken Okuyama at Pininfarina",
@@ -5134,7 +5377,17 @@
         "history-f430-1",
         "history-f430-2"
       ],
-      "video": null,
+      "video": {
+        "id": "kj58hRUe05M",
+        "title": "Ferrari 430 | Car Review | Top Gear - Part 1",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=kj58hRUe05M",
+        "kind": "review",
+        "note": "The first part of the official Top Gear F430 review.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F430+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2004 – July 2009",
         "Designer": "Frank Stephenson in collaboration with Pininfarina",
@@ -5299,7 +5552,17 @@
         "history-599-1",
         "history-599-2"
       ],
-      "video": null,
+      "video": {
+        "id": "pQdpNoPCd9o",
+        "title": "Sold the Porsche, Bought a Ferrari 599 - /CHRIS HARRIS ON CARS",
+        "channel": "The Drive",
+        "url": "https://www.youtube.com/watch?v=pQdpNoPCd9o",
+        "kind": "review",
+        "note": "Chris Harris assesses his Ferrari 599 for The Drive.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+599+GTB+review",
+        "channelUrl": "https://www.youtube.com/channel/UC5rBpVgv83gYPZ593XwQUsA"
+      },
       "facts": {
         "Production": "2006–2012",
         "Designer": "Jason Castriota at Pininfarina",
@@ -5403,7 +5666,17 @@
         "history-california-0",
         "history-california-1"
       ],
-      "video": null,
+      "video": {
+        "id": "8a2pSU7oQjQ",
+        "title": "Ferrari California T 2014-2018 review | Mat Watson Reviews",
+        "channel": "carwow",
+        "url": "https://www.youtube.com/watch?v=8a2pSU7oQjQ",
+        "kind": "review",
+        "note": "Mat Watson reviews the California T.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+California+review",
+        "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+      },
       "facts": {
         "Production": "2008–2017",
         "Class": "Grand tourer ( S )",
@@ -5571,7 +5844,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=BCPZSaHyZGQ",
         "note": "Jeremy Clarkson compares the two mid-engined cars.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2009–2015",
@@ -5655,7 +5929,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=9S2GwLUN-8Q",
         "note": "A winter driving comparison from series 18.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2011–2016",
@@ -5783,7 +6058,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=U_ed8pBMel4",
         "note": "Jeremy Clarkson tests the F12 in wet British conditions.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2012–2017",
@@ -5901,7 +6177,8 @@
         "title": "James May reviews LaFerrari",
         "channel": "Top Gear",
         "note": "Series 22, Episode 5.",
-        "url": "https://www.youtube.com/watch?v=C_E3bSFi8lI"
+        "url": "https://www.youtube.com/watch?v=C_E3bSFi8lI",
+        "kind": "review"
       },
       "facts": {
         "Production": "2013–2018",
@@ -5969,7 +6246,17 @@
         "reading-f60-america-0-0",
         "history-f60-america-0"
       ],
-      "video": null,
+      "video": {
+        "id": "WtX5yut4cbM",
+        "title": "My First Drive in a $2.5m FERRARI F60 AMERICA!",
+        "channel": "Shmee150",
+        "url": "https://www.youtube.com/watch?v=WtX5yut4cbM",
+        "kind": "review",
+        "note": "A first-drive feature on the limited-production F60 America.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F60+America+review",
+        "channelUrl": "https://www.youtube.com/channel/UCIRgR4iANHI2taJdz8hjwLw"
+      },
       "facts": {
         "Production": "2012–2017",
         "Designer": "Ferrari Styling Centre under the direction of Flavio Manzoni , in collaboration with Pininfarina",
@@ -6129,7 +6416,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=a_ISmKypLig",
         "note": "A compilation of Chris Harris driving features; also includes the race-only FXX-K.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2015–2020",
@@ -6194,7 +6482,17 @@
         "reading-sergio-0-0",
         "history-sergio-0"
       ],
-      "video": null,
+      "video": {
+        "id": "FWo2KzSnBeM",
+        "title": "Driving The £4m Ferrari Sergio - One Of The Rarest Ferraris In The World!",
+        "channel": "Mr JWW",
+        "url": "https://www.youtube.com/watch?v=FWo2KzSnBeM",
+        "kind": "review",
+        "note": "Mr JWW drives the production Sergio, distinct from the screenless concept.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Sergio+production+review",
+        "channelUrl": "https://www.youtube.com/channel/UCK_zuVq6ZpSRMjsZ5JRPx5g"
+      },
       "facts": {
         "Production": "2013 (concept) 2015 (6 units)",
         "Designer": "Fabio Filippini with Luca Borgogno at Pininfarina",
@@ -6271,7 +6569,17 @@
         "reading-gtc4lusso-0-0",
         "history-gtc4lusso-0"
       ],
-      "video": null,
+      "video": {
+        "id": "6C_7LKrQkOY",
+        "title": "Ferrari GTC4Lusso | Chris Harris Drives | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=6C_7LKrQkOY",
+        "kind": "review",
+        "note": "Chris Harris drives the GTC4Lusso for Top Gear.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+GTC4Lusso+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2016–2020",
         "Designer": "Ferrari Styling Centre under Flavio Manzoni",
@@ -6337,7 +6645,17 @@
         "reading-j50-0-0",
         "history-j50-0"
       ],
-      "video": null,
+      "video": {
+        "id": "9c0fn-FKOSc",
+        "title": "Meet The $4 Million Ferrari J50 YOU'VE NEVER SEEN (Startup and Driving)",
+        "channel": "effspot",
+        "url": "https://www.youtube.com/watch?v=9c0fn-FKOSc",
+        "kind": "walkaround",
+        "note": "An exterior, startup and driving-sighting feature on the J50; not a full independent road test.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+J50+review",
+        "channelUrl": "https://www.youtube.com/channel/UCimeNaqaRtai6VwYhbQdqbQ"
+      },
       "facts": {
         "Production": "2015–2020",
         "Designer": "Ferrari Styling Centre under Flavio Manzoni",
@@ -6497,7 +6815,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=U9kXdwM28wM",
         "note": "Matt LeBlanc; excerpt from series 25, episode 5.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "feature"
       },
       "facts": {
         "Production": "2017–2024",
@@ -6575,7 +6894,17 @@
         "reading-portofino-0-0",
         "history-portofino-0"
       ],
-      "video": null,
+      "video": {
+        "id": "G1I6hqIeTMs",
+        "title": "New Ferrari Portofino M review. Why I would choose this over the Ferrari Roma",
+        "channel": "Harry's garage",
+        "url": "https://www.youtube.com/watch?v=G1I6hqIeTMs",
+        "kind": "review",
+        "note": "Harry Metcalfe reviews the Portofino M.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Portofino+review",
+        "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+      },
       "facts": {
         "Production": "2017–2023",
         "Designer": "Ferrari Styling Centre under Flavio Manzoni",
@@ -6684,7 +7013,17 @@
         "history-monza-0",
         "history-monza-1"
       ],
-      "video": null,
+      "video": {
+        "id": "AYRkMUDopcM",
+        "title": "Ferrari Monza vs McLaren Elva vs Aston Martin Speedster – £3.6m, 2,300bhp mega test | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=AYRkMUDopcM",
+        "kind": "review",
+        "note": "A Top Gear comparison including the Monza, McLaren Elva and Aston Martin Speedster.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Monza+SP2+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2019–2022 (499 Units)",
         "Designer": "Ferrari Styling Centre under the direction of Flavio Manzoni",
@@ -6805,7 +7144,17 @@
         "history-f8-0",
         "history-f8-1"
       ],
-      "video": null,
+      "video": {
+        "id": "qGoVT3LVKAU",
+        "title": "Ferrari F8 Tributo review. Too fast for the road?",
+        "channel": "Harry's garage",
+        "url": "https://www.youtube.com/watch?v=qGoVT3LVKAU",
+        "kind": "review",
+        "note": "Harry Metcalfe reviews the F8 Tributo on the road.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F8+Tributo+review",
+        "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+      },
       "facts": {
         "Production": "2019–2023",
         "Designer": "Ferrari Styling Centre under Flavio Manzoni",
@@ -6968,7 +7317,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=fxCk-yCe0Fg",
         "note": "Ollie Marriage tests the road-legal XX derivative.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2019–2024 (Stradale/Spider) 2023–2026 (XX Stradale - 799 units /XX Spider - 599 units; 1,398 units)",
@@ -7096,7 +7446,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=2IH5nxIwW0s",
         "note": "A design walkaround at the launch; not a road test.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "first-look"
       },
       "facts": {
         "Production": "Coupé: 2020–2024 Spider: 2023–2026",
@@ -7249,7 +7600,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=VdTXmeq_SmE",
         "note": "A road and track review by Ollie Marriage.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "Coupe: 2022–2025 Spider: 2023–2026",
@@ -7317,7 +7669,17 @@
         "reading-daytona-sp3-0-0",
         "history-daytona-sp3-0"
       ],
-      "video": null,
+      "video": {
+        "id": "DPdsWOLx_bo",
+        "title": "FIRST DRIVE: NEW Ferrari Daytona SP3 - £2m, 828bhp N/A V12 Hypercar | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=DPdsWOLx_bo",
+        "kind": "review",
+        "note": "Top Gear first drive of the Daytona SP3.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Daytona+SP3+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2022–2025",
         "Designer": "Ferrari Styling Centre under the direction of Flavio Manzoni",
@@ -7400,7 +7762,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=Eo_VcY-E14Y",
         "note": "Tom Ford tests the four-door V12 on mountain roads.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2023–present",
@@ -7522,7 +7885,17 @@
         "history-12cilindri-0",
         "history-12cilindri-1"
       ],
-      "video": null,
+      "video": {
+        "id": "iGx3AFrZm9s",
+        "title": "FIRST DRIVE: Ferrari 12Cilindri Spider – When A Car Review Goes Wrong!",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=iGx3AFrZm9s",
+        "kind": "review",
+        "note": "Top Gear first drive of the 12Cilindri Spider.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+12Cilindri+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2024–present",
         "Designer": "Ferrari Styling Centre under Flavio Manzoni",
@@ -7589,7 +7962,17 @@
         "reading-f80-0-0",
         "history-f80-0"
       ],
-      "video": null,
+      "video": {
+        "id": "qxzxLxcNYxc",
+        "title": "FIRST DRIVE: Ferrari F80 – The Best Ferrari Ever?",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=qxzxLxcNYxc",
+        "kind": "review",
+        "note": "Top Gear first drive of the F80.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F80+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2025–present (799 units planned)",
         "Designer": "Ferrari Styling Centre under Flavio Manzoni",
@@ -7711,7 +8094,17 @@
         "history-amalfi-0",
         "history-amalfi-1"
       ],
-      "video": null,
+      "video": {
+        "id": "RIfDPdn1Exs",
+        "title": "New Ferrari Amalfi: Most Improved Ferrari Ever! | 4K",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=RIfDPdn1Exs",
+        "kind": "review",
+        "note": "Top Gear assesses the Amalfi.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Amalfi+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2026–present",
         "Designer": "Ferrari Styling Centre under Flavio Manzoni",
@@ -7821,7 +8214,17 @@
         "history-849-testarossa-0",
         "history-849-testarossa-1"
       ],
-      "video": null,
+      "video": {
+        "id": "0ROxAmIUpDI",
+        "title": "New Ferrari Testarossa Driven: Mega Car, Average Engine! | 4K",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=0ROxAmIUpDI",
+        "kind": "review",
+        "note": "Top Gear drives the new 849 Testarossa; this is separate from the 1980s Testarossa.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+849+Testarossa+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2026",
         "Designer": "Ferrari Styling Centre under Flavio Manzoni",
@@ -7886,7 +8289,17 @@
         "reading-luce-0-0",
         "history-luce-0"
       ],
-      "video": null,
+      "video": {
+        "id": "B86taQzY5Es",
+        "title": "We’ve Driven The Ugly Ferrari That Broke The Internet! | 4K",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=B86taQzY5Es",
+        "kind": "review",
+        "note": "Top Gear drives Ferrari's first production electric model.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Luce+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2026–present",
         "Designer": "Jony Ive and Marc Newson of LoveFrom",

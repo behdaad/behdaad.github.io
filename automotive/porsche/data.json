@@ -783,7 +783,17 @@
         "history-356-2",
         "history-356-3"
       ],
-      "video": null,
+      "video": {
+        "id": "yg0-C9phP9s",
+        "title": "DRIVEN: Ten Minutes In a Beautiful 1964 Porsche 356C",
+        "channel": "JayEmm on Cars",
+        "url": "https://www.youtube.com/watch?v=yg0-C9phP9s",
+        "kind": "review",
+        "note": "A road review of a 1964 356 C.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+356+review",
+        "channelUrl": "https://www.youtube.com/channel/UCkwBmrgwtoaaXZSilir6qsg"
+      },
       "facts": {
         "Production": "1948–1965",
         "Designer": "Ferry Porsche , Erwin Komenda",
@@ -856,7 +866,17 @@
         "reading-550-0-0",
         "history-550-0"
       ],
-      "video": null,
+      "video": {
+        "id": "-eiBaLP-olk",
+        "title": "Discovering Porsche’s Legendary 550A Spyder",
+        "channel": "RM Sotheby's",
+        "url": "https://www.youtube.com/watch?v=-eiBaLP-olk",
+        "kind": "feature",
+        "note": "A specialist assessment and drive of an original 550A Spyder, presented by RM Sotheby's; not a replica.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+550+Spyder+review",
+        "channelUrl": "https://www.youtube.com/channel/UCNiTBZZrGcok8fuWlDQ-_yA"
+      },
       "facts": {
         "Production": "1953–1956 90 produced",
         "Designer": "Erwin Komenda",
@@ -955,7 +975,17 @@
         "history-718-rsk-0",
         "history-718-rsk-1"
       ],
-      "video": null,
+      "video": {
+        "id": "6y25dYXbr5M",
+        "title": "Porsche 718: A Living Legacy",
+        "channel": "Petrolicious",
+        "url": "https://www.youtube.com/watch?v=6y25dYXbr5M",
+        "kind": "feature",
+        "note": "Derek Bell explores the historic 718 and its modern namesake; the early car is a distinct model family.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+718+RSK+review",
+        "channelUrl": "https://www.youtube.com/channel/UCgyJPixJl95X1ut3E9K99KA"
+      },
       "facts": {
         "Designer": "Wilhelm Hild : 221",
         "Engine": "Type 547 1,498 cc (91.4 cu in) DOHC F4 boxer engine normally aspirated Mid-engined",
@@ -1023,7 +1053,17 @@
       "sources": [
         "history-904-0"
       ],
-      "video": null,
+      "video": {
+        "id": "utihJ2j0f7k",
+        "title": "904 Carrera GTS: The Mona Lisa of Porsches",
+        "channel": "Porsche Club of America",
+        "url": "https://www.youtube.com/watch?v=utihJ2j0f7k",
+        "kind": "feature",
+        "note": "The Porsche Club of America's model-specific 904 assessment and history.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+904+Carrera+GTS+review",
+        "channelUrl": "https://www.youtube.com/channel/UCdBSaHWRHMQTVALwa7gs7Fg"
+      },
       "facts": {
         "Production": "1964–1965",
         "Designer": "Ferdinand Alexander Porsche , Erwin Komenda",
@@ -1684,7 +1724,8 @@
         "title": "Top Gear decides the best Porsche 911 ever",
         "channel": "Top Gear",
         "note": "",
-        "url": "https://www.youtube.com/watch?v=8WMMjO6gafg"
+        "url": "https://www.youtube.com/watch?v=8WMMjO6gafg",
+        "kind": "review"
       },
       "facts": {
         "Production": "1964–1989",
@@ -1801,7 +1842,17 @@
         "history-912-0",
         "history-912-1"
       ],
-      "video": null,
+      "video": {
+        "id": "7qUw_gwUrao",
+        "title": "Going for a Drive in a 1969 Porsche 912",
+        "channel": "JayEmm on Cars",
+        "url": "https://www.youtube.com/watch?v=7qUw_gwUrao",
+        "kind": "review",
+        "note": "A road review of the 1969 912.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+912+review",
+        "channelUrl": "https://www.youtube.com/channel/UCkwBmrgwtoaaXZSilir6qsg"
+      },
       "facts": {
         "Production": "1965 – 1969 (912) 1975 – 1976 (912E)",
         "Designer": "Ferdinand Alexander Porsche",
@@ -1872,7 +1923,17 @@
       "sources": [
         "history-906-0"
       ],
-      "video": null,
+      "video": {
+        "id": "e-BkudTkWms",
+        "title": "Road Scholars & Bond Group | 1966 Porsche 906 | Chassis 906-127",
+        "channel": "RoadScholars",
+        "url": "https://www.youtube.com/watch?v=e-BkudTkWms",
+        "kind": "feature",
+        "note": "Road Scholars and Bond Group present an original 1966 906; a specialist sales and driving feature rather than an independent road test.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+906+Carrera+6+review",
+        "channelUrl": "https://www.youtube.com/channel/UCmUYwJqp45roWzi1Bq3bNrg"
+      },
       "facts": {
         "Production": "1966",
         "Designer": "Ferdinand Piëch , Erwin Komenda",
@@ -1945,7 +2006,17 @@
         "reading-914-0-0",
         "history-914-0"
       ],
-      "video": null,
+      "video": {
+        "id": "w08bM8YjRuM",
+        "title": "The Porsche 914 Is Cooler Than You Think",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=w08bM8YjRuM",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the 914.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+914+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "1969 – 1976 118,978 produced 914/4 : 115,646 914/6 : 3,332 914/8 : 2",
         "Designer": "Ferdinand Alexander Porsche , Heinrich Klie",
@@ -2088,7 +2159,17 @@
         "history-924-1",
         "history-924-2"
       ],
-      "video": null,
+      "video": {
+        "id": "6qLwd44C4iU",
+        "title": "The Porsche 924 wasn't born a Porsche. It became one. | Revelations with Jason Cammisa | Ep. 09",
+        "channel": "Hagerty",
+        "url": "https://www.youtube.com/watch?v=6qLwd44C4iU",
+        "kind": "feature",
+        "note": "Jason Cammisa examines the 924's design and engineering history for Hagerty.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+924+review",
+        "channelUrl": "https://www.youtube.com/channel/UCLgEVx4mzk3T3mzgbKG54Eg"
+      },
       "facts": {
         "Production": "1976–1988",
         "Designer": "Harm Lagaay ( Porsche AG )",
@@ -2187,7 +2268,17 @@
         "history-928-0",
         "history-928-1"
       ],
-      "video": null,
+      "video": {
+        "id": "GaoLQ_1zsrM",
+        "title": "Here's What a $180,000 Porsche Was Like In 1994",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=GaoLQ_1zsrM",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the 928 GTS, representing the final version of this family.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+928+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "May 1977 – 1995 61,056 produced",
         "Designer": "Wolfgang Möbius Anatole Lapine",
@@ -2340,7 +2431,17 @@
         "history-944-1",
         "history-944-2"
       ],
-      "video": null,
+      "video": {
+        "id": "mChMhf7hpi4",
+        "title": "The Porsche 944 Is an Undervalued Fun Sports Car",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=mChMhf7hpi4",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the 944.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+944+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "1982–1991",
         "Designer": "Harm Lagaay ( Porsche AG )",
@@ -2422,7 +2523,8 @@
         "title": "1980s supercar powertest: F40 and 959",
         "channel": "Top Gear",
         "note": "Richard Hammond compares the Porsche 959 and Ferrari F40.",
-        "url": "https://www.youtube.com/watch?v=7mFleLfedrU"
+        "url": "https://www.youtube.com/watch?v=7mFleLfedrU",
+        "kind": "review"
       },
       "facts": {
         "Production": "1986–1993 (337+8 produced)",
@@ -2530,7 +2632,17 @@
         "history-968-0",
         "history-968-1"
       ],
-      "video": null,
+      "video": {
+        "id": "DIPfIVNelB8",
+        "title": "1994 Porsche 968 Review",
+        "channel": "TheStraightPipes",
+        "url": "https://www.youtube.com/watch?v=DIPfIVNelB8",
+        "kind": "review",
+        "note": "TheStraightPipes reviews the 968.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+968+review",
+        "channelUrl": "https://www.youtube.com/channel/UC86SBFIAgnYL3ll2ZDgmsuA"
+      },
       "facts": {
         "Production": "1991 – 1995",
         "Designer": "Harm Lagaay ( Porsche AG )",
@@ -2763,7 +2875,17 @@
         "history-boxster-3",
         "history-boxster-4"
       ],
-      "video": null,
+      "video": {
+        "id": "7j0Ilwu1cXA",
+        "title": "Porsche 718 Cayman S | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=7j0Ilwu1cXA",
+        "kind": "review",
+        "note": "Top Gear tests the modern 718 Cayman S; earlier Boxster and Cayman generations are in the timeline.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+Cayman+718+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "1996–2025 2005–2025",
         "Class": "Sports car ( S )",
@@ -2823,7 +2945,17 @@
       "sources": [
         "history-911-gt1-0"
       ],
-      "video": null,
+      "video": {
+        "id": "P6M5fqidUNg",
+        "title": "Porsche 911 GT1. Le Mans Legend with Tiff Needell",
+        "channel": "Lovecars",
+        "url": "https://www.youtube.com/watch?v=P6M5fqidUNg",
+        "kind": "review",
+        "note": "Tiff Needell examines the 911 GT1 with Lovecars.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+911+GT1+road+car+review",
+        "channelUrl": "https://www.youtube.com/channel/UC9LfZkFRd3hJzPuTTFZN4lw"
+      },
       "facts": {
         "Production": "1996 – 1999 (25 produced)",
         "Designer": "Tony Hatter",
@@ -3067,7 +3199,17 @@
         "history-cayenne-3",
         "history-cayenne-4"
       ],
-      "video": null,
+      "video": {
+        "id": "o73frAVfd7E",
+        "title": "Porsche Cayenne 2019 SUV in-depth review | carwow Reviews",
+        "channel": "carwow",
+        "url": "https://www.youtube.com/watch?v=o73frAVfd7E",
+        "kind": "review",
+        "note": "Mat Watson reviews the third-generation Cayenne SUV.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+Cayenne+review",
+        "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+      },
       "facts": {
         "Production": "August 2002 – present",
         "Class": "E-segment SUV",
@@ -3147,7 +3289,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=vE_WqdKbTvY",
         "note": "Jeremy Clarkson and the Stig review the Carrera GT.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2003–2006 1,270 produced",
@@ -3350,7 +3493,17 @@
         "history-panamera-2",
         "history-panamera-3"
       ],
-      "video": null,
+      "video": {
+        "id": "1khDVVJODDM",
+        "title": "Why the new Porsche Panamera is ALMOST perfect!",
+        "channel": "carwow",
+        "url": "https://www.youtube.com/watch?v=1khDVVJODDM",
+        "kind": "review",
+        "note": "Mat Watson reviews the new Panamera.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Porsche+Panamera+review",
+        "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+      },
       "facts": {
         "Production": "2009–present",
         "Class": "Executive car ( E ) Full-size luxury car ( F ) (LWB)",
@@ -3430,7 +3583,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=nSqzp3kdAm4",
         "note": "Richard Hammond; Top Gear series 21, episode 5.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "September 2013 – June 2015",
@@ -3553,7 +3707,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=oxc3dzwpQsY",
         "note": "Tom Ford tests the electric Macan.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "February 2014 – present",
@@ -3676,7 +3831,8 @@
         "title": "Porsche Taycan Turbo: real-world EV test",
         "channel": "Top Gear",
         "note": "Top Gear Tested review of the original-shape Taycan, filmed in 2021.",
-        "url": "https://www.youtube.com/watch?v=c2dkDhhtm8I"
+        "url": "https://www.youtube.com/watch?v=c2dkDhhtm8I",
+        "kind": "review"
       },
       "facts": {
         "Production": "2019–present",

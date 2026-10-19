@@ -55,7 +55,11 @@ All main photographs and comparison slots use landscape layout. No portrait phot
 
 ## Reviews and screen titles
 
-`videos.json` contains verified official Top Gear YouTube listings and short descriptions of what each film actually covers: review, first look, walkaround or compilation. Existing verified main-page films are reused for matching families. YouTube loads only after the visitor presses Play. Historical families without a verified video retain linked model histories and published reading rather than an invented episode number or unrelated film.
+`videos.json` contains the selected model-specific YouTube videos. Top Gear and Auto Focus are prioritised, followed by established outlets and presenters such as Hagerty, Carfection, Jay Leno, Harry Metcalfe, Fifth Gear, Doug DeMuro and carwow. Every one of the 160 model families has a YouTube player and a direct watch link: 128 driving reviews, 17 specialist features, 12 walkarounds, two first looks and one historical overview. The player loads only after the visitor presses Play.
+
+A video can cover a representative generation or body within its family; it is not a claim that every chapter has an individual review. Rare historic models sometimes have no accessible independent driving review. Those entries use clearly labelled specialist/dealer features, museum material, historical overviews or exterior/interior walkarounds. Replica reviews, toy reviews, gameplay, unrelated cars with matching badges and speculative future-model videos are excluded. Dealer and manufacturer perspectives are identified in the notes.
+
+`video-queries.json` records the research queries. `find-videos.py` collects public YouTube title/channel/duration/snippet metadata into a temporary candidate file for manual review; it never changes the public selections. `video-verification.json` records the public oEmbed response for every selected family, including the exact video ID, title, uploader and verification date. `verify-videos.py` checks metadata without downloading any video. Public metadata verifies the selected video's identity; regional availability and later removals can still change playback.
 
 `brands.json` contains the film/TV listings with title, date, type, filmmaker/broadcaster, relevance and a source link. Dramas, independent reporting and manufacturer films are distinguished. A wider F1 series or driver biography is described as such. Links point to title information, official trailers or official full films; a title listing is not a guarantee of current regional streaming availability.
 
@@ -70,6 +74,7 @@ python3 automotive/research/brands/fetch-pages.py
 python3 automotive/research/brands/prepare-media.py
 python3 automotive/research/brands/fetch-photos.py
 python3 automotive/research/brands/fetch-official-photos.py
+python3 automotive/research/brands/verify-videos.py
 python3 automotive/research/brands/build-pages.py
 python3 automotive/research/brands/contact-sheets.py
 npm run build

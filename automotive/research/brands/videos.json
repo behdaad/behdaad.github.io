@@ -1,123 +1,14 @@
 {
-  "ferrari/296": {
-    "id": "VdTXmeq_SmE",
-    "title": "First drive: Ferrari 296 GTB",
+  "ferrari/12cilindri": {
+    "id": "iGx3AFrZm9s",
+    "title": "FIRST DRIVE: Ferrari 12Cilindri Spider – When A Car Review Goes Wrong!",
     "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=VdTXmeq_SmE",
-    "note": "A road and track review by Ollie Marriage.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "ferrari/roma": {
-    "id": "2IH5nxIwW0s",
-    "title": "First look: Ferrari Roma",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=2IH5nxIwW0s",
-    "note": "A design walkaround at the launch; not a road test.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "lamborghini/revuelto": {
-    "id": "dZIg75EYumo",
-    "title": "We take our driving test in a Lamborghini Revuelto",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=dZIg75EYumo",
-    "note": "A driving feature by Ollie Marriage.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "lamborghini/urus": {
-    "id": "oL-fHltu9ro",
-    "title": "The Lamborghini Urus tested on and off road",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=oL-fHltu9ro",
-    "note": "A road and off-road test.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "porsche/918": {
-    "id": "nSqzp3kdAm4",
-    "title": "The awesome Porsche 918",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=nSqzp3kdAm4",
-    "note": "Richard Hammond; Top Gear series 21, episode 5.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "porsche/carrera-gt": {
-    "id": "vE_WqdKbTvY",
-    "title": "Porsche Carrera GT car review",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=vE_WqdKbTvY",
-    "note": "Jeremy Clarkson and the Stig review the Carrera GT.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "mercedes/sls": {
-    "id": "5gFGX43vubM",
-    "title": "Petrol vs electric: Mercedes SLS AMG battle",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=5gFGX43vubM",
-    "note": "Black Series and Electric Drive; Top Gear series 20, episode 4.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "mercedes/amg-one": {
-    "id": "_o91NfvslY0",
-    "title": "Chris Harris on the Mercedes-AMG One",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=_o91NfvslY0",
-    "note": "A short Top Gear feature accompanying the series 33 test.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "ferrari/812": {
-    "id": "U9kXdwM28wM",
-    "title": "Ferrari 812 Superfast",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=U9kXdwM28wM",
-    "note": "Matt LeBlanc; excerpt from series 25, episode 5.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "ferrari/sf90": {
-    "id": "fxCk-yCe0Fg",
-    "title": "First drive: Ferrari SF90 XX",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=fxCk-yCe0Fg",
-    "note": "Ollie Marriage tests the road-legal XX derivative.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "ferrari/purosangue": {
-    "id": "Eo_VcY-E14Y",
-    "title": "Ferrari Purosangue: first drive",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=Eo_VcY-E14Y",
-    "note": "Tom Ford tests the four-door V12 on mountain roads.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "lamborghini/huracan": {
-    "id": "fYpjmc2MyII",
-    "title": "Lamborghini Huracán review",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=fYpjmc2MyII",
-    "note": "Richard Hammond; series 22, episode 1.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "porsche/macan": {
-    "id": "oxc3dzwpQsY",
-    "title": "First drive: Porsche Macan Turbo",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=oxc3dzwpQsY",
-    "note": "Tom Ford tests the electric Macan.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "mercedes/glc": {
-    "id": "oLA7X71X08k",
-    "title": "Porsche Macan and Mercedes-AMG GLC 63",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=oLA7X71X08k",
-    "note": "A comparative design and specification walkaround.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
-  },
-  "ferrari/488": {
-    "id": "a_ISmKypLig",
-    "title": "Ferrari showdown: 488 Pista, 250 GT TDF, F12tdf",
-    "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=a_ISmKypLig",
-    "note": "A compilation of Chris Harris driving features; also includes the race-only FXX-K.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "url": "https://www.youtube.com/watch?v=iGx3AFrZm9s",
+    "kind": "review",
+    "note": "Top Gear first drive of the 12Cilindri Spider.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+12Cilindri+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
   },
   "ferrari/250": {
     "id": "a_ISmKypLig",
@@ -125,7 +16,149 @@
     "channel": "Top Gear",
     "url": "https://www.youtube.com/watch?v=a_ISmKypLig",
     "note": "The 250 GT TDF feature is part of this official compilation; other models also appear.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "ferrari/250-gto": {
+    "id": "q4-TF3rKcnQ",
+    "title": "Ferrari 250 GTO drive review. Does it still deserve its almost mythical status today?",
+    "channel": "Harry's garage",
+    "url": "https://www.youtube.com/watch?v=q4-TF3rKcnQ",
+    "kind": "review",
+    "note": "Harry Metcalfe drives the 250 GTO on the road.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+250+GTO+review",
+    "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+  },
+  "ferrari/275": {
+    "id": "NQ379uN_O2E",
+    "title": "1967 Ferrari 275 GTB4 - Jay Leno's Garage",
+    "channel": "Jay Leno's Garage",
+    "url": "https://www.youtube.com/watch?v=NQ379uN_O2E",
+    "kind": "review",
+    "note": "Jay Leno reviews the four-cam 275 GTB/4.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+275+GTB+review",
+    "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+  },
+  "ferrari/288-gto": {
+    "id": "SzLH8VZDVT8",
+    "title": "Ferrari 288 GTO 1000km review plus why I didn't buy one back in 2005 & bought a Zonda instead",
+    "channel": "Harry's garage",
+    "url": "https://www.youtube.com/watch?v=SzLH8VZDVT8",
+    "kind": "review",
+    "note": "Harry Metcalfe reviews the 288 GTO after a 1,000 km drive.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+288+GTO+review",
+    "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+  },
+  "ferrari/296": {
+    "id": "VdTXmeq_SmE",
+    "title": "First drive: Ferrari 296 GTB",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=VdTXmeq_SmE",
+    "note": "A road and track review by Ollie Marriage.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "ferrari/308": {
+    "id": "uqybS7j4UtU",
+    "title": "Here’s Why the Ferrari 308 Changed Everything",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=uqybS7j4UtU",
+    "kind": "review",
+    "note": "Doug DeMuro examines and reviews the 308.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+308+GTS+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "ferrari/328": {
+    "id": "KwB8Sw64f5I",
+    "title": "The Ferrari 328 Is an Underrated 1980s Analog Exotic Car",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=KwB8Sw64f5I",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the 328.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+328+GTS+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "ferrari/330": {
+    "id": "nU7SpMaX_uE",
+    "title": "1966 Ferrari 330 GT 2+2 - Jay Leno's Garage",
+    "channel": "Jay Leno's Garage",
+    "url": "https://www.youtube.com/watch?v=nU7SpMaX_uE",
+    "kind": "review",
+    "note": "Jay Leno reviews a 330 GT 2+2 from this model family.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+330+GT+review",
+    "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+  },
+  "ferrari/348": {
+    "id": "1-r5zArIp-U",
+    "title": "Here's Why the Ferrari 348 Doesn't Deserve Its Bad Reputation",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=1-r5zArIp-U",
+    "kind": "review",
+    "note": "Doug DeMuro assesses the 348.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+348+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "ferrari/360": {
+    "id": "JGRXIDf9yTg",
+    "title": "Porsche GT3 vs Ferrari 360 | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=JGRXIDf9yTg",
+    "kind": "review",
+    "note": "Top Gear compares the Ferrari 360 with the Porsche 911 GT3.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+360+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/365": {
+    "id": "g_qvu5xPWzQ",
+    "title": "1969 Ferrari 365 GT 2+2 - Driving The Colombo V12 Grand Tourer (POV Binaural Audio)",
+    "channel": "Tedward",
+    "url": "https://www.youtube.com/watch?v=g_qvu5xPWzQ",
+    "kind": "review",
+    "note": "A POV driving review of the 365 GT 2+2; this is separate from the Daytona and GTC/4 families.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+365+GT+2%2B2+review",
+    "channelUrl": "https://www.youtube.com/channel/UCU1v3aREdaFD6BA-FRLYUQQ"
+  },
+  "ferrari/365-gtc4": {
+    "id": "Ybz344JJJQ8",
+    "title": "Driving The 1972 Ferrari 365 GTC/4 -  Real Italian V12 Sounds (POV Review)",
+    "channel": "Tedward",
+    "url": "https://www.youtube.com/watch?v=Ybz344JJJQ8",
+    "kind": "review",
+    "note": "A POV driving review of the 365 GTC/4.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+365+GTC4+review",
+    "channelUrl": "https://www.youtube.com/channel/UCU1v3aREdaFD6BA-FRLYUQQ"
+  },
+  "ferrari/400": {
+    "id": "W1XkdbStI8E",
+    "title": "Ferrari 412: The Legacy of a Classic | Tyrrell's Classic Workshop",
+    "channel": "Tyrrell's Classic Workshop",
+    "url": "https://www.youtube.com/watch?v=W1XkdbStI8E",
+    "kind": "feature",
+    "note": "A specialist assessment of the 412, the final development of the 365 GT4 2+2 / 400 family.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+412+review",
+    "channelUrl": "https://www.youtube.com/channel/UC2pQT90JBqbMHSVLtbJBvyw"
+  },
+  "ferrari/456": {
+    "id": "Pm2T0a-HXH4",
+    "title": "The Ferrari 456 Is Ferrari’s Forgotten Beautiful V12 Supercar",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=Pm2T0a-HXH4",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the front-V12 456.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+456+GT+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
   },
   "ferrari/458": {
     "id": "BCPZSaHyZGQ",
@@ -133,15 +166,158 @@
     "channel": "Top Gear",
     "url": "https://www.youtube.com/watch?v=BCPZSaHyZGQ",
     "note": "Jeremy Clarkson compares the two mid-engined cars.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
   },
-  "ferrari/ff": {
-    "id": "9S2GwLUN-8Q",
-    "title": "Ferrari FF vs Bentley Continental V8 on ice",
+  "ferrari/488": {
+    "id": "a_ISmKypLig",
+    "title": "Ferrari showdown: 488 Pista, 250 GT TDF, F12tdf",
     "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=9S2GwLUN-8Q",
-    "note": "A winter driving comparison from series 18.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "url": "https://www.youtube.com/watch?v=a_ISmKypLig",
+    "note": "A compilation of Chris Harris driving features; also includes the race-only FXX-K.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "ferrari/550": {
+    "id": "LXsG3TopW_8",
+    "title": "Ferrari 550 Maranello: V12 Perfection | Catchpole on Carfection",
+    "channel": "Carfection",
+    "url": "https://www.youtube.com/watch?v=LXsG3TopW_8",
+    "kind": "review",
+    "note": "Henry Catchpole road-tests the 550 Maranello.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+550+Maranello+review",
+    "channelUrl": "https://www.youtube.com/channel/UCwuDqQjo53xnxWKRVfw_41w"
+  },
+  "ferrari/599": {
+    "id": "pQdpNoPCd9o",
+    "title": "Sold the Porsche, Bought a Ferrari 599 - /CHRIS HARRIS ON CARS",
+    "channel": "The Drive",
+    "url": "https://www.youtube.com/watch?v=pQdpNoPCd9o",
+    "kind": "review",
+    "note": "Chris Harris assesses his Ferrari 599 for The Drive.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+599+GTB+review",
+    "channelUrl": "https://www.youtube.com/channel/UC5rBpVgv83gYPZ593XwQUsA"
+  },
+  "ferrari/612": {
+    "id": "vK7AV6i25pM",
+    "title": "Ferrari 612 Scaglietti Drive Test | Fifth Gear Classic",
+    "channel": "Fifth Gear",
+    "url": "https://www.youtube.com/watch?v=vK7AV6i25pM",
+    "kind": "review",
+    "note": "Fifth Gear tests the 612 Scaglietti.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+612+Scaglietti+review",
+    "channelUrl": "https://www.youtube.com/channel/UCa6xsp7d4s-NgpPUGc57ZGA"
+  },
+  "ferrari/812": {
+    "id": "U9kXdwM28wM",
+    "title": "Ferrari 812 Superfast",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=U9kXdwM28wM",
+    "note": "Matt LeBlanc; excerpt from series 25, episode 5.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "feature"
+  },
+  "ferrari/849-testarossa": {
+    "id": "0ROxAmIUpDI",
+    "title": "New Ferrari Testarossa Driven: Mega Car, Average Engine! | 4K",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=0ROxAmIUpDI",
+    "kind": "review",
+    "note": "Top Gear drives the new 849 Testarossa; this is separate from the 1980s Testarossa.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+849+Testarossa+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/amalfi": {
+    "id": "RIfDPdn1Exs",
+    "title": "New Ferrari Amalfi: Most Improved Ferrari Ever! | 4K",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=RIfDPdn1Exs",
+    "kind": "review",
+    "note": "Top Gear assesses the Amalfi.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Amalfi+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/america": {
+    "id": "mc8RNjW5p3Y",
+    "title": "Tom Talks: Ferrari 500 Superfast | Tom Hartley Jnr",
+    "channel": "Tom Hartley Jnr Ltd",
+    "url": "https://www.youtube.com/watch?v=mc8RNjW5p3Y",
+    "kind": "walkaround",
+    "note": "A specialist dealer presentation of the 500 Superfast, representing the America family; not an independent road test.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+500+Superfast+review",
+    "channelUrl": "https://www.youtube.com/channel/UCVcX6LugtAGlxnRsS_M1W8Q"
+  },
+  "ferrari/bb": {
+    "id": "xhILXmbqCg0",
+    "title": "1977 Ferrari 512 BB Review: Driving Ferrari's Iconic Countach Rival",
+    "channel": "JayEmm on Cars",
+    "url": "https://www.youtube.com/watch?v=xhILXmbqCg0",
+    "kind": "review",
+    "note": "A road review of the 512 BB Berlinetta Boxer.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+512+BB+review",
+    "channelUrl": "https://www.youtube.com/channel/UCkwBmrgwtoaaXZSilir6qsg"
+  },
+  "ferrari/california": {
+    "id": "8a2pSU7oQjQ",
+    "title": "Ferrari California T 2014-2018 review | Mat Watson Reviews",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=8a2pSU7oQjQ",
+    "kind": "review",
+    "note": "Mat Watson reviews the California T.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+California+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "ferrari/daytona": {
+    "id": "yFj5nAgtNBk",
+    "title": "Ferrari Daytona 365 GTB/4: Road Review | Catchpole on Carfection",
+    "channel": "Carfection",
+    "url": "https://www.youtube.com/watch?v=yFj5nAgtNBk",
+    "kind": "review",
+    "note": "Henry Catchpole road-tests the 365 GTB/4 Daytona.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+365+Daytona+review",
+    "channelUrl": "https://www.youtube.com/channel/UCwuDqQjo53xnxWKRVfw_41w"
+  },
+  "ferrari/daytona-sp3": {
+    "id": "DPdsWOLx_bo",
+    "title": "FIRST DRIVE: NEW Ferrari Daytona SP3 - £2m, 828bhp N/A V12 Hypercar | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=DPdsWOLx_bo",
+    "kind": "review",
+    "note": "Top Gear first drive of the Daytona SP3.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Daytona+SP3+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/dino": {
+    "id": "GyEpXsxwiP0",
+    "title": "The 246 GTS Dino is a better Ferrari than most Ferraris | Buyer's Guide | Ep. 304",
+    "channel": "Hagerty",
+    "url": "https://www.youtube.com/watch?v=GyEpXsxwiP0",
+    "kind": "review",
+    "note": "Hagerty buyer guide to the 246 GTS Dino.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Dino+246+review",
+    "channelUrl": "https://www.youtube.com/channel/UCLgEVx4mzk3T3mzgbKG54Eg"
+  },
+  "ferrari/enzo": {
+    "id": "f7jsauspMmU",
+    "title": "Enzo Car Review | Top Gear | BBC",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=f7jsauspMmU",
+    "kind": "review",
+    "note": "The official Top Gear Enzo review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Enzo+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
   },
   "ferrari/f12": {
     "id": "U_ed8pBMel4",
@@ -149,7 +325,323 @@
     "channel": "Top Gear",
     "url": "https://www.youtube.com/watch?v=U_ed8pBMel4",
     "note": "Jeremy Clarkson tests the F12 in wet British conditions.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "ferrari/f355": {
+    "id": "P8YZzGaprtA",
+    "title": "Why I Have to Have a Ferrari | Clarkson's Car Years | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=P8YZzGaprtA",
+    "kind": "review",
+    "note": "Jeremy Clarkson examines the F355 in the official Clarkson’s Car Years feature.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F355+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/f40": {
+    "id": "7mFleLfedrU",
+    "title": "1980s supercar powertest: F40 and 959",
+    "channel": "Top Gear",
+    "note": "",
+    "url": "https://www.youtube.com/watch?v=7mFleLfedrU",
+    "kind": "review"
+  },
+  "ferrari/f430": {
+    "id": "kj58hRUe05M",
+    "title": "Ferrari 430 | Car Review | Top Gear - Part 1",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=kj58hRUe05M",
+    "kind": "review",
+    "note": "The first part of the official Top Gear F430 review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F430+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/f50": {
+    "id": "LOyxA3bQvC0",
+    "title": "Chris Harris - Quick Steer | The Ferrari F50 | Living Up to The F40?",
+    "channel": "Collecting Cars",
+    "url": "https://www.youtube.com/watch?v=LOyxA3bQvC0",
+    "kind": "review",
+    "note": "Chris Harris drives the F50 for Collecting Cars.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F50+review",
+    "channelUrl": "https://www.youtube.com/channel/UCTBpuYRzqvJjNKzJ7SzcYpw"
+  },
+  "ferrari/f60-america": {
+    "id": "WtX5yut4cbM",
+    "title": "My First Drive in a $2.5m FERRARI F60 AMERICA!",
+    "channel": "Shmee150",
+    "url": "https://www.youtube.com/watch?v=WtX5yut4cbM",
+    "kind": "review",
+    "note": "A first-drive feature on the limited-production F60 America.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F60+America+review",
+    "channelUrl": "https://www.youtube.com/channel/UCIRgR4iANHI2taJdz8hjwLw"
+  },
+  "ferrari/f8": {
+    "id": "qGoVT3LVKAU",
+    "title": "Ferrari F8 Tributo review. Too fast for the road?",
+    "channel": "Harry's garage",
+    "url": "https://www.youtube.com/watch?v=qGoVT3LVKAU",
+    "kind": "review",
+    "note": "Harry Metcalfe reviews the F8 Tributo on the road.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F8+Tributo+review",
+    "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+  },
+  "ferrari/f80": {
+    "id": "qxzxLxcNYxc",
+    "title": "FIRST DRIVE: Ferrari F80 – The Best Ferrari Ever?",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=qxzxLxcNYxc",
+    "kind": "review",
+    "note": "Top Gear first drive of the F80.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+F80+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/ff": {
+    "id": "9S2GwLUN-8Q",
+    "title": "Ferrari FF vs Bentley Continental V8 on ice",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=9S2GwLUN-8Q",
+    "note": "A winter driving comparison from series 18.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "ferrari/gt4": {
+    "id": "ZNImX4r2vPo",
+    "title": "Ferrari Dino 308 GT4 review. 3.0 V8, Gandini design, loved by Enzo yet almost forgotten today. Why?",
+    "channel": "Harry's garage",
+    "url": "https://www.youtube.com/watch?v=ZNImX4r2vPo",
+    "kind": "review",
+    "note": "Harry Metcalfe reviews the Bertone-designed Dino 308 GT4.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+308+GT4+review",
+    "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+  },
+  "ferrari/gtc4lusso": {
+    "id": "6C_7LKrQkOY",
+    "title": "Ferrari GTC4Lusso | Chris Harris Drives | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=6C_7LKrQkOY",
+    "kind": "review",
+    "note": "Chris Harris drives the GTC4Lusso for Top Gear.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+GTC4Lusso+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/inter": {
+    "id": "gjII4dDSCpw",
+    "title": "1951 Ferrari 212 Inter by Ghia - Jay Leno's Garage",
+    "channel": "Jay Leno's Garage",
+    "url": "https://www.youtube.com/watch?v=gjII4dDSCpw",
+    "kind": "review",
+    "note": "Jay Leno examines and drives the Ghia-bodied 212 Inter.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+212+Inter+review",
+    "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+  },
+  "ferrari/j50": {
+    "id": "9c0fn-FKOSc",
+    "title": "Meet The $4 Million Ferrari J50 YOU'VE NEVER SEEN (Startup and Driving)",
+    "channel": "effspot",
+    "url": "https://www.youtube.com/watch?v=9c0fn-FKOSc",
+    "kind": "walkaround",
+    "note": "An exterior, startup and driving-sighting feature on the J50; not a full independent road test.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+J50+review",
+    "channelUrl": "https://www.youtube.com/channel/UCimeNaqaRtai6VwYhbQdqbQ"
+  },
+  "ferrari/laferrari": {
+    "id": "C_E3bSFi8lI",
+    "title": "James May reviews LaFerrari",
+    "channel": "Top Gear",
+    "note": "Series 22, Episode 5.",
+    "url": "https://www.youtube.com/watch?v=C_E3bSFi8lI",
+    "kind": "review"
+  },
+  "ferrari/luce": {
+    "id": "B86taQzY5Es",
+    "title": "We’ve Driven The Ugly Ferrari That Broke The Internet! | 4K",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=B86taQzY5Es",
+    "kind": "review",
+    "note": "Top Gear drives Ferrari's first production electric model.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Luce+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/mondial": {
+    "id": "2GU3lelURic",
+    "title": "The Ferrari Mondial Really Isn’t So Bad",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=2GU3lelURic",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the Mondial.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Mondial+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "ferrari/monza": {
+    "id": "AYRkMUDopcM",
+    "title": "Ferrari Monza vs McLaren Elva vs Aston Martin Speedster – £3.6m, 2,300bhp mega test | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=AYRkMUDopcM",
+    "kind": "review",
+    "note": "A Top Gear comparison including the Monza, McLaren Elva and Aston Martin Speedster.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Monza+SP2+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "ferrari/portofino": {
+    "id": "G1I6hqIeTMs",
+    "title": "New Ferrari Portofino M review. Why I would choose this over the Ferrari Roma",
+    "channel": "Harry's garage",
+    "url": "https://www.youtube.com/watch?v=G1I6hqIeTMs",
+    "kind": "review",
+    "note": "Harry Metcalfe reviews the Portofino M.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Portofino+review",
+    "channelUrl": "https://www.youtube.com/channel/UCIB5XXHNAWWzTOw6guIMYCg"
+  },
+  "ferrari/purosangue": {
+    "id": "Eo_VcY-E14Y",
+    "title": "Ferrari Purosangue: first drive",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=Eo_VcY-E14Y",
+    "note": "Tom Ford tests the four-door V12 on mountain roads.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "ferrari/roma": {
+    "id": "2IH5nxIwW0s",
+    "title": "First look: Ferrari Roma",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=2IH5nxIwW0s",
+    "note": "A design walkaround at the launch; not a road test.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "first-look"
+  },
+  "ferrari/sergio": {
+    "id": "FWo2KzSnBeM",
+    "title": "Driving The £4m Ferrari Sergio - One Of The Rarest Ferraris In The World!",
+    "channel": "Mr JWW",
+    "url": "https://www.youtube.com/watch?v=FWo2KzSnBeM",
+    "kind": "review",
+    "note": "Mr JWW drives the production Sergio, distinct from the screenless concept.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Ferrari+Sergio+production+review",
+    "channelUrl": "https://www.youtube.com/channel/UCK_zuVq6ZpSRMjsZ5JRPx5g"
+  },
+  "ferrari/sf90": {
+    "id": "fxCk-yCe0Fg",
+    "title": "First drive: Ferrari SF90 XX",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=fxCk-yCe0Fg",
+    "note": "Ollie Marriage tests the road-legal XX derivative.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "ferrari/testarossa": {
+    "id": "1XlPUQjmJyk",
+    "title": "Ferrari Testarossa drive and review",
+    "channel": "Harry’s Garage",
+    "note": "An owner’s tour and drive of a 1987 Testarossa.",
+    "url": "https://www.youtube.com/watch?v=1XlPUQjmJyk",
+    "kind": "review"
+  },
+  "lamborghini/350gt": {
+    "id": "UFxymrYj9FQ",
+    "title": "1965 Lamborghini 350 GT - Jay Leno's Garage",
+    "channel": "Jay Leno's Garage",
+    "url": "https://www.youtube.com/watch?v=UFxymrYj9FQ",
+    "kind": "review",
+    "note": "Jay Leno reviews a 1965 350 GT.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+350+GT+review",
+    "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+  },
+  "lamborghini/400gt": {
+    "id": "ngEycqOO91A",
+    "title": "1967 Lamborghini 400 GT 2 + 2 - Jay Leno's Garage",
+    "channel": "Jay Leno's Garage",
+    "url": "https://www.youtube.com/watch?v=ngEycqOO91A",
+    "kind": "review",
+    "note": "Jay Leno reviews the 400 GT 2+2.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+400+GT+review",
+    "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+  },
+  "lamborghini/aventador": {
+    "id": "UZiHPLGh-Ek",
+    "title": "Richard Hammond drives the Lamborghini Aventador",
+    "channel": "Top Gear",
+    "note": "Original LP700-4; Series 17, Episode 6.",
+    "url": "https://www.youtube.com/watch?v=UZiHPLGh-Ek",
+    "kind": "review"
+  },
+  "lamborghini/centenario": {
+    "id": "WXRFYiMlMLs",
+    "title": "The Lamborghini Centenario Is a $3 Million Ultra-Rare Supercar",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=WXRFYiMlMLs",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the Centenario.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Centenario+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "lamborghini/countach": {
+    "id": "jLd4z4QKx6w",
+    "title": "James May reviews the Countach",
+    "channel": "Top Gear Classic",
+    "note": "",
+    "url": "https://www.youtube.com/watch?v=jLd4z4QKx6w",
+    "kind": "review"
+  },
+  "lamborghini/countach-lpi": {
+    "id": "dKzyDuJ0Oqo",
+    "title": "FIRST DRIVE: Lamborghini Countach - £2.2m Reborn Supercar Tested On The Stelvio Pass | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=dKzyDuJ0Oqo",
+    "kind": "review",
+    "note": "Top Gear drives the modern Countach LPI 800-4 on the Stelvio Pass, distinct from the original Countach.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Countach+LPI+800+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "lamborghini/diablo": {
+    "id": "BrplqE9bUB8",
+    "title": "Lamborghini Diablo review",
+    "channel": "Harry’s Garage",
+    "note": "Harry Metcalfe reviews an original 1991 Diablo, rather than a modern restomod.",
+    "url": "https://www.youtube.com/watch?v=BrplqE9bUB8",
+    "kind": "review"
+  },
+  "lamborghini/espada": {
+    "id": "YBYpWmMi9-A",
+    "title": "1969 Lamborghini Espada - Jay Leno's Garage",
+    "channel": "Jay Leno's Garage",
+    "url": "https://www.youtube.com/watch?v=YBYpWmMi9-A",
+    "kind": "review",
+    "note": "Jay Leno reviews the four-seat Espada.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Espada+review",
+    "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+  },
+  "lamborghini/fenomeno": {
+    "id": "ocGPKecqap4",
+    "title": "FIRST LOOK: Lamborghini Fenomeno V12 – Most Powerful Lambo Ever!",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=ocGPKecqap4",
+    "kind": "first-look",
+    "note": "Top Gear's launch walkaround of the Fenomeno; a first look rather than a road test.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Fenomeno+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
   },
   "lamborghini/gallardo": {
     "id": "Hovbx6rvBaA",
@@ -157,7 +649,351 @@
     "channel": "Top Gear",
     "url": "https://www.youtube.com/watch?v=Hovbx6rvBaA",
     "note": "Jeremy Clarkson tests the open-roof Gallardo.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "lamborghini/huracan": {
+    "id": "fYpjmc2MyII",
+    "title": "Lamborghini Huracán review",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=fYpjmc2MyII",
+    "note": "Richard Hammond; series 22, episode 1.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "lamborghini/islero": {
+    "id": "hLQ2hoAIfd4",
+    "title": "Adam Carolla's 1968 Lamborghini Islero - Jay Leno's Garage",
+    "channel": "Jay Leno's Garage",
+    "url": "https://www.youtube.com/watch?v=hLQ2hoAIfd4",
+    "kind": "review",
+    "note": "Jay Leno examines Adam Carolla's Islero.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Islero+review",
+    "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+  },
+  "lamborghini/jalpa": {
+    "id": "XS1tBPzIzAU",
+    "title": "The Lamborghini Jalpa Is the Forgotten 1980s Baby Lambo",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=XS1tBPzIzAU",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the Jalpa.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Jalpa+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "lamborghini/jarama": {
+    "id": "gH65wZfN62k",
+    "title": "The Lamborghini Jarama Is Ugly, Rare, and Totally Unknown",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=gH65wZfN62k",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the Jarama.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Jarama+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "lamborghini/lm002": {
+    "id": "48x2XYVqFb0",
+    "title": "An OFF ROAD Lamborghini? The Lamborghini LM002 | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=48x2XYVqFb0",
+    "kind": "review",
+    "note": "Top Gear's short LM002 assessment.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+LM002+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "lamborghini/miura": {
+    "id": "vSj7GFLDhew",
+    "title": "Lamborghini Miura — the first modern supercar",
+    "channel": "Top Gear",
+    "note": "The video title uses “first”; the historical claim is more nuanced.",
+    "url": "https://www.youtube.com/watch?v=vSj7GFLDhew",
+    "kind": "review"
+  },
+  "lamborghini/murcielago": {
+    "id": "qT3pvMb5zEU",
+    "title": "Lamborghini Murcielago | Car Review | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=qT3pvMb5zEU",
+    "kind": "review",
+    "note": "The official Top Gear Murciélago review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Murci%C3%A9lago+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "lamborghini/reventon": {
+    "id": "QOBjYEw1mN0",
+    "title": "2010 Lamborghini Reventón Roadster Start Up, Exhaust, and In Depth Review",
+    "channel": "Saabkyle04",
+    "url": "https://www.youtube.com/watch?v=QOBjYEw1mN0",
+    "kind": "walkaround",
+    "note": "A detailed Reventón Roadster inspection, startup and exhaust demonstration; not a full road test.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Revent%C3%B3n+review",
+    "channelUrl": "https://www.youtube.com/channel/UC2dBZuI6gS-jv7PCIDXkXag"
+  },
+  "lamborghini/revuelto": {
+    "id": "dZIg75EYumo",
+    "title": "We take our driving test in a Lamborghini Revuelto",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=dZIg75EYumo",
+    "note": "A driving feature by Ollie Marriage.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "feature"
+  },
+  "lamborghini/sian": {
+    "id": "CeTiIZXt-8Y",
+    "title": "Chris Harris vs Lamborghini Sián | 800bhp + hyper-hybrid Lambo | Top Gear Series 30",
+    "channel": "BBC Studios",
+    "url": "https://www.youtube.com/watch?v=CeTiIZXt-8Y",
+    "kind": "review",
+    "note": "Chris Harris drives the Sián in an official BBC Studios Top Gear series 30 feature.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Sian+review",
+    "channelUrl": "https://www.youtube.com/channel/UC2ccm1GajfSujz7T18d7cKA"
+  },
+  "lamborghini/silhouette": {
+    "id": "dsi4GF9mazM",
+    "title": "The Lamborghini Silhouette - Brilliant.. Yet Virtually Unknown?",
+    "channel": "Number 27",
+    "url": "https://www.youtube.com/watch?v=dsi4GF9mazM",
+    "kind": "review",
+    "note": "Number 27 reviews the rare Silhouette.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Silhouette+review",
+    "channelUrl": "https://www.youtube.com/channel/UCErr8b5Sc1owxI31N6WZmIA"
+  },
+  "lamborghini/temerario": {
+    "id": "h_NEOIwrG-E",
+    "title": "Lamborghini Temerario is Perfecting the Hybrid Formula!",
+    "channel": "Auto Focus",
+    "url": "https://www.youtube.com/watch?v=h_NEOIwrG-E",
+    "kind": "review",
+    "note": "Auto Focus assesses the Temerario hybrid.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Temerario+review",
+    "channelUrl": "https://www.youtube.com/channel/UC2J-0g_nxlwcD9JBK1eTleQ"
+  },
+  "lamborghini/urraco": {
+    "id": "V7AOhSGGcdg",
+    "title": "Lamborghini Urraco P250 - Why Didn't It Do Better?",
+    "channel": "Number 27",
+    "url": "https://www.youtube.com/watch?v=V7AOhSGGcdg",
+    "kind": "review",
+    "note": "Number 27 drives and assesses the Urraco P250.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Urraco+review",
+    "channelUrl": "https://www.youtube.com/channel/UCErr8b5Sc1owxI31N6WZmIA"
+  },
+  "lamborghini/urus": {
+    "id": "oL-fHltu9ro",
+    "title": "The Lamborghini Urus tested on and off road",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=oL-fHltu9ro",
+    "note": "A road and off-road test.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "lamborghini/veneno": {
+    "id": "ckjqW1M9zqw",
+    "title": "My First Drive in the VENENO ROADSTER - Batman's Lamborghini!",
+    "channel": "Shmee150",
+    "url": "https://www.youtube.com/watch?v=ckjqW1M9zqw",
+    "kind": "review",
+    "note": "A first drive in the Veneno Roadster.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Veneno+review",
+    "channelUrl": "https://www.youtube.com/channel/UCIRgR4iANHI2taJdz8hjwLw"
+  },
+  "mercedes/170": {
+    "id": "59lDetsI10E",
+    "title": "Mercedes Benz 170 Cabriolet 1934",
+    "channel": "Miguel Caparros",
+    "url": "https://www.youtube.com/watch?v=59lDetsI10E",
+    "kind": "walkaround",
+    "note": "A presentation of a 1934 170 Cabriolet C W15; distinct from the later 170 V and 170 H.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=1934+Mercedes+170+Cabriolet+W15",
+    "channelUrl": "https://www.youtube.com/channel/UCKkt6pAnp9vI65MfnvbDJIg"
+  },
+  "mercedes/170v": {
+    "id": "dNfNKRTpALY",
+    "title": "Mercedes 170s | 1950 Luxury Oldtimer | Motorvision International",
+    "channel": "Motorvision International",
+    "url": "https://www.youtube.com/watch?v=dNfNKRTpALY",
+    "kind": "feature",
+    "note": "Motorvision assesses the postwar 170 S, within the 170 V / S family.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+170+V+review",
+    "channelUrl": "https://www.youtube.com/channel/UCOhiJOcXELH8Vf92tlxeMhg"
+  },
+  "mercedes/190sl": {
+    "id": "wY8qcSnNszw",
+    "title": "Classic Car | 1959 Mercedes Benz 190SL | Driving.ca",
+    "channel": "Driving.ca",
+    "url": "https://www.youtube.com/watch?v=wY8qcSnNszw",
+    "kind": "review",
+    "note": "Driving.ca reviews a 1959 190 SL.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+190+SL+review",
+    "channelUrl": "https://www.youtube.com/channel/UCakXkuN4Z3Jnwf5aOay9ytw"
+  },
+  "mercedes/200": {
+    "id": "Iez2buRCEbM",
+    "title": "1936 - Mercedes-Benz 200 lang W21 - Classic Expo Salzburg 2015",
+    "channel": "Automobile Classics",
+    "url": "https://www.youtube.com/watch?v=Iez2buRCEbM",
+    "kind": "walkaround",
+    "note": "A tour of an original 1936 200 W21; distinct from later E-Class models using the 200 badge.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+200+W21+review",
+    "channelUrl": "https://www.youtube.com/channel/UCvjAgLhWuHN0Tt5AryLfHrw"
+  },
+  "mercedes/230": {
+    "id": "7fuX16Eq2-o",
+    "title": "1937 Mercedes-Benz Typ 230 (W143) review",
+    "channel": "Pit-Stop",
+    "url": "https://www.youtube.com/watch?v=7fuX16Eq2-o",
+    "kind": "review",
+    "note": "A model-specific assessment of the prewar 230 W143, rather than the later 230 SL or 230 E.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+230+W143+review",
+    "channelUrl": "https://www.youtube.com/channel/UCbed4R5dqjQL3HomA8V3How"
+  },
+  "mercedes/260d": {
+    "id": "2gL_c9bCW9U",
+    "title": "1937, Mercedes Benz 260 D Landaulet - Classic Expo Salzburg 2014",
+    "channel": "Automobile Classics",
+    "url": "https://www.youtube.com/watch?v=2gL_c9bCW9U",
+    "kind": "walkaround",
+    "note": "An original 1937 260 D Landaulet at Classic Expo Salzburg; a walkaround rather than a driving review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=1936+Mercedes+260+D+review",
+    "channelUrl": "https://www.youtube.com/channel/UCvjAgLhWuHN0Tt5AryLfHrw"
+  },
+  "mercedes/290": {
+    "id": "hwQ6P7lqZ2s",
+    "title": "Mercedes 290 Cabriolet D, 1934, The former company car of Leowerke, Dresden (Chlorodont)",
+    "channel": "Cargold Collection",
+    "url": "https://www.youtube.com/watch?v=hwQ6P7lqZ2s",
+    "kind": "feature",
+    "note": "Cargold's specialist presentation of a 1934 290 Cabriolet D.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+290+W18+review",
+    "channelUrl": "https://www.youtube.com/channel/UC7WXbzvG8HzgjExpS8NyyOw"
+  },
+  "mercedes/300-350": {
+    "id": "notamN3AfzQ",
+    "title": "1926 Mercedes-Benz 12-55 Typ 300 - Exterior and Interior - Retro Classics Stuttgart 2018",
+    "channel": "Automobile Classics",
+    "url": "https://www.youtube.com/watch?v=notamN3AfzQ",
+    "kind": "walkaround",
+    "note": "An exterior and interior tour of the original 1926 12/55 Typ 300 W03; this is not the later Formula One W03.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+12+55+PS+1927",
+    "channelUrl": "https://www.youtube.com/channel/UCvjAgLhWuHN0Tt5AryLfHrw"
+  },
+  "mercedes/300s": {
+    "id": "h9RJ5xonW8E",
+    "title": "1955 Mercedes-Benz 300 Sc - Retro Classics Stuttgart 2020",
+    "channel": "Automobile Classics",
+    "url": "https://www.youtube.com/watch?v=h9RJ5xonW8E",
+    "kind": "walkaround",
+    "note": "An original 1955 300 Sc at Retro Classics Stuttgart; a body and cabin tour rather than a driving review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=%22Mercedes+300+Sc%22+%221956%22+review",
+    "channelUrl": "https://www.youtube.com/channel/UCvjAgLhWuHN0Tt5AryLfHrw"
+  },
+  "mercedes/320": {
+    "id": "cjfTn1lOT9Y",
+    "title": "Stefan Luftschitz presents: Mercedes 320 Cabriolet A, 1938, the most beautiful Mercedes of all time?",
+    "channel": "Cargold Collection",
+    "url": "https://www.youtube.com/watch?v=cjfTn1lOT9Y",
+    "kind": "feature",
+    "note": "Cargold presents an original 1938 320 Cabriolet A; dealer-produced specialist coverage.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+320+W142+review",
+    "channelUrl": "https://www.youtube.com/channel/UC7WXbzvG8HzgjExpS8NyyOw"
+  },
+  "mercedes/380": {
+    "id": "MN0BhADjBTk",
+    "title": "Mercedes-Benz 380K (1934) do Museu do Caramulo",
+    "channel": "Museu do Caramulo",
+    "url": "https://www.youtube.com/watch?v=MN0BhADjBTk",
+    "kind": "feature",
+    "note": "The Caramulo Museum presents its original 1934 380 K; Portuguese-language museum coverage rather than a road test.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=%22Mercedes+380%22+%221933%22",
+    "channelUrl": "https://www.youtube.com/channel/UCl4iimtp0aGYayHRluKCfbA"
+  },
+  "mercedes/500k": {
+    "id": "5_E7L5it7ro",
+    "title": "This Classic 1938 WWII ERA Mercedes 540K Sounds Like a Very Angry Hellcat | I Go For a Spin!",
+    "channel": "TFLclassics",
+    "url": "https://www.youtube.com/watch?v=5_E7L5it7ro",
+    "kind": "review",
+    "note": "TFLclassics drives a 1938 540 K.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+540+K+review",
+    "channelUrl": "https://www.youtube.com/channel/UCeM0wZ8W4GRebz3zf1lJLuQ"
+  },
+  "mercedes/600": {
+    "id": "vn1JN4b41XM",
+    "title": "Classic Car Challenge: Grosser Mercedes Vs Rolls-Royce Corniche | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=vn1JN4b41XM",
+    "kind": "review",
+    "note": "Top Gear compares the 600 Grosser with a Rolls-Royce Corniche.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+600+Grosser+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "mercedes/630": {
+    "id": "orPm5JZ1n4E",
+    "title": "Mercedes 630 K Saoutchik, 1927, The car of kings in sensational original condition",
+    "channel": "Cargold Collection",
+    "url": "https://www.youtube.com/watch?v=orPm5JZ1n4E",
+    "kind": "feature",
+    "note": "A specialist presentation of an original 1927 630 K by Cargold Collection; dealer-produced rather than an independent road test.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=1927+Mercedes+630+K+review",
+    "channelUrl": "https://www.youtube.com/channel/UC7WXbzvG8HzgjExpS8NyyOw"
+  },
+  "mercedes/770": {
+    "id": "BGsqBaJgc3k",
+    "title": "Mercedes 770 Open Tourer, 1939, the largest Mercedes of all time! Classic Car, Air Raid Protection",
+    "channel": "Cargold Collection",
+    "url": "https://www.youtube.com/watch?v=BGsqBaJgc3k",
+    "kind": "feature",
+    "note": "Cargold presents the original 1939 770 open tourer, with its historical context; this is not the later 600 Grosser.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+770+Grosser+review",
+    "channelUrl": "https://www.youtube.com/channel/UC7WXbzvG8HzgjExpS8NyyOw"
+  },
+  "mercedes/a-class": {
+    "id": "wc4QV7yTAPc",
+    "title": "The Mercedes A-Class – Should You Still Buy One in 2026?",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=wc4QV7yTAPc",
+    "kind": "review",
+    "note": "Mat Watson assesses the A-Class.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+A+Class+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/adenauer": {
+    "id": "1axmEP4cqcg",
+    "title": "Ep. 2 - 1961 Mercedes-Benz 300 Adenauer - Mercedes-Benz Classics with Pierre Hedary",
+    "channel": "Mercedes Classics with Pierre Hedary",
+    "url": "https://www.youtube.com/watch?v=1axmEP4cqcg",
+    "kind": "feature",
+    "note": "Mercedes specialist Pierre Hedary gives a detailed assessment of the 300 Adenauer.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+300+Adenauer+review",
+    "channelUrl": "https://www.youtube.com/channel/UCDTOh7Fk-QSSpi24UJIcs5A"
   },
   "mercedes/amg-gt": {
     "id": "gZh8ESDXUfs",
@@ -165,15 +1001,105 @@
     "channel": "Top Gear",
     "url": "https://www.youtube.com/watch?v=gZh8ESDXUfs",
     "note": "Chris Harris compares three road-legal performance cars.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
   },
-  "tesla/model-y": {
-    "id": "wGymLNmfhvo",
-    "title": "Tesla Model Y review",
+  "mercedes/amg-one": {
+    "id": "_o91NfvslY0",
+    "title": "Chris Harris on the Mercedes-AMG One",
     "channel": "Top Gear",
-    "url": "https://www.youtube.com/watch?v=wGymLNmfhvo",
-    "note": "Ollie Kew tests the original Model Y; the later Juniper body is shown separately in the timeline.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "url": "https://www.youtube.com/watch?v=_o91NfvslY0",
+    "note": "A short Top Gear feature accompanying the series 33 test.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "feature"
+  },
+  "mercedes/b-class": {
+    "id": "dHhLED0Vvvw",
+    "title": "2019 Mercedes B-Class FULL REVIEW all-new BClass B-Klasse AMG-Line - Autogefühl",
+    "channel": "Autogefühl",
+    "url": "https://www.youtube.com/watch?v=dHhLED0Vvvw",
+    "kind": "review",
+    "note": "Autogefühl gives a detailed B-Class review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+B+Class+review",
+    "channelUrl": "https://www.youtube.com/channel/UCG0__4AhnoCWRH7TPO0PQyg"
+  },
+  "mercedes/c-class": {
+    "id": "02yxl06J4Uw",
+    "title": "Mercedes C-Class 2021 review -  S-Class luxury for less!",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=02yxl06J4Uw",
+    "kind": "review",
+    "note": "Mat Watson reviews the W206 C-Class.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+C+Class+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/cla": {
+    "id": "9s69aThM7rA",
+    "title": "Mercedes CLA EV is a Great Fighter in a Dying Sport",
+    "channel": "Auto Focus",
+    "url": "https://www.youtube.com/watch?v=9s69aThM7rA",
+    "kind": "review",
+    "note": "Auto Focus reviews the electric CLA generation.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+CLA+review",
+    "channelUrl": "https://www.youtube.com/channel/UC2J-0g_nxlwcD9JBK1eTleQ"
+  },
+  "mercedes/clc": {
+    "id": "hSs8Ng2rfTU",
+    "title": "C-Class Sports Coupe, the forgotten Mercedes Fastback (Review CL203)",
+    "channel": "JJ on Cars",
+    "url": "https://www.youtube.com/watch?v=hSs8Ng2rfTU",
+    "kind": "review",
+    "note": "JJ on Cars reviews the original CL203 SportCoupé, which was later renamed and restyled as the CLC.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+CLC+review",
+    "channelUrl": "https://www.youtube.com/channel/UCH4i9ffQbxryheIVx9LnOzA"
+  },
+  "mercedes/cle": {
+    "id": "HkhH0Hs1tZA",
+    "title": "Mercedes CLE review: Is it really worth £75,000?",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=HkhH0Hs1tZA",
+    "kind": "review",
+    "note": "Mat Watson reviews the CLE coupé.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+CLE+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/clk": {
+    "id": "uHdWiYq5ups",
+    "title": "When Jeremy Drove The Mercedes AMG CLK Black And Fell In Love! | Top Gear Classic",
+    "channel": "Top Gear Classic",
+    "url": "https://www.youtube.com/watch?v=uHdWiYq5ups",
+    "kind": "review",
+    "note": "The official Top Gear Classic CLK AMG Black Series review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+CLK+review",
+    "channelUrl": "https://www.youtube.com/channel/UCx6xmIOXqnQ79ZI6VVpARXw"
+  },
+  "mercedes/clk-gtr": {
+    "id": "kJXj2OsBipQ",
+    "title": "The Mercedes-Benz CLK GTR Is a $10 Million Hypercar Legend",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=kJXj2OsBipQ",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the road-going CLK GTR; not a DTM race car.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+CLK+GTR+road+car+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "mercedes/cls": {
+    "id": "z7igrM4GOWw",
+    "title": "New Mercedes CLS 2019 in-depth review | carwow Reviews",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=z7igrM4GOWw",
+    "kind": "review",
+    "note": "Mat Watson reviews the third-generation CLS.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+CLS+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
   },
   "mercedes/e-class": {
     "id": "uo_Y5nHPQKQ",
@@ -181,6 +1107,571 @@
     "channel": "Top Gear",
     "url": "https://www.youtube.com/watch?v=uo_Y5nHPQKQ",
     "note": "Chris Harris and Jack Rix discuss the performance saloons; series 26 walkaround.",
-    "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "walkaround"
+  },
+  "mercedes/eqa": {
+    "id": "N2nqwVSFkn0",
+    "title": "Mercedes EQA 2021 review - see what I really think about it!",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=N2nqwVSFkn0",
+    "kind": "review",
+    "note": "Mat Watson reviews the EQA.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+EQA+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/eqb": {
+    "id": "5axCMZ9igIw",
+    "title": "NEW Mercedes EQB review – the best seven-seat EV | What Car?",
+    "channel": "What Car?",
+    "url": "https://www.youtube.com/watch?v=5axCMZ9igIw",
+    "kind": "review",
+    "note": "What Car? reviews the seven-seat EQB.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+EQB+review",
+    "channelUrl": "https://www.youtube.com/channel/UC-GJbheknHZhSM7-Jgn63jg"
+  },
+  "mercedes/eqc": {
+    "id": "JYUEDCT4oQM",
+    "title": "Mercedes EQC 2020 review - see if it's a Tesla Model X beater!",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=JYUEDCT4oQM",
+    "kind": "review",
+    "note": "Mat Watson reviews the EQC.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+EQC+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/eqe": {
+    "id": "ky37aX6DLnA",
+    "title": "The 2023 Mercedes-Benz EQE Is a Luxurious Midsize Electric Sedan",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=ky37aX6DLnA",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the EQE saloon.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+EQE+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "mercedes/eqs": {
+    "id": "xhdV3xWmxgQ",
+    "title": "2023 Mercedes EQS SUV: Luxury, but Not for Me!",
+    "channel": "Auto Focus",
+    "url": "https://www.youtube.com/watch?v=xhdV3xWmxgQ",
+    "kind": "review",
+    "note": "Auto Focus reviews the EQS SUV; the EQS saloon is a separate body chapter in the same family.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+EQS+review",
+    "channelUrl": "https://www.youtube.com/channel/UC2J-0g_nxlwcD9JBK1eTleQ"
+  },
+  "mercedes/g-class": {
+    "id": "WhDuEmGBfvs",
+    "title": "The Mercedes-Benz AMG G 63 | Chris Harris Drives | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=WhDuEmGBfvs",
+    "kind": "review",
+    "note": "Chris Harris drives the G 63 for Top Gear.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+G+Class+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "mercedes/gla": {
+    "id": "Drw0P7_6e7o",
+    "title": "Mercedes GLA 2020 in-depth review - have they got it right this time?",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=Drw0P7_6e7o",
+    "kind": "review",
+    "note": "Mat Watson reviews the second-generation GLA.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+GLA+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/glb": {
+    "id": "xW-RSl1c3aQ",
+    "title": "Mercedes GLB 2021 review - it's a half-price GLS!",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=xW-RSl1c3aQ",
+    "kind": "review",
+    "note": "Mat Watson reviews the GLB SUV.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+GLB+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/glc": {
+    "id": "oLA7X71X08k",
+    "title": "Porsche Macan and Mercedes-AMG GLC 63",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=oLA7X71X08k",
+    "note": "A comparative design and specification walkaround.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "walkaround"
+  },
+  "mercedes/gle": {
+    "id": "vg1OP8mJAM8",
+    "title": "Mercedes GLE: Why the Hybrid is a Practical MISTAKE!",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=vg1OP8mJAM8",
+    "kind": "review",
+    "note": "Mat Watson reviews the GLE, the successor to the M-Class.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+GLE+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/gls": {
+    "id": "Af1BSLW9cL8",
+    "title": "Mercedes GLS 2020 SUV review - see if it’s better than the BMW X7!",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=Af1BSLW9cL8",
+    "kind": "review",
+    "note": "Mat Watson reviews the GLS SUV.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+GLS+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/gt-four-door": {
+    "id": "rTJeyN_x3zc",
+    "title": "New Mercedes-AMG GT 4-door Coupe 2019 REVIEW - see if it's quicker than an E63 S over a 1/4 mile",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=rTJeyN_x3zc",
+    "kind": "review",
+    "note": "Mat Watson tests the combustion-engined AMG GT 4-Door; the later electric generation has its own timeline chapter.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+AMG+GT+4+Door+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/mannheim": {
+    "id": "-Isy9JHQd4Y",
+    "title": "1931, Mercedes-Benz 370 S - Classic Expo Salzburg 2014",
+    "channel": "Automobile Classics",
+    "url": "https://www.youtube.com/watch?v=-Isy9JHQd4Y",
+    "kind": "walkaround",
+    "note": "An exterior and interior tour of a 1931 370 S at Classic Expo Salzburg; no independent driving review is claimed.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+Mannheim+370+review",
+    "channelUrl": "https://www.youtube.com/channel/UCvjAgLhWuHN0Tt5AryLfHrw"
+  },
+  "mercedes/nurburg": {
+    "id": "u7mwtBYmzgU",
+    "title": "1929 Mercedes-Benz Typ Nürburg 460 the predecessor S-class",
+    "channel": "OldBenz",
+    "url": "https://www.youtube.com/watch?v=u7mwtBYmzgU",
+    "kind": "history",
+    "note": "A model-specific historical feature about the 1929 Nürburg 460; no independent driving review is claimed.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+N%C3%BCrburg+460+walkaround",
+    "channelUrl": "https://www.youtube.com/channel/UCyWJuGq8jleQ7LB-geEk0PA"
+  },
+  "mercedes/r-class": {
+    "id": "5_YsCFptGcQ",
+    "title": "Mercedes R-Class MPV review - CarBuyer",
+    "channel": "Carbuyer",
+    "url": "https://www.youtube.com/watch?v=5_YsCFptGcQ",
+    "kind": "review",
+    "note": "Carbuyer reviews the R-Class.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+R+Class+review",
+    "channelUrl": "https://www.youtube.com/channel/UCULKp_WfpcnuqZsrjaK1DVw"
+  },
+  "mercedes/rear-engine": {
+    "id": "Q_AGvwNVufs",
+    "title": "Mercedes 130",
+    "channel": "Motorvision Deutschland",
+    "url": "https://www.youtube.com/watch?v=Q_AGvwNVufs",
+    "kind": "review",
+    "note": "Motorvision examines the rear-engined 130; German-language coverage of this early family.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=%22Mercedes+170+H%22+driving",
+    "channelUrl": "https://www.youtube.com/channel/UCrPoTKfvNvJhG1Ngf6jHB1w"
+  },
+  "mercedes/s-class": {
+    "id": "o86qjnOmyXs",
+    "title": "Mercedes S-Class 2021 review - the best car EVER?",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=o86qjnOmyXs",
+    "kind": "review",
+    "note": "Mat Watson reviews the W223 S-Class.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+S+Class+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "mercedes/s-series": {
+    "id": "PVXH3yuxKo4",
+    "title": "Mercedes Benz SSK, 1929, Supercharged, 250 PS, 220 km/h, 7,1l, Das faszinierendste Automobil ever!",
+    "channel": "Cargold Collection",
+    "url": "https://www.youtube.com/watch?v=PVXH3yuxKo4",
+    "kind": "feature",
+    "note": "Cargold presents an original supercharged SSK; a specialist dealer feature rather than a replica review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+SSK+1929+review",
+    "channelUrl": "https://www.youtube.com/channel/UC7WXbzvG8HzgjExpS8NyyOw"
+  },
+  "mercedes/sl": {
+    "id": "1hD2T7s7Td8",
+    "title": "Mercedes-AMG SL 63 (2022) - AutoWeek Review",
+    "channel": "AutoWeek",
+    "url": "https://www.youtube.com/watch?v=1hD2T7s7Td8",
+    "kind": "review",
+    "note": "AutoWeek reviews the factory Mercedes-AMG SL 63; Dutch-language driving review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+SL+review",
+    "channelUrl": "https://www.youtube.com/channel/UCzToShYR6Sw_k1i6FsdEr6g"
+  },
+  "mercedes/slc-c107": {
+    "id": "oOR9cc5it4I",
+    "title": "ULTIMATE 70's STYLE! 1977 Mercedes-Benz 450SLC | MGUY Australia",
+    "channel": "MGUY Australia",
+    "url": "https://www.youtube.com/watch?v=oOR9cc5it4I",
+    "kind": "review",
+    "note": "A review and drive of the 1977 450 SLC, distinct from the later compact SLC roadster.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+450+SLC+review",
+    "channelUrl": "https://www.youtube.com/channel/UC5FxvrV6V0Ie6o2jFrvVDWg"
+  },
+  "mercedes/slk": {
+    "id": "hRTFsnjARCc",
+    "title": "Is buying a USED Mercedes-Benz SLK a BAD IDEA in 2026?",
+    "channel": "ReDriven",
+    "url": "https://www.youtube.com/watch?v=hRTFsnjARCc",
+    "kind": "review",
+    "note": "ReDriven assesses a used SLK and its ownership considerations.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+SLK+review",
+    "channelUrl": "https://www.youtube.com/channel/UCVnLfmYPxEGHO7BRXSxSJ_w"
+  },
+  "mercedes/slr": {
+    "id": "N7fz-ZPWM24",
+    "title": "McLaren SLR - A Fantastic Car! | Car Review | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=N7fz-ZPWM24",
+    "kind": "review",
+    "note": "The official Top Gear Mercedes-McLaren SLR review.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+SLR+McLaren+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "mercedes/sls": {
+    "id": "5gFGX43vubM",
+    "title": "Petrol vs electric: Mercedes SLS AMG battle",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=5gFGX43vubM",
+    "note": "Black Series and Electric Drive; Top Gear series 20, episode 4.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "mercedes/stuttgart": {
+    "id": "N3uPmeTKdkc",
+    "title": "1930 Mercedes-Benz Stuttgart 260 Roadster Walk Around and Drive",
+    "channel": "PreWar Motoring",
+    "url": "https://www.youtube.com/watch?v=N3uPmeTKdkc",
+    "kind": "walkaround",
+    "note": "A specialist walkaround and driving presentation of an original 1930 Stuttgart 260; a sales feature rather than an independent road test.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+Stuttgart+260+oldtimer",
+    "channelUrl": "https://www.youtube.com/channel/UCs-G05hn58CCj-Zar3-Zexg"
+  },
+  "mercedes/two-door-luxury": {
+    "id": "acxpEmi3AZY",
+    "title": "Mercedes-Benz CL-Class CL63 AMG 2007 | Is the CL63 AMG Worth $400,000? | Performance | Drive.com.au",
+    "channel": "Drive.com.au",
+    "url": "https://www.youtube.com/watch?v=acxpEmi3AZY",
+    "kind": "review",
+    "note": "Drive.com.au reviews the CL63 AMG, one of the large two-door luxury lineage's later generations.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+CL63+AMG+review",
+    "channelUrl": "https://www.youtube.com/channel/UC7yn9vuYzXTWtL0KLu2rU2w"
+  },
+  "mercedes/x-class": {
+    "id": "qCmCyUVfQPU",
+    "title": "Why is a USED Mercedes-Benz X-Class SO CHEAP?",
+    "channel": "ReDriven",
+    "url": "https://www.youtube.com/watch?v=qCmCyUVfQPU",
+    "kind": "review",
+    "note": "ReDriven assesses a used X-Class pickup.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Mercedes+X+Class+review",
+    "channelUrl": "https://www.youtube.com/channel/UCVnLfmYPxEGHO7BRXSxSJ_w"
+  },
+  "porsche/356": {
+    "id": "yg0-C9phP9s",
+    "title": "DRIVEN: Ten Minutes In a Beautiful 1964 Porsche 356C",
+    "channel": "JayEmm on Cars",
+    "url": "https://www.youtube.com/watch?v=yg0-C9phP9s",
+    "kind": "review",
+    "note": "A road review of a 1964 356 C.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+356+review",
+    "channelUrl": "https://www.youtube.com/channel/UCkwBmrgwtoaaXZSilir6qsg"
+  },
+  "porsche/550": {
+    "id": "-eiBaLP-olk",
+    "title": "Discovering Porsche’s Legendary 550A Spyder",
+    "channel": "RM Sotheby's",
+    "url": "https://www.youtube.com/watch?v=-eiBaLP-olk",
+    "kind": "feature",
+    "note": "A specialist assessment and drive of an original 550A Spyder, presented by RM Sotheby's; not a replica.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+550+Spyder+review",
+    "channelUrl": "https://www.youtube.com/channel/UCNiTBZZrGcok8fuWlDQ-_yA"
+  },
+  "porsche/718-rsk": {
+    "id": "6y25dYXbr5M",
+    "title": "Porsche 718: A Living Legacy",
+    "channel": "Petrolicious",
+    "url": "https://www.youtube.com/watch?v=6y25dYXbr5M",
+    "kind": "feature",
+    "note": "Derek Bell explores the historic 718 and its modern namesake; the early car is a distinct model family.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+718+RSK+review",
+    "channelUrl": "https://www.youtube.com/channel/UCgyJPixJl95X1ut3E9K99KA"
+  },
+  "porsche/904": {
+    "id": "utihJ2j0f7k",
+    "title": "904 Carrera GTS: The Mona Lisa of Porsches",
+    "channel": "Porsche Club of America",
+    "url": "https://www.youtube.com/watch?v=utihJ2j0f7k",
+    "kind": "feature",
+    "note": "The Porsche Club of America's model-specific 904 assessment and history.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+904+Carrera+GTS+review",
+    "channelUrl": "https://www.youtube.com/channel/UCdBSaHWRHMQTVALwa7gs7Fg"
+  },
+  "porsche/906": {
+    "id": "e-BkudTkWms",
+    "title": "Road Scholars & Bond Group | 1966 Porsche 906 | Chassis 906-127",
+    "channel": "RoadScholars",
+    "url": "https://www.youtube.com/watch?v=e-BkudTkWms",
+    "kind": "feature",
+    "note": "Road Scholars and Bond Group present an original 1966 906; a specialist sales and driving feature rather than an independent road test.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+906+Carrera+6+review",
+    "channelUrl": "https://www.youtube.com/channel/UCmUYwJqp45roWzi1Bq3bNrg"
+  },
+  "porsche/911": {
+    "id": "8WMMjO6gafg",
+    "title": "Top Gear decides the best Porsche 911 ever",
+    "channel": "Top Gear",
+    "note": "",
+    "url": "https://www.youtube.com/watch?v=8WMMjO6gafg",
+    "kind": "review"
+  },
+  "porsche/911-gt1": {
+    "id": "P6M5fqidUNg",
+    "title": "Porsche 911 GT1. Le Mans Legend with Tiff Needell",
+    "channel": "Lovecars",
+    "url": "https://www.youtube.com/watch?v=P6M5fqidUNg",
+    "kind": "review",
+    "note": "Tiff Needell examines the 911 GT1 with Lovecars.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+911+GT1+road+car+review",
+    "channelUrl": "https://www.youtube.com/channel/UC9LfZkFRd3hJzPuTTFZN4lw"
+  },
+  "porsche/912": {
+    "id": "7qUw_gwUrao",
+    "title": "Going for a Drive in a 1969 Porsche 912",
+    "channel": "JayEmm on Cars",
+    "url": "https://www.youtube.com/watch?v=7qUw_gwUrao",
+    "kind": "review",
+    "note": "A road review of the 1969 912.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+912+review",
+    "channelUrl": "https://www.youtube.com/channel/UCkwBmrgwtoaaXZSilir6qsg"
+  },
+  "porsche/914": {
+    "id": "w08bM8YjRuM",
+    "title": "The Porsche 914 Is Cooler Than You Think",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=w08bM8YjRuM",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the 914.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+914+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "porsche/918": {
+    "id": "nSqzp3kdAm4",
+    "title": "The awesome Porsche 918",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=nSqzp3kdAm4",
+    "note": "Richard Hammond; Top Gear series 21, episode 5.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "porsche/924": {
+    "id": "6qLwd44C4iU",
+    "title": "The Porsche 924 wasn't born a Porsche. It became one. | Revelations with Jason Cammisa | Ep. 09",
+    "channel": "Hagerty",
+    "url": "https://www.youtube.com/watch?v=6qLwd44C4iU",
+    "kind": "feature",
+    "note": "Jason Cammisa examines the 924's design and engineering history for Hagerty.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+924+review",
+    "channelUrl": "https://www.youtube.com/channel/UCLgEVx4mzk3T3mzgbKG54Eg"
+  },
+  "porsche/928": {
+    "id": "GaoLQ_1zsrM",
+    "title": "Here's What a $180,000 Porsche Was Like In 1994",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=GaoLQ_1zsrM",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the 928 GTS, representing the final version of this family.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+928+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "porsche/944": {
+    "id": "mChMhf7hpi4",
+    "title": "The Porsche 944 Is an Undervalued Fun Sports Car",
+    "channel": "Doug DeMuro",
+    "url": "https://www.youtube.com/watch?v=mChMhf7hpi4",
+    "kind": "review",
+    "note": "Doug DeMuro reviews the 944.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+944+review",
+    "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+  },
+  "porsche/959": {
+    "id": "7mFleLfedrU",
+    "title": "1980s supercar powertest: F40 and 959",
+    "channel": "Top Gear",
+    "note": "Richard Hammond compares the Porsche 959 and Ferrari F40.",
+    "url": "https://www.youtube.com/watch?v=7mFleLfedrU",
+    "kind": "review"
+  },
+  "porsche/968": {
+    "id": "DIPfIVNelB8",
+    "title": "1994 Porsche 968 Review",
+    "channel": "TheStraightPipes",
+    "url": "https://www.youtube.com/watch?v=DIPfIVNelB8",
+    "kind": "review",
+    "note": "TheStraightPipes reviews the 968.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+968+review",
+    "channelUrl": "https://www.youtube.com/channel/UC86SBFIAgnYL3ll2ZDgmsuA"
+  },
+  "porsche/boxster": {
+    "id": "7j0Ilwu1cXA",
+    "title": "Porsche 718 Cayman S | Top Gear",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=7j0Ilwu1cXA",
+    "kind": "review",
+    "note": "Top Gear tests the modern 718 Cayman S; earlier Boxster and Cayman generations are in the timeline.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+Cayman+718+review",
+    "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+  },
+  "porsche/carrera-gt": {
+    "id": "vE_WqdKbTvY",
+    "title": "Porsche Carrera GT car review",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=vE_WqdKbTvY",
+    "note": "Jeremy Clarkson and the Stig review the Carrera GT.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "porsche/cayenne": {
+    "id": "o73frAVfd7E",
+    "title": "Porsche Cayenne 2019 SUV in-depth review | carwow Reviews",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=o73frAVfd7E",
+    "kind": "review",
+    "note": "Mat Watson reviews the third-generation Cayenne SUV.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+Cayenne+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "porsche/macan": {
+    "id": "oxc3dzwpQsY",
+    "title": "First drive: Porsche Macan Turbo",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=oxc3dzwpQsY",
+    "note": "Tom Ford tests the electric Macan.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "porsche/panamera": {
+    "id": "1khDVVJODDM",
+    "title": "Why the new Porsche Panamera is ALMOST perfect!",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=1khDVVJODDM",
+    "kind": "review",
+    "note": "Mat Watson reviews the new Panamera.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Porsche+Panamera+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "porsche/taycan": {
+    "id": "c2dkDhhtm8I",
+    "title": "Porsche Taycan Turbo: real-world EV test",
+    "channel": "Top Gear",
+    "note": "Top Gear Tested review of the original-shape Taycan, filmed in 2021.",
+    "url": "https://www.youtube.com/watch?v=c2dkDhhtm8I",
+    "kind": "review"
+  },
+  "tesla/cybercab": {
+    "id": "8MpWFvFMCu0",
+    "title": "RIP UBER & WAYMO! 2027 Tesla Cybercab Review",
+    "channel": "TheStraightPipes",
+    "url": "https://www.youtube.com/watch?v=8MpWFvFMCu0",
+    "kind": "review",
+    "note": "TheStraightPipes assesses the Cybercab; a video review does not establish unrestricted driverless operating approval.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Tesla+Cybercab+review",
+    "channelUrl": "https://www.youtube.com/channel/UC86SBFIAgnYL3ll2ZDgmsuA"
+  },
+  "tesla/cybertruck": {
+    "id": "hcioIka_ByE",
+    "title": "Living with the Cybertruck so you don’t have to",
+    "channel": "Auto Focus",
+    "note": "",
+    "url": "https://www.youtube.com/watch?v=hcioIka_ByE",
+    "kind": "review"
+  },
+  "tesla/model-3": {
+    "id": "3YI7Lxop0n8",
+    "title": "Tesla Model 3: ride, handling, controls and charging",
+    "channel": "Top Gear",
+    "note": "Top Gear Tested review of the pre-Highland car, filmed in 2021.",
+    "url": "https://www.youtube.com/watch?v=3YI7Lxop0n8",
+    "kind": "review"
+  },
+  "tesla/model-s": {
+    "id": "34VZzBWBDN0",
+    "title": "Model S Plaid: things I love and hate",
+    "channel": "Auto Focus",
+    "note": "Marques Brownlee’s ownership review of the 2021-onward interior and powertrain.",
+    "url": "https://www.youtube.com/watch?v=34VZzBWBDN0",
+    "kind": "review"
+  },
+  "tesla/model-x": {
+    "id": "qr1VyN-Dots",
+    "title": "Tesla Model X Plaid review: I find out the REAL 0-60mph!",
+    "channel": "carwow",
+    "url": "https://www.youtube.com/watch?v=qr1VyN-Dots",
+    "kind": "review",
+    "note": "Mat Watson reviews the Model X Plaid.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Tesla+Model+X+review",
+    "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+  },
+  "tesla/model-y": {
+    "id": "wGymLNmfhvo",
+    "title": "Tesla Model Y review",
+    "channel": "Top Gear",
+    "url": "https://www.youtube.com/watch?v=wGymLNmfhvo",
+    "note": "Ollie Kew tests the original Model Y; the later Juniper body is shown separately in the timeline.",
+    "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+    "kind": "review"
+  },
+  "tesla/roadster": {
+    "id": "8wP_tiO-xYM",
+    "title": "Tesla Roadster - Living with the Original!",
+    "channel": "Auto Focus",
+    "url": "https://www.youtube.com/watch?v=8wP_tiO-xYM",
+    "kind": "review",
+    "note": "Auto Focus reviews the original production Roadster, not the later prototype.",
+    "verified": "2026-10-20; public YouTube result metadata",
+    "searchUrl": "https://www.youtube.com/results?search_query=Tesla+Roadster+review",
+    "channelUrl": "https://www.youtube.com/channel/UC2J-0g_nxlwcD9JBK1eTleQ"
   }
 }

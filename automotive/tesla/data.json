@@ -240,11 +240,15 @@
         "history-roadster-0"
       ],
       "video": {
-        "title": "Jeremy Clarkson tests the original Tesla Roadster",
-        "channel": "Top Gear",
-        "episode": "Series 12 · Episode 7",
-        "url": "https://www.ausmotive.com/2008/12/15/top-gear-series-12-episode-7.html",
-        "note": "Historical episode reference. Its range and breakdown portrayal was disputed by Tesla; use the linked evo retrospective for the selection rationale."
+        "id": "8wP_tiO-xYM",
+        "title": "Tesla Roadster - Living with the Original!",
+        "channel": "Auto Focus",
+        "url": "https://www.youtube.com/watch?v=8wP_tiO-xYM",
+        "kind": "review",
+        "note": "Auto Focus reviews the original production Roadster, not the later prototype.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Tesla+Roadster+review",
+        "channelUrl": "https://www.youtube.com/channel/UC2J-0g_nxlwcD9JBK1eTleQ"
       },
       "facts": {
         "Production": "2008–2012",
@@ -414,7 +418,8 @@
         "title": "Model S Plaid: things I love and hate",
         "channel": "Auto Focus",
         "note": "Marques Brownlee’s ownership review of the 2021-onward interior and powertrain.",
-        "url": "https://www.youtube.com/watch?v=34VZzBWBDN0"
+        "url": "https://www.youtube.com/watch?v=34VZzBWBDN0",
+        "kind": "review"
       },
       "facts": {
         "Production": "June 2012 – May 2026",
@@ -547,7 +552,17 @@
         "history-model-x-0",
         "history-model-x-1"
       ],
-      "video": null,
+      "video": {
+        "id": "qr1VyN-Dots",
+        "title": "Tesla Model X Plaid review: I find out the REAL 0-60mph!",
+        "channel": "carwow",
+        "url": "https://www.youtube.com/watch?v=qr1VyN-Dots",
+        "kind": "review",
+        "note": "Mat Watson reviews the Model X Plaid.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Tesla+Model+X+review",
+        "channelUrl": "https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA"
+      },
       "facts": {
         "Production": "2015 – May 2026",
         "Designer": "Franz von Holzhausen",
@@ -673,7 +688,8 @@
         "title": "Tesla Model 3: ride, handling, controls and charging",
         "channel": "Top Gear",
         "note": "Top Gear Tested review of the pre-Highland car, filmed in 2021.",
-        "url": "https://www.youtube.com/watch?v=3YI7Lxop0n8"
+        "url": "https://www.youtube.com/watch?v=3YI7Lxop0n8",
+        "kind": "review"
       },
       "facts": {
         "Production": "2017–present",
@@ -842,7 +858,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=wGymLNmfhvo",
         "note": "Ollie Kew tests the original Model Y; the later Juniper body is shown separately in the timeline.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "January 2020 – present",
@@ -935,7 +952,8 @@
         "title": "Living with the Cybertruck so you don’t have to",
         "channel": "Auto Focus",
         "note": "",
-        "url": "https://www.youtube.com/watch?v=hcioIka_ByE"
+        "url": "https://www.youtube.com/watch?v=hcioIka_ByE",
+        "kind": "review"
       },
       "facts": {
         "Production": "November 2023 – present",
@@ -1012,7 +1030,17 @@
         "reading-cybercab-0-0",
         "history-cybercab-0"
       ],
-      "video": null,
+      "video": {
+        "id": "8MpWFvFMCu0",
+        "title": "RIP UBER & WAYMO! 2027 Tesla Cybercab Review",
+        "channel": "TheStraightPipes",
+        "url": "https://www.youtube.com/watch?v=8MpWFvFMCu0",
+        "kind": "review",
+        "note": "TheStraightPipes assesses the Cybercab; a video review does not establish unrestricted driverless operating approval.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Tesla+Cybercab+review",
+        "channelUrl": "https://www.youtube.com/channel/UC86SBFIAgnYL3ll2ZDgmsuA"
+      },
       "facts": {
         "Production": "February 2026 – present",
         "Designer": "Franz von Holzhausen",

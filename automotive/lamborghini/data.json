@@ -594,7 +594,17 @@
         "reading-350gt-0-0",
         "history-350gt-0"
       ],
-      "video": null,
+      "video": {
+        "id": "UFxymrYj9FQ",
+        "title": "1965 Lamborghini 350 GT - Jay Leno's Garage",
+        "channel": "Jay Leno's Garage",
+        "url": "https://www.youtube.com/watch?v=UFxymrYj9FQ",
+        "kind": "review",
+        "note": "Jay Leno reviews a 1965 350 GT.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+350+GT+review",
+        "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+      },
       "facts": {
         "Production": "May 1964–1966 120 built",
         "Designer": "Carrozzeria Touring",
@@ -702,7 +712,17 @@
         "history-400gt-0",
         "history-400gt-1"
       ],
-      "video": null,
+      "video": {
+        "id": "ngEycqOO91A",
+        "title": "1967 Lamborghini 400 GT 2 + 2 - Jay Leno's Garage",
+        "channel": "Jay Leno's Garage",
+        "url": "https://www.youtube.com/watch?v=ngEycqOO91A",
+        "kind": "review",
+        "note": "Jay Leno reviews the 400 GT 2+2.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+400+GT+review",
+        "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+      },
       "facts": {
         "Production": "1966–1968 247 built",
         "Designer": "Carrozzeria Touring",
@@ -828,7 +848,8 @@
         "title": "Lamborghini Miura — the first modern supercar",
         "channel": "Top Gear",
         "note": "The video title uses “first”; the historical claim is more nuanced.",
-        "url": "https://www.youtube.com/watch?v=vSj7GFLDhew"
+        "url": "https://www.youtube.com/watch?v=vSj7GFLDhew",
+        "kind": "review"
       },
       "facts": {
         "Production": "1966–1973 764 made",
@@ -903,7 +924,17 @@
       "sources": [
         "history-islero-0"
       ],
-      "video": null,
+      "video": {
+        "id": "hLQ2hoAIfd4",
+        "title": "Adam Carolla's 1968 Lamborghini Islero - Jay Leno's Garage",
+        "channel": "Jay Leno's Garage",
+        "url": "https://www.youtube.com/watch?v=hLQ2hoAIfd4",
+        "kind": "review",
+        "note": "Jay Leno examines Adam Carolla's Islero.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Islero+review",
+        "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+      },
       "facts": {
         "Production": "1968–1969 225 built",
         "Designer": "Mario Marazzi at Carrozzeria Marazzi",
@@ -1021,7 +1052,17 @@
         "history-espada-0",
         "history-espada-1"
       ],
-      "video": null,
+      "video": {
+        "id": "YBYpWmMi9-A",
+        "title": "1969 Lamborghini Espada - Jay Leno's Garage",
+        "channel": "Jay Leno's Garage",
+        "url": "https://www.youtube.com/watch?v=YBYpWmMi9-A",
+        "kind": "review",
+        "note": "Jay Leno reviews the four-seat Espada.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Espada+review",
+        "channelUrl": "https://www.youtube.com/channel/UCQMELFlXQL38KPm8kM-4Adg"
+      },
       "facts": {
         "Production": "1968–1978 1,227 made",
         "Designer": "Marcello Gandini at Bertone",
@@ -1096,7 +1137,17 @@
         "reading-jarama-0-0",
         "history-jarama-0"
       ],
-      "video": null,
+      "video": {
+        "id": "gH65wZfN62k",
+        "title": "The Lamborghini Jarama Is Ugly, Rare, and Totally Unknown",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=gH65wZfN62k",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the Jarama.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Jarama+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "1970–1976 Jarama: 177 units Jarama S: 150 units Total: 327 units",
         "Designer": "Marcello Gandini at Bertone",
@@ -1172,7 +1223,17 @@
         "reading-urraco-0-0",
         "history-urraco-0"
       ],
-      "video": null,
+      "video": {
+        "id": "V7AOhSGGcdg",
+        "title": "Lamborghini Urraco P250 - Why Didn't It Do Better?",
+        "channel": "Number 27",
+        "url": "https://www.youtube.com/watch?v=V7AOhSGGcdg",
+        "kind": "review",
+        "note": "Number 27 drives and assesses the Urraco P250.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Urraco+review",
+        "channelUrl": "https://www.youtube.com/channel/UCErr8b5Sc1owxI31N6WZmIA"
+      },
       "facts": {
         "Production": "1972–1979 791 produced",
         "Designer": "Marcello Gandini at Bertone",
@@ -1385,7 +1446,8 @@
         "title": "James May reviews the Countach",
         "channel": "Top Gear Classic",
         "note": "",
-        "url": "https://www.youtube.com/watch?v=jLd4z4QKx6w"
+        "url": "https://www.youtube.com/watch?v=jLd4z4QKx6w",
+        "kind": "review"
       },
       "facts": {
         "Production": "1974–1990",
@@ -1461,7 +1523,17 @@
         "reading-silhouette-0-0",
         "history-silhouette-0"
       ],
-      "video": null,
+      "video": {
+        "id": "dsi4GF9mazM",
+        "title": "The Lamborghini Silhouette - Brilliant.. Yet Virtually Unknown?",
+        "channel": "Number 27",
+        "url": "https://www.youtube.com/watch?v=dsi4GF9mazM",
+        "kind": "review",
+        "note": "Number 27 reviews the rare Silhouette.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Silhouette+review",
+        "channelUrl": "https://www.youtube.com/channel/UCErr8b5Sc1owxI31N6WZmIA"
+      },
       "facts": {
         "Production": "1976–1979 54 produced",
         "Designer": "Marcello Gandini at Bertone",
@@ -1538,7 +1610,17 @@
         "reading-jalpa-0-0",
         "history-jalpa-0"
       ],
-      "video": null,
+      "video": {
+        "id": "XS1tBPzIzAU",
+        "title": "The Lamborghini Jalpa Is the Forgotten 1980s Baby Lambo",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=XS1tBPzIzAU",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the Jalpa.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Jalpa+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "1981–1988 (410 produced)",
         "Designer": "Marc Deschamps at Bertone",
@@ -1612,7 +1694,17 @@
       "sources": [
         "history-lm002-0"
       ],
-      "video": null,
+      "video": {
+        "id": "48x2XYVqFb0",
+        "title": "An OFF ROAD Lamborghini? The Lamborghini LM002 | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=48x2XYVqFb0",
+        "kind": "review",
+        "note": "Top Gear's short LM002 assessment.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+LM002+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "1986–1993",
         "Designer": "Giulio Alfieri",
@@ -1814,7 +1906,8 @@
         "title": "Lamborghini Diablo review",
         "channel": "Harry’s Garage",
         "note": "Harry Metcalfe reviews an original 1991 Diablo, rather than a modern restomod.",
-        "url": "https://www.youtube.com/watch?v=BrplqE9bUB8"
+        "url": "https://www.youtube.com/watch?v=BrplqE9bUB8",
+        "kind": "review"
       },
       "facts": {
         "Production": "1990–2001 2,903 built",
@@ -1980,7 +2073,17 @@
         "history-murcielago-1",
         "history-murcielago-2"
       ],
-      "video": null,
+      "video": {
+        "id": "qT3pvMb5zEU",
+        "title": "Lamborghini Murcielago | Car Review | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=qT3pvMb5zEU",
+        "kind": "review",
+        "note": "The official Top Gear Murciélago review.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Murci%C3%A9lago+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2001–2010",
         "Designer": "Luc Donckerwolke (original design) Filippo Perini at Lamborghini Style Center (facelift)",
@@ -2195,7 +2298,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=Hovbx6rvBaA",
         "note": "Jeremy Clarkson tests the open-roof Gallardo.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2003–2013",
@@ -2306,7 +2410,17 @@
         "history-reventon-0",
         "history-reventon-1"
       ],
-      "video": null,
+      "video": {
+        "id": "QOBjYEw1mN0",
+        "title": "2010 Lamborghini Reventón Roadster Start Up, Exhaust, and In Depth Review",
+        "channel": "Saabkyle04",
+        "url": "https://www.youtube.com/watch?v=QOBjYEw1mN0",
+        "kind": "walkaround",
+        "note": "A detailed Reventón Roadster inspection, startup and exhaust demonstration; not a full road test.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Revent%C3%B3n+review",
+        "channelUrl": "https://www.youtube.com/channel/UC2dBZuI6gS-jv7PCIDXkXag"
+      },
       "facts": {
         "Production": "2007–2009 21 coupés (\"00/20\" for museum), 15 roadsters",
         "Designer": "Filippo Perini",
@@ -2520,7 +2634,8 @@
         "title": "Richard Hammond drives the Lamborghini Aventador",
         "channel": "Top Gear",
         "note": "Original LP700-4; Series 17, Episode 6.",
-        "url": "https://www.youtube.com/watch?v=UZiHPLGh-Ek"
+        "url": "https://www.youtube.com/watch?v=UZiHPLGh-Ek",
+        "kind": "review"
       },
       "facts": {
         "Production": "February 2011 – September 2022",
@@ -2631,7 +2746,17 @@
         "history-veneno-0",
         "history-veneno-1"
       ],
-      "video": null,
+      "video": {
+        "id": "ckjqW1M9zqw",
+        "title": "My First Drive in the VENENO ROADSTER - Batman's Lamborghini!",
+        "channel": "Shmee150",
+        "url": "https://www.youtube.com/watch?v=ckjqW1M9zqw",
+        "kind": "review",
+        "note": "A first drive in the Veneno Roadster.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Veneno+review",
+        "channelUrl": "https://www.youtube.com/channel/UCIRgR4iANHI2taJdz8hjwLw"
+      },
       "facts": {
         "Production": "2013 – 2014 (3 coupés, 9 roadsters)",
         "Designer": "Filippo Perini Michele Tinazzo",
@@ -2923,7 +3048,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=fYpjmc2MyII",
         "note": "Richard Hammond; series 22, episode 1.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2014–2024",
@@ -3033,7 +3159,17 @@
         "history-centenario-0",
         "history-centenario-1"
       ],
-      "video": null,
+      "video": {
+        "id": "WXRFYiMlMLs",
+        "title": "The Lamborghini Centenario Is a $3 Million Ultra-Rare Supercar",
+        "channel": "Doug DeMuro",
+        "url": "https://www.youtube.com/watch?v=WXRFYiMlMLs",
+        "kind": "review",
+        "note": "Doug DeMuro reviews the Centenario.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Centenario+review",
+        "channelUrl": "https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+      },
       "facts": {
         "Production": "2016 – 2017 (20 coupés and 20 roadsters )",
         "Designer": "Filippo Perini (coupé) Mitja Borkert (roadster)",
@@ -3196,7 +3332,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=oL-fHltu9ro",
         "note": "A road and off-road test.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "review"
       },
       "facts": {
         "Production": "2017–present",
@@ -3310,7 +3447,17 @@
         "history-sian-0",
         "history-sian-1"
       ],
-      "video": null,
+      "video": {
+        "id": "CeTiIZXt-8Y",
+        "title": "Chris Harris vs Lamborghini Sián | 800bhp + hyper-hybrid Lambo | Top Gear Series 30",
+        "channel": "BBC Studios",
+        "url": "https://www.youtube.com/watch?v=CeTiIZXt-8Y",
+        "kind": "review",
+        "note": "Chris Harris drives the Sián in an official BBC Studios Top Gear series 30 feature.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Sian+review",
+        "channelUrl": "https://www.youtube.com/channel/UC2ccm1GajfSujz7T18d7cKA"
+      },
       "facts": {
         "Production": "2020–2022",
         "Designer": "Mitja Borkert",
@@ -3389,7 +3536,17 @@
         "reading-countach-lpi-0-0",
         "history-countach-lpi-0"
       ],
-      "video": null,
+      "video": {
+        "id": "dKzyDuJ0Oqo",
+        "title": "FIRST DRIVE: Lamborghini Countach - £2.2m Reborn Supercar Tested On The Stelvio Pass | Top Gear",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=dKzyDuJ0Oqo",
+        "kind": "review",
+        "note": "Top Gear drives the modern Countach LPI 800-4 on the Stelvio Pass, distinct from the original Countach.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Countach+LPI+800+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2022 (112 units)",
         "Designer": "Mitja Borkert",
@@ -3474,7 +3631,8 @@
         "channel": "Top Gear",
         "url": "https://www.youtube.com/watch?v=dZIg75EYumo",
         "note": "A driving feature by Ollie Marriage.",
-        "verified": "2026-10-20; official Top Gear YouTube listing and channel description"
+        "verified": "2026-10-20; official Top Gear YouTube listing and channel description",
+        "kind": "feature"
       },
       "facts": {
         "Production": "2023–present",
@@ -3554,7 +3712,17 @@
         "reading-temerario-0-0",
         "history-temerario-0"
       ],
-      "video": null,
+      "video": {
+        "id": "h_NEOIwrG-E",
+        "title": "Lamborghini Temerario is Perfecting the Hybrid Formula!",
+        "channel": "Auto Focus",
+        "url": "https://www.youtube.com/watch?v=h_NEOIwrG-E",
+        "kind": "review",
+        "note": "Auto Focus assesses the Temerario hybrid.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Temerario+review",
+        "channelUrl": "https://www.youtube.com/channel/UC2J-0g_nxlwcD9JBK1eTleQ"
+      },
       "facts": {
         "Production": "2025–present",
         "Designer": "Mitja Borkert",
@@ -3630,7 +3798,17 @@
       "sources": [
         "history-fenomeno-0"
       ],
-      "video": null,
+      "video": {
+        "id": "ocGPKecqap4",
+        "title": "FIRST LOOK: Lamborghini Fenomeno V12 – Most Powerful Lambo Ever!",
+        "channel": "Top Gear",
+        "url": "https://www.youtube.com/watch?v=ocGPKecqap4",
+        "kind": "first-look",
+        "note": "Top Gear's launch walkaround of the Fenomeno; a first look rather than a road test.",
+        "verified": "2026-10-20; public YouTube result metadata",
+        "searchUrl": "https://www.youtube.com/results?search_query=Lamborghini+Fenomeno+review",
+        "channelUrl": "https://www.youtube.com/channel/UCjOl2AUblVmg2rA_cRgZkFg"
+      },
       "facts": {
         "Production": "2025–present (44 units planned)",
         "Designer": "Mitja Borkert",

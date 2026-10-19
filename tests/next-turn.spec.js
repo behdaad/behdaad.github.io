@@ -95,3 +95,62 @@ test("introduces every game and explains its distinctive dynamic", async ({ page
   }
   expect(errors).toEqual([]);
 });
+
+test("browses every BGG gallery with buttons, thumbnails and keyboard", async ({ page }, testInfo) => {
+  const errors = [];
+  page.on("pageerror", error => errors.push(error.message));
+  await page.goto("/next-turn/");
+  const games = await page.evaluate(() => window.FIELD_GUIDE.games.map(({id, name, gallery}) => ({id, name, gallery})));
+  for (const game of games) {
+    await page.locator("#search").fill(game.name);
+    await page.locator(`.card-title-button[data-detail="${game.id}"]`).click();
+    const gallery = page.getByRole("region", { name: `${game.name} photo gallery`, exact: true });
+    const photo = gallery.locator(".gallery-image");
+    await expect(gallery.locator(".gallery-count")).toHaveText("1 / 3");
+    for (let index = 0; index < game.gallery.length; index++) {
+      const image = game.gallery[index];
+      expect(image.source).toMatch(/^https:\/\/boardgamegeek.com\/image\/\d+/);
+      await expect(photo).toHaveAttribute("src", image.local);
+      await expect.poll(() => photo.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
+      await expect(gallery.locator(".gallery-credit")).toHaveAttribute("href", image.source);
+      await expect(gallery.locator(".gallery-credit")).toContainText(image.credit);
+      await expect(gallery.locator(".gallery-full")).toHaveAttribute("href", image.local);
+      await expect(gallery.locator('[aria-pressed="true"]')).toHaveAttribute("data-gallery-index", String(index));
+      await gallery.getByRole("button", {name: "Next photo", exact:true}).click();
+    }
+    await expect(gallery.locator(".gallery-count")).toHaveText("1 / 3");
+    await gallery.getByRole("button", {name: "Previous photo", exact:true}).click();
+    await expect(gallery.locator(".gallery-count")).toHaveText("3 / 3");
+    await gallery.getByRole("button", {name: "Show photo 2 of 3", exact:true}).click();
+    await expect(gallery.locator(".gallery-count")).toHaveText("2 / 3");
+    await gallery.focus();
+    await page.keyboard.press("ArrowLeft");
+    await expect(gallery.locator(".gallery-count")).toHaveText("1 / 3");
+    await page.keyboard.press("ArrowRight");
+    await expect(gallery.locator(".gallery-count")).toHaveText("2 / 3");
+    await page.keyboard.press("End");
+    await expect(gallery.locator(".gallery-count")).toHaveText("3 / 3");
+    await page.keyboard.press("Home");
+    await expect(gallery.locator(".gallery-count")).toHaveText("1 / 3");
+    expect(await page.locator("#detail-dialog").evaluate(el=>el.scrollWidth>el.clientWidth+1)).toBe(false);
+    if (game.id === "kemet-blood-and-sand") {
+      await page.screenshot({path:testInfo.outputPath("game-gallery.png")});
+      const stage = gallery.locator(".gallery-stage");
+      const swipe = (start, end) => stage.evaluate((el, {start, end}) => {
+        const touch = position => new Touch({identifier:1, target:el, clientX:position[0], clientY:position[1]});
+        el.dispatchEvent(new TouchEvent("touchstart", {bubbles:true, touches:[touch(start)]}));
+        el.dispatchEvent(new TouchEvent("touchend", {bubbles:true, changedTouches:[touch(end)]}));
+      }, {start, end});
+      await swipe([250,100], [100,105]);
+      await expect(gallery.locator(".gallery-count")).toHaveText("2 / 3");
+      await swipe([100,100], [250,105]);
+      await expect(gallery.locator(".gallery-count")).toHaveText("1 / 3");
+      // A vertical page gesture must not change the selected photo.
+      await swipe([200,100], [190,250]);
+      await expect(gallery.locator(".gallery-count")).toHaveText("1 / 3");
+    }
+    await page.keyboard.press("Escape");
+    await expect(page.locator("#detail-dialog")).not.toBeVisible();
+  }
+  expect(errors).toEqual([]);
+});

@@ -393,7 +393,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Command an Egyptian army in a race for divine supremacy. You recruit troops, develop pyramids, buy powers and mythical creatures, and attack rivals or occupy temples to earn victory points.",
-      "distinctiveDynamic": "Build your own asymmetry. Players buy from a shared, visible supply of power tiles, so your army’s identity develops through purchases rather than a fixed faction. Aggressive victories earn lasting points, making power growth a reason to fight rather than stay home."
+      "distinctiveDynamic": "Build your own asymmetry. Players buy from a shared, visible supply of power tiles, so your army’s identity develops through purchases rather than a fixed faction. Aggressive victories earn lasting points, making power growth a reason to fight rather than stay home.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/wc9eYaG2NAkqzvUHQDFGYw__large/img/LdG-WPe7hBUFq0L6uU91ASKH88M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5210275.jpg",
+          "local": "assets/bgg/kemet-blood-and-sand-5210275.jpg",
+          "source": "https://boardgamegeek.com/image/5210275/kemet-blood-and-sand",
+          "credit": "matagot_contact / BoardGameGeek",
+          "caption": "Early promotional board design; final components may differ.",
+          "alt": "Kemet: Blood and Sand: Early promotional board design; final components may differ.",
+          "imageId": "5210275"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/wY77Vg0p_kqc5eKI1HfJGg__large/img/kI-GsDe2kCVxxUObVDN1uKQAZOE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6144862.jpg",
+          "local": "assets/bgg/kemet-blood-and-sand-6144862.jpg",
+          "source": "https://boardgamegeek.com/image/6144862/kemet-blood-and-sand",
+          "credit": "Lan2711 / BoardGameGeek",
+          "caption": "Custom-painted armies and creatures.",
+          "alt": "Kemet: Blood and Sand: Custom-painted armies and creatures.",
+          "imageId": "6144862"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/o61MDBlT90c2SdF60ebmTg__large/img/x3MumzfY_NcEeRaUVSxb3A_aQZI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6151797.png",
+          "local": "assets/bgg/kemet-blood-and-sand-6151797.png",
+          "source": "https://boardgamegeek.com/image/6151797/kemet-blood-and-sand",
+          "credit": "Pikaraph / BoardGameGeek",
+          "caption": "Custom-painted sand worm on the game board.",
+          "alt": "Kemet: Blood and Sand: Custom-painted sand worm on the game board.",
+          "imageId": "6151797"
+        }
+      ]
     },
     {
       "id": "hansa-teutonica-big-box",
@@ -589,7 +618,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Build a trading network across medieval northern Europe. Place traders on routes, complete connections, establish offices and improve your personal abilities while competing for points and valuable city positions.",
-      "distinctiveDynamic": "Being displaced can help you. An opponent pays to push your trader off a route, but you relocate it with extra pieces. A deliberately inconvenient placement can therefore accelerate your network; blocking becomes an invitation with a price attached."
+      "distinctiveDynamic": "Being displaced can help you. An opponent pays to push your trader off a route, but you relocate it with extra pieces. A deliberately inconvenient placement can therefore accelerate your network; blocking becomes an invitation with a price attached.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/g_l496K_-yDHTr9O8rMRew__large/img/WZqXpPv-VL34L3jxqDJN7qnmaXI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6039843.jpg",
+          "local": "assets/bgg/hansa-teutonica-big-box-6039843.jpg",
+          "source": "https://boardgamegeek.com/image/6039843/hansa-teutonica-big-box",
+          "credit": "henk.rolleman / BoardGameGeek",
+          "caption": "Big Box maps and components.",
+          "alt": "Hansa Teutonica: Big Box: Big Box maps and components.",
+          "imageId": "6039843"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/l1C9jBEYQ7IpFVTr2b4Q9Q__large/img/f7GkMho0egVPLAbHfNPE-6oNFM8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9092614.jpg",
+          "local": "assets/bgg/hansa-teutonica-big-box-9092614.jpg",
+          "source": "https://boardgamegeek.com/image/9092614/hansa-teutonica-big-box",
+          "credit": "Cortoenfeu / BoardGameGeek",
+          "caption": "Trade routes and merchants during play.",
+          "alt": "Hansa Teutonica: Big Box: Trade routes and merchants during play.",
+          "imageId": "9092614"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/5fYRn0ohuuufevIkHLSLOw__large/img/DLPoJw5ccWA9_X_QeQrxbZZ0HrY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5863262.jpg",
+          "local": "assets/bgg/hansa-teutonica-big-box-5863262.jpg",
+          "source": "https://boardgamegeek.com/image/5863262/hansa-teutonica-big-box",
+          "credit": "Toomaas / BoardGameGeek",
+          "caption": "Big Box game materials.",
+          "alt": "Hansa Teutonica: Big Box: Big Box game materials.",
+          "imageId": "5863262"
+        }
+      ]
     },
     {
       "id": "concordia",
@@ -810,7 +868,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Lead a Roman trading house around the Mediterranean. Play personality cards to move colonists, build production houses, collect goods and expand your hand, then score according to the gods represented on your cards.",
-      "distinctiveDynamic": "Your action deck is also your scoring plan. Buying a card adds an action and another endgame multiplier, tying expansion to the things you choose to score. Recovering your played cards creates a rhythm of spending actions now and deciding when to reset your options."
+      "distinctiveDynamic": "Your action deck is also your scoring plan. Buying a card adds an action and another endgame multiplier, tying expansion to the things you choose to score. Recovering your played cards creates a rhythm of spending actions now and deciding when to reset your options.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/wZBHSDCInuEC7fk1AJfsgA__large/img/J6-DaxWYwVIVDNkrv0GUPNU-WIA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2531928.jpg",
+          "local": "assets/bgg/concordia-2531928.jpg",
+          "source": "https://boardgamegeek.com/image/2531928/concordia",
+          "credit": "moonblogger / BoardGameGeek",
+          "caption": "A three-player game in progress.",
+          "alt": "Concordia: A three-player game in progress.",
+          "imageId": "2531928"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/GhLvoXocyQHs2WRAqI4QSg__large/img/SnWKyXfbJirucuQTfMcF-TaPuUU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1784325.jpg",
+          "local": "assets/bgg/concordia-1784325.jpg",
+          "source": "https://boardgamegeek.com/image/1784325/concordia",
+          "credit": "MacGerdts / BoardGameGeek",
+          "caption": "Imperium map for three to five players.",
+          "alt": "Concordia: Imperium map for three to five players.",
+          "imageId": "1784325"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/NmHrXhoppEA_AVae88sNAw__large/img/ZJrCJH9X2PK88uEIiX-IdhZ-PQA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1795433.jpg",
+          "local": "assets/bgg/concordia-1795433.jpg",
+          "source": "https://boardgamegeek.com/image/1795433/concordia",
+          "credit": "Peter D / BoardGameGeek",
+          "caption": "Storehouse board and starting resources.",
+          "alt": "Concordia: Storehouse board and starting resources.",
+          "imageId": "1795433"
+        }
+      ]
     },
     {
       "id": "inis",
@@ -1014,7 +1101,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Compete to become ruler of a growing Celtic island. Draft action cards, move clans, explore territories and build sanctuaries while pursuing victory through presence, leadership over rival clans or sacred sites.",
-      "distinctiveDynamic": "You must announce your claim and survive the response. Meeting a victory condition does not immediately win: taking a pretender token gives rivals a chance to intervene. Because the core action cards recur in the draft, knowing which responses may still exist makes timing and restraint especially tense."
+      "distinctiveDynamic": "You must announce your claim and survive the response. Meeting a victory condition does not immediately win: taking a pretender token gives rivals a chance to intervene. Because the core action cards recur in the draft, knowing which responses may still exist makes timing and restraint especially tense.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/_KWukBggB_9kMwTq9Rpz5A__large/img/7UWztaR2cTwhZsWnAzrlCE_CFOE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3065028.jpg",
+          "local": "assets/bgg/inis-3065028.jpg",
+          "source": "https://boardgamegeek.com/image/3065028/inis",
+          "credit": "tanguyserra / BoardGameGeek",
+          "caption": "Island tiles, clans and sanctuaries.",
+          "alt": "Inis: Island tiles, clans and sanctuaries.",
+          "imageId": "3065028"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/UMSH11IGqLvDwKgxWm4yCQ__large/img/0pXu9hNknVO44wLrZobHrCQ-c1Q=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3237097.jpg",
+          "local": "assets/bgg/inis-3237097.jpg",
+          "source": "https://boardgamegeek.com/image/3237097/inis",
+          "credit": "GasDrivenHolothurian / BoardGameGeek",
+          "caption": "A close look at clans on the island.",
+          "alt": "Inis: A close look at clans on the island.",
+          "imageId": "3237097"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/m2hlGzG85e4f7v6phz2HDQ__large/img/tdlu189edQQkW5aE3y2Z-lROPPs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3166488.jpg",
+          "local": "assets/bgg/inis-3166488.jpg",
+          "source": "https://boardgamegeek.com/image/3166488/inis",
+          "credit": "tanguyserra / BoardGameGeek",
+          "caption": "The expanding island during play.",
+          "alt": "Inis: The expanding island during play.",
+          "imageId": "3166488"
+        }
+      ]
     },
     {
       "id": "dune-imperium-uprising",
@@ -1251,7 +1367,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Lead a great house in a struggle for influence on Arrakis. Build a deck, send agents to contested locations, cultivate faction alliances and commit troops to conflicts as you race for victory points.",
-      "distinctiveDynamic": "Every card has two competing jobs. Playing it sends an agent to a permitted location; saving it for your reveal turn supplies buying power or combat strength. Uprising adds spies that help bypass occupied locations and sandworms that can magnify conflict rewards, making commitment and timing tightly connected."
+      "distinctiveDynamic": "Every card has two competing jobs. Playing it sends an agent to a permitted location; saving it for your reveal turn supplies buying power or combat strength. Uprising adds spies that help bypass occupied locations and sandworms that can magnify conflict rewards, making commitment and timing tightly connected.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/mk8BSChUnfBFP4pEk613KQ__large/img/y3_Bxkod7mPzScowOiRbnJpbo0k=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7680371.jpg",
+          "local": "assets/bgg/dune-imperium-uprising-7680371.jpg",
+          "source": "https://boardgamegeek.com/image/7680371/dune-imperium-uprising",
+          "credit": "Meerple / BoardGameGeek",
+          "caption": "Board, agents, troops and cards.",
+          "alt": "Dune: Imperium – Uprising: Board, agents, troops and cards.",
+          "imageId": "7680371"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/I79juLO6YtG7vDHcf_EVzA__large/img/ALfhy7yVX1Xz30BWSVCiG45yFwg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7680385.jpg",
+          "local": "assets/bgg/dune-imperium-uprising-7680385.jpg",
+          "source": "https://boardgamegeek.com/image/7680385/dune-imperium-uprising",
+          "credit": "Meerple / BoardGameGeek",
+          "caption": "Leader cards and a sandworm miniature.",
+          "alt": "Dune: Imperium – Uprising: Leader cards and a sandworm miniature.",
+          "imageId": "7680385"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/yKDEoZYvSyJrqQxGOdk7pQ__large/img/f-R8MsR8MD0xjKSogqKp0-tKm80=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7847230.jpg",
+          "local": "assets/bgg/dune-imperium-uprising-7847230.jpg",
+          "source": "https://boardgamegeek.com/image/7847230/dune-imperium-uprising",
+          "credit": "mercopparis / BoardGameGeek",
+          "caption": "Custom-painted sandworms.",
+          "alt": "Dune: Imperium – Uprising: Custom-painted sandworms.",
+          "imageId": "7847230"
+        }
+      ]
     },
     {
       "id": "foundations-of-rome",
@@ -1439,7 +1584,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Compete to leave the greatest mark on a shared Roman city. Buy land deeds, construct buildings on plots you own, or collect income; your buildings provide population, money and civic scoring opportunities.",
-      "distinctiveDynamic": "Your building puzzle shares its edges with everyone else. Combining plots enables larger buildings, while civic buildings can score from neighboring structures, including rivals’ developments. A neighbor can improve your position even while competing with you for the land needed to expand."
+      "distinctiveDynamic": "Your building puzzle shares its edges with everyone else. Combining plots enables larger buildings, while civic buildings can score from neighboring structures, including rivals’ developments. A neighbor can improve your position even while competing with you for the land needed to expand.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/sJl919mOSmLAg-R9gOGQNw__large/img/R1CBmR1uUUiqNztwU5uPacXUd2g=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6912774.jpg",
+          "local": "assets/bgg/foundations-of-rome-6912774.jpg",
+          "source": "https://boardgamegeek.com/image/6912774/foundations-of-rome",
+          "credit": "Flixster / BoardGameGeek",
+          "caption": "The shared city at the end of a game.",
+          "alt": "Foundations of Rome: The shared city at the end of a game.",
+          "imageId": "6912774"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/wNyaJOAbKa4dnOrS4SFapA__large/img/HtglgzdovzY1PXM6CifOIPFL52k=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6924039.jpg",
+          "local": "assets/bgg/foundations-of-rome-6924039.jpg",
+          "source": "https://boardgamegeek.com/image/6924039/foundations-of-rome",
+          "credit": "DarkDudae / BoardGameGeek",
+          "caption": "A fully custom-painted city.",
+          "alt": "Foundations of Rome: A fully custom-painted city.",
+          "imageId": "6924039"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/nZvIkmEPPtHNTwdSocQ2AA__large/img/5-kDiNXrLlubRUsOOVFR5995xp8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7325729.jpg",
+          "local": "assets/bgg/foundations-of-rome-7325729.jpg",
+          "source": "https://boardgamegeek.com/image/7325729/foundations-of-rome",
+          "credit": "WILEE83 / BoardGameGeek",
+          "caption": "Custom-painted buildings; standard miniatures are unpainted.",
+          "alt": "Foundations of Rome: Custom-painted buildings; standard miniatures are unpainted.",
+          "imageId": "7325729"
+        }
+      ]
     },
     {
       "id": "windmill-valley-duel",
@@ -1616,7 +1790,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Two rival growers develop tulip farms, improve windmills and export flowers for points. Rotate action wheels to gather resources, plant bulbs, claim building sites and develop bonuses across a shared landscape.",
-      "distinctiveDynamic": "Your action selection gives your rival an action too. The linked wheels determine both your choices and the opponent’s follow-up from the central wheel. An excellent move for your farm can therefore hand over exactly the opportunity the other grower needs."
+      "distinctiveDynamic": "Your action selection gives your rival an action too. The linked wheels determine both your choices and the opponent’s follow-up from the central wheel. An excellent move for your farm can therefore hand over exactly the opportunity the other grower needs.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/R4NKl1w0YX8vRVZW9-NGxQ__large/img/zartVYylC_wdvzsCatA6EkkSmVI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9744274.jpg",
+          "local": "assets/bgg/windmill-valley-duel-9744274.jpg",
+          "source": "https://boardgamegeek.com/image/9744274/windmill-valley-duel",
+          "credit": "PepsiSan / BoardGameGeek",
+          "caption": "The shared board and linked action wheels.",
+          "alt": "Windmill Valley: Duel: The shared board and linked action wheels.",
+          "imageId": "9744274"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/s5nV6uSqx0_aF4coVakB6g__large/img/670yVQGQuazrpIXJrHxC6LkYtSA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9744275.jpg",
+          "local": "assets/bgg/windmill-valley-duel-9744275.jpg",
+          "source": "https://boardgamegeek.com/image/9744275/windmill-valley-duel",
+          "credit": "PepsiSan / BoardGameGeek",
+          "caption": "Back of the box with a component overview.",
+          "alt": "Windmill Valley: Duel: Back of the box with a component overview.",
+          "imageId": "9744275"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/f90Isiz6yTaBpX7uiW6x6A__large/img/8d62U5tqIvzHbAlK5uxSR3zEW78=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9456514.jpg",
+          "local": "assets/bgg/windmill-valley-duel-9456514.jpg",
+          "source": "https://boardgamegeek.com/image/9456514/windmill-valley-duel",
+          "credit": "BudynJagodowy_ / BoardGameGeek",
+          "caption": "English-language box cover.",
+          "alt": "Windmill Valley: Duel: English-language box cover.",
+          "imageId": "9456514"
+        }
+      ]
     },
     {
       "id": "chronocritters",
@@ -1772,7 +1975,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Use robotic animals to restore a world whose timeline is breaking apart. Manage actions and resources across changing seasons, rediscover technologies and build time portals to extend your access to useful locations.",
-      "distinctiveDynamic": "Access to an action has an expiry date. Portals let you reach locations outside the current time, but decay unless maintained or replaced. The distinctive planning problem is not only which action you want, but when you can still reach it and whether keeping that route open is worth the investment."
+      "distinctiveDynamic": "Access to an action has an expiry date. Portals let you reach locations outside the current time, but decay unless maintained or replaced. The distinctive planning problem is not only which action you want, but when you can still reach it and whether keeping that route open is worth the investment.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/F0poOIMyzpOvKZbgq1pvvA__large/img/MS7CTBaqcaesmitZhVj7MOP6gTg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9708988.jpg",
+          "local": "assets/bgg/chronocritters-9708988.jpg",
+          "source": "https://boardgamegeek.com/image/9708988/chronocritters",
+          "credit": "sucd / BoardGameGeek",
+          "caption": "Game board and player areas.",
+          "alt": "Chronocritters: Game board and player areas.",
+          "imageId": "9708988"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/srQG1-yOXGHuylZEVZUaZg__large/img/SHRyuhf-XnibXQ1riKD1gemf3hc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9586443.jpg",
+          "local": "assets/bgg/chronocritters-9586443.jpg",
+          "source": "https://boardgamegeek.com/image/9586443/chronocritters",
+          "credit": "polanek / BoardGameGeek",
+          "caption": "Robotic animal pieces.",
+          "alt": "Chronocritters: Robotic animal pieces.",
+          "imageId": "9586443"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/S5jpF4phroUYhq9-I0TjTQ__large/img/ggyFlgwYqXdjpZtpVXnHZa2TOFk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9586442.jpg",
+          "local": "assets/bgg/chronocritters-9586442.jpg",
+          "source": "https://boardgamegeek.com/image/9586442/chronocritters",
+          "credit": "polanek / BoardGameGeek",
+          "caption": "Resource pieces and dice.",
+          "alt": "Chronocritters: Resource pieces and dice.",
+          "imageId": "9586442"
+        }
+      ]
     },
     {
       "id": "thessaloniki",
@@ -1941,7 +2173,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Become an influential merchant in a Roman trading city. Move workers between market alcoves to gather and refine goods, fulfill contracts, trade and establish bonuses, aiming for the highest final score.",
-      "distinctiveDynamic": "The crowd changes what a market visit produces. You gain goods matching the workers in your destination alcove, and entering a full alcove pushes another worker onward with compensation. Other players’ positions help shape both your resource haul and the next arrangement of the market."
+      "distinctiveDynamic": "The crowd changes what a market visit produces. You gain goods matching the workers in your destination alcove, and entering a full alcove pushes another worker onward with compensation. Other players’ positions help shape both your resource haul and the next arrangement of the market.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/2vIrhQTy_2hgNlYTWFNswA__large/img/bpYPkx18mpX_oXL9Rdbq4thaZy8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9667228.png",
+          "local": "assets/bgg/thessaloniki-9667228.png",
+          "source": "https://boardgamegeek.com/image/9667228/thessaloniki",
+          "credit": "BoardandDice / BoardGameGeek",
+          "caption": "Publisher render of the market and player area.",
+          "alt": "Thessaloniki: Publisher render of the market and player area.",
+          "imageId": "9667228"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/bT60UqTf5lVHdD8XvgKs6w__large/img/O90txovbvTaO_CsENR6MzHvxloU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9667227.png",
+          "local": "assets/bgg/thessaloniki-9667227.png",
+          "source": "https://boardgamegeek.com/image/9667227/thessaloniki",
+          "credit": "BoardandDice / BoardGameGeek",
+          "caption": "Publisher render of workers in a market alcove.",
+          "alt": "Thessaloniki: Publisher render of workers in a market alcove.",
+          "imageId": "9667227"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/B-zmuMsRk2tvAYv4i06u1A__large/img/NKSOrYRODE4ZZi2l0cV16BhtUbM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9667226.png",
+          "local": "assets/bgg/thessaloniki-9667226.png",
+          "source": "https://boardgamegeek.com/image/9667226/thessaloniki",
+          "credit": "BoardandDice / BoardGameGeek",
+          "caption": "Publisher render of the board and components.",
+          "alt": "Thessaloniki: Publisher render of the board and components.",
+          "imageId": "9667226"
+        }
+      ]
     },
     {
       "id": "entropy",
@@ -2128,7 +2389,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Compete as scientists creating simulated solar systems. Move around an action circle to develop stars and planets, establish biomes and introduce life, building combinations that score points and fulfill shared objectives.",
-      "distinctiveDynamic": "Your route through the action circle also reactivates your engine. Inner actions use matching creation tokens; passing your own tokens later retrieves them and lets you activate stars or gain entropy. Choosing how far to move therefore controls both the next action and when earlier investments pay again."
+      "distinctiveDynamic": "Your route through the action circle also reactivates your engine. Inner actions use matching creation tokens; passing your own tokens later retrieves them and lets you activate stars or gain entropy. Choosing how far to move therefore controls both the next action and when earlier investments pay again.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/prD0Ht2L3r6HHaBvea7DTQ__large/img/dM_0Fu-7yWGmg55m5eEtCYnCbqI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9359938.png",
+          "local": "assets/bgg/entropy-9359938.png",
+          "source": "https://boardgamegeek.com/image/9359938/entropy",
+          "credit": "OdpadAtomowy87 / BoardGameGeek",
+          "caption": "Publisher render of the solar-system tableau.",
+          "alt": "Entropy: Publisher render of the solar-system tableau.",
+          "imageId": "9359938"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/E12BdBlWnb4MRljRdoZ6uQ__large/img/0mnZ8spwr6EMu29cs-WUdZCgPQM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9359931.png",
+          "local": "assets/bgg/entropy-9359931.png",
+          "source": "https://boardgamegeek.com/image/9359931/entropy",
+          "credit": "OdpadAtomowy87 / BoardGameGeek",
+          "caption": "Publisher render of the action circle and player area.",
+          "alt": "Entropy: Publisher render of the action circle and player area.",
+          "imageId": "9359931"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/2I7ITZz9OXWzMoaqkPjPTQ__large/img/MwJIQiqDi9BEzQw6HWkovYHQZsE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9359932.png",
+          "local": "assets/bgg/entropy-9359932.png",
+          "source": "https://boardgamegeek.com/image/9359932/entropy",
+          "credit": "OdpadAtomowy87 / BoardGameGeek",
+          "caption": "Publisher render of the game and components.",
+          "alt": "Entropy: Publisher render of the game and components.",
+          "imageId": "9359932"
+        }
+      ]
     },
     {
       "id": "blood-rage-valhalla",
@@ -2296,7 +2586,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "This standalone sequel brings rival Viking clans into the afterlife. Draft cards, develop your clan and commit warriors to card-driven conflicts, competing for glory with a changing selection of gods influencing the game.",
-      "distinctiveDynamic": "The gods change the strategic toolkit. Different god combinations contribute cards and powers, changing which clan combinations are available from game to game. Its distinguishing promise relative to the original Blood Rage is a changing divine framework around the familiar draft, develop and fight rhythm; this remains a description of the announced design."
+      "distinctiveDynamic": "The gods change the strategic toolkit. Different god combinations contribute cards and powers, changing which clan combinations are available from game to game. Its distinguishing promise relative to the original Blood Rage is a changing divine framework around the familiar draft, develop and fight rhythm; this remains a description of the announced design.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/SHcmd4Ah9gY4q8MhFJe5jA__large/img/Me5TekQJcY1h7uGLdPJ0W-K5KDQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9022148.jpg",
+          "local": "assets/bgg/blood-rage-valhalla-9022148.jpg",
+          "source": "https://boardgamegeek.com/image/9022148/blood-rage-valhalla",
+          "credit": "snowguy2 / BoardGameGeek",
+          "caption": "Preview miniatures displayed at Gen Con.",
+          "alt": "Blood Rage: Valhalla: Preview miniatures displayed at Gen Con.",
+          "imageId": "9022148"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/a6duy9IaFP1M11OZ1j76ew__large/img/qrmameSOQPGgeukuhaIfx6noqhI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9033079.jpg",
+          "local": "assets/bgg/blood-rage-valhalla-9033079.jpg",
+          "source": "https://boardgamegeek.com/image/9033079/blood-rage-valhalla",
+          "credit": "snowguy2 / BoardGameGeek",
+          "caption": "Preview miniatures; displayed paintwork may differ from retail components.",
+          "alt": "Blood Rage: Valhalla: Preview miniatures; displayed paintwork may differ from retail components.",
+          "imageId": "9033079"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/kjcW__HbzkNNxk9EM0kOvg__large/img/krGTGWYyUcootO9rjMjYFByaHtY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9815525.jpg",
+          "local": "assets/bgg/blood-rage-valhalla-9815525.jpg",
+          "source": "https://boardgamegeek.com/image/9815525/blood-rage-valhalla",
+          "credit": "nickisshort / BoardGameGeek",
+          "caption": "Thor cards and powers.",
+          "alt": "Blood Rage: Valhalla: Thor cards and powers.",
+          "imageId": "9815525"
+        }
+      ]
     },
     {
       "id": "spirit-island",
@@ -2508,7 +2827,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Work together as powerful spirits defending an island from invading settlers. Grow your presence, gain powers and coordinate with other spirits to stop ravages, protect the land and generate enough fear to drive the invaders away.",
-      "distinctiveDynamic": "You plan across two speeds of action. Fast powers happen before the invaders act, while slow powers happen afterward, so a strong move may solve the next threat rather than the current one. Very different spirits must combine those timings, and generating fear makes the victory requirements easier as resistance grows."
+      "distinctiveDynamic": "You plan across two speeds of action. Fast powers happen before the invaders act, while slow powers happen afterward, so a strong move may solve the next threat rather than the current one. Very different spirits must combine those timings, and generating fear makes the victory requirements easier as resistance grows.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/fJBIMHUj2peahXuFRo4y5w__large/img/_5Mu1GiBuQjQ5oS3VyCN0usY8uI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6468414.jpg",
+          "local": "assets/bgg/spirit-island-6468414.jpg",
+          "source": "https://boardgamegeek.com/image/6468414/spirit-island",
+          "credit": "Katzengold / BoardGameGeek",
+          "caption": "A solo game with two spirits.",
+          "alt": "Spirit Island: A solo game with two spirits.",
+          "imageId": "6468414"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/uLTBjioA759txyKLiWEyEQ__large/img/X4GNhmUKXXJtN3s0msqUJ2k7nto=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5578950.jpg",
+          "local": "assets/bgg/spirit-island-5578950.jpg",
+          "source": "https://boardgamegeek.com/image/5578950/spirit-island",
+          "credit": "j-berman / BoardGameGeek",
+          "caption": "The game displayed in a museum exhibit.",
+          "alt": "Spirit Island: The game displayed in a museum exhibit.",
+          "imageId": "5578950"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/EJZQKLfkJpb2l41vSmmJZQ__large/img/af4I6hPoDP2ry9ugE8JB50Skk98=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3675276.jpg",
+          "local": "assets/bgg/spirit-island-3675276.jpg",
+          "source": "https://boardgamegeek.com/image/3675276/spirit-island",
+          "credit": "dthurston / BoardGameGeek",
+          "caption": "A six-player game using additional content; the base game supports up to four.",
+          "alt": "Spirit Island: A six-player game using additional content; the base game supports up to four.",
+          "imageId": "3675276"
+        }
+      ]
     },
     {
       "id": "santorini",
@@ -2678,7 +3026,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Guide two builders around a small shared island. Each turn, move one builder and construct beside it; win by moving up onto the third level of a building. Optional god powers alter the basic rules for each player.",
-      "distinctiveDynamic": "Every build creates both a route and a threat. The tower you raise can become your winning step or your opponent’s, while a dome permanently closes a summit. This makes construction itself the contest: you must create an ascent that your rival cannot use first or shut down."
+      "distinctiveDynamic": "Every build creates both a route and a threat. The tower you raise can become your winning step or your opponent’s, while a dome permanently closes a summit. This makes construction itself the contest: you must create an ascent that your rival cannot use first or shut down.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/6pNbq46TyQyBrvNi0sIxgw__large/img/dd2TABIuamYt5wxCyAW4-kfsVLM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3309414.jpg",
+          "local": "assets/bgg/santorini-3309414.jpg",
+          "source": "https://boardgamegeek.com/image/3309414/santorini",
+          "credit": "kalchio / BoardGameGeek",
+          "caption": "Buildings, workers and god cards.",
+          "alt": "Santorini: Buildings, workers and god cards.",
+          "imageId": "3309414"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/KH2FmveF1oZKT9qklyKrHA__large/img/NDmQFk_qYN7Pi3HvVlr_Ni_UJAY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3309413.jpg",
+          "local": "assets/bgg/santorini-3309413.jpg",
+          "source": "https://boardgamegeek.com/image/3309413/santorini",
+          "credit": "kalchio / BoardGameGeek",
+          "caption": "The base game’s god cards.",
+          "alt": "Santorini: The base game’s god cards.",
+          "imageId": "3309413"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/awlnARN0G_eUsM5US6sfpA__large/img/TkCMyJ7A0G99JFcwM9MvioedPjk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3303222.jpg",
+          "local": "assets/bgg/santorini-3303222.jpg",
+          "source": "https://boardgamegeek.com/image/3303222/santorini",
+          "credit": "Vacabck / BoardGameGeek",
+          "caption": "A close view of the towers during play.",
+          "alt": "Santorini: A close view of the towers during play.",
+          "imageId": "3303222"
+        }
+      ]
     },
     {
       "id": "modern-art",
@@ -2806,7 +3183,36 @@ window.FIELD_GUIDE = {
         "checkedAt": "2026-10-17"
       },
       "overview": "Run a gallery buying and selling paintings through auctions. Across four rounds, artists gain market value from the paintings players bring to sale; turn those purchases and sales into the largest cash fortune.",
-      "distinctiveDynamic": "The players create the value they are bidding on. Selling more work by an artist can make that artist valuable, but the fifth painting ends the round. Each sale also specifies an auction format, so the seller influences both price discovery and when the market closes."
+      "distinctiveDynamic": "The players create the value they are bidding on. Selling more work by an artist can make that artist valuable, but the fifth painting ends the round. Each sale also specifies an auction format, so the seller influences both price discovery and when the market closes.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/5L-zXGEX-obQNgeJmn3heA__large/img/VUfNNRaJsed1DB51-FPxXztIyJU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3833818.jpg",
+          "local": "assets/bgg/modern-art-3833818.jpg",
+          "source": "https://boardgamegeek.com/image/3833818/modern-art",
+          "credit": "W Eric Martin / BoardGameGeek",
+          "caption": "Dicetree edition components; artwork and accessories vary by edition.",
+          "alt": "Modern Art: Dicetree edition components; artwork and accessories vary by edition.",
+          "imageId": "3833818"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/wlxS5tbRJXcye0CBl51rTQ__large/img/cWBWrSbuxutINWDgarecQ7UdFlI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic61765.jpg",
+          "local": "assets/bgg/modern-art-61765.jpg",
+          "source": "https://boardgamegeek.com/image/61765/modern-art",
+          "credit": "Steeledragon / BoardGameGeek",
+          "caption": "A selection of painting cards from an earlier edition.",
+          "alt": "Modern Art: A selection of painting cards from an earlier edition.",
+          "imageId": "61765"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/bSio4z8zQ_7Gm5CrpduWuA__large/img/JZQTtu2uU-_vgDw_bcc5wPbGgTA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic170671.jpg",
+          "local": "assets/bgg/modern-art-170671.jpg",
+          "source": "https://boardgamegeek.com/image/170671/modern-art",
+          "credit": "Gola / BoardGameGeek",
+          "caption": "Brazilian Odysseia edition from 2006.",
+          "alt": "Modern Art: Brazilian Odysseia edition from 2006.",
+          "imageId": "170671"
+        }
+      ]
     },
     {
       "id": "el-grande",
@@ -2950,7 +3356,36 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "overview": "Lead a noble house competing for influence across Spain. Choose power cards, take actions and place caballeros to earn points from regional majorities during scoring rounds.",
-      "distinctiveDynamic": "The Castillo hides a future swing in the map. Caballeros placed in the tower are concealed until scoring, then secretly assigned to a region. You must judge visible majorities against troops whose destination is uncertain, while the king restricts where reinforcements can enter the board."
+      "distinctiveDynamic": "The Castillo hides a future swing in the map. Caballeros placed in the tower are concealed until scoring, then secretly assigned to a region. You must judge visible majorities against troops whose destination is uncertain, while the king restricts where reinforcements can enter the board.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/kJQ3GKEHWzahfi3vZlUtww__large/img/fM74ER7mEJw5LFhTo41Lysvx0M8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic195398.jpg",
+          "local": "assets/bgg/el-grande-195398.jpg",
+          "source": "https://boardgamegeek.com/image/195398/el-grande",
+          "credit": "Nodens77 / BoardGameGeek",
+          "caption": "Regional majorities and the Castillo during play.",
+          "alt": "El Grande: Regional majorities and the Castillo during play.",
+          "imageId": "195398"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/2qZzkkFt4kw3tbJMraoJrQ__large/img/H8sX-cO_AWrB2cF5zi5FLrI-el8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic306362.jpg",
+          "local": "assets/bgg/el-grande-306362.jpg",
+          "source": "https://boardgamegeek.com/image/306362/el-grande",
+          "credit": "matthew.marquand / BoardGameGeek",
+          "caption": "Caballeros and the king from an earlier edition.",
+          "alt": "El Grande: Caballeros and the king from an earlier edition.",
+          "imageId": "306362"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/aI57KRYghs8WDVk-SXzZRA__large/img/KO761wojScr4HaqzsrRkBwwYmsU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic788277.jpg",
+          "local": "assets/bgg/el-grande-788277.jpg",
+          "source": "https://boardgamegeek.com/image/788277/el-grande",
+          "credit": "henk.rolleman / BoardGameGeek",
+          "caption": "A close view of the regional map.",
+          "alt": "El Grande: A close view of the regional map.",
+          "imageId": "788277"
+        }
+      ]
     },
     {
       "id": "babylonia",
@@ -3072,7 +3507,36 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "overview": "Place clan tokens across ancient Mesopotamia to connect settlements, surround cities and compete around ziggurats. Build networks that turn carefully timed placements into points and lasting advantages.",
-      "distinctiveDynamic": "A local scoring event can reward a much larger network. Connecting your nobles to cities makes the reach of a network matter beyond immediate adjacency. Meanwhile, surrounding locations triggers rewards, so expanding a connection and deciding when to complete an enclosure pull your limited placements in different directions."
+      "distinctiveDynamic": "A local scoring event can reward a much larger network. Connecting your nobles to cities makes the reach of a network matter beyond immediate adjacency. Meanwhile, surrounding locations triggers rewards, so expanding a connection and deciding when to complete an enclosure pull your limited placements in different directions.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/pHMMWed8hP7rx9tKj8rZkg__large/img/1tFt8Z6keQO73puPr6Q1eu-JZRU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4985331.jpg",
+          "local": "assets/bgg/babylonia-4985331.jpg",
+          "source": "https://boardgamegeek.com/image/4985331/babylonia",
+          "credit": "W Eric Martin / BoardGameGeek",
+          "caption": "The board at the end of a three-player game.",
+          "alt": "Babylonia: The board at the end of a three-player game.",
+          "imageId": "4985331"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/OFSAFl9dd61Q1DdeC4iINg__large/img/UPW4zB6stftsZ67xoBlP_Tdxbes=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4874295.jpg",
+          "local": "assets/bgg/babylonia-4874295.jpg",
+          "source": "https://boardgamegeek.com/image/4874295/babylonia",
+          "credit": "dramaplastika / BoardGameGeek",
+          "caption": "Board, clan tokens and other components.",
+          "alt": "Babylonia: Board, clan tokens and other components.",
+          "imageId": "4874295"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/_EM4wErHHyLaZVYxGTwzSA__large/img/x7OygQFLGyzE5QKMfHUrvgOfSmE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6531853.jpg",
+          "local": "assets/bgg/babylonia-6531853.jpg",
+          "source": "https://boardgamegeek.com/image/6531853/babylonia",
+          "credit": "jessebilger / BoardGameGeek",
+          "caption": "A game in progress.",
+          "alt": "Babylonia: A game in progress.",
+          "imageId": "6531853"
+        }
+      ]
     },
     {
       "id": "quest-for-el-dorado",
@@ -3247,7 +3711,36 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "overview": "Race an expedition through jungle, water and villages to reach El Dorado. Play cards to cross matching terrain or spend their buying power on stronger expedition cards, reshaping your deck for the course ahead.",
-      "distinctiveDynamic": "Your deck has to navigate a physical bottleneck. A card’s value depends on the terrain still ahead and which spaces rivals occupy. Buying a powerful card helps only after it cycles into your hand, so improving the expedition competes directly with moving before the route closes."
+      "distinctiveDynamic": "Your deck has to navigate a physical bottleneck. A card’s value depends on the terrain still ahead and which spaces rivals occupy. Buying a powerful card helps only after it cycles into your hand, so improving the expedition competes directly with moving before the route closes.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/sPBrwFr3YtOik-CGrDqdFQ__large/img/shIv3_gGdcgModXu8Ebc_1j0gJg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3625313.jpg",
+          "local": "assets/bgg/quest-for-el-dorado-3625313.jpg",
+          "source": "https://boardgamegeek.com/image/3625313/the-quest-for-el-dorado",
+          "credit": "dougadamsau / BoardGameGeek",
+          "caption": "A three-player race along the course.",
+          "alt": "The Quest for El Dorado: A three-player race along the course.",
+          "imageId": "3625313"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/rDt1Mlug6c9fbq-EyiLEyA__large/img/DNygzS04qayetPPNYxDUnJ17neo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3501307.jpg",
+          "local": "assets/bgg/quest-for-el-dorado-3501307.jpg",
+          "source": "https://boardgamegeek.com/image/3501307/the-quest-for-el-dorado",
+          "credit": "lacxox / BoardGameGeek",
+          "caption": "An extended course set up for play.",
+          "alt": "The Quest for El Dorado: An extended course set up for play.",
+          "imageId": "3501307"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/cAp-mwxv8DN5uBMk3qRUwQ__large/img/f22mTj91HCelaF_JpFtmUEuyD8U=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4623101.jpg",
+          "local": "assets/bgg/quest-for-el-dorado-4623101.jpg",
+          "source": "https://boardgamegeek.com/image/4623101/the-quest-for-el-dorado",
+          "credit": "DamianG / BoardGameGeek",
+          "caption": "Exploring a route to El Dorado.",
+          "alt": "The Quest for El Dorado: Exploring a route to El Dorado.",
+          "imageId": "4623101"
+        }
+      ]
     },
     {
       "id": "tyrants-of-the-underdark",
@@ -3383,7 +3876,36 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "overview": "Lead a drow house seeking control of the Underdark. Recruit cards into your deck, generate influence and military power, deploy troops and spies, and score through territorial control and your cards.",
-      "distinctiveDynamic": "You can retire a useful card to make it worth more points. Promoting cards into your inner circle removes them from your working deck in exchange for their higher scoring value. That links deck improvement to a real sacrifice: retire an effect too early and your army may lose the tool it still needs."
+      "distinctiveDynamic": "You can retire a useful card to make it worth more points. Promoting cards into your inner circle removes them from your working deck in exchange for their higher scoring value. That links deck improvement to a real sacrifice: retire an effect too early and your army may lose the tool it still needs.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/Y5fF2y0aAaZ6BEtF_KWt9g__large/img/VDe6Ly7Tha3kJbbDD4e-wDNQ_Xc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6502250.jpg",
+          "local": "assets/bgg/tyrants-of-the-underdark-6502250.jpg",
+          "source": "https://boardgamegeek.com/image/6502250/tyrants-of-the-underdark-board-game",
+          "credit": "mercopparis / BoardGameGeek",
+          "caption": "A three-player game in progress.",
+          "alt": "Tyrants of the Underdark: A three-player game in progress.",
+          "imageId": "6502250"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/_mWpIche006mL43Yq7pBIA__large/img/zEUVDnbjEdHI9zRty1p2nxYbpLo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8552930.jpg",
+          "local": "assets/bgg/tyrants-of-the-underdark-8552930.jpg",
+          "source": "https://boardgamegeek.com/image/8552930/tyrants-of-the-underdark-board-game",
+          "credit": "Mr_Children / BoardGameGeek",
+          "caption": "Troops and territory control during play.",
+          "alt": "Tyrants of the Underdark: Troops and territory control during play.",
+          "imageId": "8552930"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/0kDrUIFBBEjCOIMaoOmLZw__large/img/gfYH9vcdEleuCLTKbzA-SnD4YYk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6504382.jpg",
+          "local": "assets/bgg/tyrants-of-the-underdark-6504382.jpg",
+          "source": "https://boardgamegeek.com/image/6504382/tyrants-of-the-underdark-board-game",
+          "credit": "Venosthe / BoardGameGeek",
+          "caption": "Polish-language edition on the table.",
+          "alt": "Tyrants of the Underdark: Polish-language edition on the table.",
+          "imageId": "6504382"
+        }
+      ]
     },
     {
       "id": "ankh-gods-of-egypt",
@@ -3555,7 +4077,36 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "overview": "Compete as Egyptian gods struggling to retain worshippers. Recruit followers, unlock powers, control monuments and send figures into regional conflicts to gain devotion before rival gods overtake you.",
-      "distinctiveDynamic": "The trailing gods can become one team. In games with three or more players, the bottom two gods merge during the game, combining powers and sharing a path to victory. This changes both control and incentives partway through play; the action tracks also let players influence when major events occur."
+      "distinctiveDynamic": "The trailing gods can become one team. In games with three or more players, the bottom two gods merge during the game, combining powers and sharing a path to victory. This changes both control and incentives partway through play; the action tracks also let players influence when major events occur.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/HUuwpxJr06vLl41fKIlZ9Q__large/img/GhjC4MzIO0SR81ZSnVrhxNkNxOQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6188238.jpg",
+          "local": "assets/bgg/ankh-gods-of-egypt-6188238.jpg",
+          "source": "https://boardgamegeek.com/image/6188238/ankh-gods-of-egypt",
+          "credit": "Nabako / BoardGameGeek",
+          "caption": "The board after the gods have merged.",
+          "alt": "Ankh: Gods of Egypt: The board after the gods have merged.",
+          "imageId": "6188238"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/kRWjeVdVAazuNj0AQ-h5Ow__large/img/JFMgxpn84AaDcNpw7JME6QUziKs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6375295.jpg",
+          "local": "assets/bgg/ankh-gods-of-egypt-6375295.jpg",
+          "source": "https://boardgamegeek.com/image/6375295/ankh-gods-of-egypt",
+          "credit": "kitohiro / BoardGameGeek",
+          "caption": "Custom-painted monuments.",
+          "alt": "Ankh: Gods of Egypt: Custom-painted monuments.",
+          "imageId": "6375295"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/9Z8X07cbdEGeNwDuVT2OkQ__large/img/3UOUIjFeX771N8Jx9KZaoL_gA8c=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6532944.jpg",
+          "local": "assets/bgg/ankh-gods-of-egypt-6532944.jpg",
+          "source": "https://boardgamegeek.com/image/6532944/ankh-gods-of-egypt",
+          "credit": "Ulghar / BoardGameGeek",
+          "caption": "Custom-painted Eternal Pledge collection, including additional content.",
+          "alt": "Ankh: Gods of Egypt: Custom-painted Eternal Pledge collection, including additional content.",
+          "imageId": "6532944"
+        }
+      ]
     },
     {
       "id": "seven-wonders-duel",
@@ -3700,7 +4251,36 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "overview": "Two civilizations develop over three ages by taking cards from a shared display. Build resources, commerce, science, military strength and wonders; win immediately through military or scientific supremacy, or lead on points at the end.",
-      "distinctiveDynamic": "Taking a card changes what your opponent can take next. Overlapping face-up and face-down cards create a shared access puzzle: your useful purchase may uncover their crucial military or science card. Wonders that grant another turn can break that rhythm and let you claim the opportunity you just revealed."
+      "distinctiveDynamic": "Taking a card changes what your opponent can take next. Overlapping face-up and face-down cards create a shared access puzzle: your useful purchase may uncover their crucial military or science card. Wonders that grant another turn can break that rhythm and let you claim the opportunity you just revealed.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/E2cNq60FJTofNJdF9XsO_Q__large/img/iBumnNfUKdpPgpXcqEckfmEc304=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2712127.jpg",
+          "local": "assets/bgg/seven-wonders-duel-2712127.jpg",
+          "source": "https://boardgamegeek.com/image/2712127/7-wonders-duel",
+          "credit": "rootdarkarchon / BoardGameGeek",
+          "caption": "The base game’s cards and components.",
+          "alt": "7 Wonders Duel: The base game’s cards and components.",
+          "imageId": "2712127"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/qNq3Eme7clGG5ukUvFR-Cg__large/img/XREpRQRyF3Tg4lkCBMuB3g-8eXk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5948409.jpg",
+          "local": "assets/bgg/seven-wonders-duel-5948409.jpg",
+          "source": "https://boardgamegeek.com/image/5948409/7-wonders-duel",
+          "credit": "Tabletopping_Games / BoardGameGeek",
+          "caption": "A close look at the military conflict pawn.",
+          "alt": "7 Wonders Duel: A close look at the military conflict pawn.",
+          "imageId": "5948409"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/8h7tzueABqW89-VGkjPeMQ__large/img/Fj-KsHd4iyPK6phbI02mR6je7nA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2722558.jpg",
+          "local": "assets/bgg/seven-wonders-duel-2722558.jpg",
+          "source": "https://boardgamegeek.com/image/2722558/7-wonders-duel",
+          "credit": "peculiii / BoardGameGeek",
+          "caption": "A two-player game in progress.",
+          "alt": "7 Wonders Duel: A two-player game in progress.",
+          "imageId": "2722558"
+        }
+      ]
     },
     {
       "id": "five-tribes",
@@ -3859,7 +4439,36 @@ window.FIELD_GUIDE = {
         "note": "Added after the omission audit. A playable SPIEL Essen 2026 demo for this game was not verified."
       },
       "overview": "Compete for influence in Naqala by moving colored meeples across a tiled sultanate. Collect tribes, claim emptied tiles, buy goods and recruit djinn, combining several sources of points into the strongest final position.",
-      "distinctiveDynamic": "You manufacture an action by redistributing its pieces. Pick up all meeples on a tile and drop them along a path, ending on a matching color to collect and activate that tribe. Your move changes the opportunities left for everyone else, while bidding for turn order puts a price on reaching a strong move first."
+      "distinctiveDynamic": "You manufacture an action by redistributing its pieces. Pick up all meeples on a tile and drop them along a path, ending on a matching color to collect and activate that tribe. Your move changes the opportunities left for everyone else, while bidding for turn order puts a price on reaching a strong move first.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/K8sRfEV1QvsVPWP36fOjtA__large/img/J77WrRn52pIBxkY7y6Fb9by-tG0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2055256.jpg",
+          "local": "assets/bgg/five-tribes-2055256.jpg",
+          "source": "https://boardgamegeek.com/image/2055256/five-tribes-the-djinns-of-naqala",
+          "credit": "W Eric Martin / BoardGameGeek",
+          "caption": "The board and components ready for play.",
+          "alt": "Five Tribes: The board and components ready for play.",
+          "imageId": "2055256"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/2nvSbm7o54x9vpFO7PXq5w__large/img/WvZ4i1TF0fcBEW6ndAM5LBDUg3U=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2763001.jpg",
+          "local": "assets/bgg/five-tribes-2763001.jpg",
+          "source": "https://boardgamegeek.com/image/2763001/five-tribes-the-djinns-of-naqala",
+          "credit": "dotKeller / BoardGameGeek",
+          "caption": "A close view of the meeples and tiles.",
+          "alt": "Five Tribes: A close view of the meeples and tiles.",
+          "imageId": "2763001"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/mdQaeqgCsLoXa6rJ9bu2tA__large/img/SOqSynm8Mh8ziItBAM9VgrFA6f4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2055258.jpg",
+          "local": "assets/bgg/five-tribes-2055258.jpg",
+          "source": "https://boardgamegeek.com/image/2055258/five-tribes-the-djinns-of-naqala",
+          "credit": "W Eric Martin / BoardGameGeek",
+          "caption": "Examples of djinn cards.",
+          "alt": "Five Tribes: Examples of djinn cards.",
+          "imageId": "2055258"
+        }
+      ]
     },
     {
       "id": "brass-birmingham",
@@ -3998,7 +4607,36 @@ window.FIELD_GUIDE = {
       "whatIsNew": "Shared industrial incentives: using and supplying infrastructure that opponents can exploit becomes the central decision.",
       "overlapCaveat": "Economic development and route-building overlap with Concordia and Hansa; the new emphasis is the shared industrial resource market and two-era investment cycle.",
       "overview": "Build industries and transport links during Britain’s industrial revolution. Develop factories, mines and breweries, connect them to markets and sell goods across canal and rail eras to earn points and grow your income.",
-      "distinctiveDynamic": "An opponent can finish your investment for you. Shared coal and iron supplies let rivals consume resources from your industries, potentially flipping them to improve your income and score. You must exploit that interdependence while managing beer access and preparing for the canal-to-rail reset."
+      "distinctiveDynamic": "An opponent can finish your investment for you. Shared coal and iron supplies let rivals consume resources from your industries, potentially flipping them to improve your income and score. You must exploit that interdependence while managing beer access and preparing for the canal-to-rail reset.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/e2e0wdO8oVNzD0ZAhzi6MQ__large/img/6-uq5O0vg_0bRoj4JE0pCvrkeEo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3509697.jpg",
+          "local": "assets/bgg/brass-birmingham-3509697.jpg",
+          "source": "https://boardgamegeek.com/image/3509697/brass-birmingham",
+          "credit": "RoosterJuice / BoardGameGeek",
+          "caption": "Canal-era board artwork and industry locations.",
+          "alt": "Brass: Birmingham: Canal-era board artwork and industry locations.",
+          "imageId": "3509697"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/zfnOi94URpuyNs_cRy7ESw__large/img/CUcP1-63R0OSkTeUxs1Kt2tKh1k=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3500869.jpg",
+          "local": "assets/bgg/brass-birmingham-3500869.jpg",
+          "source": "https://boardgamegeek.com/image/3500869/brass-birmingham",
+          "credit": "RoosterJuice / BoardGameGeek",
+          "caption": "Industry card artwork from the promotional campaign.",
+          "alt": "Brass: Birmingham: Industry card artwork from the promotional campaign.",
+          "imageId": "3500869"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/7xNx9k_R_Hr3bp6LMbSJcA__large/img/MXTSubt00KLB3MW0HOg5XdKSihc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3509698.jpg",
+          "local": "assets/bgg/brass-birmingham-3509698.jpg",
+          "source": "https://boardgamegeek.com/image/3509698/brass-birmingham",
+          "credit": "RoosterJuice / BoardGameGeek",
+          "caption": "The beer-barrel turn-order track.",
+          "alt": "Brass: Birmingham: The beer-barrel turn-order track.",
+          "imageId": "3509698"
+        }
+      ]
     },
     {
       "id": "gaia-project",
@@ -4138,7 +4776,36 @@ window.FIELD_GUIDE = {
       "whatIsNew": "Full-information asymmetric planning: a faction’s resource conversions, research and terraforming must serve visible round goals.",
       "overlapCaveat": "This still shares engine development and competition for spaces with your existing favorites; the experiment is the sustained planning load and deterministic economy.",
       "overview": "Expand an asymmetric space civilization across a galaxy. Terraform planets, construct and upgrade buildings, advance research and form federations, shaping your economy around round bonuses and final scoring goals.",
-      "distinctiveDynamic": "Building near a rival can charge their power. Nearby construction offers opponents power at a potential points cost, making proximity useful as well as competitive. Combined with faction-specific resource cycles and terraforming needs, it turns where and when you build into an economic negotiation without direct trading."
+      "distinctiveDynamic": "Building near a rival can charge their power. Nearby construction offers opponents power at a potential points cost, making proximity useful as well as competitive. Combined with faction-specific resource cycles and terraforming needs, it turns where and when you build into an economic negotiation without direct trading.",
+      "gallery": [
+        {
+          "url": "https://cf.geekdo-images.com/pz4DG7MJX4gxHdFlRswlKg__large/img/elQ4sFRAwwnURtSBLXnvovCfshE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3409873.jpg",
+          "local": "assets/bgg/gaia-project-3409873.jpg",
+          "source": "https://boardgamegeek.com/image/3409873/gaia-project",
+          "credit": "nan3000 / BoardGameGeek",
+          "caption": "One possible arrangement of the map sectors.",
+          "alt": "Gaia Project: One possible arrangement of the map sectors.",
+          "imageId": "3409873"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/fmiVfZ3raPYsNmkka5kwew__large/img/DwpiiRb69k956jt_r7vs8icVVl8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3917006.jpg",
+          "local": "assets/bgg/gaia-project-3917006.jpg",
+          "source": "https://boardgamegeek.com/image/3917006/gaia-project",
+          "credit": "ki0n / BoardGameGeek",
+          "caption": "A game in progress with faction boards and research.",
+          "alt": "Gaia Project: A game in progress with faction boards and research.",
+          "imageId": "3917006"
+        },
+        {
+          "url": "https://cf.geekdo-images.com/Sd5N1Hv1TAhuVF4UbiZCVA__large/img/17cIuqokr_0mdeUBOw_RQnKBsaU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3529378.jpg",
+          "local": "assets/bgg/gaia-project-3529378.jpg",
+          "source": "https://boardgamegeek.com/image/3529378/gaia-project",
+          "credit": "guilherme33 / BoardGameGeek",
+          "caption": "A preview of a faction board.",
+          "alt": "Gaia Project: A preview of a faction board.",
+          "imageId": "3529378"
+        }
+      ]
     }
   ],
   "eventSources": [

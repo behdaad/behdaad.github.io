@@ -113,6 +113,69 @@ header > div {
     transition: all ease 0.2s;
 }
 
+.automotive-links {
+    margin: 48px 32px 0;
+    padding: 28px 0;
+    border-top: 1px solid #e5e8ed;
+    border-bottom: 1px solid #e5e8ed;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    gap: 24px;
+    align-items: start;
+}
+
+.automotive-eyebrow {
+    margin-bottom: 8px;
+    color: #0e5cf7;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.automotive-links h2 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.automotive-links > div > p:last-child {
+    color: #68717d;
+    line-height: 1.7;
+}
+
+.automotive-links nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    background: transparent;
+    position: static;
+}
+
+.automotive-links nav a {
+    padding: 8px 12px;
+    border: 1px solid #e5e8ed;
+    border-radius: 20px;
+    color: #212121;
+    font-size: 12px;
+    text-decoration: none;
+    transition: border-color ease 0.2s, color ease 0.2s;
+}
+
+.automotive-links nav a:hover {
+    border-color: #0e5cf7;
+    color: #0e5cf7;
+}
+
+.automotive-links nav a:first-child {
+    border-color: #0e5cf7;
+    color: #0e5cf7;
+}
+
+.automotive-links nav a span {
+    margin-left: 3px;
+}
+
 .work-sample:hover .arrow div:first-child{
     transform: rotate(-45deg) translateY(2px);
 }
@@ -156,6 +219,11 @@ header > div {
         margin: 32px 0 0 0;
     }
 
+    .automotive-links {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .work-sample h2 {
         margin-top: 0
     }
@@ -178,6 +246,12 @@ header > div {
         margin-top: 32px;
     }
 
+}
+
+@media only screen and (max-width: 650px) {
+    .automotive-links {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (min-width: 824px) and (max-width: 944px) {

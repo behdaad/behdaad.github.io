@@ -4,8 +4,8 @@ Researched 20 October 2026. Independent fan guide; no subscriber video is copied
 
 ## Coverage
 
-- 124 selected Grands Prix across every championship season, 1950–2026.
-- 41 races before 1991; 83 from 1991 onward. The 2026 season is in progress: latest included race is Singapore on 11 October.
+- 130 selected Grands Prix across every championship season, 1950–2026.
+- 42 races before 1991; 88 from 1991 onward. The 2026 season is in progress: latest included race is Singapore on 11 October.
 - 23 selected F1 TV documentary entries (including a three-episode series), 11 external films/series and 38 individual people introductions.
 - Fiction, historical drama, documentary, season review, race highlights and full replay have separate labels.
 

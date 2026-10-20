@@ -488,9 +488,9 @@
     {
       "year": 1961,
       "name": "Italy",
-      "title": "A championship overshadowed by tragedy",
-      "story": "Phil Hill wins for Ferrari and becomes champion. His team-mate Wolfgang von Trips and spectators die in a crash on the opening laps. Watch this season as a reminder of the human cost of early racing.",
-      "tag": "Title clincher",
+      "title": "Von Trips and spectators are killed at Monza",
+      "story": "Championship leader Wolfgang von Trips collides with Jim Clark on the second lap of Monza’s high-speed combined road-and-banked circuit. Von Trips and spectators die. Phil Hill wins the race and championship in a sombre aftermath; F1 abandons the banking after this tragedy.",
+      "tag": "Title clincher · tragedy",
       "type": "race",
       "id": "1961-italy",
       "date": "10 Sep",
@@ -507,8 +507,8 @@
           "url": "https://www.formula1.com/en/results/1961/races/194/italy/race-result"
         },
         {
-          "title": "Race history and references",
-          "url": "https://en.wikipedia.org/wiki/1961_Italian_Grand_Prix"
+          "title": "F1 history: Monza’s banking and the 1961 tragedy",
+          "url": "https://www.formula1.com/en/latest/article/moments-in-time-the-italian-grand-prix.3WfuWj9h4gs0CufiDZ1ZS9.html"
         }
       ],
       "raceName": "Italian Grand Prix",
@@ -1092,6 +1092,46 @@
         "kind": "Season review artwork",
         "original": "https://f1tv.formula1.com/image-resizer/image/1000003781-dc3594fb-73a9-4225-a422-b33428f43efb/landscape_web?w=251&h=141&q=HI&o=L"
       }
+    },
+    {
+      "year": 1973,
+      "name": "Netherlands",
+      "title": "Purley tries to save Williamson",
+      "story": "Roger Williamson’s car overturns and catches fire on lap eight at Zandvoort. David Purley stops and repeatedly tries to turn the wreck over and fight the flames, but marshals are unable to reach Williamson in time. Jackie Stewart wins a race remembered for Williamson’s death and Purley’s rescue attempt.",
+      "tag": "Tragedy · fatal accident",
+      "type": "race",
+      "id": "1973-netherlands",
+      "date": "29 Jul",
+      "result": {
+        "name": "Netherlands",
+        "date": "29 Jul",
+        "winner": "Jackie StewartSTE",
+        "source": "https://www.formula1.com/en/results/1973/races/323/netherlands/race-result"
+      },
+      "order": 8,
+      "sources": [
+        {
+          "title": "Official race result",
+          "url": "https://www.formula1.com/en/results/1973/races/323/netherlands/race-result"
+        },
+        {
+          "title": "F1: David Purley’s attempt to rescue Roger Williamson",
+          "url": "https://www.formula1.com/en/latest/article/from-lending-vital-equipment-to-intervening-at-accident-scenes-8-of-the.6woBiRNImYM09TIbc6Jitj"
+        },
+        {
+          "title": "F1 TV season review",
+          "url": "https://f1tv.formula1.com/detail/1000003782/1973-season-review"
+        }
+      ],
+      "raceName": "Dutch Grand Prix",
+      "watchKind": "Season film · not individual race highlights",
+      "watch": {
+        "image": "https://f1tv.formula1.com/image-resizer/image/1000003782-9c368c66-d478-4094-b7ae-ddf5e58d8a29/landscape_web?w=251&h=141&q=HI&o=L",
+        "title": "1973 Season Review\n00:52:36 | Highlights",
+        "url": "https://f1tv.formula1.com/detail/1000003782/1973-season-review"
+      },
+      "watchLabel": "Watch season review",
+      "duration": "00:52:36"
     },
     {
       "year": 1973,
@@ -4405,8 +4445,8 @@
       "year": 2005,
       "name": "United States",
       "title": "Six cars take the start",
-      "story": "Michelin cannot guarantee tyre safety through the banked final corner. Its teams withdraw after the formation lap, leaving six Bridgestone-shod cars to race. Schumacher wins a Grand Prix that becomes a major credibility crisis.",
-      "tag": "Tyre controversy",
+      "story": "Michelin judged its tyres unsafe on Indianapolis’s banked final corner and advised its teams not to race. All seven Michelin teams withdrew before the start, leaving six Bridgestone cars. The fiasco was followed by a move to single-supplier rules: Bridgestone became the sole supplier in 2007 when Michelin left, then Pirelli took over in 2011. Indianapolis marks the crisis at the start of that shift; Pirelli itself was appointed years later.",
+      "tag": "Tyre controversy · supplier change context",
       "catalog": {
         "image": "https://f1tv.formula1.com/image-resizer/image/1000001894-71665d07-41bd-4910-89e6-8e2b9aad2ec1/landscape_web?w=251&h=141&q=HI&o=L",
         "title": "2005 United States Grand Prix\n01:53:36 | Replay",
@@ -4428,8 +4468,16 @@
           "url": "https://www.formula1.com/en/results/2005/races/779/united-states/race-result"
         },
         {
-          "title": "Race history and references",
-          "url": "https://en.wikipedia.org/wiki/2005_United_States_Grand_Prix"
+          "title": "F1 history: six cars at the 2005 United States Grand Prix",
+          "url": "https://www.formula1.com/en/latest/article/the-rare-occasions-every-car-has-been-a-finisher.1CUbNYGheF4I34tjEtJKLG"
+        },
+        {
+          "title": "Bridgestone history: sole supplier from 2007",
+          "url": "https://ms.bridgestone.co.jp/special/document/f1/en/episode/2007/"
+        },
+        {
+          "title": "F1: Pirelli becomes sole supplier in 2011",
+          "url": "https://www.formula1.com/en/latest/article/pirelli-to-continue-as-formula-1s-exclusive-tyre-supplier-until-2027.7xJIxJyMe84N3p7k4iIMjK"
         },
         {
           "title": "F1 TV catalog entry",
@@ -5914,6 +5962,50 @@
     },
     {
       "year": 2014,
+      "name": "Japan",
+      "title": "A race overshadowed by Jules Bianchi’s crash",
+      "story": "Lewis Hamilton wins a rain-affected race that is stopped after Jules Bianchi crashes into a recovery vehicle working at Adrian Sutil’s earlier accident. Bianchi suffers severe head injuries and dies in July 2015. The race became a turning point in F1’s response to recovery operations under yellow flags.",
+      "tag": "Tragedy · safety",
+      "type": "race",
+      "id": "2014-japan",
+      "date": "05 Oct",
+      "result": {
+        "name": "Japan",
+        "date": "05 Oct",
+        "winner": "Lewis HamiltonHAM",
+        "source": "https://www.formula1.com/en/results/2014/races/912/japan/race-result"
+      },
+      "order": 8,
+      "sources": [
+        {
+          "title": "Official race result",
+          "url": "https://www.formula1.com/en/results/2014/races/912/japan/race-result"
+        },
+        {
+          "title": "F1 race report: Hamilton wins rain-affected race in Japan",
+          "url": "https://www.formula1.com/en/latest/article/race-hamilton-wins-rain-affected-race-in-japan.FOQ9DKAeOj9aMaFMy2Ado"
+        },
+        {
+          "title": "F1: Jules Bianchi, 1989–2015",
+          "url": "https://www.formula1.com/en/latest/article/jules-bianchi-1989-2015.1giOLZ9L8Ok0BzNL4zHI8Z"
+        },
+        {
+          "title": "F1 TV catalog entry",
+          "url": "https://f1tv.formula1.com/detail/1000002209/2014-japanese-grand-prix?action=play"
+        }
+      ],
+      "raceName": "Japanese Grand Prix",
+      "watchKind": "Full race replay · highlights also listed",
+      "watch": {
+        "image": "https://f1tv.formula1.com/image-resizer/image/1000002209-2005abce-ce76-4029-a4ba-bcd082e23e03/landscape_web?w=251&h=141&q=HI&o=L",
+        "title": "2014 Japanese Grand Prix\n02:33:14 | Replay",
+        "url": "https://f1tv.formula1.com/detail/1000002209/2014-japanese-grand-prix?action=play"
+      },
+      "watchLabel": "Watch full race",
+      "duration": "02:33:14"
+    },
+    {
+      "year": 2014,
       "name": "Abu Dhabi",
       "title": "Hamilton takes the double-points finale",
       "story": "Hamilton wins and secures his second championship as Rosberg suffers mechanical problems. The finale awards double points, an unpopular experiment used for this season only.",
@@ -6027,6 +6119,86 @@
           "url": "https://en.wikipedia.org/wiki/Max_Verstappen"
         }
       ]
+    },
+    {
+      "year": 2015,
+      "name": "Australia",
+      "title": "Verstappen makes his F1 debut at 17",
+      "story": "Max Verstappen starts his first Formula 1 Grand Prix for Toro Rosso aged 17 years and five months, still the youngest driver to start a race. He runs in the points before an engine failure ends his debut on lap 34. A full replay shows the first chapter before his promotion to Red Bull the following year.",
+      "tag": "Verstappen · debut",
+      "type": "race",
+      "id": "2015-australia",
+      "date": "15 Mar",
+      "result": {
+        "name": "Australia",
+        "date": "15 Mar",
+        "winner": "Lewis HamiltonHAM",
+        "source": "https://www.formula1.com/en/results/2015/races/917/australia/race-result"
+      },
+      "order": 1,
+      "sources": [
+        {
+          "title": "Official race result",
+          "url": "https://www.formula1.com/en/results/2015/races/917/australia/race-result"
+        },
+        {
+          "title": "F1: Verstappen’s age and Australian debut",
+          "url": "https://www.formula1.com/en/latest/article/teenage-dreams-the-10-youngest-drivers-to-race-in-f1-and-how-they-all-fared.7uxfp4KMKEo5iPVpHtyxOu"
+        },
+        {
+          "title": "F1 TV catalog entry",
+          "url": "https://f1tv.formula1.com/detail/1000002220/2015-australian-grand-prix?action=play"
+        }
+      ],
+      "raceName": "Australian Grand Prix",
+      "watchKind": "Full race replay · highlights also listed",
+      "watch": {
+        "image": "https://f1tv.formula1.com/image-resizer/image/1000002220/landscape_web?w=251&h=141&q=HI&o=L",
+        "title": "2015 Australian Grand Prix\n02:04:53 | Replay",
+        "url": "https://f1tv.formula1.com/detail/1000002220/2015-australian-grand-prix?action=play"
+      },
+      "watchLabel": "Watch full race",
+      "duration": "02:04:53"
+    },
+    {
+      "year": 2015,
+      "name": "Monaco",
+      "title": "Verstappen’s first major F1 crash",
+      "story": "Chasing Romain Grosjean for the final points place, Verstappen hits the back of the Lotus under braking for Sainte Dévote and crashes into the barriers. He is unhurt, but the stewards hold him responsible and give him a five-place grid penalty for Canada. The incident is an early, stark example of his speed and youthful risk-taking.",
+      "tag": "Verstappen · collision",
+      "type": "race",
+      "id": "2015-monaco",
+      "date": "24 May",
+      "result": {
+        "name": "Monaco",
+        "date": "24 May",
+        "winner": "Nico RosbergROS",
+        "source": "https://www.formula1.com/en/results/2015/races/922/monaco/race-result"
+      },
+      "order": 2,
+      "sources": [
+        {
+          "title": "Official race result",
+          "url": "https://www.formula1.com/en/results/2015/races/922/monaco/race-result"
+        },
+        {
+          "title": "F1 report: Verstappen penalised for Grosjean clash",
+          "url": "https://www.formula1.com/en/latest/article/verstappen-penalised-for-grosjean-clash.J6Lnf7skDKHQKSd0PRO42"
+        },
+        {
+          "title": "F1 TV catalog entry",
+          "url": "https://f1tv.formula1.com/detail/1000002231/2015-monaco-grand-prix?action=play"
+        }
+      ],
+      "raceName": "Monaco Grand Prix",
+      "watchKind": "Full race replay · highlights also listed",
+      "watch": {
+        "image": "https://f1tv.formula1.com/image-resizer/image/1000002231/landscape_web?w=251&h=141&q=HI&o=L",
+        "title": "2015 Monaco Grand Prix\n02:17:55 | Replay",
+        "url": "https://f1tv.formula1.com/detail/1000002231/2015-monaco-grand-prix?action=play"
+      },
+      "watchLabel": "Watch full race",
+      "duration": "02:17:55"
     },
     {
       "year": 2015,
@@ -7068,6 +7240,49 @@
     },
     {
       "year": 2021,
+      "name": "Azerbaijan",
+      "title": "Verstappen crashes out while leading in Baku",
+      "story": "With five laps left, Verstappen’s left-rear tyre fails on the main straight and sends him into the wall at high speed. He is unhurt, but the crash triggers a red flag and turns a likely win into a two-lap restart. Sergio Pérez wins; F1 and Pirelli examine the tyre failures after similar crashes for Lance Stroll and Verstappen.",
+      "tag": "Verstappen · tyre failure · crash",
+      "type": "race",
+      "id": "2021-azerbaijan",
+      "date": "06 Jun",
+      "result": {
+        "name": "Azerbaijan",
+        "date": "06 Jun",
+        "winner": "Sergio PerezPER",
+        "source": "https://www.formula1.com/en/results/2021/races/1068/azerbaijan/race-result"
+      },
+      "order": 1,
+      "sources": [
+        {
+          "title": "Official race result",
+          "url": "https://www.formula1.com/en/results/2021/races/1068/azerbaijan/race-result"
+        },
+        {
+          "title": "F1 race report: Pérez wins after Verstappen crashes out",
+          "url": "https://www.formula1.com/en/latest/article/perez-beats-vettel-to-baku-victory-after-verstappen-crashes-out-from-lead.aLIxuNGxwBFgZ4Z8OhuRw"
+        },
+        {
+          "title": "F1 report: Pirelli examines Baku tyre failures",
+          "url": "https://www.formula1.com/en/latest/article/pirelli-say-debris-likely-cause-of-stroll-and-verstappen-crashes-as-they.5eqBGzjXm1ZqptO6YTz3Kq"
+        },
+        {
+          "title": "Official Formula 1 race highlights",
+          "url": "https://www.youtube.com/watch?v=suZHkUxPzjE"
+        }
+      ],
+      "raceName": "Azerbaijan Grand Prix",
+      "watchKind": "Official Formula 1 YouTube race highlights",
+      "watch": {
+        "image": "",
+        "title": "Race Highlights | 2021 Azerbaijan Grand Prix",
+        "url": "https://www.youtube.com/watch?v=suZHkUxPzjE"
+      },
+      "watchLabel": "Watch race highlights"
+    },
+    {
+      "year": 2021,
       "name": "Great Britain",
       "title": "Hamilton and Verstappen collide at Copse",
       "story": "Verstappen crashes heavily after contact with Hamilton. Hamilton receives a ten-second penalty but wins, and the title rivalry becomes increasingly acrimonious.",
@@ -7724,6 +7939,45 @@
         "kind": "F1 TV catalog artwork",
         "original": "https://f1tv.formula1.com/image-resizer/image/1000007588-3de36edd-11b1-46a5-9b7b-a1c9c8a75122/landscape_web?w=251&h=141&q=HI&o=L"
       }
+    },
+    {
+      "year": 2024,
+      "name": "Austria",
+      "title": "Verstappen and Norris collide in the fight for the lead",
+      "story": "A slow Red Bull pit stop brings Lando Norris close enough to challenge Verstappen. Their increasingly tense duel ends in contact and punctures for both: Norris retires, while Verstappen recovers to fifth after a ten-second penalty. George Russell takes an unexpected win. It is a pivotal crash in Verstappen’s rivalry with Norris.",
+      "tag": "Verstappen · collision",
+      "type": "race",
+      "id": "2024-austria",
+      "date": "30 Jun",
+      "result": {
+        "name": "Austria",
+        "date": "30 Jun",
+        "winner": "George RussellRUS",
+        "source": "https://www.formula1.com/en/results/2024/races/1239/austria/race-result"
+      },
+      "order": 1,
+      "sources": [
+        {
+          "title": "Official race result",
+          "url": "https://www.formula1.com/en/results/2024/races/1239/austria/race-result"
+        },
+        {
+          "title": "F1 race report: Russell wins after Verstappen and Norris collide",
+          "url": "https://www.formula1.com/en/latest/article/russell-claims-surprise-win-in-austria-after-verstappen-and-norris-collision-hands-mercedes-victory.2Kmxvn4a42JYDFhvklagYk"
+        },
+        {
+          "title": "Official Formula 1 race highlights",
+          "url": "https://www.formula1.com/en/video/race-highlights-2024-austrian-grand-prix.1803301432149863284"
+        }
+      ],
+      "raceName": "Austrian Grand Prix",
+      "watchKind": "Official Formula 1 race highlights",
+      "watch": {
+        "image": "",
+        "title": "Race Highlights: 2024 Austrian Grand Prix",
+        "url": "https://www.formula1.com/en/video/race-highlights-2024-austrian-grand-prix.1803301432149863284"
+      },
+      "watchLabel": "Watch race highlights"
     },
     {
       "year": 2024,

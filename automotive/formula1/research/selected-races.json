@@ -79,9 +79,9 @@
   {
     "year": 1961,
     "name": "Italy",
-    "title": "A championship overshadowed by tragedy",
-    "story": "Phil Hill wins for Ferrari and becomes champion. His team-mate Wolfgang von Trips and spectators die in a crash on the opening laps. Watch this season as a reminder of the human cost of early racing.",
-    "tag": "Title clincher"
+    "title": "Von Trips and spectators are killed at Monza",
+    "story": "Championship leader Wolfgang von Trips collides with Jim Clark on the second lap of Monza’s high-speed combined road-and-banked circuit. Von Trips and spectators die. Phil Hill wins the race and championship in a sombre aftermath; F1 abandons the banking after this tragedy.",
+    "tag": "Title clincher · tragedy"
   },
   {
     "year": 1962,
@@ -166,6 +166,13 @@
     "title": "Stewart’s third and final title",
     "story": "Ronnie Peterson wins; Stewart recovers from a puncture to finish fourth and clinch the championship. Stewart’s importance extends beyond results to his campaign for safer circuits and medical facilities.",
     "tag": "Title clincher"
+  },
+  {
+    "year": 1973,
+    "name": "Netherlands",
+    "title": "Purley tries to save Williamson",
+    "story": "Roger Williamson’s car overturns and catches fire on lap eight at Zandvoort. David Purley stops and repeatedly tries to turn the wreck over and fight the flames, but marshals are unable to reach Williamson in time. Jackie Stewart wins a race remembered for Williamson’s death and Purley’s rescue attempt.",
+    "tag": "Tragedy · fatal accident"
   },
   {
     "year": 1974,
@@ -925,6 +932,27 @@
     }
   },
   {
+    "year": 2014,
+    "name": "Japan",
+    "title": "A race overshadowed by Jules Bianchi’s crash",
+    "story": "Lewis Hamilton wins a rain-affected race that is stopped after Jules Bianchi crashes into a recovery vehicle working at Adrian Sutil’s earlier accident. Bianchi suffers severe head injuries and dies in July 2015. The race became a turning point in F1’s response to recovery operations under yellow flags.",
+    "tag": "Tragedy · safety"
+  },
+  {
+    "year": 2015,
+    "name": "Australia",
+    "title": "Verstappen makes his F1 debut at 17",
+    "story": "Max Verstappen starts his first Formula 1 Grand Prix for Toro Rosso aged 17 years and five months, still the youngest driver to start a race. He runs in the points before an engine failure ends his debut on lap 34. A full replay shows the first chapter before his promotion to Red Bull the following year.",
+    "tag": "Verstappen · debut"
+  },
+  {
+    "year": 2015,
+    "name": "Monaco",
+    "title": "Verstappen’s first major F1 crash",
+    "story": "Chasing Romain Grosjean for the final points place, Verstappen hits the back of the Lotus under braking for Sainte Dévote and crashes into the barriers. He is unhurt, but the stewards hold him responsible and give him a five-place grid penalty for Canada. The incident is an early, stark example of his speed and youthful risk-taking.",
+    "tag": "Verstappen · collision"
+  },
+  {
     "year": 2015,
     "name": "Hungary",
     "title": "Vettel wins an emotional race",
@@ -1106,6 +1134,13 @@
   },
   {
     "year": 2021,
+    "name": "Azerbaijan",
+    "title": "Verstappen crashes out while leading in Baku",
+    "story": "With five laps left, Verstappen’s left-rear tyre fails on the main straight and sends him into the wall at high speed. He is unhurt, but the crash triggers a red flag and turns a likely win into a two-lap restart. Sergio Pérez wins; F1 and Pirelli examine the tyre failures after similar crashes for Lance Stroll and Verstappen.",
+    "tag": "Verstappen · tyre failure · crash"
+  },
+  {
+    "year": 2021,
     "name": "Great Britain",
     "title": "Hamilton and Verstappen collide at Copse",
     "story": "Verstappen crashes heavily after contact with Hamilton. Hamilton receives a ten-second penalty but wins, and the title rivalry becomes increasingly acrimonious.",
@@ -1199,6 +1234,13 @@
       "title": "Qatar\nFORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2023\nROUND 186 OCT - 8 OCT",
       "url": "https://f1tv.formula1.com/page/6655/formula-1-qatar-airways-qatar-grand-prix-2023"
     }
+  },
+  {
+    "year": 2024,
+    "name": "Austria",
+    "title": "Verstappen and Norris collide in the fight for the lead",
+    "story": "A slow Red Bull pit stop brings Lando Norris close enough to challenge Verstappen. Their increasingly tense duel ends in contact and punctures for both: Norris retires, while Verstappen recovers to fifth after a ten-second penalty. George Russell takes an unexpected win. It is a pivotal crash in Verstappen’s rivalry with Norris.",
+    "tag": "Verstappen · collision"
   },
   {
     "year": 2024,

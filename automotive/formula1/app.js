@@ -25,7 +25,7 @@
   }
   function card(i) {
     const heading = `heading-${i.id}`;
-    if (i.type === 'race') return `<article id="entry-${i.id}" class="entry entry-race ${i.photo ? '' : 'race-no-image'}" data-id="${i.id}" data-type="race" aria-labelledby="${heading}"><div class="race-layout">${photo(i)}<div><p class="entry-meta">RACE / ${escape(i.tag)}</p><p class="race-place">${escape(i.raceName)} · ${escape(i.date)} ${i.year}</p><h3 id="${heading}" class="race-outcome">${escape(i.title)}</h3><p class="outcome-placeholder" aria-hidden="true">${escape(i.name)} ${i.year}</p><p class="entry-story race-outcome">${escape(i.story)}</p><p class="outcome-warning">Outcome and catalog artwork hidden.</p>${links(i)}<button type="button" class="reveal-outcome" data-reveal="${i.id}" hidden>Reveal race story</button></div></div></article>`;
+    if (i.type === 'race') return `<article id="entry-${i.id}" class="entry entry-race ${i.photo ? '' : 'race-no-image'}" data-id="${i.id}" data-type="race" aria-labelledby="${heading}"><div class="race-layout">${photo(i)}<div><p class="entry-meta">RACE / ${escape(i.tag)}</p><p class="race-place">${escape(i.raceName)} · ${escape(i.date)} ${i.year}</p><h3 id="${heading}" class="race-outcome">${escape(i.title)}</h3><p class="outcome-placeholder" aria-hidden="true">${escape(i.name)} ${i.year}</p><p class="entry-story race-outcome">${escape(i.story)}</p><p class="outcome-warning">Race story hidden.</p>${links(i)}<button type="button" class="reveal-outcome" data-reveal="${i.id}" hidden>Reveal race story</button></div></div></article>`;
     if (i.type === 'documentary') {
       const episodes = i.episodes ? `<div class="episodes" aria-label="Series episodes">${[...new Map(i.episodes.map(e => [e.url, e])).values()].sort((a,b)=>a.title.localeCompare(b.title)).map((e,n)=>external(e.url,`Episode ${n+1} ↗`)).join('')}</div>` : '';
       return `<article id="entry-${i.id}" class="entry entry-documentary" data-id="${i.id}" data-type="documentary" aria-labelledby="${heading}"><div class="doc-layout">${photo(i)}<div><p class="entry-meta">THE DOCUMENTARY DETOUR / F1 TV</p><h3 id="${heading}">${escape(i.title)}</h3><p class="span-label">${escape(i.span)}</p><p class="entry-story">${escape(i.story)}</p>${links(i)}${episodes}</div></div></article>`;
@@ -51,7 +51,7 @@
     const query = normal($('#search').value.trim());
     const type = $('#type').value;
     const [start, end] = $('#era').value === 'all' ? [1950,2026] : $('#era').value.split('-').map(Number);
-    const typeMatch = type === 'all' || i.type === type || (type === 'decider' && i.type === 'race' && /title (clincher|decider)/i.test(i.tag)) || (type === 'controversy' && i.type === 'race' && /controvers|crashgate|team orders|stewarding|collision/i.test(i.tag));
+    const typeMatch = type === 'all' || i.type === type || (type === 'decider' && i.type === 'race' && /title (clincher|decider)/i.test(i.tag)) || (type === 'controversy' && i.type === 'race' && /controvers|crashgate|team orders|stewarding|collision|tragedy|fatal|safety|tyre failure/i.test(i.tag));
     return typeMatch && i.year >= start && i.year <= end && (!query || normal([i.year,i.name,i.title,i.story,i.tag,i.span].filter(Boolean).join(' ')).includes(query));
   }
   function filter() {

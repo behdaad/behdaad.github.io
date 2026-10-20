@@ -12,37 +12,28 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/works.css">
     <link rel="icon" type="image/png" href="../assets/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.png">
 </head>
 
 <body class="booking-project">
-    <div class="work-container">
+<div class="work-container">
         <div class="work-header booking-header">
-            <p class="booking-brand">Booking.com</p>
-            <h1>Horizontal Room<br />Comparison</h1>
-            <div class="comparison-preview" aria-label="Illustration of three rooms shown side by side">
-                <div class="comparison-card">
-                    <span class="comparison-photo"></span>
-                    <strong>Standard Room</strong>
-                    <span>1 bed · 2 guests</span>
-                </div>
-                <div class="comparison-card comparison-card-featured">
-                    <span class="comparison-photo"></span>
-                    <strong>Deluxe Room</strong>
-                    <span>1 bed · City view</span>
-                </div>
-                <div class="comparison-card">
-                    <span class="comparison-photo"></span>
-                    <strong>Family Room</strong>
-                    <span>2 beds · 4 guests</span>
+            <div class="booking-hero">
+                <img src="../assets/booking/booking-hero.png" alt="Two deep blue iPhones showing the Booking.com room list in dark and light appearances." />
+                <div class="booking-hero-copy">
+                    <p class="booking-brand">Booking.com · iOS</p>
+                    <h1>Horizontal Room<br />Comparison</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <nav id="nav">
+    <nav id="nav" class="booking-nav">
         <div class="nav-content">
             <div class="avatar">
-                <a href=".."><img src="../assets/memoji.png" alt="My Memoji" /></a>
+                <a href="..">
+                    <img src="../assets/memoji.png" alt="My Memoji" />
+                </a>
             </div>
             <ul class="menu">
                 <li><a href="..">Home</a></li>
@@ -52,59 +43,67 @@
             </ul>
         </div>
     </nav>
-
-    <main>
-        <div class="back-white">
+<main>
+        <div class="back-white booking-overview-section">
             <article class="work-article">
-                <p class="case-study-label">Booking.com · iOS</p>
                 <h2>Overview</h2>
-                <p class="work-text">
-                    I worked on a horizontal comparison experience for the room list in the Booking.com iOS app. The project explored how to make the differences between available rooms easier to understand without asking travellers to repeatedly move back and forth between separate options.
+                <p class="work-text-normal">
+                    I led development of a horizontal room comparison experience for the Booking.com iOS app, implementing the interface and its logic from start to finish. The experience helps travellers compare rates for the same room and understand what each option includes.
                 </p>
             </article>
         </div>
 
         <div class="back-gray">
             <article class="work-article">
-                <h2>The problem</h2>
+                <h2>The Problem</h2>
                 <p class="work-text-normal">
-                    Room options often share most of their details while differing in a few important ways: bed configuration, occupancy, cancellation policy, included meals, and price. In a vertical list, those differences can be difficult to keep in mind while making a decision.
+                    Room rates often differ in only a few ways, such as cancellation terms or whether breakfast is included. The previous experience placed rates in a long, price-sorted vertical list, repeating room size, bed configuration and amenities. Rates for the same room were not always next to each other, so a cheaper rate for one room could appear above a more expensive rate for another. That made it difficult for travellers to see what they would get for paying more.
                 </p>
             </article>
         </div>
 
-        <div class="back-white">
+        <div class="booking-comparison-section booking-comparison-white padding-bottom-4">
             <article class="work-article">
-                <h2>The approach</h2>
+                <h2>A Horizontal Comparison</h2>
                 <p class="work-text-normal">
-                    The horizontal layout keeps multiple room options in the same context, so travellers can scan comparable details and move between choices directly. The implementation had to preserve the amount of useful information in each room card while making the direction of scrolling and the current position clear.
+                    The new layout keeps shared details such as room size, bed configuration and amenities together in a room card, while placing that room’s rates horizontally. Travellers can scan the differences between rates in context and choose an option based on what matters to them.
                 </p>
-                <div class="portfolio-placeholder" role="img" aria-label="Placeholder for an approved screenshot of the horizontal room comparison">
-                    <span>Approved product screenshot</span>
-                    <small>To be added</small>
-                </div>
             </article>
+            <div class="work-image">
+                <img src="../assets/booking/booking-room-list-comparison.png" alt="Before and after comparison of Booking.com room list: the original vertical list of repeated room information beside the redesigned horizontal rate options grouped with each room." />
+            </div>
+            <div class="subtitle">
+                Room rates are grouped horizontally within each room, making their differences easier to compare.
+            </div>
         </div>
 
-        <div class="back-blue">
+        <div class="booking-comparison-section padding-bottom-4">
             <article class="work-article">
-                <h2>Accessibility</h2>
+                <h2>Room Details</h2>
                 <p class="work-text-normal">
-                    Accessibility was part of the interaction design rather than a follow-up. The experience needed a meaningful reading order, understandable room and price information, predictable focus movement, and clear announcements when travellers moved between options.
+                    The comparison also carries into room details, keeping the rates visible together while travellers review information about the selected room.
                 </p>
             </article>
+            <div class="work-image">
+                <img src="../assets/booking/booking-room-details-comparison.png" alt="Before and after comparison of Booking.com room details: the original single-rate details page beside the redesigned page with rates displayed side by side." />
+            </div>
+            <div class="subtitle">
+                Room details keep rate options visible alongside information about the selected room.
+            </div>
         </div>
 
-        <div class="back-white case-study-draft">
+        <div class="back-white padding-bottom-4">
             <article class="work-article">
                 <h2>Outcome</h2>
                 <p class="work-text-normal">
-                    This is an early portfolio draft. The final version will add my specific contribution, the approved product visuals, and the outcome that can be shared publicly.
+                    The experience made it easier for travellers to understand what higher-priced rates offered and compare options based on value. Accessibility was fully verified through manual checks and an external audit.
+                </p>
+                <p class="booking-app-store-link">
+                    <a href="https://apps.apple.com/app/id367003839" target="_blank" rel="noopener noreferrer"><img src="../assets/icons/app-store.svg" alt="Download on the App Store" /></a>
                 </p>
             </article>
         </div>
     </main>
-
     <footer>
         <div class="footer-content">
             <div>© <span id="year"></span> Behdad Keynejad</div>
@@ -116,10 +115,14 @@
             </div>
         </div>
         <a class="top-link" href="#top">
-            <div class="arrow"><div></div><div></div></div>
+            <div class="arrow">
+                <div></div>
+                <div></div>
+            </div>
             <div class="link">Top</div>
         </a>
     </footer>
+
     <script src="../js/script.js"></script>
 </body>
 

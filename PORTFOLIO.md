@@ -4,6 +4,7 @@ The project case studies are authored as Nunjucks templates in `portfolio-src/` 
 
 - `portfolio-src/snapp.njk` → `snapp/index.html`
 - `portfolio-src/driver.njk` → `driver/index.html`
+- `portfolio-src/booking.njk` → `booking/index.html`
 
 Shared document markup lives in `portfolio-src/_includes/`. Edit the source templates rather than the generated HTML files.
 

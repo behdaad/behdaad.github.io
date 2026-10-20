@@ -12,7 +12,7 @@
     "test:visual:update": "playwright test --update-snapshots"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.7",
     "@playwright/test": "^1.63.0"
   }
 }

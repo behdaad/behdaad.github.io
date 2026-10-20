@@ -1,0 +1,85 @@
+---
+permalink: booking/index.html
+pageTitle: "Horizontal Room Comparison | Behdad Keynejad"
+themeColor: "#003b95"
+bodyClass: "booking-project"
+navClass: "booking-nav"
+---
+{% include "work-shell-start.njk" -%}
+    <div class="work-container">
+        <div class="work-header booking-header">
+            <div class="booking-hero">
+                <img src="../assets/booking/booking-hero.png" alt="Two deep blue iPhones showing the Booking.com room list in dark and light appearances." />
+                <div class="booking-hero-copy">
+                    <p class="booking-brand">Booking.com · iOS</p>
+                    <h1>Horizontal Room<br />Comparison</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% include "work-nav.njk" -%}
+
+    <main>
+        <div class="back-white booking-overview-section">
+            <article class="work-article">
+                <h2>Overview</h2>
+                <p class="work-text-normal">
+                    I led development of a horizontal room comparison experience for the Booking.com iOS app, implementing the interface and its logic from start to finish. The experience helps travellers compare rates for the same room and understand what each option includes.
+                </p>
+            </article>
+        </div>
+
+        <div class="back-gray">
+            <article class="work-article">
+                <h2>The Problem</h2>
+                <p class="work-text-normal">
+                    Room rates often differ in only a few ways, such as cancellation terms or whether breakfast is included. The previous experience placed rates in a long, price-sorted vertical list, repeating room size, bed configuration and amenities. Rates for the same room were not always next to each other, so a cheaper rate for one room could appear above a more expensive rate for another. That made it difficult for travellers to see what they would get for paying more.
+                </p>
+            </article>
+        </div>
+
+        <div class="booking-comparison-section booking-comparison-white padding-bottom-4">
+            <article class="work-article">
+                <h2>A Horizontal Comparison</h2>
+                <p class="work-text-normal">
+                    The new layout keeps shared details such as room size, bed configuration and amenities together in a room card, while placing that room’s rates horizontally. Travellers can scan the differences between rates in context and choose an option based on what matters to them.
+                </p>
+            </article>
+            <div class="work-image">
+                <img src="../assets/booking/booking-room-list-comparison.png" alt="Before and after comparison of Booking.com room list: the original vertical list of repeated room information beside the redesigned horizontal rate options grouped with each room." />
+            </div>
+            <div class="subtitle">
+                Room rates are grouped horizontally within each room, making their differences easier to compare.
+            </div>
+        </div>
+
+        <div class="booking-comparison-section padding-bottom-4">
+            <article class="work-article">
+                <h2>Room Details</h2>
+                <p class="work-text-normal">
+                    The comparison also carries into room details, keeping the rates visible together while travellers review information about the selected room.
+                </p>
+            </article>
+            <div class="work-image">
+                <img src="../assets/booking/booking-room-details-comparison.png" alt="Before and after comparison of Booking.com room details: the original single-rate details page beside the redesigned page with rates displayed side by side." />
+            </div>
+            <div class="subtitle">
+                Room details keep rate options visible alongside information about the selected room.
+            </div>
+        </div>
+
+        <div class="back-white padding-bottom-4">
+            <article class="work-article">
+                <h2>Outcome</h2>
+                <p class="work-text-normal">
+                    The experience made it easier for travellers to understand what higher-priced rates offered and compare options based on value. Accessibility was fully verified through manual checks and an external audit.
+                </p>
+                <p class="booking-app-store-link">
+                    <a href="https://apps.apple.com/app/id367003839" target="_blank" rel="noopener noreferrer"><img src="../assets/icons/app-store.svg" alt="Download on the App Store" /></a>
+                </p>
+            </article>
+        </div>
+    </main>
+{% include "work-footer.njk" %}
+{% include "work-shell-end.njk" -%}

@@ -137,6 +137,16 @@
     background-size: contain;
 }
 
+#automotive::before {
+    background: url(../assets/icons/car.svg) no-repeat center center;
+    background-size: contain;
+}
+
+#board-games::before {
+    background: url(../assets/icons/board-games.svg) no-repeat center center;
+    background-size: contain;
+}
+
 #music::before {
     background: url(../assets/icons/apple-music.svg) no-repeat center center;
 }

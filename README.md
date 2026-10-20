@@ -56,7 +56,7 @@ npm run test:visual:update # re-record visual snapshots for this OS
    Post content goes here.
    ```
 
-   Use the existing posts as the source of truth for Farsi metadata, including `lang: fa`, `direction: rtl`, labels, and the deeper relative paths.
+   Use the existing posts as the source of truth for Persian metadata, including `lang: fa`, `direction: rtl`, labels, and the deeper relative paths.
 3. Put local images in `assets/blog/` and reference them with a path relative to the generated post, such as `../../assets/blog/my-image.jpg`.
 4. Run `npm run build:blog`. This regenerates the post, the blog index, tag pages, and `blog/feed.xml`.
 5. Review and commit both the Markdown source and generated output.

@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
   const tagSlugs = {
     English: "english",
-    فارسی: "farsi"
+    فارسی: "persian"
   };
 
   eleventyConfig.addFilter("dateDisplay", function (date) {

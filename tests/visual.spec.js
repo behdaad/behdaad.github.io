@@ -12,7 +12,7 @@ const pages = [
   ["blog-luck-snapp-life", "/blog/luck-snapp-life/"],
   ["blog-four-flames-theory", "/blog/four-flames-theory/"],
   ["blog-mindfulness-techniques", "/blog/mindfulness-techniques/"],
-  ["tag-farsi", "/tags/farsi/"],
+  ["tag-persian", "/tags/persian/"],
   ["snapp", "/snapp/"],
   ["driver", "/driver/"],
   ["booking", "/booking/"]

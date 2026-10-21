@@ -32,13 +32,15 @@
   const hero = cars.find(c => c.id === data.heroId) || cars.find(c => c.id === 'ds') || cars[0];
   const heroPhoto = hero.variants[0].photos[0];
   $('#hero').innerHTML = `${photo(heroPhoto,hero.brand+' '+hero.name,false)}<a class="hero-credit" href="${esc(heroPhoto?.page || '#car=ds')}" target="_blank" rel="noopener noreferrer">Photo & credit ↗</a><figcaption><div><span>${hero.year} / ${esc(hero.brand.toUpperCase())}</span><strong>${archive?esc(hero.name):'A different idea of the future.'}</strong><span>${archive?'':esc(hero.name)+' · '}${esc(heroPhoto?.origin || 'Archive photograph')}</span></div><a href="#car=${hero.id}" data-car="${hero.id}">Explore ↗</a></figcaption>`;
-  $('#makers').innerHTML = archive ? cars.map(car => `<a class="maker model-index-item" href="#car=${car.id}" data-car="${car.id}"><span class="maker-top"><span>${car.year}</span><span>${car.variants.length} ${car.variants.length===1?'CHAPTER':'CHAPTERS'} ↗</span></span><strong>${esc(car.name)}</strong><small>${esc(car.category)}</small></a>`).join('') : brands.map((brand, index) => {
+  const makerIndex = $('#makers');
+  if (makerIndex) makerIndex.innerHTML = archive ? cars.map(car => `<a class="maker model-index-item" href="#car=${car.id}" data-car="${car.id}"><span class="maker-top"><span>${car.year}</span><span>${car.variants.length} ${car.variants.length===1?'CHAPTER':'CHAPTERS'} ↗</span></span><strong>${esc(car.name)}</strong><small>${esc(car.category)}</small></a>`).join('') : brands.map((brand, index) => {
     const represented = cars.filter(c => c.brand === brand);
     const outlets = [...new Set(represented.flatMap(c => c.sources.map(k => sources[k].outlet)))];
     return `<button class="maker" data-brand="${esc(brand)}" aria-pressed="false"><span class="maker-top"><span>${String(index + 1).padStart(2,'0')}</span><span>${represented.length} ${represented.length === 1 ? 'CAR' : 'CARS'} ↘</span></span><strong>${esc(brand)}</strong><small>${esc(represented.map(c => c.name).join(' · '))}</small><small>Selected by ${esc(outlets.join(' / '))}</small></button>`;
   }).join('');
   (archive ? [...new Set(cars.map(car=>car.category))].sort() : brands).forEach(value => $('#brand').add(new Option(value, value)));
-  $('#bibliography').innerHTML = Object.keys(sources).map(key => sourceLink(key, true)).join('');
+  const bibliography = $('#bibliography');
+  if (bibliography) bibliography.innerHTML = Object.keys(sources).map(key => sourceLink(key, true)).join('');
   const chapters = archive ? [
     {start:1800,end:1949,years:'BEFORE 1950',title:'The early road cars',note:'Origins, coachbuilders and the first series.'},
     {start:1950,end:1969,years:'1950—1969',title:'A new design language',note:'Postwar platforms and new proportions.'},

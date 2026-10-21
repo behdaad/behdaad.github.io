@@ -11,3 +11,5 @@ Standalone outing guide for five friends on Friday 30 October 2026.
 - Friday opening hours were checked on 21 October 2026. No date-specific table availability is asserted. Recheck hours, menus and prices before a future reuse.
 - Prices cover one cocktail plus dinner food; add drinks with dinner. No booking, vote storage, or shared state is implied. Copy buttons share only a direct URL.
 - Run `npx playwright test tests/30-october.spec.js` for desktop/mobile galleries, maps, sorting, image availability, overflow, and JavaScript-free fallback checks.
+
+The shortlist includes eight paired plans. The second research round added Nomi (Vijzelstraat), Esh Pitaria & Bar, Morgan & Mees Amsterdam, Sins of Sal, Flying Dutchmen Cocktails and Bar Mokum. Esh is provisional: its official site was unavailable, so editorial sources support the address and reported hours, with current kitchen hours, prices and group seating requiring direct confirmation. No substitute venue photo is used. Flying Dutchmen’s currently linked 2026 menu lists cocktails at €15–19; its €15 signature is the suggested order. Pulitzer’s Bar was excluded for its published four-person limit.

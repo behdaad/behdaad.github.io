@@ -4,6 +4,7 @@
   document.querySelectorAll('.gallery').forEach(gallery => {
     const strip = gallery.querySelector('.slides');
     const buttons = gallery.querySelector('.gallery-buttons');
+    if (!strip || !buttons) return;
     const count = strip.children.length;
     const update = () => {
       const index = Math.round(strip.scrollLeft / strip.clientWidth);

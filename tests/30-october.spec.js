@@ -26,6 +26,11 @@ test('outing guide works at desktop and mobile widths', async ({ page }, testInf
     }
     await card.locator('.map').scrollIntoViewIfNeeded();
     await expect(card.locator('.leaflet-marker-icon')).toHaveCount(2);
+    await expect(card.locator('.map')).toBeVisible();
+    if (await card.getAttribute('id') === 'super-lyan-janine') {
+      await expect.poll(() => card.locator('.leaflet-tile-loaded').count(), {timeout:10000}).toBeGreaterThan(0);
+      await card.locator('.map').screenshot({path:testInfo.outputPath('map.png')});
+    }
     for (const image of await card.locator('img[src^="images/"]').all()) {
       await image.scrollIntoViewIfNeeded();
       await expect(image).toBeVisible();
@@ -45,7 +50,7 @@ test('outing guide works at desktop and mobile widths', async ({ page }, testInf
   await page.locator('#sins-of-sal-morgan-mees .gallery img').first().evaluate(img => img.decode());
   await page.screenshot({path:testInfo.outputPath('new-pair.png')});
   await expect(page.locator('#bar-mokum-esh .tradeoff')).toContainText('provisional');
-  await expect(page.locator('.research-note')).toContainText('four-person limit');
+  await expect(page.getByRole('heading', {name:'Three new places to start.'})).toHaveCount(0);
   expect(errors).toEqual([]);
 });
 

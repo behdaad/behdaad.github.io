@@ -2339,187 +2339,6 @@
     ]
   },
   {
-    "key": "porsche/911/0",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "Original 911 / F series",
-    "year": 1963,
-    "wiki": "Porsche 911 (classic)",
-    "reason": "Previously verified gallery",
-    "files": [
-      "Porsche_911E_ca_1969.jpg",
-      "Porsche_911_2.0_Coupe_IMG_0819.jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/1",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "Classic Targa",
-    "year": 1965,
-    "wiki": "Porsche 911 (classic)",
-    "reason": "Manual visual selection",
-    "files": [
-      "12-01-03-autostadtl-by-RalfR-75.jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/2",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "G series",
-    "year": 1973,
-    "wiki": "Porsche 911 (classic)",
-    "reason": "Previously verified gallery",
-    "files": [
-      "Porsche_911SC_1981_20070316.jpg",
-      "1977_Porsche_911_SC_coupe_(29021719005).jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/3",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "930 Turbo",
-    "year": 1974,
-    "wiki": "Porsche 930",
-    "reason": "Model article photographs",
-    "files": [
-      "1976_Porsche_930_Turbo,_Emerald_Green_met,_front_left.jpg",
-      "1988_Porsche_930_Turbo_Cabriolet_Flachbau,_front_right_(Hershey_2019).jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/4",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "G-series Cabriolet",
-    "year": 1982,
-    "wiki": "Porsche 911 (classic)",
-    "reason": "Manual visual selection",
-    "files": [
-      "911_Carrera.jpg",
-      "1987_911carrera_Jubi_Targa_und_TLcabrio.jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/5",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "964",
-    "year": 1988,
-    "wiki": "Porsche 964",
-    "reason": "Model article photographs",
-    "files": [
-      "1991_Porsche_964_Turbo_in_Summer_Yellow,_front_right.jpg",
-      "Porsche_Carrera_4_cabriolet_ca_1990_with_herbivores_dominating_the_background.jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/6",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "993",
-    "year": 1993,
-    "wiki": "Porsche 993",
-    "reason": "Previously verified gallery",
-    "files": [
-      "Porsche_911_(3395661765).jpg",
-      "Porsche_911_(993)_Carrera_(12573237805)_(cropped).jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/7",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "996",
-    "year": 1997,
-    "wiki": "Porsche 996",
-    "reason": "Previously verified gallery",
-    "files": [
-      "Porsche_996_Carrera_coupe.jpg",
-      "Porsche_996_Coupé_1.JPG"
-    ]
-  },
-  {
-    "key": "porsche/911/8",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "997",
-    "year": 2004,
-    "wiki": "Porsche 997",
-    "reason": "Previously verified gallery",
-    "files": [
-      "Porsche_997_Turbo_-_Flickr_-_Alexandre_Prévot_(8).jpg",
-      "2004-2008_Porsche_911_(997)_Carrera_S_in_Petaling_Jaya,_Malaysia_(02).jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/9",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "991",
-    "year": 2011,
-    "wiki": "Porsche 991",
-    "reason": "Previously verified gallery",
-    "files": [
-      "2013_Porsche_911_Carrera_4S_(991)_(9626546987).jpg",
-      "2013_Porsche_911_Carrera_4S_(991)_(8824948364).jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/10",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "991 Targa",
-    "year": 2014,
-    "wiki": "Porsche 991",
-    "reason": "Model/generation match",
-    "files": [
-      "2018_Porsche_911_Targa_4_GTS_S-A_3.0_Front.jpg",
-      "2014_Porsche_991_Targa_4S_South_Perth,_2014.JPG"
-    ]
-  },
-  {
-    "key": "porsche/911/11",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "992",
-    "year": 2018,
-    "wiki": "Porsche 992",
-    "reason": "Previously verified gallery",
-    "files": [
-      "Porsche_911_(992)_Carrera_GTS.jpg",
-      "2019_Porsche_911_Carrera_S_S-A_3.0_Rear.jpg",
-      "GIMS_2019,_Le_Grand-Saconnex_(GIMS0973).jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/12",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "992 GT3 RS",
-    "year": 2022,
-    "wiki": "Porsche 992",
-    "reason": "Model/generation match",
-    "files": [
-      "Porsche_992_GT3_RS_MYLE_Festival_2025_DSC_9584_(cropped).jpg"
-    ]
-  },
-  {
-    "key": "porsche/911/13",
-    "brand": "porsche",
-    "car": "911 / Turbo",
-    "variant": "992 Dakar",
-    "year": 2022,
-    "wiki": "Porsche 992",
-    "reason": "Model/generation match",
-    "files": [
-      "Porsche_911_Dakar_(992)_–_f_18112022.jpg",
-      "Porsche_911_Dakar_(992)_–_h_18112022.jpg"
-    ]
-  },
-  {
     "key": "porsche/906/0",
     "brand": "porsche",
     "car": "906 Carrera 6",
@@ -5071,6 +4890,187 @@
     "files": [
       "2008-2011_Mercedes-Benz_CLC_200_Kompressor_(CL_203)_hatchback_(2011-11-17)_01.jpg",
       "2008-2011_Mercedes-Benz_CLC_200_Kompressor_(CL_203)_hatchback_(2011-11-17)_03.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/0",
+    "brand": "porsche",
+    "car": "911 (original / F series)",
+    "variant": "Original 911 / F series",
+    "year": 1963,
+    "wiki": "Porsche 911 (classic)",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_911E_ca_1969.jpg",
+      "Porsche_911_2.0_Coupe_IMG_0819.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911/1",
+    "brand": "porsche",
+    "car": "911 (original / F series)",
+    "variant": "Classic Targa",
+    "year": 1965,
+    "wiki": "Porsche 911 (classic)",
+    "reason": "Manual visual selection",
+    "files": [
+      "12-01-03-autostadtl-by-RalfR-75.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-g-series/0",
+    "brand": "porsche",
+    "car": "911 (G series)",
+    "variant": "G series",
+    "year": 1973,
+    "wiki": "Porsche 911 (classic)",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_911SC_1981_20070316.jpg",
+      "1977_Porsche_911_SC_coupe_(29021719005).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-g-series/1",
+    "brand": "porsche",
+    "car": "911 (G series)",
+    "variant": "G-series Cabriolet",
+    "year": 1982,
+    "wiki": "Porsche 911 (classic)",
+    "reason": "Manual visual selection",
+    "files": [
+      "911_Carrera.jpg",
+      "1987_911carrera_Jubi_Targa_und_TLcabrio.jpg"
+    ]
+  },
+  {
+    "key": "porsche/930-turbo/0",
+    "brand": "porsche",
+    "car": "911 Turbo (930)",
+    "variant": "930 Turbo",
+    "year": 1974,
+    "wiki": "Porsche 930",
+    "reason": "Model article photographs",
+    "files": [
+      "1976_Porsche_930_Turbo,_Emerald_Green_met,_front_left.jpg",
+      "1988_Porsche_930_Turbo_Cabriolet_Flachbau,_front_right_(Hershey_2019).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-964/0",
+    "brand": "porsche",
+    "car": "911 (964)",
+    "variant": "964",
+    "year": 1988,
+    "wiki": "Porsche 964",
+    "reason": "Model article photographs",
+    "files": [
+      "1991_Porsche_964_Turbo_in_Summer_Yellow,_front_right.jpg",
+      "Porsche_Carrera_4_cabriolet_ca_1990_with_herbivores_dominating_the_background.jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-993/0",
+    "brand": "porsche",
+    "car": "911 (993)",
+    "variant": "993",
+    "year": 1993,
+    "wiki": "Porsche 993",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_911_(3395661765).jpg",
+      "Porsche_911_(993)_Carrera_(12573237805)_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-996/0",
+    "brand": "porsche",
+    "car": "911 (996)",
+    "variant": "996",
+    "year": 1997,
+    "wiki": "Porsche 996",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_996_Carrera_coupe.jpg",
+      "Porsche_996_Coupé_1.JPG"
+    ]
+  },
+  {
+    "key": "porsche/911-997/0",
+    "brand": "porsche",
+    "car": "911 (997)",
+    "variant": "997",
+    "year": 2004,
+    "wiki": "Porsche 997",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_997_Turbo_-_Flickr_-_Alexandre_Prévot_(8).jpg",
+      "2004-2008_Porsche_911_(997)_Carrera_S_in_Petaling_Jaya,_Malaysia_(02).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-991/0",
+    "brand": "porsche",
+    "car": "911 (991)",
+    "variant": "991",
+    "year": 2011,
+    "wiki": "Porsche 991",
+    "reason": "Previously verified gallery",
+    "files": [
+      "2013_Porsche_911_Carrera_4S_(991)_(9626546987).jpg",
+      "2013_Porsche_911_Carrera_4S_(991)_(8824948364).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-991/1",
+    "brand": "porsche",
+    "car": "911 (991)",
+    "variant": "991 Targa",
+    "year": 2014,
+    "wiki": "Porsche 991",
+    "reason": "Model/generation match",
+    "files": [
+      "2018_Porsche_911_Targa_4_GTS_S-A_3.0_Front.jpg",
+      "2014_Porsche_991_Targa_4S_South_Perth,_2014.JPG"
+    ]
+  },
+  {
+    "key": "porsche/911-992/0",
+    "brand": "porsche",
+    "car": "911 (992)",
+    "variant": "992",
+    "year": 2018,
+    "wiki": "Porsche 992",
+    "reason": "Previously verified gallery",
+    "files": [
+      "Porsche_911_(992)_Carrera_GTS.jpg",
+      "2019_Porsche_911_Carrera_S_S-A_3.0_Rear.jpg",
+      "GIMS_2019,_Le_Grand-Saconnex_(GIMS0973).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-992/1",
+    "brand": "porsche",
+    "car": "911 (992)",
+    "variant": "992 GT3 RS",
+    "year": 2022,
+    "wiki": "Porsche 992",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_992_GT3_RS_MYLE_Festival_2025_DSC_9584_(cropped).jpg"
+    ]
+  },
+  {
+    "key": "porsche/911-992/2",
+    "brand": "porsche",
+    "car": "911 (992)",
+    "variant": "992 Dakar",
+    "year": 2022,
+    "wiki": "Porsche 992",
+    "reason": "Model/generation match",
+    "files": [
+      "Porsche_911_Dakar_(992)_–_f_18112022.jpg",
+      "Porsche_911_Dakar_(992)_–_h_18112022.jpg"
     ]
   }
 ]

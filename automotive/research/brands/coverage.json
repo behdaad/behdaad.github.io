@@ -1427,7 +1427,7 @@
       },
       {
         "id": "911",
-        "name": "911 / Turbo",
+        "name": "911 (original / F series)",
         "chapters": [
           {
             "year": 1963,
@@ -1438,66 +1438,6 @@
             "year": 1965,
             "name": "Classic Targa",
             "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
-          },
-          {
-            "year": 1973,
-            "name": "G series",
-            "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
-          },
-          {
-            "year": 1974,
-            "name": "930 Turbo",
-            "source": "https://en.wikipedia.org/wiki/Porsche_930"
-          },
-          {
-            "year": 1982,
-            "name": "G-series Cabriolet",
-            "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
-          },
-          {
-            "year": 1988,
-            "name": "964",
-            "source": "https://en.wikipedia.org/wiki/Porsche_964"
-          },
-          {
-            "year": 1993,
-            "name": "993",
-            "source": "https://en.wikipedia.org/wiki/Porsche_993"
-          },
-          {
-            "year": 1997,
-            "name": "996",
-            "source": "https://en.wikipedia.org/wiki/Porsche_996"
-          },
-          {
-            "year": 2004,
-            "name": "997",
-            "source": "https://en.wikipedia.org/wiki/Porsche_997"
-          },
-          {
-            "year": 2011,
-            "name": "991",
-            "source": "https://en.wikipedia.org/wiki/Porsche_991"
-          },
-          {
-            "year": 2014,
-            "name": "991 Targa",
-            "source": "https://en.wikipedia.org/wiki/Porsche_991"
-          },
-          {
-            "year": 2018,
-            "name": "992",
-            "source": "https://en.wikipedia.org/wiki/Porsche_992"
-          },
-          {
-            "year": 2022,
-            "name": "992 GT3 RS",
-            "source": "https://en.wikipedia.org/wiki/Porsche_992"
-          },
-          {
-            "year": 2022,
-            "name": "992 Dakar",
-            "source": "https://en.wikipedia.org/wiki/Porsche_992"
           }
         ]
       },
@@ -1536,6 +1476,33 @@
             "year": 1969,
             "name": "914 / 914-6",
             "source": "https://en.wikipedia.org/wiki/Porsche_914"
+          }
+        ]
+      },
+      {
+        "id": "911-g-series",
+        "name": "911 (G series)",
+        "chapters": [
+          {
+            "year": 1973,
+            "name": "G series",
+            "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+          },
+          {
+            "year": 1982,
+            "name": "G-series Cabriolet",
+            "source": "https://en.wikipedia.org/wiki/Porsche_911_%28classic%29"
+          }
+        ]
+      },
+      {
+        "id": "930-turbo",
+        "name": "911 Turbo (930)",
+        "chapters": [
+          {
+            "year": 1974,
+            "name": "930 Turbo",
+            "source": "https://en.wikipedia.org/wiki/Porsche_930"
           }
         ]
       },
@@ -1609,6 +1576,17 @@
         ]
       },
       {
+        "id": "911-964",
+        "name": "911 (964)",
+        "chapters": [
+          {
+            "year": 1988,
+            "name": "964",
+            "source": "https://en.wikipedia.org/wiki/Porsche_964"
+          }
+        ]
+      },
+      {
         "id": "968",
         "name": "968",
         "chapters": [
@@ -1621,6 +1599,17 @@
             "year": 1991,
             "name": "968 Cabriolet",
             "source": "https://en.wikipedia.org/wiki/Porsche_968"
+          }
+        ]
+      },
+      {
+        "id": "911-993",
+        "name": "911 (993)",
+        "chapters": [
+          {
+            "year": 1993,
+            "name": "993",
+            "source": "https://en.wikipedia.org/wiki/Porsche_993"
           }
         ]
       },
@@ -1667,6 +1656,17 @@
         ]
       },
       {
+        "id": "911-996",
+        "name": "911 (996)",
+        "chapters": [
+          {
+            "year": 1997,
+            "name": "996",
+            "source": "https://en.wikipedia.org/wiki/Porsche_996"
+          }
+        ]
+      },
+      {
         "id": "cayenne",
         "name": "Cayenne",
         "chapters": [
@@ -1709,6 +1709,17 @@
         ]
       },
       {
+        "id": "911-997",
+        "name": "911 (997)",
+        "chapters": [
+          {
+            "year": 2004,
+            "name": "997",
+            "source": "https://en.wikipedia.org/wiki/Porsche_997"
+          }
+        ]
+      },
+      {
         "id": "panamera",
         "name": "Panamera",
         "chapters": [
@@ -1731,6 +1742,22 @@
             "year": 2023,
             "name": "976",
             "source": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+          }
+        ]
+      },
+      {
+        "id": "911-991",
+        "name": "911 (991)",
+        "chapters": [
+          {
+            "year": 2011,
+            "name": "991",
+            "source": "https://en.wikipedia.org/wiki/Porsche_991"
+          },
+          {
+            "year": 2014,
+            "name": "991 Targa",
+            "source": "https://en.wikipedia.org/wiki/Porsche_991"
           }
         ]
       },
@@ -1758,6 +1785,27 @@
             "year": 2024,
             "name": "Electric / XAB",
             "source": "https://en.wikipedia.org/wiki/Porsche_Macan"
+          }
+        ]
+      },
+      {
+        "id": "911-992",
+        "name": "911 (992)",
+        "chapters": [
+          {
+            "year": 2018,
+            "name": "992",
+            "source": "https://en.wikipedia.org/wiki/Porsche_992"
+          },
+          {
+            "year": 2022,
+            "name": "992 GT3 RS",
+            "source": "https://en.wikipedia.org/wiki/Porsche_992"
+          },
+          {
+            "year": 2022,
+            "name": "992 Dakar",
+            "source": "https://en.wikipedia.org/wiki/Porsche_992"
           }
         ]
       },

@@ -131,10 +131,6 @@
   "porsche/911/1": [
     "12-01-03-autostadtl-by-RalfR-75.jpg"
   ],
-  "porsche/911/4": [
-    "911_Carrera.jpg",
-    "1987_911carrera_Jubi_Targa_und_TLcabrio.jpg"
-  ],
   "porsche/924/0": [
     "Porsche_924_in_the_Porsche-Museum_(2009)_1X7A0347.jpg",
     "1981_Porsche_924_2.0_Rear.jpg"
@@ -314,5 +310,9 @@
   "ferrari/250/1": [
     "1955 Ferrari 250 GT Europa by Pininfarina HCC22.jpg",
     "Ferrari 250 Europa GT 1.jpg"
+  ],
+  "porsche/911-g-series/1": [
+    "911_Carrera.jpg",
+    "1987_911carrera_Jubi_Targa_und_TLcabrio.jpg"
   ]
 }

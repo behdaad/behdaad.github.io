@@ -8,12 +8,14 @@ Research edition: 20 October 2026. These archives share the design and modal ren
 | --- | ---: | ---: | ---: |
 | Ferrari | 53 | 122 | 6 |
 | Lamborghini | 25 | 53 | 2 |
-| Porsche | 21 | 58 | 4 |
+| Porsche | 29 | 58 | 4 |
 | Tesla | 7 | 13 | 3 |
 | Mercedes-Benz | 54 | 150 | 3 |
-| Total | 160 | 396 | 18 |
+| Total | 168 | 396 | 18 |
 
 The agreed unit is a **production road-car model family**, with generations and visibly distinct production bodies inside its modal. A family can contain renamed successors when they continue the same lineage: Ferrari 550/575, Porsche Boxster/Cayman, Mercedes SLK/SLC and M-Class/GLE are examples. Individual engine, trim, gearbox, market and special-edition badges are not separate families. Small visual updates are grouped rather than illustrated as new cars.
+
+The Porsche 911 is an explicit exception: each of its eight generations has a separate dated timeline entry, with body styles and special versions nested underneath. The 930 Turbo has its own milestone entry within the G-series era. The original `911` id remains valid for existing links. The selected Top Gear comparison is shared across these entries and labelled as a lineage-wide video.
 
 Included: saloons, sports cars, grand tourers, SUVs, personal-use pickups, limited road-going series and explicitly labelled road-capable homologation series. The 550, early 718, 904 and 906 entries describe Porsche's road-capable competition-derived series; they are distinct from the modern 718 nameplate. Road capability does not make these ordinary passenger cars.
 

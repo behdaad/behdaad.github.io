@@ -785,3 +785,27 @@ for car in CATALOG['ferrari']:
  if car['id']=='mondial':car['variants'][1]['match']='3.2.Cabriolet'
 for car in CATALOG['porsche']:
  if car['id']=='911':car['variants'][2]['name']='G series'
+
+# The 911 has a timeline entry per generation, plus the original Turbo milestone.
+# Keep the original id for existing links to the first generation.
+porsche=CATALOG['porsche']
+lineage=next(car for car in porsche if car['id']=='911')
+porsche.remove(lineage)
+chapters=[lineage['variants'][i].copy() for i in [0, 1]]
+porsche.append(dict(id='911',name='911 (original / F series)',category='Sports car',story='911 (original / F series) is one generation of Porsche’s rear-engined 911 lineage. Its distinct body styles and special versions are grouped below.',variants=chapters,inherit='911'))
+chapters=[lineage['variants'][i].copy() for i in [2, 4]]
+porsche.append(dict(id='911-g-series',name='911 (G series)',category='Sports car',story='911 (G series) is one generation of Porsche’s rear-engined 911 lineage. Its distinct body styles and special versions are grouped below.',variants=chapters,inherit='911'))
+chapters=[lineage['variants'][i].copy() for i in [3]]
+porsche.append(dict(id='930-turbo',name='911 Turbo (930)',category='Sports car',story='The original 911 Turbo is a separate milestone within the G-series era. Wide arches, a rear spoiler and turbocharging distinguish it from the naturally aspirated cars.',variants=chapters,inherit='911'))
+chapters=[lineage['variants'][i].copy() for i in [5]]
+porsche.append(dict(id='911-964',name='911 (964)',category='Sports car',story='911 (964) is one generation of Porsche’s rear-engined 911 lineage. Its distinct body styles and special versions are grouped below.',variants=chapters,inherit='911'))
+chapters=[lineage['variants'][i].copy() for i in [6]]
+porsche.append(dict(id='911-993',name='911 (993)',category='Sports car',story='911 (993) is one generation of Porsche’s rear-engined 911 lineage. Its distinct body styles and special versions are grouped below.',variants=chapters,inherit='911'))
+chapters=[lineage['variants'][i].copy() for i in [7]]
+porsche.append(dict(id='911-996',name='911 (996)',category='Sports car',story='911 (996) is one generation of Porsche’s rear-engined 911 lineage. Its distinct body styles and special versions are grouped below.',variants=chapters,inherit='911'))
+chapters=[lineage['variants'][i].copy() for i in [8]]
+porsche.append(dict(id='911-997',name='911 (997)',category='Sports car',story='911 (997) is one generation of Porsche’s rear-engined 911 lineage. Its distinct body styles and special versions are grouped below.',variants=chapters,inherit='911'))
+chapters=[lineage['variants'][i].copy() for i in [9, 10]]
+porsche.append(dict(id='911-991',name='911 (991)',category='Sports car',story='911 (991) is one generation of Porsche’s rear-engined 911 lineage. Its distinct body styles and special versions are grouped below.',variants=chapters,inherit='911'))
+chapters=[lineage['variants'][i].copy() for i in [11, 12, 13]]
+porsche.append(dict(id='911-992',name='911 (992)',category='Sports car',story='911 (992) is one generation of Porsche’s rear-engined 911 lineage. Its distinct body styles and special versions are grouped below.',variants=chapters,inherit='911'))

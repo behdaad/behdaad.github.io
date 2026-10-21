@@ -172,5 +172,40 @@
     "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/1739353624803-WZGK31GOLTO83902OE5U/MokumxMoak-059.jpg",
     "credit": "mokum",
     "checked": "2026-10-21"
+  },
+  {
+    "file": "kid-food.jpg",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/kid-restaurant-amsterdam_5.jpeg",
+    "credit": "kid",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-21"
+  },
+  {
+    "file": "kid-plates.jpg",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/kid-restaurant-amsterdam_1.jpeg",
+    "credit": "kid",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-21"
+  },
+  {
+    "file": "esh-food.jpg",
+    "source": "https://www.debuik.nl/media/Mk3QKwpVRvK1qNVzVmpz/convert?w=825&cache=true&quality=100",
+    "credit": "esh",
+    "attribution": "Raphael Meibergen / De Buik",
+    "checked": "2026-10-21"
+  },
+  {
+    "file": "esh-pita.jpg",
+    "source": "https://www.debuik.nl/media/cERpwd0SGKT5KEQBGlXj/convert?w=825&cache=true&quality=100",
+    "credit": "esh",
+    "attribution": "Raphael Meibergen / De Buik",
+    "checked": "2026-10-21"
+  },
+  {
+    "file": "esh-room.jpg",
+    "source": "https://images.squarespace-cdn.com/content/v1/59c913c21f318dd81ea73ffa/27aed1b4-0fd3-4bc2-8b2e-10aa9fe2184d/StudioMichielWijnen_EshPitaBar+4.png?format=1000w",
+    "credit": "esh",
+    "attribution": "Studio Michiel Wijnen",
+    "checked": "2026-10-21"
   }
 ]

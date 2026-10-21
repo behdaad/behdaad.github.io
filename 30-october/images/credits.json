@@ -66,36 +66,6 @@
     "checked": "2026-10-21"
   },
   {
-    "file": "bird-4.webp",
-    "source": "https://thai-bird.nl/wp-content/uploads/2018/03/slider2-1.jpg",
-    "credit": "bird",
-    "checked": "2026-10-21"
-  },
-  {
-    "file": "bird-3.webp",
-    "source": "https://thai-bird.nl/wp-content/uploads/2018/03/slider1.jpg",
-    "credit": "bird",
-    "checked": "2026-10-21"
-  },
-  {
-    "file": "bird-10.webp",
-    "source": "https://thai-bird.nl/wp-content/uploads/2018/03/P1010099.jpg",
-    "credit": "bird",
-    "checked": "2026-10-21"
-  },
-  {
-    "file": "vault-0.webp",
-    "source": "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_1200,h_800,q_80,f_jpg/Imagery/Lifestyle%20Photography/Waldorf%20Astoria/A/AMSWAWA/Waldorf_20260812_30.jpg",
-    "credit": "vault",
-    "checked": "2026-10-21"
-  },
-  {
-    "file": "vault-1.webp",
-    "source": "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_1200,h_900,q_80,f_jpg/Imagery/Property%20Photography/Waldorf%20Astoria/A/AMSWAWA/Waldorf_20260812_54.jpg",
-    "credit": "vault",
-    "checked": "2026-10-21"
-  },
-  {
     "file": "tujuh-0.webp",
     "source": "https://tujuhmaret.nl/wp-content/uploads/2019/11/6528-min-1920x1080.jpg",
     "credit": "tujuh",
@@ -129,6 +99,18 @@
     "file": "oldenhof-drink.webp",
     "source": "https://bar-oldenhof.com/wp-content/uploads/2025/06/2025_Bar-Oldenhof_178_113.jpg",
     "credit": "Bar Oldenhof",
+    "checked": "2026-10-21"
+  },
+  {
+    "file": "kid-room.png",
+    "source": "https://framerusercontent.com/images/dIkRIQrhVX3C0qV7BIZTaqPorlY.png",
+    "credit": "kid",
+    "checked": "2026-10-21"
+  },
+  {
+    "file": "pendergast-room.jpg",
+    "source": "https://pendergast.nl/wp-content/uploads/2016/03/interior_day.jpg",
+    "credit": "pendergast",
     "checked": "2026-10-21"
   }
 ]

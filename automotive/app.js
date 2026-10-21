@@ -70,7 +70,7 @@
     $('#empty').hidden = Boolean(filtered.length);
     document.querySelectorAll('[data-brand]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.brand===brand)));
   }
-  $('#honors').remove();
+  $('#honors')?.remove();
   document.querySelector('.honors-section')?.remove();
   function gallery(variant, id, label) {
     galleries.set(id,{photos:variant.photos,index:0,label});

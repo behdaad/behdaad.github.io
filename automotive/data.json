@@ -1,5 +1,5 @@
 {
-  "updated": "19 October 2026",
+  "updated": "21 October 2026",
   "sources": {
     "influence": {
       "outlet": "Autocar",
@@ -165,6 +165,81 @@
       "outlet": "Hagerty",
       "title": "Data Dive: Lancia Stratos HF Stradale",
       "url": "https://www.hagerty.co.uk/articles/data-dive-lancia-stratos-hf-stradale/"
+    },
+    "british-greats": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest British cars ever made",
+      "url": "https://www.topgear.com/car-news/list/these-are-50-greatest-british-cars-ever-made"
+    },
+    "japanese-greats": {
+      "outlet": "Top Gear",
+      "title": "The 50 best Japanese cars of all time",
+      "url": "https://www.topgear.com/car-news/list/50-best-japanese-cars-all-time"
+    },
+    "french-greats": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest French cars of all time",
+      "url": "https://www.topgear.com/car-news/list/50-greatest-french-cars-all-time"
+    },
+    "italian-greats": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest Italian cars of all time",
+      "url": "https://www.topgear.com/car-news/list/these-are-50-greatest-italian-cars-all-time"
+    },
+    "2000gt": {
+      "outlet": "Top Gear",
+      "title": "Toyota 2000GT review",
+      "url": "https://www.topgear.com/car-reviews/toyota/2000gt/first-drive"
+    },
+    "nsx-history": {
+      "outlet": "Top Gear",
+      "title": "Is the Honda NSX the most influential sports car ever made?",
+      "url": "https://www.topgear.com/car-news/retro/meet-your-heroes-honda-nsx-most-influential-sports-car-ever-made"
+    },
+    "leaf-history": {
+      "outlet": "Top Gear",
+      "title": "The 50 best Japanese cars of all time",
+      "url": "https://www.topgear.com/car-news/list/50-best-japanese-cars-all-time"
+    },
+    "elise-history": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest British cars ever made",
+      "url": "https://www.topgear.com/car-news/list/these-are-50-greatest-british-cars-ever-made"
+    },
+    "205-history": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest French cars of all time",
+      "url": "https://www.topgear.com/car-news/list/50-greatest-french-cars-all-time"
+    },
+    "cosmo-history": {
+      "outlet": "Top Gear",
+      "title": "The 50 best Japanese cars of all time",
+      "url": "https://www.topgear.com/car-news/list/50-best-japanese-cars-all-time"
+    },
+    "renault4-history": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest French cars of all time",
+      "url": "https://www.topgear.com/car-news/list/50-greatest-french-cars-all-time"
+    },
+    "stratos-history": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest Italian cars of all time",
+      "url": "https://www.topgear.com/car-news/list/these-are-50-greatest-italian-cars-all-time"
+    },
+    "m1-history": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest British cars ever made",
+      "url": "https://www.topgear.com/car-news/list/these-are-50-greatest-british-cars-ever-made"
+    },
+    "delorean-history": {
+      "outlet": "Top Gear",
+      "title": "The 50 greatest British cars ever made",
+      "url": "https://www.topgear.com/car-news/list/these-are-50-greatest-british-cars-ever-made"
+    },
+    "nsx-review": {
+      "outlet": "Top Gear",
+      "title": "Hammond drives the icons: Honda NSX",
+      "url": "https://www.topgear.com/car-news/richard-hammond/hammond-drives-icons-honda-nsx"
     },
     "testarossa": {
       "outlet": "evo",
@@ -432,6 +507,70 @@
       "excluded": "Numerous body suppliers and annual mechanical revisions are condensed into the two visibly different periods."
     },
     {
+      "id": "lambda",
+      "brand": "Lancia",
+      "name": "Lambda",
+      "year": 1922,
+      "country": "Italy",
+      "designer": "Vincenzo Lancia & Battista Falchetto",
+      "title": "A load-bearing body changes the chassis.",
+      "story": "The Lambda replaces the separate body-on-frame convention with a self-supporting structure, while its narrow V4 and independent front suspension rethink what a touring car can be. Its engineering mattered as much as its shape.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "influence"
+      ],
+      "evidence": "Autocar’s influential-cars retrospective names the Lambda’s unitary construction as a foundational engineering idea.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1922,
+          "name": "Series 1",
+          "wiki": "Lancia Lambda",
+          "shape": "Tall touring body with a narrow bonnet and open cabin.",
+          "engineering": "Self-supporting steel monocoque; narrow-angle V4; sliding-pillar independent front suspension.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/f513743b8da18a.webp",
+              "file": "MHV_Lancia_Lambda_1923_01.jpg",
+              "credit": "MartinHansV",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:MHV_Lancia_Lambda_1923_01.jpg",
+              "description": "Lancia Lambda (1923)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/90ac6ee12cbe5d.webp",
+              "file": "Lancia_Lambda_1923.jpg",
+              "credit": "Lars-Göran Lindgren Sweden",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Lancia_Lambda_1923.jpg",
+              "description": "Lancia Lambda Torpedo 1923",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/2a86045b7d216f.webp",
+              "file": "1924_Lancia_Lambda_Serie_II_at_Greenwich_2021,_front_right.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1924_Lancia_Lambda_Serie_II_at_Greenwich_2021,_front_right.jpg",
+              "description": "1924 Lancia Lambda Serie II (belonging to noted collector Lawrence Auriana) on display at the 2021 Greenwich Concours d'Elegance.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Lancia_Lambda"
+        }
+      ],
+      "excluded": "Series changes and body styles are condensed; this chapter follows the first production form"
+    },
+    {
       "id": "airflow",
       "brand": "Chrysler",
       "name": "Airflow",
@@ -664,6 +803,178 @@
       "excluded": "The 1302/1303 and small window changes are omitted to keep the visual story concise. Dates refer to public introduction, not every market’s model year."
     },
     {
+      "id": "2cv",
+      "brand": "Citroën",
+      "name": "2CV",
+      "year": 1948,
+      "country": "France",
+      "designer": "Flaminio Bertoni & André Lefèbvre",
+      "title": "A small car designed around ordinary life.",
+      "story": "The 2CV turns a strict brief for inexpensive, robust transport into a distinctive shape: tall, light, with a long-travel suspension and a fabric roof. Its decades-long production and global reach made utility itself a design identity.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "french"
+      ],
+      "evidence": "Top Gear includes the 2CV among France’s defining cars; the review notes its long production and cultural reach.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1948,
+          "name": "Early 2CV",
+          "wiki": "Citroën 2CV",
+          "shape": "Rounded body, separate wings and a full-length fabric roof.",
+          "engineering": "Air-cooled flat-twin engine; front-wheel drive; interconnected long-travel suspension.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/b642e7cfd98000.webp",
+              "file": "Citroen_2CV_1X7A7979.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Citroen_2CV_1X7A7979.jpg",
+              "description": "Citroen 2CV at Retro Classics 2018",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/289889dceee308.webp",
+              "file": "Conservatoire_Citroen_076_Citroen_2CV_(10155683485).jpg",
+              "credit": "Klaus Nahr from Germany",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Conservatoire_Citroen_076_Citroen_2CV_(10155683485).jpg",
+              "description": "Conservatoire Citroen 076 Citroen 2CV",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/accf1daafcf70f.webp",
+              "file": "Citroen2CV_prototype.JPG",
+              "credit": "Ton1~commonswiki",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Citroen2CV_prototype.JPG",
+              "description": "Summary\nMondial de l automobile de Paris (October 2006)\n\n== Licensing ==",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Citro%C3%ABn_2CV"
+        }
+      ],
+      "excluded": "Later engine and trim changes are condensed; regional variants are not separate generations."
+    },
+    {
+      "id": "corvette-c1",
+      "brand": "Chevrolet",
+      "name": "Corvette (C1)",
+      "year": 1953,
+      "country": "United States",
+      "designer": "Harley Earl & Chevrolet styling team",
+      "title": "Fibreglass gives America a sports-car shape.",
+      "story": "The original Corvette combines a low two-seat roadster body with a mass-produced American chassis and a glass-fibre-reinforced plastic body. The material choice helped make a sculptural form possible at production scale.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "american"
+      ],
+      "evidence": "Top Gear’s American-car retrospective and the C1 history document the Corvette’s early sports-car identity and fibreglass construction.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1953,
+          "name": "First-series roadster",
+          "wiki": "Chevrolet Corvette (C1)",
+          "shape": "Low roadster body, rounded fenders and toothy grille.",
+          "engineering": "Fibreglass body over a steel frame; inline-six and two-speed automatic at launch.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/806793b3c01bee.webp",
+              "file": "Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
+              "credit": "Morio",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
+              "description": "1954 Chevrolet Corvette C1",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a8a256f671f181.webp",
+              "file": "Corvette_Corvair_1.jpg",
+              "credit": "Maxq32",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Corvette_Corvair_1.jpg",
+              "description": "Corvette Corvair front view",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/33bf692af6fa86.webp",
+              "file": "Corvette_Corvair_2.jpg",
+              "credit": "Maxq32",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Corvette_Corvair_2.jpg",
+              "description": "Corvette Corvair, rear view",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_%28C1%29"
+        },
+        {
+          "year": 1956,
+          "name": "Revised C1",
+          "wiki": "Chevrolet Corvette (C1)",
+          "shape": "More integrated front and rear forms with exposed headlamps.",
+          "engineering": "V8 power joins the range; the basic steel frame remains.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/806793b3c01bee.webp",
+              "file": "Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
+              "credit": "Morio",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
+              "description": "1954 Chevrolet Corvette C1",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a8a256f671f181.webp",
+              "file": "Corvette_Corvair_1.jpg",
+              "credit": "Maxq32",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Corvette_Corvair_1.jpg",
+              "description": "Corvette Corvair front view",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/33bf692af6fa86.webp",
+              "file": "Corvette_Corvair_2.jpg",
+              "credit": "Maxq32",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Corvette_Corvair_2.jpg",
+              "description": "Corvette Corvair, rear view",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_%28C1%29"
+        }
+      ],
+      "excluded": "The C2 Sting Ray begins a separate generation and is outside this family."
+    },
+    {
       "id": "300sl",
       "brand": "Mercedes-Benz",
       "name": "300 SL",
@@ -891,6 +1202,114 @@
         }
       ],
       "excluded": "ID equipment levels, DS 20/21/23 engine changes and minor nose revisions are excluded. Not every market received covered directional lamps."
+    },
+    {
+      "id": "fiat-500",
+      "brand": "Fiat",
+      "name": "500 (Nuova)",
+      "year": 1957,
+      "country": "Italy",
+      "designer": "Dante Giacosa",
+      "title": "A tiny package becomes a national symbol.",
+      "story": "The Nuova 500 distils post-war mobility into a rear-engined city car. Its short body, tiny wheels and folding fabric roof make a compact package feel friendly rather than austere; the design became inseparable from Italy’s post-war recovery.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "italian"
+      ],
+      "evidence": "Top Gear’s Italian-car retrospective describes the 500 as an everyday car that became a visual symbol of Italian identity.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1957,
+          "name": "Nuova 500",
+          "wiki": "Fiat 500",
+          "shape": "Rounded two-door body with tiny wheels and a fabric roof.",
+          "engineering": "Rear-mounted air-cooled two-cylinder engine; rear-wheel drive.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/f99e4c47d0a263.webp",
+              "file": "1970_Fiat_500_L_--_2011_DC_1.jpg",
+              "credit": "IFCAR",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:1970_Fiat_500_L_--_2011_DC_1.jpg",
+              "description": "1970 Fiat 500 photographed at the 2011 Washington (D.C.) Auto Show.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/7fdb48560ee221.webp",
+              "file": "Fiat500_2CSF.jpg",
+              "credit": "SurfAst",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Fiat500_2CSF.jpg",
+              "description": "Fiat 500 en el Centro Storico Fiat",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/248d6015c0e6f8.webp",
+              "file": "Paris_-_RM_Auctions_-_5_février_2014_-_Fiat_500_D_-_1963_-_002.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Paris_-_RM_Auctions_-_5_f%C3%A9vrier_2014_-_Fiat_500_D_-_1963_-_002.jpg",
+              "description": "Une Fiat 500 D de 1963.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Fiat_500"
+        },
+        {
+          "year": 1965,
+          "name": "500 F",
+          "wiki": "Fiat 500",
+          "shape": "Conventional front-hinged doors replace the early suicide doors.",
+          "engineering": "Revised body details and improved usability retain the same architecture.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/f99e4c47d0a263.webp",
+              "file": "1970_Fiat_500_L_--_2011_DC_1.jpg",
+              "credit": "IFCAR",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:1970_Fiat_500_L_--_2011_DC_1.jpg",
+              "description": "1970 Fiat 500 photographed at the 2011 Washington (D.C.) Auto Show.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/7fdb48560ee221.webp",
+              "file": "Fiat500_2CSF.jpg",
+              "credit": "SurfAst",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Fiat500_2CSF.jpg",
+              "description": "Fiat 500 en el Centro Storico Fiat",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/248d6015c0e6f8.webp",
+              "file": "Paris_-_RM_Auctions_-_5_février_2014_-_Fiat_500_D_-_1963_-_002.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Paris_-_RM_Auctions_-_5_f%C3%A9vrier_2014_-_Fiat_500_D_-_1963_-_002.jpg",
+              "description": "Une Fiat 500 D de 1963.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Fiat_500"
+        }
+      ],
+      "excluded": "The 126 is a successor, not a 500 generation; closely related 500 variants are condensed."
     },
     {
       "id": "mini",
@@ -1236,6 +1655,114 @@
         }
       ],
       "excluded": "Series 1½, engine-capacity changes, restorations and modern restomods are omitted."
+    },
+    {
+      "id": "renault-4",
+      "brand": "Renault",
+      "name": "4",
+      "year": 1961,
+      "country": "France",
+      "designer": "Pierre Dreyfus & Renault design team",
+      "title": "A practical hatchback before the hatchback era.",
+      "story": "The Renault 4 pairs a flat load floor and folding rear seat with a tall, simple body and front-wheel drive. Built for varied roads and everyday work, it became a genuinely international utility car.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "french-greats"
+      ],
+      "evidence": "Top Gear’s French-car retrospective calls the Renault 4 a globally adaptable people’s car and a significant alternative to the 2CV.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1961,
+          "name": "Renault 4",
+          "wiki": "Renault 4",
+          "shape": "Tall square body, separate wings and a short bonnet.",
+          "engineering": "Front-wheel drive, torsion-bar suspension and a flat loading floor.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/c9ce87e55e149e.webp",
+              "file": "1984_Renault_4_GTL,_front_left_(Germany).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1984_Renault_4_GTL,_front_left_(Germany).jpg",
+              "description": "A 1984 Renault 4 GTL, for sale by Atelier Automobile in Berlin. This car is painted \"Rohseide\" (raw silk), a hue that was only available in 1984. About 74,000 km on the odometer when the photo was taken. Original German car with various extra safety kit not always seen in France: some warning lamps, three-point belts for all but the center rear, and headrests in front.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/1d0f011d5c9c9f.webp",
+              "file": "Renault_R4_BW_2016-07-17_13-45-32.jpg",
+              "credit": "Berthold Werner",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Renault_R4_BW_2016-07-17_13-45-32.jpg",
+              "description": "Renault 4, 1966, 34 PS, \n\n32. Internationales Oldtimer Treffen Konz 2016, Das Nummernschild ist verfälscht!",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/55b96481b50116.webp",
+              "file": "Renault_R4_BW_2016-07-17_13-45-17.jpg",
+              "credit": "Berthold Werner",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Renault_R4_BW_2016-07-17_13-45-17.jpg",
+              "description": "Renault 4, 1966, 34 PS, \n\n32. Internationales Oldtimer Treffen Konz 2016, Das Nummernschild ist verfälscht!",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Renault_4"
+        },
+        {
+          "year": 1978,
+          "name": "Renault 4 GTL",
+          "wiki": "Renault 4",
+          "shape": "Plastic bumpers and revised trim modernise the familiar outline.",
+          "engineering": "The core platform and utility layout continue with incremental refinements.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/c9ce87e55e149e.webp",
+              "file": "1984_Renault_4_GTL,_front_left_(Germany).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1984_Renault_4_GTL,_front_left_(Germany).jpg",
+              "description": "A 1984 Renault 4 GTL, for sale by Atelier Automobile in Berlin. This car is painted \"Rohseide\" (raw silk), a hue that was only available in 1984. About 74,000 km on the odometer when the photo was taken. Original German car with various extra safety kit not always seen in France: some warning lamps, three-point belts for all but the center rear, and headrests in front.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/1d0f011d5c9c9f.webp",
+              "file": "Renault_R4_BW_2016-07-17_13-45-32.jpg",
+              "credit": "Berthold Werner",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Renault_R4_BW_2016-07-17_13-45-32.jpg",
+              "description": "Renault 4, 1966, 34 PS, \n\n32. Internationales Oldtimer Treffen Konz 2016, Das Nummernschild ist verfälscht!",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/55b96481b50116.webp",
+              "file": "Renault_R4_BW_2016-07-17_13-45-17.jpg",
+              "credit": "Berthold Werner",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Renault_R4_BW_2016-07-17_13-45-17.jpg",
+              "description": "Renault 4, 1966, 34 PS, \n\n32. Internationales Oldtimer Treffen Konz 2016, Das Nummernschild ist verfälscht!",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Renault_4"
+        }
+      ],
+      "excluded": "Close trim revisions and the later electric revival are omitted."
     },
     {
       "id": "911",
@@ -1924,6 +2451,307 @@
       "excluded": "The visually close P400 S is omitted, as are one-offs, replicas and the 2006 concept."
     },
     {
+      "id": "ro80",
+      "brand": "NSU",
+      "name": "Ro 80",
+      "year": 1967,
+      "country": "Germany",
+      "designer": "Claus Luthe; engineering led by Ewald Praxl",
+      "title": "The saloon is shaped by the wind.",
+      "story": "The Ro 80’s low wedge, large glasshouse and clean surfaces anticipated a new kind of family saloon. Its twin-rotor engine and semi-automatic transmission were equally ambitious, though early reliability problems damaged NSU and the car’s reputation.",
+      "design": 60,
+      "industry": 30,
+      "sources": [
+        "influence"
+      ],
+      "evidence": "Autocar’s history describes the Ro 80 as an advanced, wind-tunnel-era design and notes its engineering ambition and consequences.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1967,
+          "name": "Ro 80",
+          "wiki": "NSU Ro 80",
+          "shape": "Long low bonnet, sloping nose, clean sides and broad glasshouse.",
+          "engineering": "Front-wheel drive with twin-rotor Wankel engine and semi-automatic transmission.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/abbd31980359e9.webp",
+              "file": "NSU_Ro_80_-_2009-10-11_(Foto_Sp).jpg",
+              "credit": "Spurzem - Lothar Spurzem",
+              "license": "CC BY-SA 2.0 de",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:NSU_Ro_80_-_2009-10-11_(Foto_Sp).jpg",
+              "description": "NSU Ro 80 (Phantasiekennzeichen)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c08161756e0200.webp",
+              "file": "NSU_Ro_80_(1974)_Solitude_Revival_2019_IMG_1862.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:NSU_Ro_80_(1974)_Solitude_Revival_2019_IMG_1862.jpg",
+              "description": "NSU Ro 80 (1974) at Solitude Revival 2019",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c025decf1f0e1f.webp",
+              "file": "Nsu_antwerpen93.jpg",
+              "credit": "Wikimedia Commons",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Nsu_antwerpen93.jpg",
+              "description": "Nsu_antwerpen93.jpg",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/NSU_Ro_80"
+        }
+      ],
+      "excluded": "Annual detail changes are condensed; the Ro 80 remained one generation through 1977."
+    },
+    {
+      "id": "cosmo",
+      "brand": "Mazda",
+      "name": "Cosmo Sport",
+      "year": 1967,
+      "country": "Japan",
+      "designer": "Mazda design team / Heiji Kobayashi",
+      "title": "The rotary engine gets a spaceship.",
+      "story": "The Cosmo Sport’s compact, low coupé body announces Mazda’s commitment to the rotary engine. Its smooth twin-rotor power and carefully composed details give a technically unusual car a coherent, forward-looking identity.",
+      "design": 60,
+      "industry": 30,
+      "sources": [
+        "japanese-greats"
+      ],
+      "evidence": "Top Gear’s Japanese-car retrospective describes the Cosmo as a pioneering production rotary and a design that looked like a spaceship.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1967,
+          "name": "Series I (L10A)",
+          "wiki": "Mazda Cosmo",
+          "shape": "Slim coupé with covered headlamps, long bonnet and compact cabin.",
+          "engineering": "Twin-rotor Wankel engine drives the rear wheels.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/5927dcefdc91ce.webp",
+              "file": "1968_Mazda_Cosmo-Sport_01.jpg",
+              "credit": "Mytho88",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1968_Mazda_Cosmo-Sport_01.jpg",
+              "description": "1st generation Mazda Cosmo Sport Model L10B",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c7bded3215df5a.webp",
+              "file": "Mazda_Cosmo_L10A_front-right_2016_Shanghai_Auto_Museum.jpg",
+              "credit": "Morio",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Mazda_Cosmo_L10A_front-right_2016_Shanghai_Auto_Museum.jpg",
+              "description": "1967 Mazda Cosmo L10A",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/394786aa8a7755.webp",
+              "file": "L10B_inst_panel.jpg",
+              "credit": "名古屋太郎",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:L10B_inst_panel.jpg",
+              "description": "The instrument panel of Mazda 110S (L10B).\nIt took a photograph at Toyota museum.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Mazda_Cosmo"
+        },
+        {
+          "year": 1968,
+          "name": "Series II (L10B)",
+          "wiki": "Mazda Cosmo",
+          "shape": "Longer wheelbase and revised grille subtly alter the proportions.",
+          "engineering": "Improved rotary output and larger brakes accompany the update.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/5927dcefdc91ce.webp",
+              "file": "1968_Mazda_Cosmo-Sport_01.jpg",
+              "credit": "Mytho88",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1968_Mazda_Cosmo-Sport_01.jpg",
+              "description": "1st generation Mazda Cosmo Sport Model L10B",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c7bded3215df5a.webp",
+              "file": "Mazda_Cosmo_L10A_front-right_2016_Shanghai_Auto_Museum.jpg",
+              "credit": "Morio",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Mazda_Cosmo_L10A_front-right_2016_Shanghai_Auto_Museum.jpg",
+              "description": "1967 Mazda Cosmo L10A",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/394786aa8a7755.webp",
+              "file": "L10B_inst_panel.jpg",
+              "credit": "名古屋太郎",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:L10B_inst_panel.jpg",
+              "description": "The instrument panel of Mazda 110S (L10B).\nIt took a photograph at Toyota museum.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Mazda_Cosmo"
+        }
+      ],
+      "excluded": "Later RX models use related rotary ideas but are distinct nameplates."
+    },
+    {
+      "id": "2000gt",
+      "brand": "Toyota",
+      "name": "2000GT",
+      "year": 1967,
+      "country": "Japan",
+      "designer": "Toyota and Yamaha design teams",
+      "title": "Japan presents a world-class grand tourer.",
+      "story": "The 2000GT joined a long bonnet, compact cabin and flowing fastback with precise engineering and a sophisticated six-cylinder engine. It gave Toyota a low-volume halo car and helped international audiences take Japanese performance design seriously.",
+      "design": 60,
+      "industry": 30,
+      "sources": [
+        "japanese-greats",
+        "2000gt"
+      ],
+      "evidence": "Top Gear’s review says the 2000GT raised Toyota’s and Japan’s international profile through its engineering and visual refinement.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1967,
+          "name": "2000GT coupé",
+          "wiki": "Toyota 2000GT",
+          "shape": "Long bonnet, swept headlamps and a close-coupled fastback cabin.",
+          "engineering": "Front-mounted DOHC straight-six with rear-wheel drive; Yamaha assisted development.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/4b4e10fd2b58a7.webp",
+              "file": "TOYOTA_2000GT.jpg",
+              "credit": "Wikimedia Commons",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:TOYOTA_2000GT.jpg",
+              "description": "TOYOTA_2000GT.jpg",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/e02335e99e5786.webp",
+              "file": "Toyota_2000GT_ver.wolf_of_circuit.JPG",
+              "credit": "Tokumeigakarinoaoshima",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Toyota_2000GT_ver.wolf_of_circuit.JPG",
+              "description": "「サーキットの狼」仕様のトヨタ・2000GTを撮影。",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/10884afca5d7ba.webp",
+              "file": "TOYOTA_2000GT_Bond_vehicles.jpg",
+              "credit": "Wikimedia Commons",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:TOYOTA_2000GT_Bond_vehicles.jpg",
+              "description": "TOYOTA_2000GT_Bond_vehicles.jpg",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Toyota_2000GT"
+        }
+      ],
+      "excluded": "The Bond film convertibles were special adaptations; later Toyota sports cars are separate families."
+    },
+    {
+      "id": "alfa-33-stradale",
+      "brand": "Alfa Romeo",
+      "name": "33 Stradale",
+      "year": 1967,
+      "country": "Italy",
+      "designer": "Franco Scaglione",
+      "title": "A road car shaped like a racing prototype.",
+      "story": "The 33 Stradale translates Alfa Romeo’s Tipo 33 competition architecture into a remarkably low road car. Scaglione’s sculpted body, butterfly doors and carefully integrated details make the small production run a close study in form and engineering.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "italian-greats"
+      ],
+      "evidence": "Top Gear’s Italian-car retrospective describes the 33 Stradale as a standout design and one of the rarest Italian road cars.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1967,
+          "name": "Tipo 33 Stradale",
+          "wiki": "Alfa Romeo 33 Stradale",
+          "shape": "Low body, rounded arches, glass engine cover and opening butterfly doors.",
+          "engineering": "Mid-mounted 2.0-litre V8 derived from Alfa Romeo’s Tipo 33 racing programme.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/e4285484197e25.webp",
+              "file": "1968_Alfa_Romeo_33_Stradale,_front_right_(Miller).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1968_Alfa_Romeo_33_Stradale,_front_right_(Miller).jpg",
+              "description": "1968 Alfa Romeo 33 Stradale at an Alfa Romeo/Maserati dealership in Greenwich, Connecticut, being exhibited in response to the 2024 Greenwich Concours d'Elegance.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/7cd942db907fab.webp",
+              "file": "Alfa_Romeo_33_Stradale_1967_-_Flickr_-_andrewbasterfield.jpg",
+              "credit": "Andrew Basterfield",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_33_Stradale_1967_-_Flickr_-_andrewbasterfield.jpg",
+              "description": "Alfa Romeo 33 Stradale 1967",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a9f3dd137d8c25.webp",
+              "file": "1968_Alfa_Romeo_Tipo_33_Stradale_-_Flickr_-_edvvc.jpg",
+              "credit": "edvvc from London, UK",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1968_Alfa_Romeo_Tipo_33_Stradale_-_Flickr_-_edvvc.jpg",
+              "description": "1968 Alfa Romeo Tipo 33 Stradale",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_33_Stradale"
+        }
+      ],
+      "excluded": "The later 2023 33 Stradale is a separate modern revival."
+    },
+    {
       "id": "sm",
       "brand": "Citroën",
       "name": "SM",
@@ -1983,6 +2811,114 @@
         }
       ],
       "excluded": "Engine revisions and market-specific exposed headlamps are omitted; coachbuilt four-door and convertible specials are not production generations."
+    },
+    {
+      "id": "range-rover",
+      "brand": "Land Rover",
+      "name": "Range Rover",
+      "year": 1970,
+      "country": "United Kingdom",
+      "designer": "Spen King, Gordon Bashford & David Bache",
+      "title": "Utility and comfort meet in one shape.",
+      "story": "The original Range Rover keeps the upright stance and useful proportions of a working 4×4, then adds permanent four-wheel drive, coil-sprung comfort and a restrained, carefully proportioned body. It establishes the luxury SUV as a coherent design rather than a decorated utility vehicle.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "influence"
+      ],
+      "evidence": "Top Gear’s evolution history and Land Rover’s own account describe the first Range Rover’s new combination of luxury, utility and form.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1970,
+          "name": "Two-door Range Rover",
+          "wiki": "Range Rover Classic",
+          "shape": "Square two-door body, floating roof treatment and practical glass area.",
+          "engineering": "Permanent four-wheel drive, coil springs and aluminium V8.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/b7027a7f2d9e05.webp",
+              "file": "1973_Land_Rover_Range_Rover_3.5.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1973_Land_Rover_Range_Rover_3.5.jpg",
+              "description": "1973 Land Rover Range Rover 3.5 Taken at the British Motor Museum BMC & Leyland Show 2018, Gaydon",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/6964ef1f83b99b.webp",
+              "file": "Range_Rover_(1241347548).jpg",
+              "credit": "allen watkin from London, UK",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Range_Rover_(1241347548).jpg",
+              "description": "@ Dunsfold Wheels and Wings 2007",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/cc008ec9f55a57.webp",
+              "file": "1972_Range_Rover_3-door_wagon_(2010-10-02)_02.jpg",
+              "credit": "OSX",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:1972_Range_Rover_3-door_wagon_(2010-10-02)_02.jpg",
+              "description": "1972 Range Rover 3-door wagon. Photographed in Sans Souci, New South Wales, Australia.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Range_Rover_Classic"
+        },
+        {
+          "year": 1981,
+          "name": "Four-door Range Rover",
+          "wiki": "Range Rover Classic",
+          "shape": "Four doors add a longer, more formal side profile.",
+          "engineering": "The same core chassis and drivetrain support a more practical body.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/b7027a7f2d9e05.webp",
+              "file": "1973_Land_Rover_Range_Rover_3.5.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1973_Land_Rover_Range_Rover_3.5.jpg",
+              "description": "1973 Land Rover Range Rover 3.5 Taken at the British Motor Museum BMC & Leyland Show 2018, Gaydon",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/6964ef1f83b99b.webp",
+              "file": "Range_Rover_(1241347548).jpg",
+              "credit": "allen watkin from London, UK",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Range_Rover_(1241347548).jpg",
+              "description": "@ Dunsfold Wheels and Wings 2007",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/cc008ec9f55a57.webp",
+              "file": "1972_Range_Rover_3-door_wagon_(2010-10-02)_02.jpg",
+              "credit": "OSX",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:1972_Range_Rover_3-door_wagon_(2010-10-02)_02.jpg",
+              "description": "1972 Range Rover 3-door wagon. Photographed in Sans Souci, New South Wales, Australia.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Range_Rover_Classic"
+        }
+      ],
+      "excluded": "Later generations use separate platforms and names; this entry covers the original Classic family."
     },
     {
       "id": "stratos",
@@ -2557,6 +3493,375 @@
       "excluded": "GTI, R, diesel and estate trims are not separate timeline families. Small facelifts, including Mk8.5, are excluded."
     },
     {
+      "id": "m1",
+      "brand": "BMW",
+      "name": "M1",
+      "year": 1978,
+      "country": "Germany",
+      "designer": "Giorgetto Giugiaro / Italdesign",
+      "title": "A mid-engined supercar in BMW’s sharpest lines.",
+      "story": "The M1’s low wedge and crisp black-edged details bring Giugiaro’s geometric language to BMW’s first production mid-engined car. A racing programme and a dedicated production run make it an unusual bridge between road-car design and homologation ambition.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "m1",
+        "m1-history"
+      ],
+      "evidence": "Top Gear’s retrospective identifies the M1 as Giugiaro’s mid-engined BMW and a racing-linked design statement.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1978,
+          "name": "M1 road car",
+          "wiki": "BMW M1",
+          "shape": "Flat nose, pop-up headlamps, black rear louvres and crisp wedge profile.",
+          "engineering": "Mid-mounted straight-six drives the rear wheels; tubular spaceframe with composite body.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/bb500513c60faa.webp",
+              "file": "BMW_M1,_front_right_(Brooklyn).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:BMW_M1,_front_right_(Brooklyn).jpg",
+              "description": "A BMW M1 in Brooklyn at a Carpark event.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c2deaffe976da2.webp",
+              "file": "BMW_M1_(5500260959).jpg",
+              "credit": "nakhon100",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:BMW_M1_(5500260959).jpg",
+              "description": "BMW M1",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c0533ee3de2d9d.webp",
+              "file": "Musée_BMW_164.jpg",
+              "credit": "Arnaud 25",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_BMW_164.jpg",
+              "description": "BMW M1 in the BMW-Museum",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/BMW_M1"
+        },
+        {
+          "year": 1979,
+          "name": "Procar competition form",
+          "wiki": "BMW M1",
+          "shape": "Wider arches and race aero alter the road car’s silhouette.",
+          "engineering": "Competition specification; a one-make series ran alongside Formula 1 weekends.",
+          "kind": "Competition derivative",
+          "photos": [
+            {
+              "src": "assets/bb500513c60faa.webp",
+              "file": "BMW_M1,_front_right_(Brooklyn).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:BMW_M1,_front_right_(Brooklyn).jpg",
+              "description": "A BMW M1 in Brooklyn at a Carpark event.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c2deaffe976da2.webp",
+              "file": "BMW_M1_(5500260959).jpg",
+              "credit": "nakhon100",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:BMW_M1_(5500260959).jpg",
+              "description": "BMW M1",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c0533ee3de2d9d.webp",
+              "file": "Musée_BMW_164.jpg",
+              "credit": "Arnaud 25",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_BMW_164.jpg",
+              "description": "BMW M1 in the BMW-Museum",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/BMW_M1"
+        }
+      ],
+      "excluded": "Procar bodywork is shown as a derivative; later BMW M models are separate nameplates."
+    },
+    {
+      "id": "audi-quattro",
+      "brand": "Audi",
+      "name": "quattro",
+      "year": 1980,
+      "country": "Germany",
+      "designer": "Audi design team / Hartmut Warkuß",
+      "title": "Rally technology becomes a road-car signature.",
+      "story": "The quattro gives permanent four-wheel drive a clear visual identity: boxy coupé proportions, flared arches and rally associations. Its competition success helped turn all-wheel drive from an off-road solution into a performance-car proposition.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "influence",
+        "japanese-greats"
+      ],
+      "evidence": "Autocar’s influential-cars list and Top Gear’s histories discuss the quattro’s role in making four-wheel drive central to performance motoring.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1980,
+          "name": "Ur-quattro",
+          "wiki": "Audi Quattro",
+          "shape": "Angular coupé with flared arches and a tall hatchback rear.",
+          "engineering": "Longitudinal turbocharged five-cylinder engine and permanent four-wheel drive.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/f7020ae14abd1d.webp",
+              "file": "1985_Audi_Quattro.jpg",
+              "credit": "Calreyn88",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:1985_Audi_Quattro.jpg",
+              "description": "Audi Quattro",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/d33a72482b67e3.webp",
+              "file": "FoS20162016_0624_135801AA_(27809736851).jpg",
+              "credit": "Matthew Lamb",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:FoS20162016_0624_135801AA_(27809736851).jpg",
+              "description": "Goodwood Festival of Speed - 2016\nGoodwood House\nEngland\n\nFriday 24th June 2016",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/693fffeaf0859e.webp",
+              "file": "Paris_-_Bonhams_2017_-_Audi_Quattro_sport_coupé_-_1985_-_001.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2017_-_Audi_Quattro_sport_coup%C3%A9_-_1985_-_001.jpg",
+              "description": "Un des véhicules présenté lors de la vente aux enchères Bonhams 2017 au Grand Palais de Paris.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Audi_Quattro"
+        },
+        {
+          "year": 1984,
+          "name": "Updated quattro",
+          "wiki": "Audi Quattro",
+          "shape": "Revised lamps, grille and cabin details retain the original silhouette.",
+          "engineering": "Mechanical updates refine the same rally-derived road-car formula.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/f7020ae14abd1d.webp",
+              "file": "1985_Audi_Quattro.jpg",
+              "credit": "Calreyn88",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:1985_Audi_Quattro.jpg",
+              "description": "Audi Quattro",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/d33a72482b67e3.webp",
+              "file": "FoS20162016_0624_135801AA_(27809736851).jpg",
+              "credit": "Matthew Lamb",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:FoS20162016_0624_135801AA_(27809736851).jpg",
+              "description": "Goodwood Festival of Speed - 2016\nGoodwood House\nEngland\n\nFriday 24th June 2016",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/693fffeaf0859e.webp",
+              "file": "Paris_-_Bonhams_2017_-_Audi_Quattro_sport_coupé_-_1985_-_001.jpg",
+              "credit": "Thesupermat",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2017_-_Audi_Quattro_sport_coup%C3%A9_-_1985_-_001.jpg",
+              "description": "Un des véhicules présenté lors de la vente aux enchères Bonhams 2017 au Grand Palais de Paris.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Audi_Quattro"
+        }
+      ],
+      "excluded": "Rally competition cars are distinct derivatives; the later TT and modern quattro models are unrelated nameplates."
+    },
+    {
+      "id": "panda",
+      "brand": "Fiat",
+      "name": "Panda",
+      "year": 1980,
+      "country": "Italy",
+      "designer": "Giorgetto Giugiaro",
+      "title": "A box on wheels makes simplicity feel generous.",
+      "story": "The first Panda strips the small car back to simple, durable surfaces and a flexible cabin. Its upright shape creates useful space without excess ornament, while its clever details make a low-cost vehicle adaptable to everyday tasks.",
+      "design": 60,
+      "industry": 30,
+      "sources": [
+        "italian-greats"
+      ],
+      "evidence": "Top Gear’s Italian-car retrospective describes the first Panda as an essential, unpretentious car whose simplicity is part of its character.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1980,
+          "name": "First-generation Panda",
+          "wiki": "Fiat Panda",
+          "shape": "Square upright cabin, flat sides and large glass area.",
+          "engineering": "Front-wheel drive with simple mechanical layout; later 4×4 added a distinct drivetrain.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/0196c5166242e2.webp",
+              "file": "2018_Fiat_Panda_Easy_1.2.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Fiat_Panda_Easy_1.2.jpg",
+              "description": "2018 Fiat Panda Easy 1.2",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/b23ff40404b6ce.webp",
+              "file": "Fiat_Panda_front_20071205.jpg",
+              "credit": "Rudolf Stricker",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Fiat_Panda_front_20071205.jpg",
+              "description": "Fiat Panda",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Fiat_Panda"
+        },
+        {
+          "year": 1986,
+          "name": "Panda Supernova",
+          "wiki": "Fiat Panda",
+          "shape": "Revised grille and body details refresh the original boxy design.",
+          "engineering": "Mechanical and corrosion-protection updates extend the original architecture.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/0196c5166242e2.webp",
+              "file": "2018_Fiat_Panda_Easy_1.2.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2018_Fiat_Panda_Easy_1.2.jpg",
+              "description": "2018 Fiat Panda Easy 1.2",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/b23ff40404b6ce.webp",
+              "file": "Fiat_Panda_front_20071205.jpg",
+              "credit": "Rudolf Stricker",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Fiat_Panda_front_20071205.jpg",
+              "description": "Fiat Panda",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Fiat_Panda"
+        }
+      ],
+      "excluded": "The 2003 second generation and 2011 third generation are separate designs."
+    },
+    {
+      "id": "delorean",
+      "brand": "DeLorean",
+      "name": "DMC-12",
+      "year": 1981,
+      "country": "United States",
+      "designer": "Giorgetto Giugiaro / Italdesign",
+      "title": "The wedge becomes an unmistakable object.",
+      "story": "A stainless-steel skin, brushed finish and gullwing doors set the DMC-12 apart from conventional sports cars. Its short production run and later film appearances gave the design a cultural life beyond its original commercial ambitions.",
+      "design": 30,
+      "industry": 0,
+      "sources": [
+        "italdesign",
+        "delorean-history"
+      ],
+      "evidence": "Top Gear’s design retrospectives discuss Giugiaro’s wedge vocabulary; its British-car list records the DeLorean as a distinctive cultural object.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1981,
+          "name": "DMC-12 coupé",
+          "wiki": "DMC DeLorean",
+          "shape": "Unpainted stainless panels, black rub strips and gullwing doors.",
+          "engineering": "Rear-mounted PRV V6; fiberglass underbody structure on a steel backbone chassis.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/292aeead9ab2d6.webp",
+              "file": "DeLorean_DMC-12_(9979)_(cropped).jpg",
+              "credit": "Grenex at English Wikipedia",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:DeLorean_DMC-12_(9979)_(cropped).jpg",
+              "description": "Delorean DMC-12 with doors closed\nPhotographed by Kevin Abato  www.grenexmedia.com",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/5b52d4da856129.webp",
+              "file": "DeLorean_DMC-12_with_doors_open.jpg",
+              "credit": "en:user:Grenex",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:DeLorean_DMC-12_with_doors_open.jpg",
+              "description": "DeLorean DMC-12 Head on photo with doors open Photographed by Kevin Abato www.grenexmedia.com",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/c70ada81e1def7.webp",
+              "file": "DMC_DeLorean_underbody.jpg",
+              "credit": "Mark Gasoline",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:DMC_DeLorean_underbody.jpg",
+              "description": "Estrutura monocasco do DMC DeLorean, feita de plástico reforzado con fibra de vidro.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/DMC_DeLorean"
+        }
+      ],
+      "excluded": "Prototype, pre-production and film-converted cars are not separate generations."
+    },
+    {
       "id": "espace",
       "brand": "Renault",
       "name": "Espace",
@@ -2791,6 +4096,222 @@
         }
       ],
       "excluded": "The Espace F1 concept and small facelifts are omitted. The V and VI demonstrate a change in vehicle type, not an unchanged MPV lineage."
+    },
+    {
+      "id": "peugeot-205",
+      "brand": "Peugeot",
+      "name": "205 GTi",
+      "year": 1984,
+      "country": "France",
+      "designer": "Gérard Welter & Paul Bracq’s Peugeot team",
+      "title": "A small hatch becomes the hot-hatch benchmark.",
+      "story": "The 205 GTi combines a light, compact body with quick steering and a lively front-drive chassis. Its restrained arches and red trim signal performance without changing the basic silhouette of the everyday 205.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "french-greats"
+      ],
+      "evidence": "Top Gear’s French-car list calls the 205 GTi a near-perfect hot hatch, citing its low weight, suspension and engines.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1984,
+          "name": "205 GTi 1.6",
+          "wiki": "Peugeot 205",
+          "shape": "Compact hatch with black wheel-arch trims and red grille accents.",
+          "engineering": "Front-wheel drive with a lightweight petrol engine and close-ratio manual gearbox.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/845696a98923cd.webp",
+              "file": "Peugeot_205_front_20080121.jpg",
+              "credit": "Rudolf Stricker",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_front_20080121.jpg",
+              "description": "Peugeot 205",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a9f535d90a02fe.webp",
+              "file": "1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
+              "credit": "Niels de Wit from Lunteren, The Netherlands",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
+              "description": "NY-87-JK",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/bdc5cd45e668b1.webp",
+              "file": "Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
+              "credit": "RL GNZLZ from Chile",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
+              "description": "Peugeot 205 1.4 GT Cabriolet 1989",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Peugeot_205"
+        },
+        {
+          "year": 1986,
+          "name": "205 GTi 1.9",
+          "wiki": "Peugeot 205",
+          "shape": "Larger alloy wheels and subtle trim mark the higher-capacity version.",
+          "engineering": "Larger engine and revised suspension add performance while retaining the same package.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/845696a98923cd.webp",
+              "file": "Peugeot_205_front_20080121.jpg",
+              "credit": "Rudolf Stricker",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_front_20080121.jpg",
+              "description": "Peugeot 205",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a9f535d90a02fe.webp",
+              "file": "1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
+              "credit": "Niels de Wit from Lunteren, The Netherlands",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
+              "description": "NY-87-JK",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/bdc5cd45e668b1.webp",
+              "file": "Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
+              "credit": "RL GNZLZ from Chile",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
+              "description": "Peugeot 205 1.4 GT Cabriolet 1989",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Peugeot_205"
+        }
+      ],
+      "excluded": "The 205 T16 is a separate mid-engined homologation derivative; standard 205 variants are condensed."
+    },
+    {
+      "id": "205-t16",
+      "brand": "Peugeot",
+      "name": "205 T16",
+      "year": 1984,
+      "country": "France",
+      "designer": "Peugeot Talbot Sport / Gérard Welter",
+      "title": "Homologation turns a hatchback into a mid-engined racer.",
+      "story": "The roadgoing T16 shares little mechanically with the ordinary 205: a mid-mounted turbo engine and four-wheel drive sit beneath familiar hatchback cues. Group B rules made this extreme competition machine briefly available to road users.",
+      "design": 60,
+      "industry": 30,
+      "sources": [
+        "french-greats"
+      ],
+      "evidence": "Top Gear’s French-car retrospective details the roadgoing homologation version and its Group B competition success.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1984,
+          "name": "205 Turbo 16 road car",
+          "wiki": "Peugeot 205 T16",
+          "shape": "Short hatch-like body with widened arches and large rear cooling openings.",
+          "engineering": "Mid-mounted turbocharged engine and four-wheel drive; homologation basis for Group B.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/845696a98923cd.webp",
+              "file": "Peugeot_205_front_20080121.jpg",
+              "credit": "Rudolf Stricker",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_front_20080121.jpg",
+              "description": "Peugeot 205",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a9f535d90a02fe.webp",
+              "file": "1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
+              "credit": "Niels de Wit from Lunteren, The Netherlands",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
+              "description": "NY-87-JK",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/bdc5cd45e668b1.webp",
+              "file": "Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
+              "credit": "RL GNZLZ from Chile",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
+              "description": "Peugeot 205 1.4 GT Cabriolet 1989",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Peugeot_205_T16"
+        },
+        {
+          "year": 1984,
+          "name": "Group B competition form",
+          "wiki": "Peugeot 205 T16",
+          "shape": "Large wings, vents and rally lighting transform the silhouette.",
+          "engineering": "Purpose-built competition specification wins the 1985 and 1986 WRC titles.",
+          "kind": "Competition derivative",
+          "photos": [
+            {
+              "src": "assets/845696a98923cd.webp",
+              "file": "Peugeot_205_front_20080121.jpg",
+              "credit": "Rudolf Stricker",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_front_20080121.jpg",
+              "description": "Peugeot 205",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a9f535d90a02fe.webp",
+              "file": "1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
+              "credit": "Niels de Wit from Lunteren, The Netherlands",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
+              "description": "NY-87-JK",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/bdc5cd45e668b1.webp",
+              "file": "Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
+              "credit": "RL GNZLZ from Chile",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
+              "description": "Peugeot 205 1.4 GT Cabriolet 1989",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Peugeot_205_T16"
+        }
+      ],
+      "excluded": "The ordinary 205 GTi is a different, front-engined production model."
     },
     {
       "id": "testarossa",
@@ -3249,6 +4770,116 @@
       "excluded": "Engine revisions, anniversary editions and the NC folding hardtop are condensed. The RF stays because its roof changes the silhouette."
     },
     {
+      "id": "honda-nsx",
+      "brand": "Honda",
+      "name": "NSX",
+      "year": 1990,
+      "country": "Japan",
+      "designer": "Ken Okuyama / Honda R&D design team",
+      "title": "The supercar learns to be usable.",
+      "story": "The NSX combines a mid-mounted V6 and all-aluminium construction with clear sightlines, dependable controls and everyday usability. Honda’s development partnership with Ayrton Senna helped create a supercar that challenged Europe’s assumptions about performance and refinement.",
+      "design": 60,
+      "industry": 30,
+      "sources": [
+        "f1",
+        "nsx-history",
+        "nsx-review"
+      ],
+      "evidence": "Top Gear’s NSX retrospectives identify it as an influential supercar whose usability challenged the established European formula.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1990,
+          "name": "First-generation NSX",
+          "wiki": "Honda NSX",
+          "shape": "Low cabin, black roof pillars and clean wedge body.",
+          "engineering": "Aluminium monocoque and body panels; mid-mounted V6 with variable valve timing.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/a7093fc81a66ea.webp",
+              "file": "AcuraNSX-05-cropped.jpg",
+              "credit": "Travis Rigel Lukas Hornung",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:AcuraNSX-05-cropped.jpg",
+              "description": "some car club showed up at the observatory before we went in. (lots of curvy roads on the way up!)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/08f26b307b9c89.webp",
+              "file": "Honda_NSX_1993_Castle_Hedingham_2008.JPG",
+              "credit": "Charles01",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Honda_NSX_1993_Castle_Hedingham_2008.JPG",
+              "description": "Honda NSX in Essex,  England",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/75cfa47127c464.webp",
+              "file": "FoS20162016_0625_151036AA_(27826100631).jpg",
+              "credit": "Matthew Lamb",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:FoS20162016_0625_151036AA_(27826100631).jpg",
+              "description": "Goodwood Festival Of Speed - 2016\nGoodwood House\nEngland\n\nSaturday 25th June 2016",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Honda_NSX"
+        },
+        {
+          "year": 2002,
+          "name": "Facelifted NSX",
+          "wiki": "Honda NSX",
+          "shape": "Fixed xenon headlamps and revised bumpers sharpen the nose.",
+          "engineering": "Larger wheels and revised suspension accompany the visual update.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/a7093fc81a66ea.webp",
+              "file": "AcuraNSX-05-cropped.jpg",
+              "credit": "Travis Rigel Lukas Hornung",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:AcuraNSX-05-cropped.jpg",
+              "description": "some car club showed up at the observatory before we went in. (lots of curvy roads on the way up!)",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/08f26b307b9c89.webp",
+              "file": "Honda_NSX_1993_Castle_Hedingham_2008.JPG",
+              "credit": "Charles01",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Honda_NSX_1993_Castle_Hedingham_2008.JPG",
+              "description": "Honda NSX in Essex,  England",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/75cfa47127c464.webp",
+              "file": "FoS20162016_0625_151036AA_(27826100631).jpg",
+              "credit": "Matthew Lamb",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:FoS20162016_0625_151036AA_(27826100631).jpg",
+              "description": "Goodwood Festival Of Speed - 2016\nGoodwood House\nEngland\n\nSaturday 25th June 2016",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Honda_NSX"
+        }
+      ],
+      "excluded": "The second-generation hybrid NSX is a different model and is not included."
+    },
+    {
       "id": "diablo",
       "brand": "Lamborghini",
       "name": "Diablo",
@@ -3490,6 +5121,159 @@
         }
       ],
       "excluded": "The F1 GT homologation version is discussed with the longtail idea rather than given a near-duplicate gallery. P1 and W1 are successors, not F1 variants."
+    },
+    {
+      "id": "elise",
+      "brand": "Lotus",
+      "name": "Elise",
+      "year": 1996,
+      "country": "United Kingdom",
+      "designer": "Julian Thomson / Lotus design team",
+      "title": "Lightweight construction becomes visible.",
+      "story": "The Elise’s compact body sits on a bonded aluminium tub, making low mass a structural idea rather than a marketing slogan. Its simple, exposed proportions make the chassis and suspension feel close to the surface.",
+      "design": 60,
+      "industry": 30,
+      "sources": [
+        "british-greats",
+        "elise-history"
+      ],
+      "evidence": "Top Gear’s British-car retrospective highlights the Elise’s revolutionary aluminium tub and unusually direct driving character.",
+      "video": null,
+      "variants": [
+        {
+          "year": 1996,
+          "name": "Series 1",
+          "wiki": "Lotus Elise",
+          "shape": "Low two-seat roadster with simple oval lamps and minimal overhangs.",
+          "engineering": "Bonded aluminium tub, mid-mounted engine and rear-wheel drive.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/da43dd83f71342.webp",
+              "file": "Lotus_Elise_Club_Racer_(front_quarter).jpg",
+              "credit": "Overlaet",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lotus_Elise_Club_Racer_(front_quarter).jpg",
+              "description": "Lotus Elise Club Racer at AutoRAI Amsterdam 2011",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/09c97ccdc3a176.webp",
+              "file": "Lotus_Elise_Series_1.jpg",
+              "credit": "pyntofmyld (Flickr)",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lotus_Elise_Series_1.jpg",
+              "description": "Lotus Elise Series 1",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a36271373cb650.webp",
+              "file": "(Series_2)_Lotus_Elise_(type_111)_version_SC_(SuperCharged)_2009_(cropped).jpg",
+              "credit": "Thierry & Didier Descouens",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:(Series_2)_Lotus_Elise_(type_111)_version_SC_(SuperCharged)_2009_(cropped).jpg",
+              "description": "Lotus Elise  Series 2 (type 111) version SC (SuperCharged) 2009. 3/4 side view.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Lotus_Elise"
+        },
+        {
+          "year": 2000,
+          "name": "Series 2",
+          "wiki": "Lotus Elise",
+          "shape": "Sharper lamps, revised nose and more sculpted front bodywork.",
+          "engineering": "The bonded aluminium structure continues with updated powertrains and safety systems.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/da43dd83f71342.webp",
+              "file": "Lotus_Elise_Club_Racer_(front_quarter).jpg",
+              "credit": "Overlaet",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lotus_Elise_Club_Racer_(front_quarter).jpg",
+              "description": "Lotus Elise Club Racer at AutoRAI Amsterdam 2011",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/09c97ccdc3a176.webp",
+              "file": "Lotus_Elise_Series_1.jpg",
+              "credit": "pyntofmyld (Flickr)",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lotus_Elise_Series_1.jpg",
+              "description": "Lotus Elise Series 1",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a36271373cb650.webp",
+              "file": "(Series_2)_Lotus_Elise_(type_111)_version_SC_(SuperCharged)_2009_(cropped).jpg",
+              "credit": "Thierry & Didier Descouens",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:(Series_2)_Lotus_Elise_(type_111)_version_SC_(SuperCharged)_2009_(cropped).jpg",
+              "description": "Lotus Elise  Series 2 (type 111) version SC (SuperCharged) 2009. 3/4 side view.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Lotus_Elise"
+        },
+        {
+          "year": 2010,
+          "name": "Series 3",
+          "wiki": "Lotus Elise",
+          "shape": "More angular front graphics refresh the same compact proportions.",
+          "engineering": "Further engine and chassis revisions preserve the lightweight platform.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/da43dd83f71342.webp",
+              "file": "Lotus_Elise_Club_Racer_(front_quarter).jpg",
+              "credit": "Overlaet",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lotus_Elise_Club_Racer_(front_quarter).jpg",
+              "description": "Lotus Elise Club Racer at AutoRAI Amsterdam 2011",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/09c97ccdc3a176.webp",
+              "file": "Lotus_Elise_Series_1.jpg",
+              "credit": "pyntofmyld (Flickr)",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Lotus_Elise_Series_1.jpg",
+              "description": "Lotus Elise Series 1",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/a36271373cb650.webp",
+              "file": "(Series_2)_Lotus_Elise_(type_111)_version_SC_(SuperCharged)_2009_(cropped).jpg",
+              "credit": "Thierry & Didier Descouens",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:(Series_2)_Lotus_Elise_(type_111)_version_SC_(SuperCharged)_2009_(cropped).jpg",
+              "description": "Lotus Elise  Series 2 (type 111) version SC (SuperCharged) 2009. 3/4 side view.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Lotus_Elise"
+        }
+      ],
+      "excluded": "Exige derivatives and the later Emira are separate models."
     },
     {
       "id": "prius",
@@ -3824,6 +5608,134 @@
         }
       ],
       "excluded": "Roadsters and RS engine derivatives are condensed into the generation galleries. The TT shown is the production car, not the 1995 concept."
+    },
+    {
+      "id": "subaru-p1",
+      "brand": "Subaru",
+      "name": "Impreza P1",
+      "year": 2000,
+      "country": "Japan / United Kingdom",
+      "designer": "Prodrive & Subaru Tecnica International",
+      "title": "A rally-bred saloon tuned for British roads.",
+      "story": "Prodrive’s P1 adapts the Impreza WRX STI formula for the UK, retaining the turbocharged all-wheel-drive character while sharpening the suspension and response. Its modest visual changes keep attention on the road-focused engineering.",
+      "design": 30,
+      "industry": 30,
+      "sources": [
+        "japanese-greats"
+      ],
+      "evidence": "Top Gear’s Japanese-car retrospective describes the P1 as a Prodrive-developed STI derivative with suspension tuned for British roads.",
+      "video": null,
+      "variants": [
+        {
+          "year": 2000,
+          "name": "Impreza P1",
+          "wiki": "Subaru Impreza",
+          "shape": "Compact four-door saloon with bonnet scoop and restrained rear wing.",
+          "engineering": "Turbocharged flat-four, permanent all-wheel drive and Prodrive chassis tuning.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/76f6b73061509c.webp",
+              "file": "Subaru_Impreza_(GU)_Automesse_Ludwigsburg_2024_IMG_1593.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Subaru_Impreza_(GU)_Automesse_Ludwigsburg_2024_IMG_1593.jpg",
+              "description": "Subaru Impreza (GU) at Automesse Ludwigsburg 2024",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/ff8efc2a69c922.webp",
+              "file": "1994_Subaru_Impreza_Sportswagon_(GF6)_GX_AWD_(2015-07-09)_01.jpg",
+              "credit": "OSX",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:1994_Subaru_Impreza_Sportswagon_(GF6)_GX_AWD_(2015-07-09)_01.jpg",
+              "description": "1994 Subaru Impreza (GF6) GX AWD Sportswagon. Photographed in Kew, Victoria, Australia.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/e5a74edb2bc0b4.webp",
+              "file": "1994_Subaru_Impreza_Sportswagon_(GF6)_GX_AWD_(2015-07-09)_02.jpg",
+              "credit": "OSX",
+              "license": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+              "page": "https://commons.wikimedia.org/wiki/File:1994_Subaru_Impreza_Sportswagon_(GF6)_GX_AWD_(2015-07-09)_02.jpg",
+              "description": "1994 Subaru Impreza (GF6) GX AWD wagon. Photographed in Kew, Victoria, Australia.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Subaru_Impreza"
+        }
+      ],
+      "excluded": "The P1 is a limited UK-market derivative within the first-generation Impreza family."
+    },
+    {
+      "id": "avantime",
+      "brand": "Renault",
+      "name": "Avantime",
+      "year": 2001,
+      "country": "France",
+      "designer": "Patrick Le Quément / Matra design team",
+      "title": "A people carrier becomes a grand touring coupé.",
+      "story": "The Avantime combines a tall, airy cabin and expansive glass with two long doors and a coupé roofline. Its unusual proportions challenge the boundary between MPV and GT, and its short production life makes the experiment especially legible.",
+      "design": 60,
+      "industry": 0,
+      "sources": [
+        "french-greats"
+      ],
+      "evidence": "Top Gear’s French-car list identifies the Avantime as an unusually styled, short-lived grand touring coupé with MPV proportions.",
+      "video": null,
+      "variants": [
+        {
+          "year": 2001,
+          "name": "Avantime",
+          "wiki": "Renault Avantime",
+          "shape": "One-box silhouette, frameless side glass and long two-door profile.",
+          "engineering": "Front-wheel-drive platform with a wide-opening door and pillarless glass design.",
+          "kind": "Production",
+          "photos": [
+            {
+              "src": "assets/f13fc99386ad86.webp",
+              "file": "2002_Renault_Avantime_Privilege_3.0_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:2002_Renault_Avantime_Privilege_3.0_Front.jpg",
+              "description": "2002 Renault Avantime Privilege 3.0 Front Taken in Leamington Spa",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/2b63a7c37b0ce9.webp",
+              "file": "Avantime_grand_air.jpg",
+              "credit": "Supercopter",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Avantime_grand_air.jpg",
+              "description": "Renault Avantime",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/7a0943084e555e.webp",
+              "file": "Renault_Avantime_space_frame_construction.jpg",
+              "credit": "Shritwod",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "page": "https://commons.wikimedia.org/wiki/File:Renault_Avantime_space_frame_construction.jpg",
+              "description": "The unusual space frame construction of the Matra-built Renault Avantime. Displayed at the Matra Museum at Romorantin-Lanthenay.",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            }
+          ],
+          "factSource": "https://en.wikipedia.org/wiki/Renault_Avantime"
+        }
+      ],
+      "excluded": "Engine and trim choices are condensed; there was one production generation."
     },
     {
       "id": "roadster",
@@ -4990,237 +6902,5 @@
       "excluded": "The 2019 reveal and 2021 pre-series car are context, not earlier production generations. Attack and Absolut are parallel aero variants, not a facelift sequence. Sadair’s Spear is a separately named derivative. The Attack gallery includes the 2019 pre-production show car to illustrate its rear wing."
     }
   ],
-  "honors": [
-    {
-      "name": "Lancia Lambda",
-      "year": 1922,
-      "wiki": "Lancia Lambda",
-      "reason": "Unitary construction changes the car beneath its skin.",
-      "source": "influence",
-      "photos": [
-        {
-          "src": "assets/f513743b8da18a.webp",
-          "file": "MHV_Lancia_Lambda_1923_01.jpg",
-          "credit": "MartinHansV",
-          "license": "Public domain",
-          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-          "page": "https://commons.wikimedia.org/wiki/File:MHV_Lancia_Lambda_1923_01.jpg",
-          "description": "Lancia Lambda (1923)",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/Lancia_Lambda"
-    },
-    {
-      "name": "Citroën 2CV",
-      "year": 1948,
-      "wiki": "Citroën 2CV",
-      "reason": "Utility and unusual form distilled into an everyday car.",
-      "source": "french",
-      "photos": [
-        {
-          "src": "assets/b642e7cfd98000.webp",
-          "file": "Citroen_2CV_1X7A7979.jpg",
-          "credit": "Alexander Migl",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "page": "https://commons.wikimedia.org/wiki/File:Citroen_2CV_1X7A7979.jpg",
-          "description": "Citroen 2CV at Retro Classics 2018",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/Citro%C3%ABn_2CV"
-    },
-    {
-      "name": "Chevrolet Corvette",
-      "year": 1953,
-      "wiki": "Chevrolet Corvette (C1)",
-      "reason": "A glassfibre-bodied American sports-car landmark.",
-      "source": "influence",
-      "photos": [
-        {
-          "src": "assets/806793b3c01bee.webp",
-          "file": "Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
-          "credit": "Morio",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
-          "description": "1954 Chevrolet Corvette C1",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_%28C1%29"
-    },
-    {
-      "name": "Fiat 500",
-      "year": 1957,
-      "wiki": "Fiat 500",
-      "reason": "Small-car design becomes an Italian cultural symbol.",
-      "source": "italian",
-      "photos": [
-        {
-          "src": "assets/f99e4c47d0a263.webp",
-          "file": "1970_Fiat_500_L_--_2011_DC_1.jpg",
-          "credit": "IFCAR",
-          "license": "Public domain",
-          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-          "page": "https://commons.wikimedia.org/wiki/File:1970_Fiat_500_L_--_2011_DC_1.jpg",
-          "description": "1970 Fiat 500 photographed at the 2011 Washington (D.C.) Auto Show.",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/Fiat_500"
-    },
-    {
-      "name": "NSU Ro 80",
-      "year": 1967,
-      "wiki": "NSU Ro 80",
-      "reason": "A forward-looking aerodynamic saloon with rotary power.",
-      "source": "influence",
-      "photos": [
-        {
-          "src": "assets/abbd31980359e9.webp",
-          "file": "NSU_Ro_80_-_2009-10-11_(Foto_Sp).jpg",
-          "credit": "Spurzem - Lothar Spurzem",
-          "license": "CC BY-SA 2.0 de",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
-          "page": "https://commons.wikimedia.org/wiki/File:NSU_Ro_80_-_2009-10-11_(Foto_Sp).jpg",
-          "description": "NSU Ro 80 (Phantasiekennzeichen)",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/NSU_Ro_80"
-    },
-    {
-      "name": "Range Rover",
-      "year": 1970,
-      "wiki": "Range Rover Classic",
-      "reason": "A new visual and practical language for the luxury 4×4.",
-      "source": "influence",
-      "photos": [
-        {
-          "src": "assets/b7027a7f2d9e05.webp",
-          "file": "1973_Land_Rover_Range_Rover_3.5.jpg",
-          "credit": "Vauxford",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "page": "https://commons.wikimedia.org/wiki/File:1973_Land_Rover_Range_Rover_3.5.jpg",
-          "description": "1973 Land Rover Range Rover 3.5 Taken at the British Motor Museum BMC & Leyland Show 2018, Gaydon",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/Range_Rover_Classic"
-    },
-    {
-      "name": "BMW M1",
-      "year": 1978,
-      "wiki": "BMW M1",
-      "reason": "Giugiaro’s crisp surfaces applied to a mid-engined BMW.",
-      "source": "m1",
-      "photos": [
-        {
-          "src": "assets/bb500513c60faa.webp",
-          "file": "BMW_M1,_front_right_(Brooklyn).jpg",
-          "credit": "Mr.choppers",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "page": "https://commons.wikimedia.org/wiki/File:BMW_M1,_front_right_(Brooklyn).jpg",
-          "description": "A BMW M1 in Brooklyn at a Carpark event.",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/BMW_M1"
-    },
-    {
-      "name": "Audi quattro",
-      "year": 1980,
-      "wiki": "Audi Quattro",
-      "reason": "Rallying brings four-wheel drive into performance-car identity.",
-      "source": "influence",
-      "photos": [
-        {
-          "src": "assets/f7020ae14abd1d.webp",
-          "file": "1985_Audi_Quattro.jpg",
-          "credit": "Calreyn88",
-          "license": "CC0",
-          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "page": "https://commons.wikimedia.org/wiki/File:1985_Audi_Quattro.jpg",
-          "description": "Audi Quattro",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/Audi_Quattro"
-    },
-    {
-      "name": "DeLorean DMC-12",
-      "year": 1981,
-      "wiki": "DMC DeLorean",
-      "reason": "Giugiaro’s wedge, stainless steel and gullwing doors become a cultural icon.",
-      "source": "italdesign",
-      "photos": [
-        {
-          "src": "assets/292aeead9ab2d6.webp",
-          "file": "DeLorean_DMC-12_(9979)_(cropped).jpg",
-          "credit": "Grenex at English Wikipedia",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "page": "https://commons.wikimedia.org/wiki/File:DeLorean_DMC-12_(9979)_(cropped).jpg",
-          "description": "Delorean DMC-12 with doors closed\nPhotographed by Kevin Abato  www.grenexmedia.com",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/DMC_DeLorean"
-    },
-    {
-      "name": "Honda NSX",
-      "year": 1990,
-      "wiki": "Honda NSX (first generation)",
-      "reason": "The usable supercar, influential enough to inform the McLaren F1.",
-      "source": "f1",
-      "photos": [
-        {
-          "src": "assets/3834cc43e5d08a.webp",
-          "file": "Honda_NSX_red.jpg",
-          "credit": "ed g2s • talk",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "page": "https://commons.wikimedia.org/wiki/File:Honda_NSX_red.jpg",
-          "description": "A w:Honda NSX, version NA1 (1990–1996), marketed as an w:Acura NSX in the United States, Canada and Hongkong. This car is a pre 1994 model (5 spoke wheels instead of 7 spoke wheels).\nCamera: FUJIFILM FinePix S7000\nExposure: 1/28 sec.\nFocal Length: 11mm\nAperture: F/2.9\nISO: 200",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/Honda_NSX_%28first_generation%29"
-    },
-    {
-      "name": "Nissan Leaf",
-      "year": 2010,
-      "wiki": "Nissan Leaf (first generation)",
-      "reason": "A purpose-built electric family hatchback reaches the mainstream.",
-      "source": "influence",
-      "photos": [
-        {
-          "src": "assets/ecbe757433015d.webp",
-          "file": "2011_Nissan_Leaf_SL_--_10-28-2011.jpg",
-          "credit": "IFCAR",
-          "license": "Public domain",
-          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-          "page": "https://commons.wikimedia.org/wiki/File:2011_Nissan_Leaf_SL_--_10-28-2011.jpg",
-          "description": "2011 Nissan Leaf photographed in Waldorf, Maryland, USA.",
-          "origin": "Wikimedia Commons · archive / contemporary photograph",
-          "transformation": "Resized and converted to WebP; original image linked in credit."
-        }
-      ],
-      "factSource": "https://en.wikipedia.org/wiki/Nissan_Leaf_%28first_generation%29"
-    }
-  ]
+  "honors": []
 }

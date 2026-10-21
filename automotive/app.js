@@ -12,7 +12,7 @@
     $('#history').innerHTML = '<p class="load-error">The archive could not load. Please reload the page, or <a href="data.json">open the research catalog</a>.</p>';
     console.error(error); return;
   }
-  const { cars, sources, honors } = data;
+  const { cars, sources } = data;
   const archive = Boolean(data.archive);
   const brands = [...new Set(cars.map(car => car.brand))];
   const dialog = $('#car-dialog');
@@ -61,16 +61,18 @@
       if (!entries.length) return '';
       return `<section class="chapter" aria-label="${esc(chapter.title)}"><header class="chapter-heading"><span>${chapter.years}</span><h3>${chapter.title}</h3><p>${chapter.note}</p></header>${entries.map(car => {
         const variant=car.variants[0];
-        return `<article class="car" id="entry-${car.id}"><div class="year">${car.year}</div><figure class="car-photo"><a href="#car=${car.id}" data-car="${car.id}" aria-label="Explore ${esc(car.brand+' '+car.name)}">${photo(variant.photos[0],car.name+' · '+variant.name)}</a><span class="photo-label">${esc(car.country.toUpperCase())} / ${esc(car.designer.split(' / ')[0])}</span></figure><div class="car-copy"><p class="car-meta"><span>${esc(archive?car.category:car.brand)}</span>${archive?`<span title="Introduction years of the design chapters">${car.year===car.variants.at(-1).year?'DEBUT '+car.year:car.year+'—'+car.variants.at(-1).year}</span>`:`<span class="design-score" title="Evidence index: design ${car.design}/60, industry ${car.industry}/30, independent corroboration ${points(car).corroboration}/10">${points(car).total} / 100</span>`}</p><h4><a href="#car=${car.id}" data-car="${car.id}">${esc(car.name)}</a></h4><p class="car-deck">${esc(car.title)}</p><p class="car-story">${esc(car.story)}</p><p class="car-source">${archive?'Reading & reviews':'Editorial evidence'}: ${car.sources.slice(0,2).map(key=>sourceLink(key)).join(' / ')}</p><a class="arrow-link" href="#car=${car.id}" data-car="${car.id}">Explore the car <span>↗</span> <small>${car.variants.length} ${car.variants.length===1?'design chapter':'evolution entries'}</small></a></div></article>`;
+        return `<article class="car" id="entry-${car.id}"><div class="year">${car.year}</div><figure class="car-photo"><a href="#car=${car.id}" data-car="${car.id}" aria-label="Explore ${esc(car.brand+' '+car.name)}">${variant.photos?.length?photo(variant.photos[0],car.name+' · '+variant.name):`<span class="photo-unavailable">Photograph pending · see full credits in the detail view</span>`}</a><span class="photo-label">${esc(car.country.toUpperCase())} / ${esc(car.designer.split(' / ')[0])}</span></figure><div class="car-copy"><p class="car-meta"><span>${esc(archive?car.category:car.brand)}</span>${archive?`<span title="Introduction years of the design chapters">${car.year===car.variants.at(-1).year?'DEBUT '+car.year:car.year+'—'+car.variants.at(-1).year}</span>`:`<span class="design-score" title="Evidence index: design ${car.design}/60, industry ${car.industry}/30, independent corroboration ${points(car).corroboration}/10">${points(car).total} / 100</span>`}</p><h4><a href="#car=${car.id}" data-car="${car.id}">${esc(car.name)}</a></h4><p class="car-deck">${esc(car.title)}</p><p class="car-story">${esc(car.story)}</p><p class="car-source">${archive?'Reading & reviews':'Editorial evidence'}: ${car.sources.slice(0,2).map(key=>sourceLink(key)).join(' / ')}</p><a class="arrow-link" href="#car=${car.id}" data-car="${car.id}">Explore the car <span>↗</span> <small>${car.variants.length} ${car.variants.length===1?'design chapter':'evolution entries'}</small></a></div></article>`;
       }).join('')}</section>`;
     }).join('');
     $('#result-count').textContent = `${filtered.length} / ${cars.length} cars`;
     $('#empty').hidden = Boolean(filtered.length);
     document.querySelectorAll('[data-brand]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.brand===brand)));
   }
-  $('#honors').innerHTML = honors.map(car=>`<article class="honor"><figure>${photo(car.photos[0],car.name)}</figure><div class="honor-meta"><h3>${esc(car.name)}</h3><span>${car.year}</span></div><p>${esc(car.reason)}</p><div class="honor-links">${sourceLink(car.source)}<a href="${esc(car.photos[0]?.page || car.factSource)}" target="_blank" rel="noopener noreferrer">Photo & credit ↗</a></div></article>`).join('');
+  $('#honors').remove();
+  document.querySelector('.honors-section')?.remove();
   function gallery(variant, id, label) {
     galleries.set(id,{photos:variant.photos,index:0,label});
+    if (!variant.photos?.length) return `<p class="load-error">Photographs for this chapter are pending local attribution and download. The model history remains available below.</p>`;
     return `<div class="gallery" data-gallery="${id}" role="region" aria-label="${esc(label)} photo gallery"><div class="gallery-stage"><a class="gallery-original" href="${esc(variant.photos[0]?.src || variant.factSource)}" target="_blank" rel="noopener" aria-label="Open full-size ${esc(label)} photograph">${photo(variant.photos[0],label)}</a>${variant.photos.length>1?`<button class="gallery-prev" data-step="-1" aria-label="Previous ${esc(label)} photo">←</button><button class="gallery-next" data-step="1" aria-label="Next ${esc(label)} photo">→</button>`:''}</div><div class="gallery-thumbs" aria-label="Choose photograph">${variant.photos.map((p,i)=>`<button data-index="${i}" aria-pressed="${i===0}" aria-label="${esc(label)} photo ${i+1} of ${variant.photos.length}">${photo(p,'')}</button>`).join('')}</div><p class="gallery-credit"></p></div>`;
   }
   function updateGallery(element, index) {

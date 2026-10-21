@@ -1,6 +1,6 @@
 # Automotive — research and maintenance
 
-Research edition: 19 October 2026. The public page is `../index.html`; it is plain HTML, CSS and JavaScript, served directly by the existing GitHub Pages repository. No new framework or build step is required.
+Research edition: 21 October 2026. The public page is `../index.html`; it is plain HTML, CSS and JavaScript, served directly by the existing GitHub Pages repository. No new framework or build step is required.
 
 ## Local preview
 
@@ -8,11 +8,13 @@ Run `npm run serve:automotive` from the repository root, then open <http://127.0
 
 ## Scope and inclusion
 
-The main timeline contains **38 model families from 23 makers** (1.65 families per maker; maximum permitted at 2.5 is 57). Every listed maker is represented. There are **104 selected evolution entries** inside those families, and **11 honorable mentions** outside the main timeline.
+The main timeline contains **58 model families from 32 makers** (1.81 families per maker; maximum permitted at 2.5 is 80). The former 11 honorable mentions now appear as complete timeline entries, alongside 10 new editorially nominated cars. There are **137 selected evolution entries** inside the timeline families. The added candidates are documented in `build-catalog.py` with source links and chapter notes.
 
 This is a bounded introduction to industrial and visual history, not a claim that these are objectively the 19 most important manufacturers. Candidates must have an explicit nomination, retrospective appraisal or design assessment in a named automotive publication. The maker registry is derived from the marques of the cited candidates; a maker’s presence is evidence of its included cars, rather than an invented brand ranking.
 
-The October expansion adds Testarossa and LaFerrari; Diablo and Aventador; 959 and Taycan; Roadster and Model 3; and the requested Utopia, 720S, MC20, Emira and Jesko. The additional nominations and design appraisals come from Top Gear, evo, Car and Driver and Auto Express. The 20 added design chapters omit minor trims and close roof/face changes. `expansion.json` is their maintained source; `expansion-image-candidates.json` records the initial photo candidates.
+The October expansion adds Testarossa and LaFerrari; Diablo and Aventador; 959 and Taycan; Roadster and Model 3; and Utopia, 720S, MC20, Emira and Jesko. Ten further nominations add the Renault 4, Mazda Cosmo Sport, Toyota 2000GT, Peugeot 205 GTi, Lotus Elise, Subaru Impreza P1, Renault Avantime, Fiat Panda, Alfa Romeo 33 Stradale and Peugeot 205 T16. Their editorial evidence comes from linked Top Gear retrospective lists; relevant specialist histories are also linked in the catalog.
+
+The 10 new entries have full narratives, evidence references, dated evolution chapters and locally served Commons galleries with file-level attribution. The 11 promoted entries retain their existing attributed local photos.
 
 The selection bibliography is in `../data.json` and visible under the page’s selection disclosure and in each car modal. The major anchors are:
 
@@ -49,7 +51,7 @@ Minor trims, small facelifts and engine-only changes are condensed. Each family 
 - The i3 I01 hatchback and unrelated later i3 saloons.
 - The Model S cabin redesign and Plaid drivetrain, which do not constitute a new vehicle generation.
 
-The 104 entries are selective visual chapters, not an exhaustive list of every badge, body style or mechanical derivative. Photographs may show a later example within the stated chapter; the original file description identifies the pictured example. A replica is described as such in its source caption.
+The 137 entries are selective visual chapters, not an exhaustive list of every badge, body style or mechanical derivative. Photographs may show a later example within the stated chapter; the original file description identifies the pictured example. A replica is described as such in its source caption.
 
 ## Photography and video
 

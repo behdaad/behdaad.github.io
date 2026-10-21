@@ -4123,35 +4123,24 @@
           "kind": "Production",
           "photos": [
             {
-              "src": "assets/845696a98923cd.webp",
-              "file": "Peugeot_205_front_20080121.jpg",
-              "credit": "Rudolf Stricker",
-              "license": "CC BY-SA 3.0",
-              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_front_20080121.jpg",
+              "src": "assets/5fa219c2fa3beb.webp",
+              "file": "1985_Peugeot_205_GTi.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1985_Peugeot_205_GTi.jpg",
               "description": "Peugeot 205",
               "origin": "Wikimedia Commons · archive / contemporary photograph",
               "transformation": "Resized and converted to WebP; original image linked in credit."
             },
             {
-              "src": "assets/a9f535d90a02fe.webp",
-              "file": "1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
-              "credit": "Niels de Wit from Lunteren, The Netherlands",
-              "license": "CC BY 2.0",
-              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-              "page": "https://commons.wikimedia.org/wiki/File:1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
-              "description": "NY-87-JK",
-              "origin": "Wikimedia Commons · archive / contemporary photograph",
-              "transformation": "Resized and converted to WebP; original image linked in credit."
-            },
-            {
-              "src": "assets/bdc5cd45e668b1.webp",
-              "file": "Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
-              "credit": "RL GNZLZ from Chile",
-              "license": "CC BY-SA 2.0",
-              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
-              "description": "Peugeot 205 1.4 GT Cabriolet 1989",
+              "src": "assets/d9838c7c16fda2.webp",
+              "file": "Peugeot_205_GTI_interior.jpg",
+              "credit": "TKOIII",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_GTI_interior.jpg",
+              "description": "Peugeot 205 GTI at Radwood Austin",
               "origin": "Wikimedia Commons · archive / contemporary photograph",
               "transformation": "Resized and converted to WebP; original image linked in credit."
             }
@@ -4167,35 +4156,24 @@
           "kind": "Production",
           "photos": [
             {
-              "src": "assets/845696a98923cd.webp",
-              "file": "Peugeot_205_front_20080121.jpg",
-              "credit": "Rudolf Stricker",
+              "src": "assets/0cfd8e7e9cfca7.webp",
+              "file": "1991_Peugeot_205_GTi_1.9_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1991_Peugeot_205_GTi_1.9_Front.jpg",
+              "description": "1991 Peugeot 205 GTi 1.9 Front Taken at NAEC Stoneleigh, Stoneleigh, Coventry",
+              "origin": "Wikimedia Commons · archive / contemporary photograph",
+              "transformation": "Resized and converted to WebP; original image linked in credit."
+            },
+            {
+              "src": "assets/ac171f65846070.webp",
+              "file": "Pug205gti_hinten.jpg",
+              "credit": "Christoph (CrazyD)",
               "license": "CC BY-SA 3.0",
               "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_front_20080121.jpg",
-              "description": "Peugeot 205",
-              "origin": "Wikimedia Commons · archive / contemporary photograph",
-              "transformation": "Resized and converted to WebP; original image linked in credit."
-            },
-            {
-              "src": "assets/a9f535d90a02fe.webp",
-              "file": "1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
-              "credit": "Niels de Wit from Lunteren, The Netherlands",
-              "license": "CC BY 2.0",
-              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-              "page": "https://commons.wikimedia.org/wiki/File:1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
-              "description": "NY-87-JK",
-              "origin": "Wikimedia Commons · archive / contemporary photograph",
-              "transformation": "Resized and converted to WebP; original image linked in credit."
-            },
-            {
-              "src": "assets/bdc5cd45e668b1.webp",
-              "file": "Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
-              "credit": "RL GNZLZ from Chile",
-              "license": "CC BY-SA 2.0",
-              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
-              "description": "Peugeot 205 1.4 GT Cabriolet 1989",
+              "page": "https://commons.wikimedia.org/wiki/File:Pug205gti_hinten.jpg",
+              "description": "Peugeot 205 GTI 1.9l, 120 PS (mit Kat), Baujahr 1993, Kilometerstand bei dieser Aufnahme: 40.000km",
               "origin": "Wikimedia Commons · archive / contemporary photograph",
               "transformation": "Resized and converted to WebP; original image linked in credit."
             }
@@ -4231,35 +4209,13 @@
           "kind": "Production",
           "photos": [
             {
-              "src": "assets/845696a98923cd.webp",
-              "file": "Peugeot_205_front_20080121.jpg",
-              "credit": "Rudolf Stricker",
-              "license": "CC BY-SA 3.0",
-              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_front_20080121.jpg",
-              "description": "Peugeot 205",
-              "origin": "Wikimedia Commons · archive / contemporary photograph",
-              "transformation": "Resized and converted to WebP; original image linked in credit."
-            },
-            {
-              "src": "assets/a9f535d90a02fe.webp",
-              "file": "1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
-              "credit": "Niels de Wit from Lunteren, The Netherlands",
-              "license": "CC BY 2.0",
-              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-              "page": "https://commons.wikimedia.org/wiki/File:1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
-              "description": "NY-87-JK",
-              "origin": "Wikimedia Commons · archive / contemporary photograph",
-              "transformation": "Resized and converted to WebP; original image linked in credit."
-            },
-            {
-              "src": "assets/bdc5cd45e668b1.webp",
-              "file": "Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
-              "credit": "RL GNZLZ from Chile",
-              "license": "CC BY-SA 2.0",
-              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
-              "description": "Peugeot 205 1.4 GT Cabriolet 1989",
+              "src": "assets/8ee6d3d88bfbbb.webp",
+              "file": "1985_Peugeot_Turbo_16,_front_right,_trackside.jpg",
+              "credit": "Rmoffen",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "page": "https://commons.wikimedia.org/wiki/File:1985_Peugeot_Turbo_16,_front_right,_trackside.jpg",
+              "description": "1985 Peugeot 205 T16 Homologation car",
               "origin": "Wikimedia Commons · archive / contemporary photograph",
               "transformation": "Resized and converted to WebP; original image linked in credit."
             }
@@ -4275,35 +4231,24 @@
           "kind": "Competition derivative",
           "photos": [
             {
-              "src": "assets/845696a98923cd.webp",
-              "file": "Peugeot_205_front_20080121.jpg",
-              "credit": "Rudolf Stricker",
-              "license": "CC BY-SA 3.0",
-              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_front_20080121.jpg",
-              "description": "Peugeot 205",
-              "origin": "Wikimedia Commons · archive / contemporary photograph",
-              "transformation": "Resized and converted to WebP; original image linked in credit."
-            },
-            {
-              "src": "assets/a9f535d90a02fe.webp",
-              "file": "1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
-              "credit": "Niels de Wit from Lunteren, The Netherlands",
+              "src": "assets/0ec7034434721d.webp",
+              "file": "Peugeot_Talbot_Sport_205_T16_(28504430670).jpg",
+              "credit": "Steven Straiton from UK",
               "license": "CC BY 2.0",
               "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-              "page": "https://commons.wikimedia.org/wiki/File:1986_Peugeot_205_GL_(9032147497)_(cropped).jpg",
-              "description": "NY-87-JK",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_Talbot_Sport_205_T16_(28504430670).jpg",
+              "description": "Ignition Festival Glasgow",
               "origin": "Wikimedia Commons · archive / contemporary photograph",
               "transformation": "Resized and converted to WebP; original image linked in credit."
             },
             {
-              "src": "assets/bdc5cd45e668b1.webp",
-              "file": "Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
-              "credit": "RL GNZLZ from Chile",
-              "license": "CC BY-SA 2.0",
-              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_1.4_GT_Cabriolet_1989_(36372390585).jpg",
-              "description": "Peugeot 205 1.4 GT Cabriolet 1989",
+              "src": "assets/5c652e6f260ad1.webp",
+              "file": "Peugeot_205_Turbo_16_Dakar_01.JPG",
+              "credit": "Arnaud 25",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "page": "https://commons.wikimedia.org/wiki/File:Peugeot_205_Turbo_16_Dakar_01.JPG",
+              "description": "Peugeot 205 Turbo 16 Grand Raid Paris/Dakar - Piloté par Ari Vatanen - Musée de l'Aventure Peugeot de Sochaux.",
               "origin": "Wikimedia Commons · archive / contemporary photograph",
               "transformation": "Resized and converted to WebP; original image linked in credit."
             }

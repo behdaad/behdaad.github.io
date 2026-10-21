@@ -5,7 +5,7 @@
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let data;
   try {
-    const response = await fetch('data.json');
+    const response = await fetch('data.json?v=peugeot-gallery-20261021');
     if (!response.ok) throw new Error(`Catalog request returned ${response.status}`);
     data = await response.json();
   } catch (error) {

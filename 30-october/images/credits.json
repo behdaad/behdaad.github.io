@@ -207,5 +207,1040 @@
     "credit": "esh",
     "attribution": "Studio Michiel Wijnen",
     "checked": "2026-10-21"
+  },
+  {
+    "file": "super-drinks-01.webp",
+    "source": "https://www.superlyan.com/media/1xzp0hww/superlyan5thmarch-149.jpg?quality=70",
+    "source_page": "https://www.superlyan.com/",
+    "credit": "super",
+    "attribution": "Super Lyan",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "super-drinks-02.webp",
+    "source": "https://www.superlyan.com/media/ltwphbd0/superlyan5thmarch-107.jpg?quality=70",
+    "source_page": "https://www.superlyan.com/",
+    "credit": "super",
+    "attribution": "Super Lyan",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "super-drinks-03.webp",
+    "source": "https://www.superlyan.com/media/iwxfo32b/superlyan5thmarch-091.jpg?quality=70",
+    "source_page": "https://www.superlyan.com/",
+    "credit": "super",
+    "attribution": "Super Lyan",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "super-drinks-04.webp",
+    "source": "https://www.superlyan.com/media/jb0bhdas/superlyan5thmarch-023.jpg?quality=70",
+    "source_page": "https://www.superlyan.com/",
+    "credit": "super",
+    "attribution": "Super Lyan",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "super-drinks-05.webp",
+    "source": "https://www.superlyan.com/media/xoml2loq/superlyan-lifestyle-april-2025-ashkan-mortezapour-photography-36-of-36.jpg?quality=70",
+    "source_page": "https://www.superlyan.com/",
+    "credit": "super",
+    "attribution": "Super Lyan",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "super-drinks-06.webp",
+    "source": "https://www.superlyan.com/media/cuqnetkv/superlyan5thmarch-052.jpg?quality=70",
+    "source_page": "https://www.superlyan.com/",
+    "credit": "super",
+    "attribution": "Super Lyan",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "super-setting-01.webp",
+    "source": "https://www.superlyan.com/media/2v5dmnwe/picture2-x1400-q100.jpeg?quality=70",
+    "source_page": "https://www.superlyan.com/",
+    "credit": "super",
+    "attribution": "Super Lyan",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "super-setting-02.webp",
+    "source": "https://www.superlyan.com/media/2hkn50rg/superlyan-march-2022-ashkan-mortezapour-photography-5-of-45.jpg?quality=70",
+    "source_page": "https://www.superlyan.com/",
+    "credit": "super",
+    "attribution": "Super Lyan",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "janine-food-01.webp",
+    "source": "https://v2cdn1.centralappstatic.com/image/clip/3089x4634_gallery_9f2fe72813f24c80bb930a08e7d18bcd.webp",
+    "source_page": "https://janineamsterdam.com/en",
+    "credit": "janine",
+    "attribution": "Janine",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "janine-food-02.webp",
+    "source": "https://v2cdn1.centralappstatic.com/image/clip/3209x4813_gallery_3b18a9a5ce4c4fd08b96d2b8dc7703ef.webp",
+    "source_page": "https://janineamsterdam.com/en",
+    "credit": "janine",
+    "attribution": "Janine",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "janine-food-03.webp",
+    "source": "https://v2cdn1.centralappstatic.com/image/clip/4412x2940_gallery_0028c883f7a645c4a72ba0036ae2079f.webp",
+    "source_page": "https://janineamsterdam.com/en",
+    "credit": "janine",
+    "attribution": "Janine",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "janine-food-04.webp",
+    "source": "https://v2cdn1.centralappstatic.com/image/clip/3663x2442_gallery_aa684ce030c545a2b8745cfe830e7466.webp",
+    "source_page": "https://janineamsterdam.com/en",
+    "credit": "janine",
+    "attribution": "Janine",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "janine-food-05.webp",
+    "source": "https://v2cdn1.centralappstatic.com/image/clip/3704x4629_gallery_8a2fcae6b45345e9b88388ff9e33dbbf.webp",
+    "source_page": "https://janineamsterdam.com/en",
+    "credit": "janine",
+    "attribution": "Janine",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "janine-food-06.webp",
+    "source": "https://v2cdn1.centralappstatic.com/image/clip/1984x2606_gallery_003c30b4103347909daaf16f00ed36c7.webp",
+    "source_page": "https://janineamsterdam.com/en",
+    "credit": "janine",
+    "attribution": "Janine",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "janine-setting-01.webp",
+    "source": "https://v2cdn0.centralappstatic.com/image/clip/6720x4480_gallery_6531fdd1efa044c4b544a5b9d9ac459a.webp",
+    "source_page": "https://janineamsterdam.com/en",
+    "credit": "janine",
+    "attribution": "Janine",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "janine-setting-02.webp",
+    "source": "https://v2cdn1.centralappstatic.com/image/clip/6720x4480_gallery_3ee023bf2215460ba5d3e9d9d2e0b9d9.webp",
+    "source_page": "https://janineamsterdam.com/en",
+    "credit": "janine",
+    "attribution": "Janine",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "oldenhof-drinks-01.webp",
+    "source": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/862043910_18092487647669631_2612529424247091970_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rWg9Nbbb2R0Q7kNvwE2qjTD&_nc_oc=Adq592AAtBlvaUIe1ZS0OxFia-lVP7TY_NkET_1uX58RGCWCn7RkWDZRQhf4nrhhlV8&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=vxlFfppbgcuOLHjxwmv2jw&_nc_tpa=Q5bMBQLbJBpwOrRAUto3HEmY_lshEIolXwLOYJZJUb0DEcbQ6B4jbXUC3hB4k6Y2qRq8_HPzT3gW55JURA&oh=00_AQNSv0MF0p38IQPzMysqVzjGcKW4NYetvGR7vLoy3fswlQ&oe=6AE01552",
+    "source_page": "https://bar-oldenhof.com/",
+    "credit": "oldenhof",
+    "attribution": "Bar Oldenhof",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "oldenhof-drinks-02.webp",
+    "source": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/769113366_18081351533669631_98062427989052127_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=xWY-4tKv6tUQ7kNvwH1LGh7&_nc_oc=Adq3sMNO-FHH7z1ungX7g9p0M4LwPdSmEPiYWjyVXERRiEVOYZea6sUnK8ZM3FCyZHw&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=vxlFfppbgcuOLHjxwmv2jw&_nc_tpa=Q5bMBQJ12kUMhYOUqfkGO0fKj05xBZY8WyghK4KX2r2RyaJ8zo6N7E_iTt9Dpgow4SLhxnBNR_ba5k_FAQ&oh=00_AQMcOgl8y2oZlW8Xl4wD6tbeuqhZqIhPEgOV_Khy4J_2_w&oe=6AE03D4D",
+    "source_page": "https://bar-oldenhof.com/",
+    "credit": "oldenhof",
+    "attribution": "Bar Oldenhof",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "oldenhof-drinks-03.webp",
+    "source": "https://bar-oldenhof.com/wp-content/uploads/2025/08/2025_Bar-Oldenhof_178_35-2-scaled.jpg",
+    "source_page": "https://bar-oldenhof.com/",
+    "credit": "oldenhof",
+    "attribution": "Bar Oldenhof",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "oldenhof-drinks-04.webp",
+    "source": "https://bar-oldenhof.com/wp-content/uploads/2025/06/2025_Bar-Oldenhof_178_113.jpg",
+    "source_page": "https://bar-oldenhof.com/",
+    "credit": "oldenhof",
+    "attribution": "Bar Oldenhof",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "oldenhof-drinks-05.webp",
+    "source": "https://bar-oldenhof.com/wp-content/uploads/2025/06/Punk-Photography-x-Oldenhof-018.jpg",
+    "source_page": "https://bar-oldenhof.com/",
+    "credit": "oldenhof",
+    "attribution": "Bar Oldenhof",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "oldenhof-drinks-06.webp",
+    "source": "https://bar-oldenhof.com/wp-content/uploads/2025/06/Punk-Photography-x-Oldenhof-006.jpg",
+    "source_page": "https://bar-oldenhof.com/",
+    "credit": "oldenhof",
+    "attribution": "Bar Oldenhof",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "oldenhof-setting-01.webp",
+    "source": "https://bar-oldenhof.com/wp-content/uploads/2025/06/2025_Bar-Oldenhof_178_107-1.jpg",
+    "source_page": "https://bar-oldenhof.com/",
+    "credit": "oldenhof",
+    "attribution": "Bar Oldenhof",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "oldenhof-setting-02.webp",
+    "source": "https://bar-oldenhof.com/wp-content/uploads/2025/06/2025_Bar-Oldenhof_178_104-1.jpg",
+    "source_page": "https://bar-oldenhof.com/",
+    "credit": "oldenhof",
+    "attribution": "Bar Oldenhof",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "stacks-food-01.webp",
+    "source": "https://cdn.prod.website-files.com/63d8da91240ff147724c7e3e/6ac632c0c036c2b4dd38092a_839157842_18110727068587799_2386474010483168697_n.jpeg",
+    "source_page": "https://www.stacksdiner.com/",
+    "credit": "stacks",
+    "attribution": "Stacks Diner",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "stacks-food-02.webp",
+    "source": "https://cdn.prod.website-files.com/63d8da91240ff147724c7e3e/6abe545dcc5c90f0a8ff547b_829647547_18109893713587799_960177903284027214_n.jpeg",
+    "source_page": "https://www.stacksdiner.com/",
+    "credit": "stacks",
+    "attribution": "Stacks Diner",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "stacks-food-03.webp",
+    "source": "https://cdn.prod.website-files.com/63d8da91240ff147724c7e3e/6aace09b7fa8f963ef2d80d4_790059394_18105911708587799_3505149775173337680_n.jpg",
+    "source_page": "https://www.stacksdiner.com/",
+    "credit": "stacks",
+    "attribution": "Stacks Diner",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "stacks-food-04.webp",
+    "source": "https://cdn.prod.website-files.com/63d8da91240ff147724c7e3e/6ac8b6f552a947c04ca5464e_842143204_18110998007587799_2042387801649662393_n.jpeg",
+    "source_page": "https://www.stacksdiner.com/",
+    "credit": "stacks",
+    "attribution": "Stacks Diner",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "stacks-food-05.webp",
+    "source": "https://img05.restaurantguru.com/r426-Stacks-Diner-design-2025-08.jpg",
+    "source_page": "https://restaurantguru.com/Stacks-Diner-Amsterdam",
+    "credit": "stacks",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "stacks-food-06.webp",
+    "source": "https://img05.restaurantguru.com/r285-Stacks-Diner-food-2025-08-1.jpg",
+    "source_page": "https://restaurantguru.com/Stacks-Diner-Amsterdam",
+    "credit": "stacks",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "stacks-food-07.webp",
+    "source": "https://img05.restaurantguru.com/r98d-cheesecake-Stacks-Diner.jpg",
+    "source_page": "https://restaurantguru.com/Stacks-Diner-Amsterdam",
+    "credit": "stacks",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "stacks-food-08.webp",
+    "source": "https://img05.restaurantguru.com/re34-Stacks-Diner-seaweed-salad.jpg",
+    "source_page": "https://restaurantguru.com/Stacks-Diner-Amsterdam",
+    "credit": "stacks",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "stacks-setting-01.webp",
+    "source": "https://cdn.prod.website-files.com/63d8da91240ff147724c7e3e/6ac78ef8500b8f83584b7aaf_840189623_18110877347587799_8331145742400305514_n.jpeg",
+    "source_page": "https://www.stacksdiner.com/",
+    "credit": "stacks",
+    "attribution": "Stacks Diner",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "stacks-setting-02.webp",
+    "source": "https://cdn.prod.website-files.com/638de27ec024aee26def52ff/677dba869f1bcc34f825e8f6__DSF2562%202.jpg",
+    "source_page": "https://www.stacksdiner.com/",
+    "credit": "stacks",
+    "attribution": "Stacks Diner",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "dutch-drinks-01.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6933269747c2d12e475c3c53/d036594e-d7c3-48bc-b3c2-b867e2a14fd0/Dutch+Courage+-+01.jpg?format=1000w",
+    "source_page": "https://www.dutchcouragecocktails.com/",
+    "credit": "dutch",
+    "attribution": "Dutch Courage",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "dutch-drinks-02.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6933269747c2d12e475c3c53/c1a48912-34a0-4994-b759-a6afd8ad974e/Dutch+Courage+-+14.jpg?format=1000w",
+    "source_page": "https://www.dutchcouragecocktails.com/",
+    "credit": "dutch",
+    "attribution": "Dutch Courage",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "dutch-drinks-03.webp",
+    "source": "https://img05.restaurantguru.com/rfd7-Dutch-Courage-dishes-2023-04.jpg",
+    "source_page": "https://restaurantguru.com/Dutch-Courage-Amsterdam",
+    "credit": "dutch",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "dutch-drinks-04.webp",
+    "source": "https://img05.restaurantguru.com/rcb4-picture-Dutch-Courage-2023-04.jpg",
+    "source_page": "https://restaurantguru.com/Dutch-Courage-Amsterdam",
+    "credit": "dutch",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "dutch-drinks-05.webp",
+    "source": "https://img05.restaurantguru.com/r31a-beverage-Dutch-Courage-2023-04-1.jpg",
+    "source_page": "https://restaurantguru.com/Dutch-Courage-Amsterdam",
+    "credit": "dutch",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "dutch-drinks-06.webp",
+    "source": "https://img05.restaurantguru.com/r496-Dutch-Courage-beverage-2023-04.jpg",
+    "source_page": "https://restaurantguru.com/Dutch-Courage-Amsterdam",
+    "credit": "dutch",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "dutch-setting-01.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6933269747c2d12e475c3c53/f51737c1-6206-4b14-ba23-709365ad2375/Dutch+Courage+-+02.jpg?format=1000w",
+    "source_page": "https://www.dutchcouragecocktails.com/",
+    "credit": "dutch",
+    "attribution": "Dutch Courage",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "tujuh-food-01.webp",
+    "source": "https://tujuhmaret.nl/wp-content/uploads/2019/11/6528-min.jpg",
+    "source_page": "https://tujuhmaret.nl/",
+    "credit": "tujuh",
+    "attribution": "Tujuh Maret",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "tujuh-food-02.webp",
+    "source": "https://tujuhmaret.nl/wp-content/uploads/2019/10/6569-min.jpg",
+    "source_page": "https://tujuhmaret.nl/",
+    "credit": "tujuh",
+    "attribution": "Tujuh Maret",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "tujuh-food-03.webp",
+    "source": "https://tujuhmaret.nl/wp-content/uploads/2019/11/6692-min.jpg",
+    "source_page": "https://tujuhmaret.nl/",
+    "credit": "tujuh",
+    "attribution": "Tujuh Maret",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "tujuh-food-04.webp",
+    "source": "https://tujuhmaret.nl/wp-content/uploads/2019/11/6631-min-1-min.jpg",
+    "source_page": "https://tujuhmaret.nl/",
+    "credit": "tujuh",
+    "attribution": "Tujuh Maret",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "tujuh-food-05.webp",
+    "source": "https://tujuhmaret.nl/wp-content/uploads/2019/11/6738-min.jpg",
+    "source_page": "https://tujuhmaret.nl/",
+    "credit": "tujuh",
+    "attribution": "Tujuh Maret",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "tujuh-food-06.webp",
+    "source": "https://tujuhmaret.nl/wp-content/uploads/2019/10/6580-min.jpg",
+    "source_page": "https://tujuhmaret.nl/",
+    "credit": "tujuh",
+    "attribution": "Tujuh Maret",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "tujuh-setting-01.webp",
+    "source": "https://tujuhmaret.nl/wp-content/uploads/2019/10/6887-min.jpg",
+    "source_page": "https://tujuhmaret.nl/",
+    "credit": "tujuh",
+    "attribution": "Tujuh Maret",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "kid-food-01.webp",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/kid-restaurant-amsterdam_5.jpeg",
+    "source_page": "https://www.amsterdamnow.com/en/restaurants/kid-amsterdam-asian-restaurant-baarsjes/",
+    "credit": "kid",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "kid-food-02.webp",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/kid-restaurant-amsterdam_1.jpeg",
+    "source_page": "https://www.amsterdamnow.com/en/restaurants/kid-amsterdam-asian-restaurant-baarsjes/",
+    "credit": "kid",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "kid-food-03.webp",
+    "source": "https://img05.restaurantguru.com/rad4-meals-KID-Amsterdam.jpg",
+    "source_page": "https://restaurantguru.com/KID-Amsterdam-Amsterdam",
+    "credit": "kid",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "kid-food-04.webp",
+    "source": "https://img05.restaurantguru.com/rc13-KID-Amsterdam-food-2025-06-1.jpg",
+    "source_page": "https://restaurantguru.com/KID-Amsterdam-Amsterdam",
+    "credit": "kid",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "kid-food-05.webp",
+    "source": "https://img05.restaurantguru.com/ree3-meals-KID-Amsterdam-2025-06-1.jpg",
+    "source_page": "https://restaurantguru.com/KID-Amsterdam-Amsterdam",
+    "credit": "kid",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "kid-food-06.webp",
+    "source": "https://img05.restaurantguru.com/r383-dishes-KID-Amsterdam-2025-06-1.jpg",
+    "source_page": "https://restaurantguru.com/KID-Amsterdam-Amsterdam",
+    "credit": "kid",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "kid-setting-01.webp",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/kid-restaurant-amsterdam_3.jpeg",
+    "source_page": "https://www.amsterdamnow.com/en/restaurants/kid-amsterdam-asian-restaurant-baarsjes/",
+    "credit": "kid",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "kid-setting-02.webp",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/kid-restaurant-amsterdam_4.jpeg",
+    "source_page": "https://www.amsterdamnow.com/en/restaurants/kid-amsterdam-asian-restaurant-baarsjes/",
+    "credit": "kid",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "pendergast-food-01.webp",
+    "source": "https://pendergast.nl/wp-content/uploads/2016/03/brisket.jpg",
+    "source_page": "https://pendergast.nl/",
+    "credit": "pendergast",
+    "attribution": "Pendergast",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "pendergast-food-02.webp",
+    "source": "https://pendergast.nl/wp-content/uploads/2016/03/greenspie-1.jpg",
+    "source_page": "https://pendergast.nl/",
+    "credit": "pendergast",
+    "attribution": "Pendergast",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "pendergast-food-03.webp",
+    "source": "https://img05.restaurantguru.com/r3fa-dishes-Pendergast-2025-09.jpg",
+    "source_page": "https://restaurantguru.com/Pendergast-Amsterdam",
+    "credit": "pendergast",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "pendergast-food-04.webp",
+    "source": "https://img05.restaurantguru.com/r125-Pendergast-dishes-2025-09-1.jpg",
+    "source_page": "https://restaurantguru.com/Pendergast-Amsterdam",
+    "credit": "pendergast",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "pendergast-food-05.webp",
+    "source": "https://img05.restaurantguru.com/rdc4-Pendergast-meals-2022-10-1.jpg",
+    "source_page": "https://restaurantguru.com/Pendergast-Amsterdam",
+    "credit": "pendergast",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "pendergast-food-06.webp",
+    "source": "https://img05.restaurantguru.com/r758-Pendergast-baby-back-ribs-2024-12-1.jpg",
+    "source_page": "https://restaurantguru.com/Pendergast-Amsterdam",
+    "credit": "pendergast",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "pendergast-food-07.webp",
+    "source": "https://img05.restaurantguru.com/r1a6-meat-Pendergast-2022-10.jpg",
+    "source_page": "https://restaurantguru.com/Pendergast-Amsterdam",
+    "credit": "pendergast",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "pendergast-food-08.webp",
+    "source": "https://img05.restaurantguru.com/r381-Pendergast-meals-2022-10-3.jpg",
+    "source_page": "https://restaurantguru.com/Pendergast-Amsterdam",
+    "credit": "pendergast",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "pendergast-setting-01.webp",
+    "source": "http://pendergast.nl/wp-content/uploads/2016/03/interior_day.jpg",
+    "source_page": "https://pendergast.nl/",
+    "credit": "pendergast",
+    "attribution": "Pendergast",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "pendergast-setting-02.webp",
+    "source": "https://pendergast.nl/wp-content/uploads/2016/03/bar_01-1.jpg",
+    "source_page": "https://pendergast.nl/",
+    "credit": "pendergast",
+    "attribution": "Pendergast",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "nomi-food-01.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/08/DSC09779-scaled.png",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "nomi-food-02.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/08/30_SEP_2024_NOMI_CONTENT_SHOOT_FOTO-53-scaled.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "nomi-food-03.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/08/30_SEP_2024_NOMI_CONTENT_SHOOT_FOTO-47-scaled.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "nomi-food-04.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/08/30_SEP_2024_NOMI_CONTENT_SHOOT_FOTO-65-scaled.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "nomi-food-05.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/08/nomi_typhoonhospitality-02465-scaled-e1785762652350.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "nomi-food-06.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/07/30_SEP_2024_NOMI_CONTENT_SHOOT_FOTO-48-scaled-1.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "nomi-food-07.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/07/nomi_typhoonhospitality_julesreijnders.studio-04780-scaled-1.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "nomi-food-08.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/08/nomi_typhoonhospitality-02407-scaled.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "nomi-setting-01.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/08/Copy-of-30_SEP_2024_NOMI_CONTENT_SHOOT_FOTO-9-scaled.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "nomi-setting-02.webp",
+    "source": "https://restaurantnomi.nl/wp-content/uploads/2026/08/30_SEP_2024_NOMI_CONTENT_SHOOT_FOTO-7-scaled.jpg",
+    "source_page": "https://restaurantnomi.nl/en/amsterdam-vijzelstraat/",
+    "credit": "nomi",
+    "attribution": "Nomi \u00b7 Vijzelstraat",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "esh-food-01.webp",
+    "source": "https://www.debuik.nl/media/Mk3QKwpVRvK1qNVzVmpz/convert?w=825&cache=true&quality=100",
+    "source_page": "https://www.debuik.nl/amsterdam/uit-eten/een-avondje-tel-aviv-streetfood-bij-esh-pitaria-bar",
+    "credit": "esh",
+    "attribution": "Raphael Meibergen / De Buik",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "esh-food-02.webp",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/Esh_1.jpg",
+    "source_page": "https://www.amsterdamnow.com/restaurants/esh-pitabar-midden-oosten-streetfood-museumplein/",
+    "credit": "esh",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "esh-food-03.webp",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/Esh_2.jpg",
+    "source_page": "https://www.amsterdamnow.com/restaurants/esh-pitabar-midden-oosten-streetfood-museumplein/",
+    "credit": "esh",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "esh-food-04.webp",
+    "source": "https://www.yourlittleblackbook.me/wp-content/uploads/2024/01/esh-amsterdam.jpg",
+    "source_page": "https://www.michielwijnen.com/esh-pita-bar",
+    "credit": "esh",
+    "attribution": "Studio Michiel Wijnen",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "esh-food-05.webp",
+    "source": "https://www.yourlittleblackbook.me/wp-content/uploads/2024/01/esh-amsterdam-2.jpg",
+    "source_page": "https://www.michielwijnen.com/esh-pita-bar",
+    "credit": "esh",
+    "attribution": "Studio Michiel Wijnen",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "esh-food-06.webp",
+    "source": "https://www.debuik.nl/media/cERpwd0SGKT5KEQBGlXj/convert?w=825&cache=true&quality=100",
+    "source_page": "https://www.debuik.nl/amsterdam/uit-eten/een-avondje-tel-aviv-streetfood-bij-esh-pitaria-bar",
+    "credit": "esh",
+    "attribution": "Raphael Meibergen / De Buik",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "esh-setting-01.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/59c913c21f318dd81ea73ffa/27aed1b4-0fd3-4bc2-8b2e-10aa9fe2184d/StudioMichielWijnen_EshPitaBar+4.png?format=1000w",
+    "source_page": "https://www.michielwijnen.com/esh-pita-bar",
+    "credit": "esh",
+    "attribution": "Studio Michiel Wijnen",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "esh-setting-02.webp",
+    "source": "https://cdn.amsterdamnow.com/app/uploads/met-een-zonnige-plek-op-het-terras-en-een-pan-shakshuka-voor.jpg",
+    "source_page": "https://www.amsterdamnow.com/restaurants/esh-pitabar-midden-oosten-streetfood-museumplein/",
+    "credit": "esh",
+    "attribution": "Amsterdam NOW",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "morgan-food-01.webp",
+    "source": "https://morganandmees.com/wp-content/uploads/2026/04/Morgan-Mees-Amsterdam-April-Edited-TC-Photography-68-scaled-e1777469784468.jpg",
+    "source_page": "https://morganandmees.com/amsterdam/restaurant-bar/",
+    "credit": "morgan",
+    "attribution": "Morgan & Mees \u00b7 Amsterdam",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "morgan-food-02.webp",
+    "source": "https://morganandmees.com/wp-content/uploads/2026/04/Ontwerp-zonder-titel-7.png",
+    "source_page": "https://morganandmees.com/amsterdam/restaurant-bar/",
+    "credit": "morgan",
+    "attribution": "Morgan & Mees \u00b7 Amsterdam",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "morgan-food-03.webp",
+    "source": "https://morganandmees.com/wp-content/uploads/2026/04/Ontwerp-zonder-titel-5.png",
+    "source_page": "https://morganandmees.com/amsterdam/restaurant-bar/",
+    "credit": "morgan",
+    "attribution": "Morgan & Mees \u00b7 Amsterdam",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "morgan-food-04.webp",
+    "source": "https://morganandmees.com/wp-content/uploads/2026/04/Ontwerp-zonder-titel-3.png",
+    "source_page": "https://morganandmees.com/amsterdam/restaurant-bar/",
+    "credit": "morgan",
+    "attribution": "Morgan & Mees \u00b7 Amsterdam",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "morgan-food-05.webp",
+    "source": "https://morganandmees.com/wp-content/uploads/2026/04/Morgan-Mees-Amsterdam-April-Edited-TC-Photography-85-1-scaled.jpg",
+    "source_page": "https://morganandmees.com/amsterdam/restaurant-bar/",
+    "credit": "morgan",
+    "attribution": "Morgan & Mees \u00b7 Amsterdam",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "morgan-food-06.webp",
+    "source": "https://morganandmees.com/wp-content/uploads/2026/04/Morgan-Mees-Amsterdam-April-Edited-TC-Photography-38-scaled.jpg",
+    "source_page": "https://morganandmees.com/amsterdam/restaurant-bar/",
+    "credit": "morgan",
+    "attribution": "Morgan & Mees \u00b7 Amsterdam",
+    "checked": "2026-10-22",
+    "category": "food"
+  },
+  {
+    "file": "morgan-setting-01.webp",
+    "source": "https://morganandmees.com/wp-content/uploads/2026/04/Morgan-Mees-Amsterdam-April-Edited-TC-Photography-88-scaled.jpg",
+    "source_page": "https://morganandmees.com/amsterdam/restaurant-bar/",
+    "credit": "morgan",
+    "attribution": "Morgan & Mees \u00b7 Amsterdam",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "morgan-setting-02.webp",
+    "source": "https://morganandmees.com/wp-content/uploads/2026/08/Event_phot.png",
+    "source_page": "https://morganandmees.com/amsterdam/restaurant-bar/",
+    "credit": "morgan",
+    "attribution": "Morgan & Mees \u00b7 Amsterdam",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "sal-drinks-01.webp",
+    "source": "https://img05.restaurantguru.com/r904-Sins-of-Sal-dishes-2025-08-2.jpg",
+    "source_page": "https://restaurantguru.com/Sins-of-Sal-Amsterdam",
+    "credit": "sal",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "sal-drinks-02.webp",
+    "source": "https://img05.restaurantguru.com/r576-meals-Sins-of-Sal-2025-08-2.jpg",
+    "source_page": "https://restaurantguru.com/Sins-of-Sal-Amsterdam",
+    "credit": "sal",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "sal-drinks-03.webp",
+    "source": "https://img05.restaurantguru.com/re8a-Sins-of-Sal-meals-2025-08-2.jpg",
+    "source_page": "https://restaurantguru.com/Sins-of-Sal-Amsterdam",
+    "credit": "sal",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "sal-drinks-04.webp",
+    "source": "https://img05.restaurantguru.com/r207-Sins-of-Sal-dishes-2025-08-3.jpg",
+    "source_page": "https://restaurantguru.com/Sins-of-Sal-Amsterdam",
+    "credit": "sal",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "sal-drinks-05.webp",
+    "source": "https://img05.restaurantguru.com/rf1f-dishes-Sins-of-Sal-2025-08-1.jpg",
+    "source_page": "https://restaurantguru.com/Sins-of-Sal-Amsterdam",
+    "credit": "sal",
+    "attribution": "Guest photo / Restaurant Guru",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "sal-drinks-06.webp",
+    "source": "https://static.wixstatic.com/media/04edfe_34054d05f73b403b9c76a0b481929d2a~mv2.jpg",
+    "source_page": "https://www.sinsofsal.nl/",
+    "credit": "sal",
+    "attribution": "Sins of Sal",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "sal-setting-01.webp",
+    "source": "https://static.wixstatic.com/media/04edfe_cc5cf84892ed49e09bb6152067977143~mv2.jpg",
+    "source_page": "https://www.sinsofsal.nl/",
+    "credit": "sal",
+    "attribution": "Sins of Sal",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "sal-setting-02.webp",
+    "source": "https://static.wixstatic.com/media/04edfe_f73a0ff205db47af86866c8cef154010~mv2.jpg",
+    "source_page": "https://www.sinsofsal.nl/",
+    "credit": "sal",
+    "attribution": "Sins of Sal",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "flying-drinks-01.webp",
+    "source": "https://irp.cdn-website.com//e2819987/dms3rep/multi/opt/18.+The+Bird+is+the+Word+%231-1920w.jpg",
+    "source_page": "https://www.flyingdutchmencocktails.shop/contact",
+    "credit": "flying",
+    "attribution": "Flying Dutchmen Cocktails",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "flying-drinks-02.webp",
+    "source": "https://irp.cdn-website.com//e2819987/dms3rep/multi/opt/1.+Genever+Sour-1920w.jpg",
+    "source_page": "https://www.flyingdutchmencocktails.shop/contact",
+    "credit": "flying",
+    "attribution": "Flying Dutchmen Cocktails",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "flying-drinks-03.webp",
+    "source": "https://irp.cdn-website.com//e2819987/dms3rep/multi/opt/20.+Everlove+%28non-alc%29-1920w.jpg",
+    "source_page": "https://www.flyingdutchmencocktails.shop/contact",
+    "credit": "flying",
+    "attribution": "Flying Dutchmen Cocktails",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "flying-drinks-04.webp",
+    "source": "https://irp.cdn-website.com//e2819987/dms3rep/multi/opt/14.+Gimlet+%232-1920w.jpg",
+    "source_page": "https://www.flyingdutchmencocktails.shop/contact",
+    "credit": "flying",
+    "attribution": "Flying Dutchmen Cocktails",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "flying-drinks-05.webp",
+    "source": "https://irp.cdn-website.com//e2819987/dms3rep/multi/opt/9.+Flying+Dutchmen+Cocktail+%26+menu-2880w.jpg",
+    "source_page": "https://www.flyingdutchmencocktails.shop/contact",
+    "credit": "flying",
+    "attribution": "Flying Dutchmen Cocktails",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "flying-drinks-06.webp",
+    "source": "https://thedefineddish.com/wp-content/uploads/2024/11/10.jpg",
+    "source_page": "https://thedefineddish.com/amsterdam-travel-guide/",
+    "credit": "flying",
+    "attribution": "The Defined Dish",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "flying-setting-01.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6346e123ab339148f9f1ec7b/15411d7f-27a5-436f-89bd-17b4de62eebb/flyingdutchmen-cocktails-8.jpg?format=1000w",
+    "source_page": "https://reiters-wings.com/our-work/flyingdutchmencocktails",
+    "credit": "flying",
+    "attribution": "Reiters Wings",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "mokum-drinks-01.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/1739353624803-WZGK31GOLTO83902OE5U/MokumxMoak-059.jpg?format=1000w",
+    "source_page": "https://www.barmokum.nl/",
+    "credit": "mokum",
+    "attribution": "Bar Mokum",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "mokum-drinks-02.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/dc8ddabb-20ac-45a4-aba0-52e99f0dff46/Mokum+x+Moak+-+Cocktail_2.jpg?format=1000w",
+    "source_page": "https://www.barmokum.nl/",
+    "credit": "mokum",
+    "attribution": "Bar Mokum",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "mokum-drinks-03.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/1739352607178-LFX68ZF4NAN2R3DZYC3W/MokumxMoak-022.jpg?format=1000w",
+    "source_page": "https://www.barmokum.nl/",
+    "credit": "mokum",
+    "attribution": "Bar Mokum",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "mokum-drinks-04.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/1739973925768-YKL6Z0VOVII432OT0O8B/MokumxMoak-025.jpg?format=1000w",
+    "source_page": "https://www.barmokum.nl/",
+    "credit": "mokum",
+    "attribution": "Bar Mokum",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "mokum-drinks-05.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/1740566452303-MN7L11LCRTNEKD0K172W/MokumxMoak-061.jpg?format=1000w",
+    "source_page": "https://www.barmokum.nl/",
+    "credit": "mokum",
+    "attribution": "Bar Mokum",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "mokum-drinks-06.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/1740566490910-IJ63JACA12UTGVTHYQEP/Bar+Mokum+-+Customers_2.jpg?format=1000w",
+    "source_page": "https://www.barmokum.nl/",
+    "credit": "mokum",
+    "attribution": "Bar Mokum",
+    "checked": "2026-10-22",
+    "category": "drinks"
+  },
+  {
+    "file": "mokum-setting-01.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/1739352603474-MUWB6JMZVJXHH3K3YHZ4/MokumxMoak-016.jpg?format=1000w",
+    "source_page": "https://www.barmokum.nl/",
+    "credit": "mokum",
+    "attribution": "Bar Mokum",
+    "checked": "2026-10-22",
+    "category": "venue"
+  },
+  {
+    "file": "mokum-setting-02.webp",
+    "source": "https://images.squarespace-cdn.com/content/v1/6784fd72ac78477121669f4f/1740566490740-EYC3PGKMWQSKOLXAPJX9/Bar+Mokum+-+Customers_1.jpg?format=1000w",
+    "source_page": "https://www.barmokum.nl/",
+    "credit": "mokum",
+    "attribution": "Bar Mokum",
+    "checked": "2026-10-22",
+    "category": "venue"
   }
 ]

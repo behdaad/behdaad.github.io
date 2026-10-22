@@ -1,6 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test('outing guide works at desktop and mobile widths', async ({ page }, testInfo) => {
+  test.setTimeout(60000);
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('/30-october/');
@@ -15,7 +16,12 @@ test('outing guide works at desktop and mobile widths', async ({ page }, testInf
     await expect(card.locator('.evening > .route')).toHaveCount(1);
     await expect(card.locator('.venue-links a[href^="https://www.google.com/maps/search/"]')).toHaveCount(2);
     const galleries = card.locator('.gallery');
-    await expect(galleries).toHaveCount(2);
+    await expect(galleries).toHaveCount(4);
+    for (const food of await card.locator('.food-gallery').all()) {
+      expect(await food.locator('.slide').count()).toBeGreaterThanOrEqual(6);
+    }
+    await expect(card.locator('.atmosphere-gallery')).toHaveCount(2);
+    await expect(card.locator('.flavours')).toHaveCount(0);
     for (const gallery of await galleries.all()) {
       if (await gallery.locator('.slide').count() < 2) continue;
       const next = gallery.getByRole('button', {name:/Next photo/});
@@ -49,8 +55,12 @@ test('outing guide works at desktop and mobile widths', async ({ page }, testInf
   await expect(page.locator('#sins-of-sal-morgan-mees .gallery img').first()).toBeVisible();
   await page.locator('#sins-of-sal-morgan-mees .gallery img').first().evaluate(img => img.decode());
   await page.screenshot({path:testInfo.outputPath('new-pair.png')});
+  await page.locator('#bar-mokum-esh .pair-header').evaluate(el => el.scrollIntoView({block:'start'}));
+  await page.locator('#bar-mokum-esh .food-gallery img').first().evaluate(img => img.decode());
+  await page.screenshot({path:testInfo.outputPath('esh-gallery.png')});
   await expect(page.locator('#bar-mokum-esh .tradeoff')).toContainText('provisional');
   await expect(page.getByRole('heading', {name:'Three new places to start.'})).toHaveCount(0);
+  expect(await page.locator('[id]').evaluateAll(els => {const ids=els.map(el=>el.id); return new Set(ids).size === ids.length;})).toBe(true);
   expect(errors).toEqual([]);
 });
 

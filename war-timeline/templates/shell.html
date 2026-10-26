@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{page_title}}</title>
+<meta name="description" content="{{description}}">
+{{robots}}
+<link rel="stylesheet" href="{{asset}}/styles.css"><script src="{{asset}}/app.js" defer></script>
+</head>
+<body style="--years:{{year_count}};--entries:{{lane_count}}">
+<a class="skip" href="#explore">Skip to the timeline</a>
+{{banner}}
+<header class="masthead wrap"><a class="wordmark" href="{{home}}">THE VIEWING ROOM <span>HISTORY THROUGH STORIES</span></a><a href="/">Behdad ↗</a></header>
+<main>
+<section class="hero wrap">
+<p class="eyebrow">A SHORT WATCHLIST / A BIGGER PICTURE</p>
+<h1>{{title}}<span>Through the screen.</span></h1>
+<div class="hero-bottom"><p>{{subtitle}}<br>A few compelling watches. A clearer sense of what happened when.</p><div class="edition"><b>{{entry_count}}</b><span>STORIES<br>{{duration}} TOTAL</span></div></div>
+<p class="fiction-note">{{content_note}}</p>
+</section>
+<div class="layout-band"><nav class="layout-nav wrap" aria-label="Compare demo layouts">{{navigation}}</nav></div>
+<section id="explore" class="explore wrap" aria-labelledby="layout-title">
+<div class="section-heading"><div><p class="eyebrow">{{layout_number}} / THREE WAYS TO SEE THE SAME STORIES</p><h2 id="layout-title">{{layout_name}}</h2></div><p>{{layout_description}}</p></div>
+<div class="legend"><span class="legend-mark"></span><p>Coloured spans show <strong>main-story years</strong>. Brief framing scenes and epilogues are excluded. Numbers identify the same titles everywhere.</p></div>
+<p class="selection-status" role="status" aria-live="polite">Select an event or story to trace its connections.</p>
+{{body}}
+</section>
+<section class="method wrap"><p class="eyebrow">HOW TO READ THIS</p><div><h2>Stories overlap.<br>History keeps moving.</h2><p>Story dates and release dates are different things. A coverage span tells you when the main plot takes place. Event links explain what that story helps you understand; a span alone does not promise that every event is depicted.<br><br>A gap means a gap: separate story periods stay separate. Viewing numbers suggest a useful order, even when their years overlap.</p></div></section>
+</main>
+<script id="timeline-connections" type="application/json">{{connections}}</script>
+<footer class="wrap"><span>THE VIEWING ROOM / TEMPLATE DEMO</span><a href="#">Back to top ↑</a><a href="{{guide}}">Template guide ↗</a></footer>
+</body></html>

@@ -1,0 +1,24 @@
+{
+  "slug": "world-war-i",
+  "title": "World War I",
+  "subtitle": "Understand the years. Follow the stories.",
+  "demo": true,
+  "startYear": 1900,
+  "endYear": 1906,
+  "events": [
+    {"id":"before","year":1900,"title":"Before the storm","description":"Start with everyday life and the tensions gathering beneath it. This fictional opening gives the later stories their context."},
+    {"id":"spark","year":1901,"title":"The breaking point","description":"A crisis becomes a conflict. Follow the choices that turn distant politics into an immediate reality."},
+    {"id":"front","year":1902,"title":"A war takes shape","description":"The first expectations give way to a longer struggle. The front and the home front begin to change each other."},
+    {"id":"stalemate","year":1903,"title":"The long middle","description":"Little seems to move, but the cost keeps growing. Look at the same phase through different people's lives."},
+    {"id":"shift","year":1904,"title":"The balance shifts","description":"A new development changes what each side believes is possible. One story returns here after a gap in its main plot."},
+    {"id":"end","year":1905,"title":"The final push","description":"Exhaustion and urgency collide as the conflict approaches its end. Two stories cover this phase from different angles."},
+    {"id":"after","year":1906,"title":"When the fighting stops","description":"The end of combat does not instantly restore ordinary life. Close with the immediate aftermath and what people carry home."}
+  ],
+  "entries": [
+    {"id":"orchard","title":"The Last Summer Orchard","releaseYear":2014,"format":"Film","minutes":112,"rating":"8.1","color":"#a13e2e","coverage":[[1900,1901]],"events":["before","spark"],"premise":"A family reunion becomes a farewell as a quiet border town hears the first news of conflict.","learn":"How a conflict interrupts ordinary lives, and why the world before the fighting matters.","coverageNote":"The main story spans 1900–1901. A brief old-age epilogue in 1940 is excluded."},
+    {"id":"letters","title":"Letters from the Eastern Road","releaseYear":2019,"format":"Series","episodes":3,"episodeMinutes":48,"rating":"8.4","color":"#426b69","coverage":[[1901,1903]],"events":["spark","front","stalemate"],"premise":"A messenger follows a changing front while letters home tell a very different story.","learn":"How early expectations become a sustained struggle, seen across several years.","coverageNote":"All three episodes belong to the suggested watch. Their main stories cover 1901–1903."},
+    {"id":"winter","title":"A Winter Without Maps","releaseYear":2017,"format":"Film","minutes":104,"rating":"7.9","color":"#816331","coverage":[[1903,1903]],"events":["stalemate"],"premise":"An isolated unit and a nearby village wait through a winter that seems to have no end.","learn":"The human experience of a stalemate, rather than an overview of campaigns.","coverageNote":"The main plot takes place entirely in 1903. A short opening memory is excluded."},
+    {"id":"bridge","title":"The Bridge Between Us","releaseYear":2021,"format":"Film","minutes":126,"rating":"8.2","color":"#685982","coverage":[[1902,1902],[1904,1905]],"events":["front","shift","end"],"premise":"Two engineers meet during the first campaigns, then reunite for a decisive crossing years later.","learn":"How the same place can reveal changes between the early and late phases of a conflict.","coverageNote":"Substantial story sections occur in 1902 and 1904–1905. The intervening year is not shown as covered."},
+    {"id":"morning","title":"The Morning After Silence","releaseYear":2016,"format":"Film","minutes":118,"rating":"8.0","color":"#4e7150","coverage":[[1905,1906]],"events":["end","after"],"premise":"A nurse and a returning soldier try to find their way home as news of peace travels ahead of them.","learn":"The difference between the end of fighting and the beginning of recovery.","coverageNote":"The final fighting and immediate aftermath, 1905–1906, are both central to the plot."}
+  ]
+}

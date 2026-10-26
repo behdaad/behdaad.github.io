@@ -1,12 +1,12 @@
 {
   "slug": "world-war-ii",
   "title": "World War II",
-  "subtitle": "Twelve watches, from the prewar years to the aftermath.",
+  "subtitle": "Twenty-one choices, from the prewar years to the aftermath.",
   "startYear": 1933,
   "endYear": 1946,
   "researchDate": "2026-10-26",
-  "introNote": "Ten films and two complete ten-part series. Budget about 43 hours: series are estimated at an hour per episode, and film editions can differ. IMDb scores were checked on 26 October 2026 using publicly indexed IMDb pages; scores can change and are not measures of historical accuracy.",
-  "scopeNote": "The route connects Europe and the Pacific with China, the Holocaust, naval warfare and civilian survival. It is still selective: North Africa, Italy, resistance movements, the wider Eastern Front, Southeast Asia and the colonial contribution need more than these twelve titles. Essential gaps are explained in the event notes, without implying that a film depicts them.",
+  "introNote": "An expanded selection of 18 films and three complete miniseries, including all three Spielberg–Hanks companion dramas. Choose the perspectives that interest you: several titles overlap. Watching everything is about 73 hours, using approximately an hour per series episode. IMDb scores were checked on 26 October 2026 using publicly indexed pages and can change; they are not historical-accuracy scores.",
+  "scopeNote": "This expanded route adds major popular films, the bomber war, captivity and the Burma–Thailand railway to the original selection. It remains selective: the wider Eastern Front, mainland Italy, the longer war in China, Southeast Asian campaigns and colonial experiences need more attention. Labels distinguish historical depiction, context, fictional missions and alternate history.",
   "closingNote": "Germany surrendered in May 1945; Japan announced surrender in August and signed on 2 September. The chart extends into 1946 because The Pacific devotes a substantial final episode to homecoming and readjustment, not merely an old-age epilogue. Films are selected for engaging viewing, not as substitutes for the historical sources.",
   "events": [
     {
@@ -109,6 +109,19 @@
       ]
     },
     {
+      "id": "occupation",
+      "year": 1940,
+      "dateLabel": "1940 – 1944",
+      "title": "Occupation, collaboration and resistance",
+      "description": "Occupied Europe contained repression, collaboration, survival and many forms of resistance. In France, clandestine networks grew under German occupation and Vichy rule. Inglourious Basterds borrows this setting for an invented revenge story; its plot must not replace the real history of resistance or liberation.",
+      "sources": [
+        {
+          "label": "French Ministry of the Armed Forces · Resistance",
+          "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/resister/resistance-interieure-16"
+        }
+      ]
+    },
+    {
       "id": "barbarossa",
       "year": 1941,
       "dateLabel": "22 JUNE 1941",
@@ -156,7 +169,7 @@
       "year": 1942,
       "dateLabel": "JUNE – AUGUST 1942",
       "title": "The Pacific initiative begins to shift",
-      "description": "US carrier aircraft sank four Japanese carriers at Midway in June. The Guadalcanal campaign began in August, opening a long struggle on land, at sea and in the air. The Pacific follows Marines at Guadalcanal; it does not show the carrier battle at Midway.",
+      "description": "US carrier aircraft sank four Japanese carriers at Midway in June 1942. The Guadalcanal campaign began in August. Midway now supplies a direct cinematic depiction of the carrier battle; The Pacific follows Marines at Guadalcanal. Pearl Harbor’s Doolittle Raid is earlier context, not Midway itself.",
       "sources": [
         {
           "label": "US Naval Aviation Museum · Midway",
@@ -195,6 +208,23 @@
       ]
     },
     {
+      "id": "captivity",
+      "year": 1942,
+      "dateLabel": "1942 – 1945",
+      "title": "Captivity, forced labour and escape",
+      "description": "Prisoner experiences varied sharply by captor, theatre and status. The Burma–Thailand railway exploited Allied POWs and a far larger Asian civilian workforce. The Great Escape dramatises a European airmen’s breakout; Masters of the Air also follows captured crews. These are distinct systems and stories, not interchangeable prison experiences.",
+      "sources": [
+        {
+          "label": "Australian War Memorial · Burma–Thailand railway",
+          "url": "https://www.awm.gov.au/visit/exhibitions/stolenyears/ww2/japan/burmathai"
+        },
+        {
+          "label": "RAF · Stalag Luft III breakout",
+          "url": "https://www.raf.mod.uk/news/articles/great-escape-80/"
+        }
+      ]
+    },
+    {
       "id": "italy",
       "year": 1943,
       "dateLabel": "1943 – 1945",
@@ -209,11 +239,28 @@
       "gapNote": "The Sicily link does not imply coverage of the later mainland fighting at Salerno, Cassino or Anzio."
     },
     {
+      "id": "strategic-bombing",
+      "year": 1943,
+      "dateLabel": "1943 – 1945 / SERIES FOCUS",
+      "title": "The bomber war over Europe",
+      "description": "US bomber crews flew from Britain against targets in German-held Europe, suffering heavy losses to fighters and anti-aircraft fire. Masters of the Air follows the 100th Bomb Group from 1943. This adds the US daylight-bomber perspective; it is not a complete account of Allied air strategy or the civilian experience of bombing.",
+      "sources": [
+        {
+          "label": "National WWII Museum · Masters of the Air and the bomber war",
+          "url": "https://www.nationalww2museum.org/war/topics/masters-air"
+        },
+        {
+          "label": "Apple TV · Series and episode guide",
+          "url": "https://images.apple.com/tv-pr/originals/masters-of-the-air/"
+        }
+      ]
+    },
+    {
       "id": "normandy",
       "year": 1944,
       "dateLabel": "6 JUNE – AUGUST 1944",
       "title": "The western Allies return to France",
-      "description": "D-Day opened the Normandy landings, followed by a hard-fought campaign inland. Band of Brothers follows one US airborne company from the night drop into Normandy and onward. Its viewpoint is narrower than the full multinational invasion.",
+      "description": "D-Day opened the Normandy landings, followed by a hard-fought campaign inland. Saving Private Ryan begins on Omaha Beach and follows a fictional rescue mission. Band of Brothers supplies the airborne-company perspective. Neither covers the full multinational invasion on its own.",
       "sources": [
         {
           "label": "Amblin · Band of Brothers and its campaigns",
@@ -243,7 +290,7 @@
       "year": 1944,
       "dateLabel": "1944 – JUNE 1945",
       "title": "The island campaigns grow more costly",
-      "description": "Peleliu, Iwo Jima and Okinawa reveal different stages of the advance towards Japan. The Pacific follows Marines through these battles, including encounters with civilians at Okinawa. It is a ground-level account, not a complete explanation of naval or air strategy.",
+      "description": "Peleliu, Iwo Jima and Okinawa reveal different stages of the advance towards Japan. The Pacific follows Marines through these battles. Hacksaw Ridge adds an Army medic’s story at Okinawa. Both focus on people in ground combat rather than the whole naval and air campaign.",
       "sources": [
         {
           "label": "National Museum of the Pacific War · Timeline",
@@ -260,7 +307,7 @@
       "year": 1945,
       "dateLabel": "JANUARY – MAY 1945",
       "title": "Camps are liberated; Germany collapses",
-      "description": "Soviet and western Allied armies liberated camps as they entered German-held territory. Soviet forces took Berlin; Germany surrendered in May. Downfall portrays the regime’s final days. Band of Brothers includes a camp liberation, while Schindler’s List reaches the end of its rescue story.",
+      "description": "Soviet and western Allied armies liberated camps as they entered German-held territory. Soviet forces took Berlin; Germany surrendered in May. Downfall portrays the regime’s collapse, while Fury invents a tank crew’s ordeal. The series and Schindler’s List add aircrew, liberation and rescue perspectives.",
       "sources": [
         {
           "label": "USHMM · WWII key dates",
@@ -530,6 +577,84 @@
       "minutes": 144
     },
     {
+      "id": "pearl-harbor",
+      "title": "Pearl Harbor",
+      "releaseYear": 2001,
+      "format": "Film",
+      "rating": "6.3",
+      "color": "#8b4c56",
+      "coverage": [
+        [
+          1941,
+          1942
+        ]
+      ],
+      "events": [
+        "pearl-harbor",
+        "midway"
+      ],
+      "premise": "Two pilots and a nurse are caught in a love triangle that stretches across the attack on Hawaii and the Doolittle Raid. Michael Bay puts romance and blockbuster spectacle ahead of a campaign overview.",
+      "learn": "A popular dramatic route into Pearl Harbor and the American response. The 6.3 IMDb score is visibly lower than most of this list; Tora! Tora! Tora! remains the stronger companion for understanding the attack’s planning.",
+      "coverageNote": "The main adult story covers 1941 and the April 1942 Doolittle Raid. Exclude the 1923 childhood opening and the brief later family epilogue. The central characters and romance are fictional, and the RAF material alters historical chronology. The Doolittle connection supplies context before Midway, not a depiction of that battle.",
+      "imdbUrl": "https://www.imdb.com/title/tt0213149/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0213149/"
+        },
+        {
+          "label": "Disney D23 · Official film identity and runtime",
+          "url": "https://d23.com/a-to-z/pearl-harbor-film/"
+        },
+        {
+          "label": "US Naval Institute · Attack and April 1942 raid",
+          "url": "https://www.usni.org/magazines/naval-history-magazine/2001/august/pearl-harbor-bombed-again"
+        }
+      ],
+      "minutes": 183,
+      "eventNotes": {
+        "midway": "Doolittle Raid: earlier context, not Midway"
+      }
+    },
+    {
+      "id": "midway",
+      "title": "Midway",
+      "releaseYear": 2019,
+      "format": "Film",
+      "rating": "6.7",
+      "color": "#476b87",
+      "coverage": [
+        [
+          1941,
+          1942
+        ]
+      ],
+      "events": [
+        "pearl-harbor",
+        "midway"
+      ],
+      "premise": "American naval aviators and intelligence officers move from Pearl Harbor towards the carrier battle at Midway. Roland Emmerich supplies a large-scale, effects-heavy view of the Pacific air-and-sea war.",
+      "learn": "How carrier aviation, codebreaking and risk shaped an early Pacific turning point. Its lower IMDb score makes it a spectacle-led alternative, while it fills the original route’s missing direct depiction of Midway.",
+      "coverageNote": "The main war narrative runs from Pearl Harbor in December 1941 through the Doolittle Raid and Midway in 1942. Exclude the brief 1937 diplomatic setup. This is the 2019 film, not the 1976 film of the same name. Combat incidents and dialogue are compressed and dramatised.",
+      "imdbUrl": "https://www.imdb.com/title/tt6924650/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt6924650/"
+        },
+        {
+          "label": "TIME · The film’s battle and historical setting",
+          "url": "https://time.com/5711705/midway-movie-true-story/"
+        }
+      ],
+      "minutes": 138,
+      "eventNotes": {
+        "pearl-harbor": "Opening attack and its aftermath"
+      }
+    },
+    {
       "id": "pacific",
       "title": "The Pacific",
       "releaseYear": 2010,
@@ -622,6 +747,128 @@
       }
     },
     {
+      "id": "hacksaw-ridge",
+      "title": "Hacksaw Ridge",
+      "releaseYear": 2016,
+      "format": "Film",
+      "rating": "8.1",
+      "color": "#7b5739",
+      "coverage": [
+        [
+          1942,
+          1942
+        ],
+        [
+          1945,
+          1945
+        ]
+      ],
+      "events": [
+        "islands"
+      ],
+      "premise": "Desmond Doss enlists as a medic while refusing to carry a weapon. His struggle to remain in the army leads to the rescue of wounded soldiers on Okinawa.",
+      "learn": "The role of a combat medic, conscientious conviction and the human cost of the Okinawa fighting. Its faith and survival narrative complements the Marine viewpoint in The Pacific.",
+      "coverageNote": "The substantial enlistment, courtship and training story belongs to 1942; the combat plot jumps to Okinawa in 1945. Separate bars preserve the unshown 1943–1944 interval. Exclude the brief childhood setup and later documentary interviews. The film compresses events and omits Doss’s earlier Pacific campaigns; it is not a full service chronology.",
+      "imdbUrl": "https://www.imdb.com/title/tt2119532/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt2119532/"
+        },
+        {
+          "label": "TIME · Enlistment, marriage, training and Okinawa",
+          "url": "https://time.com/4539373/hacksaw-ridge-movie-true-story/"
+        },
+        {
+          "label": "Desmond Doss Council · Dramatic compression",
+          "url": "https://www.desmonddoss.com/hacksaw-ridge-movie/faq.php"
+        }
+      ],
+      "minutes": 139,
+      "eventNotes": {
+        "islands": "Okinawa, not every island campaign"
+      }
+    },
+    {
+      "id": "great-escape",
+      "title": "The Great Escape",
+      "releaseYear": 1963,
+      "format": "Film",
+      "rating": "8.2",
+      "color": "#496b6a",
+      "coverage": [
+        [
+          1942,
+          1944
+        ]
+      ],
+      "events": [
+        "captivity"
+      ],
+      "premise": "Allied airmen turn a German prison camp into a tunnelling operation. The ensemble, ingenuity and Steve McQueen’s escape attempt make it a classic adventure.",
+      "learn": "The organisation and improvisation behind escape from captivity. It borrows a real breakout but reshapes participants and action for a Hollywood ensemble.",
+      "coverageNote": "A year-level 1942–1944 range follows AFI’s dating of the camp arrival and the March 1944 breakout. The film explicitly compresses time and place, and catalogue summaries differ on the opening year. The famous motorcycle escape is invented, and Americans are given a larger role than in the actual breakout.",
+      "imdbUrl": "https://www.imdb.com/title/tt0057115/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0057115/"
+        },
+        {
+          "label": "AFI · Film chronology and compressed history",
+          "url": "https://catalog.afi.com/Film/23871-THE-GREATESCAPE"
+        },
+        {
+          "label": "RAF · The actual March 1944 escape",
+          "url": "https://www.raf.mod.uk/news/articles/great-escape-80/"
+        }
+      ],
+      "minutes": 172
+    },
+    {
+      "id": "bridge-kwai",
+      "title": "The Bridge on the River Kwai",
+      "releaseYear": 1957,
+      "format": "Film",
+      "rating": "8.1",
+      "color": "#846938",
+      "coverage": [
+        [
+          1943,
+          1943
+        ]
+      ],
+      "events": [
+        "captivity"
+      ],
+      "premise": "A British colonel becomes consumed by building a railway bridge for his Japanese captors while an Allied team plans to destroy it. David Lean turns captivity into a conflict over duty and pride.",
+      "learn": "An entry into the Burma–Thailand railway and forced-labour system, through a fictional military drama. Read the event note for the much larger Asian civilian workforce outside its main viewpoint.",
+      "coverageNote": "The central bridge-building and commando plot is set in 1943. The bridge’s dramatic destruction is fictional, not the real bridges’ later wartime history. Colonel Nicholson is a fictional character, not a fair portrayal of the real Philip Toosey. The 161-minute IMDb edition is used.",
+      "imdbUrl": "https://www.imdb.com/title/tt0050212/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0050212/"
+        },
+        {
+          "label": "AFI · 1943 setting",
+          "url": "https://afisilver.afi.com/films/preview/archive/AFIPreview_36.pdf"
+        },
+        {
+          "label": "TCM · Fiction and the real bridges",
+          "url": "https://www.tcm.com/articles/afi-top-100/24052/the-bridge-on-the-river-kwai-1957"
+        },
+        {
+          "label": "Australian War Memorial · Railway and forced labour",
+          "url": "https://www.awm.gov.au/visit/exhibitions/stolenyears/ww2/japan/burmathai"
+        }
+      ],
+      "minutes": 161
+    },
+    {
       "id": "patton",
       "title": "Patton",
       "releaseYear": 1970,
@@ -665,6 +912,53 @@
       ]
     },
     {
+      "id": "masters-air",
+      "title": "Masters of the Air",
+      "releaseYear": 2024,
+      "format": "Series",
+      "rating": "7.8",
+      "color": "#526984",
+      "coverage": [
+        [
+          1943,
+          1945
+        ]
+      ],
+      "events": [
+        "strategic-bombing",
+        "captivity",
+        "liberation"
+      ],
+      "premise": "The men of the 100th Bomb Group fly from Britain into the air war over Europe, then face loss, captivity and the approach of victory. Watch all nine episodes of the Apple TV miniseries.",
+      "learn": "The US bomber campaign, the vulnerability of aircrews and the lives of captured airmen. This is the air-war companion from Spielberg, Hanks and Goetzman to Band of Brothers and The Pacific.",
+      "coverageNote": "The central narrative runs from deployment to England in 1943 through bombing operations, imprisonment and the end of the war in 1945. Do not add the earlier formation dates of the real unit or the later lives described in end captions. The budget uses nine episodes at approximately an hour each; actual episode lengths vary.",
+      "imdbUrl": "https://www.imdb.com/title/tt2640044/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt2640044/"
+        },
+        {
+          "label": "Apple TV · Official series and episode guide",
+          "url": "https://images.apple.com/tv-pr/originals/masters-of-the-air/"
+        },
+        {
+          "label": "National WWII Museum · Masters of the Air",
+          "url": "https://www.nationalww2museum.org/war/topics/masters-air"
+        },
+        {
+          "label": "Episode chronology · Spring 1943 deployment",
+          "url": "https://en.wikipedia.org/wiki/Masters_of_the_Air"
+        }
+      ],
+      "episodes": 9,
+      "episodeMinutes": 60,
+      "eventNotes": {
+        "captivity": "Aircrew captivity and evacuation"
+      }
+    },
+    {
       "id": "band-brothers",
       "title": "Band of Brothers",
       "releaseYear": 2001,
@@ -705,6 +999,87 @@
       "episodeMinutes": 60
     },
     {
+      "id": "saving-private-ryan",
+      "title": "Saving Private Ryan",
+      "releaseYear": 1998,
+      "format": "Film",
+      "rating": "8.6",
+      "color": "#825139",
+      "coverage": [
+        [
+          1944,
+          1944
+        ]
+      ],
+      "events": [
+        "normandy"
+      ],
+      "premise": "After landing on Omaha Beach, a US squad crosses Normandy to find a paratrooper whose brothers have been killed. Spielberg and Hanks give D-Day and its aftermath an immediate human scale.",
+      "learn": "The shock of the landings and the confusion of fighting inland. The opening depicts a real operation; the squad, rescue mission and final village battle are fictionalised.",
+      "coverageNote": "June 1944 only: the beach landing and the subsequent Normandy mission are the main plot. Exclude the present-day cemetery scenes at the beginning and end. The fictional village of Ramelle and its bridge battle are not a separate documented campaign.",
+      "imdbUrl": "https://www.imdb.com/title/tt0120815/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0120815/"
+        },
+        {
+          "label": "Amblin · Spielberg’s Normandy film",
+          "url": "https://amblin.com/movie/saving-private-ryan/"
+        },
+        {
+          "label": "Paramount · Story and D-Day background",
+          "url": "https://www.paramountpictures.com/movies/saving-private-ryan"
+        }
+      ],
+      "minutes": 169
+    },
+    {
+      "id": "inglourious-basterds",
+      "title": "Inglourious Basterds",
+      "releaseYear": 2009,
+      "format": "Film",
+      "rating": "8.4",
+      "color": "#853e52",
+      "coverage": [
+        [
+          1941,
+          1941
+        ],
+        [
+          1944,
+          1944
+        ]
+      ],
+      "events": [
+        "occupation"
+      ],
+      "premise": "A Jewish-American commando unit and a cinema owner pursue converging revenge plots in occupied France. Tarantino turns the setting into a tense, darkly comic thriller.",
+      "learn": "A memorable fictional encounter with occupation, antisemitic persecution and propaganda. The climax deliberately rewrites history: this is alternate history, not an explanation of how the Nazi regime actually fell.",
+      "coverageNote": "Two substantial narrative sections: the 1941 opening chapter establishes Shosanna’s story, while the main converging plots take place in 1944. The first chapter is part of the central causal story, rather than an old-age framing scene. Do not fill in 1942–1943 between them. Characters, operations and the film’s ending are invented.",
+      "imdbUrl": "https://www.imdb.com/title/tt0361748/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0361748/"
+        },
+        {
+          "label": "AFI · Interlocking fictional plots",
+          "url": "https://watch.afi.com/movie/inglourious-basterds"
+        },
+        {
+          "label": "Plot chronology · 1941 and 1944",
+          "url": "https://en.wikipedia.org/wiki/Inglourious_Basterds"
+        }
+      ],
+      "minutes": 153,
+      "eventNotes": {
+        "occupation": "Alternate history / fictional revenge"
+      }
+    },
+    {
       "id": "downfall",
       "title": "Downfall",
       "releaseYear": 2004,
@@ -740,6 +1115,42 @@
         }
       ],
       "minutes": 156
+    },
+    {
+      "id": "fury",
+      "title": "Fury",
+      "releaseYear": 2014,
+      "format": "Film",
+      "rating": "7.6",
+      "color": "#66724a",
+      "coverage": [
+        [
+          1945,
+          1945
+        ]
+      ],
+      "events": [
+        "liberation"
+      ],
+      "premise": "A replacement soldier joins a battered American Sherman crew during the advance into Germany. Brad Pitt’s commander holds the crew together through a series of increasingly dangerous encounters.",
+      "learn": "A ground-level view of armoured warfare and the brutal final phase in Germany. Its invented engagements provide tension rather than a map of the actual campaign.",
+      "coverageNote": "April 1945. The tank crew, isolated crossroads defence and principal combat incidents are fictional. The film’s close-range tank duels and survival story should not be treated as an account of a named historical battle or typical Sherman tactics.",
+      "imdbUrl": "https://www.imdb.com/title/tt2713180/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt2713180/"
+        },
+        {
+          "label": "IMDb · April 1945 premise",
+          "url": "https://www.imdb.com/title/tt2713180/?bypassRefViewPref=1"
+        }
+      ],
+      "minutes": 134,
+      "eventNotes": {
+        "liberation": "Fictional ground-combat perspective"
+      }
     },
     {
       "id": "fireflies",

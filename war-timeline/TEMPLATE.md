@@ -44,7 +44,7 @@ Use ordinary text, not HTML. Stable IDs contain lowercase letters, digits and hy
 | `scopeNote` | Honest limits of this short route: omitted theatres, perspectives or themes. |
 | `closingNote` | War-specific ending/aftermath context. Keep historical claims in page data, not the shared shell. |
 | `events` | Chronologically ordered event records. |
-| `entries` | Viewing entries in suggested watch order, within the user’s requested title budget. WW1 uses six; WWII uses twelve. |
+| `entries` | Viewing entries in suggested watch order, within the user’s requested title budget. WW1 uses six; WWII began with twelve and was expanded to twenty-one at the owner’s request. |
 
 ### Event fields
 

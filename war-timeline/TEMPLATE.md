@@ -44,7 +44,7 @@ Use ordinary text, not HTML. Stable IDs contain lowercase letters, digits and hy
 | `scopeNote` | Honest limits of this short route: omitted theatres, perspectives or themes. |
 | `closingNote` | War-specific ending/aftermath context. Keep historical claims in page data, not the shared shell. |
 | `events` | Chronologically ordered event records. |
-| `entries` | Viewing entries in suggested watch order, within the user’s requested title budget. WW1 uses six; WWII began with twelve and was expanded to twenty-one at the owner’s request. |
+| `entries` | Viewing entries in suggested watch order, within the user’s requested title budget. WW1 uses six; WWII began with twelve and was expanded to twenty at the owner’s request. |
 
 ### Event fields
 
@@ -70,6 +70,8 @@ Use optional `gapNote` for essential history not directly depicted by any select
 | `premise`, `learn` | Short setup and why this title helps someone understand the conflict. Avoid major fictional plot spoilers. |
 | `coverageNote` | Evidence for main-story dates, jumps and exclusions; important dramatic liberties or uncertain dates. |
 | `sources` | Evidence links in the same format as event sources. Rendered inside the story-date disclosure. |
+
+Keep selections grounded in the historical course of the conflict. Dramatised characters, dialogue and missions are acceptable; alternate-history plots that rewrite major events or the war’s outcome are excluded unless explicitly requested.
 
 IMDb links and dates are required. Scores are a proxy for engaging viewing, not for historical reliability. Record exact film identity and edition; do not substitute a remake, documentary, or similarly named series without checking.
 

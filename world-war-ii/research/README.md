@@ -1,6 +1,6 @@
 # WWII viewing route
 
-Research checked on 26 October 2026. Expanded at the owner’s request from twelve to twenty-one titles: 18 films and three complete miniseries. All previous selections are retained. Source links live in `../data.json` and appear on the page.
+Research checked on 26 October 2026. Expanded at the owner’s request from twelve to twenty titles: 17 films and three complete miniseries. All previous selections are retained. Source links live in `../data.json` and appear on the page.
 
 ## Selection and commitment
 
@@ -23,12 +23,11 @@ Research checked on 26 October 2026. Expanded at the owner’s request from twel
 | 15 | Masters of the Air (2024) | 7.8 | 1943–1945 | 9 × approx. 60 min |
 | 16 | Band of Brothers (2001) | 9.4 | 1942–1945 | 10 × approx. 60 min |
 | 17 | Saving Private Ryan (1998) | 8.6 | 1944 | 169 min |
-| 18 | Inglourious Basterds (2009) | 8.4 | 1941, 1944 | 153 min |
-| 19 | Downfall (2004) | 8.2 | 1945 | 156 min |
-| 20 | Fury (2014) | 7.6 | 1945 | 134 min |
-| 21 | Grave of the Fireflies (1988) | 8.5 | 1945 | 88 min |
+| 18 | Downfall (2004) | 8.2 | 1945 | 156 min |
+| 19 | Fury (2014) | 7.6 | 1945 | 134 min |
+| 20 | Grave of the Fireflies (1988) | 8.5 | 1945 | 88 min |
 
-Total if everything is watched: 4,360 minutes, approximately 72 hours 40 minutes. This is now a collection of choices with intentional overlap, rather than a requirement to watch every entry. The three series comprise 29 episodes (10 + 10 + 9). Series estimates use an hour per episode; film cuts and episode runtimes vary. Das Boot remains the 149-minute theatrical edition.
+Total if everything is watched: 4,207 minutes, approximately 70 hours 7 minutes. This is now a collection of choices with intentional overlap, rather than a requirement to watch every entry. The three series comprise 29 episodes (10 + 10 + 9). Series estimates use an hour per episode; film cuts and episode runtimes vary. Das Boot remains the 149-minute theatrical edition.
 
 Scores come from publicly indexed IMDb title/rating pages retrieved during research, with crawl ages ranging from days to weeks. `ratingChecked` is the editorial check date, not a live API timestamp. Popularity and reception are distinct: Pearl Harbor (6.3) and Midway (6.7) are included as major popular war spectacles, with their lower scores and dramatic priorities visible, alongside stronger-rated choices.
 
@@ -38,11 +37,12 @@ Scores come from publicly indexed IMDb title/rating pages retrieved during resea
 - **Masters of the Air:** all nine episodes, 1943–1945. Apple’s episode guide and the National WWII Museum identify the series and 100th Bomb Group story. Episode chronology starts with deployment to England in spring 1943 and ends with the war in 1945. Unit-formation history and later biographical captions are not added to the bar. This is the Apple TV series from Spielberg, Hanks and Goetzman, not the companion documentary The Bloody Hundredth.
 - **Fury:** the April 1945 premise is explicit in IMDb’s film record. The crew and principal engagements are fictional.
 - **Hacksaw Ridge:** 1942 enlistment/courtship/training and 1945 Okinawa are represented as separate intervals. The unshown 1943–1944 campaigns are not filled in from Doss’s real biography. Childhood setup and later documentary interviews are excluded. TIME’s account and the Desmond Doss Council explain the compression and dramatic liberties.
-- **Inglourious Basterds:** substantial chapters in 1941 and 1944, with a visible gap. The opening establishes the central Shosanna plot, rather than merely framing it. The alternate-history ending is explicitly labelled and is not linked as a historical depiction of Hitler’s fall in 1945.
 - **The Great Escape:** 1942–1944 follows AFI’s plot opening and the real March 1944 breakout. The film acknowledges compressed time/place and catalogue summaries disagree on the opening year. This is a year-level editorial range, not day-level certainty. The famous motorcycle sequence is invented. AFI identifies it as one of 1963’s top-grossing films; the RAF supplies the breakout context.
 - **The Bridge on the River Kwai:** AFI’s programme notes place the fictional bridge-building story in 1943. TCM distinguishes the movie’s destruction from the real bridges’ later history; do not extend the plot to 1945 on that basis. The Asian civilian labour force is explicitly noted using the Australian War Memorial’s evidence. TCM identifies it as 1957’s highest-grossing film.
 - **Midway (2019):** the main Pearl Harbor-to-Midway narrative covers December 1941–June 1942. The brief 1937 diplomatic opening is excluded. Its Doolittle Raid and carrier-battle coverage fill a previous direct-depiction gap. TIME’s film-history account includes museum historians and the screenwriter.
 - **Pearl Harbor (2001):** the adult plot spans 1941–1942 through the Doolittle Raid. The 1923 opening and later family coda are excluded. Disney’s D23 establishes the film’s identity and theatrical runtime; the US Naval Institute’s review distinguishes the historical attack and raid from the invented romance and other distortions. Its roughly $449 million worldwide gross is recorded on the retrieved IMDb page, supporting inclusion as a blockbuster despite its lower 6.3 score.
+
+Alternate-history films are excluded: dramatic invention is acceptable within the historical course of the war, but rewriting its outcome does not meet this guide’s learning goal.
 
 The additions are a focused set of high-profile WWII war films and major older commercial hits, not an exhaustive list of every film set during the period. They include both literal campaign dramas and clearly labelled fiction. The original twelve selections remain available.
 

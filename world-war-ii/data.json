@@ -1,12 +1,12 @@
 {
   "slug": "world-war-ii",
   "title": "World War II",
-  "subtitle": "Twenty-one choices, from the prewar years to the aftermath.",
+  "subtitle": "Twenty choices, from the prewar years to the aftermath.",
   "startYear": 1933,
   "endYear": 1946,
   "researchDate": "2026-10-26",
-  "introNote": "An expanded selection of 18 films and three complete miniseries, including all three Spielberg–Hanks companion dramas. Choose the perspectives that interest you: several titles overlap. Watching everything is about 73 hours, using approximately an hour per series episode. IMDb scores were checked on 26 October 2026 using publicly indexed pages and can change; they are not historical-accuracy scores.",
-  "scopeNote": "This expanded route adds major popular films, the bomber war, captivity and the Burma–Thailand railway to the original selection. It remains selective: the wider Eastern Front, mainland Italy, the longer war in China, Southeast Asian campaigns and colonial experiences need more attention. Labels distinguish historical depiction, context, fictional missions and alternate history.",
+  "introNote": "An expanded selection of 17 films and three complete miniseries, including all three Spielberg–Hanks companion dramas. Choose the perspectives that interest you: several titles overlap. Watching everything is about 70 hours, using approximately an hour per series episode. IMDb scores were checked on 26 October 2026 using publicly indexed pages and can change; they are not historical-accuracy scores.",
+  "scopeNote": "This expanded route adds major popular films, the bomber war, captivity and the Burma–Thailand railway to the original selection. It remains selective: the wider Eastern Front, mainland Italy, the longer war in China, Southeast Asian campaigns and colonial experiences need more attention. Labels distinguish historical depiction, context and fictional missions.",
   "closingNote": "Germany surrendered in May 1945; Japan announced surrender in August and signed on 2 September. The chart extends into 1946 because The Pacific devotes a substantial final episode to homecoming and readjustment, not merely an old-age epilogue. Films are selected for engaging viewing, not as substitutes for the historical sources.",
   "events": [
     {
@@ -113,7 +113,7 @@
       "year": 1940,
       "dateLabel": "1940 – 1944",
       "title": "Occupation, collaboration and resistance",
-      "description": "Occupied Europe contained repression, collaboration, survival and many forms of resistance. In France, clandestine networks grew under German occupation and Vichy rule. Inglourious Basterds borrows this setting for an invented revenge story; its plot must not replace the real history of resistance or liberation.",
+      "description": "Occupied Europe contained repression, collaboration, survival and many forms of resistance. In France, clandestine networks grew under German occupation and Vichy rule.",
       "sources": [
         {
           "label": "French Ministry of the Armed Forces · Resistance",
@@ -1034,50 +1034,6 @@
         }
       ],
       "minutes": 169
-    },
-    {
-      "id": "inglourious-basterds",
-      "title": "Inglourious Basterds",
-      "releaseYear": 2009,
-      "format": "Film",
-      "rating": "8.4",
-      "color": "#853e52",
-      "coverage": [
-        [
-          1941,
-          1941
-        ],
-        [
-          1944,
-          1944
-        ]
-      ],
-      "events": [
-        "occupation"
-      ],
-      "premise": "A Jewish-American commando unit and a cinema owner pursue converging revenge plots in occupied France. Tarantino turns the setting into a tense, darkly comic thriller.",
-      "learn": "A memorable fictional encounter with occupation, antisemitic persecution and propaganda. The climax deliberately rewrites history: this is alternate history, not an explanation of how the Nazi regime actually fell.",
-      "coverageNote": "Two substantial narrative sections: the 1941 opening chapter establishes Shosanna’s story, while the main converging plots take place in 1944. The first chapter is part of the central causal story, rather than an old-age framing scene. Do not fill in 1942–1943 between them. Characters, operations and the film’s ending are invented.",
-      "imdbUrl": "https://www.imdb.com/title/tt0361748/",
-      "ratingChecked": "2026-10-26",
-      "sources": [
-        {
-          "label": "IMDb · Score, identity & runtime",
-          "url": "https://www.imdb.com/title/tt0361748/"
-        },
-        {
-          "label": "AFI · Interlocking fictional plots",
-          "url": "https://watch.afi.com/movie/inglourious-basterds"
-        },
-        {
-          "label": "Plot chronology · 1941 and 1944",
-          "url": "https://en.wikipedia.org/wiki/Inglourious_Basterds"
-        }
-      ],
-      "minutes": 153,
-      "eventNotes": {
-        "occupation": "Alternate history / fictional revenge"
-      }
     },
     {
       "id": "downfall",

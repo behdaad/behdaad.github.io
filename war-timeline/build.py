@@ -181,6 +181,7 @@ def generate(folder):
         'duration': f'≈ {total//60}H {total%60:02}M',
         'content_note': esc(data['introNote']),
         'scope_note': esc(data.get('scopeNote', '')),
+        'closing_note': esc(data.get('closingNote', 'Films are selected for engaging viewing, not as substitutes for the historical sources.')),
         'research_date': esc(data['researchDate']),
         'connections': json.dumps(connections).replace('<', '\u003c'),
         'body': body,

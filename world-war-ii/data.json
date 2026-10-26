@@ -1,0 +1,785 @@
+{
+  "slug": "world-war-ii",
+  "title": "World War II",
+  "subtitle": "Twelve watches, from the prewar years to the aftermath.",
+  "startYear": 1933,
+  "endYear": 1946,
+  "researchDate": "2026-10-26",
+  "introNote": "Ten films and two complete ten-part series. Budget about 43 hours: series are estimated at an hour per episode, and film editions can differ. IMDb scores were checked on 26 October 2026 using publicly indexed IMDb pages; scores can change and are not measures of historical accuracy.",
+  "scopeNote": "The route connects Europe and the Pacific with China, the Holocaust, naval warfare and civilian survival. It is still selective: North Africa, Italy, resistance movements, the wider Eastern Front, Southeast Asia and the colonial contribution need more than these twelve titles. Essential gaps are explained in the event notes, without implying that a film depicts them.",
+  "closingNote": "Germany surrendered in May 1945; Japan announced surrender in August and signed on 2 September. The chart extends into 1946 because The Pacific devotes a substantial final episode to homecoming and readjustment, not merely an old-age epilogue. Films are selected for engaging viewing, not as substitutes for the historical sources.",
+  "events": [
+    {
+      "id": "dictatorship",
+      "year": 1933,
+      "dateLabel": "1933 – 1936",
+      "title": "Dictatorship and rearmament",
+      "description": "Hitler became chancellor in 1933 and dismantled German democracy. Rearmament challenged the post-WWI order. The Gathering Storm approaches these dangers through Churchill’s warnings and domestic difficulties in Britain; it is background to Nazi expansion, not a history of Hitler’s rise.",
+      "sources": [
+        {
+          "label": "USHMM · Nazi rise to power",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "year": 1937,
+      "dateLabel": "1937 – EARLY 1938",
+      "title": "The war in Asia is already underway",
+      "description": "Full-scale war between China and Japan began in 1937, years before Pearl Harbor. Japanese forces captured Nanjing that December and committed mass atrocities against civilians and prisoners. City of Life and Death places that violence at the centre of the route.",
+      "sources": [
+        {
+          "label": "National WWII Museum · War in China",
+          "url": "https://www.nationalww2museum.org/war/articles/liberation-china-and-pacific"
+        },
+        {
+          "label": "National Museum of the Pacific War · Timeline",
+          "url": "https://www.pacificwarmuseum.org/uploads/documents/5Ws-and-Timeline.pdf"
+        }
+      ]
+    },
+    {
+      "id": "appeasement",
+      "year": 1938,
+      "dateLabel": "SEPTEMBER 1938",
+      "title": "Munich and the limits of appeasement",
+      "description": "Britain and France accepted Germany’s annexation of the Sudetenland at Munich, under pressure from Hitler and without Czechoslovakia at the negotiations. Read this after The Gathering Storm: its central story ends earlier and its 1939 coda does not fill in Munich.",
+      "sources": [
+        {
+          "label": "USHMM · Munich Agreement",
+          "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1933-1938/munich-agreement"
+        }
+      ]
+    },
+    {
+      "id": "poland",
+      "year": 1939,
+      "dateLabel": "SEPTEMBER 1939",
+      "title": "Poland is invaded; Europe goes to war",
+      "description": "Germany invaded Poland on 1 September; Britain and France declared war two days later. The Soviet Union invaded from the east on 17 September. Schindler’s List begins in the resulting German occupation, rather than reconstructing the invasion itself.",
+      "sources": [
+        {
+          "label": "USHMM · Invasion of Poland",
+          "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1939-1941/german-invasion-of-poland"
+        },
+        {
+          "label": "USHMM · WWII key dates",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates?series=7"
+        }
+      ]
+    },
+    {
+      "id": "atlantic",
+      "year": 1939,
+      "dateLabel": "1939 – 1945",
+      "title": "Supply lines are a battlefield",
+      "description": "German U-boats attacked the merchant shipping on which Britain and the Allied war effort depended. Escorts, intelligence, aircraft and industrial production gradually changed the balance. Das Boot follows the German side of one patrol in 1941, not the entire Atlantic campaign.",
+      "sources": [
+        {
+          "label": "US Navy Museum · Battle of the Atlantic",
+          "url": "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-atlantic/battle-of-the-atlantic.html"
+        }
+      ]
+    },
+    {
+      "id": "dunkirk",
+      "year": 1940,
+      "dateLabel": "MAY – JUNE 1940",
+      "title": "France falls; an army escapes",
+      "description": "Germany’s western offensive trapped Allied armies near Dunkirk. An evacuation saved roughly 338,000 troops, but left equipment behind and did not prevent France’s defeat. Dunkirk makes the escape immediate; its interwoven time scales all remain within 1940.",
+      "sources": [
+        {
+          "label": "USHMM · Dunkirk evacuation",
+          "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1939-1941/dunkirk-evacuation"
+        }
+      ]
+    },
+    {
+      "id": "britain",
+      "year": 1940,
+      "dateLabel": "JULY – OCTOBER 1940",
+      "title": "The battle moves into the air",
+      "description": "The Luftwaffe failed to gain the air superiority needed for a German invasion of Britain. Radar, organisation, aircraft production and aircrew from several countries mattered alongside the pilots. Dunkirk supplies an earlier view of RAF combat, not a depiction of this later air campaign.",
+      "sources": [
+        {
+          "label": "Royal Air Force · Battle of Britain",
+          "url": "https://www.raf.mod.uk/what-we-do/our-history/anniversaries/battle-of-britain/"
+        }
+      ]
+    },
+    {
+      "id": "barbarossa",
+      "year": 1941,
+      "dateLabel": "22 JUNE 1941",
+      "title": "Hitler attacks the Soviet Union",
+      "description": "Operation Barbarossa opened an immense eastern war of conquest and annihilation, accompanied by mass murder. The invasion failed to secure a quick victory. Read this before Enemy at the Gates, which begins later at Stalingrad rather than depicting Barbarossa.",
+      "sources": [
+        {
+          "label": "USHMM · Invasion of the Soviet Union",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/invasion-of-the-soviet-union-june-1941?series=7"
+        }
+      ]
+    },
+    {
+      "id": "holocaust",
+      "year": 1941,
+      "dateLabel": "1941 – 1945",
+      "title": "Persecution becomes systematic genocide",
+      "description": "Nazi Germany and its collaborators murdered six million Jews. War, occupation, mass shootings, deportations and killing centres were integral to this genocide. Schindler’s List follows persecution, forced labour and rescue around Kraków; it is one story within a much larger crime.",
+      "sources": [
+        {
+          "label": "USHMM · War and mass murder",
+          "url": "https://encyclopedia.ushmm.org/content/en/timeline-group/holocaust/1939-1941"
+        }
+      ]
+    },
+    {
+      "id": "pearl-harbor",
+      "year": 1941,
+      "dateLabel": "7 – 11 DECEMBER 1941",
+      "title": "Pearl Harbor makes the war global",
+      "description": "Japan attacked Pearl Harbor on 7 December as it launched wider offensives in Asia and the Pacific. The United States entered the war; Germany and Italy then declared war on it. Tora! Tora! Tora! follows Japanese planning and American failures before the attack.",
+      "sources": [
+        {
+          "label": "National Museum of the Pacific War · Timeline",
+          "url": "https://www.pacificwarmuseum.org/uploads/documents/5Ws-and-Timeline.pdf"
+        },
+        {
+          "label": "HBO · The Pacific, ten-part series",
+          "url": "https://www.hbomaxlapress.com/programming/mini-series/46"
+        }
+      ]
+    },
+    {
+      "id": "midway",
+      "year": 1942,
+      "dateLabel": "JUNE – AUGUST 1942",
+      "title": "The Pacific initiative begins to shift",
+      "description": "US carrier aircraft sank four Japanese carriers at Midway in June. The Guadalcanal campaign began in August, opening a long struggle on land, at sea and in the air. The Pacific follows Marines at Guadalcanal; it does not show the carrier battle at Midway.",
+      "sources": [
+        {
+          "label": "US Naval Aviation Museum · Midway",
+          "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/exhibits/permanent-exhibits/west-wing/battle-of-midway-exhibit.html"
+        },
+        {
+          "label": "National Museum of the Pacific War · Timeline",
+          "url": "https://www.pacificwarmuseum.org/uploads/documents/5Ws-and-Timeline.pdf"
+        }
+      ]
+    },
+    {
+      "id": "stalingrad",
+      "year": 1942,
+      "dateLabel": "AUG 1942 – FEB 1943",
+      "title": "Stalingrad reverses the eastern campaign",
+      "description": "The battle for Stalingrad consumed German and Soviet armies. Soviet encirclement trapped the German Sixth Army, which surrendered in early 1943. Enemy at the Gates uses a heavily dramatised sniper rivalry to enter this battle; it is not an account of the whole Soviet victory.",
+      "sources": [
+        {
+          "label": "National WWII Museum · Stalingrad",
+          "url": "https://www.nationalww2museum.org/war/articles/stalingrad-experimentation-adaptation-implementation"
+        }
+      ]
+    },
+    {
+      "id": "north-africa",
+      "year": 1942,
+      "dateLabel": "OCT 1942 – MAY 1943",
+      "title": "The Allies gain ground in North Africa",
+      "description": "Victory at El Alamein and the Anglo-American Torch landings squeezed Axis forces between armies advancing from east and west. The remaining Axis forces surrendered in Tunisia in May 1943. This secured the next stage of the Mediterranean campaign. Patton joins the story in Tunisia in 1943, after El Alamein and Torch.",
+      "sources": [
+        {
+          "label": "National Army Museum · North Africa",
+          "url": "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+        }
+      ]
+    },
+    {
+      "id": "italy",
+      "year": 1943,
+      "dateLabel": "1943 – 1945",
+      "title": "Italy is not a shortcut",
+      "description": "The Allies invaded Sicily and mainland Italy in 1943. Mussolini fell and Italy signed an armistice, but German occupation and difficult terrain prolonged the fighting. The campaign continued alongside the later Normandy offensive, rather than ending when D-Day began. Patton depicts the Sicilian stage.",
+      "sources": [
+        {
+          "label": "National Army Museum · Italy",
+          "url": "https://www.nam.ac.uk/explore/italian-campaign"
+        }
+      ],
+      "gapNote": "The Sicily link does not imply coverage of the later mainland fighting at Salerno, Cassino or Anzio."
+    },
+    {
+      "id": "normandy",
+      "year": 1944,
+      "dateLabel": "6 JUNE – AUGUST 1944",
+      "title": "The western Allies return to France",
+      "description": "D-Day opened the Normandy landings, followed by a hard-fought campaign inland. Band of Brothers follows one US airborne company from the night drop into Normandy and onward. Its viewpoint is narrower than the full multinational invasion.",
+      "sources": [
+        {
+          "label": "Amblin · Band of Brothers and its campaigns",
+          "url": "https://amblin.com/tv/band-of-brothers/"
+        },
+        {
+          "label": "USHMM · WWII key dates",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates?series=7"
+        }
+      ]
+    },
+    {
+      "id": "winter",
+      "year": 1944,
+      "dateLabel": "SEP 1944 – JAN 1945",
+      "title": "The advance stalls and counterattacks",
+      "description": "The attempt to cross the Rhine through the Netherlands failed at Arnhem. Germany then attacked in the Ardennes, producing the Battle of the Bulge. Band of Brothers covers Market Garden and the fighting around Bastogne, showing why victory was not immediate after Normandy. Patton adds an army-command perspective on the relief of Bastogne.",
+      "sources": [
+        {
+          "label": "Amblin · Band of Brothers and its campaigns",
+          "url": "https://amblin.com/tv/band-of-brothers/"
+        }
+      ]
+    },
+    {
+      "id": "islands",
+      "year": 1944,
+      "dateLabel": "1944 – JUNE 1945",
+      "title": "The island campaigns grow more costly",
+      "description": "Peleliu, Iwo Jima and Okinawa reveal different stages of the advance towards Japan. The Pacific follows Marines through these battles, including encounters with civilians at Okinawa. It is a ground-level account, not a complete explanation of naval or air strategy.",
+      "sources": [
+        {
+          "label": "National Museum of the Pacific War · Timeline",
+          "url": "https://www.pacificwarmuseum.org/uploads/documents/5Ws-and-Timeline.pdf"
+        },
+        {
+          "label": "HBO · The Pacific, ten-part series",
+          "url": "https://www.hbomaxlapress.com/programming/mini-series/46"
+        }
+      ]
+    },
+    {
+      "id": "liberation",
+      "year": 1945,
+      "dateLabel": "JANUARY – MAY 1945",
+      "title": "Camps are liberated; Germany collapses",
+      "description": "Soviet and western Allied armies liberated camps as they entered German-held territory. Soviet forces took Berlin; Germany surrendered in May. Downfall portrays the regime’s final days. Band of Brothers includes a camp liberation, while Schindler’s List reaches the end of its rescue story.",
+      "sources": [
+        {
+          "label": "USHMM · WWII key dates",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates?series=7"
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "year": 1945,
+      "dateLabel": "1945 / SURRENDER: AUG – SEP",
+      "title": "Bombing, Soviet entry and Japan’s surrender",
+      "description": "Conventional bombing devastated Japanese cities. The US atomic bombings of Hiroshima and Nagasaki and Soviet entry into the war in August preceded Japan’s surrender announcement on 15 August and formal signing on 2 September. Grave of the Fireflies shows civilian survival after Kobe’s firebombing, not the atomic attacks.",
+      "sources": [
+        {
+          "label": "US Naval History · Japan’s surrender",
+          "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1945/victory-in-pacific.html"
+        }
+      ],
+      "gapNote": "The atomic bombings and Soviet offensive are essential context, but are not directly reconstructed by these selections. The Pacific includes news of surrender and its consequences."
+    },
+    {
+      "id": "homecoming",
+      "year": 1946,
+      "dateLabel": "1946 / HOME FROM THE PACIFIC",
+      "title": "Home is not an instant recovery",
+      "description": "Demobilisation brought relief alongside grief, displacement and lasting trauma. The Pacific’s final episode spends substantial time with veterans trying to resume civilian life, including Eugene Sledge’s 1946 homecoming. That is why its bar extends beyond the fighting in 1945.",
+      "sources": [
+        {
+          "label": "IMDb · Home, with HBO’s synopsis",
+          "url": "https://www.imdb.com/title/tt1576601/plotsummary/"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "gathering-storm",
+      "title": "The Gathering Storm",
+      "releaseYear": 2002,
+      "format": "Film",
+      "rating": "7.4",
+      "color": "#a13e2e",
+      "coverage": [
+        [
+          1934,
+          1936
+        ]
+      ],
+      "events": [
+        "dictatorship",
+        "appeasement"
+      ],
+      "premise": "Winston Churchill struggles with money, marriage and political isolation while trying to raise the alarm about German rearmament. A compact political opening before the battlefield stories.",
+      "learn": "Why warnings about Hitler competed with a powerful desire to avoid another war. This is a Churchill-centred perspective, not a neutral survey of British policy.",
+      "coverageNote": "The sustained story is concentrated in 1934–1936. Exclude the short September 1939 return-to-office coda; it does not establish continuous coverage of 1937–1939. The International Churchill Society specifically notes the narrative jump after 1936. This is the 2002 Albert Finney film, not the 1974 version.",
+      "imdbUrl": "https://www.imdb.com/title/tt0314097/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0314097/"
+        },
+        {
+          "label": "International Churchill Society · The film and its time jump",
+          "url": "https://winstonchurchill.org/resources/in-the-media/film-reviews/the-gathering-storm/"
+        },
+        {
+          "label": "Peabody Awards · Mid-1930s story",
+          "url": "https://peabodyawards.com/award-profile/the-gathering-storm/"
+        }
+      ],
+      "minutes": 96,
+      "eventNotes": {
+        "dictatorship": "British background",
+        "appeasement": "Earlier policy context"
+      }
+    },
+    {
+      "id": "city-life-death",
+      "title": "City of Life and Death",
+      "releaseYear": 2009,
+      "format": "Film",
+      "rating": "7.7",
+      "color": "#426b69",
+      "coverage": [
+        [
+          1937,
+          1938
+        ]
+      ],
+      "events": [
+        "china"
+      ],
+      "premise": "Chinese soldiers, civilians and a Japanese soldier experience the fall and occupation of Nanjing. A stark drama that begins the Asian story before the European war.",
+      "learn": "The scale and brutality of the war in China, and the precarious protection offered by the Nanjing Safety Zone. The characters combine historical and fictional material.",
+      "coverageNote": "Late 1937 into early 1938: the fall of Nanjing and the ensuing weeks of occupation and atrocities. The two-year label reflects the calendar boundary, not two full years of action. Film synopses often abbreviate this to 1937; the massacre and occupation story extends into the following year.",
+      "imdbUrl": "https://www.imdb.com/title/tt1124052/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt1124052/"
+        },
+        {
+          "label": "Film review · The 1937–1938 setting",
+          "url": "https://www.spiritualityandpractice.com/films/reviews/view/21113/city-of-life-and-death"
+        },
+        {
+          "label": "National WWII Museum · War in China",
+          "url": "https://www.nationalww2museum.org/war/articles/liberation-china-and-pacific"
+        }
+      ],
+      "minutes": 133
+    },
+    {
+      "id": "schindlers-list",
+      "title": "Schindler’s List",
+      "releaseYear": 1993,
+      "format": "Film",
+      "rating": "9.0",
+      "color": "#816331",
+      "coverage": [
+        [
+          1939,
+          1945
+        ]
+      ],
+      "events": [
+        "poland",
+        "holocaust",
+        "liberation"
+      ],
+      "premise": "Oskar Schindler arrives in occupied Poland seeking profit, then uses his factory to protect Jewish workers as Nazi persecution intensifies.",
+      "learn": "Occupation, ghettos, forced labour and rescue within the Holocaust. The focus on a rescuer should not obscure the victims’ lives or the vast scale of the genocide.",
+      "coverageNote": "The central narrative runs from the German occupation in 1939 through the end of the war in 1945. Exclude the modern-day graveside epilogue. This is a selective dramatic rescue narrative, not coverage of every year’s military campaigns or every part of the Holocaust.",
+      "imdbUrl": "https://www.imdb.com/title/tt0108052/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0108052/"
+        },
+        {
+          "label": "National WWII Museum · Schindler and occupied Poland chronology",
+          "url": "https://www.nationalww2museum.org/sites/default/files/2024-01/2024%20Rise%20and%20Fall_Museum_Generic_v1.pdf"
+        },
+        {
+          "label": "USHMM · War and mass murder",
+          "url": "https://encyclopedia.ushmm.org/content/en/timeline-group/holocaust/1939-1941"
+        }
+      ],
+      "minutes": 196,
+      "eventNotes": {
+        "poland": "Occupation, not invasion"
+      }
+    },
+    {
+      "id": "dunkirk",
+      "title": "Dunkirk",
+      "releaseYear": 2017,
+      "format": "Film",
+      "rating": "7.8",
+      "color": "#685982",
+      "coverage": [
+        [
+          1940,
+          1940
+        ]
+      ],
+      "events": [
+        "dunkirk",
+        "britain"
+      ],
+      "premise": "Soldiers on a beach, civilians in a small boat and RAF pilots converge during the evacuation from France. Three different time scales make the rescue feel like a race.",
+      "learn": "How an evacuation preserved troops while leaving a military catastrophe behind. The suspense is strongest at the individual level, rather than in explanations of strategy.",
+      "coverageNote": "May–June 1940 only. The film intercuts a week on land, a day at sea and an hour in the air; these are overlapping durations within the same operation, not separate story years. Characters and incidents are largely fictionalised.",
+      "imdbUrl": "https://www.imdb.com/title/tt5013056/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt5013056/"
+        },
+        {
+          "label": "USHMM · Dunkirk evacuation",
+          "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1939-1941/dunkirk-evacuation"
+        }
+      ],
+      "minutes": 106,
+      "eventNotes": {
+        "britain": "Earlier air-war context"
+      }
+    },
+    {
+      "id": "das-boot",
+      "title": "Das Boot",
+      "releaseYear": 1981,
+      "format": "Film",
+      "rating": "8.3",
+      "color": "#3e627b",
+      "coverage": [
+        [
+          1941,
+          1941
+        ]
+      ],
+      "events": [
+        "atlantic"
+      ],
+      "premise": "A German submarine crew moves between suffocating boredom and sudden terror during an Atlantic patrol. Use the 149-minute theatrical film for this route.",
+      "learn": "The human and technical strain of submarine warfare, seen from inside a U-boat. Read the event note for the merchant crews, escorts and supply struggle outside this viewpoint.",
+      "coverageNote": "Autumn–winter 1941. This is Wolfgang Petersen’s 1981 film, not the later television series. The total uses the 149-minute theatrical cut; the director’s cut is about 208–209 minutes and the uncut television version is longer. Longer editions do not turn it into coverage of the whole Atlantic war.",
+      "imdbUrl": "https://www.imdb.com/title/tt0082096/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0082096/"
+        },
+        {
+          "label": "IMDb · Editions and runtimes",
+          "url": "https://www.imdb.com/title/tt0082096/technical/"
+        },
+        {
+          "label": "BFI · The film’s submarine perspective",
+          "url": "https://www.bfi.org.uk/lists/10-great-battle-sea-films"
+        }
+      ],
+      "minutes": 149
+    },
+    {
+      "id": "tora",
+      "title": "Tora! Tora! Tora!",
+      "releaseYear": 1970,
+      "format": "Film",
+      "rating": "7.5",
+      "color": "#93435c",
+      "coverage": [
+        [
+          1941,
+          1941
+        ]
+      ],
+      "events": [
+        "pearl-harbor"
+      ],
+      "premise": "Japanese preparations and American warning failures unfold towards the attack on Pearl Harbor. The parallel perspectives make the escalation easier to follow.",
+      "learn": "How planning, intelligence and command decisions converged in December 1941. Its emphasis on the attack should be read alongside Japan’s wider war in China and Southeast Asia.",
+      "coverageNote": "The main plot is the planning and execution of the December 1941 attack. Brief earlier setup, including Yamamoto’s 1939 appointment, does not extend the main-story bar. Runtime uses IMDb’s 144-minute listing; edition timings vary. Reconstructed dialogue is not a transcript of historical conversations.",
+      "imdbUrl": "https://www.imdb.com/title/tt0066473/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0066473/"
+        },
+        {
+          "label": "Film history · Opening and attack preparations",
+          "url": "https://forohistorico.coit.es/index.php/multimedia/filmoteca/item/tora-tora-tora"
+        },
+        {
+          "label": "National Museum of the Pacific War · Timeline",
+          "url": "https://www.pacificwarmuseum.org/uploads/documents/5Ws-and-Timeline.pdf"
+        }
+      ],
+      "minutes": 144
+    },
+    {
+      "id": "pacific",
+      "title": "The Pacific",
+      "releaseYear": 2010,
+      "format": "Series",
+      "rating": "8.3",
+      "color": "#53623c",
+      "coverage": [
+        [
+          1941,
+          1946
+        ]
+      ],
+      "events": [
+        "pearl-harbor",
+        "midway",
+        "islands",
+        "japan",
+        "homecoming"
+      ],
+      "premise": "Follow Robert Leckie, John Basilone and Eugene Sledge from enlistment into successive Pacific campaigns and their return home. Watch the complete ten-part miniseries.",
+      "learn": "How Guadalcanal, Peleliu, Iwo Jima and Okinawa felt to US Marines, and why survival did not mean an easy return to civilian life. It supplies a sustained ground-war perspective.",
+      "coverageNote": "The narrative begins with enlistment and family decisions after Pearl Harbor in December 1941, moves into Guadalcanal in 1942, and continues through combat in 1945. The final episode substantially follows homecoming into 1946, so that year is included. Later biographical captions and documentary framing do not extend the bar. Budget approximately ten hours.",
+      "imdbUrl": "https://www.imdb.com/title/tt0374463/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0374463/"
+        },
+        {
+          "label": "HBO · The Pacific, ten-part series",
+          "url": "https://www.hbomaxlapress.com/programming/mini-series/46"
+        },
+        {
+          "label": "Episode one · December 1941 opening",
+          "url": "https://en.wikipedia.org/wiki/Part_One_(The_Pacific)"
+        },
+        {
+          "label": "IMDb · Homecoming six months after V-J Day",
+          "url": "https://www.imdb.com/title/tt1576601/plotsummary/"
+        }
+      ],
+      "episodes": 10,
+      "episodeMinutes": 60,
+      "eventNotes": {
+        "pearl-harbor": "Aftermath and enlistment",
+        "midway": "Guadalcanal, not Midway",
+        "japan": "Surrender news and aftermath"
+      }
+    },
+    {
+      "id": "enemy-gates",
+      "title": "Enemy at the Gates",
+      "releaseYear": 2001,
+      "format": "Film",
+      "rating": "7.5",
+      "color": "#8b542d",
+      "coverage": [
+        [
+          1942,
+          1942
+        ]
+      ],
+      "events": [
+        "barbarossa",
+        "stalingrad"
+      ],
+      "premise": "A Soviet sniper becomes a symbol during the fighting in Stalingrad, while a German marksman hunts him. The rivalry gives an immense battle a focused dramatic hook.",
+      "learn": "The destruction and pressure of urban combat on the Eastern Front. Use the historical notes to separate the real battle from the film’s romance, propaganda and sniper legend.",
+      "coverageNote": "The sustained sniper story takes place in 1942. Exclude the childhood prologue and the brief 1943 hospital reunion after the battle. Stalingrad itself lasted into February 1943; that event span is not the film’s main-plot span. The celebrated duel is disputed, and the film’s depiction of Soviet tactics is heavily dramatised.",
+      "imdbUrl": "https://www.imdb.com/title/tt0215750/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0215750/"
+        },
+        {
+          "label": "IMDb · Main story and the two-month-later coda",
+          "url": "https://www.imdb.com/title/tt0215750/plotsummary/"
+        },
+        {
+          "label": "National WWII Museum · Stalingrad",
+          "url": "https://www.nationalww2museum.org/war/articles/stalingrad-experimentation-adaptation-implementation"
+        }
+      ],
+      "minutes": 131,
+      "eventNotes": {
+        "barbarossa": "Later Eastern Front context"
+      }
+    },
+    {
+      "id": "patton",
+      "title": "Patton",
+      "releaseYear": 1970,
+      "format": "Film",
+      "minutes": 172,
+      "rating": "7.9",
+      "color": "#83612f",
+      "coverage": [
+        [
+          1943,
+          1945
+        ]
+      ],
+      "events": [
+        "north-africa",
+        "italy",
+        "winter"
+      ],
+      "eventNotes": {
+        "north-africa": "Tunisia in 1943",
+        "italy": "Sicily, not the mainland campaign"
+      },
+      "premise": "George S. Patton rebuilds a shaken US force in Tunisia, competes for glory in Sicily and leads an army across western Europe. George C. Scott makes the general’s contradictions the engine of the film.",
+      "learn": "How North Africa and Sicily connect to the later western European campaign, and how military skill, ambition and political judgement could pull in different directions.",
+      "coverageNote": "The main wartime narrative runs from Tunisia in 1943 through Sicily, France, the Ardennes and Germany in 1945. Its stylised opening speech does not add another story period. This is a selective biography: Patton was not present at every campaign or battle discussed, and the film simplifies commanders’ rivalries. The 172-minute IMDb edition is used.",
+      "imdbUrl": "https://www.imdb.com/title/tt0066206/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Score, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0066206/"
+        },
+        {
+          "label": "AFI · Plot and 1943 starting point",
+          "url": "https://catalog.afi.com/Film/23463-PATTON"
+        },
+        {
+          "label": "US Army · Sicily and the wider campaign",
+          "url": "https://history.army.mil/Research/Reference-Topics/Army-Campaigns/Brief-Summaries/World-War-II/World-War-II-European-African-Middle-Eastern-Theater/"
+        }
+      ]
+    },
+    {
+      "id": "band-brothers",
+      "title": "Band of Brothers",
+      "releaseYear": 2001,
+      "format": "Series",
+      "rating": "9.4",
+      "color": "#4a587f",
+      "coverage": [
+        [
+          1942,
+          1945
+        ]
+      ],
+      "events": [
+        "normandy",
+        "winter",
+        "liberation"
+      ],
+      "premise": "Easy Company trains in Georgia, drops into Normandy and fights across western Europe. Watch all ten episodes, from Currahee to Points.",
+      "learn": "How one airborne company connects training, D-Day, Market Garden, Bastogne and the advance into Germany. Its continuity makes the later European campaign easier to remember.",
+      "coverageNote": "Training begins in 1942, followed by preparation and combat through 1945. Exclude the veterans’ later interviews and biographical captions. Its camp-liberation episode covers a Dachau satellite camp, not Auschwitz. Incidents and character portrayals are compressed; the series remains one US unit’s perspective. Budget approximately ten hours.",
+      "imdbUrl": "https://www.imdb.com/title/tt0185906/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0185906/"
+        },
+        {
+          "label": "HBO · Training begins in 1942",
+          "url": "https://www.hbomaxlapress.com/programming/mini-series/447"
+        },
+        {
+          "label": "Amblin · Band of Brothers and its campaigns",
+          "url": "https://amblin.com/tv/band-of-brothers/"
+        }
+      ],
+      "episodes": 10,
+      "episodeMinutes": 60
+    },
+    {
+      "id": "downfall",
+      "title": "Downfall",
+      "releaseYear": 2004,
+      "format": "Film",
+      "rating": "8.2",
+      "color": "#655c55",
+      "coverage": [
+        [
+          1945,
+          1945
+        ]
+      ],
+      "events": [
+        "liberation"
+      ],
+      "premise": "As Soviet forces close on Berlin, Hitler’s inner circle retreats into the bunker. Traudl Junge’s viewpoint gives the collapse a claustrophobic centre.",
+      "learn": "The regime’s denial and disintegration during the final battle for Berlin. The bunker viewpoint explains neither the whole German population nor the much larger Soviet campaign.",
+      "coverageNote": "April–May 1945 is the central narrative. Exclude Junge’s brief recruitment scene in 1942, later documentary interview material and end captions. The conversations are dramatic reconstructions drawn from accounts and memoirs, not recordings of the bunker.",
+      "imdbUrl": "https://www.imdb.com/title/tt0363163/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0363163/"
+        },
+        {
+          "label": "BFI · The final-days narrative",
+          "url": "https://player.bfi.org.uk/subscription/film/watch-downfall-2004-online"
+        },
+        {
+          "label": "Plot chronology · 1942 prologue and 1945 main story",
+          "url": "https://en.wikipedia.org/wiki/Downfall_(2004_film)"
+        }
+      ],
+      "minutes": 156
+    },
+    {
+      "id": "fireflies",
+      "title": "Grave of the Fireflies",
+      "releaseYear": 1988,
+      "format": "Film",
+      "rating": "8.5",
+      "color": "#7c4541",
+      "coverage": [
+        [
+          1945,
+          1945
+        ]
+      ],
+      "events": [
+        "japan"
+      ],
+      "premise": "Two siblings struggle to survive after the firebombing of Kobe. Animation makes this an intimate civilian story, with no relief from the consequences of war.",
+      "learn": "How bombing, hunger and the breakdown of ordinary support could destroy lives away from the front. This closes the route with civilians rather than military victory.",
+      "coverageNote": "The siblings’ central story takes place in 1945. The opening also belongs to 1945; exclude the brief modern-city image at the end. The bombing is conventional incendiary bombing of Kobe, not Hiroshima or Nagasaki. The story is adapted from Akiyuki Nosaka’s semi-autobiographical fiction.",
+      "imdbUrl": "https://www.imdb.com/title/tt0095327/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Rating, identity & runtime",
+          "url": "https://www.imdb.com/title/tt0095327/"
+        },
+        {
+          "label": "IMDb · Story, runtime and 1945 framing",
+          "url": "https://www.imdb.com/title/tt0095327/"
+        },
+        {
+          "label": "US Naval History · Japan’s surrender",
+          "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1945/victory-in-pacific.html"
+        }
+      ],
+      "minutes": 88,
+      "eventNotes": {
+        "japan": "Kobe civilians, not atomic attacks"
+      }
+    }
+  ]
+}

@@ -26,7 +26,7 @@ Open `http://127.0.0.1:4175/world-war-i/`. Use Python 3.9 or newer; no third-par
 
 The chart uses equal-width, inclusive year buckets. A single-year story occupies one bucket. Separate intervals produce separate bars, with visible gaps. Every title has its own row, so overlaps align against the same axis. Event markers are grouped by year, with numbers matching the event notes below. Several events can occupy the same year without shifting markers into another year's column.
 
-On mobile only the chart scrolls horizontally. Cards, events and explanatory text fit the viewport. Keep the 17px default body size, keyboard access, readable labels alongside colour, and reduced-motion support. Do not add layout comparison controls, a sidebar, search, filters or homepage navigation without a request.
+Longer timelines automatically widen the chart to keep year labels and single-year spans legible. On mobile only the chart scrolls horizontally. Cards, events and explanatory text fit the viewport. Keep the 17px default body size, keyboard access, readable labels alongside colour, and reduced-motion support. Do not add layout comparison controls, a sidebar, search, filters or homepage navigation without a request.
 
 ## Content contract
 
@@ -42,8 +42,9 @@ Use ordinary text, not HTML. Stable IDs contain lowercase letters, digits and hy
 | `researchDate` | Date of the editorial research, `YYYY-MM-DD`. |
 | `introNote` | Selection size, total commitment/edition assumptions, rating snapshot date and method. |
 | `scopeNote` | Honest limits of this short route: omitted theatres, perspectives or themes. |
+| `closingNote` | War-specific ending/aftermath context. Keep historical claims in page data, not the shared shell. |
 | `events` | Chronologically ordered event records. |
-| `entries` | Five or six viewing entries in suggested watch order. |
+| `entries` | Viewing entries in suggested watch order, within the user’s requested title budget. WW1 uses six; WWII uses twelve. |
 
 ### Event fields
 
@@ -84,13 +85,13 @@ Examples from the researched WW1 page:
 - `Lawrence of Arabia`: `[[1916,1918]]`. The brief opening in 1935 is excluded.
 - `1917`: `[[1917,1917]]`. Its link to the 1916 attrition note is labelled “Later context”; the film does not depict the Somme or Verdun.
 
-A date span alone never proves an event appears on screen. Use relationship labels and event prose to distinguish depiction from historical background. Show essential gaps explicitly rather than adding a seventh title or implying coverage that does not exist.
+A date span alone never proves an event appears on screen. Use relationship labels and event prose to distinguish depiction from historical background. Show essential gaps explicitly rather than exceeding the requested title budget or implying coverage that does not exist.
 
 ## Make another war page
 
 1. Read this guide and the existing page's research notes. Create a new root-level folder such as `world-war-ii/`, copying only the content file as a scaffold.
 2. Replace **all** war-specific metadata, dates, events, titles, IMDb IDs, coverage, explanations and sources. Reuse the shared renderer and assets unchanged unless the new content exposes a concrete limitation.
-3. Research no more than five or six engaging films/series. Record IMDb scores with dates, total viewing commitment and any edition or episode assumptions. Prefer complementary coverage rather than several interchangeable depictions of the same moment.
+3. Research the number of engaging films/series requested by the owner; default to five or six when no budget is specified. Record IMDb scores with dates, total viewing commitment and any edition or episode assumptions. Prefer complementary coverage rather than several interchangeable depictions of the same moment.
 4. Begin before the conflict, explain its principal turning points, and acknowledge omitted events and perspectives. Dramatization is acceptable; explain major liberties that might otherwise teach a false lesson.
 5. Verify main-story dates through film/episode evidence, production/distributor information and reliable film references. Use museum, archive, scholarly or comparable historical sources for event context. Add a short `research/README.md` explaining evidence and curation decisions.
 6. Run `python3 war-timeline/build.py world-war-ii` and preview the resulting page.
@@ -99,4 +100,4 @@ A date span alone never proves an event appears on screen. Use relationship labe
 
 ### Prompt for a future chat
 
-> Use `war-timeline/TEMPLATE.md` in this repository to create a history-through-film page at `/world-war-ii/` using the approved chart + reading list layout. Begin before the conflict and explain its key events. Recommend no more than five or six engaging films/series using dated IMDb scores as a proxy. Show main-story coverage only, preserve gaps and overlaps, distinguish depiction from context, and record sources. Do not create or run automated tests. Follow the repository's Git delivery instructions.
+> Use `war-timeline/TEMPLATE.md` in this repository to create a history-through-film page at `/another-war/` using the approved chart + reading list layout. Begin before the conflict and explain its key events. Recommend a short route within my requested title budget (default five or six) using dated IMDb scores as a proxy. Show main-story coverage only, preserve gaps and overlaps, distinguish depiction from context, and record sources. Do not create or run automated tests. Follow the repository's Git delivery instructions.

@@ -1,16 +1,17 @@
 # History through stories: reusable war timeline
 
-This is the source guide for the three-layout demo at `/world-war-i/`. All current titles, events, dates, and scores are fictional. Do not treat them as WW1 research. The owner must approve a layout before researching and replacing the demonstration content.
+The approved layout is **chart + reading list**, selected on 26 October 2026. `/world-war-i/` is the first researched page. The vertical and watchlist-first alternatives have been removed from both the published pages and the shared templates. Do not recreate them when making another war page.
 
-## Architecture and source of truth
+## Source of truth
 
-- `war-timeline/build.py`: dependency-free Python 3 generator. It reads a page folder's `data.json` and writes three complete static HTML pages.
-- `war-timeline/templates/`: a shared HTML shell and three distinct layouts (`chart`, `vertical`, `watchlist`).
-- `war-timeline/styles.css` and `app.js`: shared presentation and progressive enhancement. Content, layout navigation, title links, and date explanations remain usable without JavaScript.
-- `world-war-i/data.json`: the demo content source. Entry array order is the suggested viewing order; event array order is chronological.
-- Generated HTML is committed because the site's deployment serves these standalone files directly. The Eleventy build does not generate these pages.
+- `war-timeline/build.py` reads a page folder's `data.json`, combines `templates/shell.html` and `templates/chart.html`, and writes a complete static `index.html`.
+- `war-timeline/styles.css` and `app.js` are shared across war pages. JavaScript enhances relationship highlighting; reading, title anchors, and native date-note disclosures work without it.
+- Each war has its own root-level folder and content file, e.g. `world-war-i/data.json`. Entry array order is suggested viewing order; events are ordered chronologically, including events within the same year.
+- Commit the source data and generated HTML: the existing Eleventy build leaves these standalone pages in place and does not generate them.
 
-Do not hand-edit the generated HTML. Change the data, templates, or shared assets and regenerate. Do not maintain copies of the shared CSS and JS in each war folder.
+Asset URLs include content hashes to refresh cached styles and interactions. When shared assets change, regenerate every existing war page so its versioned URLs update.
+
+Do not hand-edit generated HTML or duplicate the shared styles. The reusable unit is **one new content folder pointing to the same renderer and assets**, not a separately maintained copy of the entire design.
 
 ## Generate and preview
 
@@ -21,73 +22,81 @@ python3 war-timeline/build.py world-war-i
 python3 -m http.server 4175 --bind 127.0.0.1
 ```
 
-Compare:
+Open `http://127.0.0.1:4175/world-war-i/`. Use Python 3.9 or newer; no third-party Python packages are required.
 
-- `http://127.0.0.1:4175/world-war-i/`: chart and reading list.
-- `http://127.0.0.1:4175/world-war-i/vertical/`: year rows with five numbered coverage lanes.
-- `http://127.0.0.1:4175/world-war-i/watchlist/`: viewing cards with individual coverage strips.
+The chart uses equal-width, inclusive year buckets. A single-year story occupies one bucket. Separate intervals produce separate bars, with visible gaps. Every title has its own row, so overlaps align against the same axis. Event markers are grouped by year, with numbers matching the event notes below. Several events can occupy the same year without shifting markers into another year's column.
 
-The chart uses equal-width year buckets, including both endpoint years. A single-year story occupies one bucket. The vertical layout groups events within each year; row height follows the event notes, so lane length is not a precise elapsed-time scale. Mobile keeps five compact numbered lanes beside the notes. The overview chart scrolls within its own region on narrow screens; the document itself should not scroll horizontally.
+On mobile only the chart scrolls horizontally. Cards, events and explanatory text fit the viewport. Keep the 17px default body size, keyboard access, readable labels alongside colour, and reduced-motion support. Do not add layout comparison controls, a sidebar, search, filters or homepage navigation without a request.
 
 ## Content contract
 
-Top-level fields:
+Use ordinary text, not HTML. Stable IDs contain lowercase letters, digits and hyphens. URLs are absolute HTTP(S) links. The generator escapes text and checks IDs, event references, coverage bounds, interval order and six-digit hex colours.
+
+### Page fields
 
 | Field | Meaning |
 | --- | --- |
-| `slug` | Target page identifier, e.g. `world-war-ii`; the CLI folder argument determines output location. |
-| `title`, `subtitle` | Page heading and introduction. |
-| `demo` | `true` displays fictional-content notices and sample-score labels; `false` displays the production introduction and IMDb labels. |
-| `startYear`, `endYear` | Inclusive integer bounds for all coverage intervals and events. Include the relevant prewar period. |
+| `slug` | Page identifier, such as `world-war-ii`; the CLI folder argument determines output location. |
+| `title`, `subtitle` | Heading and short viewing-route introduction. |
+| `startYear`, `endYear` | Inclusive integer bounds. Include a meaningful prewar context stop, even if no film's central story takes place that early. |
+| `researchDate` | Date of the editorial research, `YYYY-MM-DD`. |
+| `introNote` | Selection size, total commitment/edition assumptions, rating snapshot date and method. |
+| `scopeNote` | Honest limits of this short route: omitted theatres, perspectives or themes. |
 | `events` | Chronologically ordered event records. |
-| `entries` | Viewing entries in editorial watch order, independent of release order. |
+| `entries` | Five or six viewing entries in suggested watch order. |
 
-Each event has a unique `id`, integer `year`, `title`, and `description`. Optional `sources` is an array of `{ "label": "...", "url": "https://..." }` objects for historical evidence.
+### Event fields
 
-Each viewing entry has:
+Each event has a unique `id`, integer `year`, `title`, `description`, and `sources`. Optional `dateLabel` supplies a human-readable date or interval; `year` is the chart-marker anchor, normally the start year. Explain multi-year event spans in `dateLabel` and the description.
+
+`sources` is an array of `{ "label": "Source title", "url": "https://..." }` objects.
+
+Use optional `gapNote` for essential history not directly depicted by any selection. Do not invent a film connection simply to populate a card. The event still appears in the timeline and can be selected, with an explicit no-selected-title message.
+
+### Viewing-entry fields
 
 | Field | Meaning |
 | --- | --- |
-| `id`, `title`, `releaseYear` | Stable unique ID, exact title, and release year, separate from story dates. |
+| `id`, `title`, `releaseYear` | Stable ID, exact title and release year. Release year is separate from story dates. |
 | `format` | `Film` or `Series`. |
-| `minutes` | Film runtime in minutes. |
-| `episodes`, `episodeMinutes` | For a series: recommended episode count and average episode runtime. The header counts their product toward total viewing time. Explain partial-series selections in the premise. |
-| `rating` | Display score string. Fictional in demo mode; verified IMDb score in production. |
-| `imdbUrl`, `ratingChecked` | Optional direct IMDb title URL and date checked, required editorially for researched entries. |
-| `color` | Readable, dark CSS hex colour for its numbered key and coverage marks. |
-| `coverage` | Array of inclusive `[startYear, endYear]` pairs. Example: `[[1914,1914],[1917,1918]]`. Keep intervals ordered and non-overlapping. |
-| `events` | Array of related event IDs. These are editorial connections, not automatically inferred from the date range. |
-| `premise`, `learn` | Short synopsis and what this selection contributes to understanding the conflict. |
-| `coverageNote` | Explain the story-date evidence, uncertainty, exclusions, and any substantial jumps. |
-| `sources` | Optional evidence links in the same format as event sources. |
+| `minutes` | Film runtime in minutes for the specified edition. |
+| `episodes`, `episodeMinutes` | Recommended episode count and average runtime for a series. Their product contributes to the approximate total. State whether the complete series or particular episodes are intended. |
+| `rating`, `imdbUrl`, `ratingChecked` | IMDb score string, canonical HTTPS IMDb title URL with trailing slash, and date checked. Record indexed/cached evidence limits in the research notes when applicable. |
+| `color` | Dark, readable six-digit CSS hex colour for the title and coverage marks. |
+| `coverage` | Inclusive `[startYear, endYear]` pairs, ordered and non-overlapping. Example: `[[1914,1914],[1917,1918]]`. |
+| `events` | Related event IDs, assigned editorially rather than inferred automatically from dates. |
+| `eventNotes` | Optional object mapping event IDs to short relationship labels: e.g. `{ "origins": "Background", "somme": "Later context" }`. Without a label, the event link reads “Watch for this event”. |
+| `premise`, `learn` | Short setup and why this title helps someone understand the conflict. Avoid major fictional plot spoilers. |
+| `coverageNote` | Evidence for main-story dates, jumps and exclusions; important dramatic liberties or uncertain dates. |
+| `sources` | Evidence links in the same format as event sources. Rendered inside the story-date disclosure. |
 
-Use plain text for content, not HTML. URLs must be absolute HTTP(S) links. Stable IDs must be lowercase letters, digits and hyphens. The generator escapes content and rejects broken event references or out-of-bounds coverage.
+IMDb links and dates are required. Scores are a proxy for engaging viewing, not for historical reliability. Record exact film identity and edition; do not substitute a remake, documentary, or similarly named series without checking.
 
-## What “main-story coverage” means
+## Main-story coverage rules
 
-Include years with a substantial part of the central story. Exclude a brief prologue, a remembered childhood moment, a framing interview, or an old-age epilogue. A story mainly in 1918 with a closing scene in 1958 has `coverage: [[1918,1918]]`.
+Include years containing a substantial part of the central story. A brief prologue, remembered childhood, framing interview or old-age epilogue does not extend a bar. A story mainly in 1918 with a closing scene in 1958 gets `[[1918,1918]]`.
 
-Separate substantial story sections into separate intervals when intervening years are absent. Do not stretch one bar across a jump. For uncertain dates, use only a defensible year range and explain the uncertainty in `coverageNote`; the UI is year-level rather than day-level precision.
+Separate substantial story sections when intervening years are absent. Never stretch a bar across an unsupported gap. At year-level precision, a 1917 opening and a jump to November 1918 may be represented by `[[1917,1918]]`; the note must explain the jump and where most of the action occurs. If an opening is merely a framing scene, exclude it.
 
-A title's date span is not proof that it depicts every event within that period. Associate event IDs only when the story meaningfully depicts or illuminates them, and make clear when its connection is contextual. Multiple entries can connect to one event and one entry can connect to multiple events. Event cards automatically link to their associated titles.
+Examples from the researched WW1 page:
 
-## Create another war page
+- `37 Days`: `[[1914,1914]]`. The July Crisis begins before the war, within the same calendar year. Linking prewar background does not extend the bar into 1913.
+- `Lawrence of Arabia`: `[[1916,1918]]`. The brief opening in 1935 is excluded.
+- `1917`: `[[1917,1917]]`. Its link to the 1916 attrition note is labelled “Later context”; the film does not depict the Somme or Verdun.
 
-After the owner approves a layout:
+A date span alone never proves an event appears on screen. Use relationship labels and event prose to distinguish depiction from historical background. Show essential gaps explicitly rather than adding a seventh title or implying coverage that does not exist.
 
-1. Retain the approved layout as the default; remove the alternative pages and comparison navigation as part of that explicit follow-up, preserving the shared content contract and coverage semantics.
-2. Create a new root-level folder, e.g. `world-war-ii/`, and copy the content file as a scaffold. Replace its title, slug, timeline bounds, events, and entries completely. Do not carry fictional content into the new page.
-3. Research a short watchlist of at most five or six films/series. IMDb scores are a proxy for engaging viewing, not historical reliability. Record a direct IMDb title link and the score-check date. Account for the full proposed viewing commitment, especially for series.
-4. Begin before the war and curate its principal turning points. Prefer useful coverage and varied perspectives within the viewing budget; acknowledge important gaps rather than inventing a match or quietly exceeding the title limit. Dramatization is acceptable; explain major simplifications where they affect learning.
-5. Verify event context and main-story dates using credible historical sources and film/episode evidence. Supply event and entry source links. Set `demo` to `false` only when researched content is ready.
-6. Run `python3 war-timeline/build.py world-war-ii` (or the target folder). Shared asset paths work for root-level war folders and their nested layout pages.
-7. Manually inspect desktop and mobile, links, highlighting, separate coverage intervals, and overflow. Run `npm run build` and `git diff --check`. Do not add or run automated tests unless the owner changes that instruction.
-8. Commit the target page's content and generated HTML plus any intentional shared-template changes. Inspect outgoing commits and push only requested work. Do not commit caches, local servers, preview captures, or unrelated changes.
+## Make another war page
+
+1. Read this guide and the existing page's research notes. Create a new root-level folder such as `world-war-ii/`, copying only the content file as a scaffold.
+2. Replace **all** war-specific metadata, dates, events, titles, IMDb IDs, coverage, explanations and sources. Reuse the shared renderer and assets unchanged unless the new content exposes a concrete limitation.
+3. Research no more than five or six engaging films/series. Record IMDb scores with dates, total viewing commitment and any edition or episode assumptions. Prefer complementary coverage rather than several interchangeable depictions of the same moment.
+4. Begin before the conflict, explain its principal turning points, and acknowledge omitted events and perspectives. Dramatization is acceptable; explain major liberties that might otherwise teach a false lesson.
+5. Verify main-story dates through film/episode evidence, production/distributor information and reliable film references. Use museum, archive, scholarly or comparable historical sources for event context. Add a short `research/README.md` explaining evidence and curation decisions.
+6. Run `python3 war-timeline/build.py world-war-ii` and preview the resulting page.
+7. Manually inspect desktop and mobile, title/event links, highlighting, date disclosures, overlap and gaps, and overflow. Run the existing site build and `git diff --check`. **Do not add or run automated tests unless the owner changes that instruction.**
+8. Commit the new content, research notes and generated HTML, together with any intentional shared-template changes. Explicitly stage requested paths, inspect outgoing commits, and push under the repository's standing Git authorization. Leave unrelated work untouched.
 
 ### Prompt for a future chat
 
-> Use `war-timeline/TEMPLATE.md` in this repository to create a history-through-film page at `/world-war-ii/`, using the approved timeline layout. Begin before the conflict, explain its key events, and recommend no more than five or six engaging films/series using verified IMDb scores as a proxy. Show main-story coverage only, preserve gaps and overlaps, and record sources. Do not create or run automated tests. Follow the repository's Git delivery instructions.
-
-## Current approval boundary
-
-The three demo layouts deliberately share the exact same data and visual language. They differ in information hierarchy and mobile arrangement. No real WW1 recommendations, film availability claims, posters, embedded trailers, progress tracking, search, or filters have been added. Homepage navigation is unchanged.
+> Use `war-timeline/TEMPLATE.md` in this repository to create a history-through-film page at `/world-war-ii/` using the approved chart + reading list layout. Begin before the conflict and explain its key events. Recommend no more than five or six engaging films/series using dated IMDb scores as a proxy. Show main-story coverage only, preserve gaps and overlaps, distinguish depiction from context, and record sources. Do not create or run automated tests. Follow the repository's Git delivery instructions.

@@ -1,32 +1,34 @@
 #!/usr/bin/env python3
-"""Generate all three static layouts: python3 war-timeline/build.py world-war-i"""
+"""Generate the approved chart + reading list: python3 war-timeline/build.py world-war-i"""
 import json
 import re
 import sys
+from hashlib import sha256
 from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
+
 def esc(value):
     return escape(str(value), quote=True)
 
+
 def template(name, values):
-    result = (ROOT / 'templates' / name).read_text()
-    for key, value in values.items():
-        result = result.replace('{{' + key + '}}', str(value))
-    return result
+    content = (ROOT / 'templates' / name).read_text()
+    return re.sub(r'\{\{([a-z_]+)\}\}', lambda match: str(values[match[1]]), content)
+
 
 def generate(folder):
     data = json.loads((folder / 'data.json').read_text())
     entries, events = data['entries'], data['events']
-    demo = data.get('demo', True)
     first, last = data['startYear'], data['endYear']
     years = list(range(first, last + 1))
     event_map = {e['id']: e for e in events}
-    entry_map = {e['id']: e for e in entries}
-    if len(entry_map) != len(entries) or len(event_map) != len(events):
+    if len({e['id'] for e in entries}) != len(entries) or len(event_map) != len(events):
         raise ValueError('IDs must be unique within entries and events')
+    if not years or not entries:
+        raise ValueError('The timeline needs ordered year bounds and at least one entry')
     for item in entries + events:
         if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', item['id']):
             raise ValueError('IDs must use lowercase letters, digits and hyphens')
@@ -35,80 +37,157 @@ def generate(folder):
             raise ValueError('Event outside timeline')
     for n, entry in enumerate(entries, 1):
         entry['number'] = f'{n:02}'
+        if not re.fullmatch(r'#[0-9a-fA-F]{6}', entry['color']):
+            raise ValueError('Story colours must be six-digit hex values')
+        if not entry['coverage']:
+            raise ValueError('Entries need at least one main-story interval')
         previous_end = first - 1
         for start, end in entry['coverage']:
-            if start <= previous_end:
-                raise ValueError('Coverage intervals must be ordered and non-overlapping')
+            if not first <= start <= end <= last or start <= previous_end:
+                raise ValueError('Coverage must be ordered, non-overlapping and within the timeline')
             previous_end = end
-            if not first <= start <= end <= last:
-                raise ValueError(f'Coverage outside timeline: {entry["id"]}')
         for event_id in entry['events']:
             if event_id not in event_map:
                 raise ValueError(f'Unknown event: {event_id}')
+
     def source_links(item):
         links = []
         for source in item.get('sources', []):
             if not source['url'].startswith(('https://', 'http://')):
                 raise ValueError('Source URLs must use HTTP(S)')
-            links.append(f'<a href="{esc(source["url"])}" target="_blank" rel="noopener noreferrer">{esc(source["label"])} ↗</a>')
+            links.append(
+                f'<a href="{esc(source["url"])}" target="_blank" '
+                f'rel="noopener noreferrer">{esc(source["label"])} ↗</a>'
+            )
         return '<div class="source-links">' + ' · '.join(links) + '</div>' if links else ''
-    def score(e):
-        if demo:
-            return f'★ {esc(e["rating"])} <small>DEMO SCORE</small>'
-        url = e.get('imdbUrl', '')
-        if url and not url.startswith('https://www.imdb.com/title/'):
+
+    def score(entry):
+        url = entry['imdbUrl']
+        if not re.fullmatch(r'https://www\.imdb\.com/title/tt\d+/', url):
             raise ValueError('Use a direct HTTPS IMDb title URL')
-        label = f'★ {esc(e["rating"])} <small>IMDb</small>'
-        link = f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">{label}</a>' if url else label
-        return link + f'<small> CHECKED {esc(e.get("ratingChecked", "date unavailable"))}</small>'
-    def coverage(e):
-        return ', '.join(str(a) if a == b else f'{a}–{b}' for a, b in e['coverage'])
-    def runtime(e):
-        return f'{e["episodes"]} × {e["episodeMinutes"]} min' if e['format'] == 'Series' else f'{e["minutes"]} min'
-    def number(e):
-        return f'<span class="number" style="--story:{esc(e["color"])}">{e["number"]}</span>'
-    def track(e, link=True):
+        return (
+            f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">'
+            f'★ {esc(entry["rating"])} <small>/10 IMDb ↗</small></a>'
+            f'<small class="score-date">CHECKED {esc(entry["ratingChecked"])}</small>'
+        )
+
+    def coverage(entry):
+        return ', '.join(str(a) if a == b else f'{a}–{b}' for a, b in entry['coverage'])
+
+    def runtime(entry):
+        if entry['format'] == 'Series':
+            return f'{entry["episodes"]} × {entry["episodeMinutes"]} min'
+        return f'{entry["minutes"]} min'
+
+    def number(entry):
+        return f'<span class="number" style="--story:{esc(entry["color"])}">{entry["number"]}</span>'
+
+    def track(entry):
         bars = ''
-        for a, b in e['coverage']:
-            style = f'--start:{(a-first)/len(years)*100:.5f}%;--length:{(b-a+1)/len(years)*100:.5f}%;--story:{e["color"]}'
+        for a, b in entry['coverage']:
+            style = (
+                f'--start:{(a-first)/len(years)*100:.5f}%;'
+                f'--length:{(b-a+1)/len(years)*100:.5f}%;--story:{entry["color"]}'
+            )
             label = str(a) if a == b else f'{a}–{b}'
             bars += f'<span class="range" style="{esc(style)}"><span>{label}</span></span>'
-        return f'<a class="track story-target" data-story="{esc(e["id"])}" href="#story-{esc(e["id"])}" aria-label="{esc(e["title"])}: main story {coverage(e)}">{bars}</a>' if link else f'<div class="track" role="img" aria-label="Main-story years: {coverage(e)}">{bars}</div>'
-    def related(e):
-        return ''.join(f'<button type="button" class="event-chip" data-event="{esc(i)}">{event_map[i]["year"]} · {esc(event_map[i]["title"])}</button>' for i in e['events'])
-    def card(e, strip=False):
-        mini = f'<div class="mini-timeline"><div class="axis">{year_labels}</div>{track(e, False)}</div>' if strip else ''
-        return f'''<article class="story-card" id="story-{esc(e['id'])}" data-card="{esc(e['id'])}" style="--story:{esc(e['color'])}">
-<div class="card-index">{number(e)}<span>WATCH {e['number']}</span></div><div class="card-main"><div class="card-meta"><span>{esc(e['format'])} / {e['releaseYear']}</span><span>{runtime(e)}</span><span class="score">{score(e)}</span></div><h3>{esc(e['title'])}</h3><p class="premise">{esc(e['premise'])}</p>{mini}<p class="coverage-label">MAIN STORY <strong>{coverage(e)}</strong></p><p class="learning"><b>What you’ll learn</b> {esc(e['learn'])}</p><div class="event-chips" aria-label="Related events">{related(e)}</div><details><summary>About these story dates</summary><p>{esc(e['coverageNote'])}</p>{source_links(e)}</details></div></article>'''
-    def event(e):
-        linked = [x for x in entries if e['id'] in x['events']]
-        links = ''.join(f'<a class="event-watch story-target" data-story="{esc(x["id"])}" href="#story-{esc(x["id"])}">{number(x)}<span>{esc(x["title"])}</span><span aria-hidden="true">↗</span></a>' for x in linked)
-        return f'<article class="event-note" id="event-{esc(e["id"])}" data-event-note="{esc(e["id"])}"><button class="event-year" type="button" data-event="{esc(e["id"])}" aria-label="Highlight stories connected to {esc(e["title"])}">{e["year"]} <span>↗</span></button><h3>{esc(e["title"])}</h3><p>{esc(e["description"])}</p><div class="event-watches">{links}</div>{source_links(e)}</article>'
-    year_labels = ''.join(f'<span>{y}</span>' for y in years)
-    common = {'years': year_labels, 'cards': ''.join(card(e) for e in entries), 'events': ''.join(event(e) for e in events)}
-    chart_rows = ''.join(f'<div class="chart-row" data-chart-row="{esc(e["id"])}"><a class="chart-title story-target" data-story="{esc(e["id"])}" href="#story-{esc(e["id"])}">{number(e)}<span>{esc(e["title"])}</span></a>{track(e)}</div>' for e in entries)
-    dots = ''.join(f'<button type="button" data-event="{esc(e["id"])}" style="grid-column:{e['year'] - first + 1}" aria-label="{e["year"]}: {esc(e["title"])}"><span>◆</span><small>{i+1:02}</small></button>' for i, e in enumerate(events))
-    key = ''.join(f'<a class="story-target" data-story="{esc(e["id"])}" href="#story-{esc(e["id"])}">{number(e)}<span>{esc(e["title"])}</span></a>' for e in entries)
-    vertical_rows = ''
-    for y in years:
-        lanes = ''
-        for e in entries:
-            active = any(a <= y <= b for a, b in e['coverage'])
-            lanes += f'<a class="lane {"active" if active else ""} story-target" data-story="{esc(e["id"])}" style="--story:{esc(e["color"])}" href="#story-{esc(e["id"])}" aria-label="{esc(e["title"])}: {"covers" if active else "does not cover"} {y}">{e["number"] if active else ""}</a>' if active else '<span class="lane"></span>'
-        vertical_rows += f'<div class="vertical-row"><div>{"".join(event(e) for e in events if e["year"] == y) or f"<p>{y}</p>"}</div><div class="lanes">{lanes}</div></div>'
-    layouts = [('', 'chart.html', 'The whole picture.', 'Compare overlapping stories against a single shared timeline.', 'Chart + reading list'), ('vertical', 'vertical.html', 'Follow the years.', 'Walk through events, with story coverage running beside them.', 'Vertical timeline'), ('watchlist', 'watchlist.html', 'One story at a time.', 'A viewing route with a little historical context at every stop.', 'Watchlist first')]
-    total = sum(e.get('minutes', e.get('episodes', 0) * e.get('episodeMinutes', 0)) for e in entries)
-    for n, (sub, file, name, description, nav_name) in enumerate(layouts, 1):
-        out = folder / sub
-        out.mkdir(parents=True, exist_ok=True)
-        prefix = '..' if sub else '.'
-        base = '../..' if sub else '..'
-        nav = ''.join(f'<a href="{prefix}/{other + "/" if other else ""}" {"aria-current=\"page\"" if other == sub else ""}><span>0{i}</span>{esc(label)}<b>↗</b></a>' for i, (other, _, _, _, label) in enumerate(layouts, 1))
-        values = dict(common, route_title=f'Your {len(entries)}-story route', chart_rows=chart_rows, event_dots=dots, key=key, lane_labels=''.join(number(e) for e in entries), vertical_rows=vertical_rows, watchlist_cards=''.join(card(e, True) for e in entries))
-        body = template(file, values)
-        shell = template('shell.html', {'year_count': len(years), 'lane_count': len(entries), 'entry_count': f'{len(entries):02}', 'route_title': f'Your {len(entries)}-story route', 'description': esc('A fictional, three-layout demonstration of a reusable history-through-film timeline.' if demo else data['subtitle']), 'robots': '<meta name="robots" content="noindex">' if demo else '', 'banner': '<div class="demo-banner">DESIGN DEMO <span>Fictional events, titles &amp; ratings. Not a WW1 watchlist.</span></div>' if demo else '', 'content_note': esc(f'The dates below belong to an invented conflict ({first}–{last}). They exist only to demonstrate the design. Every score is a fictional IMDb-style placeholder.' if demo else data.get('introNote', 'Main-story coverage, curated for a short viewing journey. See each entry for sources and score-check dates.')),  'connections': json.dumps({'entries': [{'id': e['id'], 'title': e['title'], 'events': e['events']} for e in entries], 'events': [{'id': e['id'], 'title': e['title']} for e in events]}).replace('<', '\u003c'), 'page_title': esc(f'{data["title"]} — {nav_name} / UI demo'), 'asset': f'{base}/war-timeline', 'home': f'{prefix}/', 'title': esc(data['title']), 'subtitle': esc(data['subtitle']), 'duration': f'{total//60}H {total%60:02}M', 'navigation': nav, 'layout_number': f'{n:02}', 'layout_name': name, 'layout_description': description, 'body': body, 'guide': f'{base}/war-timeline/TEMPLATE.md'})
-        (out / 'index.html').write_text(shell)
-        print(out / 'index.html')
+        return (
+            f'<a class="track" data-story="{entry["id"]}" href="#story-{entry["id"]}" '
+            f'aria-label="{esc(entry["title"])}: main story {coverage(entry)}">{bars}</a>'
+        )
+
+    def related(entry):
+        chips = []
+        for event_id in entry['events']:
+            note = entry.get('eventNotes', {}).get(event_id)
+            prefix = f'{esc(note)} · ' if note else ''
+            chips.append(
+                f'<button type="button" class="event-chip" data-event="{event_id}">'
+                f'{prefix}{event_map[event_id]["year"]} · {esc(event_map[event_id]["title"])}</button>'
+            )
+        return ''.join(chips)
+
+    def card(entry):
+        return f'''<article class="story-card" id="story-{entry['id']}" data-card="{entry['id']}" style="--story:{esc(entry['color'])}">
+<div class="card-index">{number(entry)}<span>WATCH {entry['number']}</span></div>
+<div class="card-main">
+<div class="card-meta"><span>{esc(entry['format'])} / {entry['releaseYear']}</span><span>{runtime(entry)}</span><span class="score">{score(entry)}</span></div>
+<h3>{esc(entry['title'])}</h3><p class="premise">{esc(entry['premise'])}</p>
+<p class="coverage-label">MAIN STORY <strong>{coverage(entry)}</strong></p>
+<p class="learning"><b>What you’ll learn</b> {esc(entry['learn'])}</p>
+<div class="event-chips" aria-label="Related events">{related(entry)}</div>
+<details><summary>Story dates &amp; historical context</summary><p>{esc(entry['coverageNote'])}</p>{source_links(entry)}</details>
+</div></article>'''
+
+    def event(item, index):
+        links = []
+        for entry in entries:
+            if item['id'] not in entry['events']:
+                continue
+            relation = entry.get('eventNotes', {}).get(item['id'], 'Watch for this event')
+            links.append(
+                f'<a class="event-watch" data-story="{entry["id"]}" href="#story-{entry["id"]}">'
+                f'{number(entry)}<span>{esc(entry["title"])}<small>{esc(relation)}</small></span>'
+                '<span aria-hidden="true">↗</span></a>'
+            )
+        label = item.get('dateLabel', item['year'])
+        gap = f'<p class="coverage-gap">{esc(item["gapNote"])}</p>' if item.get('gapNote') else ''
+        return f'''<article class="event-note" id="event-{item['id']}" data-event-note="{item['id']}">
+<button class="event-year" type="button" data-event="{item['id']}" aria-label="Highlight stories connected to {esc(item['title'])}"><span>{index:02} / {esc(label)}</span><span>↗</span></button>
+<h3>{esc(item['title'])}</h3><p>{esc(item['description'])}</p>
+<div class="event-watches">{''.join(links)}</div>{gap}{source_links(item)}</article>'''
+
+    chart_rows = ''.join(
+        f'<div class="chart-row" data-chart-row="{entry["id"]}">'
+        f'<a class="chart-title" data-story="{entry["id"]}" href="#story-{entry["id"]}">'
+        f'{number(entry)}<span>{esc(entry["title"])}</span></a>{track(entry)}</div>'
+        for entry in entries
+    )
+    clusters = []
+    for year in years:
+        dots = ''.join(
+            f'<button type="button" data-event="{item["id"]}" '
+            f'title="{esc(item.get("dateLabel", year))}: {esc(item["title"])}" '
+            f'aria-label="{year}: {esc(item["title"])}"><span>◆</span><small>{i:02}</small></button>'
+            for i, item in enumerate(events, 1) if item['year'] == year
+        )
+        clusters.append(f'<div class="event-cluster">{dots}</div>')
+    body = template('chart.html', {
+        'years': ''.join(f'<span>{year}</span>' for year in years),
+        'chart_rows': chart_rows,
+        'event_dots': ''.join(clusters),
+        'events': ''.join(event(item, i) for i, item in enumerate(events, 1)),
+        'cards': ''.join(card(entry) for entry in entries),
+        'route_title': f'Your {len(entries)}-story route',
+    })
+    total = sum(
+        entry['episodes'] * entry['episodeMinutes'] if entry['format'] == 'Series' else entry['minutes']
+        for entry in entries
+    )
+    connections = {
+        'entries': [{'id': e['id'], 'title': e['title'], 'events': e['events']} for e in entries],
+        'events': [{'id': e['id'], 'title': e['title']} for e in events],
+    }
+    html = template('shell.html', {
+        'page_title': esc(f'{data["title"]} — A history worth watching'),
+        'description': esc(data['subtitle']),
+        'year_count': len(years),
+        'entry_count': f'{len(entries):02}',
+        'asset': '../war-timeline',
+        'style_version': sha256((ROOT / 'styles.css').read_bytes()).hexdigest()[:12],
+        'script_version': sha256((ROOT / 'app.js').read_bytes()).hexdigest()[:12],
+        'title': esc(data['title']),
+        'subtitle': esc(data['subtitle']),
+        'duration': f'≈ {total//60}H {total%60:02}M',
+        'content_note': esc(data['introNote']),
+        'scope_note': esc(data.get('scopeNote', '')),
+        'research_date': esc(data['researchDate']),
+        'connections': json.dumps(connections).replace('<', '\u003c'),
+        'body': body,
+    })
+    (folder / 'index.html').write_text(html)
+    print(folder / 'index.html')
+
 
 if __name__ == '__main__':
     generate(Path(sys.argv[1]).resolve())

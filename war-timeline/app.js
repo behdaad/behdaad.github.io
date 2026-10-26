@@ -26,7 +26,7 @@
       el.setAttribute('aria-pressed', String(events.includes(el.dataset.event)));
     });
     const label = kind === 'event' ? data.events.find(e => e.id === id).title : data.entries.find(e => e.id === id).title;
-    status.textContent = kind === 'event' ? `${label} · ${stories.length} connected ${stories.length === 1 ? 'story' : 'stories'} highlighted.` : `${label} · ${events.length} connected events highlighted.`;
+    status.textContent = kind === 'event' ? (stories.length ? `${label} · ${stories.length} connected ${stories.length === 1 ? 'story' : 'stories'} highlighted.` : `${label} · Historical context; none of the selected titles depicts this event.`) : `${label} · ${events.length} connected events highlighted.`;
     const reset = document.createElement('button');
     reset.type = 'button';
     reset.className = 'reset-selection';

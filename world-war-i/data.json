@@ -1,24 +1,419 @@
 {
   "slug": "world-war-i",
   "title": "World War I",
-  "subtitle": "Understand the years. Follow the stories.",
-  "demo": true,
-  "startYear": 1900,
-  "endYear": 1906,
+  "subtitle": "Six watches, from the July Crisis to the Armistice.",
+  "startYear": 1913,
+  "endYear": 1918,
+  "researchDate": "2026-10-26",
+  "introNote": "Five films and one complete three-part series. About 15 hours in total, using the restored 227-minute Lawrence of Arabia. IMDb scores were checked on 26 October 2026 and can change; they guide the viewing choices, not their historical reliability.",
+  "scopeNote": "This is an introduction through drama, with British, French, German, Australian and Arab-front perspectives. It leans towards the Western Front. The Eastern Front, Africa, the war at sea, civilian life and colonial soldiers deserve more attention than six titles can give them. Event notes fill in essential context without pretending the films cover everything.",
   "events": [
-    {"id":"before","year":1900,"title":"Before the storm","description":"Start with everyday life and the tensions gathering beneath it. This fictional opening gives the later stories their context."},
-    {"id":"spark","year":1901,"title":"The breaking point","description":"A crisis becomes a conflict. Follow the choices that turn distant politics into an immediate reality."},
-    {"id":"front","year":1902,"title":"A war takes shape","description":"The first expectations give way to a longer struggle. The front and the home front begin to change each other."},
-    {"id":"stalemate","year":1903,"title":"The long middle","description":"Little seems to move, but the cost keeps growing. Look at the same phase through different people's lives."},
-    {"id":"shift","year":1904,"title":"The balance shifts","description":"A new development changes what each side believes is possible. One story returns here after a gap in its main plot."},
-    {"id":"end","year":1905,"title":"The final push","description":"Exhaustion and urgency collide as the conflict approaches its end. Two stories cover this phase from different angles."},
-    {"id":"after","year":1906,"title":"When the fighting stops","description":"The end of combat does not instantly restore ordinary life. Close with the immediate aftermath and what people carry home."}
+    {
+      "id": "origins",
+      "year": 1913,
+      "dateLabel": "BEFORE JULY 1914",
+      "title": "Europe on edge",
+      "description": "Imperial competition, nationalism, military planning and rival alliances made Europe vulnerable to a crisis. None made a world war automatic: the decisions of summer 1914 mattered. Start with 37 Days for those decisions; its main plot begins in 1914, not 1913.",
+      "sources": [
+        {
+          "label": "NZ History · Why war broke out",
+          "url": "https://nzhistory.govt.nz/war/first-world-war-overview/origins"
+        }
+      ]
+    },
+    {
+      "id": "july-crisis",
+      "year": 1914,
+      "dateLabel": "28 JUN – 4 AUG 1914",
+      "title": "An assassination becomes a war",
+      "description": "Franz Ferdinand’s assassination in Sarajevo was followed by ultimatums and mobilisation. Austria-Hungary attacked Serbia on 28 July; Germany’s wars with Russia and France and invasion of Belgium drew Britain in by 4 August. Watch 37 Days before the battlefield films.",
+      "sources": [
+        {
+          "label": "Library of Congress · War chronology",
+          "url": "https://www.loc.gov/exhibitions/world-war-i-american-experiences/timeline/"
+        },
+        {
+          "label": "NZ History · Why war broke out",
+          "url": "https://nzhistory.govt.nz/war/first-world-war-overview/origins"
+        }
+      ]
+    },
+    {
+      "id": "trenches",
+      "year": 1914,
+      "dateLabel": "AUG – NOV 1914",
+      "title": "The quick war that wasn’t",
+      "description": "Germany’s advance through Belgium and France was checked at the Marne. Attempts to outflank the opposing armies helped produce a continuous Western Front. Joyeux Noël introduces the soldiers living with the resulting trench war; it does not reconstruct the Marne campaign.",
+      "sources": [
+        {
+          "label": "National Army Museum · 1914",
+          "url": "https://www.nam.ac.uk/explore/1914-mons-christmas"
+        }
+      ]
+    },
+    {
+      "id": "christmas-truce",
+      "year": 1914,
+      "dateLabel": "DECEMBER 1914",
+      "title": "A pause between enemies",
+      "description": "Unofficial local truces let some soldiers meet, exchange gifts and bury the dead. Fighting continued elsewhere. Joyeux Noël turns several experiences into one fictional encounter, making the people across the wire easier to see as people.",
+      "sources": [
+        {
+          "label": "National Army Museum · The Christmas Truce",
+          "url": "https://ww1.nam.ac.uk/1331/news/christmas-truce/"
+        }
+      ]
+    },
+    {
+      "id": "gallipoli",
+      "year": 1915,
+      "dateLabel": "APR 1915 – JAN 1916",
+      "title": "A second front at Gallipoli",
+      "description": "The Allies tried to break through the Dardanelles and then fought an unsuccessful land campaign against the Ottoman Empire. Gallipoli follows Australian recruits to the August 1915 fighting at the Nek. Its story ends before the eventual evacuation.",
+      "sources": [
+        {
+          "label": "Australian Screen · Gallipoli, story & historical context",
+          "url": "https://aso.gov.au/titles/features/gallipoli/notes/"
+        },
+        {
+          "label": "Library of Congress · War chronology",
+          "url": "https://www.loc.gov/exhibitions/world-war-i-american-experiences/timeline/"
+        }
+      ]
+    },
+    {
+      "id": "attrition",
+      "year": 1916,
+      "dateLabel": "FEB – NOV 1916",
+      "title": "Verdun and the Somme",
+      "description": "Huge offensives wore down armies for limited gains. Verdun tested French endurance; the Somme was intended to help break the deadlock and relieve pressure on France. Read this before 1917: that film shows a later phase of the Western Front, not either 1916 battle.",
+      "sources": [
+        {
+          "label": "National Army Museum · 1916",
+          "url": "https://www.nam.ac.uk/explore/1916-year-attrition"
+        }
+      ]
+    },
+    {
+      "id": "arab-revolt",
+      "year": 1916,
+      "dateLabel": "1916 – 1918",
+      "title": "The war beyond Europe",
+      "description": "The Arab Revolt challenged Ottoman rule with British support, while British and French imperial plans complicated promises of independence. Lawrence of Arabia opens this theatre of the war, but its British hero is only one participant in an Arab-led struggle.",
+      "sources": [
+        {
+          "label": "National Army Museum · Lawrence and the Arab Revolt",
+          "url": "https://www.nam.ac.uk/explore/lawrence-arabia-man-behind-robes"
+        }
+      ]
+    },
+    {
+      "id": "hindenburg-line",
+      "year": 1917,
+      "dateLabel": "SPRING 1917",
+      "title": "A retreat can be a trap",
+      "description": "Germany shortened its Western Front by withdrawing to the fortified Hindenburg Line. In 1917, two fictional British messengers cross the devastated ground left behind. The film’s urgent mission is invented; the strategic withdrawal gives it its setting.",
+      "sources": [
+        {
+          "label": "National Army Museum · 1916",
+          "url": "https://www.nam.ac.uk/explore/1916-year-attrition"
+        }
+      ]
+    },
+    {
+      "id": "us-russia",
+      "year": 1917,
+      "dateLabel": "APRIL – NOVEMBER 1917",
+      "title": "America enters; Russia unravels",
+      "description": "The United States declared war on Germany on 6 April. Revolutions in Russia brought down the tsar and then brought the Bolsheviks to power; Russia made peace with the Central Powers in March 1918. These changes reshaped the balance of the war.",
+      "sources": [
+        {
+          "label": "Library of Congress · War chronology",
+          "url": "https://www.loc.gov/exhibitions/world-war-i-american-experiences/timeline/"
+        }
+      ],
+      "gapNote": "Context stop: none of these six titles directly tells the story of US entry or the Russian revolutions. The date of 1917’s mission is not evidence that it covers them."
+    },
+    {
+      "id": "endgame",
+      "year": 1918,
+      "dateLabel": "MARCH – NOVEMBER 1918",
+      "title": "The last offensives",
+      "description": "Germany’s spring attacks failed to secure victory. The Allies then advanced in the Hundred Days, helped by growing American strength. All Quiet on the Western Front is a German soldier’s view of the war’s final phase, not a campaign-by-campaign account of these offensives.",
+      "sources": [
+        {
+          "label": "National Army Museum · The 1918 offensives",
+          "url": "https://www.nam.ac.uk/explore/1918-victory"
+        }
+      ]
+    },
+    {
+      "id": "damascus",
+      "year": 1918,
+      "dateLabel": "OCTOBER 1918",
+      "title": "Damascus and competing ambitions",
+      "description": "Arab and British Empire forces entered Damascus as Ottoman resistance collapsed in the region. Lawrence of Arabia ends its wartime story here, where hopes for self-rule meet the politics of imperial power. The film compresses events and puts Lawrence at their centre.",
+      "sources": [
+        {
+          "label": "National Army Museum · Lawrence and the Arab Revolt",
+          "url": "https://www.nam.ac.uk/explore/lawrence-arabia-man-behind-robes"
+        }
+      ]
+    },
+    {
+      "id": "armistice",
+      "year": 1918,
+      "dateLabel": "11 NOVEMBER 1918",
+      "title": "The fighting stops",
+      "description": "The Armistice with Germany took effect at 11 a.m. on 11 November. All Quiet on the Western Front contrasts negotiations with life at the front. Its final ordered assault is dramatic invention, not a reconstruction of a documented last-minute German offensive.",
+      "sources": [
+        {
+          "label": "National Army Museum · The 1918 offensives",
+          "url": "https://www.nam.ac.uk/explore/1918-victory"
+        },
+        {
+          "label": "University of Birmingham · A WW1 historian on the film",
+          "url": "https://www.birmingham.ac.uk/news/2023/not-all-quiet-on-the-western-front"
+        }
+      ]
+    }
   ],
   "entries": [
-    {"id":"orchard","title":"The Last Summer Orchard","releaseYear":2014,"format":"Film","minutes":112,"rating":"8.1","color":"#a13e2e","coverage":[[1900,1901]],"events":["before","spark"],"premise":"A family reunion becomes a farewell as a quiet border town hears the first news of conflict.","learn":"How a conflict interrupts ordinary lives, and why the world before the fighting matters.","coverageNote":"The main story spans 1900–1901. A brief old-age epilogue in 1940 is excluded."},
-    {"id":"letters","title":"Letters from the Eastern Road","releaseYear":2019,"format":"Series","episodes":3,"episodeMinutes":48,"rating":"8.4","color":"#426b69","coverage":[[1901,1903]],"events":["spark","front","stalemate"],"premise":"A messenger follows a changing front while letters home tell a very different story.","learn":"How early expectations become a sustained struggle, seen across several years.","coverageNote":"All three episodes belong to the suggested watch. Their main stories cover 1901–1903."},
-    {"id":"winter","title":"A Winter Without Maps","releaseYear":2017,"format":"Film","minutes":104,"rating":"7.9","color":"#816331","coverage":[[1903,1903]],"events":["stalemate"],"premise":"An isolated unit and a nearby village wait through a winter that seems to have no end.","learn":"The human experience of a stalemate, rather than an overview of campaigns.","coverageNote":"The main plot takes place entirely in 1903. A short opening memory is excluded."},
-    {"id":"bridge","title":"The Bridge Between Us","releaseYear":2021,"format":"Film","minutes":126,"rating":"8.2","color":"#685982","coverage":[[1902,1902],[1904,1905]],"events":["front","shift","end"],"premise":"Two engineers meet during the first campaigns, then reunite for a decisive crossing years later.","learn":"How the same place can reveal changes between the early and late phases of a conflict.","coverageNote":"Substantial story sections occur in 1902 and 1904–1905. The intervening year is not shown as covered."},
-    {"id":"morning","title":"The Morning After Silence","releaseYear":2016,"format":"Film","minutes":118,"rating":"8.0","color":"#4e7150","coverage":[[1905,1906]],"events":["end","after"],"premise":"A nurse and a returning soldier try to find their way home as news of peace travels ahead of them.","learn":"The difference between the end of fighting and the beginning of recovery.","coverageNote":"The final fighting and immediate aftermath, 1905–1906, are both central to the plot."}
+    {
+      "id": "37-days",
+      "title": "37 Days",
+      "releaseYear": 2014,
+      "format": "Series",
+      "rating": "8.1",
+      "color": "#a13e2e",
+      "coverage": [
+        [
+          1914,
+          1914
+        ]
+      ],
+      "events": [
+        "origins",
+        "july-crisis"
+      ],
+      "premise": "Diplomats and rulers try to control a crisis that keeps slipping beyond them. Watch all three episodes: this is the political opening to the route.",
+      "learn": "How choices, alliances and mobilisation turned a Balkan crisis into a European war. A tense chamber drama rather than a battle spectacle.",
+      "coverageNote": "28 June–4 August 1914: the assassination and the diplomatic crisis ending with Britain’s declaration of war. Prewar context is discussed, but earlier years are not a substantial separate plot. The 1913 event note supplies background rather than extending this bar.",
+      "imdbUrl": "https://www.imdb.com/title/tt3101352/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "BBC Studios · Series synopsis",
+          "url": "https://www.bbcstudiospressroom.com/press/100th-anniversary-commemorative-world-war-one-collection/"
+        },
+        {
+          "label": "BBC · Programme lengths",
+          "url": "https://downloads.bbc.co.uk/thingstodo/live/World-War-One-Project-Guide-Final_a4e1ec04.pdf"
+        }
+      ],
+      "episodes": 3,
+      "episodeMinutes": 60,
+      "eventNotes": {
+        "origins": "Background"
+      }
+    },
+    {
+      "id": "joyeux-noel",
+      "title": "Joyeux Noël",
+      "releaseYear": 2005,
+      "format": "Film",
+      "rating": "7.6",
+      "color": "#426b69",
+      "coverage": [
+        [
+          1914,
+          1914
+        ]
+      ],
+      "events": [
+        "trenches",
+        "christmas-truce"
+      ],
+      "premise": "French, Scottish and German soldiers share an unofficial Christmas ceasefire. Warmth and music briefly cut through the trench lines.",
+      "learn": "The human scale of the early Western Front, and why the Christmas truces were remarkable precisely because they were local and temporary.",
+      "coverageNote": "The central action is in December 1914, with the outbreak of war establishing the characters earlier that year. It combines fictional characters and incidents; the short disciplinary aftermath does not justify stretching the main-story bar into another year.",
+      "imdbUrl": "https://www.imdb.com/title/tt0424205/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "Artémis Productions · Christmas 1914 synopsis",
+          "url": "https://www.artemisproductions.com/sites/artemisproductions.com/files/html2pdf/fiche_film/pdf/fiche_film-Joyeux_Noel-fr.pdf"
+        },
+        {
+          "label": "IMDb · December 1914 synopsis & runtime",
+          "url": "https://www.imdb.com/title/tt0424205/"
+        },
+        {
+          "label": "National Army Museum · The Christmas Truce",
+          "url": "https://ww1.nam.ac.uk/1331/news/christmas-truce/"
+        }
+      ],
+      "minutes": 116,
+      "eventNotes": {
+        "trenches": "Context"
+      }
+    },
+    {
+      "id": "gallipoli",
+      "title": "Gallipoli",
+      "releaseYear": 1981,
+      "format": "Film",
+      "rating": "7.4",
+      "color": "#816331",
+      "coverage": [
+        [
+          1915,
+          1915
+        ]
+      ],
+      "events": [
+        "gallipoli"
+      ],
+      "premise": "Two Australian runners enlist, train in Egypt and reach the Gallipoli peninsula. Their friendship gives the campaign’s tragedy a personal centre.",
+      "learn": "Why WW1 extended beyond France and Belgium, how imperial ties carried Australians into the war, and the cost of the Gallipoli campaign.",
+      "coverageNote": "The Australian recruitment story, Egyptian training and August fighting at the Nek all belong to 1915. Do not extend coverage to the January 1916 evacuation. The film misleadingly directs blame towards British command: an Australian officer ordered the final charge at the Nek.",
+      "imdbUrl": "https://www.imdb.com/title/tt0082432/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "Australian Screen · Gallipoli, story & historical context",
+          "url": "https://aso.gov.au/titles/features/gallipoli/notes/"
+        },
+        {
+          "label": "IMDb · Film runtime",
+          "url": "https://www.imdb.com/title/tt0082432/technical/"
+        }
+      ],
+      "minutes": 110
+    },
+    {
+      "id": "lawrence",
+      "title": "Lawrence of Arabia",
+      "releaseYear": 1962,
+      "format": "Film",
+      "rating": "8.3",
+      "color": "#685982",
+      "coverage": [
+        [
+          1916,
+          1918
+        ]
+      ],
+      "events": [
+        "arab-revolt",
+        "damascus"
+      ],
+      "premise": "T. E. Lawrence joins Arab forces fighting the Ottoman Empire, from desert crossings and Aqaba to Damascus. Use the restored version; the intermission makes a natural two-evening break.",
+      "learn": "The Arab Revolt and the tension between local ambitions and British imperial strategy. An expansive change of scale from the trenches, seen through a heavily dramatised British protagonist.",
+      "coverageNote": "The central wartime narrative runs from Lawrence’s assignment in 1916 to Damascus in 1918, including Aqaba in 1917. Exclude the brief opening death and memorial scenes in 1935. The bar does not promise continuous year-by-year coverage. Runtime is 227 minutes for the restored edition; cuts differ.",
+      "imdbUrl": "https://www.imdb.com/title/tt0056172/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "AFI · Wartime plot synopsis",
+          "url": "https://catalog.afi.com/Catalog/MovieDetails/23993"
+        },
+        {
+          "label": "National Army Museum · Lawrence and the Arab Revolt",
+          "url": "https://www.nam.ac.uk/explore/lawrence-arabia-man-behind-robes"
+        },
+        {
+          "label": "IMDb · Restored-edition runtime",
+          "url": "https://www.imdb.com/title/tt0056172/technical/"
+        }
+      ],
+      "minutes": 227
+    },
+    {
+      "id": "1917",
+      "title": "1917",
+      "releaseYear": 2019,
+      "format": "Film",
+      "rating": "8.2",
+      "color": "#4e7150",
+      "coverage": [
+        [
+          1917,
+          1917
+        ]
+      ],
+      "events": [
+        "attrition",
+        "hindenburg-line"
+      ],
+      "premise": "Two British soldiers must carry a warning across abandoned trenches and occupied ground. Its apparently continuous camera movement makes the journey unusually immediate.",
+      "learn": "The geography, isolation and communication problems of the Western Front after Germany’s withdrawal. The fictional mission supplies urgency without trying to explain the whole war.",
+      "coverageNote": "The mission takes place on 6–7 April 1917. Its historical setting is the withdrawal to the Hindenburg Line. It does not depict Verdun or the Somme in 1916, America’s entry, the Russian revolutions, or the later Passchendaele offensive.",
+      "imdbUrl": "https://www.imdb.com/title/tt8579674/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "IMDb · Dated premise & runtime",
+          "url": "https://www.imdb.com/title/tt8579674/"
+        },
+        {
+          "label": "TIME · Film history, with WWI Museum curators",
+          "url": "https://time.com/5751665/1917-movie-history/"
+        },
+        {
+          "label": "National Army Museum · 1916",
+          "url": "https://www.nam.ac.uk/explore/1916-year-attrition"
+        }
+      ],
+      "minutes": 119,
+      "eventNotes": {
+        "attrition": "Later context"
+      }
+    },
+    {
+      "id": "all-quiet",
+      "title": "All Quiet on the Western Front",
+      "releaseYear": 2022,
+      "format": "Film",
+      "rating": "7.8",
+      "color": "#3e627b",
+      "coverage": [
+        [
+          1917,
+          1918
+        ]
+      ],
+      "events": [
+        "endgame",
+        "armistice"
+      ],
+      "premise": "A German teenager’s enthusiasm for enlistment is crushed by trench warfare. The 2022 adaptation follows his comrades alongside the negotiations to end the fighting.",
+      "learn": "The German soldiers’ experience of exhaustion and the distance between political decisions and individual survival. Finish here for the Armistice, despite the film’s overlap with 1917.",
+      "coverageNote": "A substantial opening follows Paul’s enlistment in spring 1917; the story then jumps eighteen months to November 1918, where most of the film takes place. Both years belong to the central plot. The fictional final assault is a dramatic device, and the film is not a literal reconstruction of Remarque’s novel or the Armistice negotiations.",
+      "imdbUrl": "https://www.imdb.com/title/tt1016150/",
+      "ratingChecked": "2026-10-26",
+      "sources": [
+        {
+          "label": "Netflix · Spring 1917 premise",
+          "url": "https://about.netflix.com/en/news/all-quiet-on-the-western-front-official-trailer-and-new-key-art"
+        },
+        {
+          "label": "IMDb · Runtime & production details",
+          "url": "https://www.imdb.com/title/tt1016150/"
+        },
+        {
+          "label": "Netflix · Historical framework & final days",
+          "url": "https://cdn.nflxext.com/tudum/articles/all-quiet-on-the-western-front-true-story-book-movie-history"
+        },
+        {
+          "label": "University of Birmingham · A WW1 historian on the film",
+          "url": "https://www.birmingham.ac.uk/news/2023/not-all-quiet-on-the-western-front"
+        }
+      ],
+      "minutes": 148,
+      "eventNotes": {
+        "endgame": "Final-phase perspective"
+      }
+    }
   ]
 }

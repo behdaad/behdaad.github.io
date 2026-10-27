@@ -1,10 +1,10 @@
 # History through stories: reusable war timeline
 
-The approved layout is **chart + reading list**, selected on 26 October 2026. `/world-war-i/` is the first researched page. The vertical and watchlist-first alternatives have been removed from both the published pages and the shared templates. Do not recreate them when making another war page.
+The current layout is a **Library of Congress-inspired year-by-year timeline**, requested on 27 October 2026. It replaces the earlier chart + reading list. A central red spine, alternating event cards and collapsible year pills follow the [reference exhibition](https://www.loc.gov/exhibitions/world-war-i-american-experiences/timeline/). Our additions connect films across years and events. Reuse this shared design for subsequent war pages; do not recreate the discarded demo layouts.
 
 ## Source of truth
 
-- `war-timeline/build.py` reads a page folder's `data.json`, combines `templates/shell.html` and `templates/chart.html`, and writes a complete static `index.html`.
+- `war-timeline/build.py` reads a page folder's `data.json`, combines `templates/shell.html` and `templates/timeline.html`, and writes a complete static `index.html`.
 - `war-timeline/styles.css` and `app.js` are shared across war pages. JavaScript enhances relationship highlighting; reading, title anchors, and native date-note disclosures work without it.
 - Each war has its own root-level folder and content file, e.g. `world-war-i/data.json`. Entry array order is suggested viewing order; events are ordered chronologically, including events within the same year.
 - Commit the source data and generated HTML: the existing Eleventy build leaves these standalone pages in place and does not generate them.
@@ -24,9 +24,17 @@ python3 -m http.server 4175 --bind 127.0.0.1
 
 Open `http://127.0.0.1:4175/world-war-i/`. Use Python 3.9 or newer; no third-party Python packages are required.
 
-The chart uses equal-width, inclusive year buckets. A single-year story occupies one bucket. Separate intervals produce separate bars, with visible gaps. Every title has its own row, so overlaps align against the same axis. Event markers are grouped by year, with numbers matching the event notes below. Several events can occupy the same year without shifting markers into another year's column.
+## Layout and multi-year film coverage
 
-Longer timelines automatically widen the chart to keep year labels and single-year spans legible. On mobile only the chart scrolls horizontally. Cards, events and explanatory text fit the viewport. Keep the 17px default body size, keyboard access, readable labels alongside colour, and reduced-motion support. Do not add layout comparison controls, a sidebar, search, filters or homepage navigation without a request.
+- Events sit on a vertical red spine in collapsible year groups. On desktop their cards alternate left and right; on mobile the spine moves left and all cards share one column. With JavaScript, the first year starts open, matching the reference. Show all / hide all controls enhance native disclosures; year jump links open their destination. Without JavaScript, all years start open.
+- Each year’s **On screen** panel lists every title whose `coverage` includes that year. The same title appears in multiple year panels, always linking to its one full entry. It is not automatically attached to every historical event in those years.
+- An event card links only to the explicitly curated `events` relationships. Relationship labels preserve the distinction between direct depiction and background/context. Selecting a title highlights all of its related events and opens any collapsed destination years.
+- The viewing guide contains one full card per title in the source array’s suggested watch order. Each card has a year strip spanning the entire page range: coloured, linked cells represent main-story years; pale cells represent years outside the plot. Separate intervals leave visible gaps. Selecting an active year returns to that year in the timeline.
+- Thus **Hacksaw Ridge** appears in the 1942 and 1945 year panels and colours only those two cells. **Band of Brothers** appears in every 1942–1945 panel, but its event connections still come from editorial data rather than overlap alone. A title’s full span also appears beside its event links.
+
+Year strips wrap to seven columns on smaller screens instead of forcing horizontal scrolling. Preserve the 17px default body size, native keyboard disclosures, named year links, labels alongside colour and reduced-motion support. No institutional branding, imagery or exhibition text is copied. The reference is credited in the page footer section.
+
+Do not add layout comparison controls, a sidebar, search, filters or homepage navigation without a request. Data and historical curation remain separate from this presentation change.
 
 ## Content contract
 
@@ -48,7 +56,7 @@ Use ordinary text, not HTML. Stable IDs contain lowercase letters, digits and hy
 
 ### Event fields
 
-Each event has a unique `id`, integer `year`, `title`, `description`, and `sources`. Optional `dateLabel` supplies a human-readable date or interval; `year` is the chart-marker anchor, normally the start year. Explain multi-year event spans in `dateLabel` and the description.
+Each event has a unique `id`, integer `year`, `title`, `description`, and `sources`. Optional `dateLabel` supplies a human-readable date or interval; `year` chooses the timeline year group, normally the start year. Explain multi-year event spans in `dateLabel` and the description.
 
 `sources` is an array of `{ "label": "Source title", "url": "https://..." }` objects.
 
@@ -104,4 +112,4 @@ A date span alone never proves an event appears on screen. Use relationship labe
 
 ### Prompt for a future chat
 
-> Use `war-timeline/TEMPLATE.md` in this repository to create a history-through-film page at `/another-war/` using the approved chart + reading list layout. Begin before the conflict and explain its key events. Recommend a short route within my requested title budget (default five or six) using dated IMDb scores as a proxy. Show main-story coverage only, preserve gaps and overlaps, distinguish depiction from context, and record sources. Do not create or run automated tests. Follow the repository's Git delivery instructions.
+> Use `war-timeline/TEMPLATE.md` in this repository to create a history-through-film page at `/another-war/` using the shared year-by-year timeline layout. Begin before the conflict and explain its key events. Recommend a short route within my requested title budget (default five or six) using dated IMDb scores as a proxy. Show main-story coverage only, preserve gaps and overlaps, distinguish depiction from context, and record sources. Do not create or run automated tests. Follow the repository's Git delivery instructions.

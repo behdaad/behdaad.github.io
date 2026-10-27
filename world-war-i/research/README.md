@@ -1,6 +1,6 @@
 # WW1 viewing route — research notes
 
-Researched on 26 October 2026. The chart + reading list is the approved layout; the two demo alternatives were removed. Source links are stored in `../data.json` and rendered beside events and inside each title's date notes.
+Researched on 26 October 2026. The initial chart + reading list was replaced on 27 October 2026 with the shared Library of Congress-inspired year-by-year timeline. Film selections, main-story years and historical research are unchanged. Source links are stored in `../data.json` and rendered beside events and inside each title's date notes.
 
 ## Selection and viewing commitment
 

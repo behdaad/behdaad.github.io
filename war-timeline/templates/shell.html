@@ -2,28 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{{page_title}}</title>
-<meta name="description" content="{{description}}">
+<title>{{page_title}}</title><meta name="description" content="{{description}}">
 <link rel="stylesheet" href="{{asset}}/styles.css?v={{style_version}}"><script src="{{asset}}/app.js?v={{script_version}}" defer></script>
 </head>
-<body style="--years:{{year_count}}">
+<body style="--years:{{year_count}};--strip-columns:{{strip_columns}}">
 <a class="skip" href="#explore">Skip to the timeline</a>
-<header class="masthead wrap"><a class="wordmark" href="./">THE VIEWING ROOM <span>HISTORY THROUGH STORIES</span></a><a href="/">Behdad ↗</a></header>
+<header class="masthead"><div class="wrap masthead-inner"><a class="wordmark" href="/">THE VIEWING ROOM</a><nav aria-label="Page navigation"><a href="#explore">Timeline</a><a href="#watchlist">Films &amp; series</a><a href="#method">About this guide</a></nav><a class="home-link" href="/">Behdad ↗</a></div></header>
 <main>
-<section class="hero wrap">
-<p class="eyebrow">A SHORT WATCHLIST / A BIGGER PICTURE</p>
-<h1>{{title}}<span>Through the screen.</span></h1>
-<div class="hero-bottom"><p>{{subtitle}}<br>The decisions, the fronts, the people caught between them.</p><div class="edition"><b>{{entry_count}}</b><span>STORIES<br>{{duration}} TOTAL</span></div></div>
-<p class="content-note">{{content_note}}</p>
-</section>
-<section id="explore" class="explore wrap" aria-labelledby="layout-title">
-<div class="section-heading"><div><p class="eyebrow">01 / FOLLOW THE YEARS</p><h2 id="layout-title">The whole picture.</h2></div><p>Start before the fighting. Compare the stories, then read the events behind them.</p></div>
-<div class="legend"><span class="legend-mark"></span><p>Coloured spans show <strong>main-story years</strong>. Brief framing scenes and epilogues are excluded. Numbers identify the same titles everywhere.</p></div>
-<p class="selection-status" role="status" aria-live="polite">Select an event or story to trace its connections.</p>
+<section class="hero wrap"><p class="eyebrow">HISTORY THROUGH FILM</p><h1>{{title}}</h1><p class="hero-subtitle">{{subtitle}}</p><p class="edition">{{entry_count}} titles <span>·</span> {{duration}} if you watch everything</p><details class="intro-note"><summary>About the selection &amp; IMDb ratings</summary><p>{{content_note}}</p></details></section>
+<section id="explore" class="explore wrap" aria-labelledby="layout-title"><h2 id="layout-title">Timeline</h2><p class="timeline-intro">Follow the events. Find a story. See how the years connect.</p>
 {{body}}
 </section>
-<section class="method wrap"><p class="eyebrow">HOW TO READ THIS</p><div><h2>Stories overlap.<br>History keeps moving.</h2><p>Story dates and release dates are different things. A span tells you when the main plot takes place; it does not mean every event in those years appears on screen. Links marked “Context” or “Background” explain connections beyond a film’s depicted events.<br><br>A gap means a gap: separate story periods stay separate. Viewing numbers suggest an order, even when their years overlap. Sources and important dramatic liberties sit under each title’s story-date notes.</p></div><div class="coverage-scope"><h3>The rest of the picture</h3><p>{{scope_note}}</p><p>{{closing_note}}</p></div></section>
+<section id="method" class="method wrap"><p class="eyebrow">HOW TO READ THIS</p><h2>One story can cross many years.</h2><p>Each year lists the films whose main story takes place then. The same title can appear in several years and beside several events; it still has one full entry in the viewing guide. A connection labelled “Context” or “Background” does not mean the film depicts that event.</p><p>On each film’s year strip, coloured cells mark main-story coverage and pale cells mark years outside it. Gaps stay visible. Brief prologues, framing interviews and later-life epilogues are excluded. IMDb scores describe audience reception, not historical accuracy.</p><details class="scope-note"><summary>The rest of the picture</summary><p>{{scope_note}}</p><p>{{closing_note}}</p></details><p class="design-credit">Timeline layout inspired by the <a href="https://www.loc.gov/exhibitions/world-war-i-american-experiences/timeline/" target="_blank" rel="noopener noreferrer">Library of Congress exhibition timeline ↗</a>.</p></section>
 </main>
 <script id="timeline-connections" type="application/json">{{connections}}</script>
-<footer class="wrap"><span>THE VIEWING ROOM / RESEARCHED {{research_date}}</span><a href="#">Back to top ↑</a></footer>
+<footer class="wrap"><span>THE VIEWING ROOM · RESEARCHED {{research_date}}</span><a href="#">Back to top ↑</a></footer>
 </body></html>

@@ -73,6 +73,8 @@ Use optional `gapNote` for essential history not directly depicted by any select
 
 Keep selections grounded in the historical course of the conflict. Dramatised characters, dialogue and missions are acceptable; alternate-history plots that rewrite major events or the war’s outcome are excluded unless explicitly requested.
 
+Screen each title’s central premise against historical sources, not only its genre label. An invented mission within a real campaign is not alternate history, but make that distinction visible in `learn`; do not hide major fictionalisation or disputed events only inside `coverageNote`. Absence of alternate history is not a claim of historical accuracy.
+
 IMDb links and dates are required. Scores are a proxy for engaging viewing, not for historical reliability. Record exact film identity and edition; do not substitute a remake, documentary, or similarly named series without checking.
 
 ## Main-story coverage rules

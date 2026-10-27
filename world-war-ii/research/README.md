@@ -2,6 +2,10 @@
 
 Research checked on 26 October 2026. Expanded at the owner’s request from twelve to twenty titles: 17 films and three complete miniseries. All previous selections are retained. Source links live in `../data.json` and appear on the page.
 
+## Historical-basis review
+
+All 20 remaining titles were screened on 27 October 2026. No further alternate-history selections were found. See [the title-by-title audit](alternate-history-audit.md) for evidence and limitations. The page now surfaces the strongest fictionalisation caveats in the visible learning notes. This audit does not re-date the IMDb score snapshots.
+
 ## Selection and commitment
 
 | Order | Exact selection | IMDb snapshot | Main-story years | Budget |

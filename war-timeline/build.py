@@ -111,7 +111,7 @@ def generate(folder):
 <div class="card-index">{number(entry)}</div>
 <div class="card-main">
 <div class="card-meta"><span>{esc(entry['format'])} / {entry['releaseYear']}</span><span>{runtime(entry)}</span><span class="score">{score(entry)}</span></div>
-<h3>{esc(entry['title'])}</h3>
+<h3 id="title-{entry['id']}">{esc(entry['title'])}</h3>
 <p class="coverage-label">MAIN STORY <strong>{coverage(entry)}</strong></p>
 {coverage_strip(entry)}
 <p class="premise">{esc(entry['premise'])}</p>
@@ -142,27 +142,86 @@ def generate(folder):
     year_sections = []
     for year in years:
         year_events = [(i, item) for i, item in enumerate(events, 1) if item['year'] == year]
-        active_entries = [entry for entry in entries if any(a <= year <= b for a, b in entry['coverage'])]
-        movie_links = ''.join(
-            f'<a class="year-film" href="#story-{entry["id"]}" data-story="{entry["id"]}" '
-            f'style="--story:{esc(entry["color"])}">{number(entry)}<span>{esc(entry["title"])}'
-            f'<small>{coverage(entry)}</small></span></a>' for entry in active_entries
-        )
-        screen = (
-            f'<div class="year-screen"><h3>On screen in {year}</h3><p>Main-story coverage · titles can span several years</p>'
-            f'<div class="year-films">{movie_links}</div></div>' if movie_links else ''
-        )
         count = len(year_events)
         year_sections.append(
-            f'<details class="timeline-year" id="year-{year}" open>'
+            f'<details class="timeline-year" id="year-{year}" style="grid-row:{year-first+1}" open>'
             f'<summary><span class="year-pill">{year}<span class="year-chevron" aria-hidden="true"></span></span>'
-            f'<span class="sr-only"> · {count} historical {"event" if count == 1 else "events"}, '
-            f'{len(active_entries)} {"title" if len(active_entries) == 1 else "titles"} set in this year</span></summary>'
-            f'<div class="year-body">{screen}<div class="year-events">'
+            f'<span class="sr-only"> · {count} historical {"event" if count == 1 else "events"}</span></summary>'
+            f'<div class="year-body"><div class="year-events">'
             + ''.join(event(item, i) for i, item in year_events) + '</div></div></details>'
         )
+    def span_bounds(entry):
+        anchors = [event_map[event_id]['year'] for event_id in entry['events']]
+        return min([entry['coverage'][0][0]] + anchors), max([entry['coverage'][-1][1]] + anchors)
+
+    # Reserve the envelope, including contextual event anchors, so dots never land on another title's bar.
+    lane_ends = []
+    lanes = {}
+    for entry in sorted(entries, key=lambda item: (span_bounds(item)[0], -span_bounds(item)[1])):
+        start, end = span_bounds(entry)
+        lane = next((i for i, until in enumerate(lane_ends) if until < start), len(lane_ends))
+        if lane == len(lane_ends):
+            lane_ends.append(end)
+        else:
+            lane_ends[lane] = end
+        lanes[entry['id']] = lane + 1
+
+    film_spans = []
+    span_markers = []
+    overview_rows = []
+    for entry in entries:
+        lane = lanes[entry['id']]
+        ranges = []
+        for part, (start, end) in enumerate(entry['coverage']):
+            label = f'{entry["number"]} · {entry["title"]} · {coverage(entry)}' if part == 0 else entry['number']
+            film_spans.append(
+                f'<a class="film-span" data-story="{entry["id"]}" href="#story-{entry["id"]}" '
+                f'style="--lane:{lane};--story:{esc(entry["color"])};grid-row:{start-first+1}/{end-first+2}" '
+                f'title="{esc(entry["title"])} · Main story {coverage(entry)}" '
+                f'aria-label="{esc(entry["title"])}: main story {coverage(entry)}; open details">'
+                f'<span class="span-label">{esc(label)}</span></a>'
+            )
+            interval = str(start) if start == end else f'{start}–{end}'
+            ranges.append(
+                f'<span class="overview-range" style="--start:{(start-first)/len(years)*100:.5f}%;'
+                f'--length:{(end-start+1)/len(years)*100:.5f}%">{interval}</span>'
+            )
+        for event_id in entry['events']:
+            item = event_map[event_id]
+            relation = entry.get('eventNotes', {}).get(event_id, 'Event connection')
+            marker_label = f'{entry["title"]} · {item["title"]} · {relation}'
+            span_markers.append(
+                f'<a class="span-event" data-marker-story="{entry["id"]}" data-event-link="{event_id}" '
+                f'href="#event-{event_id}" style="--lane:{lane};--story:{esc(entry["color"])};'
+                f'grid-row:{item["year"]-first+1}" title="{esc(marker_label)}" aria-label="{esc(marker_label)}">'
+                '<span class="sr-only">Event connection</span></a>'
+            )
+        overview_rows.append(
+            f'<div class="overview-row" style="--story:{esc(entry["color"])}">'
+            f'<a class="overview-title" href="#story-{entry["id"]}" data-story="{entry["id"]}">'
+            f'{number(entry)}<span>{esc(entry["title"])}</span><small>★ {esc(entry["rating"])}</small></a>'
+            f'<a class="overview-track" href="#story-{entry["id"]}" data-story="{entry["id"]}" '
+            f'aria-label="{esc(entry["title"])}: main story {coverage(entry)}; open details">'
+            + ''.join(ranges) + '</a></div>'
+        )
+    overview_axis = ''.join(f'<a href="#year-{year}" data-year="{year}">{year}</a>' for year in years)
+    overview_events = []
+    for year in years:
+        links = ''.join(
+            f'<a href="#event-{item["id"]}" data-event-link="{item["id"]}" '
+            f'title="{esc(item["title"])}" aria-label="{year}: {esc(item["title"])}">{i:02}</a>'
+            for i, item in enumerate(events, 1) if item['year'] == year
+        )
+        overview_events.append('<span>' + links + '</span>')
     body = template('timeline.html', {
         'year_sections': ''.join(year_sections),
+        'film_spans': ''.join(film_spans),
+        'span_markers': ''.join(span_markers),
+        'lane_count': len(lane_ends),
+        'event_column': len(lane_ends) + 1,
+        'overview_rows': ''.join(overview_rows),
+        'overview_axis': overview_axis,
+        'overview_events': ''.join(overview_events),
         'year_links': ''.join(f'<a href="#year-{year}" data-year="{year}">{year}</a>' for year in years),
         'cards': ''.join(card(entry) for entry in entries),
         'route_title': f'{len(entries)} films & series',

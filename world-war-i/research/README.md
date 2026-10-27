@@ -31,3 +31,7 @@ Ratings were read from publicly indexed IMDb title/rating pages returned during 
 This is a short route through engaging drama, not comprehensive coverage or a ranking by score alone. A political miniseries and a Middle Eastern epic add perspectives that another trench film would not. The 1930 All Quiet and Paths of Glory are strong alternatives, but adding them would duplicate ground and exceed the six-title budget.
 
 The timeline retains Verdun, the Somme, US entry and Russia's revolutions because a beginner needs them. No selected title is represented as depicting those events. The US/Russia stop has no recommendation, while the 1916 note links to later Western Front context. The Eastern Front, naval war, Africa and many civilian/colonial perspectives remain gaps, stated on the page. No streaming availability has been verified or promised.
+
+## Continuous spans and movie details
+
+The shared UI now includes a horizontal overview and continuous movie lanes aligned with the vertical event timeline. Repeated per-year title panels are removed. Movie names and spans open a native modal; historical coverage and curated event relationships remain unchanged. See `../../war-timeline/TEMPLATE.md` for the current presentation and reuse rules.

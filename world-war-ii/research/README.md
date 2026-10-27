@@ -78,3 +78,7 @@ The original route’s coverage has since expanded to include strategic bombing,
 The WWI-specific ending paragraph was moved from shared HTML to each page's `closingNote`. WWI's wording is preserved. The documentation now honours the requested per-page title budget, rather than treating six titles as a renderer restriction. On 27 October 2026, the owner requested the Library of Congress-inspired vertical year-by-year layout. The shared renderer now repeats compact title links in each covered year and gives each full viewing entry a linked year strip, while preserving all 20 selections and curated event relationships. Shared CSS changes require regenerating both pages to refresh the asset hashes.
 
 Verification uses manual desktop/mobile browser inspection, the existing site build and Git diff checks. No automated tests were created or run.
+
+## Continuous spans and movie details
+
+The shared UI now includes a horizontal overview and continuous movie lanes aligned with the vertical event timeline. Repeated per-year title panels are removed. Movie names and spans open a native modal; historical coverage and curated event relationships remain unchanged. See `../../war-timeline/TEMPLATE.md` for the current presentation and reuse rules.

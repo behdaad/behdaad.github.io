@@ -3,19 +3,13 @@ const { test, expect } = require("@playwright/test");
 
 const pages = [
   ["home", "/"],
-  ["about", "/about/"],
-  ["links", "/links/"],
-  ["blog", "/blog/"],
-  ["blog-masters-study", "/blog/masters-study/"],
-  ["blog-reverse-usefulness", "/blog/reverse-usefulness/"],
-  ["blog-ios-future-in-iran", "/blog/ios-future-in-iran/"],
-  ["blog-luck-snapp-life", "/blog/luck-snapp-life/"],
-  ["blog-four-flames-theory", "/blog/four-flames-theory/"],
-  ["blog-mindfulness-techniques", "/blog/mindfulness-techniques/"],
-  ["tag-persian", "/tags/persian/"],
+  ["booking", "/booking/"],
   ["snapp", "/snapp/"],
   ["driver", "/driver/"],
-  ["booking", "/booking/"]
+  ["about", "/about/"],
+  ["blog", "/blog/"],
+  // The depression post represents the shared blog-post layout.
+  ["blog-reverse-usefulness", "/blog/reverse-usefulness/"]
 ];
 
 for (const [name, url] of pages) {

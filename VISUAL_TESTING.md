@@ -1,6 +1,6 @@
 # Visual snapshot testing
 
-Playwright captures full-page screenshots for every public route at desktop and mobile viewport sizes. Reference PNGs are stored by operating system in `tests/__snapshots__/` and checked on every pull request. Keeping separate macOS and Linux references avoids false failures caused by platform font rendering.
+Playwright captures full-page screenshots at desktop and mobile viewport sizes for the home page, the Booking, Snapp, and Driver case studies, About, the blog index, and the depression post at `/blog/reverse-usefulness/` as a representative of the shared blog-post layout. Temporary projects and other pages are outside the test suite. Reference PNGs are stored by operating system in `tests/__snapshots__/` and checked on every pull request. Keeping separate macOS and Linux references avoids false failures caused by platform font rendering.
 
 ## Run the tests
 

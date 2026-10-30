@@ -1,0 +1,919 @@
+{
+  "slug": "space-exploration",
+  "title": "Space exploration",
+  "subtitle": "From the first liquid-fueled rockets to distant worlds, through films, series and documentaries.",
+  "startYear": 1926,
+  "endYear": 2023,
+  "researchDate": "2026-10-30",
+  "milestoneYears": true,
+  "mediaLabel": "Viewing guide",
+  "eyebrow": "HISTORY THROUGH FILM & DOCUMENTARY",
+  "routeTitle": "8 films, series & documentaries",
+  "introNote": "Eight choices: four dramatic films, one 12-part dramatic series, two feature documentaries and one four-part documentary series. Start with The Right Stuff, then choose the Apollo perspectives you want: First Man and Apollo 13 overlap the broader From the Earth to the Moon. Watching everything is about 28 hours 45 minutes, including roughly an hour per Apollo-series episode. IMDb scores were checked on 30 October 2026 through publicly indexed IMDb pages; cached snapshots can lag and scores can change. Scores measure audience reception, not historical reliability. Documentary bars cover the historical subject, excluding present-day interviews; a long mission envelope does not imply that every year appears on screen.",
+  "scopeNote": "This is a selective route, not a complete history or a ranking. The screen choices lean heavily toward American missions; the historical spine retains Soviet, European, Indian and Chinese milestones even where no selected title covers them. Japanese exploration, the full Soviet/Russian program, Chinese human spaceflight, reusable-launch development, space law, Earth observation, commercial satellites and many failed missions need a broader guide. Read the unconnected events as gaps in the viewing route, not gaps in history. Space fantasy and alternate-history series, including the 2019 For All Mankind, are outside this historical selection.",
+  "closingNote": "The timeline deliberately ends with a completed 2023 milestone; it is not a live mission tracker or a claim that exploration stopped there. Lunar landing locations, mission endings and interstellar boundaries are described carefully rather than copied from promotional shorthand. Film and documentary reconstructions remain interpretations; the linked agency and museum records provide the historical checks.",
+  "events": [
+    {
+      "id": "goddard",
+      "year": 1926,
+      "dateLabel": "16 MARCH 1926",
+      "title": "A rocket runs on liquid fuel",
+      "description": "Robert Goddard launched the first liquid-fueled rocket in Massachusetts. The short flight demonstrated a propulsion approach that would help make spaceflight possible; it did not reach space.",
+      "sources": [
+        {
+          "label": "NASA · Goddard’s first liquid-fueled rocket",
+          "url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "v2",
+      "year": 1944,
+      "dateLabel": "1944–1945",
+      "title": "The rocket’s violent inheritance",
+      "description": "Nazi Germany deployed V-2 ballistic missiles against cities. Their production depended on concentration-camp prisoners and lethal forced labor. The technology’s later place in spaceflight cannot erase the people killed making and using it.",
+      "sources": [
+        {
+          "label": "Smithsonian · “Wonder weapons” and slave labor",
+          "url": "https://airandspace.si.edu/stories/editorial/wonder-weapons-and-slave-labor"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "sound-barrier",
+      "year": 1947,
+      "dateLabel": "14 OCTOBER 1947",
+      "title": "Before orbit, the sound barrier",
+      "description": "Chuck Yeager’s X-1 flight belongs to experimental aviation. The Right Stuff uses this world of test pilots to introduce the skills, risks and mythology that surrounded the first American astronauts.",
+      "sources": [
+        {
+          "label": "AFI · The Right Stuff story and production record",
+          "url": "https://catalog.afi.com/Film/58061-THE-RIGHT-STUFF"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "year": 1957,
+      "dateLabel": "4 OCTOBER 1957",
+      "title": "Sputnik makes orbit real",
+      "description": "The Soviet Union launched the first artificial Earth satellite. A scientific achievement became a Cold War shock, accelerating the competition that shaped the early space programs.",
+      "sources": [
+        {
+          "label": "NASA · Dawn of the Space Age",
+          "url": "https://www.nasa.gov/history/dawn-of-the-space-age/"
+        }
+      ]
+    },
+    {
+      "id": "luna",
+      "year": 1959,
+      "dateLabel": "SEPTEMBER–OCTOBER 1959",
+      "title": "The Moon becomes a destination",
+      "description": "Soviet Luna 2 reached the lunar surface by impact; Luna 3 returned the first views of the far side. These robotic achievements preceded the human Moon landings by a decade.",
+      "sources": [
+        {
+          "label": "NASA · History of lunar exploration",
+          "url": "https://science.nasa.gov/solar-system/moon/history-of-lunar-exploration/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "gagarin-shepard",
+      "year": 1961,
+      "dateLabel": "12 APRIL / 5 MAY 1961",
+      "title": "People reach space",
+      "description": "Yuri Gagarin became the first human in space and in orbit aboard Vostok 1. Alan Shepard followed with the first American spaceflight, a suborbital mission. Orbit and a brief flight into space are different achievements.",
+      "sources": [
+        {
+          "label": "NASA · Before Apollo",
+          "url": "https://www.nasa.gov/specials/apollo50th/before.html"
+        },
+        {
+          "label": "ESA · Timeline of early spaceflights",
+          "url": "https://www.esa.int/About_Us/50_years_of_ESA/50_years_of_humans_in_space/Timeline_of_early_spaceflights"
+        }
+      ]
+    },
+    {
+      "id": "glenn",
+      "year": 1962,
+      "dateLabel": "20 FEBRUARY 1962",
+      "title": "The mathematics behind an orbit",
+      "description": "John Glenn became the first American to orbit Earth. Hidden Figures shifts the viewpoint to Katherine Johnson and her colleagues at Langley, whose calculations and engineering work helped make the missions possible.",
+      "sources": [
+        {
+          "label": "NASA · Mercury Seven biographies",
+          "url": "https://www.nasa.gov/history/mercury-seven-astronaut-biographies/"
+        },
+        {
+          "label": "NASA · The women behind Hidden Figures",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-talk-with-cast-of-hidden-figures-at-kennedy-space-center/"
+        }
+      ]
+    },
+    {
+      "id": "mariner",
+      "year": 1962,
+      "dateLabel": "14 DECEMBER 1962",
+      "title": "A spacecraft visits another planet",
+      "description": "Mariner 2 flew past Venus, completing the first successful planetary encounter. Exploration was already branching beyond the race to put people on the Moon.",
+      "sources": [
+        {
+          "label": "NASA · Mariner 2",
+          "url": "https://science.nasa.gov/mission/mariner-2/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "tereshkova",
+      "year": 1963,
+      "dateLabel": "16 JUNE 1963",
+      "title": "The first woman in space",
+      "description": "Valentina Tereshkova launched aboard Vostok 6. This Soviet milestone is absent from the American-centered dramas in the viewing route; the shared year with Mercury’s final flight does not imply a screen connection.",
+      "sources": [
+        {
+          "label": "ESA · First woman in space",
+          "url": "https://www.esa.int/About_Us/50_years_of_ESA/50_years_of_humans_in_space/First_woman_in_space_Valentina"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "spacewalk",
+      "year": 1965,
+      "dateLabel": "MARCH–DECEMBER 1965",
+      "title": "Learning to work outside a capsule",
+      "description": "Alexei Leonov made the first spacewalk. The American Gemini program developed the endurance, rendezvous and maneuvering experience needed for Apollo. First Man depicts Armstrong’s Gemini training and later mission rather than Leonov’s flight.",
+      "sources": [
+        {
+          "label": "ESA · Alexei Leonov",
+          "url": "https://www.esa.int/About_Us/50_years_of_ESA/Alexei_Leonov_The_artistic_spaceman"
+        },
+        {
+          "label": "NASA · Before Apollo",
+          "url": "https://www.nasa.gov/specials/apollo50th/before.html"
+        }
+      ]
+    },
+    {
+      "id": "luna9",
+      "year": 1966,
+      "dateLabel": "3 FEBRUARY 1966",
+      "title": "A soft landing before Apollo",
+      "description": "Luna 9 made the first successful soft landing on the Moon and transmitted pictures from the surface. Soviet robotic exploration remained an important part of lunar history.",
+      "sources": [
+        {
+          "label": "NASA · History of lunar exploration",
+          "url": "https://science.nasa.gov/solar-system/moon/history-of-lunar-exploration/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "apollo1",
+      "year": 1967,
+      "dateLabel": "27 JANUARY 1967",
+      "title": "A fire on the launch pad",
+      "description": "Gus Grissom, Ed White and Roger Chaffee died during an Apollo ground test. The disaster exposed lethal weaknesses in the spacecraft and test environment before Apollo’s crewed flights began.",
+      "sources": [
+        {
+          "label": "NASA · Apollo 1",
+          "url": "https://www.nasa.gov/mission/apollo-1/"
+        }
+      ]
+    },
+    {
+      "id": "apollo8",
+      "year": 1968,
+      "dateLabel": "DECEMBER 1968",
+      "title": "People orbit the Moon",
+      "description": "Apollo 8 carried Frank Borman, Jim Lovell and William Anders around the Moon. It was a lunar-orbit mission, not a landing, and a crucial step beyond Earth orbit.",
+      "sources": [
+        {
+          "label": "NASA · Apollo 8",
+          "url": "https://www.nasa.gov/mission/apollo-8/"
+        }
+      ]
+    },
+    {
+      "id": "apollo11",
+      "year": 1969,
+      "dateLabel": "20 JULY 1969",
+      "title": "The first lunar landing",
+      "description": "Apollo 11 landed Neil Armstrong and Buzz Aldrin on the Moon while Michael Collins remained in orbit. First Man follows Armstrong; From the Earth to the Moon offers a wider view of the program and the people behind it.",
+      "sources": [
+        {
+          "label": "NASA · History of lunar exploration",
+          "url": "https://science.nasa.gov/solar-system/moon/history-of-lunar-exploration/"
+        },
+        {
+          "label": "NASA · The Apollo program",
+          "url": "https://www.nasa.gov/the-apollo-program/"
+        }
+      ]
+    },
+    {
+      "id": "apollo13",
+      "year": 1970,
+      "dateLabel": "11–17 APRIL 1970",
+      "title": "Getting home becomes the mission",
+      "description": "An oxygen-tank accident forced Apollo 13 to abandon its landing. The crew used the lunar module as a refuge while teams on Earth worked through the problems of power, air and a safe return.",
+      "sources": [
+        {
+          "label": "NASA · Apollo 13",
+          "url": "https://www.nasa.gov/mission/apollo-13/"
+        }
+      ]
+    },
+    {
+      "id": "salyut",
+      "year": 1971,
+      "dateLabel": "19 APRIL 1971",
+      "title": "Spaceflight becomes a place to stay",
+      "description": "The Soviet Union launched Salyut 1, the first space station. Long stays in orbit opened a different line of exploration from short expeditions to the Moon.",
+      "sources": [
+        {
+          "label": "ESA · Major achievements in human spaceflight",
+          "url": "https://www.esa.int/esapub/br/br230/br230.pdf"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "apollo17",
+      "year": 1972,
+      "dateLabel": "DECEMBER 1972",
+      "title": "Apollo ends with field science",
+      "description": "Apollo 17 completed the program’s final lunar landing. The later missions emphasized longer surface stays and geology; From the Earth to the Moon follows the work beyond the famous first landing.",
+      "sources": [
+        {
+          "label": "NASA · History of lunar exploration",
+          "url": "https://science.nasa.gov/solar-system/moon/history-of-lunar-exploration/"
+        },
+        {
+          "label": "NASA · The Apollo program",
+          "url": "https://www.nasa.gov/the-apollo-program/"
+        }
+      ]
+    },
+    {
+      "id": "apollo-soyuz",
+      "year": 1975,
+      "dateLabel": "17 JULY 1975",
+      "title": "Rivals meet in orbit",
+      "description": "American Apollo and Soviet Soyuz spacecraft docked, and their crews met in space. Compatible systems and joint operations offered a different model from the earlier race.",
+      "sources": [
+        {
+          "label": "NASA · The Apollo-Soyuz mission",
+          "url": "https://www.nasa.gov/missions/apollo-soyuz/the-apollo-soyuz-mission/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "viking",
+      "year": 1976,
+      "dateLabel": "20 JULY 1976",
+      "title": "A laboratory on Mars",
+      "description": "Viking 1 landed on Mars and returned surface images and experiments. Its search for evidence of life illustrates the difference between collecting measurements and having a simple answer to a scientific question.",
+      "sources": [
+        {
+          "label": "NASA · Viking 1",
+          "url": "https://science.nasa.gov/mission/viking-1/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "voyager-launch",
+      "year": 1977,
+      "dateLabel": "AUGUST–SEPTEMBER 1977",
+      "title": "Two probes head for the giant planets",
+      "description": "Voyager 2 launched before Voyager 1. Their trajectories used planetary gravity assists to explore the outer planets; the Golden Records carried a small selection of Earth’s sounds, images and greetings.",
+      "sources": [
+        {
+          "label": "NASA · Voyager 1",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        },
+        {
+          "label": "NASA · Voyager 2",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-2/"
+        }
+      ]
+    },
+    {
+      "id": "shuttle",
+      "year": 1981,
+      "dateLabel": "12 APRIL 1981",
+      "title": "The Shuttle takes flight",
+      "description": "Columbia launched on STS-1, the Space Shuttle’s first flight. A reusable orbiter promised a new way of working in Earth orbit, but the system remained technically demanding and dangerous.",
+      "sources": [
+        {
+          "label": "NASA · Space Shuttle history",
+          "url": "https://www.nasa.gov/history/space-shuttle-history-resources/"
+        }
+      ]
+    },
+    {
+      "id": "challenger",
+      "year": 1986,
+      "dateLabel": "28 JANUARY 1986",
+      "title": "A launch decision becomes a disaster",
+      "description": "Challenger broke apart during ascent, killing all seven crew members. The documentary series examines the booster-joint concerns and organizational decisions as well as the lives lost.",
+      "sources": [
+        {
+          "label": "NASA · Space Shuttle history",
+          "url": "https://www.nasa.gov/history/space-shuttle-history-resources/"
+        }
+      ]
+    },
+    {
+      "id": "neptune",
+      "year": 1989,
+      "dateLabel": "25 AUGUST 1989",
+      "title": "Voyager reaches Neptune",
+      "description": "Voyager 2 flew past Neptune after visiting Jupiter, Saturn and Uranus. The Farthest follows how small teams turned fleeting encounters into discoveries about planets, rings and moons.",
+      "sources": [
+        {
+          "label": "NASA · Voyager 2",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-2/"
+        }
+      ]
+    },
+    {
+      "id": "hubble",
+      "year": 1990,
+      "dateLabel": "APRIL 1990 / DECEMBER 1993",
+      "title": "A telescope that can be repaired",
+      "description": "Hubble launched into Earth orbit with a flaw in its primary mirror. The 1993 servicing mission installed corrective equipment. Space exploration also means observing the universe, not only traveling toward other worlds.",
+      "sources": [
+        {
+          "label": "NASA · The history of Hubble",
+          "url": "https://science.nasa.gov/mission/hubble/overview/the-history-of-hubble/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "iss",
+      "year": 1998,
+      "dateLabel": "NOVEMBER–DECEMBER 1998",
+      "title": "An international station takes shape",
+      "description": "Zarya and Unity, the first two International Space Station elements, launched and were joined in orbit. The project brought together hardware and work from multiple countries on an unprecedented scale.",
+      "sources": [
+        {
+          "label": "NASA · Space Station assembly elements",
+          "url": "https://www.nasa.gov/international-space-station/international-space-station-assembly-elements/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "columbia",
+      "year": 2003,
+      "dateLabel": "1 FEBRUARY 2003",
+      "title": "Another Shuttle crew is lost",
+      "description": "Columbia broke apart during re-entry, killing all seven people aboard. This is a separate accident seventeen years after Challenger, beyond the documentary series’ main story.",
+      "sources": [
+        {
+          "label": "NASA · Space Shuttle history",
+          "url": "https://www.nasa.gov/history/space-shuttle-history-resources/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "mars-rovers",
+      "year": 2004,
+      "dateLabel": "JANUARY 2004",
+      "title": "Two robotic geologists arrive",
+      "description": "Spirit and Opportunity landed on Mars after their 2003 launches. Their investigations of rocks and soils helped reconstruct the planet’s watery past. Good Night Oppy follows the rovers and the people operating them across years of changing conditions.",
+      "sources": [
+        {
+          "label": "NASA · Opportunity mission record",
+          "url": "https://science.nasa.gov/mission/mer-opportunity/"
+        }
+      ]
+    },
+    {
+      "id": "huygens",
+      "year": 2005,
+      "dateLabel": "14 JANUARY 2005",
+      "title": "A landing on Titan",
+      "description": "ESA’s Huygens probe descended through Titan’s atmosphere and transmitted from the surface. Delivered by the joint NASA–ESA–ASI Cassini-Huygens mission, it extended surface exploration to a moon of Saturn.",
+      "sources": [
+        {
+          "label": "ESA · Cassini-Huygens overview",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens_overview"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "interstellar",
+      "year": 2012,
+      "dateLabel": "25 AUGUST 2012",
+      "title": "Beyond the solar wind’s bubble",
+      "description": "Voyager 1 crossed the heliopause into interstellar space. It left the heliosphere, not the entire gravitational domain of the Sun: “leaving the solar system” is an imprecise shortcut for this boundary.",
+      "sources": [
+        {
+          "label": "NASA · Voyager 1",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        }
+      ]
+    },
+    {
+      "id": "india-mars",
+      "year": 2014,
+      "dateLabel": "24 SEPTEMBER 2014",
+      "title": "India reaches Mars",
+      "description": "ISRO’s Mars Orbiter Mission, also called Mangalyaan, entered orbit around Mars on India’s first attempt. It made interplanetary navigation and science part of a widening international story.",
+      "sources": [
+        {
+          "label": "ISRO · Mars Orbiter Mission facts",
+          "url": "https://www.isro.gov.in/FAQ_MarsOrbiterMission.html"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "rosetta",
+      "year": 2014,
+      "dateLabel": "12 NOVEMBER 2014",
+      "title": "A comet gets a visitor",
+      "description": "ESA’s Rosetta mission delivered the Philae lander to comet 67P. The orbiter’s longer investigation mattered as well as the landing: a comet could now be studied up close as it changed near the Sun.",
+      "sources": [
+        {
+          "label": "ESA · Rosetta mission timeline",
+          "url": "https://education.esa.int/rosetta_timeline/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "pluto",
+      "year": 2015,
+      "dateLabel": "14 JULY 2015",
+      "title": "Pluto comes into focus",
+      "description": "New Horizons made the first close flyby of Pluto, revealing a complex world in the Kuiper Belt. Robotic encounters continued to change the map long after Voyager’s planetary tour.",
+      "sources": [
+        {
+          "label": "NASA · New Horizons",
+          "url": "https://science.nasa.gov/mission/new-horizons/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "change4",
+      "year": 2019,
+      "dateLabel": "3 JANUARY 2019",
+      "title": "The first landing on the lunar far side",
+      "description": "China’s Chang’e-4 made the first soft landing on the Moon’s far side, using the Queqiao relay satellite for communications. The far side is not permanently dark; it is the hemisphere facing away from Earth.",
+      "sources": [
+        {
+          "label": "CNSA · Chang’e-4 lands on the lunar far side",
+          "url": "https://www.cnsa.gov.cn/english/n6465652/n6465653/c6805049/content.html"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "oppy-farewell",
+      "year": 2019,
+      "dateLabel": "13 FEBRUARY 2019",
+      "title": "Opportunity’s mission is declared complete",
+      "description": "Opportunity last communicated in June 2018 during a planet-wide dust storm. NASA declared the mission complete in February 2019 after attempts to regain contact. The final year on this documentary’s span includes that recovery effort.",
+      "sources": [
+        {
+          "label": "NASA · Opportunity mission record",
+          "url": "https://science.nasa.gov/mission/mer-opportunity/"
+        }
+      ]
+    },
+    {
+      "id": "commercial-crew",
+      "year": 2020,
+      "dateLabel": "30 MAY 2020",
+      "title": "A commercial spacecraft carries NASA crew",
+      "description": "Demo-2 launched Bob Behnken and Doug Hurley aboard SpaceX’s Crew Dragon toward the International Space Station. It tested a commercially provided crew transport system within NASA’s program.",
+      "sources": [
+        {
+          "label": "NASA · Demo-2 launch record",
+          "url": "https://blogs.nasa.gov/commercialcrew/2020/05/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "webb",
+      "year": 2022,
+      "dateLabel": "JULY 2022",
+      "title": "A new view of the universe",
+      "description": "The NASA–ESA–CSA James Webb Space Telescope released its first science images and spectra after launching in December 2021. Infrared observations extended the reach of space astronomy.",
+      "sources": [
+        {
+          "label": "NASA · Webb mission timeline",
+          "url": "https://science.nasa.gov/mission/webb/webb-mission-timeline/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "artemis",
+      "year": 2022,
+      "dateLabel": "NOVEMBER–DECEMBER 2022",
+      "title": "An uncrewed test around the Moon",
+      "description": "Artemis I tested the Space Launch System and Orion on an uncrewed lunar flight and return. A successful test is a milestone in its own right; this stop makes no prediction about later missions.",
+      "sources": [
+        {
+          "label": "NASA · Artemis I",
+          "url": "https://www.nasa.gov/mission/artemis-i/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "chandrayaan3",
+      "year": 2023,
+      "dateLabel": "23 AUGUST 2023",
+      "title": "India lands in the southern lunar highlands",
+      "description": "Chandrayaan-3 landed at about 69° south latitude, bringing the Vikram lander and Pragyan rover to the Moon. It was a landing in the southern high latitudes, not at the geographic south pole.",
+      "sources": [
+        {
+          "label": "ISRO · Chandrayaan-3 landing and science",
+          "url": "https://www.isro.gov.in/Ch3_APXS_volatile_measurements.html"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    }
+  ],
+  "entries": [
+    {
+      "id": "right-stuff",
+      "title": "The Right Stuff",
+      "releaseYear": 1983,
+      "format": "Film",
+      "rating": "7.8",
+      "imdbUrl": "https://www.imdb.com/title/tt0086197/",
+      "ratingChecked": "2026-10-30",
+      "color": "#8b3d2c",
+      "coverage": [
+        [
+          1947,
+          1947
+        ],
+        [
+          1952,
+          1963
+        ]
+      ],
+      "events": [
+        "sound-barrier",
+        "sputnik",
+        "gagarin-shepard",
+        "glenn"
+      ],
+      "eventNotes": {
+        "sound-barrier": "Test-pilot world",
+        "sputnik": "Cold War turning point",
+        "gagarin-shepard": "American perspective",
+        "glenn": "Mercury flight"
+      },
+      "premise": "From Chuck Yeager’s experimental flights to the Mercury Seven, pilots and families face a new kind of risk and celebrity.",
+      "learn": "How test flying, politics and public image shaped Project Mercury. Treat the characterization of Gus Grissom with care: the film’s suggestion of panic is not an established explanation of his capsule’s hatch accident.",
+      "coverageNote": "The 1947 X-1 sequence is a substantial opening chapter. AFI’s synopsis then moves to Edwards in 1952 and follows Mercury to Gordon Cooper’s 1963 flight, so 1948–1951 stay empty. Use the 1983 Philip Kaufman film, not the 2020 TV adaptation. The film also exaggerates the danger to Glenn’s mission; it is a drama rather than a literal mission record.",
+      "sources": [
+        {
+          "label": "AFI · Story dates and 193-minute edition",
+          "url": "https://catalog.afi.com/Film/58061-THE-RIGHT-STUFF"
+        },
+        {
+          "label": "NASA · Liberty Bell 7 hatch accident",
+          "url": "https://www.nasa.gov/mission/mercury-redstone-4-liberty-bell-7/"
+        },
+        {
+          "label": "Smithsonian · Mercury and First Man’s dramatic liberties",
+          "url": "https://airandspace.si.edu/stories/editorial/what-first-man-got-right-about-neil-armstrong"
+        }
+      ],
+      "minutes": 193
+    },
+    {
+      "id": "hidden-figures",
+      "title": "Hidden Figures",
+      "releaseYear": 2016,
+      "format": "Film",
+      "rating": "7.8",
+      "imdbUrl": "https://www.imdb.com/title/tt4846340/",
+      "ratingChecked": "2026-10-30",
+      "color": "#365e80",
+      "coverage": [
+        [
+          1961,
+          1962
+        ]
+      ],
+      "events": [
+        "gagarin-shepard",
+        "glenn"
+      ],
+      "eventNotes": {
+        "gagarin-shepard": "Space-race context",
+        "glenn": "Calculations and discrimination"
+      },
+      "premise": "Katherine Johnson, Dorothy Vaughan and Mary Jackson work through technical problems and racial and gender barriers at Langley.",
+      "learn": "The mathematics, computing and often overlooked people behind early American spaceflight. The film compresses careers and invents or combines characters and confrontations; its chronology should not replace the women’s biographies.",
+      "coverageNote": "The central film narrative concentrates on 1961–1962 and Glenn’s orbit. A childhood prologue is excluded. Vaughan became a supervisor in 1949 and Jackson an engineer in 1958, earlier than the film’s compressed story suggests. Those real dates do not extend the film’s story bars.",
+      "sources": [
+        {
+          "label": "NASA · Hidden Figures and the 1962 mission",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-talk-with-cast-of-hidden-figures-at-kennedy-space-center/"
+        },
+        {
+          "label": "NASA · Dorothy Vaughan’s career",
+          "url": "https://www.nasa.gov/people/dorothy-vaughan/"
+        },
+        {
+          "label": "NASA · Mary Jackson’s career",
+          "url": "https://www.nasa.gov/history/mary-w-jackson/"
+        }
+      ],
+      "minutes": 127
+    },
+    {
+      "id": "first-man",
+      "title": "First Man",
+      "releaseYear": 2018,
+      "format": "Film",
+      "rating": "7.3",
+      "imdbUrl": "https://www.imdb.com/title/tt1213641/",
+      "ratingChecked": "2026-10-30",
+      "color": "#64518c",
+      "coverage": [
+        [
+          1961,
+          1969
+        ]
+      ],
+      "events": [
+        "spacewalk",
+        "apollo1",
+        "apollo11"
+      ],
+      "eventNotes": {
+        "spacewalk": "Armstrong’s Gemini path, not Leonov",
+        "apollo1": "Loss and program risk",
+        "apollo11": "Armstrong’s perspective"
+      },
+      "premise": "Neil Armstrong’s professional life and family grief unfold across the testing, training and missions leading to Apollo 11.",
+      "learn": "Why reaching the Moon took years of incremental flight experience, engineering and personal sacrifice. Its intimate reading of Armstrong’s grief is a dramatic interpretation, including the unverified bracelet scene on the Moon.",
+      "coverageNote": "The Smithsonian identifies the film’s span as 1961–1969. Armstrong’s Gemini 8 flight in 1966 falls within that continuous career narrative. The 1965 event connection introduces the broader Gemini program; it does not claim Armstrong made Leonov’s first spacewalk.",
+      "sources": [
+        {
+          "label": "Smithsonian · What First Man got right",
+          "url": "https://airandspace.si.edu/stories/editorial/what-first-man-got-right-about-neil-armstrong"
+        },
+        {
+          "label": "NASA · Before Apollo",
+          "url": "https://www.nasa.gov/specials/apollo50th/before.html"
+        },
+        {
+          "label": "IMDb · Identity and 141-minute edition",
+          "url": "https://www.imdb.com/title/tt1213641/"
+        }
+      ],
+      "minutes": 141
+    },
+    {
+      "id": "earth-moon",
+      "title": "From the Earth to the Moon",
+      "releaseYear": 1998,
+      "format": "Series",
+      "rating": "8.5",
+      "imdbUrl": "https://www.imdb.com/title/tt0120570/",
+      "ratingChecked": "2026-10-30",
+      "color": "#3e6954",
+      "coverage": [
+        [
+          1961,
+          1972
+        ]
+      ],
+      "events": [
+        "gagarin-shepard",
+        "apollo1",
+        "apollo8",
+        "apollo11",
+        "apollo13",
+        "apollo17"
+      ],
+      "eventNotes": {
+        "gagarin-shepard": "The American lunar commitment",
+        "apollo1": "Episode 2 · Apollo 1",
+        "apollo8": "Episode 4 · Lunar orbit",
+        "apollo11": "Episode 6 · Landing",
+        "apollo13": "Episode 8 · Press perspective",
+        "apollo17": "Episode 12 · Final landing"
+      },
+      "premise": "Twelve dramatic chapters follow Apollo through astronauts, engineers, controllers, geologists and families.",
+      "learn": "The program beyond a single heroic flight: design choices, failure investigations, training and lunar science. Watch the complete series for breadth; it overlaps First Man and Apollo 13, which offer more concentrated alternatives.",
+      "coverageNote": "The main historical story runs from 1961 to the last Apollo landing in 1972. The final episode’s scenes about Georges Méliès and his 1902 film are a parallel artistic frame, not an extension of Apollo’s coverage. All 12 episodes are included, budgeted at about 60 minutes each; editions vary. It remains scripted drama, with reconstructed dialogue and composite storytelling.",
+      "sources": [
+        {
+          "label": "AFI · Series scope, 1961–1972",
+          "url": "https://watch.afi.com/movie/tv-series-from-the-earth-to-the-moon"
+        },
+        {
+          "label": "IMDb · Twelve episodes",
+          "url": "https://www.imdb.com/title/tt0120570/"
+        },
+        {
+          "label": "NASA · The Apollo program",
+          "url": "https://www.nasa.gov/the-apollo-program/"
+        }
+      ],
+      "episodes": 12,
+      "episodeMinutes": 60
+    },
+    {
+      "id": "apollo-13",
+      "title": "Apollo 13",
+      "releaseYear": 1995,
+      "format": "Film",
+      "rating": "7.7",
+      "imdbUrl": "https://www.imdb.com/title/tt0112384/",
+      "ratingChecked": "2026-10-30",
+      "color": "#97602d",
+      "coverage": [
+        [
+          1970,
+          1970
+        ]
+      ],
+      "events": [
+        "apollo13"
+      ],
+      "eventNotes": {
+        "apollo13": "Mission and rescue"
+      },
+      "premise": "A routine lunar expedition becomes an emergency, with three astronauts and teams on Earth trying to bring a damaged spacecraft home.",
+      "learn": "The practical work of mission control, limited resources and engineering under pressure. The broad rescue is historical, while dialogue and interpersonal tension are shaped for the film.",
+      "coverageNote": "The central story is the 1970 preparation, flight and return. The opening remembrance of Apollo 1 and the Apollo 11 television celebration establish background and do not create earlier coverage bars. Use Ron Howard’s 1995 feature; the budget is 140 minutes. This is an optional close-up of ground also covered differently in the miniseries.",
+      "sources": [
+        {
+          "label": "NASA · Apollo 13",
+          "url": "https://www.nasa.gov/mission/apollo-13/"
+        },
+        {
+          "label": "Smithsonian · Film accuracy discussion",
+          "url": "https://airandspace.si.edu/multimedia-gallery/apollo-13-film-discussion"
+        },
+        {
+          "label": "IMDb · 140-minute feature",
+          "url": "https://www.imdb.com/title/tt0112384/"
+        }
+      ],
+      "minutes": 140
+    },
+    {
+      "id": "farthest",
+      "title": "The Farthest",
+      "releaseYear": 2017,
+      "format": "Documentary",
+      "rating": "8.1",
+      "imdbUrl": "https://www.imdb.com/title/tt6223974/",
+      "ratingChecked": "2026-10-30",
+      "color": "#315c70",
+      "coverage": [
+        [
+          1972,
+          2012
+        ]
+      ],
+      "events": [
+        "voyager-launch",
+        "neptune",
+        "interstellar"
+      ],
+      "eventNotes": {
+        "voyager-launch": "Building and launching Voyager",
+        "neptune": "The planetary tour",
+        "interstellar": "Crossing the heliopause"
+      },
+      "premise": "Voyager’s scientists and engineers recall sending two small spacecraft past giant planets and toward interstellar space.",
+      "learn": "Gravity assists, long-lived engineering and the scientific surprises of robotic exploration. Archive material and retrospective interviews tell the mission; interviews filmed decades later do not extend the historical span.",
+      "coverageNote": "The PBS transcript explicitly dates mission preparation to 1972 and follows the 1977 launches, planetary encounters through 1989 and Voyager 1’s 2012 heliopause crossing. This is a mission-history envelope, not a claim that every intervening year receives a scene. Budget the 121-minute feature; the linked PBS presentation is a shorter 97-minute broadcast cut. “Left the solar system” in publicity means the heliosphere here, not the Sun’s full gravitational domain.",
+      "sources": [
+        {
+          "label": "PBS · Film and transcript, including 1972 preparation",
+          "url": "https://www.pbs.org/video/the-farthest-voyager-in-space-qpbu4y/"
+        },
+        {
+          "label": "IMDb · 121-minute feature edition",
+          "url": "https://www.imdb.com/title/tt6223974/"
+        },
+        {
+          "label": "NASA · Voyager 1",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        },
+        {
+          "label": "NASA · Voyager 2",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-2/"
+        }
+      ],
+      "minutes": 121
+    },
+    {
+      "id": "challenger",
+      "title": "Challenger: The Final Flight",
+      "releaseYear": 2020,
+      "format": "Documentary series",
+      "rating": "7.8",
+      "imdbUrl": "https://www.imdb.com/title/tt12930534/",
+      "ratingChecked": "2026-10-30",
+      "color": "#884456",
+      "coverage": [
+        [
+          1978,
+          1986
+        ]
+      ],
+      "events": [
+        "shuttle",
+        "challenger"
+      ],
+      "eventNotes": {
+        "shuttle": "Program background",
+        "challenger": "Launch, loss and investigation"
+      },
+      "premise": "Engineers, officials and relatives reconstruct the Challenger disaster and the decisions that preceded it.",
+      "learn": "How technical warnings, launch expectations and institutional judgment can interact. The four-part documentary centers people and decisions; it does not cover the entire Shuttle era or the later Columbia accident.",
+      "coverageNote": "The main historical arc begins with the new astronaut generation selected in 1978 and builds through the 1986 loss and investigation. Earlier program archive and later remembrance are context rather than extra story bars. The start is an editorial boundary, not an exact date for every archival image. All four episodes are included: Netflix lists 44, 41, 41 and 52 minutes, totaling 178 minutes.",
+      "sources": [
+        {
+          "label": "Netflix · Episode descriptions and runtimes",
+          "url": "https://www.netflix.com/title/81012137"
+        },
+        {
+          "label": "NASA · Astronaut class of 1978 archive",
+          "url": "https://www.nasa.gov/wp-content/uploads/2023/02/astronaut-subject-files-2.pdf"
+        },
+        {
+          "label": "NASA · Space Shuttle history",
+          "url": "https://www.nasa.gov/history/space-shuttle-history-resources/"
+        }
+      ],
+      "episodes": 4,
+      "minutes": 178
+    },
+    {
+      "id": "good-night-oppy",
+      "title": "Good Night Oppy",
+      "releaseYear": 2022,
+      "format": "Documentary",
+      "rating": "7.7",
+      "imdbUrl": "https://www.imdb.com/title/tt14179942/",
+      "ratingChecked": "2026-10-30",
+      "color": "#80572d",
+      "coverage": [
+        [
+          2000,
+          2019
+        ]
+      ],
+      "events": [
+        "mars-rovers",
+        "oppy-farewell"
+      ],
+      "eventNotes": {
+        "mars-rovers": "Design, landing and exploration",
+        "oppy-farewell": "Last contact and end of mission"
+      },
+      "premise": "The teams behind Spirit and Opportunity build, land and care for robotic explorers that outlast their planned missions.",
+      "learn": "How rover operations become field geology at a distance, and how discoveries accumulate over years. The surface journeys include visual-effects reconstructions; these are not continuous camera footage shot by an observer on Mars.",
+      "coverageNote": "The span includes the rover project’s development from around 2000, the 2003 launches, 2004 landings and the recovery attempts ending in 2019. The development boundary is approximate. Opportunity’s last signal was in June 2018; the mission declaration came in February 2019. The film’s present-day interviews are excluded from the bar. The early planning material is not intended as a year-by-year history.",
+      "sources": [
+        {
+          "label": "IMDb · Film identity and 105-minute runtime",
+          "url": "https://www.imdb.com/title/tt14179942/"
+        },
+        {
+          "label": "JPL · Planning the 2003 Mars rovers",
+          "url": "https://www.jpl.nasa.gov/news/nasa-goes-back-to-the-future-with-plans-for-a-mars-rover-in-2003-possible-second-rover-being-studied/"
+        },
+        {
+          "label": "NASA · Opportunity mission record",
+          "url": "https://science.nasa.gov/mission/mer-opportunity/"
+        }
+      ],
+      "minutes": 105,
+      "approximateDates": true
+    }
+  ]
+}

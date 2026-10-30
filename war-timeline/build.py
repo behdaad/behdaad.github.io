@@ -50,6 +50,14 @@ def generate(folder):
             if event_id not in event_map:
                 raise ValueError(f'Unknown event: {event_id}')
 
+    # Long histories keep a uniform overview scale, but need no empty year rows.
+    milestone_mode = data.get('milestoneYears', False)
+    timeline_years = sorted(
+        {first, last} | {e['year'] for e in events}
+        | {year for e in entries for interval in e['coverage'] for year in interval}
+    ) if milestone_mode else years
+    year_rows = {year: row for row, year in enumerate(timeline_years, 1)}
+
     def source_links(item):
         links = []
         for source in item.get('sources', []):
@@ -72,10 +80,13 @@ def generate(folder):
         )
 
     def coverage(entry):
-        return ', '.join(str(a) if a == b else f'{a}–{b}' for a, b in entry['coverage'])
+        label = ', '.join(str(a) if a == b else f'{a}–{b}' for a, b in entry['coverage'])
+        return f'c. {label}' if entry.get('approximateDates') else label
 
     def runtime(entry):
-        if entry['format'] == 'Series':
+        if 'episodes' in entry:
+            if 'minutes' in entry:
+                return f'{entry["episodes"]} episodes · {entry["minutes"]} min total'
             return f'{entry["episodes"]} × {entry["episodeMinutes"]} min'
         return f'{entry["minutes"]} min'
 
@@ -84,13 +95,16 @@ def generate(folder):
 
     def coverage_strip(entry):
         cells = []
-        for year in years:
+        strip_years = range(max(first, entry['coverage'][0][0] - 1), min(last, entry['coverage'][-1][1] + 1) + 1) if milestone_mode else years
+        for year in strip_years:
             active = any(a <= year <= b for a, b in entry['coverage'])
-            if active:
+            if active and year in year_rows:
                 cells.append(
                     f'<a class="coverage-year covered" href="#year-{year}" data-year="{year}" '
                     f'data-coverage-story="{entry["id"]}" aria-label="{esc(entry["title"])}: main story in {year}">{year}</a>'
                 )
+            elif active:
+                cells.append(f'<span class="coverage-year covered">{year}</span>')
             else:
                 cells.append(f'<span class="coverage-year" aria-hidden="true">{year}</span>')
         return '<div class="coverage-strip" aria-label="Main-story years: ' + coverage(entry) + '">' + ''.join(cells) + '</div>'
@@ -140,11 +154,11 @@ def generate(folder):
 <details class="event-sources"><summary>Historical sources</summary>{source_links(item)}</details></article>'''
 
     year_sections = []
-    for year in years:
+    for year in timeline_years:
         year_events = [(i, item) for i, item in enumerate(events, 1) if item['year'] == year]
         count = len(year_events)
         year_sections.append(
-            f'<details class="timeline-year" id="year-{year}" style="grid-row:{year-first+1}" open>'
+            f'<details class="timeline-year" id="year-{year}" style="grid-row:{year_rows[year]}" open>'
             f'<summary><span class="year-pill">{year}<span class="year-chevron" aria-hidden="true"></span></span>'
             f'<span class="sr-only"> · {count} historical {"event" if count == 1 else "events"}</span></summary>'
             f'<div class="year-body"><div class="year-events">'
@@ -176,15 +190,16 @@ def generate(folder):
             label = f'{entry["number"]} · {entry["title"]} · {coverage(entry)}' if part == 0 else entry['number']
             film_spans.append(
                 f'<a class="film-span" data-story="{entry["id"]}" href="#story-{entry["id"]}" '
-                f'style="--lane:{lane};--story:{esc(entry["color"])};grid-row:{start-first+1}/{end-first+2}" '
+                f'style="--lane:{lane};--story:{esc(entry["color"])};grid-row:{year_rows[start]}/{year_rows[end]+1}" '
                 f'title="{esc(entry["title"])} · Main story {coverage(entry)}" '
                 f'aria-label="{esc(entry["title"])}: main story {coverage(entry)}; open details">'
                 f'<span class="span-label">{esc(label)}</span></a>'
             )
             interval = str(start) if start == end else f'{start}–{end}'
+            range_label = interval if not milestone_mode or end - start >= 4 else ''
             ranges.append(
                 f'<span class="overview-range" style="--start:{(start-first)/len(years)*100:.5f}%;'
-                f'--length:{(end-start+1)/len(years)*100:.5f}%">{interval}</span>'
+                f'--length:{(end-start+1)/len(years)*100:.5f}%">{range_label}</span>'
             )
         for event_id in entry['events']:
             item = event_map[event_id]
@@ -193,18 +208,27 @@ def generate(folder):
             span_markers.append(
                 f'<a class="span-event" data-marker-story="{entry["id"]}" data-event-link="{event_id}" '
                 f'href="#event-{event_id}" style="--lane:{lane};--story:{esc(entry["color"])};'
-                f'grid-row:{item["year"]-first+1}" title="{esc(marker_label)}" aria-label="{esc(marker_label)}">'
+                f'grid-row:{year_rows[item["year"]]}" title="{esc(marker_label)}" aria-label="{esc(marker_label)}">'
                 '<span class="sr-only">Event connection</span></a>'
             )
+        overview_name = esc(entry['title'])
+        if milestone_mode:
+            overview_name += f'<small class="overview-dates">{coverage(entry)}</small>'
         overview_rows.append(
             f'<div class="overview-row" style="--story:{esc(entry["color"])}">'
             f'<a class="overview-title" href="#story-{entry["id"]}" data-story="{entry["id"]}">'
-            f'{number(entry)}<span>{esc(entry["title"])}</span><small>★ {esc(entry["rating"])}</small></a>'
+            f'{number(entry)}<span>{overview_name}</span><small>★ {esc(entry["rating"])}</small></a>'
             f'<a class="overview-track" href="#story-{entry["id"]}" data-story="{entry["id"]}" '
             f'aria-label="{esc(entry["title"])}: main story {coverage(entry)}; open details">'
             + ''.join(ranges) + '</a></div>'
         )
-    overview_axis = ''.join(f'<a href="#year-{year}" data-year="{year}">{year}</a>' for year in years)
+    overview_axis = ''.join(
+        (f'<a href="#year-{year}" data-year="{year}" aria-label="Jump to {year}">{year}</a>'
+         if year in year_rows and (year in (first, last) or year % 10 == 0)
+         else f'<span>{year if year % 10 == 0 else ""}</span>')
+        if milestone_mode else f'<a href="#year-{year}" data-year="{year}">{year}</a>'
+        for year in years
+    )
     overview_events = []
     for year in years:
         links = ''.join(
@@ -222,12 +246,13 @@ def generate(folder):
         'overview_rows': ''.join(overview_rows),
         'overview_axis': overview_axis,
         'overview_events': ''.join(overview_events),
-        'year_links': ''.join(f'<a href="#year-{year}" data-year="{year}">{year}</a>' for year in years),
+        'year_links': ''.join(f'<a href="#year-{year}" data-year="{year}">{year}</a>' for year in timeline_years),
         'cards': ''.join(card(entry) for entry in entries),
-        'route_title': f'{len(entries)} films & series',
+        'route_title': esc(data.get('routeTitle', f'{len(entries)} films & series')),
+        'timeline_note': ('Only milestone and story-boundary years appear below; intervening years are omitted. Vertical spacing follows the event cards. The overview above keeps an even year scale.' if milestone_mode else 'Parallel bars follow the same years as the event cards. Dots link to those cards; some connections provide background beyond the main story. Select a title to highlight all its connections.'),
     })
     total = sum(
-        entry['episodes'] * entry['episodeMinutes'] if entry['format'] == 'Series' else entry['minutes']
+        entry.get('minutes', entry.get('episodes', 0) * entry.get('episodeMinutes', 0))
         for entry in entries
     )
     connections = {
@@ -236,6 +261,9 @@ def generate(folder):
     }
     html = template('shell.html', {
         'page_title': esc(f'{data["title"]} — A history worth watching'),
+        'body_class': ' class="long-timeline"' if milestone_mode else '',
+        'media_label': esc(data.get('mediaLabel', 'Films & series')),
+        'eyebrow': esc(data.get('eyebrow', 'HISTORY THROUGH FILM')),
         'description': esc(data['subtitle']),
         'year_count': len(years),
         'strip_columns': min(len(years), 7),

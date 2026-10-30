@@ -116,3 +116,11 @@ A date span alone never proves an event appears on screen. Use relationship labe
 ### Prompt for a future chat
 
 > Use `war-timeline/TEMPLATE.md` in this repository to create a history-through-film page at `/another-war/` using the shared year-by-year timeline layout. Begin before the conflict and explain its key events. Recommend a short route within my requested title budget (default five or six) using dated IMDb scores as a proxy. Show main-story coverage only, preserve gaps and overlaps, distinguish depiction from context, and record sources. Do not create or run automated tests. Follow the repository's Git delivery instructions.
+
+## Longer histories and documentaries
+
+`space-exploration/data.json` demonstrates the same renderer for a history spanning many decades. Set `milestoneYears: true` to show only event years and coverage-interval endpoints in the vertical timeline. The top overview retains an equal-width cell for every year, with decade labels, and lists each title's precise span beside its name. A missing vertical year is an omitted stop, not an implied historical gap. Modal strips focus on the title's era with a neighboring year on either side and preserve any internal empty years.
+
+Optional page fields `mediaLabel`, `eyebrow` and `routeTitle` adjust the presentation's wording. Entry `format` may describe a documentary or documentary series; an `episodes` field identifies a series. Supply `minutes` with `episodes` for a known complete-series total, or `episodes` and `episodeMinutes` for an approximate budget. `approximateDates: true` prefixes the displayed coverage with `c.`; explain the uncertainty in the entry's notes.
+
+For documentaries, coverage refers to the substantial historical subject. Present-day interviews do not extend a bar. A mission-history envelope can contain jumps; explain that explicitly, identify uncertain development boundaries, and distinguish feature and broadcast cuts. Use sources to support both the mission's real dates and the documentary's scope, and disclose where the latter remains uncertain.

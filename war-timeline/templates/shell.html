@@ -5,11 +5,11 @@
 <title>{{page_title}}</title><meta name="description" content="{{description}}">
 <link rel="stylesheet" href="{{asset}}/styles.css?v={{style_version}}"><script src="{{asset}}/app.js?v={{script_version}}" defer></script>
 </head>
-<body style="--years:{{year_count}};--strip-columns:{{strip_columns}}">
+<body{{body_class}} style="--years:{{year_count}};--strip-columns:{{strip_columns}}">
 <a class="skip" href="#explore">Skip to the timeline</a>
-<header class="masthead"><div class="wrap masthead-inner"><a class="wordmark" href="/">THE VIEWING ROOM</a><nav aria-label="Page navigation"><a href="#explore">Timeline</a><a href="#overview">Films &amp; series</a><a href="#method">About this guide</a></nav><a class="home-link" href="/">Behdad ↗</a></div></header>
+<header class="masthead"><div class="wrap masthead-inner"><a class="wordmark" href="/">THE VIEWING ROOM</a><nav aria-label="Page navigation"><a href="#explore">Timeline</a><a href="#overview">{{media_label}}</a><a href="#method">About this guide</a></nav><a class="home-link" href="/">Behdad ↗</a></div></header>
 <main>
-<section class="hero wrap"><p class="eyebrow">HISTORY THROUGH FILM</p><h1>{{title}}</h1><p class="hero-subtitle">{{subtitle}}</p><p class="edition">{{entry_count}} titles <span>·</span> {{duration}} if you watch everything</p><details class="intro-note"><summary>About the selection &amp; IMDb ratings</summary><p>{{content_note}}</p></details></section>
+<section class="hero wrap"><p class="eyebrow">{{eyebrow}}</p><h1>{{title}}</h1><p class="hero-subtitle">{{subtitle}}</p><p class="edition">{{entry_count}} titles <span>·</span> {{duration}} if you watch everything</p><details class="intro-note"><summary>About the selection &amp; IMDb ratings</summary><p>{{content_note}}</p></details></section>
 <section id="explore" class="explore wrap" aria-labelledby="layout-title"><h2 id="layout-title">Timeline</h2><p class="timeline-intro">Follow the events. Find a story. See how the years connect.</p>
 {{body}}
 </section>

@@ -14,3 +14,7 @@
 
 /* Keep year labels readable in long-history cards and dialogs. */
 .modal-content .coverage-strip{grid-template-columns:repeat(var(--strip-columns),minmax(0,1fr))}
+
+/* A century fits the same overview; milestone rows keep the event view readable. */
+.long-timeline .overview-chart{min-width:980px}.long-timeline .overview-axis{font-size:10px}.long-timeline .overview-range{overflow:hidden;font-size:9px}.long-timeline .modal-content .coverage-strip,.long-timeline .coverage-strip{grid-template-columns:repeat(var(--strip-columns),minmax(0,1fr))}.long-timeline .overview-events a{display:block;min-width:0;width:6px;height:6px;line-height:0;font-size:0;background:var(--accent);border:0}.long-timeline .overview-events>span{gap:6px}.long-timeline .overview-axis>a{min-height:20px}.long-timeline .overview-dates{display:block;margin:3px 0 0;color:var(--muted);font-size:9px}.long-timeline .overview-axis>a:hover{background-color:#fff0d5}
+@media(max-width:700px){.long-timeline .overview-chart{min-width:900px}.long-timeline .overview-title .overview-dates{display:block}}

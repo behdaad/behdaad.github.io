@@ -8,7 +8,7 @@ Reusable Amsterdam outing guide for drinks, dinner and a good evening.
 - Venue photographs are local image files; original URLs and credits are in `images/credits.json`.
 - Maps use locally vendored Leaflet 1.9.4 (BSD-2-Clause, see `vendor/LICENSE`) and OpenStreetMap tiles. Addresses/directions remain usable if JavaScript or tiles are unavailable.
 - Map pins are address centroids, not routing waypoints. Super Lyan, KID and Pendergast are approximate; walks are conservative editorial estimates. No straight-line connector is presented as a walking route.
-- Opening hours, menus and prices are research snapshots. Recheck them before using the guide.
+- Opening hours, menus and prices are research snapshots; hours and prices marked as Friday research need checking for other days.
 - Prices cover one cocktail plus dinner food; add drinks with dinner. No booking, vote storage, or shared state is implied. Copy buttons share only a direct URL.
 - Run `npx playwright test tests/30-october.spec.js` for desktop/mobile galleries, maps, sorting, image availability, overflow, and JavaScript-free fallback checks.
 

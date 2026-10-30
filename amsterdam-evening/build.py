@@ -26,7 +26,7 @@ def gallery(v,key,atmosphere=False):
 def venue(key,number,plan_id):
  v=venues[key]
  maps='https://www.google.com/maps/search/?'+urlencode({'api':1,'query':v['name']+', '+v['address']+', Amsterdam'})
- return f'''<section class="venue"><div class="stop-label"><span>{number}</span> {'FIRST, A DRINK' if number=='A' else 'THEN, DINNER'}</div><div class="venue-heading"><h3>{e(v['name'])}</h3><span class="tier">{v['tier']}</span></div><p class="category">{e(v['kind'])} <span>·</span> {e(v['address'])}</p>{gallery(v,plan_id+'-'+key)}<p>{e(v['description'])}</p>{gallery(v,plan_id+'-'+key+'-setting',True)}<dl><div><dt>Budget</dt><dd>{e(v['price'])}<small>{e(v['budget'])}</small></dd></div><div><dt>Hours</dt><dd>{e(v['hours'])}</dd></div></dl><p class="booking">{e(v['note'])}</p><div class="venue-links">{link(v['url'],'Visit / booking')}{link(v['menu'],'Menu & details')}{link(maps,'Google Maps')}</div></section>'''
+ return f'''<section class="venue"><div class="stop-label"><span>{number}</span> {'FIRST, A DRINK' if number=='A' else 'THEN, DINNER'}</div><div class="venue-heading"><h3>{e(v['name'])}</h3><span class="tier">{v['tier']}</span></div><p class="category">{e(v['kind'])} <span>·</span> {e(v['address'])}</p>{gallery(v,plan_id+'-'+key)}<p>{e(v['description'])}</p>{gallery(v,plan_id+'-'+key+'-setting',True)}<dl><div><dt>Budget</dt><dd>{e(v['price'])}<small>{e(v['budget'])}</small></dd></div><div><dt>Hours · Friday research</dt><dd>{e(v['hours'])}</dd></div></dl><p class="booking">{e(v['note'])}</p><div class="venue-links">{link(v['url'],'Visit / booking')}{link(v['menu'],'Menu & details')}{link(maps,'Google Maps')}</div></section>'''
 count=len(data['pairs'])
 quick=[];cards=[]
 for i,p in enumerate(data['pairs'],1):
@@ -47,9 +47,9 @@ for old, new in (
  ('Five friends, and nowhere to rush.', 'Good drinks, good food, and nowhere to rush.'),
  ('<div class="date-stamp" aria-label="30 October, five people"><strong>30</strong><span>OCTOBER</span><i>table for five</i></div>', '<div class="date-stamp" aria-label="A good night out"><strong>GOOD</strong><span>NIGHT</span><i>take your time</i></div>'),
  ('Friday planning notes', 'Planning notes'),
- ('published Friday hours', 'published hours'),
+ ('published Friday hours', 'published Friday hours'),
  ('ways to spend a Friday', 'ways to spend an evening'),
- ('Published Friday all-you-can-eat rate', 'Published all-you-can-eat rate'),
+ ('Published Friday all-you-can-eat rate', 'Published Friday all-you-can-eat rate'),
  ('currently linked 2026 menu', 'currently linked menu'),
  ('The October menu', 'The current menu'),
  ('Choose a mood, then check a table for five.', 'Choose a mood, then check current availability.'),
@@ -58,14 +58,14 @@ for old, new in (
  ('Friday hours checked, tables not booked. Researched 21 October 2026 using the venues’ published schedules. All venues except Esh list Friday service covering these suggested times.', 'Published hours are shown as a planning reference; check them directly before going. Esh’s reported hours come from editorial listings; confirm them directly before choosing this plan.'),
  ('<strong>Friday hours checked, tables not booked.</strong> Researched 21 October 2026 using the venues’ published schedules. All venues except Esh list Friday service covering these suggested times. Esh’s reported hours come from editorial listings; confirm its dinner service directly. Current availability, private events and last-minute changes still need confirmation.', '<strong>Published hours are shown as a planning reference.</strong> Check them directly before going. Esh’s reported hours come from editorial listings; confirm them directly before choosing this plan. Current availability, private events and last-minute changes still need confirmation.'),
  ('Venue pages and menus researched on 21 October 2026.', 'Venue pages and menus were researched for this guide.'),
- ('Friday dinner hours', 'dinner hours'),
+ ('Friday dinner hours', 'Friday dinner hours'),
  ('reserve five', 'reserve for your group'),
  ('seating five', 'seating for your group'),
  ('30 October 2026 · Amsterdam · Five friends', 'Amsterdam · A reusable evening guide'),
  ('for five', 'for your group'),
  ('five seats', 'seats for your group'),
- ('Friday kitchen hours', 'kitchen hours'),
- ('Friday opening', 'published opening hours'),
+ ('Friday kitchen hours', 'Friday kitchen hours'),
+ ('Friday opening', 'Friday opening'),
 ):
  html=html.replace(old, new)
 

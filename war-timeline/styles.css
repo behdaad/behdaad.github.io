@@ -11,3 +11,6 @@
 .film-span{overflow:hidden}.span-label{position:absolute;top:10px;max-height:min(420px,calc(100vh - 65px),calc(100% - 20px))}.span-event{justify-self:end;margin-right:-3px}
 /* Moving a single span label must not become the browser's scroll anchor. */
 .film-span,.span-label,.span-event{overflow-anchor:none}
+
+/* Keep year labels readable in long-history cards and dialogs. */
+.modal-content .coverage-strip{grid-template-columns:repeat(var(--strip-columns),minmax(0,1fr))}

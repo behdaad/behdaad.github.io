@@ -1,0 +1,649 @@
+{
+  "slug": "cold-war",
+  "title": "Cold War",
+  "subtitle": "Six films, from a divided Europe to the end of the Soviet Union.",
+  "startYear": 1945,
+  "endYear": 1991,
+  "researchDate": "2026-10-30",
+  "introNote": "Six films, about 12 hours 45 minutes altogether. The Third Man uses the 104-minute British version; other runtimes refer to standard feature releases. IMDb scores were checked against publicly indexed pages on 30 October 2026, not a live ratings feed, and can change. They describe audience reception, not historical reliability. The timeline begins with the wartime alliance breaking down in 1945; 1947 is another common starting point for the Cold War.",
+  "scopeNote": "This is a short introduction through drama, weighted towards Europe and American viewpoints. Cold War rivalry intersected with local struggles, decolonisation and civil wars; those societies were participants with their own aims, not simply pieces moved by Washington and Moscow. Context stops cover China, Korea, Bandung, Hungary, Prague, Chile and Afghanistan, but no selected film directly tells those stories. African, Latin American, Soviet and Asian civilian perspectives, the Sino-Soviet split, the space race and many interventions deserve much more attention. Blank years are gaps in this guide, not years when nothing happened.",
+  "closingNote": "The Berlin Wall opened in November 1989, Germany reunited in October 1990, and the Soviet Union dissolved in December 1991. These were distinct developments, not one event. This guide ends in 1991, a conventional endpoint for the Cold War; nuclear arsenals, political divisions and the consequences of its wars remained. Films open a route into the history; the linked historical sources supply the wider picture.",
+  "events": [
+    {
+      "id": "postwar-order",
+      "year": 1945,
+      "dateLabel": "JULY – AUGUST 1945",
+      "title": "Allies face the peace",
+      "description": "Victory over Nazi Germany leaves the United States, Soviet Union, Britain and France occupying Germany. At Potsdam, disagreements over reparations, borders and Europe's future expose tensions inside the wartime alliance. The Cold War emerges through the following years rather than beginning with a single declaration. The Third Man offers a later view of occupied Vienna, not a reconstruction of this conference.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Potsdam Conference",
+          "url": "https://history.state.gov/milestones/1937-1945/potsdam-conf"
+        }
+      ]
+    },
+    {
+      "id": "containment",
+      "year": 1947,
+      "dateLabel": "1947 – 1948",
+      "title": "Containment and reconstruction",
+      "description": "The Truman Doctrine promises American support to Greece and Turkey, framing their crises as part of a wider struggle. The Marshall Plan follows with economic aid for European recovery. Soviet control in Eastern Europe and competing ideas about security and political order harden the division. Neither policy is directly dramatised by these six films.",
+      "gapNote": "Context stop: the opening of this rivalry needs its own history, beyond the atmosphere of the first film.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Truman Doctrine",
+          "url": "https://history.state.gov/milestones/1945-1952/truman-doctrine"
+        },
+        {
+          "label": "Office of the Historian · Truman Doctrine and Marshall Plan",
+          "url": "https://history.state.gov/departmenthistory/short-history/truman"
+        }
+      ]
+    },
+    {
+      "id": "occupied-vienna",
+      "year": 1948,
+      "dateLabel": "OCCUPIED VIENNA · 1948",
+      "title": "Life between occupation zones",
+      "description": "Vienna, like Berlin, is divided among the four occupying powers, but Austria's later path will differ from Germany's. The Third Man follows an invented criminal investigation through the city's ruins, shortages and black market. Its setting makes the uneasy postwar order tangible; Harry Lime's story is fiction, not a documented espionage operation.",
+      "sources": [
+        {
+          "label": "Viennale · The Third Man and occupied Vienna",
+          "url": "https://www.viennale.at/de/film/third-man"
+        },
+        {
+          "label": "Vienna Tourist Board · Occupation-era context",
+          "url": "https://www.wien.info/en/see-do/sights-from-a-to-z/third-man-museum-361304"
+        }
+      ]
+    },
+    {
+      "id": "berlin-airlift",
+      "year": 1948,
+      "dateLabel": "JUNE 1948 – MAY 1949",
+      "title": "Berlin survives a blockade",
+      "description": "The Soviet blockade cuts land access to the Western sectors of Berlin. Western aircraft supply the city until the blockade is lifted in May 1949. This confrontation helps turn the occupation of Germany into a lasting division. The Third Man is set in Vienna and does not depict the Berlin airlift.",
+      "gapNote": "Context stop: shared occupation geography does not make the film a depiction of Berlin.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Berlin Airlift",
+          "url": "https://history.state.gov/milestones/1945-1952/berlin-airlift"
+        }
+      ]
+    },
+    {
+      "id": "blocs-and-china",
+      "year": 1949,
+      "dateLabel": "1949 · WARSAW PACT FOLLOWS IN 1955",
+      "title": "Alliances form; China changes course",
+      "description": "NATO is founded as a collective-defence alliance. In China, Communist victory establishes the People's Republic while the Nationalist government retreats to Taiwan. The Soviet-led Warsaw Pact follows in 1955. These developments widen the rivalry, but communist states do not remain a single harmonious bloc: China and the Soviet Union will become bitter rivals.",
+      "gapNote": "Context stop: none of the films explains the Chinese Civil War or the later Sino-Soviet split.",
+      "sources": [
+        {
+          "label": "Office of the Historian · NATO",
+          "url": "https://history.state.gov/milestones/1945-1952/nato"
+        },
+        {
+          "label": "Office of the Historian · Chinese Revolution",
+          "url": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+        },
+        {
+          "label": "Office of the Historian · Warsaw Pact",
+          "url": "https://history.state.gov/milestones/1953-1960/warsaw-treaty"
+        },
+        {
+          "label": "Office of the Historian · Rapprochement with China",
+          "url": "https://history.state.gov/milestones/1969-1976/rapprochement-china"
+        }
+      ]
+    },
+    {
+      "id": "korean-war",
+      "year": 1950,
+      "dateLabel": "JUNE 1950 – JULY 1953",
+      "title": "The Cold War becomes a hot war",
+      "description": "North Korea invades South Korea. A US-led United Nations force intervenes, and China later enters on the North's side. The fighting devastates the peninsula; an armistice in 1953 stops major hostilities without a peace treaty. Calling this a proxy war must not erase Korean aims, decisions or suffering.",
+      "gapNote": "Context stop: no Korean War film is included in this short route.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Korean War",
+          "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+        }
+      ]
+    },
+    {
+      "id": "bandung",
+      "year": 1955,
+      "dateLabel": "APRIL 1955",
+      "title": "A world beyond two camps",
+      "description": "Asian and African states meet at Bandung to discuss sovereignty, anti-colonialism and cooperation. Their priorities cannot be reduced to choosing an American or Soviet patron. The conference helps prepare the ground for the later Non-Aligned Movement and is a reminder to read Cold War history from outside Europe as well.",
+      "gapNote": "Context stop: decolonisation and non-alignment have no direct screen representation in these selections.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Bandung Conference",
+          "url": "https://history.state.gov/milestones/1953-1960/bandung-conf"
+        }
+      ]
+    },
+    {
+      "id": "hungary",
+      "year": 1956,
+      "dateLabel": "FEBRUARY – NOVEMBER 1956",
+      "title": "Reform meets the limits of Soviet power",
+      "description": "Khrushchev's denunciation of Stalin encourages hopes for change. In Hungary, an uprising challenges the communist government and Soviet domination; Soviet forces crush it in November. De-Stalinisation does not mean that Moscow will accept its allies leaving its orbit. The films' later East German settings belong to this wider history of coercion.",
+      "gapNote": "Context stop: the Hungarian uprising is not depicted by any selected film.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Khrushchev and the Twentieth Congress",
+          "url": "https://history.state.gov/milestones/1953-1960/khrushchev-20th-congress"
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "year": 1960,
+      "dateLabel": "1 MAY 1960",
+      "title": "A spy plane brings diplomacy down",
+      "description": "The Soviet Union shoots down Francis Gary Powers's U-2 reconnaissance aircraft. Exposure of the American surveillance programme undermines a planned summit. Bridge of Spies connects Powers's captivity with lawyer James Donovan's defence of Soviet agent Rudolf Abel and the negotiations that follow.",
+      "sources": [
+        {
+          "label": "Office of the Historian · U-2 incident",
+          "url": "https://history.state.gov/milestones/1953-1960/u2-incident"
+        }
+      ]
+    },
+    {
+      "id": "berlin-wall",
+      "year": 1961,
+      "dateLabel": "13 AUGUST 1961",
+      "title": "A border closes through Berlin",
+      "description": "East German authorities, backed by the Soviet Union, close the sector border in Berlin to stop the flight of people to the West. Barbed wire gives way to a fortified wall. Bridge of Spies brings Donovan into this divided city; its dramatic encounters illustrate the danger of the border without documenting every incident it shows.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Berlin Crisis",
+          "url": "https://history.state.gov/milestones/1953-1960/berlin-crises"
+        }
+      ]
+    },
+    {
+      "id": "spy-exchange",
+      "year": 1962,
+      "dateLabel": "10 FEBRUARY 1962",
+      "title": "An exchange across the divide",
+      "description": "Powers and Abel are exchanged at Glienicke Bridge; American student Frederic Pryor is released separately at Checkpoint Charlie. Bridge of Spies follows Donovan's efforts to secure both Americans' freedom. This is a real negotiated exchange, shaped into a drama with compressed chronology and invented scenes.",
+      "sources": [
+        {
+          "label": "CIA Studies in Intelligence · Film and historical exchange",
+          "url": "https://www.cia.gov/resources/csi/static/Bridge-of-Spies.pdf"
+        }
+      ]
+    },
+    {
+      "id": "cuban-missile-crisis",
+      "year": 1962,
+      "dateLabel": "16 – 28 OCTOBER 1962",
+      "title": "Decisions at the nuclear brink",
+      "description": "Discovery of Soviet nuclear missiles in Cuba produces a confrontation over inspections, a US naval quarantine and the risk of invasion. A settlement removes Soviet missiles from Cuba, includes an American pledge not to invade, and secretly provides for US missile removal from Turkey. Thirteen Days follows the American decision rooms; Cuban and Soviet perspectives need the accompanying history.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Cuban Missile Crisis",
+          "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+        }
+      ]
+    },
+    {
+      "id": "vietnam-escalation",
+      "year": 1964,
+      "dateLabel": "1964 – 1965",
+      "title": "America escalates in Vietnam",
+      "description": "The Gulf of Tonkin resolution gives President Johnson broad authority to expand US military action; large-scale bombing and American combat deployments follow. Vietnam's struggle also grows from colonial rule, partition and rival Vietnamese political projects. Read this before Full Metal Jacket, whose later combat story does not explain how the war began.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Gulf of Tonkin and escalation",
+          "url": "https://history.state.gov/milestones/1961-1968/gulf-of-tonkin"
+        }
+      ]
+    },
+    {
+      "id": "tet",
+      "year": 1968,
+      "dateLabel": "JANUARY – FEBRUARY 1968 · HUẾ",
+      "title": "Tet challenges the story of progress",
+      "description": "Communist forces launch attacks across South Vietnam during the Tet holiday. US and South Vietnamese forces retake lost ground, but the scale and visibility of the offensive damage American claims of progress. Full Metal Jacket follows fictional Marines into the fighting in Huế, offering a narrow, brutal ground-level perspective rather than an account of the whole offensive.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Tet Offensive",
+          "url": "https://history.state.gov/milestones/1961-1968/tet"
+        },
+        {
+          "label": "AFI · Full Metal Jacket plot",
+          "url": "https://catalog.afi.com/Film/57623-FULL-METAL-JACKET"
+        }
+      ]
+    },
+    {
+      "id": "prague-spring",
+      "year": 1968,
+      "dateLabel": "AUGUST 1968",
+      "title": "The Prague Spring is crushed",
+      "description": "Alexander Dubček's reforms in Czechoslovakia raise hopes for a less repressive socialist system. A Soviet-led Warsaw Pact invasion ends the experiment. The Cold War includes conflicts within the communist world as well as confrontation across its borders; events in Prague are distinct from the simultaneous war in Vietnam.",
+      "gapNote": "Context stop: Full Metal Jacket shares the year, not the event.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Invasion of Czechoslovakia",
+          "url": "https://history.state.gov/milestones/1961-1968/soviet-invasion-czechoslavkia"
+        }
+      ]
+    },
+    {
+      "id": "detente",
+      "year": 1972,
+      "dateLabel": "1972 · DÉTENTE IN THE 1970s",
+      "title": "Negotiation alongside competition",
+      "description": "Nixon visits China and reaches arms-control agreements with the Soviet Union. The opening to Beijing exploits the Sino-Soviet split; détente reduces some risks without ending ideological rivalry or wars elsewhere. The 1975 Helsinki agreements later connect European security with human-rights commitments.",
+      "gapNote": "Context stop: no selected film directly covers these summits or agreements.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Détente and arms control",
+          "url": "https://history.state.gov/milestones/1969-1976/detente"
+        },
+        {
+          "label": "Office of the Historian · Rapprochement with China",
+          "url": "https://history.state.gov/milestones/1969-1976/rapprochement-china"
+        },
+        {
+          "label": "Office of the Historian · Helsinki Final Act",
+          "url": "https://history.state.gov/milestones/1969-1976/helsinki"
+        }
+      ]
+    },
+    {
+      "id": "chile",
+      "year": 1973,
+      "dateLabel": "11 SEPTEMBER 1973",
+      "title": "Chile's democracy falls to a coup",
+      "description": "The Chilean military overthrows Salvador Allende's elected government, beginning a dictatorship under Augusto Pinochet. US opposition and covert efforts to undermine Allende form part of the background; Chilean actors drive the coup itself. Cold War intervention and domestic conflict become intertwined, with lasting consequences for human rights.",
+      "gapNote": "Context stop: Latin American perspectives are a major gap in this six-film route.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Allende and the Pinochet coup",
+          "url": "https://history.state.gov/milestones/1969-1976/allende"
+        }
+      ]
+    },
+    {
+      "id": "vietnam-end",
+      "year": 1975,
+      "dateLabel": "APRIL 1975",
+      "title": "Saigon falls; the war ends",
+      "description": "The 1973 Paris agreement had brought American withdrawal without resolving the war between North and South Vietnam. North Vietnamese forces take Saigon in April 1975. Full Metal Jacket ends years earlier; its 1968 story does not depict the withdrawal, the final offensive or the experiences of refugees afterwards.",
+      "gapNote": "Context stop: the end of the war falls outside the selected film's coverage.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Ending the Vietnam War",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        }
+      ]
+    },
+    {
+      "id": "afghanistan",
+      "year": 1979,
+      "dateLabel": "DECEMBER 1979 · WAR CONTINUES THROUGH THE 1980s",
+      "title": "Soviet troops enter Afghanistan",
+      "description": "The Soviet intervention supports a communist government already fighting an insurgency. Afghan resistance receives foreign backing, including from Pakistan and the United States. The invasion deepens the breakdown of détente and begins a long, devastating Soviet war; Afghanistan's conflicts will continue after Soviet withdrawal.",
+      "gapNote": "Context stop: no selected film represents Afghan experiences or the Soviet withdrawal.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Soviet invasion of Afghanistan",
+          "url": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan"
+        }
+      ]
+    },
+    {
+      "id": "surveillance-state",
+      "year": 1984,
+      "dateLabel": "EAST GERMANY IN THE 1980s",
+      "title": "The border also runs through private life",
+      "description": "East Germany's Ministry for State Security, the Stasi, uses informers, surveillance and psychological pressure to protect the ruling party. The Lives of Others imagines an officer monitoring an artistic couple. Its personal moral drama is fictional; use the Stasi Records Archive to understand the institution behind the story.",
+      "sources": [
+        {
+          "label": "Federal Archives · What was the Stasi?",
+          "url": "https://www.bundesarchiv.de/en/stasi-records-archive/education/what-was-the-state-security/introduction"
+        }
+      ]
+    },
+    {
+      "id": "gorbachev",
+      "year": 1985,
+      "dateLabel": "1985 – 1987",
+      "title": "Reform and a different nuclear conversation",
+      "description": "Mikhail Gorbachev takes power in 1985 and pursues economic restructuring and greater openness. Summits with Ronald Reagan lead to the 1987 Intermediate-Range Nuclear Forces Treaty, eliminating a whole category of missiles. Reform and arms control change the possibilities, but the Soviet Union's eventual dissolution is not a settled plan.",
+      "gapNote": "Context stop: the films set in East Germany do not reconstruct Soviet reform or the Reagan–Gorbachev summits.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Gorbachev and perestroika",
+          "url": "https://history.state.gov/departmenthistory/short-history/gorbachev"
+        },
+        {
+          "label": "Office of the Historian · US–Soviet relations",
+          "url": "https://history.state.gov/milestones/1981-1988/u.s.-soviet-relations"
+        }
+      ]
+    },
+    {
+      "id": "wall-opens",
+      "year": 1989,
+      "dateLabel": "9 NOVEMBER 1989",
+      "title": "People bring the division to an end",
+      "description": "Protest, emigration and changes across Eastern Europe undermine East Germany's leadership. On 9 November, a confused announcement brings crowds to the crossings and the Berlin Wall opens. Good Bye Lenin! follows a fictional family through the upheaval. Its invented television broadcasts are a private deception inside a story where the real political transformation still occurs.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Fall of communism in Eastern Europe",
+          "url": "https://history.state.gov/milestones/1989-1992/fall-of-communism"
+        },
+        {
+          "label": "DFF filmportal · Good Bye, Lenin! synopsis",
+          "url": "https://www.filmportal.de/film/good-bye-lenin_6ef603c12388422d8bb82ad21c93ef2e"
+        }
+      ]
+    },
+    {
+      "id": "reunification",
+      "year": 1990,
+      "dateLabel": "3 OCTOBER 1990",
+      "title": "One Germany, an uneven transition",
+      "description": "Germany reunites after negotiations between the two German states and the four former occupying powers. Institutions, employment and everyday consumer life change quickly in the East. Good Bye Lenin! makes the disorientation personal, mixing affection, loss and satire; its family story is not a complete verdict on life under the GDR.",
+      "sources": [
+        {
+          "label": "Berlin Commissioner for the Study of the SED Dictatorship · Berlin questions and answers",
+          "url": "https://www.berlin.de/aufarbeitung/veroeffentlichungen/einzelpublikationen/bab_lzpb_berlin_questions_and_answers_screen.pdf"
+        }
+      ]
+    },
+    {
+      "id": "soviet-collapse",
+      "year": 1991,
+      "dateLabel": "AUGUST – DECEMBER 1991",
+      "title": "The Soviet Union dissolves",
+      "description": "A failed hard-line coup in August weakens Gorbachev and accelerates the republics' moves towards independence. In December, the Soviet Union breaks apart and Gorbachev resigns. This is the guide's endpoint, two years after the Wall opened. Good Bye Lenin! ends its central story in 1990 and does not depict the Soviet collapse.",
+      "gapNote": "Context stop: the end of the Cold War is supplied by the historical record, beyond the final film.",
+      "sources": [
+        {
+          "label": "Office of the Historian · Collapse of the Soviet Union",
+          "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "the-third-man",
+      "title": "The Third Man",
+      "releaseYear": 1949,
+      "format": "Film",
+      "minutes": 104,
+      "rating": "8.1",
+      "imdbUrl": "https://www.imdb.com/title/tt0041959/",
+      "ratingChecked": "2026-10-30",
+      "color": "#816331",
+      "coverage": [
+        [
+          1948,
+          1948
+        ]
+      ],
+      "events": [
+        "postwar-order",
+        "occupied-vienna"
+      ],
+      "eventNotes": {
+        "postwar-order": "Background",
+        "occupied-vienna": "Fiction in a historical setting"
+      },
+      "premise": "An American writer arrives in occupied Vienna to visit an old friend and finds a death that refuses to make sense. Start with the 104-minute British version of Carol Reed's noir.",
+      "learn": "The ruins, shortages, occupation zones and moral compromises of postwar Europe. The criminal mystery and its characters are invented: this is a way into the setting, not an explanation of Soviet or American strategy.",
+      "coverageNote": "1948 only. The Viennale programme explicitly places Holly Martins's arrival and the story in occupied Vienna in 1948. Do not use the 1949 release year as the story year or stretch the bar over the whole 1945–1955 occupation. The Vienna setting does not establish any connection to the Berlin airlift. Criterion and IMDb identify the 104-minute version; shorter American cuts exist.",
+      "sources": [
+        {
+          "label": "Viennale · 1948 story setting",
+          "url": "https://www.viennale.at/de/film/third-man"
+        },
+        {
+          "label": "Criterion · Film identity and 104-minute edition",
+          "url": "https://www.criterion.com/films/236-the-third-man"
+        },
+        {
+          "label": "IMDb · Rating and edition details",
+          "url": "https://www.imdb.com/title/tt0041959/"
+        }
+      ]
+    },
+    {
+      "id": "bridge-of-spies",
+      "title": "Bridge of Spies",
+      "releaseYear": 2015,
+      "format": "Film",
+      "minutes": 142,
+      "rating": "7.6",
+      "imdbUrl": "https://www.imdb.com/title/tt3682448/",
+      "ratingChecked": "2026-10-30",
+      "color": "#426b69",
+      "coverage": [
+        [
+          1957,
+          1957
+        ],
+        [
+          1960,
+          1962
+        ]
+      ],
+      "events": [
+        "u2",
+        "berlin-wall",
+        "spy-exchange"
+      ],
+      "eventNotes": {
+        "berlin-wall": "Divided-city setting",
+        "spy-exchange": "Dramatised historical exchange"
+      },
+      "premise": "Lawyer James Donovan defends a Soviet intelligence officer in New York, then negotiates for Americans held on the other side of the divide. Spielberg turns legal principles and patient bargaining into a thriller.",
+      "learn": "How espionage, law and negotiation operated beneath public confrontation. The exchange is historical, but scenes and chronology are reshaped; the film's attacks on Donovan's home and some threatening encounters should not be read as documented incidents.",
+      "coverageNote": "The substantial arrest and trial section is set in 1957. The narrative then moves to the U-2 affair in 1960, the divided Berlin of 1961 and the February 1962 exchange. These are two coverage intervals; unshown 1958–1959 are left empty rather than filled from Donovan's biography. The 1960–1962 bar indicates connected phases, not continuous action. The CIA's film review describes both the chronology and inventions. IMDb lists 142 minutes; the CIA review rounds its listing differently.",
+      "sources": [
+        {
+          "label": "Amblin · Production synopsis",
+          "url": "https://amblin.com/movie/bridge-of-spies/"
+        },
+        {
+          "label": "CIA Studies in Intelligence · Chronology and historical liberties",
+          "url": "https://www.cia.gov/resources/csi/static/Bridge-of-Spies.pdf"
+        },
+        {
+          "label": "IMDb · Rating and runtime",
+          "url": "https://www.imdb.com/title/tt3682448/"
+        }
+      ]
+    },
+    {
+      "id": "thirteen-days",
+      "title": "Thirteen Days",
+      "releaseYear": 2000,
+      "format": "Film",
+      "minutes": 145,
+      "rating": "7.3",
+      "imdbUrl": "https://www.imdb.com/title/tt0146309/",
+      "ratingChecked": "2026-10-30",
+      "color": "#a13e2e",
+      "coverage": [
+        [
+          1962,
+          1962
+        ]
+      ],
+      "events": [
+        "cuban-missile-crisis"
+      ],
+      "eventNotes": {
+        "cuban-missile-crisis": "Dramatised American decision-making"
+      },
+      "premise": "The Kennedy administration tries to answer the discovery of Soviet missiles in Cuba without starting a nuclear war. The tension comes from arguments, incomplete information and decisions that cannot easily be undone.",
+      "learn": "Escalation, miscommunication and the pressure to choose between military action and negotiation. This is a compressed American viewpoint, using presidential aide Kenny O'Donnell as a dramatic guide; it cannot stand in for the Cuban and Soviet experiences or a verbatim record of the meetings.",
+      "coverageNote": "October 1962 only: the film's central crisis runs from discovery of the missiles to the negotiated settlement. Earlier events such as the 1961 Bay of Pigs invasion supply background, not additional main-story years. Film Education's guide includes the filmmakers' explanation of their narrowed, dramatised viewpoint. The release year is 2000, from the initial US limited release; wider releases followed in 2001.",
+      "sources": [
+        {
+          "label": "Film Education · Filmmaker statements and 145-minute runtime",
+          "url": "https://www.filmeducation.org/pdf/film/Thirteen%20Days.pdf"
+        },
+        {
+          "label": "Office of the Historian · Wider crisis and settlement",
+          "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+        },
+        {
+          "label": "IMDb · Film identity, rating and release",
+          "url": "https://www.imdb.com/title/tt0146309/"
+        }
+      ]
+    },
+    {
+      "id": "full-metal-jacket",
+      "title": "Full Metal Jacket",
+      "releaseYear": 1987,
+      "format": "Film",
+      "minutes": 116,
+      "rating": "8.2",
+      "imdbUrl": "https://www.imdb.com/title/tt0093058/",
+      "ratingChecked": "2026-10-30",
+      "color": "#4e7150",
+      "coverage": [
+        [
+          1967,
+          1968
+        ]
+      ],
+      "events": [
+        "vietnam-escalation",
+        "tet"
+      ],
+      "eventNotes": {
+        "vietnam-escalation": "Background",
+        "tet": "Fictional Marines in the Huế fighting"
+      },
+      "premise": "Marine recruits endure basic training before the story follows Joker, a military correspondent, into the Tet Offensive. Kubrick pairs institutional violence at home with urban combat in Vietnam.",
+      "learn": "The making of soldiers, the language of military reporting and the gulf between official claims and combat experience. The characters and squad's encounters are fictionalised. Vietnamese civilians and combatants receive limited voice, so this film needs the surrounding history rather than supplying a balanced account of the war.",
+      "coverageNote": "Approximately 1967–1968: the training section precedes the explicitly dated January 1968 deployment and Tet fighting in Huế. AFI fixes the later narrative in 1968; the indexed IMDb plot synopsis places training in 1967. The opening year remains approximate rather than a precise on-screen date. Both substantial sections count. The 1964 escalation link is background only. Do not extend the story to the 1973 withdrawal or 1975 fall of Saigon.",
+      "sources": [
+        {
+          "label": "AFI · Training, January 1968 and Huế plot sequence",
+          "url": "https://catalog.afi.com/Film/57623-FULL-METAL-JACKET"
+        },
+        {
+          "label": "Office of the Historian · Tet Offensive",
+          "url": "https://history.state.gov/milestones/1961-1968/tet"
+        },
+        {
+          "label": "IMDb · Runtime",
+          "url": "https://www.imdb.com/title/tt0093058/technical/"
+        },
+        {
+          "label": "IMDb · Audience-rating evidence",
+          "url": "https://www.imdb.com/chart/top/?sort=user_rating%2Cdesc"
+        },
+        {
+          "label": "IMDb · Training-year plot evidence",
+          "url": "https://www.imdb.com/title/tt0093058/plotsummary/"
+        }
+      ]
+    },
+    {
+      "id": "the-lives-of-others",
+      "title": "The Lives of Others",
+      "releaseYear": 2006,
+      "format": "Film",
+      "minutes": 137,
+      "rating": "8.4",
+      "imdbUrl": "https://www.imdb.com/title/tt0405094/",
+      "ratingChecked": "2026-10-30",
+      "color": "#685982",
+      "coverage": [
+        [
+          1984,
+          1984
+        ]
+      ],
+      "events": [
+        "surveillance-state"
+      ],
+      "eventNotes": {
+        "surveillance-state": "Fiction in the surveillance state"
+      },
+      "premise": "A Stasi officer listens to the private lives of a playwright and an actress in East Berlin. A closely observed drama about art, loyalty and the reach of the state.",
+      "learn": "How surveillance and political pressure enter work, friendship and intimacy. The central officer's moral transformation is invented, not a documented model of Stasi behaviour. The Federal Archives provide the institutional history against which to read this personal story.",
+      "coverageNote": "1984 is the central surveillance story. The distributor describes a film reaching reunited Germany in 1991; those later aftermath and recognition scenes are treated here as an epilogue, not a continuous 1984–1991 plot. No coverage is inferred for the intervening years or for Soviet reform and the Wall's opening. The distributor's press booklet supplies the 137-minute runtime; the bpb materials discuss the film's historical construction.",
+      "sources": [
+        {
+          "label": "Sony Pictures Classics · Press booklet, dates and runtime",
+          "url": "https://www.sonyclassics.com/thelivesofothers/externalLoads/TheLivesofOthers.pdf"
+        },
+        {
+          "label": "Federal Agency for Civic Education · Film guide",
+          "url": "https://www.bpb.de/shop/materialien/filmhefte/34052/das-leben-der-anderen/"
+        },
+        {
+          "label": "Federal Archives · Stasi methods",
+          "url": "https://www.bundesarchiv.de/en/stasi-records-archive/education/what-was-the-state-security/introduction"
+        },
+        {
+          "label": "IMDb · Indexed rating evidence",
+          "url": "https://www.imdb.com/chart/top/?sort=user_rating%2Cdesc"
+        }
+      ]
+    },
+    {
+      "id": "good-bye-lenin",
+      "title": "Good Bye Lenin!",
+      "releaseYear": 2003,
+      "format": "Film",
+      "minutes": 121,
+      "rating": "7.7",
+      "imdbUrl": "https://www.imdb.com/title/tt0301357/",
+      "ratingChecked": "2026-10-30",
+      "color": "#3e627b",
+      "coverage": [
+        [
+          1989,
+          1990
+        ]
+      ],
+      "events": [
+        "wall-opens",
+        "reunification"
+      ],
+      "eventNotes": {
+        "wall-opens": "Fictional family during the upheaval",
+        "reunification": "Everyday transition, dramatised"
+      },
+      "premise": "An East Berlin son tries to protect his recovering mother from a shock by keeping the old GDR alive inside their flat while the world outside changes. End the route with comedy, grief and the confusion of sudden freedom.",
+      "learn": "The speed and emotional complexity of the East German transition, including changes to jobs, shops and identity. The family and its fake broadcasts are invented. The country really changes around them: the private make-believe does not rewrite the Wall's opening or reunification.",
+      "coverageNote": "1989–1990: the mother's collapse before the Wall opens, her awakening the following summer and the transition to reunification form the central story. The brief childhood and spaceflight setup in 1978 is excluded. This is not coverage of the Soviet collapse in 1991. DFF's filmportal documents the premise and transition; Sony's catalogue lists the 121-minute feature.",
+      "sources": [
+        {
+          "label": "DFF filmportal · Film synopsis",
+          "url": "https://www.filmportal.de/film/good-bye-lenin_6ef603c12388422d8bb82ad21c93ef2e"
+        },
+        {
+          "label": "DFF filmportal · 1989–1990 transition context",
+          "url": "https://www.filmportal.de/nachrichten/filmreihe-geteilt-vereint-im-deutschen-filmmuseum"
+        },
+        {
+          "label": "Sony Pictures Classics · Catalogue and runtime",
+          "url": "https://www.sonyclassics.com/downloads/Sony_Pictures_Classics_Non-Theatrical_Catalogue.pdf"
+        },
+        {
+          "label": "IMDb · Rating snapshot",
+          "url": "https://www.imdb.com/title/tt0301357/ratings/"
+        }
+      ]
+    }
+  ]
+}

@@ -151,6 +151,29 @@
     background: url(../assets/icons/apple-music.svg) no-repeat center center;
 }
 
+#other-stuff::before {
+    content: '↗';
+    color: #0276E6;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.other-stuff-links {
+    list-style: disc;
+    margin: 4px 0 0 1.5em;
+    padding-left: 1em;
+}
+
+.interests .other-stuff-links li {
+    padding-left: 0;
+    position: static;
+}
+
+.interests .other-stuff-links li::before {
+    content: none;
+}
+
 #social-media li {
     padding-left: 7px;
 }

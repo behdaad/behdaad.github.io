@@ -4,20 +4,26 @@ Researched on 30 October 2026. This page reuses `../../war-timeline/build.py`, i
 
 ## Selection and commitment
 
-No title count was specified, so the shared template's six-title default is used. The route follows the beginning of each central story, with intentional overlap in 1962.
+Ten individual features: eight dramas and two documentaries. The route follows the beginning of each central story or principal historical subject. Overlap is intentional; the Vietnam and nuclear selections are complementary choices, not a requirement to watch everything.
 
-| Order | Film | IMDb snapshot | Main-story years | Runtime |
+| Order | Film | IMDb snapshot | Main-story / historical-subject years | Runtime |
 | --- | --- | --- | --- | --- |
-| 1 | The Third Man (1949), British version | 8.1 | 1948 | 104 min |
-| 2 | Bridge of Spies (2015) | 7.6 | 1957; 1960–1962 | 142 min |
-| 3 | Thirteen Days (2000) | 7.3 | 1962 | 145 min |
-| 4 | Full Metal Jacket (1987) | 8.2 | approximately 1967–1968 | 116 min |
-| 5 | The Lives of Others (2006) | 8.4 | 1984 | 137 min |
-| 6 | Good Bye Lenin! (2003) | 7.7 | 1989–1990 | 121 min |
+| 1 | The Atomic Cafe (1982), restored theatrical release | 7.6 | c. 1945–1959 | 86 min |
+| 2 | The Third Man (1949), British version | 8.1 | 1948 | 104 min |
+| 3 | The Quiet American (2002), Phillip Noyce version | 7.0 | 1952 | 101 min |
+| 4 | Bridge of Spies (2015) | 7.6 | 1957; 1960–1962 | 142 min |
+| 5 | Thirteen Days (2000) | 7.3 | 1962 | 145 min |
+| 6 | Full Metal Jacket (1987) | 8.2 | c. 1967–1968 | 116 min |
+| 7 | Platoon (1986), 120-minute feature | 8.0 | 1967–1968 | 120 min |
+| 8 | Command and Control (2016), feature documentary | 7.3 | 1980 | 92 min |
+| 9 | The Lives of Others (2006) | 8.4 | 1984 | 137 min |
+| 10 | Good Bye Lenin! (2003) | 7.7 | 1989–1990 | 121 min |
 
-Total: 765 minutes, or 12 hours 45 minutes. These are six individual films, not series or documentary seasons. No streaming availability is claimed.
+Total: 1,164 minutes, or 19 hours 24 minutes. Four additions contribute 399 minutes (6 hours 39 minutes). All six original selections and their relative order remain. No streaming availability is claimed.
 
 IMDb scores were checked through publicly indexed results, whose crawl dates ranged from days to weeks before this research. Direct title-page fetching sometimes returned HTTP 403; these are dated editorial snapshots, not live API readings. Evidence came from the indexed [Third Man title page](https://www.imdb.com/title/tt0041959/), [Bridge of Spies title page](https://www.imdb.com/title/tt3682448/), [Thirteen Days title page](https://www.imdb.com/title/tt0146309/?bypassRefViewPref=1), [IMDb's Top 250](https://www.imdb.com/chart/top/?sort=user_rating%2Cdesc) for The Lives of Others, and [Good Bye Lenin! ratings](https://www.imdb.com/title/tt0301357/ratings/). Full Metal Jacket's 8.2 and 116-minute runtime were also visible in [IMDb's indexed showtime listing](https://www.imdb.com/showtimes/DE/12247/); its [technical specifications](https://www.imdb.com/title/tt0093058/technical/) confirm the runtime. Canonical identity links remain on every entry.
+
+The four added ratings were checked on the same research date through indexed IMDb evidence: [The Atomic Cafe](https://www.imdb.com/title/tt0083590/), [The Quiet American](https://www.imdb.com/title/tt0258068/ratings/), [Platoon](https://www.imdb.com/title/tt0091763/), and [Command and Control](https://www.imdb.com/title/tt5598206/). They are snapshots with the same cache limitations as the original six.
 
 ## Story dates and historical construction
 
@@ -28,21 +34,23 @@ IMDb scores were checked through publicly indexed results, whose crawl dates ran
 - **The Lives of Others:** The [Sony press booklet](https://www.sonyclassics.com/thelivesofothers/externalLoads/TheLivesofOthers.pdf) dates the opening to 1984, describes a later 1991 ending, and lists 137 minutes. Following the shared main-story rule, the central surveillance plot receives the 1984 bar; later recognition/aftermath scenes are treated as an epilogue rather than filling seven intervening years. The fictional officer is not offered as a representative documented Stasi case. The Federal Archives' institutional account and bpb's film materials supply the necessary counterweight to the personal redemption story.
 - **Good Bye Lenin!:** DFF's [filmportal synopsis](https://www.filmportal.de/film/good-bye-lenin_6ef603c12388422d8bb82ad21c93ef2e) describes the demonstration/coma and the effort to conceal the real political changes. Its [German Film Museum programme](https://www.filmportal.de/nachrichten/filmreihe-geteilt-vereint-im-deutschen-filmmuseum) explicitly places the awakening in summer 1990. Sony's catalogue supplies 121 minutes. The childhood/spaceflight opening in 1978 is excluded. The invented broadcasts are a deception within the fictional household: the world outside still follows the historical opening of the Wall and reunification. This is not an alternate outcome for the Cold War.
 
-All six selections are screened against the existing rule excluding alternate history. Several are wholly invented stories in real settings; that is not a claim of historical accuracy. Dr. Strangelove and speculative nuclear-war scenarios were not used to represent events that actually happened.
+- **The Atomic Cafe:** [Kino Lorber's restoration press kit](https://kinolorberbucket.s3.amazonaws.com/production/documents/The%20Atomic%20Cafe%20%E2%80%93%20Press%20Kit.pdf) lists 86 minutes, used consistently here despite AFI's 87-minute and some home-video references' 88-minute listings. [AFI](https://catalog.afi.com/Film/56725-THE-ATOMIC-CAFE) identifies the explicit July 1945 opening and the historical subjects. [CineSavant's edition review](https://trailersfromhell.com/cinesavant/the-atomic-cafe/) describes the archival era as 1945 through around 1959; other broad summaries say early 1960s. The visible `c.` and coverage note therefore identify an approximate editorial envelope, not a verified exact final year. No connection to the 1963 treaty is invented. Archival propaganda is treated as evidence of public messaging, not accepted as scientific truth; montage also carries the filmmakers' own argument.
+- **The Quiet American:** Use the [AFI record for the 2002 film](https://catalog.afi.com/Catalog/moviedetails/54005), not AFI's similarly named 1958 entry. It establishes the 1952 plot and specifically discusses the later newspaper montage, excluded from main-story coverage. AFI supplies the 2002 release and 100–101-minute length. Miramax's current page says 2001; AFI distinguishes completion in 2001 from release in 2002. The plot is an adaptation of Greene's fiction, not a documented intelligence operation. Its political critique and limited Vietnamese viewpoint are visible in the learning note.
+- **Platoon:** [AFI's plot](https://catalog.afi.com/Film/68355-PLATOON) explicitly starts in September 1967 and reaches New Year's Day 1968. The range is not inferred from Stone's biography. The 120-minute feature matches IMDb; AFI also lists 113 minutes. It is connected to the earlier escalation card as a later infantry perspective, not to Tet simply because the dates overlap. Inspired-by-experience fiction remains distinct from a reconstruction of one documented unit.
+- **Command and Control:** [PBS's film page, credits and transcript](https://www.pbs.org/wgbh/americanexperience/films/command-and-control/) establish the 1980 emergency and the use of interviews, historical footage and recreations. The bar follows the central accident; the earlier arsenal history supplies background. The [Encyclopedia of Arkansas](https://encyclopediaofarkansas.net/entries/titan-ii-missile-explosion-2543/) supplies a separate historical account. The missile exploded; the warhead did not detonate. The 2016 feature and its 2017 PBS broadcast are distinguished, and the budget is 92 minutes.
+
+All ten selections follow the existing rule excluding alternate history. Several are wholly invented stories in real settings; that is not a claim of historical accuracy. Dr. Strangelove and speculative nuclear-war scenarios are not used to represent events that actually happened.
 
 ## Historical coverage and limits
 
-The 24 event cards run from the 1945 postwar settlement to the 1991 Soviet collapse. This is a guide to selected turning points, not an annual encyclopaedia. 1945 supplies origins before the more conventional 1947 start. Blank year groups preserve the shared scale and navigation; they mean no curated card for that year.
+The 32 event cards run from the 1945 atomic and postwar settlements to the 1991 Soviet collapse. This is a guide to selected turning points, not an annual encyclopaedia. Blank year groups mean no curated stop for that year.
 
-The Office of the Historian's individual essays supply most diplomatic dates. They are retired historical resources, still available when checked, and reflect a US institutional perspective. They are supplemented by the German Federal Archives for Stasi methods, Berlin's public-history material for reunification, and film institutions and distributors for screen chronology. The distinction between the Wall's opening (1989), reunification (1990) and Soviet dissolution (1991) remains explicit.
+Eight added cards cover the atomic age, the Soviet test, French Indochina in 1952, the thermonuclear race, the 1954 Geneva settlement, the 1963 test ban, the 1968 non-proliferation treaty and the 1980 Damascus accident. The existing détente card now names SALT I and the ABM Treaty, with a dedicated historical source. This connects weapons development, public culture, arms control and operational safety rather than substituting imagined nuclear-war outcomes for history.
 
-Korea, Bandung and non-alignment, Hungary, Prague, Chile, détente, Afghanistan and Soviet reform have independent context cards. They are deliberately not connected to films merely because of overlapping dates. Local agency and decolonisation are acknowledged instead of reducing every conflict to superpower puppetry. The route still lacks full Soviet, Chinese, Korean, Vietnamese, Afghan, African and Latin American civilian viewpoints. It also lacks a dedicated account of the arms and space races and many interventions; the scope note says so.
+Historical dates come from the Office of the Historian, the Department of Energy, CTBTO and the Arkansas public-history reference, with source links beside the actual cards. The Limited Test Ban Treaty leaves underground testing outside its ban. The NPT is distinguished from bilateral arsenal limitation. The 1954 settlement is later context for The Quiet American, not claimed screen depiction. Korea, Bandung, Hungary, Prague, Chile and Afghanistan retain their independent context stops.
+
+The route remains weighted towards American and European viewpoints. The additions do not claim to fill Vietnamese, Soviet or Pacific civilian perspectives comprehensively. Local agency and decolonisation remain visible in the scope note. The Wall's opening (1989), German reunification (1990) and Soviet dissolution (1991) remain separate developments.
 
 ## Validation
 
-- The shared generator's ID, colour, reference and coverage validation passed; generated HTML is committed alongside the data.
-- The existing Eleventy blog and portfolio build passed. The only shared presentation change makes desktop modal year strips wrap into seven columns, avoiding overlapping labels across 47 years. The generated WWI/WWII pages only update the stylesheet hash for that change.
-- Manual browser review covers desktop and a narrow mobile viewport, movie details, date disclosures, split spans, event highlighting, year controls and internal chart scrolling.
-- No automated tests were added or run, following the shared template instructions.
-
-Concurrent work was present in the shared renderer, templates and stylesheet during delivery. Those edits are excluded. To keep the generated pages reproducible, they were rendered from the committed shared renderer/templates and the committed stylesheet plus this task's single modal-strip rule. The generated WWI/WWII diffs were checked to contain only the stylesheet query hash.
+The shared generator's ID, colour, reference and coverage validation and the existing Eleventy build pass. Only Cold War data, generated HTML and these research notes change in this expansion. Manual desktop/mobile review covers the expanded overview, overlapping spans, new film modals, date disclosures, event links and page overflow. No automated tests are added or run, following the shared template instructions.

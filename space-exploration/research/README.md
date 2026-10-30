@@ -4,7 +4,7 @@ Research date: 30 October 2026. Content lives in `../data.json`; `../index.html`
 
 ## Scope and route
 
-The requested format includes films, series and documentaries. Eight selections give a route from test flying and Mercury through Apollo, Voyager, the Shuttle and the Mars rovers. The films *First Man* and *Apollo 13* are optional close-ups alongside the much broader *From the Earth to the Moon*, rather than eight compulsory consecutive lessons. No streaming availability in the Netherlands has been verified.
+The requested format includes films, series and documentaries. Thirteen selections give a route from test flying and Mercury through Apollo, Voyager, the Shuttle, Mars rovers, SpaceX and Dutch participation. The films *First Man* and *Apollo 13* are optional close-ups alongside the much broader *From the Earth to the Moon*, rather than eight compulsory consecutive lessons. The added documentary routes cover Voyager operations, SpaceX, Wubbo Ockels and André Kuipers. No streaming availability in the Netherlands has been verified.
 
 | Work | Edition and budget | Historical subject / main story | Indexed IMDb snapshot |
 | --- | --- | --- | --- |
@@ -17,7 +17,7 @@ The requested format includes films, series and documentaries. Eight selections 
 | Challenger: The Final Flight (2020) | All 4 episodes, 178 min total | 1978–1986 | 7.8 |
 | Good Night Oppy (2022) | 105 min | Approximately 2000–2019 | 7.7 |
 
-Total budget: 1,725 minutes / approximately 28 hours 45 minutes. The Apollo miniseries budget is approximate, not an asserted sum of exact episode durations. Netflix's retrieved episode list gives Challenger runtimes of 44, 41, 41 and 52 minutes. The renderer supports a series with an exact total as well as an approximate per-episode budget.
+Original eight-title budget: 1,725 minutes / approximately 28 hours 45 minutes. The expansion below brings the complete route to 2,265 minutes / approximately 37 hours 45 minutes. The Apollo miniseries budget is approximate, not an asserted sum of exact episode durations. Netflix's retrieved episode list gives Challenger runtimes of 44, 41, 41 and 52 minutes. The renderer supports a series with an exact total as well as an approximate per-episode budget.
 
 IMDb identity and score links are in the data. Values were obtained from publicly indexed IMDb title/rating pages during this research, with crawl dates ranging from the same day to two months earlier; `ratingChecked` is the research date, not a claim to a live API reading. Challenger's score was also visible on [creator Steven Leckart's IMDb page](https://www.imdb.com/name/nm6026697/) and [IMDb's 2021 documentary Emmy listing](https://www.imdb.com/event/ev0000493/2021/1/). Ratings can change and say nothing about historical accuracy.
 
@@ -34,11 +34,11 @@ IMDb identity and score links are in the data. Values were obtained from publicl
 
 ## Historical spine
 
-Each of the 38 stops carries its source links in the data and generated page. NASA, ESA, ISRO, CNSA, AFI and the Smithsonian supply the principal evidence. Event dates are dates of achievements, not necessarily launch dates: Luna 9's 3 February 1966 landing, for example, differs from the launch listed in some mission chronologies. Within-year records are ordered by date.
+Each of the 61 stops carries its source links in the data and generated page. NASA, ESA, ISRO, CNSA, AFI and the Smithsonian supply the principal evidence. Event dates are dates of achievements, not necessarily launch dates: Luna 9's 3 February 1966 landing, for example, differs from the launch listed in some mission chronologies. Within-year records are ordered by date.
 
 The 1926 Goddard flight and the V-2/forced-labor stop establish context before the space race. Soviet milestones are retained independently of the American viewing selections. Later stops include Huygens, Mangalyaan, Rosetta, Chang'e-4 and Chandrayaan-3. Unconnected events explicitly state that no selected title covers them; date overlap never creates an automatic connection.
 
-The ending is a deliberate historical boundary at a completed 2023 achievement, not a current mission-status statement. The guide omits many important subjects and nations and names those limits publicly. The 2019 alternate-history series *For All Mankind* is outside the scope; it must not be confused with the different 1989 Apollo documentary of the same name.
+The expanded ending is a deliberate historical boundary at completed 2024 achievements, not a current mission-status statement. The guide omits many important subjects and nations and names those limits publicly. The 2019 alternate-history series *For All Mankind* is outside the scope; it must not be confused with the different 1989 Apollo documentary of the same name.
 
 ## Shared presentation and validation
 
@@ -47,3 +47,36 @@ This page reuses `../../war-timeline/` without copying its styles or behavior. I
 Validation follows the timeline template: generator validation, site build, diff review, and manual desktop/mobile browser inspection. No automated browser tests are added or run.
 
 Completed checks: all four shared pages generated successfully; `npm run build` and `git diff --check` passed. Manual browser review covered 1440 × 900 desktop and 390 × 844 mobile, contained chart scrolling with no page overflow, title and documentary dialogs, source disclosures, Escape and focus return, show/hide years, year navigation reopening a collapsed section, and direct `#story-challenger` entry. No browser errors or warnings were reported. An existing WWI page and its title modal were also checked at mobile width after regeneration.
+
+
+## Expansion: Voyager, SpaceX and the Dutch space sector
+
+The follow-up adds five selections and 23 events, preserving every original selection and rating. Exact source links live alongside the public entries and events.
+
+| Added work | Edition and budget | Main subject years | IMDb snapshot |
+| --- | --- | --- | --- |
+| Wubbo: een Hollander in de ruimte (2011) | Andere Tijden episode, 30 min | 1977–1985 | Not verified; no invented identity or score |
+| Return to Space (2022) | Feature, 128 min | Approximately 2002–2020 | 7.3 |
+| Cosmic Encounters (2012) | ZDF international edition, 50 min | Approximately 2011–2012 | 6.5 |
+| It's Quieter in the Twilight (2022 premiere) | Platform listing, 84 min | Approximately 2019–2020 | 7.2 |
+| Countdown: Inspiration4 Mission to Space (2021) | All five episodes, 248 min | 2021 | 7.8 |
+
+Additional budget: 540 minutes / 9 hours. Netflix's Countdown episode runtimes are 47, 46, 48, 39 and 68 minutes. Quieter listings vary between 83 and 84 minutes; this budget uses Apple's 84-minute listing. ZDF markets a 50-minute Cosmic Encounters edition while IMDb and some home-video releases give 55 minutes. These are explicit edition choices, not a claim that the records agree.
+
+### Documentary coverage and identity
+
+- **Wubbo:** the [broadcaster's episode and research page](https://anderetijden.nl/programma/1/Andere-Tijden/aflevering/168/Wubbo-een-Hollander-in-de-ruimte) supplies the exact title, 30-minute duration, December 2011 publication/broadcast information, and the historical arc from a 1977 advertisement to the 1985 mission. The broadcaster's opening paragraph says 1978 but its detailed article dates the advertisement to April 1977; ESA dates the European selection to 1978. Those are distinct steps. Its Kuipers introduction is framing, not a 2011 story bar. No matching IMDb episode identity or score was established. The renderer now displays an explicit unverified score and a dash in the overview instead of making a number up or borrowing the parent series' score. The other titles' ratings and exact IMDb links remain unchanged.
+- **Cosmic Encounters:** [ZDF's own catalogue](https://www.zdf-studios.com/en/program-catalog/international/unscripted/science-knowledge/cosmic-encounters) identifies Kuipers's onboard filming, Gerst's training for a future 2014 mission and its 50-minute edition. The [IMDb identity](https://www.imdb.com/fr/title/tt2915074/) is the 2012 television film, also called Rencontre dans l'espace / Encounter in Space. A later BBFC listing uses a different production/distribution year; it is not grounds to stretch the main story to 2014 or 2021. The approximately 2011–2012 envelope centers the actual PromISSe footage; precise dates for all training sequences have not been independently established.
+- **Return to Space:** [Netflix's production page](https://media.netflix.com/en/only-on-netflix/81111324) centers Demo-2 and its return, while its [editorial guide](https://cdn.nflxext.com/tudum/articles/space-movies-on-netflix) specifically describes the Falcon 1, Falcon 9 and Crew Dragon progression. IMDb calls it a nearly twenty-year journey. The approximately 2002–2020 envelope uses company origins to mission completion and contains jumps; it does not include later Starship test footage. Close participant access is disclosed without treating the film as an independent account of the entire company or commercial sector. The 2012 cargo and 2017 reflight links are labeled as context rather than assertions of specific scenes.
+- **Quieter:** [director Billy Miossi's first-person interview](https://getreelmovies.com/sxsw-2022-interview-its-quieter-in-the-twilight-director-billy-miossi/) says filming began in June 2019 and spanned about eighteen months. This supports an approximate 2019–2020 observational period, excluding old mission archive and recollected careers. The [official film site](https://www.itsquieterfilm.com/) identifies the engineers, and SXSW's 2022 archive confirms the premiere. Platforms often use the wider 2023 distribution year. The 2018 crossing is an explicitly labeled background link; the 2020 antenna stop provides operations-era context, not a claim that every technical action is filmed.
+- **Countdown:** Netflix's [five-episode record](https://www.netflix.com/title/81441273) and its [official finale clip](https://www.youtube.com/watch?v=XUpdf6L9Xds) cover crew selection through the three-day orbital mission and return. The whole five-part series is recommended. Biographical backstory does not extend the 2021 mission bar; later Polaris Dawn is separately described as outside the series.
+
+### Historical checks and boundaries
+
+The Voyager spine now separates Jupiter in 1979, Saturn in 1980–1981, Uranus in January 1986, Neptune in 1989, the Pale Blue Dot in 1990, the two heliopause crossings in 2012 and 2018, and ground infrastructure in 2020. NASA's spacecraft records and encounter tables anchor the dates. The 2017 Farthest cannot depict the later Voyager 2 crossing. Voyager 1's Titan trajectory is distinguished from Voyager 2's onward tour.
+
+The Dutch route includes ESTEC's 1968 move/opening in Noordwijk, ANS (1974), the joint IRAS mission (1983), Ockels (1985), Kuipers's DELTA and PromISSe missions, Delft's Delfi-C3 CubeSat (2008), and TROPOMI (2017). ESA, SRON, KNMI and TU Delft supply the principal sources. Hosting ESTEC does not make it a Dutch national agency; TROPOMI is an instrument on a European satellite. The page distinguishes Dutch-born American astronaut Lodewijk van den Berg from the first Dutch citizen in space, Ockels. The correct Ockels launch is 30 October 1985 from ESA's mission record; some archival descriptions say 31 October. The generic PromISSe mission description also contains an erroneous December 2012 date; ESA's launch replay, astronaut biography, archive and return record establish December 2011–July 2012 instead. IRAS is labeled by month to avoid conflating local-date and UTC-date conventions across catalogues.
+
+SpaceX stops separate reaching orbit (2008), commercial cargo (2012), first-stage landing (2015), reflight (2017), Falcon Heavy (2018), NASA crew transport (2020), Inspiration4 (2021), Starship's first integrated test and mishap (2023), and Polaris Dawn plus the tower catch (2024). The landing stop gives Florida and UTC date conventions. Recovered boosters did not themselves orbit, and a booster catch does not establish a fully reusable or crew-rated system. The FAA investigation, NASA records, company milestone descriptions and mission-operator statements support these distinctions. The 2024 tower catch is also documented in NASA's Inspector General report on human landing systems. No unverified 2025–2026 achievements or projected dates are presented as completed history.
+
+Expansion validation: the space page generated successfully with all 61 event references and 13 titles; the site build and diff whitespace check passed. Manual review at 1440 × 900 and 390 × 844 covered the unrated Wubbo entry and broadcaster source, its event navigation, the later Voyager documentary, the five-episode Countdown runtime, direct title links, modal closure, contained chart scrolling and reopening the 2024 section after hiding all years. Mobile page width remained 390 pixels and the browser reported no errors or warnings. No automated tests were added or run.

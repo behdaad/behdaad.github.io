@@ -70,9 +70,15 @@ def generate(folder):
         return '<div class="source-links">' + ' · '.join(links) + '</div>' if links else ''
 
     def score(entry):
-        url = entry['imdbUrl']
+        url = entry.get('imdbUrl')
+        if not url:
+            if entry.get('rating'):
+                raise ValueError('A verified rating needs its IMDb title URL')
+            return '<span>No verified IMDb score</span>'
         if not re.fullmatch(r'https://www\.imdb\.com/title/tt\d+/', url):
             raise ValueError('Use a direct HTTPS IMDb title URL')
+        if not entry.get('rating'):
+            return f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">IMDb listing ↗</a><small class="score-date">SCORE NOT VERIFIED</small>'
         return (
             f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">'
             f'★ {esc(entry["rating"])} <small>/10 IMDb ↗</small></a>'
@@ -92,6 +98,9 @@ def generate(folder):
 
     def number(entry):
         return f'<span class="number" style="--story:{esc(entry["color"])}">{entry["number"]}</span>'
+
+    def overview_score(entry):
+        return f'★ {esc(entry["rating"])}' if entry.get('rating') else '<span aria-label="IMDb score not verified">—</span>'
 
     def coverage_strip(entry):
         cells = []
@@ -217,7 +226,7 @@ def generate(folder):
         overview_rows.append(
             f'<div class="overview-row" style="--story:{esc(entry["color"])}">'
             f'<a class="overview-title" href="#story-{entry["id"]}" data-story="{entry["id"]}">'
-            f'{number(entry)}<span>{overview_name}</span><small>★ {esc(entry["rating"])}</small></a>'
+            f'{number(entry)}<span>{overview_name}</span><small>{overview_score(entry)}</small></a>'
             f'<a class="overview-track" href="#story-{entry["id"]}" data-story="{entry["id"]}" '
             f'aria-label="{esc(entry["title"])}: main story {coverage(entry)}; open details">'
             + ''.join(ranges) + '</a></div>'

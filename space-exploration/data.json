@@ -1,17 +1,17 @@
 {
   "slug": "space-exploration",
   "title": "Space exploration",
-  "subtitle": "From the first liquid-fueled rockets to distant worlds, through films, series and documentaries.",
+  "subtitle": "From early rockets to Voyager, SpaceX and the Dutch contribution, through films, series and documentaries.",
   "startYear": 1926,
-  "endYear": 2023,
+  "endYear": 2024,
   "researchDate": "2026-10-30",
   "milestoneYears": true,
   "mediaLabel": "Viewing guide",
   "eyebrow": "HISTORY THROUGH FILM & DOCUMENTARY",
-  "routeTitle": "8 films, series & documentaries",
-  "introNote": "Eight choices: four dramatic films, one 12-part dramatic series, two feature documentaries and one four-part documentary series. Start with The Right Stuff, then choose the Apollo perspectives you want: First Man and Apollo 13 overlap the broader From the Earth to the Moon. Watching everything is about 28 hours 45 minutes, including roughly an hour per Apollo-series episode. IMDb scores were checked on 30 October 2026 through publicly indexed IMDb pages; cached snapshots can lag and scores can change. Scores measure audience reception, not historical reliability. Documentary bars cover the historical subject, excluding present-day interviews; a long mission envelope does not imply that every year appears on screen.",
-  "scopeNote": "This is a selective route, not a complete history or a ranking. The screen choices lean heavily toward American missions; the historical spine retains Soviet, European, Indian and Chinese milestones even where no selected title covers them. Japanese exploration, the full Soviet/Russian program, Chinese human spaceflight, reusable-launch development, space law, Earth observation, commercial satellites and many failed missions need a broader guide. Read the unconnected events as gaps in the viewing route, not gaps in history. Space fantasy and alternate-history series, including the 2019 For All Mankind, are outside this historical selection.",
-  "closingNote": "The timeline deliberately ends with a completed 2023 milestone; it is not a live mission tracker or a claim that exploration stopped there. Lunar landing locations, mission endings and interstellar boundaries are described carefully rather than copied from promotional shorthand. Film and documentary reconstructions remain interpretations; the linked agency and museum records provide the historical checks.",
+  "routeTitle": "13 films, series & documentaries",
+  "introNote": "Thirteen choices: four dramatic films, one dramatic miniseries and eight documentary films, series or episodes. The expanded route adds SpaceX’s development and Inspiration4, Voyager’s later ground team, and Dutch perspectives through Wubbo Ockels and André Kuipers. First Man and Apollo 13 remain optional close-ups alongside From the Earth to the Moon; The Farthest and It’s Quieter in the Twilight offer complementary Voyager eras. Watching everything is about 37 hours 45 minutes, using an hour per Apollo-series episode and the editions described in the title notes. IMDb scores were checked on 30 October 2026 through publicly indexed pages; a dash marks an unverified score, not zero. Scores measure reception, not reliability. Documentary bars describe the historical subject or observed operations; interviews and brief archive do not extend them. A long envelope can contain jumps, and c. marks approximate boundaries.",
+  "scopeNote": "This is a selective route, not a complete history or a ranking. Dutch space activity appears through astronomy satellites, ESTEC, CubeSats, atmospheric instruments and astronauts: these are distinct national and international contributions, rather than a single independent Dutch launch program. ESTEC is an ESA center in the Netherlands; TROPOMI is a Dutch instrument on a European satellite. The viewing choices still lean American and European. Japanese exploration, the full Soviet/Russian and Chinese programs, space law, commercial constellations and many failed missions need a broader guide. Unconnected stops mark gaps in the screen selection. SpaceX films have close participant access and are read alongside mission and regulatory sources. Space fantasy and alternate-history series, including the 2019 For All Mankind, remain outside this historical selection.",
+  "closingNote": "The expanded historical spine ends with completed SpaceX milestones in 2024, including Polaris Dawn and the first Super Heavy tower catch. These later stops are context beyond the selected SpaceX films’ story years, not claims that those films depict them. This is not a live mission tracker or a claim that exploration stopped in 2024. Agency, university, museum, broadcaster and regulatory records provide the historical checks; no streaming availability or subtitle support is guaranteed.",
   "events": [
     {
       "id": "goddard",
@@ -188,6 +188,20 @@
       ]
     },
     {
+      "id": "estec",
+      "year": 1968,
+      "dateLabel": "APRIL 1968",
+      "title": "A European space center in the Dutch dunes",
+      "description": "After its early years in Delft, ESTEC opened its Noordwijk site. This is ESA’s European technical center, hosted by the Netherlands, rather than a separate Dutch launch agency. Dutch space activity combines national research and industry with European and international missions.",
+      "sources": [
+        {
+          "label": "ESA · ESTEC opens in Noordwijk in 1968",
+          "url": "https://www.esa.int/About_Us/50_years_of_ESA/History_of_Europe_in_space"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
       "id": "apollo8",
       "year": 1968,
       "dateLabel": "DECEMBER 1968",
@@ -262,6 +276,20 @@
       ]
     },
     {
+      "id": "ans",
+      "year": 1974,
+      "dateLabel": "AUGUST 1974",
+      "title": "The Netherlands puts astronomy into orbit",
+      "description": "The Astronomische Nederlandse Satelliet, ANS, carried Dutch and American ultraviolet and X-ray instruments into Earth orbit. Dutch laboratories and industry could build a scientific satellite while relying on an international launch service.",
+      "sources": [
+        {
+          "label": "SRON · ANS mission and Dutch instruments",
+          "url": "https://www.sron.nl/missies/legacy/ans/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
       "id": "apollo-soyuz",
       "year": 1975,
       "dateLabel": "17 JULY 1975",
@@ -307,6 +335,40 @@
       ]
     },
     {
+      "id": "voyager-jupiter",
+      "year": 1979,
+      "dateLabel": "MARCH / JULY 1979",
+      "title": "Two encounters transform Jupiter",
+      "description": "Voyager 1 and Voyager 2 passed Jupiter on 5 March and 9 July. Images revealed active volcanism on Io and intricate structures in the planet’s atmosphere and rings. The Farthest makes the encounter teams and scientific surprises part of its planetary tour.",
+      "sources": [
+        {
+          "label": "NASA · Voyager 1 mission record",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        },
+        {
+          "label": "NASA · Voyager 2 mission record",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-2/"
+        }
+      ]
+    },
+    {
+      "id": "voyager-saturn",
+      "year": 1980,
+      "dateLabel": "NOVEMBER 1980 / AUGUST 1981",
+      "title": "Saturn divides the routes",
+      "description": "Voyager 1 encountered Saturn and Titan in November 1980; its Titan trajectory took it away from the path to Uranus and Neptune. Voyager 2 visited Saturn in August 1981 and continued toward those outer planets. The spacecraft followed different tours, not identical journeys.",
+      "sources": [
+        {
+          "label": "NASA · Voyager 1 mission record",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        },
+        {
+          "label": "NASA · Voyager 2 mission record",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-2/"
+        }
+      ]
+    },
+    {
       "id": "shuttle",
       "year": 1981,
       "dateLabel": "12 APRIL 1981",
@@ -316,6 +378,54 @@
         {
           "label": "NASA · Space Shuttle history",
           "url": "https://www.nasa.gov/history/space-shuttle-history-resources/"
+        }
+      ]
+    },
+    {
+      "id": "iras",
+      "year": 1983,
+      "dateLabel": "JANUARY 1983",
+      "title": "Dutch space science joins an infrared sky survey",
+      "description": "IRAS was a joint Netherlands–United States–United Kingdom mission. Its cooled telescope surveyed the infrared sky, uncovering sources hidden from visible-light observations. It illustrates a Dutch contribution that reached far beyond human spaceflight.",
+      "sources": [
+        {
+          "label": "JPL · IRAS and its international partners",
+          "url": "https://www.jpl.nasa.gov/missions/infrared-astronomical-satellite-iras/"
+        },
+        {
+          "label": "SRON · IRAS",
+          "url": "https://www.sron.nl/missies/legacy/iras/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "ockels",
+      "year": 1985,
+      "dateLabel": "30 OCTOBER–6 NOVEMBER 1985",
+      "title": "Wubbo Ockels flies aboard Spacelab D1",
+      "description": "ESA astronaut Wubbo Ockels became the first Dutch citizen in space on Challenger’s STS-61A mission, conducting research in the German Spacelab D1 laboratory. Dutch-born Lodewijk van den Berg had flown earlier in 1985 as an American astronaut; birthplace and citizenship are different distinctions.",
+      "sources": [
+        {
+          "label": "ESA · Wubbo Ockels and STS-61A",
+          "url": "https://www.esa.int/About_Us/50_years_of_ESA/Wubbo_Ockels_STS-61A_Payload_Specialist"
+        },
+        {
+          "label": "ESA · Dutch-born astronaut Lodewijk van den Berg",
+          "url": "https://www.esa.int/Space_in_Member_States/The_Netherlands/Astronaut_Lodewijk_van_den_Berg_blikt_terug_bij_Space_Expo2"
+        }
+      ]
+    },
+    {
+      "id": "voyager-uranus",
+      "year": 1986,
+      "dateLabel": "24 JANUARY 1986",
+      "title": "The only close encounter with Uranus",
+      "description": "Voyager 2 passed Uranus, studying its atmosphere, rings, moons and unusual magnetic environment. Its 1989 Neptune encounter was still ahead. This stop belongs to Voyager’s robotic tour, a separate story from the Challenger disaster four days later.",
+      "sources": [
+        {
+          "label": "NASA · Voyager 2 mission record",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-2/"
         }
       ]
     },
@@ -342,6 +452,19 @@
         {
           "label": "NASA · Voyager 2",
           "url": "https://science.nasa.gov/mission/voyager/voyager-2/"
+        }
+      ]
+    },
+    {
+      "id": "pale-blue-dot",
+      "year": 1990,
+      "dateLabel": "14 FEBRUARY 1990",
+      "title": "Voyager looks back at Earth",
+      "description": "Voyager 1 photographed Earth as a tiny point of light in a wider Solar System portrait. The Pale Blue Dot is an image from the mission, not a photograph taken after the 2012 heliopause crossing.",
+      "sources": [
+        {
+          "label": "NASA · Voyager 1’s Pale Blue Dot",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot/"
         }
       ]
     },
@@ -401,6 +524,24 @@
       ]
     },
     {
+      "id": "delta",
+      "year": 2004,
+      "dateLabel": "19–30 APRIL 2004",
+      "title": "André Kuipers takes Dutch experiments to the ISS",
+      "description": "Kuipers made his first spaceflight on the Dutch-government-sponsored DELTA mission, traveling in a Russian Soyuz spacecraft and working aboard the International Space Station. Dutch participation operated through ESA and international transport and facilities.",
+      "sources": [
+        {
+          "label": "ESA · André Kuipers mission biography",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Delta_Mission_Dutch/Andre_Kuipers"
+        },
+        {
+          "label": "ESA Archives · Kuipers and the DELTA experiments",
+          "url": "https://historicalarchives.esa.int/kuipers-andre-1958"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
       "id": "huygens",
       "year": 2005,
       "dateLabel": "14 JANUARY 2005",
@@ -413,6 +554,75 @@
         }
       ],
       "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "delfi",
+      "year": 2008,
+      "dateLabel": "28 APRIL 2008",
+      "title": "A university builds a working satellite",
+      "description": "TU Delft’s Delfi-C3 launched from India. The student-built CubeSat tested technology and trained engineers, showing how a national space sector also grows through universities, small spacecraft and industrial partnerships.",
+      "sources": [
+        {
+          "label": "TU Delft · Delfi-C3 mission",
+          "url": "https://www.tudelft.nl/en/ae/delfi-space/delfi-c3"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "falcon1",
+      "year": 2008,
+      "dateLabel": "28 SEPTEMBER 2008",
+      "title": "Falcon 1 reaches orbit",
+      "description": "SpaceX’s fourth Falcon 1 flight reached orbit after three failures. Return to Space uses the company’s early launch struggle as background to its later NASA crew mission. Reaching orbit came before recovering and reusing Falcon 9 boosters.",
+      "sources": [
+        {
+          "label": "NASA · 2008 launch record",
+          "url": "https://www.nasa.gov/wp-content/uploads/2023/01/presrep2008.pdf"
+        },
+        {
+          "label": "Netflix · From Falcon 1 to Crew Dragon",
+          "url": "https://cdn.nflxext.com/tudum/articles/space-movies-on-netflix"
+        }
+      ]
+    },
+    {
+      "id": "promisse",
+      "year": 2011,
+      "dateLabel": "21 DECEMBER 2011–1 JULY 2012",
+      "title": "Kuipers lives and works in orbit",
+      "description": "Kuipers returned aboard Soyuz for ESA’s PromISSe mission, serving on ISS Expeditions 30 and 31. Cosmic Encounters includes his onboard footage and scientific work; Alexander Gerst’s training is another strand, not a claim that Gerst flew with Kuipers.",
+      "sources": [
+        {
+          "label": "ESA · André Kuipers mission biography",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Delta_Mission_Dutch/Andre_Kuipers"
+        },
+        {
+          "label": "ESA · PromISSe mission archive",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/PromISSe"
+        },
+        {
+          "label": "ZDF Studios · Cosmic Encounters and 50-minute edition",
+          "url": "https://www.zdf-studios.com/en/program-catalog/international/unscripted/science-knowledge/cosmic-encounters"
+        }
+      ]
+    },
+    {
+      "id": "dragon-cargo",
+      "year": 2012,
+      "dateLabel": "25 MAY 2012",
+      "title": "Commercial cargo reaches the station",
+      "description": "Dragon became the first commercial spacecraft to be attached to the ISS. This was an uncrewed demonstration under NASA’s COTS program, distinct from the 2020 crew flight. Kuipers was aboard the station during the visit; that overlap alone does not establish a scene in Cosmic Encounters.",
+      "sources": [
+        {
+          "label": "NASA · First Dragon berthing",
+          "url": "https://www.nasa.gov/news-release/nasa-administrator-calls-station-following-spacex-historic-feat/"
+        },
+        {
+          "label": "Netflix · From Falcon 1 to Crew Dragon",
+          "url": "https://cdn.nflxext.com/tudum/articles/space-movies-on-netflix"
+        }
+      ]
     },
     {
       "id": "interstellar",
@@ -470,6 +680,78 @@
       "gapNote": "Historical context · no selected title directly covers this milestone."
     },
     {
+      "id": "falcon-landing",
+      "year": 2015,
+      "dateLabel": "21 DECEMBER 2015, FLORIDA / 22 DECEMBER UTC",
+      "title": "An orbital-launch booster comes back",
+      "description": "After delivering satellites toward orbit, a Falcon 9 first stage returned for a controlled landing at Cape Canaveral. The recovered stage had supported an orbital launch; the booster itself did not complete an orbit. The upper stage was not recovered.",
+      "sources": [
+        {
+          "label": "SpaceX · Landing and reuse milestones",
+          "url": "https://www.spacex.com/mission/"
+        }
+      ]
+    },
+    {
+      "id": "falcon-reuse",
+      "year": 2017,
+      "dateLabel": "30 MARCH 2017",
+      "title": "A recovered booster flies again",
+      "description": "The SES-10 launch reused a Falcon 9 first stage. Landing and reflight are different milestones: reusable launch systems require inspection, refurbishment and another successful flight, rather than recovery alone.",
+      "sources": [
+        {
+          "label": "SpaceX · Landing and reuse milestones",
+          "url": "https://www.spacex.com/mission/"
+        }
+      ]
+    },
+    {
+      "id": "tropomi",
+      "year": 2017,
+      "dateLabel": "13 OCTOBER 2017",
+      "title": "Dutch technology measures the atmosphere",
+      "description": "The Dutch-built TROPOMI instrument launched aboard the European Sentinel-5P satellite to map atmospheric gases and air pollution. KNMI, SRON, TNO and Airbus DS-NL contributed. This is a Dutch instrument on an international spacecraft, not an entirely Dutch satellite.",
+      "sources": [
+        {
+          "label": "KNMI · TROPOMI and its partners",
+          "url": "https://www.knmi.nl/kennis-en-datacentrum/uitleg/tropomi"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "falcon-heavy",
+      "year": 2018,
+      "dateLabel": "6 FEBRUARY 2018",
+      "title": "Falcon Heavy makes its first flight",
+      "description": "SpaceX demonstrated a launch vehicle built around three Falcon-derived cores. The two side boosters returned to landing zones. This added lift capability alongside the separate development of Dragon crew transport and, later, Starship.",
+      "sources": [
+        {
+          "label": "NASA · Falcon Heavy’s first flight",
+          "url": "https://www.nasa.gov/history/5-years-ago-first-flight-of-the-falcon-heavy-rocket/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "voyager2-interstellar",
+      "year": 2018,
+      "dateLabel": "5 NOVEMBER 2018",
+      "title": "Voyager 2 crosses the heliopause",
+      "description": "Voyager 2 joined Voyager 1 in interstellar space six years later. Its working plasma instrument provided a different set of direct measurements at the boundary. The Farthest predates this crossing; It’s Quieter in the Twilight picks up the later operational era.",
+      "sources": [
+        {
+          "label": "JPL · Voyager 2’s interstellar crossing",
+          "url": "https://www.jpl.nasa.gov/missions/voyager-2/"
+        },
+        {
+          "label": "NASA · Comparing the two heliopause crossings",
+          "url": "https://www.nasa.gov/solar-system/the-voyage-to-interstellar-space/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
       "id": "change4",
       "year": 2019,
       "dateLabel": "3 JANUARY 2019",
@@ -507,8 +789,45 @@
           "label": "NASA · Demo-2 launch record",
           "url": "https://blogs.nasa.gov/commercialcrew/2020/05/"
         }
-      ],
-      "gapNote": "Historical context · no selected title directly covers this milestone."
+      ]
+    },
+    {
+      "id": "voyager-operations",
+      "year": 2020,
+      "dateLabel": "MARCH–OCTOBER 2020",
+      "title": "Exploration depends on the ground team",
+      "description": "Upgrades to Canberra’s DSS43 antenna temporarily prevented commands from being sent to Voyager 2. A test command on 29 October received a reply. It’s Quieter in the Twilight follows the people and aging systems behind this continuing work, rather than repeating only the planetary flybys.",
+      "sources": [
+        {
+          "label": "NASA · Voyager 2 and the upgraded Canberra dish",
+          "url": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-contacts-voyager-2-using-upgraded-deep-space-network-dish/"
+        },
+        {
+          "label": "Filmmaker · It’s Quieter in the Twilight",
+          "url": "https://www.itsquieterfilm.com/"
+        },
+        {
+          "label": "Billy Miossi · Filming began in June 2019",
+          "url": "https://getreelmovies.com/sxsw-2022-interview-its-quieter-in-the-twilight-director-billy-miossi/"
+        }
+      ]
+    },
+    {
+      "id": "inspiration4",
+      "year": 2021,
+      "dateLabel": "15–18 SEPTEMBER 2021, FLORIDA DATES",
+      "title": "A privately funded crew orbits Earth",
+      "description": "Inspiration4 carried Jared Isaacman, Sian Proctor, Hayley Arceneaux and Chris Sembroski aboard Crew Dragon on a three-day orbital flight. It did not visit the ISS. Countdown follows their selection, training, launch and return; its charity-centered presentation is part of the mission’s own public story.",
+      "sources": [
+        {
+          "label": "Inspiration4 · Mission completion announcement",
+          "url": "https://inspiration4.com/press/kennedy-space-center-fl-september-18-2021--after/"
+        },
+        {
+          "label": "Netflix · Five episodes and runtimes",
+          "url": "https://www.netflix.com/title/81441273"
+        }
+      ]
     },
     {
       "id": "webb",
@@ -539,6 +858,20 @@
       "gapNote": "Historical context · no selected title directly covers this milestone."
     },
     {
+      "id": "starship-first",
+      "year": 2023,
+      "dateLabel": "20 APRIL 2023",
+      "title": "Starship and Super Heavy begin integrated flight tests",
+      "description": "The first integrated Starship–Super Heavy launch ended in vehicle loss. It was a development test, not a completed orbital mission or a crew flight. The FAA’s mishap investigation required corrective actions before further launches.",
+      "sources": [
+        {
+          "label": "FAA · First Starship flight investigation",
+          "url": "https://www.faa.gov/newsroom/faa-closes-spacex-starship-mishap-investigation"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
       "id": "chandrayaan3",
       "year": 2023,
       "dateLabel": "23 AUGUST 2023",
@@ -548,6 +881,34 @@
         {
           "label": "ISRO · Chandrayaan-3 landing and science",
           "url": "https://www.isro.gov.in/Ch3_APXS_volatile_measurements.html"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "polaris-dawn",
+      "year": 2024,
+      "dateLabel": "12 SEPTEMBER 2024",
+      "title": "A commercial spacewalk from Dragon",
+      "description": "Polaris Dawn tested SpaceX’s new EVA suits during the first commercial spacewalk. Jared Isaacman and Sarah Gillis exited in turn while all four crew members experienced the depressurized cabin. This was a later mission, outside Countdown’s 2021 story.",
+      "sources": [
+        {
+          "label": "Polaris Program · EVA completion record",
+          "url": "https://polarisprogram.com/polaris-dawn-crew-tests-new-suit-and-completes-first-commercial-spacewalk/"
+        }
+      ],
+      "gapNote": "Historical context · no selected title directly covers this milestone."
+    },
+    {
+      "id": "starship-catch",
+      "year": 2024,
+      "dateLabel": "13 OCTOBER 2024",
+      "title": "A launch tower catches Super Heavy",
+      "description": "On Starship’s fifth flight test, the Super Heavy booster returned to the launch site and was caught by the tower arms. It demonstrated one element of the proposed reusable system, not recovery of both stages or completion of a crew-rated vehicle.",
+      "sources": [
+        {
+          "label": "NASA Inspector General · Starship test history and Flight 5 catch",
+          "url": "https://oig.nasa.gov/wp-content/uploads/2026/03/final-report-ig-26-004-nasas-management-of-the-human-landing-system-contracts.pdf"
         }
       ],
       "gapNote": "Historical context · no selected title directly covers this milestone."
@@ -798,17 +1159,25 @@
       ],
       "events": [
         "voyager-launch",
+        "voyager-jupiter",
+        "voyager-saturn",
+        "voyager-uranus",
         "neptune",
+        "pale-blue-dot",
         "interstellar"
       ],
       "eventNotes": {
         "voyager-launch": "Building and launching Voyager",
         "neptune": "The planetary tour",
-        "interstellar": "Crossing the heliopause"
+        "interstellar": "Crossing the heliopause",
+        "voyager-jupiter": "The Jupiter encounters",
+        "voyager-saturn": "Saturn and the split trajectories",
+        "voyager-uranus": "Voyager 2’s Uranus flyby",
+        "pale-blue-dot": "Looking back at Earth"
       },
       "premise": "Voyager’s scientists and engineers recall sending two small spacecraft past giant planets and toward interstellar space.",
-      "learn": "Gravity assists, long-lived engineering and the scientific surprises of robotic exploration. Archive material and retrospective interviews tell the mission; interviews filmed decades later do not extend the historical span.",
-      "coverageNote": "The PBS transcript explicitly dates mission preparation to 1972 and follows the 1977 launches, planetary encounters through 1989 and Voyager 1’s 2012 heliopause crossing. This is a mission-history envelope, not a claim that every intervening year receives a scene. Budget the 121-minute feature; the linked PBS presentation is a shorter 97-minute broadcast cut. “Left the solar system” in publicity means the heliosphere here, not the Sun’s full gravitational domain.",
+      "learn": "Gravity assists, long-lived engineering and the scientific surprises of robotic exploration. Archive material and retrospective interviews tell the mission; interviews filmed decades later do not extend the historical span. The encounters are now separated on the timeline so Voyager 1’s route through Titan is not confused with Voyager 2’s onward flight to Uranus and Neptune.",
+      "coverageNote": "The PBS transcript explicitly dates mission preparation to 1972 and follows the 1977 launches, planetary encounters through 1989 and Voyager 1’s 2012 heliopause crossing. This is a mission-history envelope, not a claim that every intervening year receives a scene. Budget the 121-minute feature; the linked PBS presentation is a shorter 97-minute broadcast cut. “Left the solar system” in publicity means the heliosphere here, not the Sun’s full gravitational domain. This 2017 film cannot cover Voyager 2’s 2018 heliopause crossing or later operations; those have separate context stops and a later documentary.",
       "sources": [
         {
           "label": "PBS · Film and transcript, including 1972 preparation",
@@ -828,6 +1197,39 @@
         }
       ],
       "minutes": 121
+    },
+    {
+      "id": "wubbo",
+      "title": "Wubbo: een Hollander in de ruimte",
+      "releaseYear": 2011,
+      "format": "Documentary episode",
+      "minutes": 30,
+      "coverage": [
+        [
+          1977,
+          1985
+        ]
+      ],
+      "events": [
+        "ockels"
+      ],
+      "eventNotes": {
+        "ockels": "Selection, training and the D1 flight"
+      },
+      "premise": "An Andere Tijden episode follows Ockels from a Dutch recruitment advertisement through years of training and setbacks to Spacelab D1.",
+      "learn": "How a Dutch scientist reached space through ESA and NASA, and how national enthusiasm related to a European research mission. Dutch-language interviews and archive give this route a local perspective.",
+      "coverageNote": "The broadcaster’s account dates the recruitment advertisement to 1977, followed by European selection in 1978 and the 1985 flight. Its brief introduction anticipating Kuipers’s 2011 launch is excluded. The page gives 30 minutes and December 2011 publication/broadcast information. A matching IMDb episode identity and score were not verified, so the dash means unverified rather than zero. The broadcaster and museum catalogue contain inconsistent shorthand dates; ESA’s 30 October 1985 launch date is used for the historical stop.",
+      "sources": [
+        {
+          "label": "Andere Tijden · Wubbo: een Hollander in de ruimte",
+          "url": "https://anderetijden.nl/programma/1/Andere-Tijden/aflevering/168/Wubbo-een-Hollander-in-de-ruimte"
+        },
+        {
+          "label": "ESA · Wubbo Ockels and STS-61A",
+          "url": "https://www.esa.int/About_Us/50_years_of_ESA/Wubbo_Ockels_STS-61A_Payload_Specialist"
+        }
+      ],
+      "color": "#805129"
     },
     {
       "id": "challenger",
@@ -914,6 +1316,192 @@
       ],
       "minutes": 105,
       "approximateDates": true
+    },
+    {
+      "id": "return-space",
+      "title": "Return to Space",
+      "releaseYear": 2022,
+      "format": "Documentary",
+      "minutes": 128,
+      "coverage": [
+        [
+          2002,
+          2020
+        ]
+      ],
+      "events": [
+        "falcon1",
+        "dragon-cargo",
+        "falcon-landing",
+        "falcon-reuse",
+        "commercial-crew"
+      ],
+      "eventNotes": {
+        "falcon1": "The early launch struggle",
+        "dragon-cargo": "Commercial transport context",
+        "falcon-landing": "Landing development",
+        "falcon-reuse": "Reusability context",
+        "commercial-crew": "Demo-2 launch and return"
+      },
+      "premise": "NASA astronauts, their families and SpaceX teams prepare for Demo-2 while the film retraces the company’s earlier rocket development.",
+      "learn": "The progression from Falcon 1 to Falcon 9 and Crew Dragon, alongside NASA’s role in buying and supporting commercial transport. The filmmakers have close access to the company; this is a participant-centered account, not a comprehensive audit of private spaceflight.",
+      "coverageNote": "The historical envelope begins around SpaceX’s 2002 founding and culminates in the 2020 Demo-2 mission and splashdown. Netflix describes a nearly twenty-year journey and explicitly identifies Falcon 1, reusable Falcon 9 and Crew Dragon. The early boundary is approximate and the film jumps over years. Earlier Apollo/Shuttle archive supplies background. It does not cover the 2021 Inspiration4 flight or Starship’s later integrated tests.",
+      "sources": [
+        {
+          "label": "Netflix · Return to Space production notes",
+          "url": "https://media.netflix.com/en/only-on-netflix/81111324"
+        },
+        {
+          "label": "Netflix · From Falcon 1 to Crew Dragon",
+          "url": "https://cdn.nflxext.com/tudum/articles/space-movies-on-netflix"
+        },
+        {
+          "label": "IMDb · Identity, rating and 128-minute runtime",
+          "url": "https://www.imdb.com/title/tt18555320/"
+        }
+      ],
+      "color": "#385c79",
+      "approximateDates": true,
+      "imdbUrl": "https://www.imdb.com/title/tt18555320/",
+      "rating": "7.3",
+      "ratingChecked": "2026-10-30"
+    },
+    {
+      "id": "cosmic-encounters",
+      "title": "Cosmic Encounters",
+      "releaseYear": 2012,
+      "format": "Documentary",
+      "minutes": 50,
+      "coverage": [
+        [
+          2011,
+          2012
+        ]
+      ],
+      "events": [
+        "promisse"
+      ],
+      "eventNotes": {
+        "promisse": "Kuipers’s onboard footage and experiments"
+      },
+      "premise": "André Kuipers films life aboard the ISS while Alexander Gerst trains on Earth for a future mission.",
+      "learn": "Dutch participation within European human spaceflight: research, daily life, training and cooperation at the station. This was made for ZDF and ARTE, with a Dutch astronaut as one guide; it is not a survey of the entire Dutch space sector.",
+      "coverageNote": "The central onboard footage belongs to Kuipers’s 2011–2012 PromISSe mission. Gerst’s training anticipates his 2014 flight; the flight itself is not depicted and does not extend the bar to 2014. The 2011 start of the combined preparation/mission envelope is approximate. ZDF’s international catalogue lists a 50-minute edition, used here; IMDb and some home-video listings give 55 minutes. Also circulated as Encounter in Space / Rencontre dans l’espace. The 2012 production is distinct from later distribution and classification dates.",
+      "sources": [
+        {
+          "label": "ZDF Studios · Cosmic Encounters and 50-minute edition",
+          "url": "https://www.zdf-studios.com/en/program-catalog/international/unscripted/science-knowledge/cosmic-encounters"
+        },
+        {
+          "label": "ESA · André Kuipers mission biography",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Delta_Mission_Dutch/Andre_Kuipers"
+        },
+        {
+          "label": "ESA · PromISSe mission archive",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/PromISSe"
+        },
+        {
+          "label": "IMDb · Identity and 6.5 score",
+          "url": "https://www.imdb.com/fr/title/tt2915074/"
+        }
+      ],
+      "color": "#6c527e",
+      "approximateDates": true,
+      "imdbUrl": "https://www.imdb.com/title/tt2915074/",
+      "rating": "6.5",
+      "ratingChecked": "2026-10-30"
+    },
+    {
+      "id": "quieter-twilight",
+      "title": "It's Quieter in the Twilight",
+      "releaseYear": 2022,
+      "format": "Documentary",
+      "minutes": 84,
+      "coverage": [
+        [
+          2019,
+          2020
+        ]
+      ],
+      "events": [
+        "voyager2-interstellar",
+        "voyager-operations"
+      ],
+      "eventNotes": {
+        "voyager2-interstellar": "Background · already beyond the heliopause",
+        "voyager-operations": "Operations-era context"
+      },
+      "premise": "A small Voyager flight team keeps the probes working as hardware ages, expertise becomes harder to replace and the pandemic interrupts ordinary routines.",
+      "learn": "What exploration looks like decades after launch: patient troubleshooting, ground infrastructure and the people who hold a mission’s knowledge. Pair it with The Farthest for the difference between spectacular flybys and long-term operations.",
+      "coverageNote": "Director Billy Miossi says filming began in June 2019 and continued for about eighteen months. The approximate 2019–2020 bar follows that observed operational period; old launch footage and the engineers’ career memories do not turn it into a continuous 1977–2022 history. The 2018 Voyager 2 crossing is background. The film premiered at SXSW in 2022; many platforms label its wider release 2023. Apple’s listing rounds the running time to 84 minutes; other listings give 83. Later Voyager repairs are not presumed to appear in this film.",
+      "sources": [
+        {
+          "label": "Filmmaker · It’s Quieter in the Twilight",
+          "url": "https://www.itsquieterfilm.com/"
+        },
+        {
+          "label": "Billy Miossi · Filming began in June 2019",
+          "url": "https://getreelmovies.com/sxsw-2022-interview-its-quieter-in-the-twilight-director-billy-miossi/"
+        },
+        {
+          "label": "SXSW · 2022 premiere record",
+          "url": "https://www.sxsw.com/wp-content/uploads/2022/06/22_SXSW_FilmArchive1.pdf"
+        },
+        {
+          "label": "Apple TV · 84-minute distribution listing",
+          "url": "https://tv.apple.com/us/movie/its-quieter-in-the-twilight/umc.cmc.1d5x2oojccd97k3va00gqwrla"
+        },
+        {
+          "label": "IMDb · Film identity and score",
+          "url": "https://www.imdb.com/title/tt17658964/"
+        }
+      ],
+      "color": "#346960",
+      "approximateDates": true,
+      "imdbUrl": "https://www.imdb.com/title/tt17658964/",
+      "rating": "7.2",
+      "ratingChecked": "2026-10-30"
+    },
+    {
+      "id": "countdown-inspiration4",
+      "title": "Countdown: Inspiration4 Mission to Space",
+      "releaseYear": 2021,
+      "format": "Documentary series",
+      "minutes": 248,
+      "coverage": [
+        [
+          2021,
+          2021
+        ]
+      ],
+      "events": [
+        "inspiration4"
+      ],
+      "eventNotes": {
+        "inspiration4": "Selection, training, orbital flight and return"
+      },
+      "premise": "Five episodes follow four privately funded crew members from selection through training to a three-day journey aboard Crew Dragon.",
+      "learn": "How a private orbital mission is organized and how its crew prepares. The charity and inspiration narrative comes from close access to the participants; the series does not establish that private orbital flight is broadly affordable or accessible.",
+      "coverageNote": "The central mission and preparation take place in 2021. Childhood stories and personal biographies are framing material, not extra mission years. All five episodes are included. Netflix lists 47, 46, 48, 39 and 68 minutes, totaling 248 minutes; episode five includes launch, flight and return. Florida’s 15–18 September dates correspond to a launch after midnight UTC on 16 September. This is Inspiration4, not the later Polaris Dawn mission.",
+      "sources": [
+        {
+          "label": "Netflix · Five episodes and runtimes",
+          "url": "https://www.netflix.com/title/81441273"
+        },
+        {
+          "label": "Netflix · Final episode covers flight and return",
+          "url": "https://www.youtube.com/watch?v=XUpdf6L9Xds"
+        },
+        {
+          "label": "IMDb · 7.8 rating snapshot",
+          "url": "https://www.imdb.com/title/tt15166116/ratings/"
+        }
+      ],
+      "color": "#894a4a",
+      "episodes": 5,
+      "imdbUrl": "https://www.imdb.com/title/tt15166116/",
+      "rating": "7.8",
+      "ratingChecked": "2026-10-30"
     }
   ]
 }

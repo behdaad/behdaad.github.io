@@ -4,10 +4,14 @@ import json
 from datetime import date
 from html import escape as e
 from pathlib import Path
+from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parent
 
 def anchor(label, url, cls=''):
     return f'<a class="{cls}" href="{e(url, quote=True)}" target="_blank" rel="noopener noreferrer">{e(label)} <span aria-hidden="true">↗</span></a>'
+
+def is_apple_music_url(url):
+    return urlsplit(url).hostname == 'music.apple.com'
 
 def display_date(value):
     if len(value) == 4: return value + ' · year only'
@@ -31,7 +35,7 @@ ERAS = [
 
 def render_item(x, number):
     ident = e(x['id'], quote=True)
-    links = ''.join(anchor(l['label'], l['url'], 'media-link apple-music-navigation' if 'music.apple.com' in l['url'] else 'media-link') for l in x['links'])
+    links = ''.join(anchor(l['label'], l['url'], 'media-link apple-music-navigation' if is_apple_music_url(l['url']) else 'media-link') for l in x['links'])
     sources = list(dict.fromkeys(x.get('sources', []) + ([x['sourcesNote']] if x.get('sourcesNote') else [])))
     evidence = ''.join(f'<li>{anchor("Source " + str(i+1), u)}</li>' for i,u in enumerate(sources))
     tracks = '<p class="track-label">Tracks on the official shop edition</p><ol class="tracks">' + ''.join(f'<li>{e(t)}</li>' for t in x['tracks']) + '</ol>' if x.get('tracks') else ''

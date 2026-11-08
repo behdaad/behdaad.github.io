@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4efdf">
+  <meta name="description" content="A shared-table companion for Dune: Imperium — Uprising. Learn as you play, follow every turn, and pick up exactly where you left off.">
+  <title>Dune — At the table</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the game</a>
+  <header class="masthead">
+    <a class="wordmark" href="/dune/" aria-label="Dune companion home"><svg viewBox="0 0 34 34" aria-hidden="true"><path d="M17 3 32 29H2ZM17 12l10 17M12 20l-5 9"/></svg><span>DUNE<span class="brand-sub">AT THE TABLE</span></span></a>
+    <span class="edition">IMPERIUM · UPRISING</span>
+    <nav aria-label="Companion tools"><button id="reference-open" class="text-button">Field guide <span aria-hidden="true">↗</span></button><button id="menu-open" class="text-button">Game menu</button></nav>
+  </header>
+  <div id="save-notice" role="status" class="save-notice" hidden></div>
+  <main id="main" tabindex="-1"></main>
+  <footer class="footer"><span>An unofficial companion. Your game stays on this browser.</span><span id="save-status" role="status">Ready when you are</span><a href="/">behdaad.me ↗</a></footer>
+  <dialog id="reference-dialog" aria-labelledby="reference-title"></dialog>
+  <dialog id="menu-dialog" aria-labelledby="menu-title"></dialog>
+  <dialog id="correction-dialog" aria-labelledby="correction-title"></dialog>
+  <div id="announcement" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><div class="noscript"><h1>Dune: Imperium — Uprising</h1><p>This turn-by-turn companion needs JavaScript to save and guide your game. Enable JavaScript, then reload this page.</p><p>The five phases are Round Start, Player Turns, Combat, Makers and Recall.</p><a href="https://www.direwolfdigital.com/dune-imperium/resources/">Open the official rules and player aids</a></div></noscript>
+</body>
+</html>

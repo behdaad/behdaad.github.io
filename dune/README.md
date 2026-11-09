@@ -16,7 +16,7 @@ The source texts are the October 12, 2023 PDFs supplied by the owner, also avail
 - [Combined supplements](https://d19y2ttatozxjp.cloudfront.net/pdfs/DUNE_IMPERIUM_UPRISING_Rules_Supplements_23-10-12.pdf)
 - [Publisher resources and FAQ](https://www.direwolfdigital.com/dune-imperium/resources/)
 
-References in the companion use PDF page numbers, which differ from printed page numbers in the combined supplement. Explanations are condensed and the supplied 2023 rules are the documented version, not a promise to incorporate later rulings automatically. Card text and official rulings take precedence.
+References in the companion use PDF page numbers, which differ from printed page numbers in the combined supplement. Explanations are condensed and the supplied 2023 rules are the documented version, not a promise to incorporate later rulings automatically. Selected clarifications from the January 13, 2025 publisher FAQ are explicitly labeled. Card text and official rulings take precedence. See [the rule-by-rule audit](RULES_AUDIT.md) for coverage, corrections and physical-table boundaries.
 
 | Area | Source |
 | --- | --- |
@@ -32,7 +32,7 @@ References in the companion use PDF page numbers, which differ from printed page
 
 Supported player counts are 1, 2, 3, 4 and 6. CHOAM is optional for 1–4 and mandatory for 6. Solo supports all four difficulties plus optional Row churn; the three advanced Rival variants are also available individually. Two-player setup supports standard or streamlined Rivals. Other expansions and mixed decks are not supported.
 
-Six-player seating uses a fixed clockwise ring starting at Muad’Dib at the bottom: opposing Ally, friendly Ally, Shaddam, friendly Ally, opposing Ally. The initial first player is an Ally selected from the physical Objective. Later rounds rotate through every seat. Commander arrows activate the same-team player two seats clockwise (left) or counterclockwise (right). Used Swordmasters retire at Recall even if recalled earlier that round; unused ones carry over. The permanent Reveal bonus remains.
+Six-player seating uses a fixed clockwise ring starting at Muad’Dib at the bottom: opposing Ally, friendly Ally, Shaddam, friendly Ally, opposing Ally. The initial first player is an Ally selected from the physical Objective. Later rounds rotate through every seat. Commander arrows activate the same-team player two seats clockwise (left) or counterclockwise (right). Swordmasters permit one placement per game, including when recalled. Used Swordmasters retire at Recall even if recalled earlier that round; unused ones carry over. The permanent Reveal bonus remains.
 
 ## Code and verification
 

@@ -158,7 +158,7 @@ test('searchable reference respects six-player rules and preserves the current s
   await page.getByRole('button', { name: 'Explore board spaces', exact: false }).click();
   await page.getByRole('searchbox', { name: 'Search field guide' }).fill('Swordmaster');
   await expect(page.locator('.space-card')).toHaveCount(1);
-  await expect(page.locator('.space-card')).toContainText('Retire the agent');
+  await expect(page.locator('.space-card')).toContainText('one placement per game');
   await page.getByRole('tab', { name: 'Rules & reminders', exact: true }).click();
   await page.getByRole('searchbox', { name: 'Search field guide' }).fill('Commander');
   await expect(page.locator('.rule-topic')).not.toHaveCount(0);
@@ -245,4 +245,78 @@ test('backup import restores the exact game and rejects unsupported files', asyn
   await page.locator('#import-file').setInputFiles({ name: 'game.json', mimeType: 'application/json', buffer: Buffer.from(raw) });
   await expect(page.locator('#check-card')).toBeChecked();
   expect((await state(page)).humanCount).toBe(4);
+});
+
+test('six-player Swordmaster recall cannot grant another use, including after refresh', async ({ page }) => {
+  await seed(page, 6, { activePlayer: 'p0' });
+  await page.locator('[data-player-details="p0"] summary').click();
+  await page.getByRole('button', { name: 'Behdad acquired Swordmaster', exact: true }).click();
+  await page.getByRole('button', { name: 'Swordmaster', exact: true }).click();
+  await complete(page, 'Finish turn');
+  await page.getByRole('button', { name: 'Recall Swordmaster for Behdad', exact: true }).click();
+  for (let i = 0; i < 5; i++) {
+    await page.getByRole('button', { name: 'Take a Reveal turn', exact: false }).click();
+    await complete(page, 'Finish turn');
+  }
+  await page.reload();
+  await expect(page.getByRole('heading', { name: 'Behdad’s turn', exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Swordmaster', exact: true })).toHaveCount(0);
+  await page.locator('[data-player-details="p0"] summary').click();
+  await expect(page.getByText('Used · cannot be sent again', { exact: false })).toBeVisible();
+  await page.getByRole('button', { name: 'Take a Reveal turn', exact: false }).click();
+  await complete(page, 'Finish turn');
+  await complete(page, 'Continue to Makers');
+  await complete(page, 'Continue to Recall');
+  await complete(page, 'Begin the next round');
+  const p = (await state(page)).players[0];
+  expect(p.agents[2].status).toBe('retired'); expect(p.swordmasterBonus).toBe(true);
+});
+
+test('an entered streamlined Rival is excluded from final scoring without a separate toggle', async ({ page }) => {
+  await fresh(page);
+  await page.getByRole('button', { name: '2 players', exact: true }).click();
+  await page.getByLabel('Name for seat 1', { exact: true }).fill('Behdad');
+  await page.getByLabel('Name for seat 3', { exact: true }).fill('Sam');
+  await page.getByLabel('Rival card for seat 2', { exact: true }).fill('Lady Amber Metulli');
+  await expect(page.locator('#streamlined')).not.toBeChecked();
+  await page.getByRole('button', { name: 'Check the board', exact: false }).click();
+  await complete(page, 'Begin round one');
+  await expect(page.getByText('Rival · non-scoring', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Correct game', exact: true }).click();
+  await page.locator('[name="phase"]').selectOption('recall');
+  await page.locator('[name="score-p1"]').fill('15');
+  await page.getByRole('button', { name: 'Apply corrections', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Begin the next round', exact: false })).toBeVisible();
+  await page.locator('#deck-empty').check();
+  await complete(page, 'Go to final scoring');
+  await expect(page.locator('.final-scores')).not.toContainText('Rival 1');
+  await page.reload();
+  await expect(page.locator('.final-scores > div')).toHaveCount(2);
+});
+
+test('audited rules are searchable with PDF sources and mode-specific board details', async ({ page }) => {
+  await seed(page, 3);
+  await page.getByRole('button', { name: 'Explore board spaces', exact: false }).click();
+  await page.getByRole('tab', { name: 'Rules & reminders', exact: true }).click();
+  const search = page.getByRole('searchbox', { name: 'Search field guide' });
+  await search.fill('Harvest');
+  await expect(page.locator('.rule-topic')).toContainText('sending an agent to a Maker space');
+  await expect(page.locator('.rule-topic a')).toHaveAttribute('href', /Main_Rulebook.*#page=16$/);
+  await search.fill('Fremen Bond');
+  await expect(page.locator('.rule-topic')).toContainText('other Fremen card in play');
+  await search.fill('final individual tiebreak');
+  await expect(page.locator('.rule-topic')).toContainText('most recently took a Reveal turn');
+  await expect(page.locator('.rule-topic a')).toHaveAttribute('href', /FAQ_25-1-13.pdf#page=2$/);
+  await page.keyboard.press('Escape');
+  await seed(page, 6);
+  await page.getByRole('button', { name: 'Explore board spaces', exact: false }).click();
+  await search.fill('Sietch');
+  await expect(page.locator('.space-card')).toContainText('Shaddam’s team cannot gain Maker Hooks');
+  await expect(page.locator('.space-card')).toContainText('both Allies gain them');
+  await page.getByRole('tab', { name: 'Rules & reminders', exact: true }).click();
+  await search.fill('personal boards, team rewards');
+  await expect(page.locator('.rule-topic')).toContainText('non-Fremen Imperium Row card');
+  await expect(page.locator('.rule-topic a')).toHaveAttribute('href', /Rules_Supplements.*#page=9$/);
+  await search.fill('final individual tiebreak');
+  await expect(page.locator('.rule-topic')).toHaveCount(0);
 });

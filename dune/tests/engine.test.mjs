@@ -181,3 +181,92 @@ test('checklists change by mode and completed-game score corrections recalculate
   s = move(s, { type: 'SCORE', playerId: 'p1', score: 11 }); assert.equal(s.winner, 'p1');
   assert.equal(boardSpaces.filter(b => !b.sixOnly).length, 22);
 });
+
+test('a six-player Swordmaster cannot be placed twice, including after an in-round recall', () => {
+  for (const playerId of ['p0', 'p2']) {
+    let s = start(6); s.activePlayer = playerId;
+    s = move(s, { type: 'SWORDMASTER' });
+    s = move(s, { type: 'BEGIN_TURN', turnType: 'agent', agentId: 's', allyId: 'p2' });
+    s = move(s, { type: 'FINISH_TURN' });
+    s = move(s, { type: 'RECALL_AGENT', playerId, agentId: 's' });
+    s.activePlayer = playerId;
+    assert.ok(!availableAgents(getPlayer(s, playerId)).some(a => a.id === 's'));
+    assert.throws(() => move(s, { type: 'BEGIN_TURN', turnType: 'agent', agentId: 's', allyId: 'p2' }));
+    assert.equal(move(s, { type: 'BEGIN_TURN', turnType: 'reveal', allyId: 'p2' }).turn.type, 'reveal');
+  }
+});
+
+test('streamlined card names in two-player saves cannot trigger endgame or win without the checkbox', () => {
+  for (const leader of ['Lady Amber Metulli', 'Glossu “The Beast” Rabban', 'Glossu Rabban']) {
+    let s = start(2); s.players[1].leader = leader;
+    s = move(s, { type: 'SCORE', playerId: 'p1', score: 15 });
+    assert.equal(shouldEnd(s), false);
+    s.players[0].score = 10; s.phase = 'endgame';
+    s = move(s, { type: 'ADVANCE' });
+    assert.equal(s.winner, 'p0'); assert.ok(validGame(s));
+    assert.equal(checklistFor({ ...s, status: 'playing', phase: 'turns', activePlayer: 'p1', turn: { type: 'rival' } }).find(x => x.id === 'resources').text.includes('cannot win'), true);
+  }
+  let s = start(2); s.players[1].leader = 'Feyd-Rautha Harkonnen';
+  s = move(s, { type: 'SCORE', playerId: 'p1', score: 10 });
+  assert.equal(shouldEnd(s), true);
+  // The two-player variant setting must not exclude both solo opponents.
+  s = start(1); s.settings.streamlined = true;
+  s = move(s, { type: 'SCORE', playerId: 'p1', score: 10 });
+  assert.equal(shouldEnd(s), true); assert.equal(standings(s).length, 3);
+  // These two printed cards cannot win even if chosen for a solo seat;
+  // exclusion applies only to that seat, never its other Rival.
+  s.players[1].leader = 'Lady Amber Metulli';
+  assert.equal(shouldEnd(s), false); assert.equal(standings(s).length, 2);
+  s = move(s, { type: 'SCORE', playerId: 'p2', score: 10 });
+  assert.equal(shouldEnd(s), true);
+});
+
+test('turn actions cannot use another seat or give humans a Rival turn', () => {
+  let s = start(3);
+  assert.throws(() => move(s, { type: 'BEGIN_TURN', playerId: 'p1', turnType: 'agent', agentId: 'a' }));
+  assert.throws(() => move(s, { type: 'BEGIN_TURN', turnType: 'rival', agentId: 'a' }));
+  s = move(s, { type: 'BEGIN_TURN', turnType: 'agent', agentId: 'a' });
+  assert.throws(() => move(s, { type: 'FINISH_TURN', playerId: 'p1' }));
+  assert.equal(move(s, { type: 'FINISH_TURN' }).players[0].agents[0].status, 'board');
+});
+
+test('legacy pending reuse of a six-player Swordmaster preserves the game and undo on import', () => {
+  let s = start(6); s.activePlayer = 'p0';
+  s = move(s, { type: 'SWORDMASTER' });
+  s = move(s, { type: 'BEGIN_TURN', turnType: 'agent', agentId: 's', allyId: 'p2' });
+  s.players[0].agents[2].usedThisRound = true;
+  s.players[0].score = 8; s.round = 4; s.turn.checks.ally = true;
+  const restored = decodeSave(encodeSave(s, [{ state: structuredClone(s), label: 'Old pending placement' }]));
+  assert.equal(restored.state.turn, null);
+  assert.equal(restored.state.activePlayer, 'p0');
+  assert.equal(restored.state.players[0].score, 8); assert.equal(restored.state.round, 4);
+  assert.equal(restored.history[0].state.turn, null);
+  assert.ok(restored.state.players[0].swordmasterBonus);
+  assert.ok(validGame(restored.state));
+});
+
+test('every mode runs from setup through the last Conflict to a persisted final result', () => {
+  for (const count of [1, 2, 3, 4, 6]) {
+    let s = start(count), rounds = 0;
+    while (s.phase !== 'endgame') {
+      assert.ok(rounds++ < maximumRounds(s));
+      s = nextRound(s);
+      assert.ok(validGame(s));
+      s = decodeSave(encodeSave(s)).state;
+      if (s.phase === 'roundStart') s = move(s, { type: 'ADVANCE' });
+    }
+    assert.equal(rounds, maximumRounds(s));
+    s = move(s, { type: 'SCORE', playerId: 'p0', score: 11 });
+    s = move(s, { type: 'ADVANCE' });
+    assert.equal(s.status, 'finished');
+    assert.equal(s.winner, count === 6 ? 'atreides' : 'p0');
+    assert.deepEqual(decodeSave(encodeSave(s)).state, s);
+  }
+});
+
+test('corrections reject retirement in standard play and keep the original state intact', () => {
+  const s = start(3), before = structuredClone(s), players = structuredClone(s.players);
+  players[0].agents[2].status = 'retired';
+  assert.throws(() => move(s, { type: 'CORRECT', phase: 'turns', round: 2, firstPlayer: 'p0', activePlayer: 'p0', players }));
+  assert.deepEqual(s, before);
+});

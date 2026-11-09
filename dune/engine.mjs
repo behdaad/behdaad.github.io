@@ -37,7 +37,13 @@ export function setCount(game, count) {
 }
 
 export const getPlayer = (game, id) => game.players.find(p => p.id === id);
-export const availableAgents = p => p.agents.filter(a => a.status === 'available');
+// Six-player Swordmasters have one placement per game, even if recalled before Recall.
+export const availableAgents = p => p.agents.filter(a => a.status === 'available' && !(p.team && a.id === 's' && a.usedThisRound));
+export function isStreamlinedRival(game, p) {
+  if (p?.kind !== 'rival') return false;
+  const name = p.leader.toLowerCase().replace(/[^a-z]/g, '');
+  return (game.humanCount === 2 && game.settings.streamlined) || name.includes('ambermetulli') || name.includes('glossurabban') || name.includes('thebeastrabban');
+}
 export const maximumRounds = game => game.humanCount === 6 ? 9 : 10;
 export const conflictTier = game => game.humanCount === 6 ? (game.round <= 5 ? 'II' : 'III') : game.round === 1 ? 'I' : game.round <= 6 ? 'II' : 'III';
 export const expertMode = game => game.humanCount === 1 && ['mentat', 'kwisatz'].includes(game.settings.difficulty);
@@ -76,14 +82,14 @@ function nextTurn(game, after = '') {
 }
 
 export function shouldEnd(game) {
-  return game.deckEmpty || game.round >= maximumRounds(game) || game.players.some(p => p.score >= 10 && !(p.kind === 'rival' && game.settings.streamlined));
+  return game.deckEmpty || game.round >= maximumRounds(game) || game.players.some(p => p.score >= 10 && !isStreamlinedRival(game, p));
 }
 
 export function standings(game) {
   if (game.humanCount === 6) return ['atreides', 'imperium'].map(id => ({ id,
     name: id === 'atreides' ? 'Team Muad’Dib' : 'Team Shaddam',
     score: game.players.filter(p => p.team === id).reduce((sum, p) => sum + p.score, 0) })).sort((a, b) => b.score - a.score);
-  return game.players.filter(p => !(p.kind === 'rival' && game.settings.streamlined)).map(p => ({ id: p.id, name: p.name, score: p.score })).sort((a, b) => b.score - a.score);
+  return game.players.filter(p => !isStreamlinedRival(game, p)).map(p => ({ id: p.id, name: p.name, score: p.score })).sort((a, b) => b.score - a.score);
 }
 
 export function transition(source, action) {
@@ -96,21 +102,21 @@ export function transition(source, action) {
       if (!eligibleFirstPlayers(game).some(p => p.id === game.firstPlayer)) throw new Error('Choose the player with the First Player marker.');
       game.status = 'playing'; game.phase = 'roundStart'; game.checks = {}; break;
     case 'BEGIN_TURN': {
-      if (game.phase !== 'turns' || game.turn || !p || !canAct(p)) throw new Error('This turn is not available.');
+      if (game.status !== 'playing' || game.phase !== 'turns' || game.turn || !p || p.id !== game.activePlayer || !canAct(p)) throw new Error('This turn is not available.');
       const type = p.kind === 'rival' ? 'rival' : action.turnType;
-      if (!['agent', 'reveal', 'rival'].includes(type)) throw new Error('Choose an Agent or Reveal turn.');
-      const agent = type !== 'reveal' ? p.agents.find(a => a.id === action.agentId && a.status === 'available') : null;
+      if (!(p.kind === 'rival' ? ['rival'] : ['agent', 'reveal']).includes(type)) throw new Error('Choose an Agent or Reveal turn.');
+      const agent = type !== 'reveal' ? availableAgents(p).find(a => a.id === action.agentId) : null;
       if (type !== 'reveal' && !agent) throw new Error('Choose an available agent.');
       const allyId = p.role === 'commander' && agent && agent.side !== 'either' ? allyFor(game, p.id, agent.side).id : action.allyId || null;
       if (p.role === 'commander' && !game.players.some(a => a.id === allyId && a.team === p.team && a.role === 'ally')) throw new Error('Choose an Ally to activate.');
       game.turn = { type, agentId: agent?.id || null, allyId, checks: {} }; break;
     }
     case 'FINISH_TURN':
-      if (game.phase !== 'turns' || !game.turn || !p) throw new Error('There is no active turn to finish.');
+      if (game.status !== 'playing' || game.phase !== 'turns' || !game.turn || !p || p.id !== game.activePlayer) throw new Error('There is no active turn to finish.');
       if (game.turn.type === 'reveal') p.revealed = true;
       else {
         const agent = p.agents.find(a => a.id === game.turn.agentId);
-        if (agent.status !== 'available') throw new Error('That agent is no longer available.');
+        if (!availableAgents(p).includes(agent)) throw new Error('That agent is no longer available.');
         agent.status = 'board'; agent.usedThisRound = true;
       }
       nextTurn(game, p.id); break;
@@ -171,7 +177,7 @@ export function transition(source, action) {
           target.score = patch.score; target.revealed = target.kind === 'human' && !!patch.revealed;
           for (const a of target.agents) {
             const update = patch.agents.find(x => x.id === a.id);
-            if (!update || !['available', 'board', 'locked', 'retired'].includes(update.status) || (a.id !== 's' && ['locked', 'retired'].includes(update.status))) throw new Error('Check the agent statuses.');
+            if (!update || !['available', 'board', 'locked', 'retired'].includes(update.status) || (a.id !== 's' && ['locked', 'retired'].includes(update.status)) || (update.status === 'retired' && game.humanCount !== 6)) throw new Error('Check the agent statuses.');
             a.status = update.status; a.usedThisRound = update.status === 'board' || !!update.usedThisRound;
           }
           target.swordmasterBonus = game.humanCount === 6 && target.agents[2].status !== 'locked';
@@ -234,5 +240,10 @@ export function decodeSave(raw) {
   if (typeof raw !== 'string' || raw.length > 2_000_000) throw new Error('This save is too large or unreadable.');
   const data = JSON.parse(raw);
   if (data.schemaVersion !== VERSION || !validGame(data.state) || !Array.isArray(data.history) || data.history.length > 30 || data.history.some(h => !h || typeof h.label !== 'string' || h.label.length > 200 || !validGame(h.state))) throw new Error('This save is damaged or belongs to an unsupported version.');
+  // Preserve version-1 sessions, including an old pending second use of a six-player
+  // Swordmaster. Return only that illegal choice to the turn picker, not the game.
+  for (const state of [data.state, ...data.history.map(h => h.state)]) {
+    if (state.humanCount === 6 && state.turn?.agentId === 's' && getPlayer(state, state.activePlayer).agents[2].usedThisRound) state.turn = null;
+  }
   return data;
 }

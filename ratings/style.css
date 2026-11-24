@@ -23,16 +23,51 @@
 
 * { box-sizing: border-box; }
 body { margin: 0; }
-main { max-width: 70rem; margin: auto; padding: clamp(1rem, 4vw, 3rem); }
-.page-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; }
-header a { color: var(--accent); text-underline-offset: .25em; }
-h1 { margin: .35em 0 .5em; font: 500 clamp(2.7rem, 8vw, 5.5rem)/1 Georgia, serif; }
+.wrap { width: min(70rem, calc(100% - clamp(2rem, 8vw, 6rem))); margin-inline: auto; }
+main { padding-bottom: 3rem; }
+.masthead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .75rem clamp(1rem, 3vw, 2rem);
+    min-height: 5.5rem;
+    padding-block: .75rem;
+    border-bottom: 1px solid var(--line);
+}
+.masthead a { color: inherit; text-decoration: none; }
+.masthead a:hover { text-decoration: underline; text-underline-offset: .25em; }
+.wordmark {
+    display: inline-flex;
+    align-items: center;
+    gap: .65rem;
+    margin-inline-end: auto;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.record-mark {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--panel) 0 7%, var(--accent) 8% 26%, var(--text) 27% 43%, var(--muted) 44% 48%, var(--text) 49% 62%, var(--muted) 63% 67%, var(--text) 68%);
+}
+.masthead nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; font-size: .875rem; }
+.masthead nav span { color: var(--accent); }
+.hero { padding-block: clamp(2rem, 6vw, 4.5rem) clamp(1.5rem, 4vw, 2.75rem); }
+.hero h1 { margin: 0; font: 500 clamp(2.75rem, 9vw, 6.5rem)/.98 Georgia, serif; letter-spacing: -.055em; }
+.hero h1 em { color: var(--accent); font-weight: inherit; }
+.hero p { margin: .85rem 0 0; color: var(--muted); }
 .controls { display: flex; flex-wrap: wrap; gap: 1rem; }
+#albums { scroll-margin-top: 1rem; }
 label { font-weight: 600; }
 .controls label { flex: 1 1 15rem; }
 .controls label:first-child { flex-grow: 2; }
 .theme-control { display: flex; align-items: center; gap: .5rem; font-size: .875rem; color: var(--muted); }
 .theme-control select { width: auto; margin: 0; color: var(--text); }
+@media (max-width: 34rem) {
+    .masthead nav { flex-basis: 100%; order: 1; }
+}
 input, select {
     display: block;
     width: 100%;

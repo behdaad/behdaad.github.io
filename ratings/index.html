@@ -5,25 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Music Ratings · Behdad Keynejad</title>
     <link rel="icon" href="../assets/favicon.png">
-    <link rel="stylesheet" href="style.css?v=2">
-    <script src="app.js?v=2" defer></script>
+    <link rel="stylesheet" href="style.css?v=3">
+    <script src="app.js?v=3" defer></script>
 </head>
-<body>
-    <main>
-        <header>
-            <div class="page-bar">
-                <a href="../">Behdad Keynejad</a>
-                <div class="theme-control">
-                    <label for="theme">Theme</label>
-                    <select id="theme" disabled>
-                        <option value="slate">Slate (light)</option>
-                        <option value="midnight">Midnight (dark)</option>
-                    </select>
-                </div>
-            </div>
-            <h1>Music Ratings</h1>
+<body id="top">
+    <header class="masthead wrap">
+        <a class="wordmark" href="#top">
+            <span class="record-mark" aria-hidden="true"></span>
+            Music Ratings
+        </a>
+        <nav aria-label="Main">
+            <a href="#albums">Albums <span aria-hidden="true">↓</span></a>
+            <a href="../">Behdad <span aria-hidden="true">↗</span></a>
+        </nav>
+        <div class="theme-control">
+            <label for="theme">Theme</label>
+            <select id="theme" disabled>
+                <option value="slate">Slate (light)</option>
+                <option value="midnight">Midnight (dark)</option>
+            </select>
+        </div>
+    </header>
+    <main class="wrap">
+        <header class="hero">
+            <h1>Music <em>Ratings</em></h1>
+            <p>My personal album ratings, updated daily.</p>
         </header>
-        <div class="controls">
+        <div class="controls" id="albums">
             <label for="search">Search albums or artists
                 <input id="search" type="search" placeholder="Search" disabled>
             </label>

@@ -7,8 +7,7 @@ const columns = ["artist", "album", "year", "rating"];
 const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: true });
 
 const theme = document.querySelector("#theme");
-const themeUrl = new URL(location.href);
-const requestedTheme = themeUrl.searchParams.get("theme");
+const requestedTheme = new URLSearchParams(location.search).get("theme");
 const darkPreference = matchMedia("(prefers-color-scheme: dark)");
 let selectedTheme = Array.from(theme.options).some(option => option.value === requestedTheme)
     ? requestedTheme
@@ -25,6 +24,7 @@ theme.disabled = false;
 theme.addEventListener("change", () => {
     selectedTheme = theme.value;
     syncThemePicker();
+    const themeUrl = new URL(location.href);
     themeUrl.searchParams.set("theme", selectedTheme);
     history.replaceState(null, "", themeUrl);
 });

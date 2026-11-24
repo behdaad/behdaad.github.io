@@ -9,14 +9,23 @@ const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: tr
 const theme = document.querySelector("#theme");
 const themeUrl = new URL(location.href);
 const requestedTheme = themeUrl.searchParams.get("theme");
-if (Array.from(theme.options).some(option => option.value === requestedTheme)) {
-    theme.value = requestedTheme;
+const darkPreference = matchMedia("(prefers-color-scheme: dark)");
+let selectedTheme = Array.from(theme.options).some(option => option.value === requestedTheme)
+    ? requestedTheme
+    : null;
+
+function syncThemePicker() {
+    theme.value = selectedTheme ?? (darkPreference.matches ? "midnight" : "slate");
+    document.documentElement.dataset.theme = theme.value;
 }
-document.documentElement.dataset.theme = theme.value;
+
+syncThemePicker();
+darkPreference.addEventListener("change", syncThemePicker);
 theme.disabled = false;
 theme.addEventListener("change", () => {
-    document.documentElement.dataset.theme = theme.value;
-    themeUrl.searchParams.set("theme", theme.value);
+    selectedTheme = theme.value;
+    syncThemePicker();
+    themeUrl.searchParams.set("theme", selectedTheme);
     history.replaceState(null, "", themeUrl);
 });
 

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music Ratings · Behdad Keynejad</title>
+    <link rel="icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="../">Behdad Keynejad</a>
+            <h1>Music Ratings</h1>
+        </header>
+        <div class="controls">
+            <label for="search">Search albums or artists
+                <input id="search" type="search" placeholder="Search" disabled>
+            </label>
+            <label for="sort">Sort by
+                <select id="sort" disabled>
+                    <option value="">Workbook order</option>
+                    <option value="artist">Artist</option>
+                    <option value="album">Album</option>
+                    <option value="year">Release year, newest first</option>
+                    <option value="rating">Rating, highest first</option>
+                </select>
+            </label>
+        </div>
+        <p id="status" role="status">Loading albums…</p>
+        <noscript>Enable JavaScript to view the album ratings.</noscript>
+        <table hidden>
+            <thead>
+                <tr>
+                    <th scope="col">Artist</th>
+                    <th scope="col">Album</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Rating</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+</body>
+</html>

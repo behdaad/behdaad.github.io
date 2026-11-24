@@ -148,7 +148,8 @@
 }
 
 #music::before {
-    background: url(../assets/icons/apple-music.svg) no-repeat center center;
+    background: url(../assets/icons/music.svg) no-repeat center center;
+    background-size: contain;
 }
 
 #other-stuff::before {

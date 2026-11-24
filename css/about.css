@@ -153,11 +153,21 @@
 }
 
 #other-stuff::before {
-    content: '↗';
-    color: #0276E6;
-    font-size: 18px;
-    line-height: 16px;
-    text-align: center;
+    content: none;
+}
+
+.other-stuff-label {
+    position: relative;
+    display: inline-block;
+}
+
+.other-stuff-icon {
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: -32px;
+    width: 24px;
+    display: grid;
+    place-items: center;
 }
 
 .other-stuff-links {

@@ -58,11 +58,8 @@ main { padding-bottom: 3rem; }
 .hero h1 { margin: 0; font: 500 clamp(2.75rem, 9vw, 6.5rem)/.98 Georgia, serif; letter-spacing: -.055em; }
 .hero h1 em { color: var(--accent); font-weight: inherit; }
 .hero p { margin: .85rem 0 0; color: var(--muted); }
-.controls { display: flex; flex-wrap: wrap; gap: 1rem; }
 #albums { scroll-margin-top: 1rem; }
 label { font-weight: 600; }
-.controls label { flex: 1 1 15rem; }
-.controls label:first-child { flex-grow: 2; }
 .theme-control { display: flex; align-items: center; gap: .5rem; font-size: .875rem; color: var(--muted); }
 .theme-control select { width: auto; margin: 0; color: var(--text); }
 @media (max-width: 34rem) {
@@ -91,10 +88,28 @@ th, td {
     overflow-wrap: anywhere;
     vertical-align: top;
 }
-th { color: var(--muted); background: var(--panel); }
+th { padding: 0; color: var(--muted); background: var(--panel); }
+th button {
+    width: 100%;
+    min-height: 2.75rem;
+    padding: .65rem clamp(.2rem, 1.4vw, 1rem);
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    font-size: .875rem;
+    text-align: inherit;
+    white-space: nowrap;
+    cursor: pointer;
+}
+th button:hover, th[aria-sort] button { color: var(--accent); }
+th button:focus-visible { outline-offset: -2px; }
+th button span::before { content: "↕"; }
+th[aria-sort="ascending"] button span::before { content: "↑"; }
+th[aria-sort="descending"] button span::before { content: "↓"; }
 th:first-child { width: 32%; }
 th:nth-child(n+3) {
-    width: clamp(3.25rem, 13vw, 6rem);
+    width: clamp(3.75rem, 13vw, 6rem);
 }
 th:nth-child(n+3), td:nth-child(n+3) {
     text-align: right;

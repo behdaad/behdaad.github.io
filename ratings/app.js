@@ -1,10 +1,12 @@
 const search = document.querySelector("#search");
-const sort = document.querySelector("#sort");
 const status = document.querySelector("#status");
 const table = document.querySelector("table");
 const body = table.tBodies[0];
+const sortButtons = table.querySelectorAll("[data-sort]");
 const columns = ["artist", "album", "year", "rating"];
 const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: true });
+let sortKey;
+let direction = 1;
 
 const theme = document.querySelector("#theme");
 const requestedTheme = new URLSearchParams(location.search).get("theme");
@@ -38,15 +40,14 @@ function render(albums) {
     const matches = albums.filter(({ artist, album }) =>
         searchText(artist).includes(query) || searchText(album).includes(query)
     );
-    const key = sort.value;
-    if (key === "artist" || key === "album") {
-        matches.sort((a, b) => collator.compare(a[key], b[key]));
-    } else if (key) {
-        matches.sort((a, b) => {
-            if (a[key] === b[key]) return 0;
-            if (a[key] === null) return 1;
-            if (b[key] === null) return -1;
-            return b[key] - a[key];
+    if (sortKey) {
+        matches.sort((left, right) => {
+            const a = left[sortKey];
+            const b = right[sortKey];
+            if (a === b) return 0;
+            if (a === null) return 1;
+            if (b === null) return -1;
+            return direction * (typeof a === "string" ? collator.compare(a, b) : a - b);
         });
     }
 
@@ -71,9 +72,18 @@ async function load() {
         if (!response.ok) throw new Error("Could not fetch albums");
         const albums = await response.json();
         render(albums);
-        search.disabled = sort.disabled = false;
+        search.disabled = false;
         search.addEventListener("input", () => render(albums));
-        sort.addEventListener("change", () => render(albums));
+        for (const button of sortButtons) {
+            button.addEventListener("click", () => {
+                const key = button.dataset.sort;
+                direction = key === sortKey ? -direction : key === "year" || key === "rating" ? -1 : 1;
+                sortKey = key;
+                table.querySelector("[aria-sort]")?.removeAttribute("aria-sort");
+                button.parentElement.setAttribute("aria-sort", direction === 1 ? "ascending" : "descending");
+                render(albums);
+            });
+        }
     } catch {
         status.textContent = "Album ratings are temporarily unavailable.";
     }

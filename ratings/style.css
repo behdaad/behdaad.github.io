@@ -1,31 +1,54 @@
 :root {
-    color-scheme: light dark;
+    color-scheme: light;
     font-family: system-ui, sans-serif;
-    --background: #f6f3ed;
-    --text: #25221e;
-    --muted: #655b50;
-    --line: #d8cfc2;
-    --panel: #fffdf9;
+    --background: #f5f7fa;
+    --text: #171e2b;
+    --muted: #4e5f75;
+    --line: #c7d2e0;
+    --panel: #fff;
+    --accent: #2859a0;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #1d1a17;
-        --text: #f4eee5;
-        --muted: #c3b5a5;
-        --line: #51473d;
-        --panel: #2b251f;
-    }
+:root[data-theme="midnight"] {
+    color-scheme: dark;
+    --background: #11151d;
+    --text: #edf1f7;
+    --muted: #adb9ca;
+    --line: #3c4659;
+    --panel: #1d2636;
+    --accent: #9cbfff;
+}
+
+:root[data-theme="fern"] {
+    --background: #ecf3ec;
+    --text: #172b22;
+    --muted: #415f4e;
+    --line: #b6cbbb;
+    --panel: #f8fcf6;
+    --accent: #246347;
+}
+
+:root[data-theme="iris"] {
+    --background: #f4f0fa;
+    --text: #251a37;
+    --muted: #5d4b75;
+    --line: #cec2e2;
+    --panel: #fdfaff;
+    --accent: #64429a;
 }
 
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--background); color: var(--text); }
 main { max-width: 70rem; margin: auto; padding: clamp(1rem, 4vw, 3rem); }
-header a { color: var(--muted); text-underline-offset: .25em; }
+.page-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; }
+header a { color: var(--accent); text-underline-offset: .25em; }
 h1 { margin: .35em 0 .5em; font: 500 clamp(2.7rem, 8vw, 5.5rem)/1 Georgia, serif; }
 .controls { display: flex; flex-wrap: wrap; gap: 1rem; }
-label { flex: 1 1 15rem; font-weight: 600; }
-label:first-child { flex-grow: 2; }
+label { font-weight: 600; }
+.controls label { flex: 1 1 15rem; }
+.controls label:first-child { flex-grow: 2; }
+.theme-control { display: flex; align-items: center; gap: .5rem; font-size: .875rem; color: var(--muted); }
+.theme-control select { width: auto; margin: 0; color: var(--text); }
 input, select {
     display: block;
     width: 100%;
@@ -39,6 +62,7 @@ input, select {
     border: 1px solid var(--line);
     border-radius: .35rem;
 }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 #status { color: var(--muted); font-variant-numeric: tabular-nums; }
 table { width: 100%; border-collapse: collapse; table-layout: fixed; }
 th, td {

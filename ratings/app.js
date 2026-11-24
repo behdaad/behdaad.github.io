@@ -6,6 +6,20 @@ const body = table.tBodies[0];
 const columns = ["artist", "album", "year", "rating"];
 const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: true });
 
+const theme = document.querySelector("#theme");
+const themeUrl = new URL(location.href);
+const requestedTheme = themeUrl.searchParams.get("theme");
+if (Array.from(theme.options).some(option => option.value === requestedTheme)) {
+    theme.value = requestedTheme;
+}
+document.documentElement.dataset.theme = theme.value;
+theme.disabled = false;
+theme.addEventListener("change", () => {
+    document.documentElement.dataset.theme = theme.value;
+    themeUrl.searchParams.set("theme", theme.value);
+    history.replaceState(null, "", themeUrl);
+});
+
 function searchText(value) {
     return value.toLowerCase().normalize("NFD").replace(/\p{Mark}/gu, "");
 }

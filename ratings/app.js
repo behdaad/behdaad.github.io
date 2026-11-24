@@ -5,8 +5,8 @@ const body = table.tBodies[0];
 const sortButtons = table.querySelectorAll("[data-sort]");
 const columns = ["artist", "album", "year", "rating"];
 const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: true });
-let sortKey;
-let direction = 1;
+let sortKey = "rating";
+let direction = -1;
 
 const theme = document.querySelector("#theme");
 const requestedTheme = new URLSearchParams(location.search).get("theme");
@@ -40,16 +40,14 @@ function render(albums) {
     const matches = albums.filter(({ artist, album }) =>
         searchText(artist).includes(query) || searchText(album).includes(query)
     );
-    if (sortKey) {
-        matches.sort((left, right) => {
-            const a = left[sortKey];
-            const b = right[sortKey];
-            if (a === b) return 0;
-            if (a === null) return 1;
-            if (b === null) return -1;
-            return direction * (typeof a === "string" ? collator.compare(a, b) : a - b);
-        });
-    }
+    matches.sort((left, right) => {
+        const a = left[sortKey];
+        const b = right[sortKey];
+        if (a === b) return 0;
+        if (a === null) return 1;
+        if (b === null) return -1;
+        return direction * (typeof a === "string" ? collator.compare(a, b) : a - b);
+    });
 
     const rows = document.createDocumentFragment();
     for (const album of matches) {

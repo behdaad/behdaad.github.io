@@ -3,20 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Music Ratings · Behdad Keynejad</title>
-    <link rel="icon" href="../assets/favicon.png">
-    <link rel="stylesheet" href="style.css?v=4">
-    <script src="app.js?v=5" defer></script>
+    <title>Ratings · Behdad Keynejad</title>
+    <link rel="icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="/ratings/style.css?v=5">
+    <script src="/ratings/app.js?v=6" defer></script>
 </head>
-<body id="top">
+<body>
     <header class="masthead wrap">
-        <a class="wordmark" href="#top">
-            <span class="record-mark" aria-hidden="true"></span>
-            Music Ratings
-        </a>
+        <a class="wordmark" href="/ratings/" aria-current="page">Ratings</a>
         <nav aria-label="Main">
-            <a href="#albums">Albums <span aria-hidden="true">↓</span></a>
-            <a href="../">Behdad <span aria-hidden="true">↗</span></a>
+            <a href="/ratings/music/">Music</a>
+            <a href="/ratings/concerts/">Concerts</a>
+            <a href="/">Behdad <span aria-hidden="true">↗</span></a>
         </nav>
         <div class="theme-control">
             <label for="theme">Theme</label>
@@ -28,27 +26,22 @@
     </header>
     <main class="wrap">
         <header class="hero">
-            <h1>Music <em>Ratings</em></h1>
-            <p>My personal album ratings, updated daily.</p>
+            <h1><em>Ratings</em></h1>
         </header>
-        <div class="controls" id="albums">
-            <label for="search">Search albums or artists
-                <input id="search" type="search" placeholder="Search" disabled>
-            </label>
-        </div>
-        <p id="status" role="status">Loading albums…</p>
-        <noscript>Enable JavaScript to view the album ratings.</noscript>
-        <table hidden>
-            <thead>
-                <tr>
-                    <th scope="col"><button type="button" data-sort="artist">Artist <span aria-hidden="true"></span></button></th>
-                    <th scope="col"><button type="button" data-sort="album">Album <span aria-hidden="true"></span></button></th>
-                    <th scope="col"><button type="button" data-sort="year">Year <span aria-hidden="true"></span></button></th>
-                    <th scope="col" aria-sort="descending"><button type="button" data-sort="rating">Rating <span aria-hidden="true"></span></button></th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+        <ul class="categories" aria-label="Rating categories">
+            <li>
+                <a href="/ratings/music/">
+                    <strong>Music</strong>
+                    <span>My personal album ratings, updated daily.</span>
+                </a>
+            </li>
+            <li>
+                <a href="/ratings/concerts/">
+                    <strong>Concerts</strong>
+                    <span>My ratings for live performances I’ve attended.</span>
+                </a>
+            </li>
+        </ul>
     </main>
 </body>
 </html>

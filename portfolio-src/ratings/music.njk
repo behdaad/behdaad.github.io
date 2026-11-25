@@ -1,0 +1,19 @@
+---
+layout: ratings-layout.njk
+permalink: ratings/music/index.html
+tags: ratingCategory
+order: 1
+title: Music Ratings
+categoryName: Music
+heading: Music
+description: My personal album ratings, updated daily.
+dataset: albums.json
+singular: album
+plural: albums
+searchLabel: Search albums or artists
+columns:
+  - { key: artist, label: Artist, search: true }
+  - { key: album, label: Album, search: true }
+  - { key: year, label: Year, direction: descending, compact: true }
+  - { key: rating, label: Rating, direction: descending, initial: true, compact: true }
+---

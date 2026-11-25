@@ -1,0 +1,15 @@
+---
+layout: ratings-layout.njk
+permalink: ratings/index.html
+title: Ratings
+---
+<ul class="categories" aria-label="Rating categories">
+{%- for category in collections.ratings %}
+    <li>
+        <a href="{{ category.url }}">
+            <strong>{{ category.data.categoryName }}</strong>
+            <span>{{ category.data.description }}</span>
+        </a>
+    </li>
+{%- endfor %}
+</ul>

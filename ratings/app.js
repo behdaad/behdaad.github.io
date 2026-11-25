@@ -1,13 +1,3 @@
-const search = document.querySelector("#search");
-const status = document.querySelector("#status");
-const table = document.querySelector("table");
-const body = table.tBodies[0];
-const sortButtons = table.querySelectorAll("[data-sort]");
-const columns = ["artist", "album", "year", "rating"];
-const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: true });
-let sortKey = "rating";
-let direction = -1;
-
 const theme = document.querySelector("#theme");
 const requestedTheme = new URLSearchParams(location.search).get("theme");
 const darkPreference = matchMedia("(prefers-color-scheme: dark)");
@@ -32,59 +22,78 @@ theme.addEventListener("change", () => {
 });
 
 function searchText(value) {
-    return value.toLowerCase().normalize("NFD").replace(/\p{Mark}/gu, "");
+    return String(value ?? "").toLowerCase().normalize("NFD").replace(/\p{Mark}/gu, "");
 }
 
-function render(albums) {
-    const query = searchText(search.value.trim());
-    const matches = albums.filter(({ artist, album }) =>
-        searchText(artist).includes(query) || searchText(album).includes(query)
-    );
-    matches.sort((left, right) => {
-        const a = left[sortKey];
-        const b = right[sortKey];
-        if (a === b) return 0;
-        if (a === null) return 1;
-        if (b === null) return -1;
-        return direction * (typeof a === "string" ? collator.compare(a, b) : a - b);
-    });
+async function loadRatings(section) {
+    const { ratings, singular, plural } = section.dataset;
+    const search = section.querySelector("#search");
+    const status = section.querySelector("#status");
+    const table = section.querySelector("table");
+    const body = table.tBodies[0];
+    const columns = [...table.querySelectorAll("[data-sort]")];
+    const searchKeys = columns.filter(button => button.hasAttribute("data-searchable"))
+        .map(button => button.dataset.sort);
+    const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: true });
+    let sortColumn = table.querySelector("[aria-sort]");
+    let sortKey = sortColumn.querySelector("button").dataset.sort;
+    let direction = sortColumn.getAttribute("aria-sort") === "descending" ? -1 : 1;
 
-    const rows = document.createDocumentFragment();
-    for (const album of matches) {
-        const row = document.createElement("tr");
-        for (const key of columns) {
-            row.insertCell().textContent = album[key] ?? "";
+    function render(entries) {
+        const query = searchText(search.value.trim());
+        const matches = entries.filter(entry =>
+            !query || searchKeys.some(key => searchText(entry[key]).includes(query))
+        );
+        matches.sort((left, right) => {
+            const a = left[sortKey];
+            const b = right[sortKey];
+            if (a === b) return 0;
+            if (a == null) return 1;
+            if (b == null) return -1;
+            return direction * (typeof a === "string" ? collator.compare(a, b) : a - b);
+        });
+
+        const rows = document.createDocumentFragment();
+        for (const entry of matches) {
+            const row = document.createElement("tr");
+            for (const button of columns) {
+                const cell = row.insertCell();
+                cell.className = button.parentElement.className;
+                cell.textContent = entry[button.dataset.sort] ?? "";
+            }
+            rows.append(row);
         }
-        rows.append(row);
+        body.replaceChildren(rows);
+        table.hidden = matches.length === 0;
+        status.textContent = matches.length
+            ? `${matches.length.toLocaleString()} ${matches.length === 1 ? singular : plural}`
+            : `No matching ${plural}.`;
     }
-    body.replaceChildren(rows);
-    table.hidden = matches.length === 0;
-    status.textContent = matches.length
-        ? `${matches.length.toLocaleString()} ${matches.length === 1 ? "album" : "albums"}`
-        : "No matching albums.";
-}
 
-async function load() {
     try {
-        const response = await fetch("albums.json", { cache: "no-cache" });
-        if (!response.ok) throw new Error("Could not fetch albums");
-        const albums = await response.json();
-        render(albums);
+        const response = await fetch(ratings, { cache: "no-cache" });
+        if (!response.ok) throw new Error("Could not fetch ratings");
+        const entries = await response.json();
+        render(entries);
         search.disabled = false;
-        search.addEventListener("input", () => render(albums));
-        for (const button of sortButtons) {
+        search.addEventListener("input", () => render(entries));
+        for (const button of columns) {
             button.addEventListener("click", () => {
                 const key = button.dataset.sort;
-                direction = key === sortKey ? -direction : key === "year" || key === "rating" ? -1 : 1;
+                const initialDirection = button.dataset.direction === "descending" ? -1 : 1;
+                direction = key === sortKey ? -direction : initialDirection;
                 sortKey = key;
-                table.querySelector("[aria-sort]")?.removeAttribute("aria-sort");
-                button.parentElement.setAttribute("aria-sort", direction === 1 ? "ascending" : "descending");
-                render(albums);
+                sortColumn.removeAttribute("aria-sort");
+                sortColumn = button.parentElement;
+                sortColumn.setAttribute("aria-sort", direction === 1 ? "ascending" : "descending");
+                render(entries);
             });
         }
     } catch {
-        status.textContent = "Album ratings are temporarily unavailable.";
+        status.textContent = "Ratings are temporarily unavailable.";
     }
 }
 
-load();
+for (const section of document.querySelectorAll("[data-ratings]")) {
+    loadRatings(section);
+}

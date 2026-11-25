@@ -1,0 +1,20 @@
+---
+layout: ratings-layout.njk
+permalink: ratings/concerts/index.html
+tags: ratingCategory
+order: 2
+title: Concert Ratings
+categoryName: Concerts
+heading: Concert
+description: My ratings for live performances I’ve attended.
+dataset: concerts.json
+singular: performance
+plural: performances
+searchLabel: Search performers, cities, or venues
+columns:
+  - { key: artist, label: Performer, search: true }
+  - { key: date, label: Date, direction: descending, initial: true }
+  - { key: city, label: City, search: true }
+  - { key: venue, label: Venue, search: true }
+  - { key: rating, label: Rating, direction: descending, compact: true }
+---

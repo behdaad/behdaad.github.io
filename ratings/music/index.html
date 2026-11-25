@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music Ratings · Behdad Keynejad</title>
+    <link rel="icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="/ratings/style.css?v=5">
+    <script src="/ratings/app.js?v=6" defer></script>
+</head>
+<body>
+    <header class="masthead wrap">
+        <a class="wordmark" href="/ratings/">Ratings</a>
+        <nav aria-label="Main">
+            <a href="/ratings/music/" aria-current="page">Music</a>
+            <a href="/ratings/concerts/">Concerts</a>
+            <a href="/">Behdad <span aria-hidden="true">↗</span></a>
+        </nav>
+        <div class="theme-control">
+            <label for="theme">Theme</label>
+            <select id="theme" disabled>
+                <option value="slate">Slate (light)</option>
+                <option value="midnight">Midnight (dark)</option>
+            </select>
+        </div>
+    </header>
+    <main class="wrap">
+        <header class="hero">
+            <h1>Music <em>Ratings</em></h1>
+            <p>My personal album ratings, updated daily.</p>
+        </header>
+        <section data-ratings="albums.json" data-singular="album" data-plural="albums">
+            <div class="controls" id="albums">
+                <label for="search">Search albums or artists
+                    <input id="search" type="search" placeholder="Search" disabled>
+                </label>
+            </div>
+            <p id="status" role="status">Loading albums…</p>
+            <noscript>Enable JavaScript to view the ratings.</noscript>
+            <table hidden>
+                <thead>
+                    <tr>
+                        <th scope="col"><button type="button" data-sort="artist" data-searchable>Artist <span aria-hidden="true"></span></button></th>
+                        <th scope="col"><button type="button" data-sort="album" data-searchable>Album <span aria-hidden="true"></span></button></th>
+                        <th scope="col" class="compact"><button type="button" data-sort="year" data-direction="descending">Year <span aria-hidden="true"></span></button></th>
+                        <th scope="col" class="compact" aria-sort="descending"><button type="button" data-sort="rating" data-direction="descending">Rating <span aria-hidden="true"></span></button></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

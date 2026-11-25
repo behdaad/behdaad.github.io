@@ -10,10 +10,11 @@ description: My personal album ratings, updated daily.
 dataset: albums.json
 singular: album
 plural: albums
-searchLabel: Search albums or artists
+searchLabel: Search albums, artists, or origins
 columns:
   - { key: artist, label: Artist, search: true }
   - { key: album, label: Album, search: true }
+  - { key: origin, label: Origin, search: true }
   - { key: year, label: Year, direction: descending, compact: true }
   - { key: rating, label: Rating, direction: descending, initial: true, compact: true }
 ---

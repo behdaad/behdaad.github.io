@@ -31,7 +31,7 @@
         </header>
         <section data-ratings="albums.json" data-singular="album" data-plural="albums">
             <div class="controls" id="albums">
-                <label for="search">Search albums or artists
+                <label for="search">Search albums, artists, or origins
                     <input id="search" type="search" placeholder="Search" disabled>
                 </label>
             </div>
@@ -42,6 +42,7 @@
                     <tr>
                         <th scope="col"><button type="button" data-sort="artist" data-searchable>Artist <span aria-hidden="true"></span></button></th>
                         <th scope="col"><button type="button" data-sort="album" data-searchable>Album <span aria-hidden="true"></span></button></th>
+                        <th scope="col"><button type="button" data-sort="origin" data-searchable>Origin <span aria-hidden="true"></span></button></th>
                         <th scope="col" class="compact"><button type="button" data-sort="year" data-direction="descending">Year <span aria-hidden="true"></span></button></th>
                         <th scope="col" class="compact" aria-sort="descending"><button type="button" data-sort="rating" data-direction="descending">Rating <span aria-hidden="true"></span></button></th>
                     </tr>

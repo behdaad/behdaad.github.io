@@ -56,10 +56,10 @@ def rating_value(value):
 
 def export_albums(document):
     table = document.sheets["Albums"].tables["Album ratings"]
-    required = ("Band", "Album", "Year", "Rating", "Type")
+    required = ("Band", "Album", "Year", "Rating", "Type", "Origin")
 
     albums = []
-    for artist, title, year, score, kind in table_rows(table, required):
+    for artist, title, year, score, kind, origin in table_rows(table, required):
         if not isinstance(kind, str) or not kind.strip():
             raise ValueError("Missing release type in the album table")
         if kind != "Album":
@@ -68,7 +68,9 @@ def export_albums(document):
             title = format(title, ".15g")
         if not isinstance(artist, str) or not artist.strip() or not isinstance(title, str) or not title.strip():
             raise ValueError("Missing artist or title in an album row")
-        albums.append(dict(artist=artist, album=title, year=year_value(year), rating=rating_value(score)))
+        if origin is not None and not isinstance(origin, str):
+            raise ValueError("Invalid origin in the album table")
+        albums.append(dict(artist=artist, album=title, year=year_value(year), rating=rating_value(score), origin=origin or None))
     return albums
 
 

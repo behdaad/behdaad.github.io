@@ -2,7 +2,8 @@
 
 The music page reads `ratings/music/albums.json`. The exporter selects rows
 marked `Album` from the `Album ratings` table on the `Albums` sheet in the saved
-`Music.numbers` workbook under iCloud Drive → Numbers → Ratings. The concerts
+`Music.numbers` workbook under iCloud Drive → Numbers → Ratings. The album
+snapshot contains artist, album, year, rating, and origin. The concerts
 page reads `ratings/concerts/concerts.json`, exported from the `Concerts` table
 on the `Concerts` sheet. The concert snapshot contains performer, date, city,
 venue, and rating.

@@ -29,7 +29,8 @@ async function loadRatings(section) {
     const { ratings, singular, plural } = section.dataset;
     const search = section.querySelector("#search");
     const status = section.querySelector("#status");
-    const table = section.querySelector("table");
+    const tableScroll = section.querySelector(".table-scroll");
+    const table = tableScroll.querySelector("table");
     const body = table.tBodies[0];
     const hasRowNumbers = table.querySelector("th.row-number") !== null;
     const rowNumbers = new Map();
@@ -73,7 +74,7 @@ async function loadRatings(section) {
             rows.append(row);
         }
         body.replaceChildren(rows);
-        table.hidden = matches.length === 0;
+        tableScroll.hidden = matches.length === 0;
         status.textContent = matches.length
             ? `${matches.length.toLocaleString()} ${matches.length === 1 ? singular : plural}`
             : `No matching ${plural}.`;

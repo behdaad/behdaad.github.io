@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Concert Ratings · Behdad Keynejad</title>
     <link rel="icon" href="/assets/favicon.png">
-    <link rel="stylesheet" href="/ratings/style.css?v=6">
-    <script src="/ratings/app.js?v=7" defer></script>
+    <link rel="stylesheet" href="/ratings/style.css?v=7">
+    <script src="/ratings/app.js?v=8" defer></script>
 </head>
 <body>
     <header class="masthead wrap">
@@ -37,18 +37,20 @@
             </div>
             <p id="status" role="status">Loading performances…</p>
             <noscript>Enable JavaScript to view the ratings.</noscript>
-            <table hidden>
-                <thead>
-                    <tr>
-                        <th scope="col"><button type="button" data-sort="artist" data-searchable>Performer <span aria-hidden="true"></span></button></th>
-                        <th scope="col" aria-sort="descending"><button type="button" data-sort="date" data-direction="descending">Date <span aria-hidden="true"></span></button></th>
-                        <th scope="col"><button type="button" data-sort="city" data-searchable>City <span aria-hidden="true"></span></button></th>
-                        <th scope="col"><button type="button" data-sort="venue" data-searchable>Venue <span aria-hidden="true"></span></button></th>
-                        <th scope="col" class="compact"><button type="button" data-sort="rating" data-direction="descending">Rating <span aria-hidden="true"></span></button></th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+            <div class="table-scroll" role="region" aria-label="Concert Ratings table" tabindex="0" hidden>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"><button type="button" data-sort="artist" data-searchable>Performer <span aria-hidden="true"></span></button></th>
+                            <th scope="col" aria-sort="descending"><button type="button" data-sort="date" data-direction="descending">Date <span aria-hidden="true"></span></button></th>
+                            <th scope="col"><button type="button" data-sort="city" data-searchable>City <span aria-hidden="true"></span></button></th>
+                            <th scope="col"><button type="button" data-sort="venue" data-searchable>Venue <span aria-hidden="true"></span></button></th>
+                            <th scope="col" class="compact"><button type="button" data-sort="rating" data-direction="descending">Rating <span aria-hidden="true"></span></button></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </section>
     </main>
 </body>

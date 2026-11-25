@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Music Ratings · Behdad Keynejad</title>
     <link rel="icon" href="/assets/favicon.png">
-    <link rel="stylesheet" href="/ratings/style.css?v=6">
-    <script src="/ratings/app.js?v=7" defer></script>
+    <link rel="stylesheet" href="/ratings/style.css?v=7">
+    <script src="/ratings/app.js?v=8" defer></script>
 </head>
 <body>
     <header class="masthead wrap">
@@ -37,19 +37,21 @@
             </div>
             <p id="status" role="status">Loading albums…</p>
             <noscript>Enable JavaScript to view the ratings.</noscript>
-            <table hidden>
-                <thead>
-                    <tr>
-                        <th scope="col" class="row-number" aria-label="Row number">#</th>
-                        <th scope="col"><button type="button" data-sort="artist" data-searchable>Artist <span aria-hidden="true"></span></button></th>
-                        <th scope="col"><button type="button" data-sort="album" data-searchable>Album <span aria-hidden="true"></span></button></th>
-                        <th scope="col"><button type="button" data-sort="origin" data-searchable>Origin <span aria-hidden="true"></span></button></th>
-                        <th scope="col" class="compact"><button type="button" data-sort="year" data-direction="descending">Year <span aria-hidden="true"></span></button></th>
-                        <th scope="col" class="compact" aria-sort="descending"><button type="button" data-sort="rating" data-direction="descending">Rating <span aria-hidden="true"></span></button></th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+            <div class="table-scroll" role="region" aria-label="Music Ratings table" tabindex="0" hidden>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="row-number" aria-label="Row number">#</th>
+                            <th scope="col"><button type="button" data-sort="artist" data-searchable>Artist <span aria-hidden="true"></span></button></th>
+                            <th scope="col"><button type="button" data-sort="album" data-searchable>Album <span aria-hidden="true"></span></button></th>
+                            <th scope="col"><button type="button" data-sort="origin" data-searchable>Origin <span aria-hidden="true"></span></button></th>
+                            <th scope="col" class="compact"><button type="button" data-sort="year" data-direction="descending">Year <span aria-hidden="true"></span></button></th>
+                            <th scope="col" class="compact" aria-sort="descending"><button type="button" data-sort="rating" data-direction="descending">Rating <span aria-hidden="true"></span></button></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </section>
     </main>
 </body>

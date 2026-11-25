@@ -98,7 +98,8 @@ input, select {
 }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 #status { color: var(--muted); font-variant-numeric: tabular-nums; }
-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.table-scroll { overflow-x: auto; }
+table { width: 100%; min-width: 38rem; border-collapse: collapse; table-layout: fixed; }
 th, td {
     padding: .65rem clamp(.2rem, 1.4vw, 1rem);
     border-bottom: 1px solid var(--line);

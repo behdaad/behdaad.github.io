@@ -33,7 +33,6 @@ async function loadRatings(section) {
     const table = tableScroll.querySelector("table");
     const body = table.tBodies[0];
     const hasRowNumbers = table.querySelector("th.row-number") !== null;
-    const rowNumbers = new Map();
     const columns = [...table.querySelectorAll("[data-sort]")];
     const searchKeys = columns.filter(button => button.hasAttribute("data-searchable"))
         .map(button => button.dataset.sort);
@@ -59,12 +58,12 @@ async function loadRatings(section) {
         matches.sort(compareEntries);
 
         const rows = document.createDocumentFragment();
-        for (const entry of matches) {
+        for (const [index, entry] of matches.entries()) {
             const row = document.createElement("tr");
             if (hasRowNumbers) {
                 const cell = row.insertCell();
                 cell.className = "row-number";
-                cell.textContent = rowNumbers.get(entry);
+                cell.textContent = index + 1;
             }
             for (const button of columns) {
                 const cell = row.insertCell();
@@ -84,9 +83,6 @@ async function loadRatings(section) {
         const response = await fetch(ratings, { cache: "no-cache" });
         if (!response.ok) throw new Error("Could not fetch ratings");
         const entries = await response.json();
-        if (hasRowNumbers) {
-            [...entries].sort(compareEntries).forEach((entry, index) => rowNumbers.set(entry, index + 1));
-        }
         render(entries);
         search.disabled = false;
         search.addEventListener("input", () => render(entries));

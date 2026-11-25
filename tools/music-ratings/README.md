@@ -5,8 +5,8 @@ marked `Album` from the `Album ratings` table on the `Albums` sheet in the saved
 `Music.numbers` workbook under iCloud Drive → Numbers → Ratings. The album
 snapshot contains artist, album, year, rating, and origin. The concerts
 page reads `ratings/concerts/concerts.json`, exported from the `Concerts` table
-on the `Concerts` sheet. The concert snapshot contains all nine columns,
-including sound quality, headliner status, comments, and origin.
+on the `Concerts` sheet. The concert snapshot contains performer, date, city,
+venue, sound quality, rating, comments, and origin.
 
 To preview a snapshot locally, install the pinned dependency in a Python 3.11+
 virtual environment and run:

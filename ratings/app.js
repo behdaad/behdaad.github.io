@@ -31,6 +31,8 @@ async function loadRatings(section) {
     const status = section.querySelector("#status");
     const table = section.querySelector("table");
     const body = table.tBodies[0];
+    const hasRowNumbers = table.querySelector("th.row-number") !== null;
+    const rowNumbers = new Map();
     const columns = [...table.querySelectorAll("[data-sort]")];
     const searchKeys = columns.filter(button => button.hasAttribute("data-searchable"))
         .map(button => button.dataset.sort);
@@ -39,23 +41,30 @@ async function loadRatings(section) {
     let sortKey = sortColumn.querySelector("button").dataset.sort;
     let direction = sortColumn.getAttribute("aria-sort") === "descending" ? -1 : 1;
 
+    function compareEntries(left, right) {
+        const a = left[sortKey];
+        const b = right[sortKey];
+        if (a === b) return 0;
+        if (a == null) return 1;
+        if (b == null) return -1;
+        return direction * (typeof a === "string" ? collator.compare(a, b) : a - b);
+    }
+
     function render(entries) {
         const query = searchText(search.value.trim());
         const matches = entries.filter(entry =>
             !query || searchKeys.some(key => searchText(entry[key]).includes(query))
         );
-        matches.sort((left, right) => {
-            const a = left[sortKey];
-            const b = right[sortKey];
-            if (a === b) return 0;
-            if (a == null) return 1;
-            if (b == null) return -1;
-            return direction * (typeof a === "string" ? collator.compare(a, b) : a - b);
-        });
+        matches.sort(compareEntries);
 
         const rows = document.createDocumentFragment();
         for (const entry of matches) {
             const row = document.createElement("tr");
+            if (hasRowNumbers) {
+                const cell = row.insertCell();
+                cell.className = "row-number";
+                cell.textContent = rowNumbers.get(entry);
+            }
             for (const button of columns) {
                 const cell = row.insertCell();
                 cell.className = button.parentElement.className;
@@ -74,6 +83,9 @@ async function loadRatings(section) {
         const response = await fetch(ratings, { cache: "no-cache" });
         if (!response.ok) throw new Error("Could not fetch ratings");
         const entries = await response.json();
+        if (hasRowNumbers) {
+            [...entries].sort(compareEntries).forEach((entry, index) => rowNumbers.set(entry, index + 1));
+        }
         render(entries);
         search.disabled = false;
         search.addEventListener("input", () => render(entries));

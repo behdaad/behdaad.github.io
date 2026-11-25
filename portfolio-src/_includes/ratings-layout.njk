@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title }} · Behdad Keynejad</title>
     <link rel="icon" href="/assets/favicon.png">
-    <link rel="stylesheet" href="/ratings/style.css?v=5">
-    <script src="/ratings/app.js?v=6" defer></script>
+    <link rel="stylesheet" href="/ratings/style.css?v=6">
+    <script src="/ratings/app.js?v=7" defer></script>
 </head>
 <body>
     <header class="masthead wrap">
@@ -44,6 +44,9 @@
             <table hidden>
                 <thead>
                     <tr>
+                        {%- if showRowNumbers %}
+                        <th scope="col" class="row-number" aria-label="Row number">#</th>
+                        {%- endif %}
                         {%- for column in columns %}
                         <th scope="col"{% if column.compact %} class="compact"{% endif %}{% if column.initial %} aria-sort="{{ column.direction or 'ascending' }}"{% endif %}><button type="button" data-sort="{{ column.key }}"{% if column.direction %} data-direction="{{ column.direction }}"{% endif %}{% if column.search %} data-searchable{% endif %}>{{ column.label }} <span aria-hidden="true"></span></button></th>
                         {%- endfor %}

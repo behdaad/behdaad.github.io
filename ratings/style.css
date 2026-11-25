@@ -100,6 +100,7 @@ input, select {
 #status { color: var(--muted); font-variant-numeric: tabular-nums; }
 .table-scroll { overflow-x: auto; }
 table { width: 100%; min-width: 38rem; border-collapse: collapse; table-layout: fixed; }
+.wide-table { min-width: 62rem; }
 th, td {
     padding: .65rem clamp(.2rem, 1.4vw, 1rem);
     border-bottom: 1px solid var(--line);

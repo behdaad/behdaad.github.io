@@ -68,7 +68,12 @@ async function loadRatings(section) {
             for (const button of columns) {
                 const cell = row.insertCell();
                 cell.className = button.parentElement.className;
-                cell.textContent = entry[button.dataset.sort] ?? "";
+                const value = entry[button.dataset.sort];
+                if (typeof value === "boolean") {
+                    cell.textContent = value ? "Yes" : "No";
+                } else {
+                    cell.textContent = value ?? "";
+                }
             }
             rows.append(row);
         }

@@ -6,7 +6,7 @@ marked `Album` from the `Album ratings` table on the `Albums` sheet in the saved
 snapshot contains artist, album, year, rating, and origin. The concerts
 page reads `ratings/concerts/concerts.json`, exported from the `Concerts` table
 on the `Concerts` sheet. The concert snapshot contains performer, date, city,
-venue, sound quality, rating, comments, and origin.
+venue, sound quality, rating, and origin.
 
 To preview a snapshot locally, install the pinned dependency in a Python 3.11+
 virtual environment and run:

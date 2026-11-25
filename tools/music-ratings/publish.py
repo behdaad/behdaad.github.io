@@ -76,19 +76,19 @@ def export_albums(document):
 
 def export_concerts(document):
     table = document.sheets["Concerts"].tables["Concerts"]
-    required = ("Band", "Date", "City", "Venue", "Sound Quality (1-5)", "Rating", "Comments", "Origin")
+    required = ("Band", "Date", "City", "Venue", "Sound Quality (1-5)", "Rating", "Origin")
     concerts = []
-    for artist, day, city, venue, sound, score, comments, origin in table_rows(table, required):
+    for artist, day, city, venue, sound, score, origin in table_rows(table, required):
         if not isinstance(artist, str) or not artist.strip() or not isinstance(day, date):
             raise ValueError("Missing performer or invalid date in the concert table")
-        if any(value is not None and not isinstance(value, str) for value in (city, venue, comments, origin)):
-            raise ValueError("Invalid city, venue, comments, or origin in the concert table")
+        if any(value is not None and not isinstance(value, str) for value in (city, venue, origin)):
+            raise ValueError("Invalid city, venue, or origin in the concert table")
         if isinstance(day, datetime):
             day = day.date()
         concerts.append(dict(
             artist=artist, date=day.isoformat(), city=city, venue=venue,
             soundQuality=rating_value(sound), rating=rating_value(score),
-            comments=comments or None, origin=origin or None,
+            origin=origin or None,
         ))
     return concerts
 
